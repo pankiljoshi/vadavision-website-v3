@@ -4,7 +4,7 @@ const Industries = () => {
   return (
     <>
       <div className="industry-bg  w-full h-[950px] px-20  flex-col justify-start items-start gap-14 padding-industies inline-flex">
-        <div className="Title mt-10 pt-10">
+        <div className="title-padding mt-10  pt-10">
           <span className="text-neutral-400 text-4xl font-semibold font-change-1 font-urbaninst">
             We cover a <br />
           </span>
@@ -14,7 +14,7 @@ const Industries = () => {
         </div>
         <div className=" w-full">
           <div className=" justify-center items-start gap-10 flex-wrap  inline-flex cards">
-            <div className="card-responsive w-[400px]  p-6 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 hover:from-stone-950 hover:via-neutral-900 hover:to-[#FE191B52] transition duration-300 flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive w-[400px]  p-6 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="ECommerce w-8 h-8 relative">
@@ -54,11 +54,11 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
+                <div className="Frame1171281437 justify-start items-center consult-us gap-2 inline-flex">
                   <div className="ScheduleACall text-neutral-400 text-sm font-light font-urbaninst">
                     Schedule a Call
                   </div>
-                  <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
+                  <div className="LeftUp1 w-4 h-4   flex-col justify-start items-start inline-flex">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -82,7 +82,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive w-[400px]  p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col  hover:from-stone-950 hover:via-neutral-900 hover:to-[#FE191B52] transition duration-300 justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive w-[400px]  p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col   justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Finance w-8 h-8 px-0.5 py-0.5 justify-center items-center inline-flex">
@@ -140,7 +140,7 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
+                <div className="Frame1171281437 justify-start items-center consult-us  gap-2 inline-flex">
                   <div className="ScheduleACall text-neutral-400 text-sm font-light font-urbaninst">
                     Schedule a Call
                   </div>
@@ -168,7 +168,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive w-[400px] p-6 bg-gradient-to-b from-stone-950  via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col  hover:from-stone-950 hover:via-neutral-900 hover:to-[#FE191B52] transition duration-300 justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive w-[400px] p-6 bg-gradient-to-b from-stone-950  via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col   justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Hr w-8 h-8 relative">
@@ -224,7 +224,7 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
+                <div className="Frame1171281437 justify-start items-center consult-us  gap-2 inline-flex">
                   <div className="ScheduleACall text-neutral-400 text-sm font-light font-urbaninst">
                     Schedule a Call
                   </div>
@@ -252,7 +252,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive w-[400px] p-6 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col  justify-start items-start gap-2.5 inline-flex hover:from-stone-950 hover:via-neutral-900 hover:to-[#FE191B52] transition duration-300">
+            <div className="card-responsive w-[400px] p-6 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col  justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Accounting w-8 h-8 px-px justify-center items-center inline-flex">
@@ -300,7 +300,7 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
+                <div className="Frame1171281437 justify-start items-center consult-us  gap-2 inline-flex">
                   <div className="ScheduleACall text-neutral-400 text-sm font-light font-urbaninst">
                     Schedule a Call
                   </div>
@@ -328,7 +328,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive w-[400px] p-6 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col  hover:from-stone-950 hover:via-neutral-900 hover:to-[#FE191B52] transition duration-300 justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive w-[400px] p-6 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Content w-8 h-8 p-0.5 justify-center items-center inline-flex">
@@ -406,7 +406,7 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
+                <div className="Frame1171281437 justify-start items-center consult-us  gap-2 inline-flex">
                   <div className="ScheduleACall text-neutral-400 text-sm font-light font-urbaninst">
                     Schedule a Call
                   </div>
@@ -434,7 +434,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive w-[400px] p-6 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col  hover:from-stone-950 hover:via-neutral-900 hover:to-[#FE191B52] transition duration-300 justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive w-[400px] p-6 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col  justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Retail w-8 h-8 relative">
@@ -476,7 +476,7 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
+                <div className="Frame1171281437 justify-start items-center consult-us  gap-2 inline-flex">
                   <div className="ScheduleACall text-neutral-400 text-sm font-light font-urbaninst">
                     Schedule a Call
                   </div>

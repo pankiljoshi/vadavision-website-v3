@@ -710,12 +710,10 @@ body {
 }
 @media screen and (max-width: 1020px) {
   .padding-industies {
-   
-
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
-
-
 
 @media screen and (max-width: 1350px) {
   .card-responsive {
@@ -726,21 +724,51 @@ body {
 @media screen and (max-width: 1050px) {
   .card-responsive {
     width: 47%;
-   
   }
 }
-
+@media screen and (max-width: 980px) {
+  .consult-us {
+    margin-top: 20px;
+  }
+}
 @media screen and (max-width: 750px) {
   .card-responsive {
     width: 90%;
     margin-bottom: 20px;
-   
   }
 }
 @media screen and (max-width: 530px) {
   .card-responsive {
     width: 100%;
     margin-bottom: 20px;
-   
   }
+}
+@media screen and (max-width:750px) {
+  .title-padding{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+}
+
+.card-responsive {
+  position: relative;
+}
+
+.card-responsive::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background: rgba(139, 254, 25, 0);
+}
+
+.card-responsive:hover::after {
+  background: rgba(254, 25, 27, 0.32);
+  filter: blur(60px);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  
 }

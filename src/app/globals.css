@@ -743,12 +743,11 @@ body {
     margin-bottom: 20px;
   }
 }
-@media screen and (max-width:750px) {
-  .title-padding{
+@media screen and (max-width: 750px) {
+  .title-padding {
     padding-left: 30px;
     padding-right: 30px;
   }
-  
 }
 
 .card-responsive {
@@ -770,5 +769,4 @@ body {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  
 }

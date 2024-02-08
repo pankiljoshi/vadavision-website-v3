@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <div className="NavigationWeb w-full pl-20 pr-20  py-4 bg-white bg-opacity-5 border border-neutral-900 ">
+      <div className="NavigationWeb w-full px-20 padding-industies py-4 bg-white bg-opacity-5 border border-neutral-900 ">
         <div className="Frame2 cursor-pointer  justify-start items-center gap-2 inline-flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"

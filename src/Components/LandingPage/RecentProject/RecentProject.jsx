@@ -7,20 +7,20 @@ import NodeImage from "../../../../public/Images/node.png";
 const RecentProject = () => {
   return (
     <>
-      <div className="RecentProjects w-full h-[850px] px-20 mt-20 pt-20  ">
-        <div className="Frame1171281456  w-full   justify-start items-center gap-96 inline-flex">
-          <div className="Title w-[700px]">
-            <span className="text-neutral-400 text-4xl font-semibold font-urbaninst">
+      <div className="RecentProjects w-full   px-20 mt-20 pt-20 padding-industies   ">
+        <div className=" w-full flex justify-between    ">
+          <div className="title-padding w-[700px]">
+            <span className="text-neutral-400 text-4xl text-size-change1  font-semibold font-urbaninst">
               Check out our
               <br />
             </span>
-            <span className="color-change text-6xl font-bold font-urbaninst">
+            <span className="color-change text-6xl font-bold text-size-change2  font-urbaninst">
               Recent Projects
             </span>
           </div>
-          <div className="Frame7 justify-start items-start gap-3.5 flex ">
-            <div className="Frame2 w-[70px] h-[36px] cursor-pointer bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex">
-              <div className="Frame w-6  relative">
+          <div className=" justify-start items-start gap-3.5 flex ">
+            <div className=" left-arrow w-[70px] h-[36px] cursor-pointer bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex">
+              <div className="Frame w-6  ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -49,8 +49,8 @@ const RecentProject = () => {
                 </svg>
               </div>
             </div>
-            <div className="Frame3 w-[70px] h-[36px] cursor-pointer  bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex">
-              <div className="Frame relative">
+            <div className="right-arrow w-[70px] h-[36px] cursor-pointer  bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex">
+              <div className="Frame ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -81,11 +81,11 @@ const RecentProject = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row gap-10">
-          <div className="Frame1171281452  px-10 py-24 mt-10  bg-gradient-to-b from-zinc-950 via-stone-900 to-stone-950 border-b-4 border-red-500 border-opacity-60 flex-col justify-center items-center inline-flex">
-            <Image src={TweekendApp} alt="" />
+        <div className="flex flex-row gap-10 responsive-project">
+          <div className=" min-w-[320px] px-10 py-24 mt-10 image-center  bg-gradient-to-b from-zinc-950 via-stone-900 to-stone-950 border-b-4 border-red-500 border-opacity-60 flex-col justify-center items-center inline-flex">
+            <Image src={TweekendApp} alt="" width={350} />
           </div>
-          <div className="Frame1171281455 mt-20 pt-20  flex-col justify-start items-start gap-12 inline-flex">
+          <div className="Frame1171281455 mt-20 pt-20 responsive-project-rightside  flex-col justify-start items-start gap-12 inline-flex">
             <div className="Frame1171281461 flex-col justify-start items-start gap-6 flex">
               <div className="Frame1171281454 flex-col justify-start items-start gap-4 flex">
                 <div className="Frame1171281453 flex-col justify-start items-start gap-2 flex">
@@ -96,7 +96,7 @@ const RecentProject = () => {
                     A booking app for social events.
                   </div>
                 </div>
-                <div className="ItMakesPlanningAndAttendingEventsSimpleHelpingUsersFindAndJoinSocialGatheringsEffortlessly w-[500px] text-neutral-400 text-xl font-light font-urbaninst">
+                <div className=" text-neutral-400 text-xl font-light flex-wrap flex font-urbaninst responsive-paragraph">
                   It makes planning and attending events simple, <br />
                   helping users find and join social gatherings effortlessly.
                 </div>

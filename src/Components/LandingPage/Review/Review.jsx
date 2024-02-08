@@ -3,25 +3,26 @@ import React from "react";
 const Review = () => {
   return (
     <>
-      <div className="DiscussProject w-full h-100  py-20 flex-row items-start flex px-20">
-        <div className="Title w-[50%]">
-          <span className="text-neutral-400 text-3xl font-semibold font-urbaninst">
+      <div className=" w-full  py-20 justify-between padding-industies responsive-review flex px-20">
+        <div className="title ">
+          <span className="text-neutral-400 text-3xl font-semibold  font-change-1 font-urbaninst">
             We are
             <br />
           </span>
-          <span className="text-teal-300 text-color text-6xl font-bold font-urbaninst">
+          <span className="text-teal-300 text-color text-6xl font-bold font-change-2 font-urbaninst">
             Top Rated
           </span>
         </div>
-        <div className="Frame1171281463  gap-14 w-[50%]  inline-flex mr-20 pr-20 ">
-          <div className="Frame1171281430 pl-6 pr-12 py-6 bg-neutral-900  justify-start items-center flex m">
-            <div className="Frame1171281462 self-stretch justify-center items-center gap-6 inline-flex">
-              <div className="UpworkRoundedsquare11 w-20 h-20 relative">
+        <div className="  gap-14 review-rating  inline-flex  ">
+          <div className=" pl-6 pr-12 w-[340px] py-6 bg-neutral-900 upwork  justify-start items-center flex m">
+            <div className=" self-stretch justify-center items-center gap-6 inline-flex">
+              <div className=" w-20 h-20 relative">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="80"
                   height="80"
                   viewBox="0 0 80 80"
+                  className="upwork-svg"
                   fill="none"
                 >
                   <g
@@ -135,7 +136,7 @@ const Review = () => {
               </div>
             </div>
           </div>
-          <div className="Frame1171281431 pl-6 pr-12 py-6 bg-neutral-900  justify-start items-center flex ">
+          <div className=" pl-6 pr-12 py-6 w-[340px] bg-neutral-900 google  justify-start items-center flex ">
             <div className="Frame1171281462 self-stretch justify-start items-center gap-6 inline-flex">
               <div className="GoogleGLogo1 w-20 h-20 relative flex-col justify-start items-start inline-flex">
                 <svg

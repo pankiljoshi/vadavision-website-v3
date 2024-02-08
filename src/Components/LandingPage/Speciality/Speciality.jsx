@@ -3,18 +3,18 @@ import React from "react";
 const Speciality = () => {
   return (
     <>
-      <div className="Unique w-full h-[370px]  px-20  ">
-        <div className="Title w-full mt-20  gradient-background-img ">
-          <span className="text-neutral-400 text-4xl font-semibold font-urbaninst">
+      <div className="Unique w-full px-20  padding-industies unique-padding  ">
+        <div className="title-padding  mt-20  gradient-background-img ">
+          <span className="text-neutral-400 text-4xl font-semibold font-change-1 font-urbaninst">
             What makes
             <br />
           </span>
-          <span className="text-pink-600 text-color-change text-6xl font-bold font-urbaninst mt-4">
+          <span className="text-pink-600 text-color-change text-6xl font-bold font-change-2 font-urbaninst mt-4">
             VadaVision! unique
           </span>
         </div>
-        <div className="Frame1171281469 justify-start  items-start gap-6 inline-flex mt-20 pt-10">
-          <div className="Card pl-8 pr-4 pt-4 w-[400px]  h-[180px] border-gradient border-t border-b border-r  border-zinc-800  background-gradient  	 flex-col justify-start items-start gap-6 inline-flex">
+        <div className=" justify-center unique-padding px-10 flex-wrap gap-6 inline-flex my-20 pt-10">
+          <div className="unique-cards px-4 py-4 bg-no-repeat   w-[380px]  border-gradient border-t border-b border-r  border-zinc-800  background-gradient  	 flex-col justify-start items-start gap-6 inline-flex">
             <div className="Frame1171281468  self-stretch justify-start items-start gap-4 inline-flex">
               <div className="HighQuality1 w-6 h-6 relative">
                 <svg
@@ -40,18 +40,18 @@ const Speciality = () => {
                   </defs>
                 </svg>
               </div>
-              <div className="Quality w-72 text-white text-xl font-semibold font-['Urbanist']">
+              <div className="Quality text-white text-xl font-semibold font-['Urbanist']">
                 Quality
               </div>
             </div>
-            <div className="WhatMakesUsDifferentIsOurStrongCommitmentToQualityWeUseOurExpertiseAndInnovativeSolutionsToEnhanceYourBusinessUniquely self-stretch text-neutral-400 text-base font-light font-urbaninst">
+            <div className=" self-stretch text-neutral-400 text-base font-light font-urbaninst">
               What makes us different is our strong commitment to quality. We
               use our expertise and innovative solutions to enhance your
               business uniquely.
             </div>
           </div>
 
-          <div className="Card pl-8 pr-4 pt-4 h-[180px] w-[400px] background-gradient border-gradient border-t border-b border-r border-zinc-800	   flex-col justify-start items-start gap-6 inline-flex">
+          <div className="unique-cards px-4 py-4 bg-no-repeat w-[380px] background-gradient border-gradient border-t border-b border-r border-zinc-800	   flex-col justify-start items-start gap-6 inline-flex">
             <div className="Frame1171281468 self-stretch justify-start items-start gap-4 inline-flex">
               <div className="ResearchAndDevelopment1 w-6 h-6 relative">
                 <div className="Group w-5 h-6 left-[1.56px] top-[0.36px] absolute">
@@ -114,7 +114,7 @@ const Speciality = () => {
               excellence & strategic capabilities.
             </div>
           </div>
-          <div className="Card pl-8 pr-4 pt-4 h-[180px] w-[400px] background-gradient border-gradient border-t border-b border-r border-zinc-800	   flex-col justify-start items-start gap-6 inline-flex">
+          <div className="unique-cards px-4 py-4 bg-no-repeat  w-[380px] background-gradient border-gradient border-t border-b border-r border-zinc-800	   flex-col justify-start items-start gap-6 inline-flex">
             <div className="Frame1171281468 self-stretch justify-start items-start gap-4 inline-flex">
               <div className="Accountability1 w-6 h-6 relative">
                 <svg

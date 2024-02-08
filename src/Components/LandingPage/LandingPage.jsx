@@ -34,7 +34,7 @@ const LandingPage = () => {
       <div>
         <Industries />
       </div>
-      {/* <div>
+      <div>
         <Speciality />
       </div>
       <div>
@@ -45,14 +45,14 @@ const LandingPage = () => {
       </div>
       <div>
         <ConsultWithUs />
-      </div> */}
+      </div>
       {/* <div>
         <Testimonials />
       </div> */}
-      {/* <div>
+      <div>
         <FrequentlyAksedQuestions />
-      </div> */}
-      {/* <div>
+      </div>
+      <div>
         <NewsLetter />
       </div>
       <div>
@@ -60,7 +60,7 @@ const LandingPage = () => {
       </div>
       <div>
         <Footer />
-      </div> */}
+      </div>
     </>
   );
 };

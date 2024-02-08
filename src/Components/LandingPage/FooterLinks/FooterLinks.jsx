@@ -3,9 +3,9 @@ import React from "react";
 const FooterLinks = () => {
   return (
     <>
-      <div className="Container w-full h-36 justify-between items-center inline-flex px-20 mt-20 bg-gray-900">
+      <div className="Container w-full flex-wrap px-20  justify-between items-center inline-flex padding-industies mt-20 ">
         <div className="LogoAndText w-72 flex-col justify-start items-start gap-4 inline-flex">
-          <div className="Frame2 cursor-pointer justify-start items-center gap-2 inline-flex">
+          <div className=" cursor-pointer  gap-2 flex flex-row">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="50"
@@ -34,17 +34,18 @@ const FooterLinks = () => {
                 </linearGradient>
               </defs>
             </svg>
+            <div className="Vadavision cursor-pointer text-white text-3xl font-bold font-prompt leading-10">
+              VadaVision!
+            </div>
           </div>
-          <div className="Vadavision cursor-pointer text-white text-3xl font-bold font-prompt leading-10">
-            VadaVision!
-          </div>
+
           <div className="TitleAndSubtitle flex-col justify-start items-start gap-2 flex">
             <div className="HelpingFoundersStartupsWithTechnologyAndDesign w-72 text-white text-opacity-80 text-base font-light font-urbaninst">
               Helping founders & startups with technology and design.
             </div>
           </div>
         </div>
-        <div className="FooterLinks justify-start items-start gap-16 flex">
+        <div className="FooterLinks justify-start flex-wrap items-start gap-16 flex">
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
             <div className="Services text-neutral-400 text-base font-normal font-urbaninst">
               Services

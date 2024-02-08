@@ -34,13 +34,20 @@ const Accordion = () => {
       setOpenAccordion(id);
     }
   };
+  const [showHiddenFaq, setShowHiddenfAQ] = useState(false);
+  const [buttonText, setButtonText] = useState("Load More");
+
+  const handleLoadMoreClick = () => {
+    setShowHiddenfAQ(!showHiddenFaq);
+    setButtonText(showHiddenFaq ? "Load More" : "Show Less");
+  };
 
   return (
     <div
-      className="pb-10 pt-5 mt-14 flex justify-between gap-11"
+      className="pb-10 pt-5 mt-14 flex justify-between gap-11 load-faq"
       data-aos="fade-right"
     >
-      <div data-aos="fade-up" className="w-[50%]">
+      <div data-aos="fade-up" className="w-[50%] display-full-faq">
         {questionsData.map((item) => (
           <>
             <div data-aos="fade-up" key={item.id} className="accordion-item  ">
@@ -83,7 +90,7 @@ const Accordion = () => {
           </>
         ))}
       </div>
-      <div data-aos="fade-up" className="w-[50%]">
+      <div data-aos="fade-up" className="w-[50%] hide-faq ">
         {questionsData.map((item) => (
           <>
             <div data-aos="fade-up" key={item.id} className="accordion-item  ">
@@ -125,6 +132,63 @@ const Accordion = () => {
             ></div>
           </>
         ))}
+      </div>
+      {showHiddenFaq && (
+        <div data-aos="fade-up" className="w-[50%] display-full-faq  ">
+          {questionsData.map((item) => (
+            <>
+              <div
+                data-aos="fade-up"
+                key={item.id}
+                className="accordion-item  "
+              >
+                <div
+                  className="accordion-header"
+                  onClick={() => toggleAccordion(item.id)}
+                >
+                  <div className="flex gap-2 justify-between accordion-title">
+                    <div
+                      data-aos="fade-up"
+                      className="Montserrat text-[#CFD3D7] text-2xl pt-4  pb-6 font-urbaninst leading-[24px] font-medium"
+                    >
+                      {item.questions}{" "}
+                    </div>
+                    <div className="accordion-icon mt-6 cursor-pointer ">
+                      {openAccordion === item.id ? (
+                        <FaMinus size={24} color="#DD4242" />
+                      ) : (
+                        <AiOutlinePlus size={24} color="#DD4242" />
+                      )}
+                    </div>
+                  </div>
+                </div>
+                {openAccordion === item.id && (
+                  <div
+                    data-aos="fade-up"
+                    className="text-[15px] font-normal text-[#7e7f7f] pb-6 font-urbaninst  w-[80%] pt-2  accordion-content"
+                  >
+                    {item.answer}
+                  </div>
+                )}
+              </div>
+              <div
+                className=" w-[90%] h-[1px] "
+                style={{
+                  background:
+                    "linear-gradient(to right, #FFFFFF00, #FFFFFF, #FFFFFF00)",
+                }}
+              ></div>
+            </>
+          ))}
+        </div>
+      )}
+      <div className="w-full hidden show-button">
+        <button
+          onClick={handleLoadMoreClick}
+          className="flex justify-center items-center mx-auto py-3 bg-[#DD4243] text-white font-medium text-[14px] button-responsive w-[400px]"
+        >
+          {buttonText}
+        </button>
       </div>
     </div>
   );

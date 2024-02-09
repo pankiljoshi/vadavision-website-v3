@@ -7,7 +7,7 @@ import NodeImage from "../../../../public/Images/node.png";
 const RecentProject = () => {
   return (
     <>
-      <div className="RecentProjects w-full   px-20 mt-20 pt-20 padding-industies   ">
+      <div className="RecentProjects w-full   px-20  pt-20 padding-industies   ">
         <div className=" w-full flex justify-between    ">
           <div className="title-padding w-[700px]">
             <span className="text-neutral-400 text-4xl text-size-change1  font-semibold font-urbaninst">
@@ -85,7 +85,7 @@ const RecentProject = () => {
           <div className=" min-w-[320px] px-10 py-24 mt-10 image-center  bg-gradient-to-b from-zinc-950 via-stone-900 to-stone-950 border-b-4 border-red-500 border-opacity-60 flex-col justify-center items-center inline-flex">
             <Image src={TweekendApp} alt="" width={350} />
           </div>
-          <div className="Frame1171281455 mt-20 pt-20 responsive-project-rightside  flex-col justify-start items-start gap-12 inline-flex">
+          <div className="Frame1171281455 mt-20  responsive-project-rightside  flex-col justify-start items-start gap-12 inline-flex">
             <div className="Frame1171281461 flex-col justify-start items-start gap-6 flex">
               <div className="Frame1171281454 flex-col justify-start items-start gap-4 flex">
                 <div className="Frame1171281453 flex-col justify-start items-start gap-2 flex">

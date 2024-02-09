@@ -46,9 +46,9 @@ const LandingPage = () => {
       <div>
         <ConsultWithUs />
       </div>
-      {/* <div>
+      <div>
         <Testimonials />
-      </div> */}
+      </div>
       <div>
         <FrequentlyAksedQuestions />
       </div>

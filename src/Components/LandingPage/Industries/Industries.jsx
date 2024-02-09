@@ -4,7 +4,7 @@ const Industries = () => {
   return (
     <>
       <div className="industry-bg  w-full px-20  flex-col justify-start items-start gap-14 padding-industies inline-flex">
-        <div className="title-padding mt-10  pt-10">
+        <div className="title-padding   pt-10">
           <span className="text-neutral-400 text-4xl font-semibold font-change-1 font-urbaninst">
             We cover a <br />
           </span>

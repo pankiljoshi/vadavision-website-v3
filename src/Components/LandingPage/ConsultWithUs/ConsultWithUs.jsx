@@ -3,7 +3,7 @@ import React from "react";
 const ConsultWithUs = () => {
   return (
     <>
-      <div className="Card w-full px-20   py-16  justify-center items-center  padding-industies inline-flex consultus-bg">
+      <div className="Card w-full px-20   py-6  justify-center items-center  padding-industies inline-flex consultus-bg">
         <div className="  self-stretch flex-col justify-start items-center gap-10 inline-flex">
           <div className="Frame1171281442 flex-col justify-start items-center gap-4 flex">
             <div className="ReadyToDiscussYourProject text-white text-5xl font-semibold font-urbaninst">
@@ -14,7 +14,7 @@ const ConsultWithUs = () => {
               professionals.
             </div>
           </div>
-          <div className="Schedulecall h-12 px-10 py-4 bg-red-600 cursor-pointer justify-center items-center gap-4 inline-flex">
+          <div className="Schedulecall h-12 px-10 py-4 bg-[#DD4243] cursor-pointer justify-center items-center gap-4 inline-flex">
             <div className="BookACall text-white text-xl font-light font-urbaninst">
               Schedule a Call
             </div>

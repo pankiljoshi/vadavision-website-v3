@@ -1,0 +1,6 @@
+.testimonial > .splide > .splide__arrows  >.splide__arrow--prev{
+    display: none;
+}
+.testimonial > .splide > .splide__arrows  >.splide__arrow--next{
+    display: none;
+}

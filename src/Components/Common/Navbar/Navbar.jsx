@@ -38,11 +38,36 @@ const Navbar = () => {
           </div>
         </div>
         <div className="responsive-navbar">
-          <div className="Frame7 right-[11px] top-[16px] absolute justify-start items-center gap-6 px-10 inline-flex ">
+          <div className="Group2 w-80 h-11  left-[582px] top-0 absolute">
+            <div className="Frame4 w-80 h-5 left-[7px] top-[20px] absolute justify-start items-center gap-8 inline-flex">
+              <div className="Home text-white cursor-pointer text-base font-semibold font-urbaninst  ">
+                <div className="Group1 w-14 h-11 left-0 top-0 absolute">
+                  <div className="Rectangle2 w-14 h-12 left-[-4px] top-[-22px] hover:border-t-8 border-[red] absolute hover:bg-gradient-to-b from-[#DE090A7D] to-[#f45b5b7d]  " />
+                </div>
+                Home
+              </div>
+              <div className="About text-neutral-400 cursor-pointer text-base font-medium font-urbaninst">
+                About
+              </div>
+              <div className="Frame3 justify-start items-center gap-1 flex">
+                <div className="Services text-neutral-400 cursor-pointer text-base font-medium font-urbaninst">
+                  Services
+                </div>
+                <div className="ArrowDown w-4 h-4 px-1 py-1.5 justify-center items-center flex" />
+              </div>
+              <div className="Frame4 justify-start items-center gap-1 flex">
+                <div className="Product text-neutral-400 cursor-pointer text-base font-medium font-urbaninst">
+                  Product
+                </div>
+                <div className="ArrowDown w-4 h-4 px-1 py-1.5 justify-center items-center flex" />
+              </div>
+            </div>
+          </div>
+          <div className="Frame7 right-[11px] top-[16px]  justify-start items-center gap-6 px-10 inline-flex ">
             <div className="Frame6 justify-start items-center gap-2 flex">
               <div className="UnitedKingdom11 w-4 h-4 relative">
-                <div className="Group w-4 h-4 left-[0.28px] top-[0.28px] absolute"></div>
-                <div className="Group w-4 h-4 left-0 top-0 absolute"></div>
+                <div className="Group w-4 h-4 left-[0.28px] top-[0.28px]"></div>
+                <div className="Group w-4 h-4 left-0 top-0 "></div>
               </div>
               <div className="Frame5 justify-start items-center gap-1 flex">
                 <div>
@@ -162,31 +187,6 @@ const Navbar = () => {
             <div className="Button w-[180px] h-[46px] cursor-pointer  px-6 py-2 bg-red-600 justify-center items-center gap-4 flex ">
               <div className="BookACall text-white text-base font-medium font-urbaninst">
                 Schedule a Call
-              </div>
-            </div>
-          </div>
-          <div className="Group2 w-80 h-11  left-[582px] top-0 absolute">
-            <div className="Frame4 w-80 h-5 left-[7px] top-[20px] absolute justify-start items-center gap-8 inline-flex">
-              <div className="Home text-white cursor-pointer text-base font-semibold font-urbaninst  ">
-                <div className="Group1 w-14 h-11 left-0 top-0 absolute">
-                  <div className="Rectangle2 w-14 h-12 left-[-4px] top-[-22px] hover:border-t-8 border-[red] absolute hover:bg-gradient-to-b from-[#DE090A7D] to-[#f45b5b7d]  " />
-                </div>
-                Home
-              </div>
-              <div className="About text-neutral-400 cursor-pointer text-base font-medium font-urbaninst">
-                About
-              </div>
-              <div className="Frame3 justify-start items-center gap-1 flex">
-                <div className="Services text-neutral-400 cursor-pointer text-base font-medium font-urbaninst">
-                  Services
-                </div>
-                <div className="ArrowDown w-4 h-4 px-1 py-1.5 justify-center items-center flex" />
-              </div>
-              <div className="Frame4 justify-start items-center gap-1 flex">
-                <div className="Product text-neutral-400 cursor-pointer text-base font-medium font-urbaninst">
-                  Product
-                </div>
-                <div className="ArrowDown w-4 h-4 px-1 py-1.5 justify-center items-center flex" />
               </div>
             </div>
           </div>

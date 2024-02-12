@@ -2,7 +2,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import UiuxServise from "../../../public/Images/uiuxDesignServise.png";
-import Link from "next/link";
 import AiServises from "./AiServises";
 
 const UiUxDesign = () => {
@@ -12,12 +11,9 @@ const UiUxDesign = () => {
     setIsPopupOpen(true);
   };
 
-  const closePopup = () => {
-    setIsPopupOpen(false);
-  };
   return (
     <>
-      <div className="fixed inset-0 bg-[#13151880]  backdrop-blur-sm flex z-50 justify-center ">
+      <div className="fixed inset-0   backdrop-blur-sm flex z-50 justify-center ">
         <div className="flex mt-20  ">
           <div className="w-full px-4  h-[484px] bg-black  ">
             <div className="flex flex-row gap-6">
@@ -44,7 +40,7 @@ const UiUxDesign = () => {
                                   >
                                     <g
                                       id="ai-assistant 1"
-                                      clip-path="url(#clip0_478_5227)"
+                                      clipPath="url(#clip0_478_5227)"
                                     >
                                       <g id="Group">
                                         <g id="Group_2">
@@ -122,8 +118,8 @@ const UiUxDesign = () => {
                                         y2="6.1867"
                                         gradientUnits="userSpaceOnUse"
                                       >
-                                        <stop stop-color="#A8FF78" />
-                                        <stop offset="1" stop-color="#78FFD6" />
+                                        <stop stopColor="#A8FF78" />
+                                        <stop offset="1" stopColor="#78FFD6" />
                                       </linearGradient>
                                       <linearGradient
                                         id="paint1_linear_478_5227"
@@ -133,8 +129,8 @@ const UiUxDesign = () => {
                                         y2="24.3748"
                                         gradientUnits="userSpaceOnUse"
                                       >
-                                        <stop stop-color="#A8FF78" />
-                                        <stop offset="1" stop-color="#78FFD6" />
+                                        <stop stopColor="#A8FF78" />
+                                        <stop offset="1" stopColor="#78FFD6" />
                                       </linearGradient>
                                       <linearGradient
                                         id="paint2_linear_478_5227"
@@ -144,8 +140,8 @@ const UiUxDesign = () => {
                                         y2="32"
                                         gradientUnits="userSpaceOnUse"
                                       >
-                                        <stop stop-color="#A8FF78" />
-                                        <stop offset="1" stop-color="#78FFD6" />
+                                        <stop stopColor="#A8FF78" />
+                                        <stop offset="1" stopColor="#78FFD6" />
                                       </linearGradient>
                                       <linearGradient
                                         id="paint3_linear_478_5227"
@@ -155,8 +151,8 @@ const UiUxDesign = () => {
                                         y2="24.3748"
                                         gradientUnits="userSpaceOnUse"
                                       >
-                                        <stop stop-color="#A8FF78" />
-                                        <stop offset="1" stop-color="#78FFD6" />
+                                        <stop stopColor="#A8FF78" />
+                                        <stop offset="1" stopColor="#78FFD6" />
                                       </linearGradient>
                                       <linearGradient
                                         id="paint4_linear_478_5227"
@@ -166,8 +162,8 @@ const UiUxDesign = () => {
                                         y2="32"
                                         gradientUnits="userSpaceOnUse"
                                       >
-                                        <stop stop-color="#A8FF78" />
-                                        <stop offset="1" stop-color="#78FFD6" />
+                                        <stop stopColor="#A8FF78" />
+                                        <stop offset="1" stopColor="#78FFD6" />
                                       </linearGradient>
                                       <linearGradient
                                         id="paint5_linear_478_5227"
@@ -177,8 +173,8 @@ const UiUxDesign = () => {
                                         y2="15.5622"
                                         gradientUnits="userSpaceOnUse"
                                       >
-                                        <stop stop-color="#A8FF78" />
-                                        <stop offset="1" stop-color="#78FFD6" />
+                                        <stop stopColor="#A8FF78" />
+                                        <stop offset="1" stopColor="#78FFD6" />
                                       </linearGradient>
                                       <linearGradient
                                         id="paint6_linear_478_5227"
@@ -188,8 +184,8 @@ const UiUxDesign = () => {
                                         y2="15.562"
                                         gradientUnits="userSpaceOnUse"
                                       >
-                                        <stop stop-color="#A8FF78" />
-                                        <stop offset="1" stop-color="#78FFD6" />
+                                        <stop stopColor="#A8FF78" />
+                                        <stop offset="1" stopColor="#78FFD6" />
                                       </linearGradient>
                                       <linearGradient
                                         id="paint7_linear_478_5227"
@@ -199,8 +195,8 @@ const UiUxDesign = () => {
                                         y2="29.2499"
                                         gradientUnits="userSpaceOnUse"
                                       >
-                                        <stop stop-color="#A8FF78" />
-                                        <stop offset="1" stop-color="#78FFD6" />
+                                        <stop stopColor="#A8FF78" />
+                                        <stop offset="1" stopColor="#78FFD6" />
                                       </linearGradient>
                                       <linearGradient
                                         id="paint8_linear_478_5227"
@@ -210,8 +206,8 @@ const UiUxDesign = () => {
                                         y2="31.9999"
                                         gradientUnits="userSpaceOnUse"
                                       >
-                                        <stop stop-color="#A8FF78" />
-                                        <stop offset="1" stop-color="#78FFD6" />
+                                        <stop stopColor="#A8FF78" />
+                                        <stop offset="1" stopColor="#78FFD6" />
                                       </linearGradient>
                                       <linearGradient
                                         id="paint9_linear_478_5227"
@@ -221,8 +217,8 @@ const UiUxDesign = () => {
                                         y2="4.1232"
                                         gradientUnits="userSpaceOnUse"
                                       >
-                                        <stop stop-color="#A8FF78" />
-                                        <stop offset="1" stop-color="#78FFD6" />
+                                        <stop stopColor="#A8FF78" />
+                                        <stop offset="1" stopColor="#78FFD6" />
                                       </linearGradient>
                                       <linearGradient
                                         id="paint10_linear_478_5227"
@@ -232,8 +228,8 @@ const UiUxDesign = () => {
                                         y2="25.7498"
                                         gradientUnits="userSpaceOnUse"
                                       >
-                                        <stop stop-color="#A8FF78" />
-                                        <stop offset="1" stop-color="#78FFD6" />
+                                        <stop stopColor="#A8FF78" />
+                                        <stop offset="1" stopColor="#78FFD6" />
                                       </linearGradient>
                                       <linearGradient
                                         id="paint11_linear_478_5227"
@@ -243,8 +239,8 @@ const UiUxDesign = () => {
                                         y2="25.7498"
                                         gradientUnits="userSpaceOnUse"
                                       >
-                                        <stop stop-color="#A8FF78" />
-                                        <stop offset="1" stop-color="#78FFD6" />
+                                        <stop stopColor="#A8FF78" />
+                                        <stop offset="1" stopColor="#78FFD6" />
                                       </linearGradient>
                                       <clipPath id="clip0_478_5227">
                                         <rect
@@ -299,7 +295,7 @@ const UiUxDesign = () => {
                       </div>
                     </div>
                   </div>
-                  {isPopupOpen && <AiServises onClose={closePopup} />}
+                  {isPopupOpen && <AiServises />}
 
                   <div className="Card w-72 h-48 p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 group hover:border  hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
                     <div className="Frame1171281439 flex-col justify-start items-start gap-6 flex">
@@ -334,8 +330,8 @@ const UiUxDesign = () => {
                                   y2="24.5"
                                   gradientUnits="userSpaceOnUse"
                                 >
-                                  <stop stop-color="#00B4DB" />
-                                  <stop offset="1" stop-color="#0083B0" />
+                                  <stop stopColor="#00B4DB" />
+                                  <stop offset="1" stopColor="#0083B0" />
                                 </linearGradient>
                                 <linearGradient
                                   id="paint1_linear_478_5259"
@@ -345,8 +341,8 @@ const UiUxDesign = () => {
                                   y2="13.2726"
                                   gradientUnits="userSpaceOnUse"
                                 >
-                                  <stop stop-color="#00B4DB" />
-                                  <stop offset="1" stop-color="#0083B0" />
+                                  <stop stopColor="#00B4DB" />
+                                  <stop offset="1" stopColor="#0083B0" />
                                 </linearGradient>
                               </defs>
                             </svg>
@@ -457,8 +453,8 @@ const UiUxDesign = () => {
                                     y2="23.5"
                                     gradientUnits="userSpaceOnUse"
                                   >
-                                    <stop stop-color="#A8C0FF" />
-                                    <stop offset="1" stop-color="#8F7BE8" />
+                                    <stop stopColor="#A8C0FF" />
+                                    <stop offset="1" stopColor="#8F7BE8" />
                                   </linearGradient>
                                   <linearGradient
                                     id="paint1_linear_478_5278"
@@ -468,8 +464,8 @@ const UiUxDesign = () => {
                                     y2="12.4995"
                                     gradientUnits="userSpaceOnUse"
                                   >
-                                    <stop stop-color="#A8C0FF" />
-                                    <stop offset="1" stop-color="#8F7BE8" />
+                                    <stop stopColor="#A8C0FF" />
+                                    <stop offset="1" stopColor="#8F7BE8" />
                                   </linearGradient>
                                   <linearGradient
                                     id="paint2_linear_478_5278"
@@ -479,8 +475,8 @@ const UiUxDesign = () => {
                                     y2="12.4994"
                                     gradientUnits="userSpaceOnUse"
                                   >
-                                    <stop stop-color="#A8C0FF" />
-                                    <stop offset="1" stop-color="#8F7BE8" />
+                                    <stop stopColor="#A8C0FF" />
+                                    <stop offset="1" stopColor="#8F7BE8" />
                                   </linearGradient>
                                   <linearGradient
                                     id="paint3_linear_478_5278"
@@ -490,8 +486,8 @@ const UiUxDesign = () => {
                                     y2="12.4995"
                                     gradientUnits="userSpaceOnUse"
                                   >
-                                    <stop stop-color="#A8C0FF" />
-                                    <stop offset="1" stop-color="#8F7BE8" />
+                                    <stop stopColor="#A8C0FF" />
+                                    <stop offset="1" stopColor="#8F7BE8" />
                                   </linearGradient>
                                   <linearGradient
                                     id="paint4_linear_478_5278"
@@ -501,8 +497,8 @@ const UiUxDesign = () => {
                                     y2="15.5"
                                     gradientUnits="userSpaceOnUse"
                                   >
-                                    <stop stop-color="#A8C0FF" />
-                                    <stop offset="1" stop-color="#8F7BE8" />
+                                    <stop stopColor="#A8C0FF" />
+                                    <stop offset="1" stopColor="#8F7BE8" />
                                   </linearGradient>
                                   <linearGradient
                                     id="paint5_linear_478_5278"
@@ -512,8 +508,8 @@ const UiUxDesign = () => {
                                     y2="17.5"
                                     gradientUnits="userSpaceOnUse"
                                   >
-                                    <stop stop-color="#A8C0FF" />
-                                    <stop offset="1" stop-color="#8F7BE8" />
+                                    <stop stopColor="#A8C0FF" />
+                                    <stop offset="1" stopColor="#8F7BE8" />
                                   </linearGradient>
                                   <linearGradient
                                     id="paint6_linear_478_5278"
@@ -523,8 +519,8 @@ const UiUxDesign = () => {
                                     y2="8.5"
                                     gradientUnits="userSpaceOnUse"
                                   >
-                                    <stop stop-color="#A8C0FF" />
-                                    <stop offset="1" stop-color="#8F7BE8" />
+                                    <stop stopColor="#A8C0FF" />
+                                    <stop offset="1" stopColor="#8F7BE8" />
                                   </linearGradient>
                                   <linearGradient
                                     id="paint7_linear_478_5278"
@@ -534,8 +530,8 @@ const UiUxDesign = () => {
                                     y2="8.5"
                                     gradientUnits="userSpaceOnUse"
                                   >
-                                    <stop stop-color="#A8C0FF" />
-                                    <stop offset="1" stop-color="#8F7BE8" />
+                                    <stop stopColor="#A8C0FF" />
+                                    <stop offset="1" stopColor="#8F7BE8" />
                                   </linearGradient>
                                 </defs>
                               </svg>
@@ -597,7 +593,7 @@ const UiUxDesign = () => {
                             >
                               <g
                                 id="resource 1"
-                                clip-path="url(#clip0_478_5306)"
+                                clipPath="url(#clip0_478_5306)"
                               >
                                 <path
                                   id="Vector"
@@ -614,8 +610,8 @@ const UiUxDesign = () => {
                                   y2="24.125"
                                   gradientUnits="userSpaceOnUse"
                                 >
-                                  <stop stop-color="#E1EEC3" />
-                                  <stop offset="1" stop-color="#F05053" />
+                                  <stop stopColor="#E1EEC3" />
+                                  <stop offset="1" stopColor="#F05053" />
                                 </linearGradient>
                                 <clipPath id="clip0_478_5306">
                                   <rect
@@ -682,7 +678,7 @@ const UiUxDesign = () => {
                             >
                               <g
                                 id="workflow 1"
-                                clip-path="url(#clip0_478_5324)"
+                                clipPath="url(#clip0_478_5324)"
                               >
                                 <g id="Group">
                                   <g id="Group_2">
@@ -721,8 +717,8 @@ const UiUxDesign = () => {
                                   y2="24.5"
                                   gradientUnits="userSpaceOnUse"
                                 >
-                                  <stop stop-color="#DAFB7E" />
-                                  <stop offset="1" stop-color="#8BFF88" />
+                                  <stop stopColor="#DAFB7E" />
+                                  <stop offset="1" stopColor="#8BFF88" />
                                 </linearGradient>
                                 <linearGradient
                                   id="paint1_linear_478_5324"
@@ -732,8 +728,8 @@ const UiUxDesign = () => {
                                   y2="14.6357"
                                   gradientUnits="userSpaceOnUse"
                                 >
-                                  <stop stop-color="#DAFB7E" />
-                                  <stop offset="1" stop-color="#8BFF88" />
+                                  <stop stopColor="#DAFB7E" />
+                                  <stop offset="1" stopColor="#8BFF88" />
                                 </linearGradient>
                                 <linearGradient
                                   id="paint2_linear_478_5324"
@@ -743,8 +739,8 @@ const UiUxDesign = () => {
                                   y2="23.12"
                                   gradientUnits="userSpaceOnUse"
                                 >
-                                  <stop stop-color="#DAFB7E" />
-                                  <stop offset="1" stop-color="#8BFF88" />
+                                  <stop stopColor="#DAFB7E" />
+                                  <stop offset="1" stopColor="#8BFF88" />
                                 </linearGradient>
                                 <clipPath id="clip0_478_5324">
                                   <rect
@@ -816,19 +812,19 @@ const UiUxDesign = () => {
                             viewBox="0 0 16 17"
                             fill="none"
                           >
-                            <g id="correct 1" clip-path="url(#clip0_478_5197)">
+                            <g id="correct 1" clipPath="url(#clip0_478_5197)">
                               <g id="Group">
                                 <path
                                   id="Vector"
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
+                                  fillRule="evenodd"
+                                  clipRule="evenodd"
                                   d="M8 0.5C3.5875 0.5 0 4.0875 0 8.5C0 12.9125 3.5875 16.5 8 16.5C12.4125 16.5 16 12.9125 16 8.5C16 4.0875 12.4125 0.5 8 0.5Z"
                                   fill="#4BAE4F"
                                 />
                                 <path
                                   id="Vector_2"
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
+                                  fillRule="evenodd"
+                                  clipRule="evenodd"
                                   d="M11.8687 5.80313C12.0625 5.99688 12.0625 6.31563 11.8687 6.50938L7.18124 11.1969C7.08437 11.2938 6.95624 11.3438 6.82812 11.3438C6.69999 11.3438 6.57187 11.2938 6.47499 11.1969L4.13124 8.85313C3.93749 8.65938 3.93749 8.34063 4.13124 8.14688C4.32499 7.95313 4.64374 7.95313 4.83749 8.14688L6.82812 10.1375L11.1625 5.80313C11.3562 5.60625 11.675 5.60625 11.8687 5.80313Z"
                                   fill="white"
                                 />
@@ -861,19 +857,19 @@ const UiUxDesign = () => {
                             viewBox="0 0 16 17"
                             fill="none"
                           >
-                            <g id="correct 1" clip-path="url(#clip0_478_5197)">
+                            <g id="correct 1" clipPath="url(#clip0_478_5197)">
                               <g id="Group">
                                 <path
                                   id="Vector"
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
+                                  fillRule="evenodd"
+                                  clipRule="evenodd"
                                   d="M8 0.5C3.5875 0.5 0 4.0875 0 8.5C0 12.9125 3.5875 16.5 8 16.5C12.4125 16.5 16 12.9125 16 8.5C16 4.0875 12.4125 0.5 8 0.5Z"
                                   fill="#4BAE4F"
                                 />
                                 <path
                                   id="Vector_2"
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
+                                  fillRule="evenodd"
+                                  clipRule="evenodd"
                                   d="M11.8687 5.80313C12.0625 5.99688 12.0625 6.31563 11.8687 6.50938L7.18124 11.1969C7.08437 11.2938 6.95624 11.3438 6.82812 11.3438C6.69999 11.3438 6.57187 11.2938 6.47499 11.1969L4.13124 8.85313C3.93749 8.65938 3.93749 8.34063 4.13124 8.14688C4.32499 7.95313 4.64374 7.95313 4.83749 8.14688L6.82812 10.1375L11.1625 5.80313C11.3562 5.60625 11.675 5.60625 11.8687 5.80313Z"
                                   fill="white"
                                 />
@@ -906,19 +902,19 @@ const UiUxDesign = () => {
                             viewBox="0 0 16 17"
                             fill="none"
                           >
-                            <g id="correct 1" clip-path="url(#clip0_478_5197)">
+                            <g id="correct 1" clipPath="url(#clip0_478_5197)">
                               <g id="Group">
                                 <path
                                   id="Vector"
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
+                                  fillRule="evenodd"
+                                  clipRule="evenodd"
                                   d="M8 0.5C3.5875 0.5 0 4.0875 0 8.5C0 12.9125 3.5875 16.5 8 16.5C12.4125 16.5 16 12.9125 16 8.5C16 4.0875 12.4125 0.5 8 0.5Z"
                                   fill="#4BAE4F"
                                 />
                                 <path
                                   id="Vector_2"
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
+                                  fillRule="evenodd"
+                                  clipRule="evenodd"
                                   d="M11.8687 5.80313C12.0625 5.99688 12.0625 6.31563 11.8687 6.50938L7.18124 11.1969C7.08437 11.2938 6.95624 11.3438 6.82812 11.3438C6.69999 11.3438 6.57187 11.2938 6.47499 11.1969L4.13124 8.85313C3.93749 8.65938 3.93749 8.34063 4.13124 8.14688C4.32499 7.95313 4.64374 7.95313 4.83749 8.14688L6.82812 10.1375L11.1625 5.80313C11.3562 5.60625 11.675 5.60625 11.8687 5.80313Z"
                                   fill="white"
                                 />
@@ -951,19 +947,19 @@ const UiUxDesign = () => {
                             viewBox="0 0 16 17"
                             fill="none"
                           >
-                            <g id="correct 1" clip-path="url(#clip0_478_5197)">
+                            <g id="correct 1" clipPath="url(#clip0_478_5197)">
                               <g id="Group">
                                 <path
                                   id="Vector"
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
+                                  fillRule="evenodd"
+                                  clipRule="evenodd"
                                   d="M8 0.5C3.5875 0.5 0 4.0875 0 8.5C0 12.9125 3.5875 16.5 8 16.5C12.4125 16.5 16 12.9125 16 8.5C16 4.0875 12.4125 0.5 8 0.5Z"
                                   fill="#4BAE4F"
                                 />
                                 <path
                                   id="Vector_2"
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
+                                  fillRule="evenodd"
+                                  clipRule="evenodd"
                                   d="M11.8687 5.80313C12.0625 5.99688 12.0625 6.31563 11.8687 6.50938L7.18124 11.1969C7.08437 11.2938 6.95624 11.3438 6.82812 11.3438C6.69999 11.3438 6.57187 11.2938 6.47499 11.1969L4.13124 8.85313C3.93749 8.65938 3.93749 8.34063 4.13124 8.14688C4.32499 7.95313 4.64374 7.95313 4.83749 8.14688L6.82812 10.1375L11.1625 5.80313C11.3562 5.60625 11.675 5.60625 11.8687 5.80313Z"
                                   fill="white"
                                 />

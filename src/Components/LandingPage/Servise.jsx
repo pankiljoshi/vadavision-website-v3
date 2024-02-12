@@ -31,19 +31,19 @@ const Servise = () => {
                 fill="none"
                 className="svg-responsive"
               >
-                <g id="correct 1" clip-path="url(#clip0_160_5987)">
+                <g id="correct 1" clipPath="url(#clip0_160_5987)">
                   <g id="Group">
                     <path
                       id="Vector"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M12 0C5.38125 0 0 5.38125 0 12C0 18.6187 5.38125 24 12 24C18.6187 24 24 18.6187 24 12C24 5.38125 18.6187 0 12 0Z"
                       fill="#4BAE4F"
                     />
                     <path
                       id="Vector_2"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M17.8032 7.95464C18.0938 8.24526 18.0938 8.72339 17.8032 9.01401L10.772 16.0453C10.6267 16.1906 10.4345 16.2656 10.2423 16.2656C10.0501 16.2656 9.85791 16.1906 9.7126 16.0453L6.19697 12.5296C5.90635 12.239 5.90635 11.7609 6.19697 11.4703C6.4876 11.1796 6.96572 11.1796 7.25635 11.4703L10.2423 14.4562L16.7438 7.95464C17.0345 7.65933 17.5126 7.65933 17.8032 7.95464Z"
                       fill="white"
                     />
@@ -74,19 +74,19 @@ const Servise = () => {
                 fill="none"
                 className="svg-responsive"
               >
-                <g id="correct 1" clip-path="url(#clip0_160_5987)">
+                <g id="correct 1" clipPath="url(#clip0_160_5987)">
                   <g id="Group">
                     <path
                       id="Vector"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M12 0C5.38125 0 0 5.38125 0 12C0 18.6187 5.38125 24 12 24C18.6187 24 24 18.6187 24 12C24 5.38125 18.6187 0 12 0Z"
                       fill="#4BAE4F"
                     />
                     <path
                       id="Vector_2"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M17.8032 7.95464C18.0938 8.24526 18.0938 8.72339 17.8032 9.01401L10.772 16.0453C10.6267 16.1906 10.4345 16.2656 10.2423 16.2656C10.0501 16.2656 9.85791 16.1906 9.7126 16.0453L6.19697 12.5296C5.90635 12.239 5.90635 11.7609 6.19697 11.4703C6.4876 11.1796 6.96572 11.1796 7.25635 11.4703L10.2423 14.4562L16.7438 7.95464C17.0345 7.65933 17.5126 7.65933 17.8032 7.95464Z"
                       fill="white"
                     />
@@ -117,19 +117,19 @@ const Servise = () => {
                 fill="none"
                 className="svg-responsive"
               >
-                <g id="correct 1" clip-path="url(#clip0_160_5987)">
+                <g id="correct 1" clipPath="url(#clip0_160_5987)">
                   <g id="Group">
                     <path
                       id="Vector"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M12 0C5.38125 0 0 5.38125 0 12C0 18.6187 5.38125 24 12 24C18.6187 24 24 18.6187 24 12C24 5.38125 18.6187 0 12 0Z"
                       fill="#4BAE4F"
                     />
                     <path
                       id="Vector_2"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M17.8032 7.95464C18.0938 8.24526 18.0938 8.72339 17.8032 9.01401L10.772 16.0453C10.6267 16.1906 10.4345 16.2656 10.2423 16.2656C10.0501 16.2656 9.85791 16.1906 9.7126 16.0453L6.19697 12.5296C5.90635 12.239 5.90635 11.7609 6.19697 11.4703C6.4876 11.1796 6.96572 11.1796 7.25635 11.4703L10.2423 14.4562L16.7438 7.95464C17.0345 7.65933 17.5126 7.65933 17.8032 7.95464Z"
                       fill="white"
                     />
@@ -160,19 +160,19 @@ const Servise = () => {
                 className="svg-responsive"
                 fill="none"
               >
-                <g id="correct 1" clip-path="url(#clip0_160_5987)">
+                <g id="correct 1" clipPath="url(#clip0_160_5987)">
                   <g id="Group">
                     <path
                       id="Vector"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M12 0C5.38125 0 0 5.38125 0 12C0 18.6187 5.38125 24 12 24C18.6187 24 24 18.6187 24 12C24 5.38125 18.6187 0 12 0Z"
                       fill="#4BAE4F"
                     />
                     <path
                       id="Vector_2"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M17.8032 7.95464C18.0938 8.24526 18.0938 8.72339 17.8032 9.01401L10.772 16.0453C10.6267 16.1906 10.4345 16.2656 10.2423 16.2656C10.0501 16.2656 9.85791 16.1906 9.7126 16.0453L6.19697 12.5296C5.90635 12.239 5.90635 11.7609 6.19697 11.4703C6.4876 11.1796 6.96572 11.1796 7.25635 11.4703L10.2423 14.4562L16.7438 7.95464C17.0345 7.65933 17.5126 7.65933 17.8032 7.95464Z"
                       fill="white"
                     />

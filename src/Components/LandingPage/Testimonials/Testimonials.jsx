@@ -3,7 +3,6 @@ import Image from "next/image";
 import React, { useRef } from "react";
 import CLient from "../../../../public/Images/client.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import { BsArrowDown, BsArrowUp } from "react-icons/bs";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import "@/Components/LandingPage/Testimonials/testimonial.css";
 
@@ -53,17 +52,17 @@ const Testimonials = () => {
                       id="Vector"
                       d="M19 12.5H5"
                       stroke="#8E8E8E"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       id="Vector_2"
                       d="M12 19.5L5 12.5L12 5.5"
                       stroke="#8E8E8E"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </g>
                 </svg>
@@ -86,17 +85,17 @@ const Testimonials = () => {
                       id="Vector"
                       d="M5 12.5H19"
                       stroke="#DD4243"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       id="Vector_2"
                       d="M12 5.5L19 12.5L12 19.5"
                       stroke="#DD4243"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </g>
                 </svg>

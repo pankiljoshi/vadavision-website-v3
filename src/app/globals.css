@@ -2,19 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -191,11 +178,25 @@ body {
 }
 @media screen and (max-width: 480px) {
   .responsive-font {
-    font-size: 36px;
+    font-size: 30px;
     text-align: center;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 380px) {
+  .responsive-font {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+@media screen and (max-width:520px) {
+  .LeftLabel{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+}
+/* @media screen and (max-width: 420px) {
   .responsive-font {
     font-size: 26px;
     text-align: center;
@@ -206,7 +207,7 @@ body {
   .reponsive-button {
     gap: 10px;
   }
-}
+} */
 
 /* @media screen and (max-width:1050px) {
   .responsive-font{
@@ -387,6 +388,13 @@ body {
     margin: 0px;
   }
 }
+@media screen and (max-width: 420px) {
+  .servises-cards1 {
+    width: 164px;
+    padding: 0px;
+    margin: 0px;
+  }
+}
 
 @media screen and (max-width: 1280px) {
   .servises-cards2 {
@@ -450,16 +458,15 @@ body {
 }
 @media screen and (max-width: 440px) {
   .servises-cards1 {
-    width: 160px;
+    width: 121px;
     padding: 0px;
     height: 140px;
-    padding-left: 20px;
     margin: 0px;
   }
 }
 @media screen and (max-width: 440px) {
   .servises-cards2 {
-    width: 160px;
+    width: 144px;
     padding: 0px;
     height: 140px;
     padding-left: 20px;
@@ -467,6 +474,13 @@ body {
   }
 }
 
+@media screen and (max-width:440px) {
+  .gap-responsive
+  {
+    gap: 0px;
+  }
+  
+}
 @media screen and (min-width: 900px) {
   .margin-reponsive {
     margin: 0px;
@@ -478,6 +492,22 @@ body {
     margin: 0px;
   }
 }
+.consultUs-svg{
+  margin-right: 2px;
+}
+@media screen and (max-width:1100px) {
+  .consultUs-svg{
+    margin-right: 12px;
+  }
+  
+}
+@media screen and (max-width: 440px) {
+  .servises-card {
+    margin: 0px;
+    gap: 10px;
+  }
+}
+
 
 @media screen and (max-width: 1300px) {
   .logo-responsive {
@@ -757,6 +787,7 @@ body {
 
 .card-responsive {
   position: relative;
+  overflow: hidden;
 }
 
 .card-responsive::after {
@@ -1046,4 +1077,10 @@ body {
   .load-faq {
     flex-direction: column;
   }
+}
+
+.gradient-background{
+  border: 1px solid rgba(255, 255, 255, 0.08);
+background: linear-gradient(82deg, #101010 5.83%, rgba(32, 32, 32, 0.00) 100%);
+backdrop-filter: blur(40px);
 }

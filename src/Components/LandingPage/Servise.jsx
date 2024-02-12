@@ -55,7 +55,7 @@ const Servise = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="font-light font-urbaninst margin-reponsive">
+              <span className="font-light text-white font-urbaninst margin-reponsive">
                 Multiple Domains
               </span>
             </div>
@@ -98,7 +98,7 @@ const Servise = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="font-light font-urbaninst margin-reponsive">
+              <span className="font-light text-white font-urbaninst margin-reponsive">
                 Timely Delivery
               </span>
             </div>
@@ -141,7 +141,7 @@ const Servise = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="font-light font-urbaninst margin-reponsive">
+              <span className="font-light text-white font-urbaninst margin-reponsive">
                 Scalable Tech
               </span>
             </div>{" "}
@@ -184,7 +184,7 @@ const Servise = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="font-light font-urbaninst margin-reponsive">
+              <span className="font-light text-white font-urbaninst margin-reponsive">
                 Robust Design
               </span>
             </div>

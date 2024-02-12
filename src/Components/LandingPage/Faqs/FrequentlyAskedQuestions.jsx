@@ -4,7 +4,7 @@ import Accordion from "./Faqs";
 
 const FrequentlyAksedQuestions = () => {
   return (
-    <div className="py-10 px-20 padding-industies mt-20  ">
+    <div className="py-6 px-20 padding-industies   ">
       <div className="">
         <h1 className="capitalize font-montserrat text-[#8E8E8E] text-4xl font-bold leading-[110%] heading">
           some <br />{" "}

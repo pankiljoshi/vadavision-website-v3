@@ -4,15 +4,18 @@ const HeroSection = () => {
   return (
     <>
       <div className="Hero w-full  flex  justify-between gap-40 px-20 bg-gradient-to-br pb-20 from-black to-zinc-950 herosection-bg responsive-herosection">
-        <div className="LeftSide w-[50%] mt-20 flex-col justify-start items-start gap-6 inline-flex">
-          <div className="LeftLabel p-4 bg-gradient-to-b from-stone-900 to-stone-950 rounded-full  flex-col justify-start items-start gap-2.5 flex">
-            <div className=" text-emerald-400 text-sm font-medium font-urbaninst">
-              🚀 <span className="StartupStudio">STARTUP STUDIO</span>
+        <div className="LeftSide w-[50%] mt-16 flex-col justify-start items-start gap-6 inline-flex">
+          <div className="LeftLabel">
+            <div className=" p-4 bg-gradient-to-b from-stone-900 to-stone-950 rounded-full  flex-col justify-start items-start gap-2.5 flex">
+              <div className=" text-emerald-400 text-sm font-medium font-urbaninst">
+                🚀 <span className="StartupStudio">STARTUP STUDIO</span>
+              </div>
             </div>
           </div>
+
           <div className="Frame9 flex-col justify-start items-start gap-10 flex">
             <div className="TitleSubtitle flex-col justify-start items-start gap-6 flex">
-              <div className="CraftingDigitalDreamsIntoTangibleReality w-full text-neutral-100 leading-relaxed text-6xl font-bold font-prompt responsive-font">
+              <div className=" w-full text-neutral-100 leading-relaxed text-6xl font-bold font-prompt responsive-font">
                 Crafting Digital Dreams <br />
                 into Tangible Reality
               </div>
@@ -28,11 +31,11 @@ const HeroSection = () => {
                   Explore More
                 </div>
               </div>
-              <div className="BookACall w-[300px] h-[46px] cursor-pointer reponsive-button px-10 py-4 bg-red-600 justify-center items-center gap-4 flex Schedule-button">
+              <div className="BookACall w-[300px] h-[46px] cursor-pointer reponsive-button px-10 py-4 bg-[#DD4243] justify-center items-center gap-4 flex Schedule-button">
                 <div className="BookACall text-white text-xl font-normal font-urbaninst Schedule-button">
                   Schedule a Call
                 </div>
-                <div className="Div w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+                <div className="consultUs-svg w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
                   <div className="ChevronRight w-4 h-4 relative">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -40,6 +43,7 @@ const HeroSection = () => {
                       height="16"
                       viewBox="0 0 16 16"
                       fill="none"
+                      className=""
                     >
                       <g id="chevron-right">
                         <path
@@ -58,8 +62,8 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="Servies w-[50%] rightSide-herosection mt-20 pt-20">
-          <div className="Frame1171281405  servises-card ml-20 mt-16 justify-start  items-start gap-6 inline-flex">
-            <div className="Frame1171281401 servises-cards1  bg-gradient-to-r from-stone-950 to-neutral-800 border border-white border-opacity-10 backdrop-blur-3xl flex-col justify-start items-start gap-2.5 inline-flex">
+          <div className="Frame1171281405  servises-card  ml-20 mt-16 justify-start  items-start gap-6 inline-flex">
+            <div className="Frame1171281401 w-[148px] servises-cards1  p-5  gradient-background  border border-white border-opacity-10  flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col justify-start items-start gap-4 flex">
                 <div className="AiAssistant1 w-8 h-8 relative">
                   <div className="Group w-8 h-8 left-[0.81px] top-0 absolute">
@@ -286,7 +290,7 @@ const HeroSection = () => {
                 </div>
               </div>
             </div>
-            <div className="Frame1171281404 servises-cards2 p-6 bg-gradient-to-r from-stone-950 to-neutral-800 border border-white border-opacity-10 backdrop-blur-3xl flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="Frame1171281404 servises-cards2 w-[265px] p-6 border gradient-background  border-white border-opacity-10  flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col justify-start items-start gap-4 flex">
                 <div className="Resource1 w-8 h-8  svg-margin relative">
                   <svg
@@ -327,8 +331,8 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          <div className="Frame1171281406  mt-10  justify-start items-start gap-6 inline-flex">
-            <div className="Frame1171281403 servises-cards2 p-6 bg-gradient-to-r from-stone-950 to-neutral-800 border border-white border-opacity-10 backdrop-blur-3xl flex-col justify-start items-start gap-2.5 inline-flex">
+          <div className="Frame1171281406  mt-10 justify-start items-start gap-6 inline-flex">
+            <div className="Frame1171281403 servises-cards2 w-[275px] p-6  border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col justify-start items-start gap-4 flex">
                 <div className="MobileDevelopment1 w-8 h-8 svg-margin relative">
                   <div className="Group w-7 h-7 ">
@@ -481,7 +485,7 @@ const HeroSection = () => {
                 </div>
               </div>
             </div>
-            <div className="Frame1171281402 servises-cards1 p-6 bg-gradient-to-r from-stone-950 to-neutral-800 border border-white border-opacity-10 backdrop-blur-3xl flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="Frame1171281402 servises-cards1 p-4 w-[172px] border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col justify-start items-start gap-4 flex">
                 <div className="UxDesign1 w-8 h-8 relative">
                   <div className="VectorIllustration w-7 h-7 svg-margin left-[1.88px] top-[1.60px] absolute">

@@ -268,26 +268,6 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-<<<<<<< HEAD
-        <div className="hamburger-icon  float-end cursor-pointer hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="28"
-            height="28"
-            viewBox="0 0 28 28"
-            fill="none"
-          >
-            <g id="menu(1) 1">
-              <path
-                id="Vector"
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M3.5 7.00001C3.5 6.35568 4.02234 5.83334 4.66667 5.83334H23.3333C23.9777 5.83334 24.5 6.35568 24.5 7.00001C24.5 7.64434 23.9777 8.16668 23.3333 8.16668H4.66667C4.02234 8.16668 3.5 7.64434 3.5 7.00001ZM3.5 14C3.5 13.3557 4.02234 12.8333 4.66667 12.8333H16.3333C16.9777 12.8333 17.5 13.3557 17.5 14C17.5 14.6444 16.9777 15.1667 16.3333 15.1667H4.66667C4.02234 15.1667 3.5 14.6444 3.5 14ZM3.5 21C3.5 20.3557 4.02234 19.8333 4.66667 19.8333H10.5C11.1443 19.8333 11.6667 20.3557 11.6667 21C11.6667 21.6444 11.1443 22.1667 10.5 22.1667H4.66667C4.02234 22.1667 3.5 21.6444 3.5 21Z"
-                fill="white"
-              />
-            </g>
-          </svg>
-=======
         <div className="hamburger-icon  w-full  cursor-pointer hidden">
           <div className="Frame2 cursor-pointer pb-4  justify-start items-center gap-2 inline-flex">
             <svg
@@ -367,7 +347,6 @@ const Navbar = () => {
             )}
           </div>
           {isDropDownOpen && <ResponsiveNavbar />}
->>>>>>> 55ba10025afb4dde49ca2a41c6202127d24551df
         </div>
       </div>
     </>

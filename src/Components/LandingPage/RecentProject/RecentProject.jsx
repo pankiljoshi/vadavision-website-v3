@@ -33,17 +33,17 @@ const RecentProject = () => {
                       id="Vector"
                       d="M19 12.5H5"
                       stroke="#8E8E8E"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       id="Vector_2"
                       d="M12 19.5L5 12.5L12 5.5"
                       stroke="#8E8E8E"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </g>
                 </svg>
@@ -63,17 +63,17 @@ const RecentProject = () => {
                       id="Vector"
                       d="M5 12.5H19"
                       stroke="#DD4243"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       id="Vector_2"
                       d="M12 5.5L19 12.5L12 19.5"
                       stroke="#DD4243"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </g>
                 </svg>
@@ -127,8 +127,8 @@ const RecentProject = () => {
                     <g id="chevron-right">
                       <path
                         id="Vector (Stroke)"
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M5.52851 3.52851C5.78886 3.26816 6.21097 3.26816 6.47132 3.52851L10.4713 7.52851C10.7317 7.78886 10.7317 8.21097 10.4713 8.47132L6.47132 12.4713C6.21097 12.7317 5.78886 12.7317 5.52851 12.4713C5.26816 12.211 5.26816 11.7889 5.52851 11.5285L9.05711 7.99992L5.52851 4.47132C5.26816 4.21097 5.26816 3.78886 5.52851 3.52851Z"
                         fill="white"
                       />

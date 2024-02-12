@@ -27,7 +27,7 @@ const Review = () => {
                 >
                   <g
                     id="upwork-roundedsquare-1 1"
-                    clip-path="url(#clip0_151_1382)"
+                    clipPath="url(#clip0_151_1382)"
                   >
                     <path
                       id="Vector"

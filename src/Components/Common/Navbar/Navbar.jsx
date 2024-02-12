@@ -1,6 +1,33 @@
 "use client";
 import AiServises from "@/Components/Servises/AiServises";
 import React, { useState } from "react";
+import ResponsiveNavbar from "./ResponsiveNavbar";
+
+const RedBar = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="56"
+    height="43"
+    viewBox="0 0 56 43"
+    fill="none"
+  >
+    <rect width="56" height="5" fill="#DE090A" />
+    <rect y="5" width="56" height="38" fill="url(#paint0_linear_73_324)" />
+    <defs>
+      <linearGradient
+        id="paint0_linear_73_324"
+        x1="28"
+        y1="5"
+        x2="28"
+        y2="36.5"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="#DE090A" stopOpacity="0.49" />
+        <stop offset="1" stopColor="#DD4243" stopOpacity="0" />
+      </linearGradient>
+    </defs>
+  </svg>
+);
 
 const Navbar = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -12,13 +39,26 @@ const Navbar = () => {
   const closePopup = () => {
     setIsPopupOpen(false);
   };
+  const [isDropDownOpen, setIsDropDownOpen] = useState(false);
+  const handelOpenDropDown = () => {
+    setIsDropDownOpen(true);
+  };
+  const closeDropDown = () => {
+    setIsDropDownOpen(false);
+  };
+  const [showSVG, setShowSVG] = useState(true);
+
+  const handleToggle = () => {
+    setShowSVG(!showSVG);
+  };
+  const [activeTab, setActiveTab] = useState("home");
 
   return (
     <>
-      <div className="NavigationWeb w-full px-20  padding-industies py-4 bg-white bg-opacity-5 border border-neutral-900 ">
-        <div className="responsive-navbar">
+      <div className="NavigationWeb w-full px-20  padding-none pt-2 bg-white bg-opacity-5 border border-neutral-900 ">
+        <div className="responsive-navbar ">
           <div className="flex justify-between">
-            <div className="Frame2 cursor-pointer  justify-start items-center gap-2 inline-flex">
+            <div className="Frame2 cursor-pointer   justify-start items-center gap-2 inline-flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="50"
@@ -28,8 +68,8 @@ const Navbar = () => {
               >
                 <path
                   id="Union"
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M27.1027 3.68923L40.9164 18.8531L49.9564 18.8443L49.9633 25.8165L37.8388 25.8284L24.0226 10.6615H13.5232C12.2975 12.8927 9.92484 14.4088 7.2044 14.4088C3.23197 14.4088 0 11.1769 0 7.2044C0 3.23186 3.23186 -0.000116197 7.2044 3.13326e-09C9.9009 3.13326e-09 12.2547 1.48996 13.4896 3.68923H27.1027ZM4.64826 7.2044C4.64826 8.61406 5.79496 9.76064 7.20451 9.76064C8.61395 9.76064 9.76076 8.61395 9.76076 7.2044C9.76076 5.79496 8.61406 4.64815 7.20451 4.64815C5.79496 4.64815 4.64826 5.79496 4.64826 7.2044ZM37.0445 5.28726L34.4741 8.35504L39.2129 13.5563L40.3006 12.2595H49.9641V5.28726H37.0445ZM25.6569 18.8825H21.5207C20.2903 16.6672 17.9272 15.1642 15.2187 15.1642C11.2462 15.1642 8.01434 18.3961 8.01434 22.3686C8.01434 26.3412 11.2463 29.573 15.2187 29.573C17.9273 29.573 20.2905 28.0698 21.5207 25.8548H28.9118L31.6831 22.5459L26.945 17.3446L25.6569 18.8825ZM15.2186 24.9249C13.8091 24.9249 12.6624 23.7781 12.6624 22.3686C12.6624 20.959 13.8091 19.8124 15.2186 19.8124C16.6282 19.8124 17.7749 20.959 17.7749 22.3686C17.7749 23.7781 16.6282 24.9249 15.2186 24.9249Z"
                   fill="url(#paint0_linear_312_21)"
                 />
@@ -42,8 +82,8 @@ const Navbar = () => {
                     y2="9.89367"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#E12223" />
-                    <stop offset="1" stop-color="#FB5F60" />
+                    <stop stopColor="#E12223" />
+                    <stop offset="1" stopColor="#FB5F60" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -51,19 +91,39 @@ const Navbar = () => {
                 VadaVision!
               </div>
             </div>
-            <div className="">
+            <div className="relative">
               <div className="Frame  justify-start items-center gap-8 inline-flex">
-                <div className="Home text-white cursor-pointer text-base font-semibold font-urbaninst  ">
+                <div
+                  className={`Home text-white cursor-pointer  text-base font-semibold font-urbaninst ${
+                    activeTab === "home" ? "active" : ""
+                  }`}
+                  onClick={() => setActiveTab("home")}
+                >
+                  {activeTab === "home" && <RedBar />}
                   Home
                 </div>
-                <div className="About text-neutral-400 cursor-pointer text-base font-medium font-urbaninst">
+
+                <div
+                  className={`About text-neutral-400 cursor-pointer text-base font-medium font-urbaninst ${
+                    activeTab === "about" ? "active" : ""
+                  }`}
+                  onClick={() => setActiveTab("about")}
+                >
+                  {activeTab === "about" && <RedBar />}
                   About
                 </div>
+
                 <div
                   className="Frame3 justify-start items-center gap-1 flex"
                   onClick={handleOpenModal}
                 >
-                  <div className="Services text-neutral-400 cursor-pointer text-base font-medium font-urbaninst">
+                  <div
+                    className={`Services text-neutral-400 cursor-pointer text-base font-medium font-urbaninst ${
+                      activeTab === "services" ? "active" : ""
+                    }`}
+                    onClick={() => setActiveTab("services")}
+                  >
+                    {activeTab === "services" && <RedBar />}
                     Services
                   </div>
                   {isPopupOpen && <AiServises onClose={closePopup} />}
@@ -71,7 +131,13 @@ const Navbar = () => {
                   <div className="ArrowDown w-4 h-4 px-1 py-1.5 justify-center items-center flex" />
                 </div>
                 <div className="Frame4 justify-start items-center gap-1 flex">
-                  <div className="Product text-neutral-400 cursor-pointer text-base font-medium font-urbaninst">
+                  <div
+                    className={`Product text-neutral-400 cursor-pointer text-base font-medium font-urbaninst ${
+                      activeTab === "product" ? "active" : ""
+                    }`}
+                    onClick={() => setActiveTab("product")}
+                  >
+                    {activeTab === "product" && <RedBar />}
                     Product
                   </div>
                   <div className="ArrowDown w-4 h-4 px-1 py-1.5 justify-center items-center flex" />
@@ -94,10 +160,7 @@ const Navbar = () => {
                       fill="none"
                       className="mr-1"
                     >
-                      <g
-                        id="united-kingdom(1) 1"
-                        clip-path="url(#clip0_312_31)"
-                      >
+                      <g id="united-kingdom(1) 1" clipPath="url(#clip0_312_31)">
                         <path
                           id="Vector"
                           d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z"
@@ -205,9 +268,8 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-
         <div className="hamburger-icon  w-full  cursor-pointer hidden">
-          <div className="Frame2 cursor-pointer  justify-start items-center gap-2 inline-flex">
+          <div className="Frame2 cursor-pointer pb-4  justify-start items-center gap-2 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="28"
@@ -216,8 +278,8 @@ const Navbar = () => {
               fill="none"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M14.6634 2.496L22.1371 10.7002L27.0281 10.6954L27.0318 14.4676L20.4721 14.474L12.997 6.2682H7.3165C6.65335 7.47537 5.36967 8.29564 3.89782 8.29564C1.74861 8.29564 0 6.54709 0 4.39782C0 2.24854 1.74854 0.499937 3.89782 0.5C5.35672 0.5 6.63021 1.30612 7.29834 2.496H14.6634ZM2.51487 4.39782C2.51487 5.16049 3.13527 5.78083 3.89788 5.78083C4.66043 5.78083 5.2809 5.16043 5.2809 4.39782C5.2809 3.63527 4.6605 3.0148 3.89788 3.0148C3.13527 3.0148 2.51487 3.63527 2.51487 4.39782ZM20.0423 3.36068L18.6517 5.02045L21.2155 7.83451L21.804 7.13288H27.0322V3.36068H20.0423ZM13.8812 10.7161H11.6434C10.9777 9.51759 9.69922 8.70443 8.23385 8.70443C6.08457 8.70443 4.33603 10.453 4.33603 12.6022C4.33603 14.7515 6.08463 16.5001 8.23385 16.5001C9.69929 16.5001 10.9778 15.6868 11.6434 14.4883H15.6423L17.1416 12.6981L14.5781 9.88406L13.8812 10.7161ZM8.23378 13.9853C7.47117 13.9853 6.85077 13.3648 6.85077 12.6022C6.85077 11.8396 7.47117 11.2192 8.23378 11.2192C8.9964 11.2192 9.6168 11.8396 9.6168 12.6022C9.6168 13.3648 8.9964 13.9853 8.23378 13.9853Z"
                 fill="url(#paint0_linear_581_454)"
               />
@@ -230,8 +292,8 @@ const Navbar = () => {
                   y2="5.85281"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#E12223" />
-                  <stop offset="1" stop-color="#FB5F60" />
+                  <stop stopColor="#E12223" />
+                  <stop offset="1" stopColor="#FB5F60" />
                 </linearGradient>
               </defs>
             </svg>
@@ -239,25 +301,52 @@ const Navbar = () => {
               VadaVision!
             </div>
           </div>
-          <div className=" float-end">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="28"
-              viewBox="0 0 28 28"
-              fill="none"
-            >
-              <g id="menu(1) 1">
-                <path
-                  id="Vector"
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M3.5 7.00001C3.5 6.35568 4.02234 5.83334 4.66667 5.83334H23.3333C23.9777 5.83334 24.5 6.35568 24.5 7.00001C24.5 7.64434 23.9777 8.16668 23.3333 8.16668H4.66667C4.02234 8.16668 3.5 7.64434 3.5 7.00001ZM3.5 14C3.5 13.3557 4.02234 12.8333 4.66667 12.8333H16.3333C16.9777 12.8333 17.5 13.3557 17.5 14C17.5 14.6444 16.9777 15.1667 16.3333 15.1667H4.66667C4.02234 15.1667 3.5 14.6444 3.5 14ZM3.5 21C3.5 20.3557 4.02234 19.8333 4.66667 19.8333H10.5C11.1443 19.8333 11.6667 20.3557 11.6667 21C11.6667 21.6444 11.1443 22.1667 10.5 22.1667H4.66667C4.02234 22.1667 3.5 21.6444 3.5 21Z"
-                  fill="white"
-                />
-              </g>
-            </svg>
+          <div className="float-end mt-2 px-4" onClick={handleToggle}>
+            {showSVG ? (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                onClick={handelOpenDropDown}
+                viewBox="0 0 28 28"
+                fill="none"
+              >
+                <g id="menu(1) 1">
+                  <path
+                    id="Vector"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M3.5 7.00001C3.5 6.35568 4.02234 5.83334 4.66667 5.83334H23.3333C23.9777 5.83334 24.5 6.35568 24.5 7.00001C24.5 7.64434 23.9777 8.16668 23.3333 8.16668H4.66667C4.02234 8.16668 3.5 7.64434 3.5 7.00001ZM3.5 14C3.5 13.3557 4.02234 12.8333 4.66667 12.8333H16.3333C16.9777 12.8333 17.5 13.3557 17.5 14C17.5 14.6444 16.9777 15.1667 16.3333 15.1667H4.66667C4.02234 15.1667 3.5 14.6444 3.5 14ZM3.5 21C3.5 20.3557 4.02234 19.8333 4.66667 19.8333H10.5C11.1443 19.8333 11.6667 20.3557 11.6667 21C11.6667 21.6444 11.1443 22.1667 10.5 22.1667H4.66667C4.02234 22.1667 3.5 21.6444 3.5 21Z"
+                    fill="white"
+                  />
+                </g>
+              </svg>
+            ) : (
+              <span className="text-white" onClick={closeDropDown}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                >
+                  <g id="02 User">
+                    <path
+                      id="Vector"
+                      d="M1.37535 21.6667C1.1693 21.6667 0.96787 21.6056 0.796534 21.4912C0.625198 21.3767 0.491656 21.214 0.412799 21.0237C0.333942 20.8333 0.313314 20.6238 0.353522 20.4217C0.393731 20.2197 0.492971 20.034 0.638689 19.8884L19.8886 0.638479C20.0839 0.443104 20.3489 0.333344 20.6252 0.333344C20.9015 0.333344 21.1665 0.443104 21.3619 0.638479C21.5573 0.833854 21.667 1.09884 21.667 1.37514C21.667 1.65144 21.5573 1.91643 21.3619 2.1118L2.11201 21.3617C2.01536 21.4585 1.90053 21.5353 1.77411 21.5877C1.64769 21.64 1.51218 21.6669 1.37535 21.6667Z"
+                      fill="white"
+                    />
+                    <path
+                      id="Vector_2"
+                      d="M20.6257 21.6667C20.4888 21.6669 20.3533 21.64 20.2269 21.5877C20.1005 21.5353 19.9856 21.4585 19.889 21.3617L0.63912 2.1118C0.443745 1.91643 0.333984 1.65144 0.333984 1.37514C0.333984 1.09884 0.443745 0.833854 0.63912 0.638479C0.834495 0.443104 1.09948 0.333344 1.37578 0.333344C1.65208 0.333344 1.91707 0.443104 2.11244 0.638479L21.3623 19.8884C21.508 20.034 21.6073 20.2197 21.6475 20.4217C21.6877 20.6238 21.6671 20.8333 21.5882 21.0237C21.5094 21.214 21.3758 21.3767 21.2045 21.4912C21.0331 21.6056 20.8317 21.6667 20.6257 21.6667Z"
+                      fill="white"
+                    />
+                  </g>
+                </svg>
+              </span>
+            )}
           </div>
+          {isDropDownOpen && <ResponsiveNavbar />}
         </div>
       </div>
     </>

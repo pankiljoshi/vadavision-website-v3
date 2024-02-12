@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <>
-      <div className="Hero w-full  flex  justify-between gap-40 px-20 bg-gradient-to-br pb-20 from-black to-zinc-950 herosection-bg responsive-herosection">
+      <div className="Hero w-full  flex  pb-10 justify-between gap-40 px-20 bg-gradient-to-br  from-black to-zinc-950 herosection-bg responsive-herosection">
         <div className="LeftSide w-[50%] mt-16 flex-col justify-start items-start gap-6 inline-flex">
           <div className="LeftLabel">
             <div className=" p-4 bg-gradient-to-b from-stone-900 to-stone-950 rounded-full  flex-col justify-start items-start gap-2.5 flex">
@@ -48,8 +48,8 @@ const HeroSection = () => {
                       <g id="chevron-right">
                         <path
                           id="Vector (Stroke)"
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
+                          fillRule="evenodd"
+                          clipRule="evenodd"
                           d="M5.52876 3.52861C5.78911 3.26826 6.21122 3.26826 6.47157 3.52861L10.4716 7.52861C10.7319 7.78896 10.7319 8.21107 10.4716 8.47141L6.47157 12.4714C6.21122 12.7318 5.78911 12.7318 5.52876 12.4714C5.26841 12.2111 5.26841 11.789 5.52876 11.5286L9.05735 8.00001L5.52876 4.47141C5.26841 4.21107 5.26841 3.78896 5.52876 3.52861Z"
                           fill="white"
                         />
@@ -76,7 +76,7 @@ const HeroSection = () => {
                         viewBox="0 0 32 32"
                         fill="none"
                       >
-                        <g id="ai-assistant 1" clip-path="url(#clip0_46_837)">
+                        <g id="ai-assistant 1" clipPath="url(#clip0_46_837)">
                           <g id="Group">
                             <g id="Group_2">
                               <path
@@ -153,8 +153,8 @@ const HeroSection = () => {
                             y2="6.18669"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stop-color="#A8FF78" />
-                            <stop offset="1" stop-color="#78FFD6" />
+                            <stop stopColor="#A8FF78" />
+                            <stop offset="1" stopColor="#78FFD6" />
                           </linearGradient>
                           <linearGradient
                             id="paint1_linear_46_837"
@@ -164,8 +164,8 @@ const HeroSection = () => {
                             y2="24.3748"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stop-color="#A8FF78" />
-                            <stop offset="1" stop-color="#78FFD6" />
+                            <stop stopColor="#A8FF78" />
+                            <stop offset="1" stopColor="#78FFD6" />
                           </linearGradient>
                           <linearGradient
                             id="paint2_linear_46_837"
@@ -175,8 +175,8 @@ const HeroSection = () => {
                             y2="32"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stop-color="#A8FF78" />
-                            <stop offset="1" stop-color="#78FFD6" />
+                            <stop stopColor="#A8FF78" />
+                            <stop offset="1" stopColor="#78FFD6" />
                           </linearGradient>
                           <linearGradient
                             id="paint3_linear_46_837"
@@ -186,8 +186,8 @@ const HeroSection = () => {
                             y2="24.3748"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stop-color="#A8FF78" />
-                            <stop offset="1" stop-color="#78FFD6" />
+                            <stop stopColor="#A8FF78" />
+                            <stop offset="1" stopColor="#78FFD6" />
                           </linearGradient>
                           <linearGradient
                             id="paint4_linear_46_837"
@@ -197,8 +197,8 @@ const HeroSection = () => {
                             y2="32"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stop-color="#A8FF78" />
-                            <stop offset="1" stop-color="#78FFD6" />
+                            <stop stopColor="#A8FF78" />
+                            <stop offset="1" stopColor="#78FFD6" />
                           </linearGradient>
                           <linearGradient
                             id="paint5_linear_46_837"
@@ -208,8 +208,8 @@ const HeroSection = () => {
                             y2="15.5622"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stop-color="#A8FF78" />
-                            <stop offset="1" stop-color="#78FFD6" />
+                            <stop stopColor="#A8FF78" />
+                            <stop offset="1" stopColor="#78FFD6" />
                           </linearGradient>
                           <linearGradient
                             id="paint6_linear_46_837"
@@ -219,8 +219,8 @@ const HeroSection = () => {
                             y2="15.562"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stop-color="#A8FF78" />
-                            <stop offset="1" stop-color="#78FFD6" />
+                            <stop stopColor="#A8FF78" />
+                            <stop offset="1" stopColor="#78FFD6" />
                           </linearGradient>
                           <linearGradient
                             id="paint7_linear_46_837"
@@ -230,8 +230,8 @@ const HeroSection = () => {
                             y2="29.2499"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stop-color="#A8FF78" />
-                            <stop offset="1" stop-color="#78FFD6" />
+                            <stop stopColor="#A8FF78" />
+                            <stop offset="1" stopColor="#78FFD6" />
                           </linearGradient>
                           <linearGradient
                             id="paint8_linear_46_837"
@@ -241,8 +241,8 @@ const HeroSection = () => {
                             y2="31.9999"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stop-color="#A8FF78" />
-                            <stop offset="1" stop-color="#78FFD6" />
+                            <stop stopColor="#A8FF78" />
+                            <stop offset="1" stopColor="#78FFD6" />
                           </linearGradient>
                           <linearGradient
                             id="paint9_linear_46_837"
@@ -252,8 +252,8 @@ const HeroSection = () => {
                             y2="4.12319"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stop-color="#A8FF78" />
-                            <stop offset="1" stop-color="#78FFD6" />
+                            <stop stopColor="#A8FF78" />
+                            <stop offset="1" stopColor="#78FFD6" />
                           </linearGradient>
                           <linearGradient
                             id="paint10_linear_46_837"
@@ -263,8 +263,8 @@ const HeroSection = () => {
                             y2="25.7498"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stop-color="#A8FF78" />
-                            <stop offset="1" stop-color="#78FFD6" />
+                            <stop stopColor="#A8FF78" />
+                            <stop offset="1" stopColor="#78FFD6" />
                           </linearGradient>
                           <linearGradient
                             id="paint11_linear_46_837"
@@ -274,8 +274,8 @@ const HeroSection = () => {
                             y2="25.7498"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stop-color="#A8FF78" />
-                            <stop offset="1" stop-color="#78FFD6" />
+                            <stop stopColor="#A8FF78" />
+                            <stop offset="1" stopColor="#78FFD6" />
                           </linearGradient>
                           <clipPath id="clip0_46_837">
                             <rect width="32" height="32" fill="white" />
@@ -300,7 +300,7 @@ const HeroSection = () => {
                     viewBox="0 0 32 32"
                     fill="none"
                   >
-                    <g id="resource 1" clip-path="url(#clip0_46_856)">
+                    <g id="resource 1" clipPath="url(#clip0_46_856)">
                       <path
                         id="Vector"
                         d="M26 20.5C23.136 20.5 20.779 22.701 20.5255 25.5H12.242C12.094 24.9905 11.8815 24.5 11.61 24.038L12.733 22.6345C13.2275 22.016 13.5 21.2395 13.5 20.448V16.5H15.5255C15.779 19.299 18.136 21.5 21 21.5C24.0325 21.5 26.5 19.0325 26.5 16C26.5 12.9675 24.0325 10.5 21 10.5C18.136 10.5 15.779 12.701 15.5255 15.5H13.5V15.281C13.5 14.5915 13.0325 13.993 12.364 13.826L11.5 13.61L9.5 13.1095L8.5 12.8595L7.5 12.6095V9.5H13C13.827 9.5 14.5 8.827 14.5 8V6.5H20.5255C20.779 9.299 23.136 11.5 26 11.5C29.0325 11.5 31.5 9.0325 31.5 6C31.5 2.9675 29.0325 0.5 26 0.5C23.136 0.5 20.779 2.701 20.5255 5.5H14.5V4C14.5 3.173 13.827 2.5 13 2.5H2C1.173 2.5 0.5 3.173 0.5 4V8C0.5 8.827 1.173 9.5 2 9.5H4.5V14.615C4.0365 14.2365 3.453 14 2.809 14C2.087 14 1.5 14.5875 1.5 15.309C1.5 15.511 1.548 15.714 1.638 15.8945L2.236 17.0905C2.4085 17.4355 2.5 17.8225 2.5 18.208V20.4475C2.5 21.2395 2.7725 22.016 3.267 22.634L4.39 24.0375C3.8085 25.028 3.5 26.1485 3.5 27.3025V31.5H12.5V27.3025C12.5 27.0325 12.4795 26.765 12.4465 26.5H20.5255C20.779 29.299 23.136 31.5 26 31.5C29.0325 31.5 31.5 29.0325 31.5 26C31.5 22.9675 29.0325 20.5 26 20.5ZM18.184 19.5045C18.6025 18.314 19.7165 17.5 21 17.5C22.2835 17.5 23.3975 18.314 23.816 19.5045C23.044 20.126 22.0655 20.5 21 20.5C19.9345 20.5 18.956 20.126 18.184 19.5045ZM19.5 15C19.5 14.173 20.173 13.5 21 13.5C21.827 13.5 22.5 14.173 22.5 15C22.5 15.827 21.827 16.5 21 16.5C20.173 16.5 19.5 15.827 19.5 15ZM21 11.5C23.481 11.5 25.5 13.5185 25.5 16C25.5 17.0225 25.153 17.9635 24.5765 18.72C24.1655 17.8895 23.4845 17.235 22.656 16.8585C23.1695 16.4005 23.5 15.741 23.5 15C23.5 13.6215 22.3785 12.5 21 12.5C19.6215 12.5 18.5 13.6215 18.5 15C18.5 15.741 18.8305 16.4005 19.344 16.8585C18.5155 17.235 17.8345 17.8895 17.4235 18.72C16.847 17.9635 16.5 17.0225 16.5 16C16.5 13.5185 18.519 11.5 21 11.5ZM23.184 9.5045C23.6025 8.314 24.7165 7.5 26 7.5C27.2835 7.5 28.3975 8.314 28.816 9.5045C28.044 10.126 27.0655 10.5 26 10.5C24.9345 10.5 23.956 10.126 23.184 9.5045ZM24.5 5C24.5 4.173 25.173 3.5 26 3.5C26.827 3.5 27.5 4.173 27.5 5C27.5 5.827 26.827 6.5 26 6.5C25.173 6.5 24.5 5.827 24.5 5ZM26 1.5C28.481 1.5 30.5 3.5185 30.5 6C30.5 7.0225 30.153 7.9635 29.5765 8.72C29.1655 7.8895 28.4845 7.235 27.656 6.8585C28.1695 6.4005 28.5 5.741 28.5 5C28.5 3.6215 27.3785 2.5 26 2.5C24.6215 2.5 23.5 3.6215 23.5 5C23.5 5.741 23.8305 6.4005 24.344 6.8585C23.5155 7.235 22.8345 7.8895 22.4235 8.72C21.847 7.9635 21.5 7.0225 21.5 6C21.5 3.5185 23.519 1.5 26 1.5ZM2 8.5C1.7245 8.5 1.5 8.276 1.5 8V4C1.5 3.724 1.7245 3.5 2 3.5H13C13.2755 3.5 13.5 3.724 13.5 4V8C13.5 8.276 13.2755 8.5 13 8.5H7.5V8C7.5 7.173 6.827 6.5 6 6.5C5.173 6.5 4.5 7.173 4.5 8V8.5H2ZM3.5 20.448V18.2085C3.5 17.668 3.3725 17.127 3.1305 16.6435L2.5325 15.4475C2.511 15.405 2.5 15.357 2.5 15.309C2.5 15.1385 2.6385 15 2.809 15C3.7415 15 4.5 15.759 4.5 16.691V17.5V19H5.5V17.5V16.691V8C5.5 7.724 5.7245 7.5 6 7.5C6.2755 7.5 6.5 7.724 6.5 8V12.3595V19H7.5V13.6405L8.5 13.8905V19H9.5V14.1405L10.5 14.3905V19H11.5V14.64L12.121 14.7955C12.344 14.8515 12.5 15.051 12.5 15.281V20.448C12.5 21.0135 12.3055 21.568 11.952 22.0095L10.7595 23.5H5.2405L4.048 22.0095C3.6945 21.568 3.5 21.013 3.5 20.448ZM11.5 30.5H4.5V27.3025C4.5 26.3105 4.767 25.3465 5.275 24.5H10.725C11.233 25.3465 11.5 26.3105 11.5 27.3025V30.5ZM23.184 29.5045C23.6025 28.314 24.7165 27.5 26 27.5C27.2835 27.5 28.3975 28.314 28.816 29.5045C28.044 30.126 27.0655 30.5 26 30.5C24.9345 30.5 23.956 30.126 23.184 29.5045ZM24.5 25C24.5 24.173 25.173 23.5 26 23.5C26.827 23.5 27.5 24.173 27.5 25C27.5 25.827 26.827 26.5 26 26.5C25.173 26.5 24.5 25.827 24.5 25ZM29.5765 28.72C29.1655 27.8895 28.4845 27.235 27.656 26.8585C28.1695 26.4005 28.5 25.741 28.5 25C28.5 23.6215 27.3785 22.5 26 22.5C24.6215 22.5 23.5 23.6215 23.5 25C23.5 25.741 23.8305 26.4005 24.344 26.8585C23.5155 27.235 22.8345 27.8895 22.4235 28.72C21.847 27.9635 21.5 27.0225 21.5 26C21.5 23.5185 23.519 21.5 26 21.5C28.481 21.5 30.5 23.5185 30.5 26C30.5 27.0225 30.153 27.9635 29.5765 28.72Z"
@@ -316,8 +316,8 @@ const HeroSection = () => {
                         y2="31.5"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#E1EEC3" />
-                        <stop offset="1" stop-color="#F05053" />
+                        <stop stopColor="#E1EEC3" />
+                        <stop offset="1" stopColor="#F05053" />
                       </linearGradient>
                       <clipPath id="clip0_46_856">
                         <rect width="32" height="32" fill="white" />
@@ -396,8 +396,8 @@ const HeroSection = () => {
                           y2="30.6667"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop stop-color="#A8C0FF" />
-                          <stop offset="1" stop-color="#8F7BE8" />
+                          <stop stopColor="#A8C0FF" />
+                          <stop offset="1" stopColor="#8F7BE8" />
                         </linearGradient>
                         <linearGradient
                           id="paint1_linear_46_816"
@@ -407,8 +407,8 @@ const HeroSection = () => {
                           y2="15.9993"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop stop-color="#A8C0FF" />
-                          <stop offset="1" stop-color="#8F7BE8" />
+                          <stop stopColor="#A8C0FF" />
+                          <stop offset="1" stopColor="#8F7BE8" />
                         </linearGradient>
                         <linearGradient
                           id="paint2_linear_46_816"
@@ -418,8 +418,8 @@ const HeroSection = () => {
                           y2="15.9992"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop stop-color="#A8C0FF" />
-                          <stop offset="1" stop-color="#8F7BE8" />
+                          <stop stopColor="#A8C0FF" />
+                          <stop offset="1" stopColor="#8F7BE8" />
                         </linearGradient>
                         <linearGradient
                           id="paint3_linear_46_816"
@@ -429,8 +429,8 @@ const HeroSection = () => {
                           y2="15.9993"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop stop-color="#A8C0FF" />
-                          <stop offset="1" stop-color="#8F7BE8" />
+                          <stop stopColor="#A8C0FF" />
+                          <stop offset="1" stopColor="#8F7BE8" />
                         </linearGradient>
                         <linearGradient
                           id="paint4_linear_46_816"
@@ -440,8 +440,8 @@ const HeroSection = () => {
                           y2="20"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop stop-color="#A8C0FF" />
-                          <stop offset="1" stop-color="#8F7BE8" />
+                          <stop stopColor="#A8C0FF" />
+                          <stop offset="1" stopColor="#8F7BE8" />
                         </linearGradient>
                         <linearGradient
                           id="paint5_linear_46_816"
@@ -451,8 +451,8 @@ const HeroSection = () => {
                           y2="22.6667"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop stop-color="#A8C0FF" />
-                          <stop offset="1" stop-color="#8F7BE8" />
+                          <stop stopColor="#A8C0FF" />
+                          <stop offset="1" stopColor="#8F7BE8" />
                         </linearGradient>
                         <linearGradient
                           id="paint6_linear_46_816"
@@ -462,8 +462,8 @@ const HeroSection = () => {
                           y2="10.6667"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop stop-color="#A8C0FF" />
-                          <stop offset="1" stop-color="#8F7BE8" />
+                          <stop stopColor="#A8C0FF" />
+                          <stop offset="1" stopColor="#8F7BE8" />
                         </linearGradient>
                         <linearGradient
                           id="paint7_linear_46_816"
@@ -473,8 +473,8 @@ const HeroSection = () => {
                           y2="10.6667"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop stop-color="#A8C0FF" />
-                          <stop offset="1" stop-color="#8F7BE8" />
+                          <stop stopColor="#A8C0FF" />
+                          <stop offset="1" stopColor="#8F7BE8" />
                         </linearGradient>
                       </defs>
                     </svg>
@@ -519,8 +519,8 @@ const HeroSection = () => {
                           y2="30.4008"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop stop-color="#00B4DB" />
-                          <stop offset="1" stop-color="#0083B0" />
+                          <stop stopColor="#00B4DB" />
+                          <stop offset="1" stopColor="#0083B0" />
                         </linearGradient>
                         <linearGradient
                           id="paint1_linear_46_829"
@@ -530,8 +530,8 @@ const HeroSection = () => {
                           y2="16.9271"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop stop-color="#00B4DB" />
-                          <stop offset="1" stop-color="#0083B0" />
+                          <stop stopColor="#00B4DB" />
+                          <stop offset="1" stopColor="#0083B0" />
                         </linearGradient>
                       </defs>
                     </svg>

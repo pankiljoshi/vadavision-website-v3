@@ -1,6 +1,18 @@
-import React from "react";
+"use client";
+import AiServises from "@/Components/Servises/AiServises";
+import React, { useState } from "react";
 
 const Navbar = () => {
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  const handleOpenModal = () => {
+    setIsPopupOpen(true);
+  };
+
+  const closePopup = () => {
+    setIsPopupOpen(false);
+  };
+
   return (
     <>
       <div className="NavigationWeb w-full px-20  padding-industies py-4 bg-white bg-opacity-5 border border-neutral-900 ">
@@ -47,10 +59,15 @@ const Navbar = () => {
                 <div className="About text-neutral-400 cursor-pointer text-base font-medium font-urbaninst">
                   About
                 </div>
-                <div className="Frame3 justify-start items-center gap-1 flex">
+                <div
+                  className="Frame3 justify-start items-center gap-1 flex"
+                  onClick={handleOpenModal}
+                >
                   <div className="Services text-neutral-400 cursor-pointer text-base font-medium font-urbaninst">
                     Services
                   </div>
+                  {isPopupOpen && <AiServises onClose={closePopup} />}
+
                   <div className="ArrowDown w-4 h-4 px-1 py-1.5 justify-center items-center flex" />
                 </div>
                 <div className="Frame4 justify-start items-center gap-1 flex">

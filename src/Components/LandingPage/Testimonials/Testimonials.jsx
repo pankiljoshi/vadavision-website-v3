@@ -164,7 +164,7 @@ const Testimonials = () => {
                       </div>
                       <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
                         <div className="KevinOBrian  text-white text-2xl font-bold font-urbaninst">
-                          Kevin O’Brian
+                          persie
                         </div>
                         <div className="BusinessDirectorAlphabet ">
                           <span className="text-stone-300 text-base font-normal font-urbaninst">
@@ -197,7 +197,7 @@ const Testimonials = () => {
                       </div>
                       <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
                         <div className="KevinOBrian  text-white text-2xl font-bold font-urbaninst">
-                          Kevin O’Brian
+                          prashant Ranjan{" "}
                         </div>
                         <div className="BusinessDirectorAlphabet ">
                           <span className="text-stone-300 text-base font-normal font-urbaninst">
@@ -219,27 +219,6 @@ const Testimonials = () => {
               </div>
             </SplideSlide>
           </Splide>
-
-          {/* <div class="w-full absolute top-10">
-            <div className="flex justify-end">
-              <button
-                class="splide__arrow splide__arrow--prev"
-                type="button"
-                aria-label="Previous slide"
-                aria-controls="splide01-track"
-              >
-                prev
-              </button>
-              <button
-                class="splide__arrow splide__arrow--next"
-                type="button"
-                aria-label="Next slide"
-                aria-controls="splide01-track"
-              >
-                next
-              </button>
-            </div>
-          </div> */}
         </div>
       </div>
     </>

@@ -94,13 +94,13 @@ const Navbar = () => {
             <div className="relative">
               <div className="Frame  justify-start items-center gap-8 inline-flex">
                 <div
-                  className={`Home text-white cursor-pointer  text-base font-semibold font-urbaninst ${
+                  className={`Home text-white cursor-pointer text-base font-semibold font-urbaninst ${
                     activeTab === "home" ? "active" : ""
                   }`}
                   onClick={() => setActiveTab("home")}
                 >
                   {activeTab === "home" && <RedBar />}
-                  Home
+                  <span className="">Home</span>
                 </div>
 
                 <div

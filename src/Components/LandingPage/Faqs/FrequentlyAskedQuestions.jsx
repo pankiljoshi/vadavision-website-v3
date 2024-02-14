@@ -1,11 +1,23 @@
 "use client";
-import React from "react";
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 import Accordion from "./Faqs";
 
 const FrequentlyAksedQuestions = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <div className="py-6 px-20 padding-industies   ">
-      <div className="">
+      <div data-aos="fade-down" className="">
         <h1 className="capitalize font-montserrat text-[#8E8E8E] text-4xl font-bold leading-[110%] heading">
           some <br />{" "}
           <span className="faq-gradient text-5xl">

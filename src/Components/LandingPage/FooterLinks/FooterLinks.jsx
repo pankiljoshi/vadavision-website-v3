@@ -1,9 +1,24 @@
-import React from "react";
-
+"use client";
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 const FooterLinks = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
-      <div className="Container w-full flex-wrap px-20  justify-between items-center inline-flex padding-industies mt-20 ">
+      <div
+        data-aos="zoom-in"
+        className="Container w-full flex-wrap px-20  justify-between items-center inline-flex padding-industies mt-20 "
+      >
         <div className="LogoAndText w-72 flex-col justify-start items-start gap-4 inline-flex">
           <div className=" cursor-pointer  gap-2 flex flex-row">
             <svg

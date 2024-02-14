@@ -1,11 +1,24 @@
+"use client";
+import Aos from "aos";
+import React, { useEffect } from "react";
 import Image from "next/image";
-import React from "react";
+import "aos/dist/aos.css";
 import Logo from "../../../public/Images/logo.png";
 const Servise = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="Content w-full justify-between py-20 px-16 gap-20 flex responsive-content ">
-        <div className="text-content w-[60%] mt-20">
+        <div data-aos="fade-right" className="text-content w-[60%] mt-20">
           <div className="">
             <h1 className=" gradient-change  text-rose-500 text-6xl font-bold font-urbaninst text-responsive">
               Fast. Efficient. Reliable.
@@ -190,7 +203,7 @@ const Servise = () => {
             </div>
           </div>
         </div>
-        <div className=" min-w-[300px] responsive-logo">
+        <div data-aos="zoom-in" className=" min-w-[300px] responsive-logo">
           <Image src={Logo} alt="" width={380} className="logo" />
         </div>
       </div>

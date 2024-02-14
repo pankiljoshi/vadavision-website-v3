@@ -1,10 +1,25 @@
-import React from "react";
-
+"use client";
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 const ConsultWithUs = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
-      <div className="Card w-full px-20   py-6  justify-center items-center  padding-industies inline-flex consultus-bg">
-        <div className="  self-stretch flex-col justify-start items-center gap-10 inline-flex">
+      <div
+        data-aos="zoom-in"
+        className="Card w-full    py-6  justify-center items-center  padding-industies inline-flex consultus-bg"
+      >
+        <div className="  self-stretch px-20 flex-col justify-start items-center gap-10 inline-flex">
           <div className="Frame1171281442 flex-col justify-start items-center gap-4 flex">
             <div className="ReadyToDiscussYourProject text-white text-5xl font-semibold font-urbaninst">
               Ready to discuss your project?
@@ -14,7 +29,7 @@ const ConsultWithUs = () => {
               professionals.
             </div>
           </div>
-          <div className="Schedulecall h-12 px-10 py-4 bg-[#DD4243] cursor-pointer justify-center items-center gap-4 inline-flex">
+          <div className="Schedulecall h-12 px-10 py-4 bg-[#DD4243] hover:bg-[#D53033] cursor-pointer justify-center items-center gap-4 inline-flex">
             <div className="BookACall text-white text-xl font-light font-urbaninst">
               Schedule a Call
             </div>

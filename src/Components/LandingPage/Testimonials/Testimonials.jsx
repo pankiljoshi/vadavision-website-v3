@@ -1,12 +1,24 @@
 "use client";
 import Image from "next/image";
-import React, { useRef } from "react";
+import Aos from "aos";
+import React, { useEffect, useRef } from "react";
+import "aos/dist/aos.css";
 import CLient from "../../../../public/Images/client.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import "@/components/LandingPage/Testimonials/testimonial.css";
 
 const Testimonials = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   const splideRef = useRef();
   const handlePrevClick = () => {
     if (splideRef.current) {
@@ -22,7 +34,10 @@ const Testimonials = () => {
   return (
     <>
       <div className="w-full px-20  h-[600px] padding-industies  CardLinkedinReview">
-        <div className="Frame1171281456  w-full  pt-20 justify-between  inline-flex">
+        <div
+          data-aos="fade-right"
+          className="Frame1171281456  w-full  pt-20 justify-between  inline-flex"
+        >
           <div className="Title  ">
             <span className="text-neutral-400 text-4xl font-semibold font-change-1 font-urbaninst">
               Hear why our <br />
@@ -34,7 +49,10 @@ const Testimonials = () => {
         </div>
 
         <div className="mt-10 testimonial relative ">
-          <div className="Frame7 justify-end   items-start gap-3.5 flex ">
+          <div
+            data-aos="fade-left"
+            className="Frame7 justify-end   items-start gap-3.5 flex "
+          >
             <div
               onClick={handlePrevClick}
               className="left-arrow w-[70px] h-[36px] z-10 absolute -top-32 right-24 cursor-pointer bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex"
@@ -102,122 +120,124 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <Splide
-            options={{
-              type: "loop",
-              perPage: 2,
-              gap: "1rem",
-              mediaQuery: "max",
-              pagination: false,
+          <div data-aos="zoom-in">
+            <Splide
+              options={{
+                type: "loop",
+                perPage: 2,
+                gap: "1rem",
+                mediaQuery: "max",
+                pagination: false,
 
-              breakpoints: {
-                720: {
-                  perPage: 1,
+                breakpoints: {
+                  720: {
+                    perPage: 1,
+                  },
                 },
-              },
-            }}
-            ref={splideRef}
-          >
-            <SplideSlide>
-              <div className="testimonial-gradient-color-change">
-                <div className=" h-72  testimonial-gradient-cards bg-gradient-color relative flex-col justify-start items-start flex">
-                  <div className="Frame1171281448 flex-col justify-start mt-6 ml-6 items-start gap-8 inline-flex">
-                    <div className="Frame1171281447 justify-start items-center gap-6 inline-flex">
-                      <div className="Group7 w-20 h-20 relative">
-                        <div className="Ellipse309 w-20 h-20 left-0 top-0 absolute rounded-full shadow-inner">
-                          <Image src={CLient} alt="" />
+              }}
+              ref={splideRef}
+            >
+              <SplideSlide>
+                <div className="testimonial-gradient-color-change">
+                  <div className=" h-72  testimonial-gradient-cards bg-gradient-color relative flex-col justify-start items-start flex">
+                    <div className="Frame1171281448 flex-col justify-start mt-6 ml-6 items-start gap-8 inline-flex">
+                      <div className="Frame1171281447 justify-start items-center gap-6 inline-flex">
+                        <div className="Group7 w-20 h-20 relative">
+                          <div className="Ellipse309 w-20 h-20 left-0 top-0 absolute rounded-full shadow-inner">
+                            <Image src={CLient} alt="" />
+                          </div>
+                        </div>
+                        <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
+                          <div className="KevinOBrian  text-white text-2xl font-bold font-urbaninst">
+                            Kevin O’Brian
+                          </div>
+                          <div className="BusinessDirectorAlphabet ">
+                            <span className="text-stone-300 text-base font-normal font-urbaninst">
+                              Business Director -{" "}
+                            </span>
+                            <span className="text-red-500 text-base font-bold font-urbaninst">
+                              Alphabet
+                            </span>
+                          </div>
                         </div>
                       </div>
-                      <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
-                        <div className="KevinOBrian  text-white text-2xl font-bold font-urbaninst">
-                          Kevin O’Brian
-                        </div>
-                        <div className="BusinessDirectorAlphabet ">
-                          <span className="text-stone-300 text-base font-normal font-urbaninst">
-                            Business Director -{" "}
-                          </span>
-                          <span className="text-red-500 text-base font-bold font-urbaninst">
-                            Alphabet
-                          </span>
-                        </div>
+                      <div className="  text-center text-neutral-200 text-xl font-normal font-urbaninst">
+                        It was great to work with Kevin on a UI redesign of our
+                        product from A to Z. He is fast, accurate and expert on
+                        SaaS topics. <br />I recommend him!
                       </div>
-                    </div>
-                    <div className="  text-center text-neutral-200 text-xl font-normal font-urbaninst">
-                      It was great to work with Kevin on a UI redesign of our
-                      product from A to Z. He is fast, accurate and expert on
-                      SaaS topics. <br />I recommend him!
                     </div>
                   </div>
                 </div>
-              </div>
-            </SplideSlide>
-            <SplideSlide>
-              <div className="testimonial-gradient-color-change">
-                <div className=" h-72  testimonial-gradient-cards bg-gradient-color relative flex-col justify-start items-start flex">
-                  <div className="Frame1171281448 flex-col justify-start mt-6 ml-6 items-start gap-8 inline-flex">
-                    <div className="Frame1171281447 justify-start items-center gap-6 inline-flex">
-                      <div className="Group7 w-20 h-20 relative">
-                        <div className="Ellipse309 w-20 h-20 left-0 top-0 absolute rounded-full shadow-inner">
-                          <Image src={CLient} alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                <div className="testimonial-gradient-color-change">
+                  <div className=" h-72  testimonial-gradient-cards bg-gradient-color relative flex-col justify-start items-start flex">
+                    <div className="Frame1171281448 flex-col justify-start mt-6 ml-6 items-start gap-8 inline-flex">
+                      <div className="Frame1171281447 justify-start items-center gap-6 inline-flex">
+                        <div className="Group7 w-20 h-20 relative">
+                          <div className="Ellipse309 w-20 h-20 left-0 top-0 absolute rounded-full shadow-inner">
+                            <Image src={CLient} alt="" />
+                          </div>
+                        </div>
+                        <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
+                          <div className="KevinOBrian  text-white text-2xl font-bold font-urbaninst">
+                            persie
+                          </div>
+                          <div className="BusinessDirectorAlphabet ">
+                            <span className="text-stone-300 text-base font-normal font-urbaninst">
+                              Business Director -{" "}
+                            </span>
+                            <span className="text-red-500 text-base font-bold font-urbaninst">
+                              Alphabet
+                            </span>
+                          </div>
                         </div>
                       </div>
-                      <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
-                        <div className="KevinOBrian  text-white text-2xl font-bold font-urbaninst">
-                          persie
-                        </div>
-                        <div className="BusinessDirectorAlphabet ">
-                          <span className="text-stone-300 text-base font-normal font-urbaninst">
-                            Business Director -{" "}
-                          </span>
-                          <span className="text-red-500 text-base font-bold font-urbaninst">
-                            Alphabet
-                          </span>
-                        </div>
+                      <div className="  text-center text-neutral-200 text-xl font-normal font-urbaninst">
+                        It was great to work with Kevin on a UI redesign of our
+                        product from A to Z. He is fast, accurate and expert on
+                        SaaS topics. <br />I recommend him!
                       </div>
-                    </div>
-                    <div className="  text-center text-neutral-200 text-xl font-normal font-urbaninst">
-                      It was great to work with Kevin on a UI redesign of our
-                      product from A to Z. He is fast, accurate and expert on
-                      SaaS topics. <br />I recommend him!
                     </div>
                   </div>
                 </div>
-              </div>
-            </SplideSlide>
-            <SplideSlide>
-              <div className="testimonial-gradient-color-change">
-                <div className=" h-72  testimonial-gradient-cards bg-gradient-color relative flex-col justify-start items-start flex">
-                  <div className="Frame1171281448 flex-col justify-start mt-6 ml-6 items-start gap-8 inline-flex">
-                    <div className="Frame1171281447 justify-start items-center gap-6 inline-flex">
-                      <div className="Group7 w-20 h-20 relative">
-                        <div className="Ellipse309 w-20 h-20 left-0 top-0 absolute rounded-full shadow-inner">
-                          <Image src={CLient} alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                <div className="testimonial-gradient-color-change">
+                  <div className=" h-72  testimonial-gradient-cards bg-gradient-color relative flex-col justify-start items-start flex">
+                    <div className="Frame1171281448 flex-col justify-start mt-6 ml-6 items-start gap-8 inline-flex">
+                      <div className="Frame1171281447 justify-start items-center gap-6 inline-flex">
+                        <div className="Group7 w-20 h-20 relative">
+                          <div className="Ellipse309 w-20 h-20 left-0 top-0 absolute rounded-full shadow-inner">
+                            <Image src={CLient} alt="" />
+                          </div>
+                        </div>
+                        <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
+                          <div className="KevinOBrian  text-white text-2xl font-bold font-urbaninst">
+                            prashant Ranjan{" "}
+                          </div>
+                          <div className="BusinessDirectorAlphabet ">
+                            <span className="text-stone-300 text-base font-normal font-urbaninst">
+                              Business Director -{" "}
+                            </span>
+                            <span className="text-red-500 text-base font-bold font-urbaninst">
+                              Alphabet
+                            </span>
+                          </div>
                         </div>
                       </div>
-                      <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
-                        <div className="KevinOBrian  text-white text-2xl font-bold font-urbaninst">
-                          prashant Ranjan{" "}
-                        </div>
-                        <div className="BusinessDirectorAlphabet ">
-                          <span className="text-stone-300 text-base font-normal font-urbaninst">
-                            Business Director -{" "}
-                          </span>
-                          <span className="text-red-500 text-base font-bold font-urbaninst">
-                            Alphabet
-                          </span>
-                        </div>
+                      <div className="  text-center text-neutral-200 text-xl font-normal font-urbaninst">
+                        It was great to work with Kevin on a UI redesign of our
+                        product from A to Z. He is fast, accurate and expert on
+                        SaaS topics. <br />I recommend him!
                       </div>
-                    </div>
-                    <div className="  text-center text-neutral-200 text-xl font-normal font-urbaninst">
-                      It was great to work with Kevin on a UI redesign of our
-                      product from A to Z. He is fast, accurate and expert on
-                      SaaS topics. <br />I recommend him!
                     </div>
                   </div>
                 </div>
-              </div>
-            </SplideSlide>
-          </Splide>
+              </SplideSlide>
+            </Splide>
+          </div>
         </div>
       </div>
     </>

@@ -1,14 +1,27 @@
+"use client";
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 import Image from "next/image";
-import React from "react";
 import TweekendApp from "../../../../public/Images/TweekendApp.png";
 import ReactImage from "../../../../public/Images/react.png";
 import NodeImage from "../../../../public/Images/node.png";
 
 const RecentProject = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="RecentProjects w-full   px-20  pt-20 padding-industies   ">
-        <div className=" w-full flex justify-between    ">
+        <div data-aos="fade-down" className=" w-full flex justify-between    ">
           <div className="title-padding w-[700px]">
             <span className="text-neutral-400 text-4xl text-size-change1  font-semibold font-urbaninst">
               Check out our
@@ -81,7 +94,10 @@ const RecentProject = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row gap-10 responsive-project">
+        <div
+          data-aos="fade-up"
+          className="flex flex-row gap-10 responsive-project"
+        >
           <div className=" min-w-[320px] px-10 py-24 mt-10 image-center  bg-gradient-to-b from-zinc-950 via-stone-900 to-stone-950 border-b-4 border-red-500 border-opacity-60 flex-col justify-center items-center inline-flex">
             <Image src={TweekendApp} alt="" width={350} />
           </div>
@@ -111,7 +127,7 @@ const RecentProject = () => {
                 </div>
               </div>
             </div>
-            <div className="BookACall h-[46px] px-10 py-4 cursor-pointer bg-[#DD4243]  border border-white border-opacity-10 justify-center items-center gap-4 inline-flex">
+            <div className="BookACall h-[46px] px-10 py-4 cursor-pointer bg-[#DD4243] hover:bg-[#D53033]  border border-white border-opacity-10 justify-center items-center gap-4 inline-flex">
               <div className="BookACall text-white text-lg font-light font-urbaninst">
                 View Project
               </div>

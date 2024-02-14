@@ -1,10 +1,23 @@
-import React from "react";
+"use client";
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 
 const Industries = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 2000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="industry-bg  w-full px-20  flex-col justify-start items-start gap-14 padding-industies inline-flex">
-        <div className="title-padding   pt-10">
+        <div data-aos="fade-right" className="title-padding   pt-10">
           <span className="text-neutral-400 text-4xl font-semibold font-change-1 font-urbaninst">
             We cover a <br />
           </span>
@@ -12,7 +25,7 @@ const Industries = () => {
             Good Range of Industries
           </span>
         </div>
-        <div className=" w-full">
+        <div data-aos="zoom-in" className=" w-full">
           <div className=" justify-center items-start gap-10 flex-wrap  inline-flex cards">
             <div className="card-responsive w-[400px]  p-6 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">

@@ -1,10 +1,22 @@
-import React from "react";
-
+"use client";
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 const Review = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className=" w-full  py-20 justify-between padding-industies responsive-review flex px-20">
-        <div className="title ">
+        <div data-aos="fade-right" className="title ">
           <span className="text-neutral-400 text-3xl font-semibold  font-change-1 font-urbaninst">
             We are
             <br />
@@ -14,7 +26,10 @@ const Review = () => {
           </span>
         </div>
         <div className="  gap-14 review-rating  inline-flex  ">
-          <div className=" pl-6 pr-12 w-[340px] py-6 bg-neutral-900 upwork  justify-start items-center flex m">
+          <div
+            data-aos="fade-down"
+            className=" pl-6 pr-12 w-[340px] py-6 bg-neutral-900 upwork  justify-start items-center flex m"
+          >
             <div className=" self-stretch justify-center items-center gap-6 inline-flex">
               <div className=" w-20 h-20 relative">
                 <svg
@@ -136,7 +151,10 @@ const Review = () => {
               </div>
             </div>
           </div>
-          <div className=" pl-6 pr-12 py-6 w-[340px] bg-neutral-900 google  justify-start items-center flex ">
+          <div
+            data-aos="fade-up"
+            className=" pl-6 pr-12 py-6 w-[340px] bg-neutral-900 google  justify-start items-center flex "
+          >
             <div className="Frame1171281462 self-stretch justify-start items-center gap-6 inline-flex">
               <div className="GoogleGLogo1 w-20 h-20 relative flex-col justify-start items-start inline-flex">
                 <svg

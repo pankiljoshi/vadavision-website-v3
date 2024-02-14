@@ -1,10 +1,26 @@
-import React from "react";
+"use client";
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 
 const Speciality = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="Unique w-full px-20  padding-industies unique-padding  ">
-        <div className="title-padding  mt-10  gradient-background-img ">
+        <div
+          data-aos="fade-down"
+          className="title-padding  mt-10  gradient-background-img "
+        >
           <span className="text-neutral-400 text-4xl font-semibold font-change-1 font-urbaninst">
             What makes
             <br />
@@ -13,7 +29,10 @@ const Speciality = () => {
             VadaVision! unique
           </span>
         </div>
-        <div className=" justify-center unique-padding px-2 flex-wrap gap-6 inline-flex  pt-10">
+        <div
+          data-aos="fade-up"
+          className=" justify-center unique-padding px-2 flex-wrap gap-6 inline-flex  pt-10"
+        >
           <div className="unique-cards px-4 py-4 bg-no-repeat   w-[380px]  border-gradient border-t border-b border-r  border-zinc-800  background-gradient  	 flex-col justify-start items-start gap-6 inline-flex">
             <div className="Frame1171281468  self-stretch justify-start items-start gap-4 inline-flex">
               <div className="HighQuality1 w-6 h-6 relative">

@@ -1093,3 +1093,9 @@ body {
 background: linear-gradient(82deg, #101010 5.83%, rgba(32, 32, 32, 0.00) 100%);
 backdrop-filter: blur(40px);
 }
+
+.services-Card-hover:hover{
+  scale: 1.1;
+  transition: all ease 0.5s;
+  overflow: hidden;
+}

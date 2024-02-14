@@ -43,23 +43,17 @@ const Accordion = () => {
   };
 
   return (
-    <div
-      className="pb-10 pt-5 mt-14 flex justify-between gap-11 load-faq"
-      data-aos="fade-right"
-    >
-      <div data-aos="fade-up" className="w-[50%] display-full-faq">
+    <div className="pb-10 pt-5 mt-14 flex justify-between gap-11 load-faq">
+      <div data-aos="fade-right" className="w-[50%] display-full-faq">
         {questionsData.map((item) => (
           <>
-            <div data-aos="fade-up" key={item.id} className="accordion-item  ">
+            <div key={item.id} className="accordion-item  ">
               <div
                 className="accordion-header"
                 onClick={() => toggleAccordion(item.id)}
               >
                 <div className="flex gap-2 justify-between accordion-title">
-                  <div
-                    data-aos="fade-up"
-                    className="Montserrat text-[#CFD3D7] text-2xl pt-4  pb-6 font-urbaninst leading-[24px] font-medium"
-                  >
+                  <div className="Montserrat text-[#CFD3D7] text-2xl pt-4  pb-6 font-urbaninst leading-[24px] font-medium">
                     {item.questions}{" "}
                   </div>
                   <div className="accordion-icon mt-6 cursor-pointer ">
@@ -72,10 +66,7 @@ const Accordion = () => {
                 </div>
               </div>
               {openAccordion === item.id && (
-                <div
-                  data-aos="fade-up"
-                  className="text-[15px] font-normal text-[#7e7f7f] pb-6 font-urbaninst  w-[80%] pt-2  accordion-content"
-                >
+                <div className="text-[15px] font-normal text-[#7e7f7f] pb-6 font-urbaninst  w-[80%] pt-2  accordion-content">
                   {item.answer}
                 </div>
               )}
@@ -90,19 +81,16 @@ const Accordion = () => {
           </>
         ))}
       </div>
-      <div data-aos="fade-up" className="w-[50%] hide-faq ">
+      <div data-aos="fade-left" className="w-[50%] hide-faq ">
         {questionsData.map((item) => (
           <>
-            <div data-aos="fade-up" key={item.id} className="accordion-item  ">
+            <div key={item.id} className="accordion-item  ">
               <div
                 className="accordion-header"
                 onClick={() => toggleAccordion(item.id)}
               >
                 <div className="flex gap-2 justify-between accordion-title">
-                  <div
-                    data-aos="fade-up"
-                    className="Montserrat text-[#CFD3D7] text-2xl pt-4  pb-6 font-urbaninst leading-[24px] font-medium"
-                  >
+                  <div className="Montserrat text-[#CFD3D7] text-2xl pt-4  pb-6 font-urbaninst leading-[24px] font-medium">
                     {item.questions}{" "}
                   </div>
                   <div className="accordion-icon mt-6 cursor-pointer ">
@@ -115,10 +103,7 @@ const Accordion = () => {
                 </div>
               </div>
               {openAccordion === item.id && (
-                <div
-                  data-aos="fade-up"
-                  className="text-[15px] font-normal text-[#7e7f7f] pb-6 font-urbaninst  w-[80%] pt-2  accordion-content"
-                >
+                <div className="text-[15px] font-normal text-[#7e7f7f] pb-6 font-urbaninst  w-[80%] pt-2  accordion-content">
                   {item.answer}
                 </div>
               )}
@@ -134,23 +119,16 @@ const Accordion = () => {
         ))}
       </div>
       {showHiddenFaq && (
-        <div data-aos="fade-up" className="w-[50%] display-full-faq  ">
+        <div className="w-[50%] display-full-faq  ">
           {questionsData.map((item) => (
             <>
-              <div
-                data-aos="fade-up"
-                key={item.id}
-                className="accordion-item  "
-              >
+              <div key={item.id} className="accordion-item  ">
                 <div
                   className="accordion-header"
                   onClick={() => toggleAccordion(item.id)}
                 >
                   <div className="flex gap-2 justify-between accordion-title">
-                    <div
-                      data-aos="fade-up"
-                      className="Montserrat text-[#CFD3D7] text-2xl pt-4  pb-6 font-urbaninst leading-[24px] font-medium"
-                    >
+                    <div className="Montserrat text-[#CFD3D7] text-2xl pt-4  pb-6 font-urbaninst leading-[24px] font-medium">
                       {item.questions}{" "}
                     </div>
                     <div className="accordion-icon mt-6 cursor-pointer ">
@@ -163,10 +141,7 @@ const Accordion = () => {
                   </div>
                 </div>
                 {openAccordion === item.id && (
-                  <div
-                    data-aos="fade-up"
-                    className="text-[15px] font-normal text-[#7e7f7f] pb-6 font-urbaninst  w-[80%] pt-2  accordion-content"
-                  >
+                  <div className="text-[15px] font-normal text-[#7e7f7f] pb-6 font-urbaninst  w-[80%] pt-2  accordion-content">
                     {item.answer}
                   </div>
                 )}

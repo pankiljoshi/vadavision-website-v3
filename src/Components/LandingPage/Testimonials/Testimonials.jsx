@@ -4,7 +4,7 @@ import React, { useRef } from "react";
 import CLient from "../../../../public/Images/client.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
-import "@/Components/LandingPage/Testimonials/testimonial.css";
+import "@/components/LandingPage/Testimonials/testimonial.css";
 
 const Testimonials = () => {
   const splideRef = useRef();

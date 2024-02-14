@@ -1,4 +1,4 @@
-import UiUxDesign from "@/Components/Servises/UiUxDesign";
+import UiUxDesign from "@/components/Servises/UiUxDesign";
 import React from "react";
 
 const page = () => {

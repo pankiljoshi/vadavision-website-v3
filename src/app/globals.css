@@ -135,12 +135,12 @@ body {
   opacity: 1;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 840px) {
   .responsive-navbar {
     display: none;
   }
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 840px) {
   .hamburger-icon {
     display: block;
   }

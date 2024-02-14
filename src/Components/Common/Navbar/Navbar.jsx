@@ -8,6 +8,7 @@ const RedBar = () => (
     xmlns="http://www.w3.org/2000/svg"
     width="56"
     height="43"
+    className="top-0 absolute"
     viewBox="0 0 56 43"
     fill="none"
   >
@@ -34,6 +35,7 @@ const Navbar = () => {
 
   const handleOpenModal = () => {
     setIsPopupOpen(true);
+    document.body.style.overflow = "hidden";
   };
 
   const closePopup = () => {
@@ -55,9 +57,9 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="NavigationWeb w-full px-20  padding-none pt-2 bg-white bg-opacity-5 border border-neutral-900 ">
+      <div className="NavigationWeb w-full px-20 relative  padding-none pt-2 bg-white bg-opacity-5 border border-neutral-900 ">
         <div className="responsive-navbar ">
-          <div className="flex justify-between">
+          <div className="flex justify-between items-center h-[60px]">
             <div className="Frame2 cursor-pointer   justify-start items-center gap-2 inline-flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -91,16 +93,16 @@ const Navbar = () => {
                 VadaVision!
               </div>
             </div>
-            <div className="relative">
+            <div className="">
               <div className="Frame  justify-start items-center gap-8 inline-flex">
                 <div
-                  className={`Home text-white cursor-pointer text-base font-semibold font-urbaninst ${
+                  className={`Home text-white cursor-pointer  text-base font-semibold font-urbaninst ${
                     activeTab === "home" ? "active" : ""
                   }`}
                   onClick={() => setActiveTab("home")}
                 >
                   {activeTab === "home" && <RedBar />}
-                  <span className="">Home</span>
+                  <span className=" font-urbaninst ml-2 font-light ">Home</span>
                 </div>
 
                 <div
@@ -110,7 +112,7 @@ const Navbar = () => {
                   onClick={() => setActiveTab("about")}
                 >
                   {activeTab === "about" && <RedBar />}
-                  About
+                  <span className="ml-1 font-urbaninst font-light">About</span>
                 </div>
 
                 <div
@@ -118,18 +120,17 @@ const Navbar = () => {
                   onClick={handleOpenModal}
                 >
                   <div
-                    className={`Services text-neutral-400 cursor-pointer text-base font-medium font-urbaninst ${
+                    className={`Services text-neutral-400   cursor-pointer text-base font-medium font-urbaninst ${
                       activeTab === "services" ? "active" : ""
                     }`}
                     onClick={() => setActiveTab("services")}
                   >
                     {activeTab === "services" && <RedBar />}
-                    Services
+                    <span className=" font-urbaninst font-light">Servises</span>
                   </div>
-                  {isPopupOpen && <AiServises onClose={closePopup} />}
-
-                  <div className="ArrowDown w-4 h-4 px-1 py-1.5 justify-center items-center flex" />
                 </div>
+                {isPopupOpen && <AiServises onClick={closePopup} />}
+
                 <div className="Frame4 justify-start items-center gap-1 flex">
                   <div
                     className={`Product text-neutral-400 cursor-pointer text-base font-medium font-urbaninst ${
@@ -138,7 +139,7 @@ const Navbar = () => {
                     onClick={() => setActiveTab("product")}
                   >
                     {activeTab === "product" && <RedBar />}
-                    Product
+                    <span className=" font-urbaninst font-light">Product</span>
                   </div>
                   <div className="ArrowDown w-4 h-4 px-1 py-1.5 justify-center items-center flex" />
                 </div>
@@ -268,7 +269,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <div className="hamburger-icon  w-full  cursor-pointer hidden">
+        <div className="hamburger-icon  w-full relative  cursor-pointer hidden">
           <div className="Frame2 cursor-pointer pb-4  justify-start items-center gap-2 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -346,7 +347,9 @@ const Navbar = () => {
               </span>
             )}
           </div>
-          {isDropDownOpen && <ResponsiveNavbar />}
+          <div className="top-10 absolute  w-full z-50">
+            {isDropDownOpen && <ResponsiveNavbar />}
+          </div>
         </div>
       </div>
     </>

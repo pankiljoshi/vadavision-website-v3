@@ -1,4 +1,4 @@
-import AiServises from "@/Components/Servises/AiServises";
+import AiServises from "@/components/Servises/AiServises";
 import React from "react";
 
 const page = () => {

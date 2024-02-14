@@ -1,5 +1,5 @@
 "use client";
-import AiServises from "@/Components/Servises/AiServises";
+import AiServises from "@/components/Servises/AiServises";
 import React, { useState } from "react";
 import ResponsiveNavbar from "./ResponsiveNavbar";
 

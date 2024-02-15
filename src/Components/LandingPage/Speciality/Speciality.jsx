@@ -16,16 +16,16 @@ const Speciality = () => {
   }, []);
   return (
     <>
-      <div className="Unique w-full px-20  padding-industies ">
+      <div className="Unique w-full px-20 pt-20  padding-industies ">
         <div
           data-aos="fade-down"
           className="title-padding  mt-10  gradient-background-img "
         >
-          <span className="text-neutral-400 text-4xl font-semibold font-change-1 font-urbaninst">
+          <span className="text-neutral-400 text-4xl font-medium font-change-1 font-urbaninst">
             What makes
             <br />
           </span>
-          <span className="text-pink-600 text-color-change text-6xl font-bold font-change-2 font-urbaninst mt-4">
+          <span className="text-pink-600 text-color-change text-6xl font-bold leading-normal font-change-2 font-urbaninst mt-4">
             VadaVision! unique
           </span>
         </div>

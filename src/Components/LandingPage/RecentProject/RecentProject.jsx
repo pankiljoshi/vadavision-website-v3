@@ -23,11 +23,11 @@ const RecentProject = () => {
       <div className="RecentProjects w-full   px-20  pt-20 padding-industies   ">
         <div data-aos="fade-down" className=" w-full flex justify-between    ">
           <div className="title-padding w-[700px]">
-            <span className="text-neutral-400 text-4xl text-size-change1  font-semibold font-urbaninst">
+            <span className="text-neutral-400 text-4xl text-size-change1  font-medium font-urbaninst">
               Check out our
               <br />
             </span>
-            <span className="color-change text-6xl font-bold text-size-change2  font-urbaninst">
+            <span className="color-change text-6xl font-bold text-size-change2 leading-normal  font-urbaninst">
               Recent Projects
             </span>
           </div>
@@ -98,13 +98,23 @@ const RecentProject = () => {
           data-aos="fade-up"
           className="flex flex-row gap-10 responsive-project"
         >
-          <div className=" min-w-[320px] px-10 py-24 mt-10 image-center  bg-gradient-to-b from-zinc-950 via-stone-900 to-stone-950 border-b-4 border-red-500 border-opacity-60 flex-col justify-center items-center inline-flex">
-            <Image src={TweekendApp} alt="" width={350} />
+          <div className="flex flex-col">
+            <div className=" flex flex-col min-w-[320px] px-10 mt-10 py-24 image-center bg-gradient-to-b from-zinc-950 via-stone-900 to-stone-950   justify-center items-center ">
+              <Image src={TweekendApp} alt="" width={480} />
+            </div>
+            <div
+              className="FooterLine w-full  mx-auto  px-20  h-[4px] border-opacity-30 "
+              style={{
+                background:
+                  "linear-gradient(to right, #DD424300, #DD4243, #DD424300)",
+              }}
+            ></div>
           </div>
+
           <div className="Frame1171281455 mt-20  responsive-project-rightside  flex-col justify-start items-start gap-12 inline-flex">
             <div className="Frame1171281461 flex-col justify-start items-start gap-6 flex">
               <div className="Frame1171281454 flex-col justify-start items-start gap-4 flex">
-                <div className="Frame1171281453 flex-col justify-start items-start gap-2 flex">
+                <div className="Frame1171281453 mt-16 flex-col justify-start items-start gap-2 flex">
                   <div className="Tweekend text-white text-5xl font-bold font-urbaninst">
                     Tweekend
                   </div>

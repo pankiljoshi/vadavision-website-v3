@@ -38,10 +38,10 @@ const Testimonials = () => {
           className="Frame1171281456  w-full  pt-20 justify-between  inline-flex"
         >
           <div className="Title  ">
-            <span className="text-neutral-400 text-4xl font-semibold font-change-1 font-urbaninst">
+            <span className="text-neutral-400 text-4xl font-medium font-change-1 font-urbaninst">
               Hear why our <br />
             </span>
-            <span className="testimonial-gradient text-6xl font-bold font-change-2 font-urbaninst">
+            <span className="testimonial-gradient text-6xl font-bold font-change-2 leading-normal font-urbaninst">
               Client Loves Us{" "}
             </span>
           </div>
@@ -135,9 +135,9 @@ const Testimonials = () => {
             <SplideSlide>
               <div className="testimonial-gradient-color-change">
                 <div className=" h-72  testimonial-gradient-cards bg-gradient-color relative flex-col justify-start items-start flex">
-                  <div className="Frame1171281448 flex-col justify-start mt-6 ml-6 items-start gap-8 inline-flex">
+                  <div className="Frame1171281448 flex-col justify-start mt-6  items-start gap-8 inline-flex">
                     <div className="Frame1171281447 justify-start items-center gap-6 inline-flex">
-                      <div className="Group7 w-20 h-20 relative">
+                      <div className="Group7 ml-4 w-20 h-20 relative">
                         <div className="Ellipse309 w-20 h-20 left-0 top-0 absolute rounded-full shadow-inner">
                           <Image src={CLient} alt="" />
                         </div>
@@ -156,7 +156,7 @@ const Testimonials = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="  text-center text-neutral-200 text-xl font-normal font-urbaninst">
+                    <div className=" px-4 text-center text-neutral-200 text-xl font-normal font-urbaninst">
                       It was great to work with Kevin on a UI redesign of our
                       product from A to Z. He is fast, accurate and expert on
                       SaaS topics. <br />I recommend him!
@@ -168,9 +168,9 @@ const Testimonials = () => {
             <SplideSlide>
               <div className="testimonial-gradient-color-change">
                 <div className=" h-72  testimonial-gradient-cards bg-gradient-color relative flex-col justify-start items-start flex">
-                  <div className="Frame1171281448 flex-col justify-start mt-6 ml-6 items-start gap-8 inline-flex">
+                  <div className="Frame1171281448 flex-col justify-start mt-6  items-start gap-8 inline-flex">
                     <div className="Frame1171281447 justify-start items-center gap-6 inline-flex">
-                      <div className="Group7 w-20 h-20 relative">
+                      <div className="Group7 w-20 h-20 relative ml-4">
                         <div className="Ellipse309 w-20 h-20 left-0 top-0 absolute rounded-full shadow-inner">
                           <Image src={CLient} alt="" />
                         </div>
@@ -189,7 +189,7 @@ const Testimonials = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="  text-center text-neutral-200 text-xl font-normal font-urbaninst">
+                    <div className=" px-4 text-center text-neutral-200 text-xl font-normal font-urbaninst">
                       It was great to work with Kevin on a UI redesign of our
                       product from A to Z. He is fast, accurate and expert on
                       SaaS topics. <br />I recommend him!
@@ -201,9 +201,9 @@ const Testimonials = () => {
             <SplideSlide>
               <div className="testimonial-gradient-color-change">
                 <div className=" h-72  testimonial-gradient-cards bg-gradient-color relative flex-col justify-start items-start flex">
-                  <div className="Frame1171281448 flex-col justify-start mt-6 ml-6 items-start gap-8 inline-flex">
+                  <div className="Frame1171281448 flex-col justify-start mt-6  items-start gap-8 inline-flex">
                     <div className="Frame1171281447 justify-start items-center gap-6 inline-flex">
-                      <div className="Group7 w-20 h-20 relative">
+                      <div className="Group7 w-20 h-20 relative ml-4">
                         <div className="Ellipse309 w-20 h-20 left-0 top-0 absolute rounded-full shadow-inner">
                           <Image src={CLient} alt="" />
                         </div>
@@ -222,7 +222,7 @@ const Testimonials = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="  text-center text-neutral-200 text-xl font-normal font-urbaninst">
+                    <div className=" px-4 text-center text-neutral-200 text-xl font-normal font-urbaninst">
                       It was great to work with Kevin on a UI redesign of our
                       product from A to Z. He is fast, accurate and expert on
                       SaaS topics. <br />I recommend him!

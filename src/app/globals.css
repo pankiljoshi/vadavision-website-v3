@@ -32,12 +32,12 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .gradient-color-change {
-  background: linear-gradient(90.07deg, #00ca96, 3.3%, #0089d6 106.51%);
+  background: linear-gradient(90.07deg, #00ca96, 53.3%, #0089d6 106.51%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .gradient-change {
-  background: linear-gradient(90.07deg, #fc4778, 3.3%, #3952f5 106.51%);
+  background: linear-gradient(90.07deg, #fc4778, 43.3%, #3952f5 106.51%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -105,7 +105,12 @@ body {
   background:  linear-gradient(220.07deg, #161616, 20.3%, #1D1D1D 106.51%);
  
 } */
-
+.text-color-gradient{
+  background: linear-gradient(94deg, #F5F5F5 6.43%, rgba(235, 235, 235, 0.64) 86.66%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 .testimonial-gradient-color-change {
   background: linear-gradient(
     to top,
@@ -125,7 +130,7 @@ body {
     #f00 0%,
     #f00 5%,
     transparent 5%,
-    /* Adjust the percentage based on your requirement */ transparent 100%
+   transparent 100%
   );
   opacity: 0;
   transition: opacity 0.3s;
@@ -768,7 +773,7 @@ body {
 }
 @media screen and (max-width: 750px) {
   .card-responsive {
-    width: 90%;
+    width: 100%;
     margin-bottom: 20px;
   }
 }
@@ -1107,4 +1112,8 @@ backdrop-filter: blur(40px);
   scale: 1.1;
   transition: all ease 0.5s;
   overflow: hidden;
+  border: 1px solid rgba(165, 148, 148, 0.08);
+  background: linear-gradient(82deg, #010101 0.83%, rgba(37, 36, 36, 0.561) 106%);
+  backdrop-filter: blur(10px);
 }
+

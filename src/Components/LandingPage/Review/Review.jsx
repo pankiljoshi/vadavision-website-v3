@@ -17,11 +17,11 @@ const Review = () => {
     <>
       <div className=" w-full  py-20 justify-between padding-industies responsive-review flex px-20">
         <div data-aos="fade-right" className="title ">
-          <span className="text-neutral-400 text-3xl font-semibold  font-change-1 font-urbaninst">
+          <span className="text-neutral-400 text-4xl font-medium  font-change-1 font-urbaninst">
             We are
             <br />
           </span>
-          <span className="text-teal-300 text-color text-6xl font-bold font-change-2 font-urbaninst">
+          <span className=" text-color text-6xl font-bold font-change-2 leading-normal font-urbaninst">
             Top Rated
           </span>
         </div>

@@ -53,7 +53,7 @@ const Navbar = () => {
     setShowSVG(!showSVG);
   };
   const [activeTab, setActiveTab] = useState("home");
-
+  const [hoveredTab, setHoveredTab] = useState("");
   return (
     <>
       <div className="NavigationWeb w-full px-20 relative  padding-none pt-2 bg-white bg-opacity-5 border border-neutral-900 ">
@@ -96,21 +96,35 @@ const Navbar = () => {
               <div className="Frame  justify-start items-center gap-8 inline-flex">
                 <div
                   className={`Home text-white cursor-pointer  text-base font-semibold font-urbaninst ${
-                    activeTab === "home" ? "active" : ""
+                    (activeTab === "home" || hoveredTab === "home") && "active"
                   }`}
+                  onMouseEnter={() => setHoveredTab("home")}
+                  onMouseLeave={() => setHoveredTab("")}
                   onClick={() => setActiveTab("home")}
                 >
-                  {activeTab === "home" && <RedBar />}
-                  <span className=" font-urbaninst ml-2 font-light ">Home</span>
+                  {(activeTab === "home" || hoveredTab === "home") && (
+                    <RedBar />
+                  )}
+                  <span
+                    className=" font-urbaninst ml-2 font-light "
+                    onClick={() => setActiveTab("home")}
+                  >
+                    Home
+                  </span>
                 </div>
 
                 <div
                   className={`About text-neutral-400 cursor-pointer text-base font-medium font-urbaninst ${
-                    activeTab === "about" ? "active" : ""
+                    (activeTab === "about" || hoveredTab === "about") &&
+                    "active"
                   }`}
+                  onMouseEnter={() => setHoveredTab("about")}
+                  onMouseLeave={() => setHoveredTab("")}
                   onClick={() => setActiveTab("about")}
                 >
-                  {activeTab === "about" && <RedBar />}
+                  {(activeTab === "about" || hoveredTab === "about") && (
+                    <RedBar />
+                  )}{" "}
                   <span className="ml-1 font-urbaninst font-light">About</span>
                 </div>
 
@@ -127,6 +141,7 @@ const Navbar = () => {
                       setActiveTab("");
                       handleClosePopup();
                     }}
+                    onClick={() => setActiveTab("servises")}
                   >
                     {activeTab === "services" && <RedBar />}
                     <span className=" font-urbaninst font-light">Servises</span>
@@ -137,11 +152,16 @@ const Navbar = () => {
                 <div className="Frame4 justify-start items-center gap-1 flex">
                   <div
                     className={`Product text-neutral-400 cursor-pointer text-base font-medium font-urbaninst ${
-                      activeTab === "product" ? "active" : ""
+                      (activeTab === "product" || hoveredTab === "product") &&
+                      "active"
                     }`}
+                    onMouseEnter={() => setHoveredTab("product")}
+                    onMouseLeave={() => setHoveredTab("")}
                     onClick={() => setActiveTab("product")}
                   >
-                    {activeTab === "product" && <RedBar />}
+                    {(activeTab === "product" || hoveredTab === "product") && (
+                      <RedBar />
+                    )}{" "}
                     <span className=" font-urbaninst font-light">Product</span>
                   </div>
                   <div className="ArrowDown w-4 h-4 px-1 py-1.5 justify-center items-center flex" />

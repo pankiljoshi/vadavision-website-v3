@@ -21,13 +21,13 @@ const Industries = () => {
           <span className="text-neutral-400 text-4xl font-semibold font-change-1 font-urbaninst">
             We cover a <br />
           </span>
-          <span className="text-emerald-500 gradient-color-change font-change-2 text-6xl font-bold font-urbaninst">
+          <span className=" gradient-color-change font-change-2 text-6xl leading-normal font-bold font-urbaninst">
             Good Range of Industries
           </span>
         </div>
         <div data-aos="zoom-in" className=" w-full">
-          <div className=" justify-center items-start gap-10 flex-wrap  inline-flex cards">
-            <div className="card-responsive w-[357px]  p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
+          <div className=" justify-start items-start gap-10 flex-wrap  inline-flex cards">
+            <div className="card-responsive w-[357px]  p-6 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="ECommerce w-8 h-8 relative">

@@ -20,7 +20,7 @@ const Servise = () => {
       <div className="Content w-full justify-between py-20 px-16 gap-20 flex responsive-content ">
         <div data-aos="fade-right" className="text-content w-[60%] mt-20">
           <div className="">
-            <h1 className=" gradient-change  text-rose-500 text-6xl font-bold font-urbaninst text-responsive">
+            <h1 className=" gradient-change   text-6xl font-bold font-urbaninst text-responsive">
               Fast. Efficient. Reliable.
             </h1>
             <p className="text-neutral-400 text-xl  font-light font-urbaninst paragraph-responsive mt-4">
@@ -30,7 +30,7 @@ const Servise = () => {
           </div>
           <div className="flex flex-row flex-wrap gap-6 responsive-button-servise">
             <div
-              className=" px-3.5 w-[190px] servise-button padding-button  py-3 bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg justify-start items-start gap-2.5 flex mt-10 "
+              className="  w-[170px] servise-button padding-button items-center px-2 py-3  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg justify-start  gap-2 flex mt-10 "
               style={{
                 background:
                   "linear-gradient(180deg, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.1) 100%),linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0) 100%);",
@@ -68,12 +68,12 @@ const Servise = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="font-light text-white font-urbaninst margin-reponsive">
+              <span className="font-light text-white text-sm font-urbaninst margin-reponsive">
                 Multiple Domains
               </span>
             </div>
             <div
-              className=" px-3.5 w-[190px] servise-button  py-3 bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg justify-start items-start gap-2.5 flex mt-10 "
+              className="  w-[170px] servise-button padding-button items-center px-2 py-3  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg justify-start  gap-2 flex mt-10 "
               style={{
                 background:
                   "linear-gradient(180deg, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.1) 100%),linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0) 100%);",
@@ -111,12 +111,12 @@ const Servise = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="font-light text-white font-urbaninst margin-reponsive">
+              <span className="font-light text-white text-sm font-urbaninst margin-reponsive">
                 Timely Delivery
               </span>
             </div>
             <div
-              className=" px-3.5 w-[190px] servise-button py-3 bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg justify-start items-start gap-2.5 flex mt-10 "
+              className="  w-[170px] servise-button padding-button items-center px-2 py-3  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg justify-start  gap-2 flex mt-10 "
               style={{
                 background:
                   "linear-gradient(180deg, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.1) 100%),linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0) 100%);",
@@ -154,12 +154,12 @@ const Servise = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="font-light text-white font-urbaninst margin-reponsive">
+              <span className="font-light text-white text-sm font-urbaninst margin-reponsive">
                 Scalable Tech
               </span>
             </div>{" "}
             <div
-              className=" px-3.5  w-[190px] servise-button py-3 bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg justify-start items-start gap-2.5 flex mt-10 "
+              className="  w-[170px] servise-button padding-button items-center px-2 py-3  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg justify-start  gap-2 flex mt-10 "
               style={{
                 background:
                   "linear-gradient(180deg, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.1) 100%),linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0) 100%);",
@@ -197,7 +197,7 @@ const Servise = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="font-light text-white font-urbaninst margin-reponsive">
+              <span className="font-light text-white text-sm font-urbaninst margin-reponsive">
                 Robust Design
               </span>
             </div>

@@ -1,5 +1,5 @@
 @tailwind base;
-@tailwind Components;
+@tailwind components;
 @tailwind utilities;
 
 
@@ -752,11 +752,11 @@ body {
 
 @media screen and (max-width: 1350px) {
   .card-responsive {
-    width: 400px;
+    width: 290px;
   }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1110px) {
   .card-responsive {
     width: 47%;
   }
@@ -806,8 +806,17 @@ body {
   display: flex;
   justify-content: center;
 }
-
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1370px) {
+  .unique-cards {
+    width: 340px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .unique-cards {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1155px) {
   .unique-cards {
     width: 47%;
   }

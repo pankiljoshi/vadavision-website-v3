@@ -16,7 +16,7 @@ const Speciality = () => {
   }, []);
   return (
     <>
-      <div className="Unique w-full px-20  padding-industies unique-padding  ">
+      <div className="Unique w-full px-20  padding-industies ">
         <div
           data-aos="fade-down"
           className="title-padding  mt-10  gradient-background-img "
@@ -31,9 +31,9 @@ const Speciality = () => {
         </div>
         <div
           data-aos="fade-up"
-          className=" justify-center unique-padding px-2 flex-wrap gap-6 inline-flex  pt-10"
+          className=" justify-center items-start  px-2 flex-wrap gap-10 inline-flex  pt-10"
         >
-          <div className="unique-cards px-4 py-4 bg-no-repeat   w-[380px]  border-gradient border-t border-b border-r  border-zinc-800  background-gradient  	 flex-col justify-start items-start gap-6 inline-flex">
+          <div className="unique-cards px-4 py-4    w-[370px]  border-gradient border-t border-b border-r  border-zinc-800  background-gradient   	 flex-col justify-start items-start gap-6 inline-flex">
             <div className="Frame1171281468  self-stretch justify-start items-start gap-4 inline-flex">
               <div className="HighQuality1 w-6 h-6 relative">
                 <svg
@@ -70,7 +70,7 @@ const Speciality = () => {
             </div>
           </div>
 
-          <div className="unique-cards px-4 py-4 bg-no-repeat w-[380px] background-gradient border-gradient border-t border-b border-r border-zinc-800	   flex-col justify-start items-start gap-6 inline-flex">
+          <div className="unique-cards px-4 py-4 bg-no-repeat w-[370px] background-gradient border-gradient border-t border-b border-r border-zinc-800	   flex-col justify-start items-start gap-6 inline-flex">
             <div className="Frame1171281468 self-stretch justify-start items-start gap-4 inline-flex">
               <div className="ResearchAndDevelopment1 w-6 h-6 relative">
                 <div className="Group w-5 h-6 left-[1.56px] top-[0.36px] absolute">
@@ -133,7 +133,7 @@ const Speciality = () => {
               excellence & strategic capabilities.
             </div>
           </div>
-          <div className="unique-cards px-4 py-4 bg-no-repeat  w-[380px] background-gradient border-gradient border-t border-b border-r border-zinc-800	   flex-col justify-start items-start gap-6 inline-flex">
+          <div className="unique-cards px-4 py-4 bg-no-repeat  w-[370px] background-gradient border-gradient border-t border-b border-r border-zinc-800	   flex-col justify-start items-start gap-6 inline-flex">
             <div className="Frame1171281468 self-stretch justify-start items-start gap-4 inline-flex">
               <div className="Accountability1 w-6 h-6 relative">
                 <svg

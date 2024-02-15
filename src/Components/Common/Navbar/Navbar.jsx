@@ -32,15 +32,14 @@ const RedBar = () => (
 
 const Navbar = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
-
-  const handleOpenModal = () => {
+  const handleOpenPopup = () => {
     setIsPopupOpen(true);
-    document.body.style.overflow = "hidden";
   };
 
-  const closePopup = () => {
+  const handleClosePopup = () => {
     setIsPopupOpen(false);
   };
+
   const [isDropDownOpen, setIsDropDownOpen] = useState(false);
   const handelOpenDropDown = () => {
     setIsDropDownOpen(true);
@@ -115,21 +114,25 @@ const Navbar = () => {
                   <span className="ml-1 font-urbaninst font-light">About</span>
                 </div>
 
-                <div
-                  className="Frame3 justify-start items-center gap-1 flex"
-                  onClick={handleOpenModal}
-                >
+                <div className="Frame3 justify-start items-center gap-1 flex">
                   <div
                     className={`Services text-neutral-400   cursor-pointer text-base font-medium font-urbaninst ${
                       activeTab === "services" ? "active" : ""
                     }`}
-                    onClick={() => setActiveTab("services")}
+                    onMouseEnter={() => {
+                      setActiveTab("services");
+                      handleOpenPopup();
+                    }}
+                    onMouseLeave={() => {
+                      setActiveTab("");
+                      handleClosePopup();
+                    }}
                   >
                     {activeTab === "services" && <RedBar />}
                     <span className=" font-urbaninst font-light">Servises</span>
                   </div>
                 </div>
-                {isPopupOpen && <AiServises onClick={closePopup} />}
+                {isPopupOpen && <AiServises />}
 
                 <div className="Frame4 justify-start items-center gap-1 flex">
                   <div

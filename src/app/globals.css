@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   color: rgb(var(--foreground-rgb));
   background: #000;
@@ -57,6 +56,11 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.herosection-gradient {
+  background: linear-gradient(90.07deg, #ff2b48, 53.3%, #ff7c2b 106.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .testimonial-gradient-cards {
   background-image: url("../../public/Images/testimonialBg.png");
 }
@@ -105,11 +109,15 @@ body {
   background:  linear-gradient(220.07deg, #161616, 20.3%, #1D1D1D 106.51%);
  
 } */
-.text-color-gradient{
-  background: linear-gradient(94deg, #F5F5F5 6.43%, rgba(235, 235, 235, 0.64) 86.66%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.text-color-gradient {
+  background: linear-gradient(
+    94deg,
+    #f5f5f5 6.43%,
+    rgba(235, 235, 235, 0.64) 86.66%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .testimonial-gradient-color-change {
   background: linear-gradient(
@@ -130,7 +138,7 @@ background-clip: text;
     #f00 0%,
     #f00 5%,
     transparent 5%,
-   transparent 100%
+    transparent 100%
   );
   opacity: 0;
   transition: opacity 0.3s;
@@ -193,13 +201,12 @@ background-clip: text;
     text-align: center;
   }
 }
-@media screen and (max-width:520px) {
-  .LeftLabel{
+@media screen and (max-width: 520px) {
+  .LeftLabel {
     display: flex;
     width: 100%;
     justify-content: center;
   }
-  
 }
 /* @media screen and (max-width: 420px) {
   .responsive-font {
@@ -479,12 +486,10 @@ background-clip: text;
   }
 }
 
-@media screen and (max-width:440px) {
-  .gap-responsive
-  {
+@media screen and (max-width: 440px) {
+  .gap-responsive {
     gap: 0px;
   }
-  
 }
 @media screen and (min-width: 900px) {
   .margin-reponsive {
@@ -497,14 +502,13 @@ background-clip: text;
     margin: 0px;
   }
 }
-.consultUs-svg{
+.consultUs-svg {
   margin-right: 2px;
 }
-@media screen and (max-width:1100px) {
-  .consultUs-svg{
+@media screen and (max-width: 1100px) {
+  .consultUs-svg {
     margin-right: 12px;
   }
-  
 }
 @media screen and (max-width: 440px) {
   .servises-card {
@@ -512,7 +516,6 @@ background-clip: text;
     gap: 10px;
   }
 }
-
 
 @media screen and (max-width: 1300px) {
   .logo-responsive {
@@ -754,6 +757,14 @@ background-clip: text;
     padding-right: 30px;
   }
 }
+@media screen and (max-width: 620px) {
+  .padding-between {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 @media screen and (max-width: 1350px) {
   .card-responsive {
@@ -805,11 +816,15 @@ background-clip: text;
 }
 
 .card-responsive:hover::after {
+  border-radius: 259px;
   background: rgba(254, 25, 27, 0.32);
-  filter: blur(60px);
+  filter: blur(40px);
   overflow: hidden;
-  display: flex;
-  justify-content: center;
+  width: 60%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  height: 55px;
 }
 @media screen and (max-width: 1370px) {
   .unique-cards {
@@ -893,15 +908,12 @@ background-clip: text;
     width: 100%;
   }
 }
-@media screen and (max-width:1280px) {
-
-  .padding-none{
+@media screen and (max-width: 1280px) {
+  .padding-none {
     padding-right: 10px;
     padding-left: 10px;
     margin: 0px;
-    
   }
-  
 }
 .disable-scroll {
   overflow: hidden;
@@ -1013,6 +1025,36 @@ background-clip: text;
     width: 100%;
   }
 }
+@media screen and (max-width: 900px) {
+  .text-size-change {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .text-size-change {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .text-size-change {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .text-size {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .text-size {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .text-size {
+    font-size: 17px;
+  }
+}
 @media screen and (max-width: 1100px) {
   .JoinOurNewsletter {
     font-size: 28px;
@@ -1102,18 +1144,71 @@ background-clip: text;
   }
 }
 
-.gradient-background{
+.gradient-background {
   border: 1px solid rgba(255, 255, 255, 0.08);
-background: linear-gradient(82deg, #101010 5.83%, rgba(32, 32, 32, 0.00) 100%);
-backdrop-filter: blur(40px);
+  background: linear-gradient(82deg, #101010 5.83%, rgba(32, 32, 32, 0) 100%);
+  backdrop-filter: blur(40px);
 }
 
-.services-Card-hover:hover{
+.services-Card-hover:hover {
   scale: 1.1;
   transition: all ease 0.5s;
   overflow: hidden;
   border: 1px solid rgba(165, 148, 148, 0.08);
-  background: linear-gradient(82deg, #010101 0.83%, rgba(37, 36, 36, 0.561) 106%);
+  background: linear-gradient(
+    82deg,
+    #010101 0.83%,
+    rgba(37, 36, 36, 0.561) 106%
+  );
   backdrop-filter: blur(10px);
 }
 
+.card-responsive:hover {
+  border-width: 1px 0px;
+  border-style: solid;
+  border-image: linear-gradient(to left, #ffffff00, #ffffff3d, #ffffff00);
+  border-image-slice: 1;
+}
+.border-style {
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #dd424300, #dd4243, #dd424300);
+  border-image-slice: 1;
+}
+
+.border-style-project {
+  border-width: 0px 0px 2px 0px;
+  border-style: solid;
+  border-image: linear-gradient(to left, #dd424300, #dd4243, #dd424300);
+  border-image-slice: 1;
+}
+
+.border-style-milestone {
+  border-width: 0px 2px 0px 0px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #dd424300, #aca4a4, #dd424300);
+  border-image-slice: 1;
+}
+
+.border-style-faq {
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #ffffff00, #ffffff, #ffffff00);
+  border-image-slice: 1;
+}
+
+.background-herosection {
+  background-image: url("../../public/Images/heroBg.png");
+}
+.benefit-heading-gradient {
+  background: linear-gradient(90deg, #f3696e 3.3%, #f8a902 106.51%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.use-case-gradient {
+  background: linear-gradient(94deg, #00ca96 5.14%, #0089d6 97.17%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

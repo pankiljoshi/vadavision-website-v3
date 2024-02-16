@@ -2,6 +2,7 @@
 import AiServises from "@/Components/Servises/AiServises";
 import React, { useState } from "react";
 import ResponsiveNavbar from "./ResponsiveNavbar";
+import Link from "next/link";
 
 const RedBar = () => (
   <svg
@@ -52,7 +53,7 @@ const Navbar = () => {
   const handleToggle = () => {
     setShowSVG(!showSVG);
   };
-  const [activeTab, setActiveTab] = useState("home");
+  const [activeTab, setActiveTab] = useState("");
   const [hoveredTab, setHoveredTab] = useState("");
   return (
     <>
@@ -94,24 +95,27 @@ const Navbar = () => {
             </div>
             <div className="">
               <div className="Frame  justify-start items-center gap-8 inline-flex">
-                <div
-                  className={`Home text-white cursor-pointer  text-base font-semibold font-urbaninst ${
-                    (activeTab === "home" || hoveredTab === "home") && "active"
-                  }`}
-                  onMouseEnter={() => setHoveredTab("home")}
-                  onMouseLeave={() => setHoveredTab("")}
-                  onClick={() => setActiveTab("home")}
-                >
-                  {(activeTab === "home" || hoveredTab === "home") && (
-                    <RedBar />
-                  )}
-                  <span
-                    className=" font-urbaninst ml-2 font-light "
+                <Link href="/">
+                  <div
+                    className={`Home text-white cursor-pointer  text-base font-semibold font-urbaninst ${
+                      (activeTab === "home" || hoveredTab === "home") &&
+                      "active"
+                    }`}
+                    onMouseEnter={() => setHoveredTab("home")}
+                    onMouseLeave={() => setHoveredTab("")}
                     onClick={() => setActiveTab("home")}
                   >
-                    Home
-                  </span>
-                </div>
+                    {(activeTab === "home" || hoveredTab === "home") && (
+                      <RedBar />
+                    )}
+                    <span
+                      className=" font-urbaninst ml-2 font-light "
+                      onClick={() => setActiveTab("home")}
+                    >
+                      Home
+                    </span>
+                  </div>
+                </Link>
 
                 <div
                   className={`About text-neutral-400 cursor-pointer text-base font-medium font-urbaninst ${
@@ -137,17 +141,20 @@ const Navbar = () => {
                       setActiveTab("services");
                       handleOpenPopup();
                     }}
+                    onClick={() => setActiveTab("servises")}
+                  >
+                    {activeTab === "services" && <RedBar />}
+                    <span className=" font-urbaninst font-light">Services</span>
+                  </div>
+                  <div
                     onMouseLeave={() => {
                       setActiveTab("");
                       handleClosePopup();
                     }}
-                    onClick={() => setActiveTab("servises")}
                   >
-                    {activeTab === "services" && <RedBar />}
-                    <span className=" font-urbaninst font-light">Servises</span>
+                    {isPopupOpen && <AiServises />}
                   </div>
                 </div>
-                {isPopupOpen && <AiServises />}
 
                 <div className="Frame4 justify-start items-center gap-1 flex">
                   <div

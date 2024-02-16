@@ -16,7 +16,7 @@ const HeroSection = () => {
   }, []);
   return (
     <>
-      <div className="Hero w-full pt-14 flex  pb-10 justify-between gap-40 px-20 bg-gradient-to-br  from-black to-zinc-950 herosection-bg responsive-herosection">
+      <div className="Hero w-full pt-12 flex  pb-20  justify-between gap-40 px-20 bg-gradient-to-br  from-black to-zinc-950 herosection-bg responsive-herosection">
         <div
           data-aos="fade-right"
           className="LeftSide w-[50%] mt-16 flex-col justify-start items-start gap-6 inline-flex"
@@ -29,13 +29,13 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className="Frame9 flex-col justify-start items-start gap-10 flex">
+          <div className="Frame9 flex-col w-[700px] justify-start items-start gap-10 flex">
             <div className="TitleSubtitle flex-col justify-start items-start gap-6 flex">
-              <div className=" w-full text-neutral-100 leading-relaxed text-6xl font-bold font-prompt text-color-gradient responsive-font">
+              <div className=" w-full text-neutral-100 leading-normal text-6xl font-bold font-prompt text-color-gradient responsive-font">
                 Crafting Digital Dreams <br />
                 into Tangible Reality
               </div>
-              <div className=" w-[650px] text-neutral-400 text-xl font-light font-urbaninst responsive-para">
+              <div className=" w-[640px] text-neutral-400 text-xl font-light font-urbaninst responsive-para">
                 We build a solid foundation for your dream startup and fuel it
                 for explosive growth. With innovative strategies and unwavering
                 dedication, we have the path for success that exceeds.
@@ -356,7 +356,7 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          <div className="Frame1171281406  mt-6 justify-start items-start gap-6 inline-flex">
+          <div className="Frame1171281406  mt-6 justify-start items-start gap-6 inline-flex pb-20">
             <div className="Frame1171281403 servises-cards2 w-[275px] h-[120px] backdrop-blur-3xl   p-6 hover:border-yellow-50 hover:border-opacity-15   services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col justify-start items-start gap-4 flex">
                 <div className="MobileDevelopment1 w-8 h-8 svg-margin relative">

@@ -12,6 +12,7 @@ import FooterLinks from "./FooterLinks/FooterLinks";
 import Footer from "./Footer/Footer";
 import FrequentlyAksedQuestions from "./Faqs/FrequentlyAskedQuestions";
 import Testimonials from "./Testimonials/Testimonials";
+import MileStone from "./MileStone/MileStone";
 
 const LandingPage = () => {
   return (
@@ -22,9 +23,9 @@ const LandingPage = () => {
       <div>
         <HeroSection />
       </div>
-      {/* <div className="mt-20 pt-20">
+      <div className="">
         <MileStone />
-      </div> */}
+      </div>
       <div className="">
         <Servise />
       </div>

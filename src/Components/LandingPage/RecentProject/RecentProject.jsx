@@ -98,17 +98,17 @@ const RecentProject = () => {
           data-aos="fade-up"
           className="flex flex-row gap-10 responsive-project"
         >
-          <div className="flex flex-col">
+          <div className="flex flex-col border-style-project">
             <div className=" flex flex-col min-w-[320px] px-10 mt-10 py-24 image-center bg-gradient-to-b from-zinc-950 via-stone-900 to-stone-950   justify-center items-center ">
               <Image src={TweekendApp} alt="" width={480} />
             </div>
-            <div
+            {/* <div
               className="FooterLine w-full  mx-auto  px-20  h-[4px] border-opacity-30 "
               style={{
                 background:
                   "linear-gradient(to right, #DD424300, #DD4243, #DD424300)",
               }}
-            ></div>
+            ></div> */}
           </div>
 
           <div className="Frame1171281455 mt-20  responsive-project-rightside  flex-col justify-start items-start gap-12 inline-flex">

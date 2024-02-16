@@ -17,7 +17,7 @@ const FooterLinks = () => {
     <>
       <div
         data-aos="zoom-in"
-        className="Container w-full flex-wrap px-20  justify-between items-center inline-flex padding-industies mt-20 "
+        className="Container w-full flex-wrap px-20 border-style pb-16  justify-between items-center inline-flex padding-industies mt-20 "
       >
         <div className="LogoAndText w-72 flex-col justify-start items-start gap-4 inline-flex">
           <div className=" cursor-pointer  gap-2 flex flex-row">
@@ -190,13 +190,6 @@ const FooterLinks = () => {
           </div>
         </div>
       </div>
-      <div
-        className="FooterLine w-full  mx-auto  px-20 mt-10 h-px border-opacity-50"
-        style={{
-          background:
-            "linear-gradient(to right, #DD424300, #DD4243, #DD424300)",
-        }}
-      ></div>
     </>
   );
 };

@@ -44,10 +44,10 @@ const Accordion = () => {
 
   return (
     <div className="pb-10 pt-5 mt-14 flex justify-between gap-11 load-faq">
-      <div data-aos="fade-right" className="w-[50%] display-full-faq">
+      <div data-aos="fade-right" className="w-[50%] display-full-faq ">
         {questionsData.map((item) => (
           <>
-            <div key={item.id} className="accordion-item  ">
+            <div key={item.id} className="accordion-item  border-style-faq ">
               <div
                 className="accordion-header"
                 onClick={() => toggleAccordion(item.id)}
@@ -71,20 +71,13 @@ const Accordion = () => {
                 </div>
               )}
             </div>
-            <div
-              className=" w-[90%] h-[1px] "
-              style={{
-                background:
-                  "linear-gradient(to right, #FFFFFF00, #FFFFFF, #FFFFFF00)",
-              }}
-            ></div>
           </>
         ))}
       </div>
-      <div data-aos="fade-left" className="w-[50%] hide-faq ">
+      <div data-aos="fade-left" className="w-[50%] hide-faq  ">
         {questionsData.map((item) => (
           <>
-            <div key={item.id} className="accordion-item  ">
+            <div key={item.id} className="accordion-item border-style-faq ">
               <div
                 className="accordion-header"
                 onClick={() => toggleAccordion(item.id)}
@@ -108,18 +101,11 @@ const Accordion = () => {
                 </div>
               )}
             </div>
-            <div
-              className=" w-[90%] h-[1px] "
-              style={{
-                background:
-                  "linear-gradient(to right, #FFFFFF00, #FFFFFF, #FFFFFF00)",
-              }}
-            ></div>
           </>
         ))}
       </div>
       {showHiddenFaq && (
-        <div className="w-[50%] display-full-faq  ">
+        <div className="w-[50%] display-full-faq border-style-faq  ">
           {questionsData.map((item) => (
             <>
               <div key={item.id} className="accordion-item  ">
@@ -146,13 +132,6 @@ const Accordion = () => {
                   </div>
                 )}
               </div>
-              <div
-                className=" w-[90%] h-[1px] "
-                style={{
-                  background:
-                    "linear-gradient(to right, #FFFFFF00, #FFFFFF, #FFFFFF00)",
-                }}
-              ></div>
             </>
           ))}
         </div>

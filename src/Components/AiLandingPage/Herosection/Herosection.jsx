@@ -4,8 +4,8 @@ import AiBotRobot from "../../../../public/Images/aiBotRobot.png";
 
 const Herosection = () => {
   return (
-    <div className="w-full flex flex-row px-20 py-10  background-herosection gap-32 bg-gradient-to-br from-black to-zinc-950">
-      <div className="  flex-col justify-start items-start gap-2 mt-20 pt-10 inline-flex">
+    <div className="w-full flex flex-row px-20 py-20  background-herosection gap-32 bg-gradient-to-br from-black to-zinc-950">
+      <div className="  flex-col justify-start items-start gap-2 mt-10 pt-10 inline-flex">
         <div className="justify-start items-center gap-3 inline-flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -52,12 +52,12 @@ const Herosection = () => {
             </div>
           </div>
           <div className="justify-start items-start gap-10 inline-flex">
-            <div className="w-[227px] px-10 py-3 bg-white hover:bg-[#FFFFFF3D] bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex">
+            <div className="w-[198px] px-10 py-2 cursor-pointer bg-white  bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex">
               <div className="text-white text-xl font-light font-urbaninst">
                 Explore More
               </div>
             </div>
-            <div className="w-[287px] px-10 py-3 bg-[#DD4243] hover:bg-[#D53033] justify-center items-center gap-4 flex">
+            <div className="w-[257px] cursor-pointer px-10 py-2 bg-[#D53033]  justify-center items-center gap-4 flex">
               <div className="text-white text-xl font-light font-urbaninst">
                 Schedule a Call
               </div>

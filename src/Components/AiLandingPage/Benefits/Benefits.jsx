@@ -3,7 +3,7 @@ import React from "react";
 const Benefits = () => {
   return (
     <>
-      <div className="w-full px-20 pt-10 bg-gradient-to-r from-zinc-950 to-zinc-950 flex-col justify-center items-start gap-14 inline-flex">
+      <div className="RecentProjects w-full px-20 py-10  flex-col justify-center items-start gap-14 inline-flex">
         <div className="self-stretch justify-start items-center inline-flex">
           <div className="w-[508px]">
             <span className="text-neutral-400 text-[40px] font-medium font-urbaninst">

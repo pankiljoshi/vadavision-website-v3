@@ -10,6 +10,9 @@ import Herosection from "./Herosection/Herosection";
 import Features from "./Features/Features";
 import Benefits from "./Benefits/Benefits";
 import UseCases from "./UseCases/UseCases";
+import AiBotServises from "./AiBotServises/AiBotServises";
+import DataProtection from "./DataProtection/DataProtection";
+import CaseStudie from "./CaseStudies/CaseStudies";
 
 const AiLanding = () => {
   return (
@@ -27,13 +30,22 @@ const AiLanding = () => {
         <Benefits />
       </div>
       <div>
+        <AiBotServises />
+      </div>
+      <div>
         <UseCases />
+      </div>
+      <div>
+        <DataProtection />
       </div>
       <div>
         <Review />
       </div>
       <div>
         <ConsultWithUs />
+      </div>
+      <div>
+        <CaseStudie />
       </div>
       <div>
         <Testimonials />

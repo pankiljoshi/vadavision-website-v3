@@ -1212,3 +1212,31 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.bg-ai-bot-servises{
+  background-image: url('../../public/Images/ai-servises-bg.png');
+  
+}
+
+.gradient-heading{
+  background: linear-gradient(90deg, #FF0F7B 3.3%, #F89B29 106.51%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.data-protection-bg{
+  background-image: url('../../public/Images/dataProtectionBg.png');
+}
+.gradient-heading-text {
+  background: linear-gradient(94deg, #FC4778 5.14%, #3952F5 97.17%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.gradient-case-study{
+  background: linear-gradient(90deg, #FF0F7B 3.3%, #F89B29 106.51%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}

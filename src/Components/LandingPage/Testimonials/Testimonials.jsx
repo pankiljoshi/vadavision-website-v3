@@ -119,7 +119,7 @@ const Testimonials = () => {
           <Splide
             options={{
               type: "loop",
-              perPage: 2,
+              perPage: 3,
               gap: "1rem",
               mediaQuery: "max",
               pagination: false,
@@ -177,14 +177,14 @@ const Testimonials = () => {
                       </div>
                       <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
                         <div className="KevinOBrian  text-white text-2xl font-bold font-urbaninst">
-                          persie
+                          Lindsey Koelpin MD{" "}
                         </div>
                         <div className="BusinessDirectorAlphabet ">
                           <span className="text-stone-300 text-base font-normal font-urbaninst">
-                            Business Director -{" "}
+                            Founder -{" "}
                           </span>
                           <span className="text-red-500 text-base font-bold font-urbaninst">
-                            Alphabet
+                            AB Infotech
                           </span>
                         </div>
                       </div>
@@ -210,14 +210,14 @@ const Testimonials = () => {
                       </div>
                       <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
                         <div className="KevinOBrian  text-white text-2xl font-bold font-urbaninst">
-                          prashant Ranjan{" "}
+                          Santiago Hoeger III{" "}
                         </div>
                         <div className="BusinessDirectorAlphabet ">
                           <span className="text-stone-300 text-base font-normal font-urbaninst">
-                            Business Director -{" "}
+                            Engineer -{" "}
                           </span>
                           <span className="text-red-500 text-base font-bold font-urbaninst">
-                            Alphabet
+                            Orange Tech.{" "}
                           </span>
                         </div>
                       </div>

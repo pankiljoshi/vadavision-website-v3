@@ -12,6 +12,7 @@ module.exports = {
         urbaninst: ["var(--urbaninst)"],
         montserrat: ["var(--montserrat)"],
         prompt: ["var(--prompt)"],
+        raleway: ["var(--raleway)"],
       },
     },
   },

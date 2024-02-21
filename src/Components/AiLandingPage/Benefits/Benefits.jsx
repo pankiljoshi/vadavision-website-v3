@@ -3,21 +3,21 @@ import React from "react";
 const Benefits = () => {
   return (
     <>
-      <div className="RecentProjects w-full px-20 py-10  flex-col justify-center items-start gap-14 inline-flex">
+      <div className="RecentProjects w-full px-20 py-10  flex-col justify-center padding-industies items-start gap-14 inline-flex">
         <div className="self-stretch justify-start items-center inline-flex">
           <div className="w-[508px]">
-            <span className="text-neutral-400 text-[40px] font-medium font-urbaninst">
+            <span className="text-neutral-400 text-[40px] font-change-1 font-medium font-urbaninst">
               Lets look at the
               <br />
             </span>
-            <span className="text-red-400 text-[54px] benefit-heading-gradient font-bold font-urbaninst">
+            <span className="text-red-400 text-[54px] benefit-heading-gradient font-change-2 font-bold font-urbaninst">
               Benefits of AI Bot
             </span>
           </div>
         </div>
-        <div className="self-stretch flex-col justify-start items-start gap-12 inline-flex">
-          <div className="justify-start items-start gap-6 inline-flex">
-            <div className="px-6 p-10 pb-16 bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+        <div className="self-stretch flex-col justify-start  items-start gap-12 inline-flex">
+          <div className="justify-start items-start gap-6 flex-wrap inline-flex">
+            <div className="px-6 card-responsives h-[212px] p-10 w-[30%]  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <div className="w-8 h-8 left-0 top-0 absolute">
@@ -46,17 +46,17 @@ const Benefits = () => {
                     </svg>
                   </div>
                 </div>
-                <div className="w-[286px] text-white text-xl font-medium font-urbaninst">
+                <div className=" text-white text-xl font-medium font-urbaninst">
                   Enhanced Model Accuracy
                 </div>
               </div>
-              <div className="w-[371px] text-neutral-400 text-[15px] font-extralight font-urbaninst">
+              <div className=" text-neutral-400 text-[15px] font-extralight font-urbaninst">
                 We incorporate the enhanced AI Bot engine, which results in
                 accurate response to the prompt. More accuracy, more user
                 satisfaction.
               </div>
             </div>
-            <div className="px-6 p-10 pb-16 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="px-6 card-responsives p-10 h-[212px] w-[30%]  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <div className="w-[30.67px] h-[30.67px] left-[0.67px] top-[0.67px] absolute">
@@ -185,16 +185,16 @@ const Benefits = () => {
                     </svg>
                   </div>
                 </div>
-                <div className="w-[336px] text-white text-xl font-medium font-urbaninst">
+                <div className=" text-white text-xl font-medium font-urbaninst">
                   Scalability of Data Infrastructures
                 </div>
               </div>
-              <div className="w-[371px] text-neutral-400 text-[15px] font-extralight font-urbaninst">
+              <div className=" text-neutral-400 text-[15px] font-extralight font-urbaninst">
                 Ability to handle large volume of data, allowing businesses to
                 scale their operations smoothly and efficiently
               </div>
             </div>
-            <div className="px-6 p-10 pb-16 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="px-6 card-responsives p-10  w-[30%] h-[212px]  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <svg
@@ -247,19 +247,17 @@ const Benefits = () => {
                     </defs>
                   </svg>
                 </div>
-                <div className="w-[307px] text-white text-xl font-medium font-urbaninst">
+                <div className=" text-white text-xl font-medium font-urbaninst">
                   Bespoke Dataset Creation
                 </div>
               </div>
-              <div className="w-[371px] text-neutral-400 text-[15px] font-extralight font-urbaninst">
+              <div className=" text-neutral-400 text-[15px] font-extralight font-urbaninst">
                 Bespoke dataset creation involves collecting and organizing data
                 that is tailored to a specific task, application, or research
                 objective.
               </div>
             </div>
-          </div>
-          <div className="justify-start items-start gap-6 inline-flex">
-            <div className="px-6 p-10 pb-16  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="px-6 card-responsives p-10  w-[30%] h-[212px]  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <svg
@@ -290,17 +288,17 @@ const Benefits = () => {
                     </defs>
                   </svg>
                 </div>
-                <div className="w-[286px] text-white text-xl font-medium font-urbaninst">
+                <div className=" text-white text-xl font-medium font-urbaninst">
                   Security & Compliance
                 </div>
               </div>
-              <div className="w-[379px] text-neutral-400 text-[15px] font-extralight font-urbaninst">
+              <div className=" text-neutral-400 text-[15px] font-extralight font-urbaninst">
                 AI bots are designed with security features to protect user data
                 and comply with relevant regulations, such as GDPR or HIPAA,
                 depending on the industry.
               </div>
             </div>
-            <div className="px-6 p-10 pb-16  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="px-6  card-responsives p-10   w-[30%] h-[212px] bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <svg
@@ -323,16 +321,16 @@ const Benefits = () => {
                     </defs>
                   </svg>
                 </div>
-                <div className="w-[309px] text-white text-xl font-medium font-urbaninst">
+                <div className=" text-white text-xl font-medium font-urbaninst">
                   Muti-Channel Support
                 </div>
               </div>
-              <div className="w-[379px] text-neutral-400 text-[15px] font-extralight font-urbaninst">
+              <div className=" text-neutral-400 text-[15px] font-extralight font-urbaninst">
                 AI bots can communicate in multiple languages, making them
                 accessible to users from different linguistic backgrounds.
               </div>
             </div>
-            <div className="px-6 p-10 pb-16  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="px-6 card-responsives p-10  w-[30%] h-[212px] bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <div className="w-8 h-8 left-0 top-[-0px] absolute">
@@ -373,11 +371,11 @@ const Benefits = () => {
                     </svg>
                   </div>
                 </div>
-                <div className="w-[307px] text-white text-xl font-medium font-urbaninst">
+                <div className=" text-white text-xl font-medium font-urbaninst">
                   Analytics & Reporting
                 </div>
               </div>
-              <div className="w-[379px] text-neutral-400 text-[15px] font-extralight font-urbaninst">
+              <div className=" text-neutral-400 text-[15px] font-extralight font-urbaninst">
                 They provide analytics and reporting capabilities <br />
                 to track user interactions, measure performance metrics, & gain
                 insights for optimization.

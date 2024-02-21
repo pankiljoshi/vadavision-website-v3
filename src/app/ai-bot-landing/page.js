@@ -1,4 +1,4 @@
-import AiLanding from "@/components/AiLandingPage/AiLanding";
+import AiLanding from "@/Components/AiLandingPage/AiLanding";
 import React from "react";
 
 const page = () => {

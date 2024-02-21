@@ -4,7 +4,7 @@ import AiBotRobot from "../../../../public/Images/aiBotRobot.png";
 
 const Herosection = () => {
   return (
-    <div className="w-full flex flex-row px-20 py-20  background-herosection gap-32 bg-gradient-to-br from-black to-zinc-950">
+    <div className="w-full  flex justify-between  bg-no-repeat px-20 py-20  background-herosection gap-28 responsive-herosection  bg-gradient-to-br from-black to-zinc-950">
       <div className="  flex-col justify-start items-start gap-2 mt-10 pt-10 inline-flex">
         <div className="justify-start items-center gap-3 inline-flex">
           <svg
@@ -51,31 +51,35 @@ const Herosection = () => {
               manner.
             </div>
           </div>
-          <div className="justify-start items-start gap-10 inline-flex">
-            <div className="w-[198px] px-10 py-2 cursor-pointer bg-white  bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex">
-              <div className="text-white text-xl font-light font-urbaninst">
+          <div className="Frame1171281419 justify-start items-start gap-10 inline-flex reponsive-button ">
+            <div className="BookACall cursor-pointer px-6 py-3 reponsive-button bg-white hover:bg-[#FFFFFF3D] bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex explore-button">
+              <div className="BookACall w-[120px] text-white text-md font-light text-center  font-urbaninst explore-button">
                 Explore More
               </div>
             </div>
-            <div className="w-[257px] cursor-pointer px-10 py-2 bg-[#D53033]  justify-center items-center gap-4 flex">
-              <div className="text-white text-xl font-light font-urbaninst">
+            <div className="BookACall cursor-pointer reponsive-button px-6 py-3 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button">
+              <div className="BookACall w-[120px]  text-white text-md font-light font-urbaninst Schedule-button">
                 Schedule a Call
               </div>
-              <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
-                <div className="w-4 h-4 relative">
+              <div className="consultUs-svg w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+                <div className="ChevronRight w-4 h-4 relative">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
                     height="16"
                     viewBox="0 0 16 16"
                     fill="none"
+                    className=""
                   >
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M5.52859 3.52851C5.78894 3.26816 6.21105 3.26816 6.4714 3.52851L10.4714 7.52851C10.7317 7.78886 10.7317 8.21097 10.4714 8.47132L6.4714 12.4713C6.21105 12.7317 5.78894 12.7317 5.52859 12.4713C5.26824 12.211 5.26824 11.7889 5.52859 11.5285L9.05719 7.99992L5.52859 4.47132C5.26824 4.21097 5.26824 3.78886 5.52859 3.52851Z"
-                      fill="white"
-                    />
+                    <g id="chevron-right">
+                      <path
+                        id="Vector (Stroke)"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M5.52876 3.52861C5.78911 3.26826 6.21122 3.26826 6.47157 3.52861L10.4716 7.52861C10.7319 7.78896 10.7319 8.21107 10.4716 8.47141L6.47157 12.4714C6.21122 12.7318 5.78911 12.7318 5.52876 12.4714C5.26841 12.2111 5.26841 11.789 5.52876 11.5286L9.05735 8.00001L5.52876 4.47141C5.26841 4.21107 5.26841 3.78896 5.52876 3.52861Z"
+                        fill="white"
+                      />
+                    </g>
                   </svg>
                 </div>
               </div>
@@ -84,7 +88,7 @@ const Herosection = () => {
         </div>
       </div>
 
-      <Image src={AiBotRobot} alt="" width={600} />
+      <Image src={AiBotRobot} alt="" width={550} />
     </div>
   );
 };

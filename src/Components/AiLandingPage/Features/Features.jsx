@@ -3,8 +3,8 @@ import React from "react";
 const Features = () => {
   return (
     <>
-      <div className="w-full h-[107px]  bg-gradient-to-r from-red-500 to-orange-500">
-        <div className="w-full h-[100px] pt-3 flex justify-between px-8  rotate-[-1.24deg] bg-white">
+      <div className="w-full h-[107px] flex-wrap   bg-gradient-to-r from-red-500 to-orange-500">
+        <div className="w-full h-[100px] pt-3 flex flex-wrap padding-none  justify-between px-8  rotate-[-1.24deg] bg-white">
           <div className="  justify-start items-center gap-2 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -12,6 +12,7 @@ const Features = () => {
               height="27"
               viewBox="0 0 29 27"
               fill="none"
+              className="features-svg-responsive"
             >
               <path
                 fillRule="evenodd"
@@ -33,7 +34,7 @@ const Features = () => {
                 </linearGradient>
               </defs>
             </svg>
-            <div className="origin-top-left rotate-[0.76deg] text-black text-2xl font-normal font-urbaninst">
+            <div className="origin-top-left features-text-responsive rotate-[0.76deg] text-black text-2xl font-normal font-urbaninst">
               ChatBot Development
             </div>
           </div>
@@ -44,6 +45,7 @@ const Features = () => {
               height="27"
               viewBox="0 0 29 27"
               fill="none"
+              className="features-svg-responsive"
             >
               <path
                 fillRule="evenodd"
@@ -65,7 +67,7 @@ const Features = () => {
                 </linearGradient>
               </defs>
             </svg>
-            <div className="origin-top-left rotate-[0.76deg] text-black text-2xl font-normal font-urbaninst">
+            <div className="origin-top-left rotate-[0.76deg] features-text-responsive  text-black text-2xl font-normal font-urbaninst">
               ChatGPT Integration
             </div>
           </div>
@@ -76,6 +78,7 @@ const Features = () => {
               height="27"
               viewBox="0 0 29 27"
               fill="none"
+              className="features-svg-responsive"
             >
               <path
                 fillRule="evenodd"
@@ -97,7 +100,7 @@ const Features = () => {
                 </linearGradient>
               </defs>
             </svg>
-            <div className="origin-top-left rotate-[0.76deg] text-black text-2xl font-normal font-urbaninst">
+            <div className="origin-top-left rotate-[0.76deg] features-text-responsive  text-black text-2xl font-normal font-urbaninst">
               Data Preparation Services
             </div>
           </div>
@@ -107,6 +110,7 @@ const Features = () => {
               width="29"
               height="27"
               viewBox="0 0 29 27"
+              className="features-svg-responsive"
               fill="none"
             >
               <path
@@ -129,7 +133,7 @@ const Features = () => {
                 </linearGradient>
               </defs>
             </svg>
-            <div className="origin-top-left rotate-[0.76deg] text-black text-2xl font-normal font-urbaninst">
+            <div className="origin-top-left rotate-[0.76deg] features-text-responsive  text-black text-2xl font-normal font-urbaninst">
               Open Source Models
             </div>
           </div>

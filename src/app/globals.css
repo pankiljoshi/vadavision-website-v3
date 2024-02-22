@@ -47,8 +47,27 @@ body {
 .background-gradient {
   background-image: url("../../public/Images/cardGradient.png");
 }
-.border-gradient {
-  border: linear-gradient(210.07deg, white, 0.1%, #dd424300 106.51%);
+
+.border-gradient-top {
+  /* border: linear-gradient(210.07deg, white, 0.1%, #dd424300 106.51%); */
+  border-width: 1px 1px 0px 0px;
+  border-style: solid;
+  border-image: linear-gradient(to left, #ffffff24, #ffffff00);
+  border-image-slice: 1;
+}
+.border-gradient-right {
+  /* border: linear-gradient(210.07deg, white, 0.1%, #dd424300 106.51%); */
+  border-width: 0px 10px 0px 0px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #ffffff24, #ffffff00);
+  border-image-slice: 1;
+}
+.border-gradient-bottom {
+  /* border: linear-gradient(210.07deg, white, 0.1%, #dd424300 106.51%); */
+  border-width: 0px 1px 1px 0px;
+  border-style: solid;
+  border-image: linear-gradient(to left, #ffffff24, #ffffff00);
+  border-image-slice: 1;
 }
 
 .testimonial-gradient {
@@ -131,6 +150,7 @@ body {
 
 .consultus-bg {
   background-image: url("../../public/Images/Card.png");
+  padding: 30px;
 }
 .hover-bg-gradient {
   background: linear-gradient(
@@ -162,13 +182,11 @@ body {
 @media screen and (max-width: 1320px) {
   .responsive-font {
     font-size: 40px;
+    width: 100%;
+
   }
 }
-@media screen and (max-width: 900px) {
-  .responsive-font {
-    font-size: 60px;
-  }
-}
+
 @media screen and (max-width: 900px) {
   .responsive-font {
     font-size: 60px;
@@ -178,7 +196,7 @@ body {
 @media screen and (max-width: 720px) {
   .responsive-font {
     font-size: 50px;
-    width: 100%;
+    width: 70%;
   }
 }
 
@@ -245,23 +263,23 @@ body {
 }
 @media screen and (max-width: 1320px) {
   .responsive-para {
-    width: 90%;
+    width: 70%;
   }
 }
 
 @media screen and (max-width: 1050px) {
   .responsive-para {
-    width: 100%;
+    width: 70%;
   }
 }
 @media screen and (max-width: 720px) {
   .responsive-para {
-    width: 100%;
+    width: 50%;
   }
 }
 @media screen and (max-width: 480px) {
   .responsive-para {
-    width: 90%;
+    width: 57%;
     flex-wrap: wrap;
   }
 }
@@ -766,8 +784,6 @@ body {
   }
 }
 
-
-
 @media screen and (max-width: 1350px) {
   .card-responsives {
     width: 290px;
@@ -792,8 +808,6 @@ body {
     margin-bottom: 20px;
   }
 }
-
-
 
 @media screen and (max-width: 1350px) {
   .card-responsive {
@@ -855,7 +869,7 @@ body {
   margin: 0 auto;
   height: 55px;
 }
-@media screen and (max-width: 1370px) {
+@media screen and (max-width: 1430px) {
   .unique-cards {
     width: 340px;
   }
@@ -1306,7 +1320,7 @@ body {
 }
 
 @media screen and (max-width: 660px) {
-  .padding-none {
+  .none-padding {
     padding: 0px;
     padding-right: 5px;
     padding-left: 5px;
@@ -1316,4 +1330,64 @@ body {
   .responsive-features {
     flex-wrap: nowrap;
   }
+}
+
+@media screen and (max-width: 940px) {
+  .responsiveServises {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 940px) {
+  .responsiveServises {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .responsive-line {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .responsive-content-aiservises {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .responsive-wrap {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 640px) {
+  .consult-us-button {
+    width: 100%;
+  }
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.bg-servise-gradient {
+  background: linear-gradient(to bottom, #ffffff3b, #ffffff1a);
+}
+.servise-border-gradient {
+  border-radius: 100px;
+  border-top: 1px solid rgba(255, 255, 255, 0.24);
+
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.23) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+
+  backdrop-filter: blur(10px);
 }

@@ -9,10 +9,10 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ["var(--inter)"],
-        urbaninst: ["var(--urbaninst)"],
         montserrat: ["var(--montserrat)"],
         prompt: ["var(--prompt)"],
         raleway: ["var(--raleway)"],
+        urbanist: ["var(--urbanist)"],
       },
     },
   },

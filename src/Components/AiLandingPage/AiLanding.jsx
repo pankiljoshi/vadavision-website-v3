@@ -32,21 +32,21 @@ const AiLanding = () => {
       <div>
         <AiBotServises />
       </div>
-      <div>
+      {/* <div>
         <UseCases />
       </div>
       <div>
         <DataProtection />
-      </div>
+      </div> */}
       <div>
         <Review />
       </div>
       <div>
         <ConsultWithUs />
       </div>
-      <div>
+      {/* <div>
         <CaseStudies />
-      </div>
+      </div> */}
       <div>
         <Testimonials />
       </div>

@@ -40,10 +40,10 @@ const Herosection = () => {
         </div>
         <div className="flex-col justify-start items-start gap-10 flex">
           <div className="flex-col justify-start items-start gap-6 flex">
-            <div className="w-[690px] text-neutral-100 text-[64px] text-color-gradient font-bold font-prompt">
+            <div className=" text-neutral-100 text-[64px] text-color-gradient font-bold font-prompt">
               Unleash the power of AI Chatbot
             </div>
-            <div className="w-[671px] text-neutral-400 text-[20px] font-light font-urbaninst">
+            <div className=" text-neutral-400 text-[20px] font-light font-urbaninst">
               Leverage advanced natural language processing (NLP) algorithms,
               machine learning techniques, & sophisticated dialogue management
               systems and create intelligent virtual assistants capable of

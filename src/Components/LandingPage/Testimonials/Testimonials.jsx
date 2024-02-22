@@ -38,10 +38,10 @@ const Testimonials = () => {
           className="Frame1171281456  w-full  pt-20 justify-between  inline-flex"
         >
           <div className="Title  ">
-            <span className="text-neutral-400 text-4xl font-medium font-change-1 font-urbaninst">
+            <span className="text-neutral-400 text-4xl font-medium font-change-1 font-urbanist">
               Hear why our <br />
             </span>
-            <span className="testimonial-gradient text-6xl font-bold font-change-2 leading-normal font-urbaninst">
+            <span className="testimonial-gradient text-6xl font-bold font-change-2 leading-normal font-urbanist">
               Client Loves Us{" "}
             </span>
           </div>
@@ -147,16 +147,16 @@ const Testimonials = () => {
                           Kevin O’Brian
                         </div>
                         <div className="BusinessDirectorAlphabet ">
-                          <span className="text-stone-300 text-base font-normal font-urbaninst">
+                          <span className="text-stone-300 text-base font-normal font-urbanist">
                             Business Director -{" "}
                           </span>
-                          <span className="text-red-500 text-base font-bold font-urbaninst">
+                          <span className="text-red-500 text-base font-bold font-urbanist">
                             Alphabet
                           </span>
                         </div>
                       </div>
                     </div>
-                    <div className=" px-4 text-center text-neutral-200 text-xl font-normal font-urbaninst">
+                    <div className=" px-4 text-center text-neutral-200 text-xl font-normal font-urbanist">
                       It was great to work with Kevin on a UI redesign of our
                       product from A to Z. He is fast, accurate and expert on
                       SaaS topics. <br />I recommend him!

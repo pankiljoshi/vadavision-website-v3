@@ -55,7 +55,7 @@ const FooterLinks = () => {
           </div>
 
           <div className="TitleAndSubtitle flex-col justify-start items-start gap-2 flex">
-            <div className="HelpingFoundersStartupsWithTechnologyAndDesign w-72 text-white text-opacity-80 text-base font-light font-urbaninst">
+            <div className="HelpingFoundersStartupsWithTechnologyAndDesign w-72 text-white text-opacity-80 text-base font-light font-urbanist">
               Helping founders & startups with technology and design.
             </div>
           </div>
@@ -66,51 +66,51 @@ const FooterLinks = () => {
               Services
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
-              <div className="MobileAppDevelopment cursor-pointer text-white text-xl font-normal font-urbaninst">
+              <div className="MobileAppDevelopment cursor-pointer text-white text-xl font-normal font-urbanist">
                 Mobile App Development
               </div>
-              <div className="UiUxDesign cursor-pointer text-white text-xl font-normal font-urbaninst">
+              <div className="UiUxDesign cursor-pointer text-white text-xl font-normal font-urbanist">
                 UI/ UX Design
               </div>
-              <div className="AiServices cursor-pointer text-white text-xl font-normal font-urbaninst">
+              <div className="AiServices cursor-pointer text-white text-xl font-normal font-urbanist">
                 AI Services
               </div>
             </div>
           </div>
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
-            <div className="Company text-neutral-400 text-base font-normal font-urbaninst">
+            <div className="Company text-neutral-400 text-base font-normal font-urbanist">
               Company
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
-              <div className="Blog cursor-pointer text-white text-xl font-normal font-urbaninst">
+              <div className="Blog cursor-pointer text-white text-xl font-normal font-urbanist">
                 Blog
               </div>
-              <div className="Careers cursor-pointer text-white text-xl font-normal font-urbaninst">
+              <div className="Careers cursor-pointer text-white text-xl font-normal font-urbanist">
                 Careers
               </div>
-              <div className="ContactUs cursor-pointer text-white text-xl font-normal font-urbaninst">
+              <div className="ContactUs cursor-pointer text-white text-xl font-normal font-urbanist">
                 Contact Us
               </div>
             </div>
           </div>
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
-            <div className="Resources text-neutral-400 text-base font-medium font-urbaninst">
+            <div className="Resources text-neutral-400 text-base font-medium font-urbanist">
               Resources
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
-              <div className="Documentation cursor-pointer text-white text-xl font-normal font-urbaninst">
+              <div className="Documentation cursor-pointer text-white text-xl font-normal font-urbanist">
                 Documentation
               </div>
-              <div className="MediaCoverage cursor-pointer text-white text-xl font-normal font-urbaninst">
+              <div className="MediaCoverage cursor-pointer text-white text-xl font-normal font-urbanist">
                 Media Coverage
               </div>
-              <div className="Faqs text-white cursor-pointer text-xl font-normal font-urbaninst">
+              <div className="Faqs text-white cursor-pointer text-xl font-normal font-urbanist">
                 FAQs
               </div>
             </div>
           </div>
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
-            <div className="FollowUsOn text-neutral-400 text-base font-light font-urbaninst">
+            <div className="FollowUsOn text-neutral-400 text-base font-light font-urbanist">
               Follow us on
             </div>
             <div className="ButtonsContainer justify-start items-start gap-2.5 inline-flex">

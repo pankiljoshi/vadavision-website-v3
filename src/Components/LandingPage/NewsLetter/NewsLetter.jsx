@@ -18,7 +18,7 @@ const NewsLetter = () => {
       <div className=" w-full  mt-6 justify-between newsletter-responsive  padding-industies px-20 items-center gap-10 inline-flex">
         <div
           data-aos="fade-right"
-          className="JoinOurNewsletter w-[443px]  text-white text-4xl font-semibold font-urbaninst"
+          className="JoinOurNewsletter w-[443px]  text-white text-4xl font-semibold font-urbanist"
         >
           Join our newsletter to stay connected with us!
         </div>
@@ -36,7 +36,7 @@ const NewsLetter = () => {
             </div>
           </div>
           <div className="Schedulecall w-[180px] h-[48px] cursor-pointer px-10 py-4 bg-[#DD4243] hover:bg-[#D53033] justify-center items-center gap-4 flex">
-            <div className="BookACall text-white text-xl font-light font-urbaninst">
+            <div className="BookACall text-white text-xl font-light font-urbanist">
               Subscribe
             </div>
           </div>

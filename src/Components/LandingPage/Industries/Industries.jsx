@@ -16,7 +16,7 @@ const Industries = () => {
   }, []);
   return (
     <>
-      <div className="industry-bg  w-full px-20  flex-col justify-start items-start gap-14 padding-industies inline-flex">
+      <div className="industry-bg  w-full px-20  flex-col justify-start  items-start gap-14 padding-industies inline-flex">
         <div data-aos="fade-right" className="title-padding   pt-10">
           <span className="text-neutral-400 text-4xl font-semibold font-change-1 font-urbaninst">
             We cover a <br />
@@ -26,7 +26,7 @@ const Industries = () => {
           </span>
         </div>
         <div data-aos="zoom-in" className=" w-full">
-          <div className=" justify-start items-start gap-10 flex-wrap  inline-flex cards">
+          <div className=" justify-start items-start gap-10 flex-wrap   inline-flex cards">
             <div className="card-responsive w-[30%]  p-6 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
@@ -53,11 +53,11 @@ const Industries = () => {
                     </svg>
                   </div>
                   <div className="Frame1171281436 h-28 flex-col justify-start items-start gap-4 flex">
-                    <div className="Fintech self-stretch text-white text-2xl font-semibold font-urbaninst">
+                    <div className="Fintech self-stretch text-white text-2xl font-normal font-urbaninst">
                       E-Commerce
                     </div>
                     <div className="Frame1171281435 self-stretch h-16  flex-col justify-start items-start gap-2 flex">
-                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-base font-semibold font-urbaninst">
+                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-[15px] font-normal italic  font-urbaninst">
                         Increase your checkout count, more than before
                       </div>
                       <div className="EnjoySafeDataHandlingAndEfficientToolsBoostYourBusinessOnlineWithUsForEasyClientInteractionsGrowth self-stretch text-neutral-400 text-sm font-light font-urbaninst">
@@ -138,11 +138,11 @@ const Industries = () => {
                     </div>
                   </div>
                   <div className="Frame1171281436 h-28 flex-col justify-start items-start gap-4 flex">
-                    <div className="Fintech self-stretch text-white text-2xl font-semibold font-urbaninst">
+                    <div className="Fintech self-stretch text-white text-2xl font-normal font-urbaninst">
                       Fintech
                     </div>
                     <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-base font-semibold font-urbaninst">
+                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-[15px] font-normal italic font-urbaninst">
                         Upgrade the finance experience with us
                       </div>
                       <div className="EnjoySafeDataHandlingAndEfficientToolsBoostYourBusinessOnlineWithUsForEasyClientInteractionsGrowth self-stretch text-neutral-400 text-sm font-light font-urbaninst">
@@ -222,11 +222,11 @@ const Industries = () => {
                     </svg>
                   </div>
                   <div className="Frame1171281436 h-28 flex-col justify-start items-start gap-4 flex">
-                    <div className="Fintech self-stretch text-white text-2xl font-semibold font-urbaninst">
+                    <div className="Fintech self-stretch text-white text-2xl font-normal font-urbaninst">
                       Human Resources
                     </div>
                     <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-base font-semibold font-urbaninst">
+                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-[15px] font-normal italic font-urbaninst">
                         Trust us to streamline your HR processes
                       </div>
                       <div className="EnjoySafeDataHandlingAndEfficientToolsBoostYourBusinessOnlineWithUsForEasyClientInteractionsGrowth self-stretch text-neutral-400 text-sm font-light font-urbaninst">
@@ -298,11 +298,11 @@ const Industries = () => {
                     </div>
                   </div>
                   <div className="Frame1171281436 h-28 flex-col justify-start items-start gap-4 flex">
-                    <div className="Fintech self-stretch text-white text-2xl font-semibold  font-urbaninst">
+                    <div className="Fintech self-stretch text-white text-2xl font-normal  font-urbaninst">
                       Accounting
                     </div>
                     <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-base font-semibold font-urbaninst">
+                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-[15px] font-normal italic font-urbaninst">
                         Level Up Your Accounting Online
                       </div>
                       <div className="EnjoySafeDataHandlingAndEfficientToolsBoostYourBusinessOnlineWithUsForEasyClientInteractionsGrowth self-stretch text-neutral-400 text-sm font-light font-urbaninst">
@@ -404,11 +404,11 @@ const Industries = () => {
                     </div>
                   </div>
                   <div className="Frame1171281436 h-28 flex-col justify-start items-start gap-4 flex">
-                    <div className="Fintech self-stretch text-white text-2xl font-semibold font-urbaninst">
+                    <div className="Fintech self-stretch text-white text-2xl font-normal font-urbaninst">
                       Content Generation
                     </div>
                     <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-base font-semibold font-urbaninst">
+                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-[15px] font-normal italic font-urbaninst">
                         Better the content, more the conversion ratio
                       </div>
                       <div className="EnjoySafeDataHandlingAndEfficientToolsBoostYourBusinessOnlineWithUsForEasyClientInteractionsGrowth self-stretch text-neutral-400 text-sm font-light font-urbaninst">
@@ -475,11 +475,11 @@ const Industries = () => {
                     </svg>
                   </div>
                   <div className="Frame1171281436 h-28 flex-col justify-start items-start gap-4 flex">
-                    <div className="Fintech self-stretch text-white text-2xl font-semibold font-urbaninst">
+                    <div className="Fintech self-stretch text-white text-2xl font-normal font-urbaninst">
                       Retail
                     </div>
                     <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-base font-semibold font-urbaninst">
+                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-[15px] font-normal italic font-urbaninst">
                         Simplify your retail experience
                       </div>
                       <div className="EnjoySafeDataHandlingAndEfficientToolsBoostYourBusinessOnlineWithUsForEasyClientInteractionsGrowth self-stretch text-neutral-400 text-sm font-light font-urbaninst">

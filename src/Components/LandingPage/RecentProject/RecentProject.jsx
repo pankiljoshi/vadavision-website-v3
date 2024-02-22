@@ -23,11 +23,11 @@ const RecentProject = () => {
       <div className="RecentProjects w-full   px-20  pt-20 padding-industies   ">
         <div data-aos="fade-down" className=" w-full flex justify-between    ">
           <div className="title-padding w-[700px]">
-            <span className="text-neutral-400 text-4xl text-size-change1  font-medium font-urbaninst">
+            <span className="text-neutral-400 text-4xl text-size-change1  font-medium font-urbanist">
               Check out our
               <br />
             </span>
-            <span className="color-change text-6xl font-bold text-size-change2 leading-normal  font-urbaninst">
+            <span className="color-change text-6xl font-bold text-size-change2 leading-normal font-urbanist">
               Recent Projects
             </span>
           </div>
@@ -111,11 +111,11 @@ const RecentProject = () => {
                   <div className="Tweekend text-white text-5xl font-bold font-urbaninst">
                     Tweekend
                   </div>
-                  <div className="ABookingAppForSocialEvents text-stone-300 text-xl font-normal mt-2 font-urbaninst">
+                  <div className=" text-stone-300 text-xl font-normal mt-2 italic font-urbaninst">
                     A booking app for social events.
                   </div>
                 </div>
-                <div className=" text-neutral-400 text-xl font-light flex-wrap flex font-urbaninst responsive-paragraph">
+                <div className=" text-[#8E8E8E] text-xl font-light flex-wrap flex font-urbaninst responsive-paragraph">
                   It makes planning and attending events simple, <br />
                   helping users find and join social gatherings effortlessly.
                 </div>

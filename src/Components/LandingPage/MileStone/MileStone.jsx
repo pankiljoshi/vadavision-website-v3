@@ -18,7 +18,7 @@ const MileStone = () => {
     <>
       <div
         data-aos="fade-up"
-        className="w-full flex justify-between bg-[#0D0D0D] padding-industies px-20 py-10 "
+        className="w-full flex justify-between bg-[#0D0D0D] padding-industies  py-10 "
       >
         <div className="flex flex-col w-[25%] min-w-[70px] border-style-milestone padding-between  ">
           <div className="flex flex-col mx-auto">
@@ -56,10 +56,10 @@ const MileStone = () => {
                 />
               </svg>
             </span>
-            <div className="text-white text-[40px] text-size-change font-bold font-urbaninst">
+            <div className="text-white text-[40px] text-size-change font-semibold font-urbanist">
               80+
             </div>
-            <p className="text-[#8E8E8E] font-normal text-[20px] text-size  font-urbaninst">
+            <p className="text-[#8E8E8E] font-light text-[20px] text-size font-urbanist">
               Successful Clients{" "}
             </p>
           </div>
@@ -83,7 +83,7 @@ const MileStone = () => {
             <div className="text-white text-[40px] text-size-change font-bold font-urbaninst">
               60+
             </div>
-            <p className="text-[#8E8E8E] font-normal text-[20px] text-size  font-urbaninst">
+            <p className="text-[#8E8E8E] font-light text-[20px] text-size  font-urbaninst">
               5-Star Ratings
             </p>
           </div>
@@ -135,7 +135,7 @@ const MileStone = () => {
             <div className="text-white text-[40px] text-size-change font-bold font-urbaninst">
               100+
             </div>
-            <p className="text-[#8E8E8E] font-normal text-size  text-[20px] font-urbaninst">
+            <p className="text-[#8E8E8E] font-light text-size  text-[20px] font-urbaninst">
               Successful Projects
             </p>
           </div>
@@ -161,7 +161,7 @@ const MileStone = () => {
             <div className="text-white text-[40px] text-size-change font-bold font-urbaninst">
               10+
             </div>
-            <p className="text-[#8E8E8E] font-normal text-[20px] text-size font-urbaninst">
+            <p className="text-[#8E8E8E] font-light text-[20px] text-size font-urbaninst">
               Team Members
             </p>
           </div>

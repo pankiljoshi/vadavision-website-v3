@@ -4,26 +4,26 @@ import Women from "../../../../public/Images/caseStudyWomen.png";
 const CaseStudies = () => {
   return (
     <>
-      <div className="w-full px-20 py-[88px] bg-black flex-col justify-center items-start gap-14 inline-flex">
+      <div className="w-full px-20 py-10 bg-black flex-col justify-center padding-industies items-start gap-14 inline-flex">
         <div className="w-[380px]">
-          <span className="text-neutral-400 text-[40px] font-semibold font-urbaninst">
+          <span className="text-neutral-400 text-[40px] case-study-heading1 font-semibold font-urbaninst">
             Some of our
             <br />
           </span>
-          <span className="text-pink-600 text-[56px] gradient-case-study font-bold font-urbaninst">
+          <span className="text-pink-600 text-[56px] case-study-heading2 gradient-case-study font-bold font-urbaninst">
             Case Studies
           </span>
         </div>
-        <div className="w-[1352px] h-[1014px] relative flex-col justify-start items-start flex">
-          <div className="justify-start items-center gap-16 inline-flex">
+        <div className="w-full relative  flex-col justify-start items-start flex">
+          <div className="justify-start responsive-casestudies  gap-16 inline-flex">
             <Image src={Women} width={540} alt="" />
-            <div className="flex-col w-[340px] justify-start items-start gap-[72px] inline-flex">
-              <div className="flex-col justify-start items-start gap-14 flex">
-                <div className="flex-col justify-start items-start gap-4 flex">
+            <div className="flex-col  justify-start responsive-heading-casestidies items-start gap-[72px] gap-responsive-casestudies-main inline-flex">
+              <div className="flex-col justify-start items-start gap-14 gap-responsive-casestudies flex">
+                <div className="flex-col justify-start responsive-heading-casestidies items-start gap-4 flex">
                   <div className="text-white text-xl font-light font-urbaninst">
                     Support AI Bot
                   </div>
-                  <div className=" text-red-500 text-[40px] font-normal leading-tight font-urbaninst">
+                  <div className=" text-red-500 w-[340px] text-case-studies text-[40px] font-normal leading-tight font-urbaninst">
                     Espress Boutique CX Support AI Bot
                   </div>
                 </div>
@@ -47,7 +47,7 @@ const CaseStudies = () => {
                 </div>
               </div>
               <div className="justify-center items-center gap-2.5 inline-flex">
-                <div className="text-white text-base font-light font-urbaninst">
+                <div className="text-white text-base font-case-study font-light font-urbaninst">
                   Read Case Study
                 </div>
                 <div className="w-6 h-6 relative">
@@ -69,14 +69,14 @@ const CaseStudies = () => {
               </div>
             </div>
           </div>
-          <div className=" px-20 mt-20 justify-between gap-72 inline-flex">
-            <div className="flex-col   gap-20 inline-flex">
-              <div className="flex-col justify-start w-[380px] items-start gap-14 flex">
-                <div className="flex-col justify-start items-start gap-4 flex">
+          <div className="justify-start responsive-casestudies1 gap-responsive-casestudies1-main gap-32 mt-20 inline-flex">
+            <div className="flex-col  justify-start items-start gap-[72px] gap-responsive-casestudies-main  inline-flex">
+              <div className="flex-col justify-start w-[380px] items-start gap-responsive-casestudies gap-14 flex">
+                <div className="flex-col justify-start responsive-heading-casestidies items-start gap-4 flex">
                   <div className="text-white text-xl font-light font-urbaninst">
                     Support AI Bot
                   </div>
-                  <div className=" text-red-500 text-[40px] font-medium leading-tight font-urbaninst">
+                  <div className=" text-red-500 text-[40px] text-case-studies font-medium leading-tight font-urbaninst">
                     Espress Boutique CX Support AI Bot
                   </div>
                 </div>
@@ -100,7 +100,7 @@ const CaseStudies = () => {
                 </div>
               </div>
               <div className=" gap-2.5 inline-flex">
-                <div className="text-white text-base font-light font-urbaninst">
+                <div className="text-white text-base font-case-study font-light font-urbaninst">
                   Read Case Study
                 </div>
                 <div className="w-6 h-6 relative">
@@ -121,9 +121,7 @@ const CaseStudies = () => {
                 </div>
               </div>
             </div>
-            <div>
-              <Image src={Women} width={550} alt="" />
-            </div>
+            <Image src={Women} width={550} alt="" />
           </div>
         </div>
       </div>

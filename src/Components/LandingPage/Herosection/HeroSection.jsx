@@ -16,7 +16,7 @@ const HeroSection = () => {
   }, []);
   return (
     <>
-      <div className="Hero w-full pt-12 flex  pb-20  justify-between gap-40 px-20 bg-gradient-to-br  from-black to-zinc-950 herosection-bg responsive-herosection">
+      <div className=" w-full pt-12 flex    justify-between gap-28 px-20 bg-gradient-to-br herosection-responsive  from-black to-zinc-950 herosection-bg bg-no-repeat ">
         <div
           data-aos="fade-right"
           className="LeftSide w-[50%] mt-16 flex-col justify-start items-start gap-6 inline-flex"
@@ -29,24 +29,24 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className="Frame9 flex-col w-[700px] justify-start items-start gap-10 flex">
-            <div className="TitleSubtitle flex-col justify-start items-start gap-6 flex">
-              <div className=" w-full text-neutral-100 leading-normal text-6xl font-bold font-prompt text-color-gradient responsive-font">
+          <div className=" w-[650px] responsive-section flex-col  justify-start items-start gap-10 flex">
+            <div className=" flex-col justify-start items-start gap-6 flex">
+              <div className="  text-neutral-100 responsive-heading  leading-normal text-6xl font-bold font-prompt text-color-gradient ">
                 Crafting Digital Dreams <br />
                 into Tangible Reality
               </div>
-              <div className=" w-[640px] text-neutral-400 text-xl font-light font-urbaninst responsive-para">
+              <div className="  text-neutral-400 para-responsive  text-xl font-light font-urbaninst ">
                 We build a solid foundation for your dream startup and fuel it
                 for explosive growth. With innovative strategies and unwavering
                 dedication, we have the path for success that exceeds.
               </div>
             </div>
-            <div className="Frame1171281419 justify-start items-start gap-10 inline-flex reponsive-button ">
+            <div className=" justify-start items-start gap-10 inline-flex reponsive-button ">
               <div
                 data-aos="zoom-in"
                 className="BookACall cursor-pointer px-6 py-3 reponsive-button bg-white hover:bg-[#FFFFFF3D] bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex explore-button"
               >
-                <div className="BookACall w-[120px] text-white text-md font-light text-center  font-urbaninst explore-button">
+                <div className="BookACall w-[120px] text-white text-lg font-light text-center  font-urbaninst explore-button">
                   Explore More
                 </div>
               </div>
@@ -85,9 +85,9 @@ const HeroSection = () => {
         </div>
         <div
           data-aos="fade-left"
-          className="Servies w-[50%] rightSide-herosection mt-20 pt-20"
+          className=" w-[50%] padding-responsive mt-20 pt-20"
         >
-          <div className="Frame1171281405  servises-card  ml-20 mt-16 justify-start  items-start gap-6 inline-flex">
+          <div className="  servises-card  ml-20 mt-16 justify-start  items-start gap-6 inline-flex">
             <div className="Frame1171281402 servises-cards1 backdrop-blur-3xl  p-4 w-[172px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col justify-start items-start gap-4 flex">
                 <div className="AiAssistant1 w-8 h-8 relative">

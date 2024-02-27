@@ -150,7 +150,10 @@ body {
 
 .consultus-bg {
   background-image: url("../../public/Images/Card.png");
-  padding: 30px;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 70px;
+  background-position: center 4px;
 }
 .hover-bg-gradient {
   background: linear-gradient(
@@ -193,14 +196,15 @@ body {
     width: 100%;
   }
 }
-@media screen and (max-width: 720px) {
+
+
+@media screen and (max-width: 750px) {
   .responsive-font {
     font-size: 50px;
     width: 70%;
   }
 }
-
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 720px) {
   .responsive-font {
     font-size: 40px;
     text-align: center;
@@ -258,7 +262,7 @@ body {
 
 @media screen and (max-width: 1220px) {
   .responsive-herosection {
-    gap: 80px;
+    gap: 110px;
   }
 }
 @media screen and (max-width: 1320px) {
@@ -301,8 +305,8 @@ body {
 @media screen and (max-width: 1050px) {
   .explore-button {
     width: 130px;
-    font-size: 14px;
-    padding: 0px;
+    font-size: 16px;
+    padding: 4px;
     text-align: center;
   }
 }
@@ -321,11 +325,83 @@ body {
     font-size: 16px;
   }
 }
+
+@media screen and (max-width:1280px) {
+  .herosection-responsive {
+    gap: 140px;
+  }
+  
+}
+@media screen and (max-width:1180px) {
+  .herosection-responsive {
+    gap: 100px;
+  }
+  
+}
+@media screen and (max-width:1110px) {
+  .herosection-responsive {
+    gap: 70px;
+  }
+  
+}
+@media screen and (max-width:1050px) {
+  .herosection-responsive {
+    gap: 40px;
+  }
+  
+}
+@media screen and (max-width:990px) {
+  .herosection-responsive {
+    flex-wrap: wrap;
+  }
+  
+}
+
+@media screen and (max-width:640px) {
+  .responsive-heading{
+    font-size: 42px;
+  }
+  
+}
+@media screen and (max-width:570px) {
+  .responsive-heading{
+    font-size: 36px;
+  }
+  
+}
+@media screen and (max-width:720px) {
+  .responsive-section{
+    width: 550px;
+  }
+  
+}
+@media screen and (max-width:990px) {
+  .padding-responsive{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+}
+
+
+@media screen and (max-width:1280px) {
+  .para-responsive {
+    width: 500px;
+  }
+  
+}
+@media screen and (max-width:1050px) {
+  .para-responsive {
+    width: 450px;
+  }
+  
+}
 @media screen and (max-width: 1050px) {
   .Schedule-button {
     width: 180px;
-    font-size: 12px;
-    padding: 0px;
+    font-size: 14px;
+    padding: 4px;
+
     text-align: center;
   }
 }
@@ -340,7 +416,7 @@ body {
 }
 @media screen and (max-width: 1100px) {
   .responsive-herosection {
-    gap: 40px;
+    gap: 70px;
   }
 }
 @media screen and (max-width: 930px) {
@@ -355,7 +431,7 @@ body {
     width: 100%;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
   .LeftSide {
     width: 100%;
   }
@@ -382,7 +458,7 @@ body {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
   .rightSide-herosection {
     padding: 0px;
     margin: 0px;
@@ -404,7 +480,7 @@ body {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
   .servises-cards1 {
     width: 300px;
     padding: 0px;
@@ -434,7 +510,7 @@ body {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
   .servises-cards2 {
     width: 300px;
     padding: 0px;
@@ -515,7 +591,7 @@ body {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
   .servises-card {
     margin: 0px;
   }
@@ -560,6 +636,107 @@ body {
   }
 }
 
+@media screen and (max-width:1450px) {
+  .width-heading{
+    width: 700px;
+  }
+  
+}
+
+@media screen and (max-width:900px) {
+  .width-heading{
+    width: 650px;
+  }
+  
+}
+@media screen and (max-width:750px) {
+  .width-heading{
+    width: 464px;
+  }
+  
+}
+@media screen and (max-width:1450px) {
+  .paragraph-width{
+    width: 650px;
+  }
+  
+}
+@media screen and (max-width:1350px) {
+  .paragraph-width{
+    width: 590px;
+  }
+  
+}
+@media screen and (max-width:1250px) {
+  .paragraph-width{
+    width: 530px;
+  }
+  
+}
+@media screen and (max-width:750px) {
+  .dataPtotection-paragraph{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:650px) {
+  .dataPtotection-paragraph{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:460px) {
+  .dataprotection-gradient{
+    font-size: 44px;
+  }
+  
+}
+@media screen and (max-width:460px) {
+  .dataprotection-heading{
+    font-size: 34px;
+  }
+  
+}
+@media screen and (max-width:490px) {
+  .dataPtotection-paragraph{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:1080px) {
+  .paragraph-width{
+    width: 460px;
+  }
+  
+}
+/* @media screen and (max-width:650px) {
+  .responsive-button-dataprotection{
+    margin-left: 42px;
+  }
+  
+} */
+@media screen and (max-width:650px) {
+  .button-width{
+    width: 160px;
+  }
+  
+}
+@media screen and (max-width:900px) {
+  .paragraph-width{
+    width: 670px;
+  }
+  
+}
+
+@media screen and (max-width:750px) {
+  .paragraph-width{
+    width: 600px;
+  }
+  
+}
 @media screen and (max-width: 1180px) {
   .logo-responsive {
     width: 200px;
@@ -728,6 +905,12 @@ body {
   }
 }
 
+@media screen and (max-width:750px) {
+  .dataProtection-button{
+    flex-wrap: wrap;
+  }
+  
+}
 @media screen and (max-width: 390px) {
   .margin-reponsive {
     margin-top: 4px;
@@ -747,6 +930,56 @@ body {
   .font-change-1 {
     font-size: 21px;
   }
+}
+@media screen and (max-width:620px) {
+  .text-case-studies{
+    font-size: 30px;
+  }
+  
+}
+@media screen and (max-width:620px) {
+  .responsive-heading-casestidies{
+    justify-content: start;
+    align-items: start;
+  }
+  
+}
+@media screen and (max-width:620px) {
+  .gap-responsive-casestudies{
+    gap: 10px;
+  }
+  
+}
+@media screen and (max-width:620px) {
+  .gap-responsive-casestudies-main{
+    gap: 30px;
+  }
+  
+}
+@media screen and (max-width:620px) {
+  .gap-responsive-casestudies1-main{
+    gap: 40px;
+  }
+  
+}
+@media screen and (max-width:560px) {
+  .case-study-heading2{
+    font-size: 42px;
+  }
+  
+}
+
+@media screen and (max-width:560px) {
+  .case-study-heading1{
+    font-size: 38px;
+  }
+  
+}
+@media screen and (max-width:620px) {
+  .font-case-study{
+    font-size: 20px;
+  }
+  
 }
 @media screen and (max-width: 900px) {
   .font-change-2 {
@@ -824,6 +1057,13 @@ body {
   .consult-us {
     margin-top: 20px;
   }
+}
+
+@media screen and (max-width:620px) {
+  .img-full-width{
+    width: 100%;
+  }
+  
 }
 @media screen and (max-width: 750px) {
   .card-responsive {
@@ -1269,7 +1509,7 @@ body {
   background-image: url("../../public/Images/dataProtectionBg.png");
 }
 .gradient-heading-text {
-  background: linear-gradient(94deg, #fc4778 5.14%, #3952f5 97.17%);
+  background: linear-gradient(94deg, #FC4778 5.14%, #3952F5 97.17%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1294,9 +1534,27 @@ body {
 
 @media screen and (max-width: 1300px) {
   .responsive-herosection {
-    gap: 1px;
+    gap: 100px;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .responsive-herosection {
+    gap: 70px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .responsive-herosection {
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .responsive-herosection {
+    gap: 30px;
+  }
+}
+
+
 
 @media screen and (max-width: 660px) {
   .features-text-responsive {
@@ -1390,4 +1648,27 @@ body {
   );
 
   backdrop-filter: blur(10px);
+}
+
+@media screen and (max-width:1000px) {
+  .responsive-casestudies{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width:1000px) {
+  .responsive-casestudies1{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
 }

@@ -57,7 +57,7 @@ const Navbar = () => {
   const [hoveredTab, setHoveredTab] = useState("");
   return (
     <>
-      <div className="NavigationWeb w-full px-20 relative  padding-none pt-2 bg-white bg-opacity-5 border border-neutral-900 ">
+      <div className="NavigationWeb w-full px-20 relative  padding-none pt-2 pb-2 bg-white bg-opacity-5 border border-neutral-900 ">
         <div className="responsive-navbar ">
           <div className="flex justify-between items-center h-[60px]">
             <div className="Frame2 cursor-pointer   justify-start items-center gap-2 inline-flex">
@@ -129,7 +129,9 @@ const Navbar = () => {
                   {(activeTab === "about" || hoveredTab === "about") && (
                     <RedBar />
                   )}{" "}
-                  <span className="ml-1 font-urbaninst font-light">About</span>
+                  <span className="ml-1 font-urbanist text-[#8E8E8E] font-light">
+                    About
+                  </span>
                 </div>
 
                 <div className="Frame3 justify-start items-center gap-1 flex">
@@ -144,7 +146,9 @@ const Navbar = () => {
                     onClick={() => setActiveTab("servises")}
                   >
                     {activeTab === "services" && <RedBar />}
-                    <span className=" font-urbaninst font-light">Services</span>
+                    <span className=" text-[#8E8E8E] font-light font-urbanist">
+                      Services
+                    </span>
                   </div>
                   <div
                     onMouseLeave={() => {
@@ -169,7 +173,9 @@ const Navbar = () => {
                     {(activeTab === "product" || hoveredTab === "product") && (
                       <RedBar />
                     )}{" "}
-                    <span className=" font-urbaninst font-light">Product</span>
+                    <span className=" text-[#8E8E8E] font-light font-urbanist">
+                      Product
+                    </span>
                   </div>
                   <div className="ArrowDown w-4 h-4 px-1 py-1.5 justify-center items-center flex" />
                 </div>
@@ -274,7 +280,7 @@ const Navbar = () => {
                       </defs>
                     </svg>
                   </div>
-                  <div className="Eng text-neutral-400 text-base cursor-pointer font-medium font-urbaninst">
+                  <div className="Eng text-[16px] text-[#8E8E8E] cursor-pointer font-light font-urbanist">
                     ENG
                   </div>
                   <div className="ArrowDown w-4 h-4 px-1  cursor-pointer justify-center items-center flex">

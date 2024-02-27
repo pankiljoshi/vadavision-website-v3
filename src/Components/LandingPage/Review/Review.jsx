@@ -28,7 +28,7 @@ const Review = () => {
         <div className="  gap-14 review-rating  inline-flex  ">
           <div
             data-aos="fade-down"
-            className=" pl-6 pr-12 w-[340px] py-6 bg-neutral-900 upwork  justify-start items-center flex m"
+            className=" pl-6 pr-12 w-[340px] py-3 bg-neutral-900 upwork  justify-start items-center flex "
           >
             <div className=" self-stretch justify-center items-center gap-6 inline-flex">
               <div className=" w-20 h-20 relative">
@@ -58,7 +58,7 @@ const Review = () => {
                 </svg>
               </div>
               <div className="Frame20 flex-col justify-center items-start gap-4 inline-flex">
-                <div className="Text text-white text-2xl font-semibold font-urbaninst']">
+                <div className="Text text-white text-[24px] font-medium font-urbanist">
                   Upwork Rating
                 </div>
                 <div className="Frame4 justify-center items-center gap-1 inline-flex">
@@ -189,7 +189,7 @@ const Review = () => {
                 </svg>
               </div>
               <div className="Frame20 flex-col justify-center items-start gap-4 inline-flex">
-                <div className="Text text-white text-2xl font-semibold font-urbaninst">
+                <div className="Text text-white text-[24px] font-medium font-urbanist">
                   Google Rating
                 </div>
                 <div className="Frame4 justify-center items-center gap-1 inline-flex">

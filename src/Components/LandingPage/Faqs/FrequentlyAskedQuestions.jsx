@@ -16,7 +16,7 @@ const FrequentlyAksedQuestions = () => {
     }
   }, []);
   return (
-    <div className="py-6 px-20 padding-industies   ">
+    <div className=" px-20 mb-20 padding-industies   ">
       <div data-aos="fade-down" className="">
         <h1 className="capitalize font-montserrat text-[#8E8E8E] text-4xl font-semibold leading-[110%] heading">
           some <br />{" "}

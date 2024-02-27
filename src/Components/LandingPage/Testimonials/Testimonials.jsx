@@ -32,7 +32,7 @@ const Testimonials = () => {
   };
   return (
     <>
-      <div className="w-full px-20  h-[600px] padding-industies  CardLinkedinReview">
+      <div className="w-full px-20  h-[600px] mb-20 padding-industies  CardLinkedinReview">
         <div
           data-aos="fade-right"
           className="Frame1171281456  w-full  pt-20 justify-between  inline-flex"
@@ -47,11 +47,11 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div data-aos="fade-left" className="mt-10 testimonial relative ">
+        <div data-aos="fade-left" className="mt-10  testimonial relative ">
           <div className="Frame7 justify-end   items-start gap-3.5 flex ">
             <div
               onClick={handlePrevClick}
-              className="left-arrow w-[70px] h-[36px] z-10 absolute -top-32 right-24 cursor-pointer bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex"
+              className="left-arrow w-[70px] h-[36px]  z-10 absolute -top-32 right-24 cursor-pointer bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex"
             >
               <div className="Frame w-6  relative">
                 <svg
@@ -119,7 +119,7 @@ const Testimonials = () => {
           <Splide
             options={{
               type: "loop",
-              perPage: 3,
+              perPage: 2,
               gap: "1rem",
               mediaQuery: "max",
               pagination: false,

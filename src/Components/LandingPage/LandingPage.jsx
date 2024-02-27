@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../Common/Navbar/Navbar";
-import HeroSection from "./Herosection/HeroSection";
 import Servise from "../Servises/Servise";
 import Industries from "./Industries/Industries";
 import RecentProject from "./RecentProject/RecentProject";
@@ -13,6 +12,7 @@ import Footer from "./Footer/Footer";
 import FrequentlyAksedQuestions from "./Faqs/FrequentlyAskedQuestions";
 import Testimonials from "./Testimonials/Testimonials";
 import MileStone from "./MileStone/MileStone";
+import HeroSection from "./Herosection/HeroSection";
 
 const LandingPage = () => {
   return (
@@ -23,6 +23,7 @@ const LandingPage = () => {
       <div>
         <HeroSection />
       </div>
+
       <div className="">
         <MileStone />
       </div>

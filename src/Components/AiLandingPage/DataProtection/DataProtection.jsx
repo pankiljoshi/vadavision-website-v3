@@ -3,34 +3,28 @@ import React from "react";
 const DataProtection = () => {
   return (
     <>
-      <div className="w-full h-[606px] px-20 pt-[88px] pb-[91px] bg-gradient-to-r from-zinc-950 via-zinc-950 to-zinc-950 justify-center items-center inline-flex data-protection-bg">
-        <div className="grow shrink basis-0 self-stretch pr-[664px] pt-[57px] pb-[35px] justify-start items-center inline-flex">
+      <div className="w-full  px-20 py-10  inline-flex padding-industies data-protection-bg">
+        <div className="  justify-start  inline-flex">
           <div className="self-stretch flex-col justify-start items-start gap-14 inline-flex">
-            <div className="h-[231px] flex-col justify-start items-start gap-4 flex">
-              <div className="w-[636px]">
-                <span className="text-neutral-400 text-[40px] font-normal font-urbaninst">
+            <div className=" flex-col justify-start items-start gap-4 flex">
+              <div className="">
+                <span className="text-neutral-400 text-[40px] dataprotection-heading font-normal font-urbanist">
                   Our top most priority is
                   <br />
                 </span>
-                <span className="text-rose-500 text-[56px] gradient-heading-text font-bold font-urbaninst">
+                <span className="text-rose-500 text-[56px] leading-tight dataprotection-gradient gradient-heading-text font-bold font-urbanist">
                   Data Protection
                 </span>
               </div>
-              <div className="w-[669px] text-neutral-400 text-xl font-light font-urbaninst">
+              <div className="w-[669px] dataPtotection-paragraph  text-neutral-400 text-xl font-light font-urbanist">
                 At VadaVision! we recognize the paramount importance of data
                 security. We diligently implement industry-leading practices &
                 technologies to ensure robust protection against unauthorized
                 access, data breaches, and other security threats.{" "}
               </div>
             </div>
-            <div className="justify-start items-start gap-6 inline-flex">
-              <div
-                style={{
-                  background:
-                    "linear-gradient(180deg, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.1) 100%),linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0) 100%);",
-                }}
-                className="px-3.5 py-3 bg-gradient-to-b from-white to-white rounded-[100px] backdrop-blur-[20px] flex-col justify-start items-start gap-2.5 inline-flex"
-              >
+            <div className="flex flex-row flex-wrap gap-6 dataPtotection-paragraph ">
+              <div className="px-3.5 py-3 bg-gradient-to-b servise-border-gradient bg-servise-gradient rounded-[100px] backdrop-blur-[20px] flex-col justify-start items-start gap-2.5 inline-flex">
                 <div className="justify-center items-center gap-2 inline-flex">
                   <div className="w-6 h-6 relative">
                     <div className="w-6 h-6 left-0 top-0 absolute">
@@ -63,18 +57,12 @@ const DataProtection = () => {
                       </svg>
                     </div>
                   </div>
-                  <div className="text-white text-sm font-light font-urbaninst">
+                  <div className="text-white text-sm font-light font-urbanist">
                     Confidentiality
                   </div>
                 </div>
               </div>
-              <div
-                style={{
-                  background:
-                    "linear-gradient(180deg, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.1) 100%),linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0) 100%);",
-                }}
-                className="px-3.5 py-3 bg-gradient-to-b from-white to-white rounded-[100px]  backdrop-blur-[20px] flex-col justify-start items-start gap-2.5 inline-flex"
-              >
+              <div className="px-3.5 py-3 bg-gradient-to-b servise-border-gradient bg-servise-gradient rounded-[100px]  backdrop-blur-[20px] flex-col justify-start items-start gap-2.5 inline-flex">
                 <div className="justify-center items-center gap-2 inline-flex">
                   <div className="w-6 h-6 relative">
                     <div className="w-6 h-6 left-0 top-0 absolute">
@@ -107,18 +95,12 @@ const DataProtection = () => {
                       </svg>
                     </div>
                   </div>
-                  <div className="text-white text-sm font-light  font-urbaninst">
+                  <div className="text-white text-sm font-light font-urbanist">
                     No Data Breach
                   </div>
                 </div>
               </div>
-              <div
-                style={{
-                  background:
-                    "linear-gradient(180deg, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.1) 100%),linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0) 100%);",
-                }}
-                className="px-3.5 py-3 bg-gradient-to-b from-white to-white rounded-[100px] backdrop-blur-[20px] flex-col justify-start items-start gap-2.5 inline-flex"
-              >
+              <div className="px-3.5 py-3 button-width bg-gradient-to-b servise-border-gradient bg-servise-gradient rounded-[100px] backdrop-blur-[20px] flex-col justify-start items-start gap-2.5 inline-flex">
                 <div className="justify-center items-center gap-2 inline-flex">
                   <div className="w-6 h-6 relative">
                     <div className="w-6 h-6 left-0 top-0 absolute">
@@ -151,18 +133,12 @@ const DataProtection = () => {
                       </svg>
                     </div>
                   </div>
-                  <div className="text-white text-sm font-light font-urbaninst">
+                  <div className="text-white text-sm font-light font-urbanist">
                     Integrity
                   </div>
                 </div>
               </div>
-              <div
-                style={{
-                  background:
-                    "linear-gradient(180deg, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.1) 100%),linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0) 100%);",
-                }}
-                className="px-3.5 py-3 bg-gradient-to-b from-white to-white rounded-[100px] backdrop-blur-[20px] flex-col justify-start items-start gap-2.5 inline-flex"
-              >
+              <div className="px-3.5 py-3 bg-gradient-to-b  button-width responsive-button-dataprotection servise-border-gradient bg-servise-gradient rounded-[100px] backdrop-blur-[20px] flex-col justify-start items-start gap-2.5 inline-flex">
                 <div className="justify-center items-center gap-2 inline-flex">
                   <div className="w-6 h-6 relative">
                     <div className="w-6 h-6 left-0 top-0 absolute">
@@ -195,7 +171,7 @@ const DataProtection = () => {
                       </svg>
                     </div>
                   </div>
-                  <div className="text-white text-sm font-light font-urbaninst">
+                  <div className="text-white text-sm font-light font-urbanist">
                     Secure
                   </div>
                 </div>

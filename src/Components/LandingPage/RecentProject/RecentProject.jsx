@@ -20,7 +20,7 @@ const RecentProject = () => {
   }, []);
   return (
     <>
-      <div className="RecentProjects w-full   px-20  pt-20 padding-industies   ">
+      <div className="RecentProjects w-full   px-20  py-20 padding-industies   ">
         <div data-aos="fade-down" className=" w-full flex justify-between    ">
           <div className="title-padding w-[700px]">
             <span className="text-neutral-400 text-4xl text-size-change1  font-medium font-urbanist">

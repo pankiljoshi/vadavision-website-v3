@@ -13,8 +13,8 @@ const UseCases = () => {
               Use Cases
             </span>
           </div>
-          <div className="self-stretch h-[416px] flex-col justify-start items-center gap-8 flex">
-            <div className="justify-start items-start gap-6 inline-flex">
+          <div className=" flex-col justify-start items-center gap-8 flex">
+            <div className="justify-start flex-wrap items-start gap-6 inline-flex">
               <div className="p-6 bg-zinc-900  flex-col justify-start items-start gap-2.5 inline-flex">
                 <div className="justify-start items-center gap-4 inline-flex">
                   <div className="w-8 h-8 relative">
@@ -164,7 +164,7 @@ const UseCases = () => {
                 </div>
               </div>
             </div>
-            <div className="justify-start items-start gap-6 inline-flex">
+            <div className="justify-start flex-wrap items-start gap-6 inline-flex">
               <div className="p-6 bg-zinc-900 flex-col justify-start items-start gap-2.5 inline-flex">
                 <div className="justify-start items-center gap-4 inline-flex">
                   <div className="w-8 h-8 relative">
@@ -326,7 +326,7 @@ const UseCases = () => {
                 </div>
               </div>
             </div>
-            <div className="self-stretch justify-center items-start gap-6 inline-flex">
+            <div className="self-stretch flex-wrap justify-center items-start gap-6 inline-flex">
               <div className="p-6 bg-zinc-900 flex-col justify-start items-start gap-2.5 inline-flex">
                 <div className="justify-start items-center gap-4 inline-flex">
                   <div className="w-8 h-8 relative">
@@ -425,7 +425,7 @@ const UseCases = () => {
                 </div>
               </div>
             </div>
-            <div className="justify-start items-start gap-6 inline-flex">
+            <div className="justify-start flex-wrap items-start gap-6 inline-flex">
               <div className="p-6 bg-zinc-900 flex-col justify-start items-start gap-2.5 inline-flex">
                 <div className="justify-start items-center gap-4 inline-flex">
                   <div className="w-8 h-8 relative">

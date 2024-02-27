@@ -29,7 +29,7 @@ const Servise = () => {
             </p>
           </div>
           <div className="flex flex-row flex-wrap gap-6 responsive-button-servise">
-            <div className="  w-[170px] servise-button padding-button servise-border-gradient items-center px-2 py-3  bg-gradient-to-b bg-servise-gradient rounded-full   backdrop-blur-lg justify-start  gap-2 flex mt-10 ">
+            <div className="  w-[160px] servise-button padding-button servise-border-gradient items-center px-2 py-3  bg-gradient-to-b bg-servise-gradient rounded-full   backdrop-blur-lg justify-start  gap-2 flex mt-10 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -62,11 +62,11 @@ const Servise = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="font-light text-white text-sm font-urbaninst margin-reponsive">
+              <span className="font-light text-white text-sm font-urbanist margin-reponsive">
                 Multiple Domains
               </span>
             </div>
-            <div className="  w-[170px] servise-button padding-button servise-border-gradient items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg justify-start  gap-2 flex mt-10 ">
+            <div className="  w-[152px] servise-button padding-button servise-border-gradient items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg justify-start  gap-2 flex mt-10 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -99,11 +99,11 @@ const Servise = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="font-light text-white text-sm font-urbaninst margin-reponsive">
+              <span className="font-light text-white text-sm font-urbanist margin-reponsive">
                 Timely Delivery
               </span>
             </div>
-            <div className="  w-[170px] servise-button padding-button servise-border-gradient items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg justify-start  gap-2 flex mt-10 ">
+            <div className="  w-[140px] servise-button padding-button servise-border-gradient items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg justify-start  gap-2 flex mt-10 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -136,11 +136,11 @@ const Servise = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="font-light text-white text-sm font-urbaninst margin-reponsive">
+              <span className="font-light text-white text-sm font-urbanist margin-reponsive">
                 Scalable Tech
               </span>
             </div>{" "}
-            <div className="  w-[170px] servise-button servise-border-gradient padding-button items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg justify-start  gap-2 flex mt-10 ">
+            <div className="  w-[150px] servise-button servise-border-gradient padding-button items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg justify-start  gap-2 flex mt-10 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -173,7 +173,7 @@ const Servise = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="font-light text-white text-sm font-urbaninst margin-reponsive">
+              <span className="font-light text-white text-sm font-urbanist margin-reponsive">
                 Robust Design
               </span>
             </div>

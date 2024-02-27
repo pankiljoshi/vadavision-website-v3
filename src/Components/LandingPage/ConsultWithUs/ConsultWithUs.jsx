@@ -18,11 +18,11 @@ const ConsultWithUs = () => {
       <div className="px-10 ">
         <div
           data-aos="zoom-in"
-          className=" w-full  justify-center items-center  padding-industies inline-flex consultus-bg"
+          className=" w-full  justify-center items-center my-20   padding-industies inline-flex consultus-bg"
         >
           <div className="  self-stretch  flex-col justify-start items-center gap-10 inline-flex">
             <div className="Frame1171281442 flex-col justify-start items-center gap-4 flex">
-              <div className="ReadyToDiscussYourProject text-white text-5xl font-semibold font-urbaninst">
+              <div className="ReadyToDiscussYourProject text-white text-5xl font-medium font-urbaninst">
                 Ready to discuss your project?
               </div>
               <div className="GetInTouch text-neutral-400 text-xl font-light font-urbaninst">

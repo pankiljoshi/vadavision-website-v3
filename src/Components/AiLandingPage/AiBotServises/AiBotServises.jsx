@@ -3,7 +3,7 @@ import React from "react";
 const AiBotServises = () => {
   return (
     <>
-      <div className="w-full  pt-10 px-20  bg-zinc-950 padding-industies bg-opacity-90 bg-ai-bot-servises">
+      <div className="w-full  py-10 px-20  bg-zinc-950 padding-industies bg-opacity-90 bg-ai-bot-servises">
         <div className="flex-col justify-start items-start gap-14 inline-flex">
           <div className="">
             <span className="text-neutral-400 text-[40px] font-change-1 font-medium font-urbaninst">

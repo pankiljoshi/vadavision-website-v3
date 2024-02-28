@@ -53,8 +53,8 @@ const Navbar = () => {
   const handleToggle = () => {
     setShowSVG(!showSVG);
   };
-  const [activeTab, setActiveTab] = useState("");
-  const [hoveredTab, setHoveredTab] = useState("");
+  const [activeTab, setActiveTab] = useState("home");
+  const [hoveredTab, setHoveredTab] = useState("home");
   return (
     <>
       <div className="NavigationWeb w-full px-20 relative  padding-none pt-2 pb-2 bg-white bg-opacity-5 border border-neutral-900 ">

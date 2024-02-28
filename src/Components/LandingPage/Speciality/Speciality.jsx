@@ -31,7 +31,7 @@ const Speciality = () => {
             data-aos="fade-up"
             className=" justify-between items-start  w-full flex-wrap gap-11  inline-flex  pt-10"
           >
-            <div className="unique-cards px-4 py-4    w-[390px]  border-gradient-bottom border-gradient-top border-gradient-right border-t border-b border-r border-zinc-800  background-gradient  flex-col justify-start items-start gap-6 inline-flex">
+            <div className="unique-cards px-4 py-8 w-[390px]  border-gradient-bottom border-gradient-top border-gradient-right border-t border-b border-r border-zinc-800  background-gradient  flex-col justify-start items-start gap-6 inline-flex">
               <div className="Frame1171281468  self-stretch justify-start items-start gap-4 inline-flex">
                 <div className="HighQuality1 w-6 h-6 relative">
                   <svg
@@ -57,18 +57,18 @@ const Speciality = () => {
                     </defs>
                   </svg>
                 </div>
-                <div className="Quality text-white text-xl font-semibold font-['Urbanist']">
+                <div className="Quality text-white text-xl font-normal font-['Urbanist']">
                   Quality
                 </div>
               </div>
-              <div className=" self-stretch text-neutral-400 text-base font-light font-urbaninst">
+              <div className=" self-stretch text-neutral-400 leading-tight text-base font-light font-urbanist">
                 What makes us different is our strong commitment to quality. We
                 use our expertise and innovative solutions to enhance your
                 business uniquely.
               </div>
             </div>
 
-            <div className="unique-cards px-4 py-4 bg-no-repeat w-[390px] background-gradient  border-gradient-bottom border-gradient-top border-gradient-right border-t border-b border-r border-zinc-800	   flex-col justify-start items-start gap-6 inline-flex">
+            <div className="unique-cards px-4 py-6 bg-no-repeat w-[390px] background-gradient  border-gradient-bottom border-gradient-top border-gradient-right border-t border-b border-r border-zinc-800	   flex-col justify-start items-start gap-6 inline-flex">
               <div className="Frame1171281468 self-stretch justify-start items-start gap-4 inline-flex">
                 <div className="ResearchAndDevelopment1 w-6 h-6 relative">
                   <div className="Group w-5 h-6 left-[1.56px] top-[0.36px] absolute">
@@ -121,17 +121,17 @@ const Speciality = () => {
                     </svg>
                   </div>
                 </div>
-                <div className="ResearchDevelopment w-72 text-white text-xl font-semibold font-urbaninst">
+                <div className="ResearchDevelopment w-72 text-white text-xl font-normal font-urbaninst">
                   Research & Development
                 </div>
               </div>
-              <div className="OurProficiencyInResearchAndDevelopmentDrivesInventiveBusinessSolutionsMakingUsUniqueWithUnmatchedServiceExcellenceStrategicCapabilities self-stretch text-neutral-400 text-base font-light font-urbaninst">
+              <div className=" self-stretch leading-tight text-neutral-400 text-base font-light font-urbanist">
                 Our proficiency in research and development drives inventive
                 business solutions, making us unique with unmatched service
                 excellence & strategic capabilities.
               </div>
             </div>
-            <div className="unique-cards px-4 py-4 bg-no-repeat  w-[390px] background-gradient  border-gradient-bottom border-gradient-top border-gradient-right border-t border-b border-r border-zinc-800	   flex-col justify-start items-start gap-6 inline-flex">
+            <div className="unique-cards px-4 py-6 bg-no-repeat  w-[390px] background-gradient  border-gradient-bottom border-gradient-top border-gradient-right border-t border-b border-r border-zinc-800	   flex-col justify-start items-start gap-6 inline-flex">
               <div className="Frame1171281468 self-stretch justify-start items-start gap-4 inline-flex">
                 <div className="Accountability1 w-6 h-6 relative">
                   <svg
@@ -152,11 +152,11 @@ const Speciality = () => {
                     </g>
                   </svg>
                 </div>
-                <div className="Accountability w-72 text-white text-xl font-semibold font-urbaninst">
+                <div className="Accountability w-72 text-white text-xl font-normal font-urbaninst">
                   Accountability
                 </div>
               </div>
-              <div className="WeStandOutForOurAccountabilityEmphasizingTrustAndReliabilityInEachServiceWeAimToEnhanceYourBusinessExperienceMakingItExceptionalAndUnique self-stretch text-neutral-400 text-base font-light font-urbaninst">
+              <div className=" self-stretch leading-tight text-neutral-400 text-base font-light font-urbanist">
                 We stand out for our accountability, emphasizing trust and
                 reliability in each service. We aim to enhance your business
                 experience, making it exceptional and unique.

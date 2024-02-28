@@ -20,10 +20,10 @@ const Servise = () => {
       <div className="Content w-full justify-between py-20 px-16 gap-20 flex responsive-content ">
         <div data-aos="fade-right" className="text-content w-[60%] mt-20">
           <div className="">
-            <h1 className=" gradient-change   text-6xl font-bold font-urbaninst text-responsive">
+            <h1 className=" gradient-change  text-[56px] font-bold font-urbanist text-responsive">
               Fast. Efficient. Reliable.
             </h1>
-            <p className="text-[#8E8E8E]   text-xl  font-light font-urbaninst paragraph-responsive mt-4">
+            <p className="text-[#8E8E8E] w-[550px]  text-xl  font-light font-urbaninst paragraph-responsive mt-4">
               VadaVision! gives you an assurance of faster delivery, efficient
               results and a very reliable team.
             </p>
@@ -180,7 +180,7 @@ const Servise = () => {
           </div>
         </div>
         <div data-aos="zoom-in" className=" min-w-[300px] responsive-logo">
-          <Image src={Logo} alt="" width={380} className="logo" />
+          <Image src={Logo} alt="" width={340} className="logo" />
         </div>
       </div>
     </>

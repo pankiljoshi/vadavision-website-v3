@@ -20,7 +20,7 @@ const FooterLinks = () => {
         className="Container w-full flex-wrap px-20 border-style pb-16  justify-between items-center inline-flex padding-industies mt-20 "
       >
         <div className="LogoAndText w-72 flex-col justify-start items-start gap-4 inline-flex">
-          <div className=" cursor-pointer  gap-2 flex flex-row">
+          <div className=" cursor-pointer  ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="50"
@@ -49,13 +49,13 @@ const FooterLinks = () => {
                 </linearGradient>
               </defs>
             </svg>
-            <div className="Vadavision cursor-pointer text-white text-3xl font-bold font-prompt leading-10">
+            <div className="Vadavision cursor-pointer mt-3 text-white text-[32px] font-bold font-prompt leading-10">
               VadaVision!
             </div>
           </div>
 
           <div className="TitleAndSubtitle flex-col justify-start items-start gap-2 flex">
-            <div className="HelpingFoundersStartupsWithTechnologyAndDesign w-72 text-white text-opacity-80 text-base font-light font-urbanist">
+            <div className=" w-72 text-white text-opacity-80 text-[16px] leading-tight font-light font-urbanist">
               Helping founders & startups with technology and design.
             </div>
           </div>
@@ -66,13 +66,13 @@ const FooterLinks = () => {
               Services
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
-              <div className="MobileAppDevelopment cursor-pointer text-white text-xl font-normal font-urbanist">
+              <div className="MobileAppDevelopment cursor-pointer text-white text-[19px] font-normal font-urbanist">
                 Mobile App Development
               </div>
-              <div className="UiUxDesign cursor-pointer text-white text-xl font-normal font-urbanist">
+              <div className="UiUxDesign cursor-pointer text-white text-[19px] font-normal font-urbanist">
                 UI/ UX Design
               </div>
-              <div className="AiServices cursor-pointer text-white text-xl font-normal font-urbanist">
+              <div className="AiServices cursor-pointer text-white text-[19px] font-normal font-urbanist">
                 AI Services
               </div>
             </div>
@@ -82,13 +82,13 @@ const FooterLinks = () => {
               Company
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
-              <div className="Blog cursor-pointer text-white text-xl font-normal font-urbanist">
+              <div className="Blog cursor-pointer text-white text-[19px] font-normal font-urbanist">
                 Blog
               </div>
-              <div className="Careers cursor-pointer text-white text-xl font-normal font-urbanist">
+              <div className="Careers cursor-pointer text-white text-[19px] font-normal font-urbanist">
                 Careers
               </div>
-              <div className="ContactUs cursor-pointer text-white text-xl font-normal font-urbanist">
+              <div className="ContactUs cursor-pointer text-white text-[19px] font-normal font-urbanist">
                 Contact Us
               </div>
             </div>
@@ -98,13 +98,13 @@ const FooterLinks = () => {
               Resources
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
-              <div className="Documentation cursor-pointer text-white text-xl font-normal font-urbanist">
+              <div className="Documentation cursor-pointer text-white text-[19px] font-normal font-urbanist">
                 Documentation
               </div>
-              <div className="MediaCoverage cursor-pointer text-white text-xl font-normal font-urbanist">
+              <div className="MediaCoverage cursor-pointer text-white text-[19px] font-normal font-urbanist">
                 Media Coverage
               </div>
-              <div className="Faqs text-white cursor-pointer text-xl font-normal font-urbanist">
+              <div className="Faqs text-white cursor-pointer text-[19px] font-normal font-urbanist">
                 FAQs
               </div>
             </div>

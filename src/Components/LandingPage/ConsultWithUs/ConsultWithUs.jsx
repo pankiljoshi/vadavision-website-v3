@@ -18,7 +18,7 @@ const ConsultWithUs = () => {
       <div className="px-10 ">
         <div
           data-aos="zoom-in"
-          className=" w-full  justify-center items-center my-20   padding-industies inline-flex consultus-bg"
+          className=" w-full  justify-center items-center my-16   padding-industies inline-flex consultus-bg"
         >
           <div className="  self-stretch  flex-col justify-start items-center gap-10 inline-flex">
             <div className="Frame1171281442 flex-col justify-start items-center gap-4 flex">

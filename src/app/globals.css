@@ -36,7 +36,8 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .gradient-change {
-  background: linear-gradient(90.07deg, #fc4778, 43.3%, #3952f5 106.51%);
+  background: linear-gradient(90deg, #FC4778 -0.73%, #3952F5 92.61%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -49,21 +50,18 @@ body {
 }
 
 .border-gradient-top {
-  /* border: linear-gradient(210.07deg, white, 0.1%, #dd424300 106.51%); */
   border-width: 1px 1px 0px 0px;
   border-style: solid;
   border-image: linear-gradient(to left, #ffffff24, #ffffff00);
   border-image-slice: 1;
 }
 .border-gradient-right {
-  /* border: linear-gradient(210.07deg, white, 0.1%, #dd424300 106.51%); */
   border-width: 0px 10px 0px 0px;
   border-style: solid;
   border-image: linear-gradient(to bottom, #ffffff24, #ffffff00);
   border-image-slice: 1;
 }
 .border-gradient-bottom {
-  /* border: linear-gradient(210.07deg, white, 0.1%, #dd424300 106.51%); */
   border-width: 0px 1px 1px 0px;
   border-style: solid;
   border-image: linear-gradient(to left, #ffffff24, #ffffff00);
@@ -117,8 +115,9 @@ body {
   background-image: url(../../public//Images/testimonial-right-splash.png);
 }
 
-.CardLinkedinReview {
+.testimonial-background {
   background-image: url(../../public//Images/TESTIMONIALS.png);
+  background-position: right;
 }
 
 .gradient-background-img {
@@ -476,7 +475,7 @@ body {
     width: 140px;
     align-items: center;
     height: 100px;
-    padding: 0px;
+    padding: 6px;
   }
 }
 
@@ -506,7 +505,7 @@ body {
   .servises-cards2 {
     width: 200px;
     align-items: center;
-    padding: 0px;
+    padding: 10px;
   }
 }
 
@@ -1455,14 +1454,14 @@ body {
 .border-style {
   border-width: 0px 0px 1px 0px;
   border-style: solid;
-  border-image: linear-gradient(to right, #dd424300, #dd4243, #dd424300);
+  border-image: linear-gradient(270deg, rgba(221, 66, 67, 0.00) 0%, rgba(221, 66, 67, 0.48) 52%, rgba(221, 66, 67, 0.00) 100%);
   border-image-slice: 1;
 }
 
 .border-style-project {
-  border-width: 0px 0px 2px 0px;
+  border-width: 0px 0px 4px 0px;
   border-style: solid;
-  border-image: linear-gradient(to left, #dd424300, #dd4243, #dd424300);
+  border-image: linear-gradient(270deg, rgba(221, 66, 67, 0.00) 0%, rgba(221, 66, 67, 0.58) 52%, rgba(221, 66, 67, 0.00) 100%);
   border-image-slice: 1;
 }
 

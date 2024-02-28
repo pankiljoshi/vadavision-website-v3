@@ -15,10 +15,10 @@ const NewsLetter = () => {
   }, []);
   return (
     <>
-      <div className=" w-full  mt-6 justify-between newsletter-responsive  padding-industies px-20 items-center gap-10 inline-flex">
+      <div className=" w-full  mt-10 justify-between newsletter-responsive  padding-industies px-20 items-center gap-10 inline-flex">
         <div
           data-aos="fade-right"
-          className="JoinOurNewsletter w-[443px]  text-white text-4xl font-semibold font-urbanist"
+          className="JoinOurNewsletter w-[440px] leading-tight  text-white text-[40px] font-semibold font-urbanist"
         >
           Join our newsletter to stay connected with us!
         </div>
@@ -27,11 +27,11 @@ const NewsLetter = () => {
           className=" justify-start flex-wrap email-subscribe items-start gap-6 flex"
         >
           <div className="email-responsive w-72 h-12 px-2 pt-4 pb-3.5 bg-white bg-opacity-5 border border-white border-opacity-20 justify-center items-center flex">
-            <div className=" grow shrink basis-0 text-neutral-400 text-sm font-light font-urbaninst">
+            <div className=" grow shrink basis-0 text-[#8E8E8E] text-[14px] font-light font-urbaninst">
               <input
                 type="text"
                 placeholder="Enter Your Email"
-                className="text-neutral-400 border-none w-full outline-none bg-opacity-5 border border-white border-opacity-20 bg-black"
+                className="text-[#8E8E8E] border-none w-full outline-none text-[14px] bg-opacity-5 border border-white border-opacity-20 bg-black"
               />
             </div>
           </div>

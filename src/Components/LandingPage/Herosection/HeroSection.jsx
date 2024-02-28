@@ -16,7 +16,7 @@ const HeroSection = () => {
   }, []);
   return (
     <>
-      <div className=" w-full pt-12 flex    justify-between gap-28 px-20 bg-gradient-to-br herosection-responsive  from-black to-zinc-950 herosection-bg bg-no-repeat ">
+      <div className=" w-full pt-12 pb-14 flex    justify-between gap-28 px-20 bg-gradient-to-br herosection-responsive  from-black to-zinc-950 herosection-bg bg-no-repeat ">
         <div
           data-aos="fade-right"
           className="LeftSide w-[50%] mt-16 flex-col justify-start items-start gap-6 inline-flex"
@@ -41,10 +41,10 @@ const HeroSection = () => {
                 dedication, we have the path for success that exceeds.
               </div>
             </div>
-            <div className=" justify-start items-start gap-10 inline-flex reponsive-button ">
+            <div className=" justify-start items-center gap-10 inline-flex reponsive-button ">
               <div
                 data-aos="zoom-in"
-                className="BookACall cursor-pointer px-6 py-3 reponsive-button bg-white hover:bg-[#FFFFFF3D] bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex explore-button"
+                className="BookACall cursor-pointer px-8 py-2 reponsive-button bg-white hover:bg-[#FFFFFF3D] bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex explore-button"
               >
                 <div className="BookACall w-[120px] text-white text-lg font-light text-center  font-urbaninst explore-button">
                   Explore More
@@ -52,12 +52,12 @@ const HeroSection = () => {
               </div>
               <div
                 data-aos="zoom-in"
-                className="BookACall cursor-pointer reponsive-button px-6 py-3 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button"
+                className="BookACall cursor-pointer reponsive-button px-6 py-2 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button"
               >
                 <div className="BookACall w-[120px]  text-white text-md font-light font-urbaninst Schedule-button">
                   Schedule a Call
                 </div>
-                <div className="consultUs-svg w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+                <div className="consultUs-svg w-6 h-6 p-3 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
                   <div className="ChevronRight w-4 h-4 relative">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -357,7 +357,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="Frame1171281406  mt-6 justify-start items-start gap-6 inline-flex pb-20">
-            <div className="Frame1171281403 servises-cards2 w-[275px] h-[120px] backdrop-blur-3xl   p-6 hover:border-yellow-50 hover:border-opacity-15   services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="Frame1171281403 servises-cards2 w-[275px] h-[120px] backdrop-blur-3xl   p-5 hover:border-yellow-50 hover:border-opacity-15   services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col justify-start items-start gap-4 flex">
                 <div className="MobileDevelopment1 w-8 h-8 svg-margin relative">
                   <div className="Group w-7 h-7 ">

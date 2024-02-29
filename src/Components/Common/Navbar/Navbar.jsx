@@ -143,20 +143,21 @@ const Navbar = () => {
                       setActiveTab("services");
                       handleOpenPopup();
                     }}
-                    onClick={() => setActiveTab("servises")}
+                    onClick={() => setActiveTab("services")}
                   >
+                    <div
+                      onMouseLeave={() => {
+                        setActiveTab("home");
+                        handleClosePopup();
+                      }}
+                    >
+                      {isPopupOpen && <AiServises />}
+                    </div>
+
                     {activeTab === "services" && <RedBar />}
                     <span className=" text-[#8E8E8E] font-light font-urbanist">
                       Services
                     </span>
-                  </div>
-                  <div
-                    onMouseLeave={() => {
-                      setActiveTab("");
-                      handleClosePopup();
-                    }}
-                  >
-                    {isPopupOpen && <AiServises />}
                   </div>
                 </div>
 

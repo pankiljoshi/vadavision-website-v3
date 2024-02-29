@@ -31,7 +31,10 @@ const HeroSection = () => {
 
           <div className=" w-[650px] responsive-section flex-col  justify-start items-start gap-10 flex">
             <div className=" flex-col justify-start items-start gap-6 flex">
-              <div className="  text-neutral-100 responsive-heading  leading-normal text-6xl font-bold font-prompt text-color-gradient ">
+              <div
+                className="  text-neutral-100 responsive-heading  leading-normal text-6xl font-bold font-prompt
+               text-color-gradient "
+              >
                 Crafting Digital Dreams <br />
                 into Tangible Reality
               </div>

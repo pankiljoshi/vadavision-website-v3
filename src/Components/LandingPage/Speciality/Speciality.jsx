@@ -17,7 +17,7 @@ const Speciality = () => {
   return (
     <>
       <div className="unique-gradient-background">
-        <div className=" w-full Unique   px-20 py-10 bg-right-top  pt-10 bg-no-repeat  padding-industies ">
+        <div className=" w-full Unique bg-cover   px-20 py-10 bg-right-top  pt-10 bg-no-repeat  padding-industies ">
           <div className="">
             <div data-aos="fade-down" className="title-padding   mt-10    ">
               <span className="text-neutral-400 text-4xl font-medium font-change-1 font-urbaninst">
@@ -32,7 +32,7 @@ const Speciality = () => {
               data-aos="fade-up"
               className=" justify-between items-start  w-full flex-wrap gap-11  inline-flex  pt-10"
             >
-              <div className="unique-cards px-4 py-8 w-[390px]  border-gradient-bottom border-gradient-top border-gradient-right border-t border-b border-r border-zinc-800  background-gradient  flex-col justify-start items-start gap-6 inline-flex">
+              <div className="unique-cards px-4 py-6 w-[390px] bg-no-repeat  border-gradient-bottom border-gradient-top border-gradient-right border-t border-b border-r border-zinc-800  background-gradient  flex-col justify-start items-start gap-6 inline-flex">
                 <div className="Frame1171281468  self-stretch justify-start items-start gap-4 inline-flex">
                   <div className="HighQuality1 w-6 h-6 relative">
                     <svg
@@ -69,7 +69,7 @@ const Speciality = () => {
                 </div>
               </div>
 
-              <div className="unique-cards px-4 py-6 bg-no-repeat w-[390px] background-gradient  border-gradient-bottom border-gradient-top border-gradient-right border-t border-b border-r border-zinc-800	   flex-col justify-start items-start gap-6 inline-flex">
+              <div className="unique-cards px-4 py-5 bg-no-repeat w-[390px] background-gradient  border-gradient-bottom border-gradient-top border-gradient-right border-t border-b border-r border-zinc-800	   flex-col justify-start items-start gap-6 inline-flex">
                 <div className="Frame1171281468 self-stretch justify-start items-start gap-4 inline-flex">
                   <div className="ResearchAndDevelopment1 w-6 h-6 relative">
                     <div className="Group w-5 h-6 left-[1.56px] top-[0.36px] absolute">

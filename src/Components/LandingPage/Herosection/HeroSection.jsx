@@ -16,7 +16,7 @@ const HeroSection = () => {
   }, []);
   return (
     <>
-      <div className=" w-full pt-12 pb-14 flex    justify-between gap-28 px-20 bg-gradient-to-br herosection-responsive  from-black to-zinc-950 herosection-bg bg-no-repeat ">
+      <div className=" w-full pt-12 pb-14 flex    justify-between gap-28 px-20 bg-gradient-to-br herosection-responsive  from-black to-zinc-950 herosection-bg bg-no-repeat bg-cover ">
         <div
           data-aos="fade-right"
           className="LeftSide w-[50%] mt-16 flex-col justify-start items-start gap-6 inline-flex"

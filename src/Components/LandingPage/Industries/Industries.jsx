@@ -27,7 +27,7 @@ const Industries = () => {
         </div>
         <div data-aos="zoom-in" className=" w-full">
           <div className=" justify-start items-start gap-10 flex-wrap    inline-flex cards">
-            <div className="card-responsive  w-[400px]  p-6 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive  w-[400px]  p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="ECommerce w-8 h-8 relative">
@@ -95,7 +95,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive  w-[400px]  p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col   justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive  w-[400px]  p-4 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col   justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Finance w-8 h-8 px-0.5 py-0.5 justify-center items-center inline-flex">
@@ -181,7 +181,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive  w-[400px] p-6 bg-gradient-to-b from-stone-950  via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col   justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive  w-[400px] p-4 bg-gradient-to-b from-stone-950  via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col   justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Hr w-8 h-8 relative">
@@ -265,7 +265,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive w-[400px] p-6 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col  justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive w-[400px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col  justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Accounting w-8 h-8 px-px justify-center items-center inline-flex">
@@ -341,7 +341,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive  w-[400px] p-6 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive  w-[400px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Content w-8 h-8 p-0.5 justify-center items-center inline-flex">
@@ -447,7 +447,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive  w-[400px] p-6 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col  justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive  w-[400px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col  justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Retail w-8 h-8 relative">

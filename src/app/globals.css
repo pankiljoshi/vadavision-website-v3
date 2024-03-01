@@ -1678,14 +1678,6 @@ body {
   
 }
 
-/* .popup-background{
-  background: rgba(0, 0, 0, 48%);
-  backdrop-filter: blur(14px);
-  height: 600px;
-  background-color: black;
-}
 .blur-bg{
-  background: rgba(0, 0, 0, 0.48);
-backdrop-filter: blur(8px);
-height: 500px;
-} */
+filter: blur(8px);
+}

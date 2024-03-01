@@ -56,9 +56,9 @@ body {
   border-image-slice: 1;
 }
 .border-gradient-right {
-  border-width: 0px 10px 0px 0px;
+  border-width: 0px 1px 0px 0px;
   border-style: solid;
-  border-image: linear-gradient(to bottom, #ffffff24, #ffffff00);
+  border-image: linear-gradient(to top, #ffffff24, #ffffff00);
   border-image-slice: 1;
 }
 .border-gradient-bottom {
@@ -1677,3 +1677,15 @@ body {
   }
   
 }
+
+/* .popup-background{
+  background: rgba(0, 0, 0, 48%);
+  backdrop-filter: blur(14px);
+  height: 600px;
+  background-color: black;
+}
+.blur-bg{
+  background: rgba(0, 0, 0, 0.48);
+backdrop-filter: blur(8px);
+height: 500px;
+} */

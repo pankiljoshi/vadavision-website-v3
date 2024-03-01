@@ -18,7 +18,7 @@ const AiServises = () => {
   };
   return (
     <>
-      <div className=" ">
+      <div className=" backdrop-blur-md bg-black z-50">
         <div className="flex  ">
           <div className="w-full px-4  h-[484px] bg-black fixed inset-0   mt-20 backdrop-blur-sm flex z-10 justify-center ">
             <div className="flex flex-row gap-6">

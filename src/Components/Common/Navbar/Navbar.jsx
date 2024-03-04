@@ -5,6 +5,9 @@ import Link from "next/link";
 import Image from "next/image";
 import UiuxServise from "../../../../public/Images/uiuxDesignServise.png";
 import AiFace from "../../../../public/Images/aiRobotFace.png";
+import Usflag from "../../../../public/Images/usFlag.png";
+import spainFlag from "../../../../public/Images/spainFlag.png";
+import franceFlag from "../../../../public/Images/franceFlag.png";
 const RedBar = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -62,6 +65,11 @@ const Navbar = () => {
 
   const handleToggle = () => {
     setShowSVG(!showSVG);
+  };
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
   };
   const [activeTab, setActiveTab] = useState("home");
   const [hoveredTab, setHoveredTab] = useState("home");
@@ -1511,7 +1519,10 @@ const Navbar = () => {
                   <div className="Group w-4 h-4 left-[0.28px] top-[0.28px] "></div>
                   <div className="Group w-4 h-4 left-0 top-0 "></div>
                 </div>
-                <div className="Frame5 justify-start items-center gap-1 flex">
+                <div
+                  className="Frame5 justify-start items-center gap-1 flex"
+                  onClick={toggleDropdown}
+                >
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -1625,6 +1636,141 @@ const Navbar = () => {
                     </svg>
                   </div>
                 </div>
+                {isOpen && (
+                  <div className="absolute top-full right-20 w-[153px] h-[200px]  bg-stone-900 justify-start items-start gap-4 inline-flex">
+                    <div className=" p-4 justify-start items-start gap-4 inline-flex">
+                      <div className="flex-col justify-start items-start gap-4 inline-flex">
+                        <div className="flex-col justify-start items-start gap-2 flex">
+                          <div className="justify-start items-center gap-2 inline-flex">
+                            <div className="w-4 h-4 relative">
+                              <div className="w-[15.45px] h-[15.45px] left-[0.28px] top-[0.28px] absolute">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="16"
+                                  height="17"
+                                  viewBox="0 0 16 17"
+                                  fill="none"
+                                >
+                                  <g clipPath="url(#clip0_1608_4784)">
+                                    <path
+                                      d="M8 16.5C12.4183 16.5 16 12.9183 16 8.5C16 4.08172 12.4183 0.5 8 0.5C3.58172 0.5 0 4.08172 0 8.5C0 12.9183 3.58172 16.5 8 16.5Z"
+                                      fill="#F0F0F0"
+                                    />
+                                    <path
+                                      d="M1.65379 3.62946C1.02538 4.44705 0.551541 5.38939 0.275635 6.41311H4.43745L1.65379 3.62946Z"
+                                      fill="#0052B4"
+                                    />
+                                    <path
+                                      d="M15.7245 6.41311C15.4486 5.38942 14.9747 4.44708 14.3463 3.62949L11.5627 6.41311H15.7245Z"
+                                      fill="#0052B4"
+                                    />
+                                    <path
+                                      d="M0.275635 10.587C0.551572 11.6107 1.02542 12.553 1.65379 13.3706L4.43735 10.587H0.275635Z"
+                                      fill="#0052B4"
+                                    />
+                                    <path
+                                      d="M12.8705 2.15379C12.0529 1.52539 11.1106 1.05154 10.0869 0.775604V4.93739L12.8705 2.15379Z"
+                                      fill="#0052B4"
+                                    />
+                                    <path
+                                      d="M3.12939 14.8462C3.94699 15.4746 4.88933 15.9485 5.91302 16.2244V12.0627L3.12939 14.8462Z"
+                                      fill="#0052B4"
+                                    />
+                                    <path
+                                      d="M5.91299 0.775604C4.8893 1.05154 3.94696 1.52539 3.12939 2.15376L5.91299 4.93735V0.775604Z"
+                                      fill="#0052B4"
+                                    />
+                                    <path
+                                      d="M10.0869 16.2244C11.1106 15.9485 12.0529 15.4746 12.8705 14.8463L10.0869 12.0627V16.2244Z"
+                                      fill="#0052B4"
+                                    />
+                                    <path
+                                      d="M11.5627 10.587L14.3463 13.3706C14.9747 12.5531 15.4486 11.6107 15.7245 10.587H11.5627Z"
+                                      fill="#0052B4"
+                                    />
+                                    <path
+                                      d="M15.9323 7.45653H9.04353H9.0435V0.567719C8.70191 0.52325 8.35366 0.5 8 0.5C7.64628 0.5 7.29809 0.52325 6.95653 0.567719V7.45647V7.4565H0.0677188C0.02325 7.79809 0 8.14634 0 8.5C0 8.85372 0.02325 9.20191 0.0677188 9.54347H6.95647H6.9565V16.4323C7.29809 16.4768 7.64628 16.5 8 16.5C8.35366 16.5 8.70191 16.4768 9.04347 16.4323V9.54353V9.5435H15.9323C15.9768 9.20191 16 8.85372 16 8.5C16 8.14634 15.9768 7.79809 15.9323 7.45653Z"
+                                      fill="#D80027"
+                                    />
+                                    <path
+                                      d="M10.0869 10.587L13.6568 14.1569C13.821 13.9928 13.9776 13.8212 14.127 13.6433L11.0707 10.587H10.0869V10.587Z"
+                                      fill="#D80027"
+                                    />
+                                    <path
+                                      d="M5.91292 10.587H5.91286L2.34302 14.1568C2.50714 14.321 2.67874 14.4777 2.85661 14.6271L5.91292 11.5707V10.587Z"
+                                      fill="#D80027"
+                                    />
+                                    <path
+                                      d="M5.91293 6.41311V6.41305L2.34305 2.84314C2.17887 3.00726 2.02224 3.17886 1.8728 3.35673L4.92915 6.41308L5.91293 6.41311Z"
+                                      fill="#D80027"
+                                    />
+                                    <path
+                                      d="M10.0869 6.41308L13.6568 2.84314C13.4927 2.67896 13.3211 2.52233 13.1432 2.37292L10.0869 5.42927V6.41308Z"
+                                      fill="#D80027"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_1608_4784">
+                                      <rect
+                                        width="16"
+                                        height="16"
+                                        fill="white"
+                                        transform="translate(0 0.5)"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                              </div>
+                              <div className="w-4 h-4 left-0 top-0 absolute"></div>
+                            </div>
+                            <div className="justify-start items-center gap-1 flex">
+                              <div className="text-neutral-50 text-base font-medium urbanist">
+                                ENG (UK)
+                              </div>
+                            </div>
+                          </div>
+                          <div className="self-stretch h-[0px] border-[0.5px] border-neutral-600"></div>
+                        </div>
+                        <div className="self-stretch h-[27px] flex-col justify-start items-start gap-2 flex">
+                          <div className="justify-start items-center gap-2 inline-flex">
+                            <Image src={Usflag} width={18} />
+                            <div className="justify-start items-center gap-1 flex">
+                              <div className="text-neutral-400 text-base font-medium  urbanist">
+                                ENG (US)
+                              </div>
+                            </div>
+                          </div>
+                          <div className="self-stretch h-[0px] border-[0.5px] border-neutral-600"></div>
+                        </div>
+                        <div className="self-stretch h-[27px] flex-col justify-start items-start gap-2 flex">
+                          <div className="justify-start items-center gap-2 inline-flex">
+                            <Image src={spainFlag} width={20} />
+                            <div className="justify-start items-center gap-1 flex">
+                              <div className="text-neutral-400 text-base font-medium urbanist">
+                                Spanish
+                              </div>
+                            </div>
+                          </div>
+                          <div className="self-stretch h-[0px] border-[0.5px] border-neutral-600"></div>
+                        </div>
+                        <div className="self-stretch h-[27px] cursor-pointer flex-col justify-start items-start gap-2 flex">
+                          <div className="justify-start items-center cursor-pointer gap-2 inline-flex">
+                            <Image src={franceFlag} width={20} />
+                            <div className="justify-start  items-center gap-1 flex">
+                              <div className="text-neutral-400 text-base font-medium urbanist">
+                                French
+                              </div>
+                            </div>
+                          </div>
+                          <div className="self-stretch h-[0px] border-[0.5px] border-neutral-600"></div>
+                        </div>
+                      </div>
+                      <div className="w-1 h-[156px] relative bg-neutral-600">
+                        <div className="w-1 h-[69px] left-0 top-0 absolute bg-red-500" />
+                      </div>
+                    </div>{" "}
+                  </div>
+                )}
               </div>
             </div>
           </div>

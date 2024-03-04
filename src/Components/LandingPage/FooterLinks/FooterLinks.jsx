@@ -2,7 +2,7 @@
 import Aos from "aos";
 import React, { useEffect } from "react";
 import "aos/dist/aos.css";
-import { FaSquareInstagram } from "react-icons/fa6";
+import { AiFillInstagram } from "react-icons/ai";
 import Link from "next/link";
 
 const FooterLinks = () => {
@@ -118,6 +118,7 @@ const FooterLinks = () => {
             </div>
             <div className="ButtonsContainer  justify-start items-start gap-2.5 inline-flex">
               <Link
+                target="_blank"
                 href={
                   "https://www.facebook.com/profile.php?id=100090359760736&mibextid=ZbWKwL"
                 }
@@ -147,13 +148,21 @@ const FooterLinks = () => {
                   </div>
                 </div>
               </Link>
-
-              <div className="Button cursor-pointer social-media-hover-instagram r w-11 h-11 p-3 bg-gradient-to-b from-neutral-900 via-zinc-800 to-stone-950 border border-stone-950 border-opacity-0 justify-center items-center flex">
-                <div className="Icon w-5 h-5 relative flex-col justify-start items-start flex">
-                  <FaSquareInstagram color="white" size={20} />
-                </div>
-              </div>
               <Link
+                target="_blank"
+                href={
+                  "https://www.instagram.com/vadavision?igsh=ZDhjaHZmajFhaGVm"
+                }
+              >
+                <div className="Button cursor-pointer social-media-hover-instagram  w-11 h-11 p-3 bg-gradient-to-b from-neutral-900 via-zinc-800 to-stone-950 border border-stone-950 border-opacity-0 justify-center items-center flex">
+                  <div className="Icon w-5 h-5 relative flex-col justify-start items-start flex">
+                    <AiFillInstagram color="white" size={20} />
+                  </div>
+                </div>
+              </Link>
+
+              <Link
+                target="_blank"
                 href={
                   "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A82602036&keywords=vadavision!%20consultancy%20inc.&origin=RICH_QUERY_SUGGESTION&position=9&searchId=7aaa9361-861c-44e4-a50d-58b34828f598&sid=sGe&spellCorrectionEnabled=false"
                 }

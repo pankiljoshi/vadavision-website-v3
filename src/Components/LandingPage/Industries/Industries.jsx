@@ -26,7 +26,7 @@ const Industries = () => {
           </span>
         </div>
         <div data-aos="zoom-in" className=" w-full">
-          <div className=" justify-start items-start gap-10 flex-wrap    inline-flex cards">
+          <div className=" justify-between items-start gap-10 flex-wrap    inline-flex cards">
             <div className="card-responsive  w-[400px]  p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
@@ -67,7 +67,7 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 justify-start items-center consult-us gap-2 mt-10 inline-flex">
+                <div className="Frame1171281437 justify-start items-center consult-us gap-2 mt-4 inline-flex">
                   <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
                     Learn More{" "}
                   </div>
@@ -153,7 +153,7 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 justify-start items-center consult-us mt-10  gap-2 inline-flex">
+                <div className="Frame1171281437 justify-start items-center consult-us mt-4  gap-2 inline-flex">
                   <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
                     Learn More{" "}
                   </div>
@@ -237,7 +237,7 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 justify-start items-center consult-us mt-10 gap-2 inline-flex">
+                <div className="Frame1171281437 justify-start items-center consult-us mt-4 gap-2 inline-flex">
                   <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
                     Learn More{" "}
                   </div>
@@ -313,7 +313,7 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 justify-start items-center consult-us mt-10 gap-2 inline-flex">
+                <div className="Frame1171281437 justify-start items-center consult-us mt-4 gap-2 inline-flex">
                   <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
                     Learn More{" "}
                   </div>
@@ -419,7 +419,7 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 justify-start items-center consult-us mt-10  gap-2 inline-flex">
+                <div className="Frame1171281437 justify-start items-center consult-us mt-4  gap-2 inline-flex">
                   <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
                     Learn More{" "}
                   </div>
@@ -489,7 +489,7 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 justify-start items-center consult-us mt-10  gap-2 inline-flex">
+                <div className="Frame1171281437 justify-start items-center consult-us mt-4  gap-2 inline-flex">
                   <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
                     Learn More{" "}
                   </div>

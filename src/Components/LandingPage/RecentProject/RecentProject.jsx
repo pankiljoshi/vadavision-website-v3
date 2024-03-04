@@ -111,7 +111,7 @@ const RecentProject = () => {
                   <div className="Tweekend text-white text-5xl font-bold font-urbaninst">
                     Tweekend
                   </div>
-                  <div className=" text-stone-300 text-xl font-normal mt-2 italic urbanist">
+                  <div className=" text-stone-300 text-xl font-normal mt-2  urbanist">
                     A booking app for social events.
                   </div>
                 </div>

@@ -23,7 +23,7 @@ const HeroSection = () => {
         >
           <div className="LeftLabel">
             <div className=" p-4 bg-gradient-to-b from-stone-900 to-stone-950 rounded-full  flex-col justify-start items-start gap-2.5 flex">
-              <div className=" text-emerald-400 text-sm font-light font-urbaninst">
+              <div className=" text-emerald-400 text-sm font-light urbanist">
                 🚀 <span className="StartupStudio">STARTUP STUDIO</span>
               </div>
             </div>

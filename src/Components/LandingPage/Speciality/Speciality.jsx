@@ -20,11 +20,11 @@ const Speciality = () => {
         <div className=" w-full Unique bg-cover   px-20 py-10 bg-right-top  pt-10 bg-no-repeat  padding-industies ">
           <div className="">
             <div data-aos="fade-down" className="title-padding   mt-10    ">
-              <span className="text-neutral-400 text-4xl font-medium font-change-1 font-urbaninst">
+              <span className="text-neutral-400 text-4xl font-medium font-change-1 urbanist">
                 What makes
                 <br />
               </span>
-              <span className="text-pink-600 text-color-change text-6xl font-bold leading-normal font-change-2 font-urbaninst mt-4">
+              <span className="text-pink-600 text-color-change text-6xl font-bold leading-normal font-change-2 urbanist mt-4">
                 VadaVision! unique
               </span>
             </div>
@@ -58,11 +58,11 @@ const Speciality = () => {
                       </defs>
                     </svg>
                   </div>
-                  <div className="Quality text-white text-xl font-normal font-['Urbanist']">
+                  <div className="Quality text-white text-xl font-normal urbanist">
                     Quality
                   </div>
                 </div>
-                <div className=" self-stretch text-neutral-400 leading-tight text-base font-light font-urbanist">
+                <div className=" self-stretch text-neutral-400 leading-tight text-base font-light urbanist">
                   What makes us different is our strong commitment to quality.
                   We use our expertise and innovative solutions to enhance your
                   business uniquely.
@@ -100,11 +100,11 @@ const Speciality = () => {
                       />
                     </svg>
                   </div>
-                  <div className="Quality text-white text-xl font-normal font-['Urbanist']">
+                  <div className="Quality text-white text-xl font-normal urbanist">
                     Research & Development
                   </div>
                 </div>
-                <div className=" self-stretch text-neutral-400 leading-tight text-base font-light font-urbanist">
+                <div className=" self-stretch text-neutral-400 leading-tight text-base font-light urbanist">
                   Our proficiency in research and development drives inventive
                   business solutions, making us unique with unmatched service
                   excellence & strategic capabilities.
@@ -128,11 +128,11 @@ const Speciality = () => {
                       />
                     </svg>
                   </div>
-                  <div className="Quality text-white text-xl font-normal font-['Urbanist']">
+                  <div className="Quality text-white text-xl font-normal urbanist">
                     Accountability
                   </div>
                 </div>
-                <div className=" self-stretch text-neutral-400 leading-tight text-base font-light font-urbanist">
+                <div className=" self-stretch text-neutral-400 leading-tight text-base font-light urbanist">
                   We stand out for our accountability, emphasizing trust and
                   reliability in each service. We aim to enhance your business
                   experience, making it exceptional and unique.

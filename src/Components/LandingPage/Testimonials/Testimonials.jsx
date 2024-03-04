@@ -39,10 +39,10 @@ const Testimonials = () => {
             className="Frame1171281456  w-full  pt-20 justify-between  inline-flex"
           >
             <div className="Title  ">
-              <span className="text-neutral-400 text-4xl font-medium font-change-1 font-urbanist">
+              <span className="text-neutral-400 text-4xl font-medium font-change-1 urbanist">
                 Hear why our <br />
               </span>
-              <span className="testimonial-gradient text-6xl font-bold font-change-2 leading-normal font-urbanist">
+              <span className="testimonial-gradient text-6xl font-bold font-change-2 leading-normal urbanist">
                 Client Loves Us{" "}
               </span>
             </div>
@@ -120,7 +120,7 @@ const Testimonials = () => {
             <Splide
               options={{
                 type: "loop",
-                perPage: 2,
+                perPage: 3,
                 gap: "1rem",
                 mediaQuery: "max",
                 pagination: false,
@@ -144,20 +144,20 @@ const Testimonials = () => {
                           </div>
                         </div>
                         <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
-                          <div className="KevinOBrian  text-white text-2xl font-bold font-urbaninst">
+                          <div className="KevinOBrian  text-white text-2xl font-bold urbanist">
                             Kevin O’Brian
                           </div>
                           <div className="BusinessDirectorAlphabet ">
-                            <span className="text-stone-300 text-base font-normal font-urbanist">
+                            <span className="text-stone-300 text-base font-normal urbanist">
                               Business Director -{" "}
                             </span>
-                            <span className="text-red-500 text-base font-bold font-urbanist">
+                            <span className="text-red-500 text-base font-bold urbanist">
                               Alphabet
                             </span>
                           </div>
                         </div>
                       </div>
-                      <div className=" px-4 text-center text-neutral-200 text-xl font-normal font-urbanist">
+                      <div className=" px-4 text-center text-neutral-200 text-xl font-normal urbanist">
                         It was great to work with Kevin on a UI redesign of our
                         product from A to Z. He is fast, accurate and expert on
                         SaaS topics. <br />I recommend him!
@@ -177,20 +177,20 @@ const Testimonials = () => {
                           </div>
                         </div>
                         <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
-                          <div className="KevinOBrian  text-white text-2xl font-bold font-urbaninst">
+                          <div className="KevinOBrian  text-white text-2xl font-bold urbanist">
                             Lindsey Koelpin MD{" "}
                           </div>
                           <div className="BusinessDirectorAlphabet ">
-                            <span className="text-stone-300 text-base font-normal font-urbaninst">
+                            <span className="text-stone-300 text-base font-normal urbanist">
                               Founder -{" "}
                             </span>
-                            <span className="text-red-500 text-base font-bold font-urbaninst">
+                            <span className="text-red-500 text-base font-bold urbanist">
                               AB Infotech
                             </span>
                           </div>
                         </div>
                       </div>
-                      <div className=" px-4 text-center text-neutral-200 text-xl font-normal font-urbaninst">
+                      <div className=" px-4 text-center text-neutral-200 text-xl font-normal urbanist">
                         It was great to work with Kevin on a UI redesign of our
                         product from A to Z. He is fast, accurate and expert on
                         SaaS topics. <br />I recommend him!
@@ -210,20 +210,20 @@ const Testimonials = () => {
                           </div>
                         </div>
                         <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
-                          <div className="KevinOBrian  text-white text-2xl font-bold font-urbaninst">
+                          <div className="KevinOBrian  text-white text-2xl font-bold urbanist">
                             Santiago Hoeger III{" "}
                           </div>
                           <div className="BusinessDirectorAlphabet ">
-                            <span className="text-stone-300 text-base font-normal font-urbaninst">
+                            <span className="text-stone-300 text-base font-normal urbanist">
                               Engineer -{" "}
                             </span>
-                            <span className="text-red-500 text-base font-bold font-urbaninst">
+                            <span className="text-red-500 text-base font-bold urbanist">
                               Orange Tech.{" "}
                             </span>
                           </div>
                         </div>
                       </div>
-                      <div className=" px-4 text-center text-neutral-200 text-xl font-normal font-urbaninst">
+                      <div className=" px-4 text-center text-neutral-200 text-xl font-normal urbanist">
                         It was great to work with Kevin on a UI redesign of our
                         product from A to Z. He is fast, accurate and expert on
                         SaaS topics. <br />I recommend him!

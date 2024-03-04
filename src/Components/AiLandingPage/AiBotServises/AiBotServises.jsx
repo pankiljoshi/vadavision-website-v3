@@ -381,7 +381,7 @@ const AiBotServises = () => {
                 />
               </svg>
             </div>
-            <div className="text-white text-[40px] font-bold font-raleway">
+            <div className="text-white text-[40px] font-bold raleway">
               ChatGPT
             </div>
           </div>

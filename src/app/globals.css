@@ -1681,3 +1681,23 @@ body {
 .blur-bg{
 filter: blur(8px);
 }
+
+.prompt{
+  font-family: var(--font-prompt);
+}
+
+.inter{
+  font-family: var(--font-inter);
+}
+
+.urbanist{
+  font-family: var(--font-urbanist);
+}
+
+.montserrat{
+  font-family: var(--font-montserrat);
+}
+
+.raleway{
+  font-family: var(--font-raleway);
+}

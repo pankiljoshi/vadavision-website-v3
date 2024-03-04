@@ -58,7 +58,7 @@ const Review = () => {
                 </svg>
               </div>
               <div className="Frame20 flex-col justify-center items-start gap-4 inline-flex">
-                <div className="Text text-white text-[24px] font-medium font-urbanist">
+                <div className="Text text-white text-[24px] font-medium urbanist">
                   Upwork Rating
                 </div>
                 <div className="Frame4 justify-center items-center gap-1 inline-flex">
@@ -189,7 +189,7 @@ const Review = () => {
                 </svg>
               </div>
               <div className="Frame20 flex-col justify-center items-start gap-4 inline-flex">
-                <div className="Text text-white text-[24px] font-medium font-urbanist">
+                <div className="Text text-white text-[24px] font-medium urbanist">
                   Google Rating
                 </div>
                 <div className="Frame4 justify-center items-center gap-1 inline-flex">

@@ -18,10 +18,10 @@ const Industries = () => {
     <>
       <div className="industry-bg  w-full px-20 pb-10  flex-col justify-start  items-start gap-14 padding-industies inline-flex">
         <div data-aos="fade-right" className="title-padding   pt-10">
-          <span className="text-neutral-400 text-4xl font-semibold font-change-1 font-urbaninst">
+          <span className="text-neutral-400 text-4xl font-semibold font-change-1 urbanist">
             We cover a <br />
           </span>
-          <span className=" gradient-color-change font-change-2 text-6xl leading-normal font-bold font-urbaninst">
+          <span className=" gradient-color-change font-change-2 text-6xl leading-normal font-bold urbanist">
             Good Range of Industries
           </span>
         </div>
@@ -53,14 +53,14 @@ const Industries = () => {
                     </svg>
                   </div>
                   <div className="Frame1171281436 h-28 flex-col justify-start items-start gap-4 flex">
-                    <div className="Fintech self-stretch text-white text-2xl font-normal font-urbaninst">
+                    <div className="Fintech self-stretch text-white text-2xl font-normal urbanist">
                       E-Commerce
                     </div>
                     <div className="Frame1171281435 self-stretch h-16  flex-col justify-start items-start gap-2 flex">
-                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-[15px] font-normal italic  font-urbaninst">
+                      <div className=" self-stretch text-stone-300 text-[15px] font-normal italic  urbanist">
                         Increase your checkout count, more than before
                       </div>
-                      <div className="EnjoySafeDataHandlingAndEfficientToolsBoostYourBusinessOnlineWithUsForEasyClientInteractionsGrowth self-stretch text-neutral-400 text-sm font-light font-urbaninst">
+                      <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
                         With our expertise in Design & Development in the <br />
                         segment,we will help you obtain a better ROI.
                       </div>
@@ -68,8 +68,8 @@ const Industries = () => {
                   </div>
                 </div>
                 <div className="Frame1171281437 justify-start items-center consult-us gap-2 mt-10 inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm font-light font-urbaninst">
-                    Schedule a Call
+                  <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
+                    Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4   flex-col justify-start items-start inline-flex">
                     <svg
@@ -138,14 +138,14 @@ const Industries = () => {
                     </div>
                   </div>
                   <div className="Frame1171281436 h-28 flex-col justify-start items-start gap-4 flex">
-                    <div className="Fintech self-stretch text-white text-2xl font-normal font-urbaninst">
+                    <div className="Fintech self-stretch text-white text-2xl font-normal urbanist">
                       Fintech
                     </div>
                     <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-[15px] font-normal italic font-urbaninst">
+                      <div className=" self-stretch text-stone-300 text-[15px] font-normal italic urbanist">
                         Upgrade the finance experience with us
                       </div>
-                      <div className="EnjoySafeDataHandlingAndEfficientToolsBoostYourBusinessOnlineWithUsForEasyClientInteractionsGrowth self-stretch text-neutral-400 text-sm font-light font-urbaninst">
+                      <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
                         Enjoy safe data handling and efficient tools. Boost your
                         business online with us for easy client interactions &
                         growth.
@@ -154,8 +154,8 @@ const Industries = () => {
                   </div>
                 </div>
                 <div className="Frame1171281437 justify-start items-center consult-us mt-10  gap-2 inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm font-light font-urbaninst">
-                    Schedule a Call
+                  <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
+                    Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
                     <svg
@@ -222,14 +222,14 @@ const Industries = () => {
                     </svg>
                   </div>
                   <div className="Frame1171281436 h-28 flex-col justify-start items-start gap-4 flex">
-                    <div className="Fintech self-stretch text-white text-2xl font-normal font-urbaninst">
+                    <div className="Fintech self-stretch text-white text-2xl font-normal urbanist">
                       Human Resources
                     </div>
                     <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-[15px] font-normal italic font-urbaninst">
+                      <div className=" self-stretch text-stone-300 text-[15px] font-normal italic urbanist">
                         Trust us to streamline your HR processes
                       </div>
-                      <div className="EnjoySafeDataHandlingAndEfficientToolsBoostYourBusinessOnlineWithUsForEasyClientInteractionsGrowth self-stretch text-neutral-400 text-sm font-light font-urbaninst">
+                      <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
                         Were IT experts creating customized HR websites.
                         Intuitive design , secure platform, and easy
                         communication tools.
@@ -238,8 +238,8 @@ const Industries = () => {
                   </div>
                 </div>
                 <div className="Frame1171281437 justify-start items-center consult-us mt-10 gap-2 inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm font-light font-urbaninst">
-                    Schedule a Call
+                  <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
+                    Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
                     <svg
@@ -265,7 +265,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive w-[400px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col  justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive w-[400px] p-5 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col  justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Accounting w-8 h-8 px-px justify-center items-center inline-flex">
@@ -298,14 +298,14 @@ const Industries = () => {
                     </div>
                   </div>
                   <div className="Frame1171281436 h-28 flex-col justify-start items-start gap-4 flex">
-                    <div className="Fintech self-stretch text-white text-2xl font-normal  font-urbaninst">
+                    <div className="Fintech self-stretch text-white text-2xl font-normal  urbanist">
                       Accounting
                     </div>
                     <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-[15px] font-normal italic font-urbaninst">
+                      <div className=" self-stretch text-stone-300 text-[15px] font-normal italic urbanist">
                         Level Up Your Accounting Online
                       </div>
-                      <div className="EnjoySafeDataHandlingAndEfficientToolsBoostYourBusinessOnlineWithUsForEasyClientInteractionsGrowth self-stretch text-neutral-400 text-sm font-light font-urbaninst">
+                      <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
                         We create easy-to-use websites for accountants. Safe,
                         smooth, & efficient. Enhance your accounting business
                         online!
@@ -314,8 +314,8 @@ const Industries = () => {
                   </div>
                 </div>
                 <div className="Frame1171281437 justify-start items-center consult-us mt-10 gap-2 inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm font-light font-urbaninst">
-                    Schedule a Call
+                  <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
+                    Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
                     <svg
@@ -404,14 +404,14 @@ const Industries = () => {
                     </div>
                   </div>
                   <div className="Frame1171281436 h-28 flex-col justify-start items-start gap-4 flex">
-                    <div className="Fintech self-stretch text-white text-2xl font-normal font-urbaninst">
+                    <div className="Fintech self-stretch text-white text-2xl font-normal urbanist">
                       Content Generation
                     </div>
                     <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-[15px] font-normal italic font-urbaninst">
+                      <div className=" self-stretch text-stone-300 text-[15px] font-normal italic urbanist">
                         Better the content, more the conversion ratio
                       </div>
-                      <div className="EnjoySafeDataHandlingAndEfficientToolsBoostYourBusinessOnlineWithUsForEasyClientInteractionsGrowth self-stretch text-neutral-400 text-sm font-light font-urbaninst">
+                      <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
                         We leverage AI and OpenAI API to craft smart, engaging,
                         and automated content solutions tailored just for your
                         business.
@@ -420,8 +420,8 @@ const Industries = () => {
                   </div>
                 </div>
                 <div className="Frame1171281437 justify-start items-center consult-us mt-10  gap-2 inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm font-light font-urbaninst">
-                    Schedule a Call
+                  <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
+                    Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
                     <svg
@@ -475,14 +475,14 @@ const Industries = () => {
                     </svg>
                   </div>
                   <div className="Frame1171281436 h-28 flex-col justify-start items-start gap-4 flex">
-                    <div className="Fintech self-stretch text-white text-2xl font-normal font-urbaninst">
+                    <div className="Fintech self-stretch text-white text-2xl font-normal urbanist">
                       Retail
                     </div>
                     <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                      <div className="UpgradeTheFinanceExperienceWithUs self-stretch text-stone-300 text-[15px] font-normal italic font-urbaninst">
+                      <div className=" self-stretch text-stone-300 text-[15px] font-normal italic urbanist">
                         Simplify your retail experience
                       </div>
-                      <div className="EnjoySafeDataHandlingAndEfficientToolsBoostYourBusinessOnlineWithUsForEasyClientInteractionsGrowth self-stretch text-neutral-400 text-sm font-light font-urbaninst">
+                      <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
                         Our IT team creates easy, secure, and successful retail
                         websites, ensuring seamless shopping experiences.
                       </div>
@@ -490,8 +490,8 @@ const Industries = () => {
                   </div>
                 </div>
                 <div className="Frame1171281437 justify-start items-center consult-us mt-10  gap-2 inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm font-light font-urbaninst">
-                    Schedule a Call
+                  <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
+                    Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
                     <svg

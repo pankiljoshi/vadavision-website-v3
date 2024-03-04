@@ -99,7 +99,7 @@ const Navbar = () => {
                   </linearGradient>
                 </defs>
               </svg>
-              <div className="Vadavision text-white text-2xl font-bold font-prompt leading-7">
+              <div className="Vadavision text-white text-2xl font-bold prompt leading-7">
                 VadaVision!
               </div>
             </div>
@@ -139,7 +139,7 @@ const Navbar = () => {
                   {(activeTab === "about" || hoveredTab === "about") && (
                     <RedBar />
                   )}{" "}
-                  <span className="ml-1 font-urbanist text-[#8E8E8E] font-light">
+                  <span className="ml-1 urbanist text-[#8E8E8E] font-light">
                     About
                   </span>
                 </div>
@@ -1448,9 +1448,24 @@ const Navbar = () => {
                     </div>
 
                     {activeTab === "services" && <RedBar />}
-                    <span className=" text-[#8E8E8E] font-light font-urbanist">
-                      Services
-                    </span>
+                    <div className="flex gap-2">
+                      <span className=" text-[#8E8E8E] font-light urbanist">
+                        Services
+                      </span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="10"
+                        height="7"
+                        viewBox="0 0 10 7"
+                        fill="none"
+                        className="mt-2.5"
+                      >
+                        <path
+                          d="M4.99996 6.16667C4.91222 6.16718 4.82525 6.15036 4.74402 6.11719C4.6628 6.08401 4.58892 6.03513 4.52663 5.97334L0.526628 1.97334C0.401092 1.8478 0.330566 1.67754 0.330566 1.50001C0.330566 1.32247 0.401092 1.15221 0.526628 1.02667C0.652163 0.901138 0.822426 0.830612 0.999961 0.830612C1.1775 0.830612 1.34776 0.901138 1.47329 1.02667L4.99996 4.56001L8.52663 1.03334C8.65416 0.924123 8.81821 0.867052 8.986 0.873532C9.15378 0.880013 9.31294 0.949568 9.43167 1.0683C9.5504 1.18703 9.61995 1.34619 9.62643 1.51397C9.63292 1.68176 9.57585 1.84581 9.46663 1.97334L5.46663 5.97334C5.34245 6.0965 5.17485 6.16594 4.99996 6.16667Z"
+                          fill="#8E8E8E"
+                        />
+                      </svg>
+                    </div>
                   </div>
                 </div>
 
@@ -1467,9 +1482,24 @@ const Navbar = () => {
                     {(activeTab === "product" || hoveredTab === "product") && (
                       <RedBar />
                     )}{" "}
-                    <span className=" text-[#8E8E8E] font-light font-urbanist">
-                      Product
-                    </span>
+                    <div className="flex gap-2">
+                      <span className=" text-[#8E8E8E] font-light urbanist">
+                        Product
+                      </span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="10"
+                        height="7"
+                        viewBox="0 0 10 7"
+                        className="mt-2.5"
+                        fill="none"
+                      >
+                        <path
+                          d="M4.99996 6.16667C4.91222 6.16718 4.82525 6.15036 4.74402 6.11719C4.6628 6.08401 4.58892 6.03513 4.52663 5.97334L0.526628 1.97334C0.401092 1.8478 0.330566 1.67754 0.330566 1.50001C0.330566 1.32247 0.401092 1.15221 0.526628 1.02667C0.652163 0.901138 0.822426 0.830612 0.999961 0.830612C1.1775 0.830612 1.34776 0.901138 1.47329 1.02667L4.99996 4.56001L8.52663 1.03334C8.65416 0.924123 8.81821 0.867052 8.986 0.873532C9.15378 0.880013 9.31294 0.949568 9.43167 1.0683C9.5504 1.18703 9.61995 1.34619 9.62643 1.51397C9.63292 1.68176 9.57585 1.84581 9.46663 1.97334L5.46663 5.97334C5.34245 6.0965 5.17485 6.16594 4.99996 6.16667Z"
+                          fill="#8E8E8E"
+                        />
+                      </svg>
+                    </div>
                   </div>
                   <div className="ArrowDown w-4 h-4 px-1 py-1.5 justify-center items-center flex" />
                 </div>
@@ -1574,7 +1604,7 @@ const Navbar = () => {
                       </defs>
                     </svg>
                   </div>
-                  <div className="Eng text-[16px] text-[#8E8E8E] cursor-pointer font-light font-urbanist">
+                  <div className="Eng text-[16px] text-[#8E8E8E] cursor-pointer font-light urbanist">
                     ENG
                   </div>
                   <div className="ArrowDown w-4 h-4 px-1  cursor-pointer justify-center items-center flex">
@@ -1628,7 +1658,7 @@ const Navbar = () => {
                 </linearGradient>
               </defs>
             </svg>
-            <div className="Vadavision text-white text-2xl font-bold font-prompt leading-7">
+            <div className="Vadavision text-white text-2xl font-bold prompt leading-7">
               VadaVision!
             </div>
           </div>

@@ -56,10 +56,10 @@ const MileStone = () => {
                 />
               </svg>
             </span>
-            <div className="text-white text-[40px] text-size-change font-semibold font-urbanist">
+            <div className="text-white text-[40px] text-size-change font-semibold urbanist">
               80+
             </div>
-            <p className="text-[#8E8E8E] font-light text-[20px] text-size font-urbanist">
+            <p className="text-[#8E8E8E] font-light text-[20px] text-size urbanist">
               Successful Clients{" "}
             </p>
           </div>
@@ -80,10 +80,10 @@ const MileStone = () => {
                 />
               </svg>
             </span>{" "}
-            <div className="text-white text-[40px] text-size-change font-bold font-urbaninst">
+            <div className="text-white text-[40px] text-size-change font-bold urbanist">
               60+
             </div>
-            <p className="text-[#8E8E8E] font-light text-[20px] text-size  font-urbaninst">
+            <p className="text-[#8E8E8E] font-light text-[20px] text-size  urbanist">
               5-Star Ratings
             </p>
           </div>
@@ -132,10 +132,10 @@ const MileStone = () => {
                 />
               </svg>
             </span>{" "}
-            <div className="text-white text-[40px] text-size-change font-bold font-urbaninst">
+            <div className="text-white text-[40px] text-size-change font-bold urbanist">
               100+
             </div>
-            <p className="text-[#8E8E8E] font-light text-size  text-[20px] font-urbaninst">
+            <p className="text-[#8E8E8E] font-light text-size  text-[20px] urbanist">
               Successful Projects
             </p>
           </div>
@@ -158,10 +158,10 @@ const MileStone = () => {
                 />
               </svg>
             </span>{" "}
-            <div className="text-white text-[40px] text-size-change font-bold font-urbaninst">
+            <div className="text-white text-[40px] text-size-change font-bold urbanist">
               10+
             </div>
-            <p className="text-[#8E8E8E] font-light text-[20px] text-size font-urbaninst">
+            <p className="text-[#8E8E8E] font-light text-[20px] text-size urbanist">
               Team Members
             </p>
           </div>

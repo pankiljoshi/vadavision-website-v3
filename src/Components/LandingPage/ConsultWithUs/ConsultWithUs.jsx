@@ -22,16 +22,16 @@ const ConsultWithUs = () => {
         >
           <div className="  self-stretch  flex-col justify-start items-center gap-10 inline-flex">
             <div className="Frame1171281442 flex-col justify-start items-center gap-4 flex">
-              <div className="ReadyToDiscussYourProject text-white text-5xl font-medium font-urbaninst">
+              <div className="ReadyToDiscussYourProject text-white text-5xl font-medium urbanist">
                 Ready to discuss your project?
               </div>
-              <div className="GetInTouch text-neutral-400 text-xl font-light font-urbaninst">
+              <div className="GetInTouch text-neutral-400 text-xl font-light urbanist">
                 Get in touch with us and get your project a dedicated team of
                 professionals.
               </div>
             </div>
             <div className="Schedulecall h-12 px-10 py-4 bg-[#DD4243] hover:bg-[#D53033] cursor-pointer justify-center items-center gap-4 inline-flex">
-              <div className="BookACall text-white text-xl font-light font-urbaninst">
+              <div className="BookACall text-white text-xl font-light  urbanist">
                 Schedule a Call
               </div>
               <div className="Div w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">

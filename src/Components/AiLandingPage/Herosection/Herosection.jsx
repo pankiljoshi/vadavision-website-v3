@@ -34,13 +34,13 @@ const Herosection = () => {
               </linearGradient>
             </defs>
           </svg>
-          <div className="text-red-500 text-base herosection-gradient font-medium font-prompt uppercase leading-relaxed tracking-[6.40px]">
+          <div className="text-red-500 text-base herosection-gradient font-medium prompt uppercase leading-relaxed tracking-[6.40px]">
             Upgrade your ai game
           </div>
         </div>
         <div className="flex-col justify-start items-start gap-10 flex">
           <div className="flex-col justify-start items-start gap-6 flex">
-            <div className=" text-neutral-100 text-[64px] text-color-gradient font-bold font-prompt">
+            <div className=" text-neutral-100 text-[64px] text-color-gradient font-bold prompt">
               Unleash the power of AI Chatbot
             </div>
             <div className=" text-neutral-400 text-[20px] font-light font-urbaninst">

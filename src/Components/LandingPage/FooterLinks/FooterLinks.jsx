@@ -49,68 +49,68 @@ const FooterLinks = () => {
                 </linearGradient>
               </defs>
             </svg>
-            <div className="Vadavision cursor-pointer mt-3 text-white text-[32px] font-bold font-prompt leading-10">
+            <div className="Vadavision cursor-pointer mt-3 text-white text-[32px] font-bold prompt leading-10">
               VadaVision!
             </div>
           </div>
 
           <div className="TitleAndSubtitle flex-col justify-start items-start gap-2 flex">
-            <div className=" w-72 text-white text-opacity-80 text-[16px] leading-tight font-light font-urbanist">
+            <div className=" w-72 text-white text-opacity-80 text-[16px] leading-tight font-light urbanist">
               Helping founders & startups with technology and design.
             </div>
           </div>
         </div>
         <div className="FooterLinks justify-start flex-wrap items-start gap-16 flex">
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
-            <div className="Services text-neutral-400 text-base font-normal font-urbaninst">
+            <div className="Services text-neutral-400 text-base font-normal urbanist">
               Services
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
-              <div className="MobileAppDevelopment cursor-pointer text-white text-[19px] font-normal font-urbanist">
+              <div className="MobileAppDevelopment cursor-pointer text-white text-[19px] font-normal urbanist">
                 Mobile App Development
               </div>
-              <div className="UiUxDesign cursor-pointer text-white text-[19px] font-normal font-urbanist">
+              <div className="UiUxDesign cursor-pointer text-white text-[19px] font-normal urbanist">
                 UI/ UX Design
               </div>
-              <div className="AiServices cursor-pointer text-white text-[19px] font-normal font-urbanist">
+              <div className="AiServices cursor-pointer text-white text-[19px] font-normal urbanist">
                 AI Services
               </div>
             </div>
           </div>
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
-            <div className="Company text-neutral-400 text-base font-normal font-urbanist">
+            <div className="Company text-neutral-400 text-base font-normal urbanist">
               Company
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
-              <div className="Blog cursor-pointer text-white text-[19px] font-normal font-urbanist">
+              <div className="Blog cursor-pointer text-white text-[19px] font-normal urbanist">
                 Blog
               </div>
-              <div className="Careers cursor-pointer text-white text-[19px] font-normal font-urbanist">
+              <div className="Careers cursor-pointer text-white text-[19px] font-normal urbanist">
                 Careers
               </div>
-              <div className="ContactUs cursor-pointer text-white text-[19px] font-normal font-urbanist">
+              <div className="ContactUs cursor-pointer text-white text-[19px] font-normal urbanist">
                 Contact Us
               </div>
             </div>
           </div>
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
-            <div className="Resources text-neutral-400 text-base font-medium font-urbanist">
+            <div className="Resources text-neutral-400 text-base font-medium urbanist">
               Resources
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
-              <div className="Documentation cursor-pointer text-white text-[19px] font-normal font-urbanist">
+              <div className="Documentation cursor-pointer text-white text-[19px] font-normal urbanist">
                 Documentation
               </div>
-              <div className="MediaCoverage cursor-pointer text-white text-[19px] font-normal font-urbanist">
+              <div className="MediaCoverage cursor-pointer text-white text-[19px] font-normal urbanist">
                 Media Coverage
               </div>
-              <div className="Faqs text-white cursor-pointer text-[19px] font-normal font-urbanist">
+              <div className="Faqs text-white cursor-pointer text-[19px] font-normal urbanist">
                 FAQs
               </div>
             </div>
           </div>
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
-            <div className="FollowUsOn text-neutral-400 text-base font-light font-urbanist">
+            <div className="FollowUsOn text-neutral-400 text-base font-light urbanist">
               Follow us on
             </div>
             <div className="ButtonsContainer justify-start items-start gap-2.5 inline-flex">

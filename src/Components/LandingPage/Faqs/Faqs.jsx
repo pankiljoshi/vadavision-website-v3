@@ -53,7 +53,7 @@ const Accordion = () => {
                 onClick={() => toggleAccordion(item.id)}
               >
                 <div className="flex gap-2 justify-between accordion-title">
-                  <div className="Montserrat text-[#CFD3D7] text-2xl pt-4  pb-6 font-urbaninst leading-[24px] font-medium">
+                  <div className="montserrat text-[#CFD3D7] text-2xl pt-4  pb-6  leading-[24px] font-medium">
                     {item.questions}{" "}
                   </div>
                   <div className="accordion-icon mt-6 cursor-pointer ">
@@ -66,7 +66,7 @@ const Accordion = () => {
                 </div>
               </div>
               {openAccordion === item.id && (
-                <div className="text-[15px] font-normal text-[#7e7f7f] pb-6 font-urbaninst  w-[80%] pt-2  accordion-content">
+                <div className="text-[15px] font-normal text-[#7e7f7f] pb-6 montserrat  w-[80%] pt-2  accordion-content">
                   {item.answer}
                 </div>
               )}
@@ -83,7 +83,7 @@ const Accordion = () => {
                 onClick={() => toggleAccordion(item.id)}
               >
                 <div className="flex gap-2 justify-between accordion-title">
-                  <div className="Montserrat text-[#CFD3D7] text-2xl pt-4  pb-6 font-urbaninst leading-[24px] font-medium">
+                  <div className="montserrat text-[#CFD3D7] text-2xl pt-4  pb-6  leading-[24px] font-medium">
                     {item.questions}{" "}
                   </div>
                   <div className="accordion-icon mt-6 cursor-pointer ">
@@ -96,7 +96,7 @@ const Accordion = () => {
                 </div>
               </div>
               {openAccordion === item.id && (
-                <div className="text-[15px] font-normal text-[#7e7f7f] pb-6 font-urbaninst  w-[80%] pt-2  accordion-content">
+                <div className="text-[15px] font-normal text-[#7e7f7f] pb-6 montserrat  w-[80%] pt-2  accordion-content">
                   {item.answer}
                 </div>
               )}
@@ -114,7 +114,7 @@ const Accordion = () => {
                   onClick={() => toggleAccordion(item.id)}
                 >
                   <div className="flex gap-2 justify-between accordion-title">
-                    <div className="Montserrat text-[#CFD3D7] text-2xl pt-4  pb-6 font-urbaninst leading-[24px] font-medium">
+                    <div className="montserrat text-[#CFD3D7] text-2xl pt-4  pb-6  leading-[24px] font-medium">
                       {item.questions}{" "}
                     </div>
                     <div className="accordion-icon mt-6 cursor-pointer ">
@@ -127,7 +127,7 @@ const Accordion = () => {
                   </div>
                 </div>
                 {openAccordion === item.id && (
-                  <div className="text-[15px] font-normal text-[#7e7f7f] pb-6 font-urbaninst  w-[80%] pt-2  accordion-content">
+                  <div className="text-[15px] font-normal text-[#7e7f7f] pb-6 montserrat  w-[80%] pt-2  accordion-content">
                     {item.answer}
                   </div>
                 )}

@@ -29,16 +29,16 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className=" w-[650px] responsive-section flex-col  justify-start items-start gap-10 flex">
+          <div className=" w-[690px] responsive-section flex-col  justify-start items-start gap-10 flex">
             <div className=" flex-col justify-start items-start gap-6 flex">
               <div
-                className="  text-neutral-100 responsive-heading  leading-normal text-6xl font-bold font-prompt
+                className="  text-neutral-100 responsive-heading  leading-normal text-6xl font-bold prompt
                text-color-gradient "
               >
                 Crafting Digital Dreams <br />
                 into Tangible Reality
               </div>
-              <div className="  text-neutral-400 para-responsive  text-xl font-light font-urbaninst ">
+              <div className="  text-neutral-400 para-responsive w-[670px]  text-xl font-light font-urbaninst ">
                 We build a solid foundation for your dream startup and fuel it
                 for explosive growth. With innovative strategies and unwavering
                 dedication, we have the path for success that exceeds.
@@ -57,7 +57,7 @@ const HeroSection = () => {
                 data-aos="zoom-in"
                 className="BookACall cursor-pointer reponsive-button px-6 py-2 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button"
               >
-                <div className="BookACall w-[120px]  text-white text-md font-light font-urbaninst Schedule-button">
+                <div className="BookACall w-[120px]  text-white text-[16px] font-light urbanist  Schedule-button">
                   Schedule a Call
                 </div>
                 <div className="consultUs-svg w-6 h-6 p-3 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">

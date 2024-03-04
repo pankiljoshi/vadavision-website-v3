@@ -18,7 +18,7 @@ const FrequentlyAksedQuestions = () => {
   return (
     <div className=" px-20 mb-20 padding-industies   ">
       <div data-aos="fade-down" className="">
-        <h1 className="capitalize font-montserrat text-[#8E8E8E] text-4xl font-semibold leading-[110%] heading">
+        <h1 className="capitalize montserrat text-[#8E8E8E] text-4xl font-semibold leading-[110%] heading">
           some <br />{" "}
           <span className="faq-gradient text-5xl leading-normal">
             Frequently Asked Questions

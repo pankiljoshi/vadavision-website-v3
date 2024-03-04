@@ -4,17 +4,17 @@ const Footer = () => {
   return (
     <>
       <div className="Container w-full my-10 px-20 flex-wrap footer-responsive padding-industies  justify-between items-center inline-flex ">
-        <div className=" text-[#8E8E8E] text-[16px] font-medium font-urbanist">
+        <div className=" text-[#8E8E8E] text-[16px] font-medium urbanist">
           © 2024 - VadaVision! All Rights Reserved.
         </div>
         <div className="Links justify-start items-start footer-links-responsive gap-10 flex">
-          <div className="TermsOfService cursor-pointer text-[#8E8E8E] text-[16px] font-normal font-urbanist">
+          <div className="TermsOfService cursor-pointer text-[#8E8E8E] text-[16px] font-normal urbanist">
             Terms of Service
           </div>
-          <div className="PrivacyPolicy cursor-pointer text-[#8E8E8E] text-[16px] font-normal font-urbanist">
+          <div className="PrivacyPolicy cursor-pointer text-[#8E8E8E] text-[16px] font-normal urbanist">
             Privacy Policy
           </div>
-          <div className="Cookies cursor-pointer text-[#8E8E8E] text-[16px] font-normal font-urbanist">
+          <div className="Cookies cursor-pointer text-[#8E8E8E] text-[16px] font-normal urbanist">
             Cookies
           </div>
         </div>

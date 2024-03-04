@@ -23,11 +23,11 @@ const RecentProject = () => {
       <div className="RecentProjects w-full   px-20  py-20 padding-industies   ">
         <div data-aos="fade-down" className=" w-full flex justify-between    ">
           <div className="title-padding w-[700px]">
-            <span className="text-neutral-400 text-4xl text-size-change1  font-medium font-urbanist">
+            <span className="text-neutral-400 text-4xl text-size-change1  font-medium urbanist">
               Check out our
               <br />
             </span>
-            <span className="color-change text-6xl font-bold text-size-change2 leading-normal font-urbanist">
+            <span className="color-change text-6xl font-bold text-size-change2 leading-normal urbanist">
               Recent Projects
             </span>
           </div>
@@ -111,17 +111,17 @@ const RecentProject = () => {
                   <div className="Tweekend text-white text-5xl font-bold font-urbaninst">
                     Tweekend
                   </div>
-                  <div className=" text-stone-300 text-xl font-normal mt-2 italic font-urbaninst">
+                  <div className=" text-stone-300 text-xl font-normal mt-2 italic urbanist">
                     A booking app for social events.
                   </div>
                 </div>
-                <div className=" text-[#8E8E8E] text-xl font-light flex-wrap flex font-urbaninst responsive-paragraph">
+                <div className=" text-[#8E8E8E] text-xl font-light flex-wrap flex urbanist responsive-paragraph">
                   It makes planning and attending events simple, <br />
                   helping users find and join social gatherings effortlessly.
                 </div>
               </div>
               <div className="Frame1171281460 flex-col justify-start items-start gap-4 flex">
-                <div className="TechStack w-96 text-neutral-400 text-base font-semibold font-urbaninst">
+                <div className="TechStack w-96 text-neutral-400 text-base font-semibold urbanist">
                   Tech Stack:
                 </div>
                 <div className="Frame1171281459 justify-start items-start gap-4 inline-flex">
@@ -131,7 +131,7 @@ const RecentProject = () => {
               </div>
             </div>
             <div className="BookACall h-[46px] px-10 py-4 cursor-pointer bg-[#DD4243] hover:bg-[#D53033]  border border-white border-opacity-10 justify-center items-center gap-4 inline-flex">
-              <div className="BookACall text-white text-lg font-light font-urbaninst">
+              <div className="BookACall text-white text-lg font-light urbanist">
                 View Project
               </div>
               <div className="Div w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">

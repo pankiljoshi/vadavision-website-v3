@@ -20,10 +20,10 @@ const Servise = () => {
       <div className="Content w-full justify-between py-20 px-16 gap-20 flex responsive-content ">
         <div data-aos="fade-right" className="text-content w-[60%] mt-20">
           <div className="">
-            <h1 className=" gradient-change  text-[56px] font-bold font-urbanist text-responsive">
+            <h1 className=" gradient-change  text-[56px] font-bold urbanist text-responsive">
               Fast. Efficient. Reliable.
             </h1>
-            <p className="text-[#8E8E8E] w-[550px]  text-xl  font-light font-urbaninst paragraph-responsive mt-4">
+            <p className="text-[#8E8E8E] w-[550px]  text-xl  font-light urbanist paragraph-responsive mt-4">
               VadaVision! gives you an assurance of faster delivery, efficient
               results and a very reliable team.
             </p>
@@ -62,7 +62,7 @@ const Servise = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="font-light text-white text-sm font-urbanist margin-reponsive">
+              <span className="font-light text-white text-sm urbanist margin-reponsive">
                 Multiple Domains
               </span>
             </div>
@@ -99,7 +99,7 @@ const Servise = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="font-light text-white text-sm font-urbanist margin-reponsive">
+              <span className="font-light text-white text-sm urbanist margin-reponsive">
                 Timely Delivery
               </span>
             </div>
@@ -136,7 +136,7 @@ const Servise = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="font-light text-white text-sm font-urbanist margin-reponsive">
+              <span className="font-light text-white text-sm urbanist margin-reponsive">
                 Scalable Tech
               </span>
             </div>{" "}
@@ -173,7 +173,7 @@ const Servise = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="font-light text-white text-sm font-urbanist margin-reponsive">
+              <span className="font-light text-white text-sm urbanist margin-reponsive">
                 Robust Design
               </span>
             </div>

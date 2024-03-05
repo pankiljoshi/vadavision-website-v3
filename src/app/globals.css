@@ -36,7 +36,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .gradient-change {
-  background: linear-gradient(90deg, #FC4778 -0.73%, #3952F5 92.61%);
+  background: linear-gradient(90deg, #fc4778 -0.73%, #3952f5 92.61%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -121,7 +121,7 @@ body {
   background-image: url(../../public//Images/TESTIMONIALS.png);
   background-position: right;
 }
-.unique-gradient-background{
+.unique-gradient-background {
   background-position: bottom;
   background-image: url(../../public/Images/unique-background-gradient.png);
 }
@@ -143,13 +143,17 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .testimonial-gradient-color-change {
+  background: linear-gradient(to bottom, #0d0d0d, #232323, #0d0d0d);
+}
+
+.servises-cards {
+  border: 1px solid rgba(255, 255, 255, 0.08);
   background: linear-gradient(
-    to top,
-    #1d1d1d 100%,
-    #ffffff,
-    20.3%,
-    #1d1d1d 100%
+    to left,
+    rgb(23, 23, 23) 10.83%,
+    rgba(5, 4, 4, 0) 100%
   );
+  backdrop-filter: blur(40px);
 }
 
 .consultus-bg {
@@ -190,7 +194,6 @@ body {
   .responsive-font {
     font-size: 40px;
     width: 100%;
-
   }
 }
 
@@ -200,7 +203,6 @@ body {
     width: 100%;
   }
 }
-
 
 @media screen and (max-width: 750px) {
   .responsive-font {
@@ -330,75 +332,63 @@ body {
   }
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width: 1280px) {
   .herosection-responsive {
     gap: 140px;
   }
-  
 }
-@media screen and (max-width:1180px) {
+@media screen and (max-width: 1180px) {
   .herosection-responsive {
     gap: 100px;
   }
-  
 }
-@media screen and (max-width:1110px) {
+@media screen and (max-width: 1110px) {
   .herosection-responsive {
     gap: 70px;
   }
-  
 }
-@media screen and (max-width:1050px) {
+@media screen and (max-width: 1050px) {
   .herosection-responsive {
     gap: 40px;
   }
-  
 }
-@media screen and (max-width:990px) {
+@media screen and (max-width: 990px) {
   .herosection-responsive {
     flex-wrap: wrap;
   }
-  
 }
 
-@media screen and (max-width:640px) {
-  .responsive-heading{
+@media screen and (max-width: 640px) {
+  .responsive-heading {
     font-size: 42px;
   }
-  
 }
-@media screen and (max-width:570px) {
-  .responsive-heading{
+@media screen and (max-width: 570px) {
+  .responsive-heading {
     font-size: 36px;
   }
-  
 }
-@media screen and (max-width:720px) {
-  .responsive-section{
+@media screen and (max-width: 720px) {
+  .responsive-section {
     width: 550px;
   }
-  
 }
-@media screen and (max-width:990px) {
-  .padding-responsive{
+@media screen and (max-width: 990px) {
+  .padding-responsive {
     padding: 0px;
     margin: 0px;
   }
-  
 }
 
-
-@media screen and (max-width:1280px) {
+@media screen and (max-width: 1280px) {
   .para-responsive {
     width: 500px;
   }
-  
 }
-@media screen and (max-width:1050px) {
+@media screen and (max-width: 1050px) {
   .para-responsive {
     width: 450px;
   }
-  
 }
 @media screen and (max-width: 1050px) {
   .Schedule-button {
@@ -641,81 +631,69 @@ body {
   }
 }
 
-@media screen and (max-width:1450px) {
-  .width-heading{
+@media screen and (max-width: 1450px) {
+  .width-heading {
     width: 700px;
   }
-  
 }
 
-@media screen and (max-width:900px) {
-  .width-heading{
+@media screen and (max-width: 900px) {
+  .width-heading {
     width: 650px;
   }
-  
 }
-@media screen and (max-width:750px) {
-  .width-heading{
+@media screen and (max-width: 750px) {
+  .width-heading {
     width: 464px;
   }
-  
 }
-@media screen and (max-width:1450px) {
-  .paragraph-width{
+@media screen and (max-width: 1450px) {
+  .paragraph-width {
     width: 650px;
   }
-  
 }
-@media screen and (max-width:1350px) {
-  .paragraph-width{
+@media screen and (max-width: 1350px) {
+  .paragraph-width {
     width: 590px;
   }
-  
 }
-@media screen and (max-width:1250px) {
-  .paragraph-width{
+@media screen and (max-width: 1250px) {
+  .paragraph-width {
     width: 530px;
   }
-  
 }
-@media screen and (max-width:750px) {
-  .dataPtotection-paragraph{
+@media screen and (max-width: 750px) {
+  .dataPtotection-paragraph {
     flex-wrap: wrap;
     width: 100%;
   }
-  
 }
-@media screen and (max-width:650px) {
-  .dataPtotection-paragraph{
+@media screen and (max-width: 650px) {
+  .dataPtotection-paragraph {
     flex-wrap: wrap;
     width: 100%;
   }
-  
 }
-@media screen and (max-width:460px) {
-  .dataprotection-gradient{
+@media screen and (max-width: 460px) {
+  .dataprotection-gradient {
     font-size: 44px;
   }
-  
 }
-@media screen and (max-width:460px) {
-  .dataprotection-heading{
+@media screen and (max-width: 460px) {
+  .dataprotection-heading {
     font-size: 34px;
   }
-  
 }
-@media screen and (max-width:490px) {
-  .dataPtotection-paragraph{
+@media screen and (max-width: 490px) {
+  .dataPtotection-paragraph {
     flex-wrap: wrap;
     width: 100%;
   }
-  
 }
-@media screen and (max-width:1080px) {
-  .paragraph-width{
+@media screen and (max-width: 1080px) {
+  .paragraph-width {
     width: 460px;
   }
-  
 }
 /* @media screen and (max-width:650px) {
   .responsive-button-dataprotection{
@@ -723,24 +701,21 @@ body {
   }
   
 } */
-@media screen and (max-width:650px) {
-  .button-width{
+@media screen and (max-width: 650px) {
+  .button-width {
     width: 160px;
   }
-  
 }
-@media screen and (max-width:900px) {
-  .paragraph-width{
+@media screen and (max-width: 900px) {
+  .paragraph-width {
     width: 670px;
   }
-  
 }
 
-@media screen and (max-width:750px) {
-  .paragraph-width{
+@media screen and (max-width: 750px) {
+  .paragraph-width {
     width: 600px;
   }
-  
 }
 @media screen and (max-width: 1180px) {
   .logo-responsive {
@@ -910,11 +885,10 @@ body {
   }
 }
 
-@media screen and (max-width:750px) {
-  .dataProtection-button{
+@media screen and (max-width: 750px) {
+  .dataProtection-button {
     flex-wrap: wrap;
   }
-  
 }
 @media screen and (max-width: 390px) {
   .margin-reponsive {
@@ -936,55 +910,47 @@ body {
     font-size: 21px;
   }
 }
-@media screen and (max-width:620px) {
-  .text-case-studies{
+@media screen and (max-width: 620px) {
+  .text-case-studies {
     font-size: 30px;
   }
-  
 }
-@media screen and (max-width:620px) {
-  .responsive-heading-casestidies{
+@media screen and (max-width: 620px) {
+  .responsive-heading-casestidies {
     justify-content: start;
     align-items: start;
   }
-  
 }
-@media screen and (max-width:620px) {
-  .gap-responsive-casestudies{
+@media screen and (max-width: 620px) {
+  .gap-responsive-casestudies {
     gap: 10px;
   }
-  
 }
-@media screen and (max-width:620px) {
-  .gap-responsive-casestudies-main{
+@media screen and (max-width: 620px) {
+  .gap-responsive-casestudies-main {
     gap: 30px;
   }
-  
 }
-@media screen and (max-width:620px) {
-  .gap-responsive-casestudies1-main{
+@media screen and (max-width: 620px) {
+  .gap-responsive-casestudies1-main {
     gap: 40px;
   }
-  
 }
-@media screen and (max-width:560px) {
-  .case-study-heading2{
+@media screen and (max-width: 560px) {
+  .case-study-heading2 {
     font-size: 42px;
   }
-  
 }
 
-@media screen and (max-width:560px) {
-  .case-study-heading1{
+@media screen and (max-width: 560px) {
+  .case-study-heading1 {
     font-size: 38px;
   }
-  
 }
-@media screen and (max-width:620px) {
-  .font-case-study{
+@media screen and (max-width: 620px) {
+  .font-case-study {
     font-size: 20px;
   }
-  
 }
 @media screen and (max-width: 900px) {
   .font-change-2 {
@@ -1064,11 +1030,10 @@ body {
   }
 }
 
-@media screen and (max-width:620px) {
-  .img-full-width{
+@media screen and (max-width: 620px) {
+  .img-full-width {
     width: 100%;
   }
-  
 }
 @media screen and (max-width: 750px) {
   .card-responsive {
@@ -1460,14 +1425,24 @@ body {
 .border-style {
   border-width: 0px 0px 1px 0px;
   border-style: solid;
-  border-image: linear-gradient(270deg, rgba(221, 66, 67, 0.00) 0%, rgba(221, 66, 67, 0.48) 52%, rgba(221, 66, 67, 0.00) 100%);
+  border-image: linear-gradient(
+    270deg,
+    rgba(221, 66, 67, 0) 0%,
+    rgba(221, 66, 67, 0.48) 52%,
+    rgba(221, 66, 67, 0) 100%
+  );
   border-image-slice: 1;
 }
 
 .border-style-project {
   border-width: 0px 0px 4px 0px;
   border-style: solid;
-  border-image: linear-gradient(270deg, rgba(221, 66, 67, 0.00) 0%, rgba(221, 66, 67, 0.58) 52%, rgba(221, 66, 67, 0.00) 100%);
+  border-image: linear-gradient(
+    270deg,
+    rgba(221, 66, 67, 0) 0%,
+    rgba(221, 66, 67, 0.58) 52%,
+    rgba(221, 66, 67, 0) 100%
+  );
   border-image-slice: 1;
 }
 
@@ -1481,7 +1456,12 @@ body {
 .border-style-faq {
   border-width: 0px 0px 1px 0px;
   border-style: solid;
-  border-image: linear-gradient(to right, #ffffff00, #ffffff, #ffffff00);
+  border-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.32) 52.5%,
+    rgba(255, 255, 255, 0) 100%
+  );
   border-image-slice: 1;
 }
 
@@ -1514,7 +1494,7 @@ body {
   background-image: url("../../public/Images/dataProtectionBg.png");
 }
 .gradient-heading-text {
-  background: linear-gradient(94deg, #FC4778 5.14%, #3952F5 97.17%);
+  background: linear-gradient(94deg, #fc4778 5.14%, #3952f5 97.17%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1558,8 +1538,6 @@ body {
     gap: 30px;
   }
 }
-
-
 
 @media screen and (max-width: 660px) {
   .features-text-responsive {
@@ -1655,19 +1633,18 @@ body {
   backdrop-filter: blur(10px);
 }
 
-@media screen and (max-width:1000px) {
-  .responsive-casestudies{
+@media screen and (max-width: 1000px) {
+  .responsive-casestudies {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
   }
-  
 }
 
-@media screen and (max-width:1000px) {
-  .responsive-casestudies1{
+@media screen and (max-width: 1000px) {
+  .responsive-casestudies1 {
     flex-wrap: wrap;
     flex-direction: column-reverse;
     display: flex;
@@ -1675,30 +1652,29 @@ body {
     align-items: center;
     width: 100%;
   }
-  
 }
 
-.blur-bg{
-filter: blur(8px);
+.blur-bg {
+  filter: blur(8px);
 }
 
-.prompt{
+.prompt {
   font-family: var(--font-prompt);
 }
 
-.inter{
+.inter {
   font-family: var(--font-inter);
 }
 
-.urbanist{
+.urbanist {
   font-family: var(--font-urbanist);
 }
 
-.montserrat{
+.montserrat {
   font-family: var(--font-montserrat);
 }
 
-.raleway{
+.raleway {
   font-family: var(--font-raleway);
 }
 
@@ -1706,17 +1682,15 @@ filter: blur(8px);
   scale: 1.1;
   transition: all ease 0.5s;
   overflow: hidden;
-
 }
 
 .social-media-hover-facebook:hover {
   scale: 1.1;
   transition: all ease 0.5s;
   overflow: hidden;
-  
-}.social-media-hover-instagram:hover {
+}
+.social-media-hover-instagram:hover {
   scale: 1.1;
   transition: all ease 0.5s;
   overflow: hidden;
- 
 }

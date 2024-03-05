@@ -38,7 +38,7 @@ const HeroSection = () => {
                 Crafting Digital Dreams <br />
                 into Tangible Reality
               </div>
-              <div className="  text-neutral-400 para-responsive w-[670px]  text-xl font-light font-urbaninst ">
+              <div className="  text-neutral-400 para-responsive w-[670px]  text-xl font-light  urbanist ">
                 We build a solid foundation for your dream startup and fuel it
                 for explosive growth. With innovative strategies and unwavering
                 dedication, we have the path for success that exceeds.
@@ -47,15 +47,15 @@ const HeroSection = () => {
             <div className=" justify-start items-center gap-10 inline-flex reponsive-button ">
               <div
                 data-aos="zoom-in"
-                className="BookACall cursor-pointer px-8 py-2 reponsive-button bg-white hover:bg-[#FFFFFF3D] bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex explore-button"
+                className="BookACall cursor-pointer h-[48px] px-9 reponsive-button bg-white hover:bg-[#FFFFFF3D] bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex explore-button"
               >
-                <div className="BookACall w-[120px] text-white text-lg font-light text-center  font-urbaninst explore-button">
+                <div className="BookACall w-[120px] text-white text-[20px] font-light text-center urbanist   explore-button">
                   Explore More
                 </div>
               </div>
               <div
                 data-aos="zoom-in"
-                className="BookACall cursor-pointer reponsive-button px-6 py-2 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button"
+                className="BookACall cursor-pointer reponsive-button h-[48px] px-5 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button"
               >
                 <div className="BookACall w-[120px]  text-white text-[16px] font-light urbanist  Schedule-button">
                   Schedule a Call
@@ -91,7 +91,7 @@ const HeroSection = () => {
           className=" w-[50%] padding-responsive mt-20 pt-20"
         >
           <div className="  servises-card  ml-20 mt-16 justify-start  items-start gap-6 inline-flex">
-            <div className="Frame1171281402 servises-cards1 backdrop-blur-3xl  p-4 w-[172px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="Frame1171281402 servises-cards1 servises-cards  p-4 w-[172px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col justify-start items-start gap-4 flex">
                 <div className="AiAssistant1 w-8 h-8 relative">
                   <div className="Group w-8 h-8 left-[0.81px] top-0 absolute">
@@ -318,7 +318,7 @@ const HeroSection = () => {
                 </div>
               </div>
             </div>
-            <div className="Frame1171281404 servises-cards2 w-[261px] h-[120px] backdrop-blur-3xl  bg-gradient-to-r from-stone-950 to-neutral-800 services-Card-hover hover:border-yellow-50 hover:border-opacity-15  p-6 border gradient-background  border-white border-opacity-10  flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="Frame1171281404 servises-cards2 w-[261px] h-[120px] servises-cards  services-Card-hover hover:border-yellow-50 hover:border-opacity-15  p-6 border   border-white border-opacity-10  flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col justify-start items-start gap-4 flex">
                 <div className="Resource1 w-8 h-8  svg-margin relative">
                   <svg
@@ -360,7 +360,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="Frame1171281406  mt-6 justify-start items-start gap-6 inline-flex pb-20">
-            <div className="Frame1171281403 servises-cards2 w-[275px] h-[120px] backdrop-blur-3xl   p-5 hover:border-yellow-50 hover:border-opacity-15   services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="Frame1171281403 servises-cards2 w-[275px] h-[120px] servises-cards   p-5 hover:border-yellow-50 hover:border-opacity-15   services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col justify-start items-start gap-4 flex">
                 <div className="MobileDevelopment1 w-8 h-8 svg-margin relative">
                   <div className="Group w-7 h-7 ">
@@ -513,7 +513,7 @@ const HeroSection = () => {
                 </div>
               </div>
             </div>
-            <div className="Frame1171281402 servises-cards1 backdrop-blur-3xl  p-4 w-[172px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="Frame1171281402 servises-cards1  servises-cards  p-4 w-[172px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col justify-start items-start gap-4 flex">
                 <div className="UxDesign1 w-8 h-8 relative">
                   <div className="VectorIllustration w-7 h-7 svg-margin left-[1.88px] top-[1.60px] absolute">

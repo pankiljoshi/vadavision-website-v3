@@ -26,7 +26,7 @@ const Industries = () => {
           </span>
         </div>
         <div data-aos="zoom-in" className=" w-full">
-          <div className=" justify-between items-start gap-10 flex-wrap    inline-flex cards">
+          <div className=" justify-start items-start gap-10 flex-wrap    inline-flex cards">
             <div className="card-responsive  w-[400px]  p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">

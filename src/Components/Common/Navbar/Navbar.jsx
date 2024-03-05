@@ -450,13 +450,13 @@ const Navbar = () => {
                                                   </div>
                                                 </div>
                                               </div>
-                                              <div className="AiServices text-white text-2xl font-normal font-urbaninst">
+                                              <div className="AiServices text-white text-2xl font-normal urbanist">
                                                 AI Services
                                               </div>
                                             </div>
                                             <div className="Frame1171281436 w-60 h-11 flex-col justify-start items-start gap-4 flex">
                                               <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                                                <div className="GetThePowerfulAiServicesBuiltByTheExperts self-stretch text-[#8E8E8E] text-base font-extralight font-urbaninst">
+                                                <div className=" self-stretch text-[#8E8E8E] text-base font-extralight urbanist">
                                                   Get the powerful AI services
                                                   built by the experts.
                                                 </div>
@@ -464,7 +464,7 @@ const Navbar = () => {
                                             </div>
                                           </div>
                                           <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
-                                            <div className="LearnMore text-[#8E8E8E] group-hover:text-[#E1E1E1] text-sm font-light font-urbaninst">
+                                            <div className="LearnMore text-[#8E8E8E] group-hover:text-[#E1E1E1] text-sm font-light urbanist">
                                               Learn more
                                             </div>
                                             <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
@@ -552,20 +552,20 @@ const Navbar = () => {
                                                 </defs>
                                               </svg>
                                             </div>
-                                            <div className="UiUxDesign text-white text-2xl font-normal font-urbaninst">
+                                            <div className="UiUxDesign text-white text-2xl font-normal urbanist">
                                               UI UX Design
                                             </div>
                                           </div>
                                           <div className="Frame1171281436 w-60 h-5 flex-col justify-start items-start gap-4 flex">
                                             <div className="Frame1171281435 self-stretch h-9 flex-col justify-start items-start gap-2 flex">
-                                              <div className="BestInClassUiAndUxDesigns self-stretch text-[#8E8E8E] text-base font-extralight font-urbaninst">
+                                              <div className="BestInClassUiAndUxDesigns self-stretch text-[#8E8E8E] text-base font-extralight urbanist">
                                                 Best in class UI and UX Designs.
                                               </div>
                                             </div>
                                           </div>
                                         </div>
                                         <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
-                                          <div className="LearnMore text-[#8E8E8E] group-hover:text-[#E1E1E1] text-sm font-light font-urbaninst">
+                                          <div className="LearnMore text-[#8E8E8E] group-hover:text-[#E1E1E1] text-sm font-light urbanist">
                                             Learn more
                                           </div>
                                           <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
@@ -767,13 +767,13 @@ const Navbar = () => {
                                                 </svg>
                                               </div>
                                             </div>
-                                            <div className="AppDevelopment grow shrink basis-0 text-white text-2xl font-normal font-urbaninst">
+                                            <div className="AppDevelopment grow shrink basis-0 text-white text-2xl font-normal urbanist">
                                               App Development
                                             </div>
                                           </div>
                                           <div className="Frame1171281436 w-60 h-5 flex-col justify-start items-start gap-4 flex">
                                             <div className="Frame1171281435 self-stretch h-9 flex-col justify-start items-start gap-2 flex">
-                                              <div className="IosAndroidSdkOrHybridWeBuildItAll w-60 text-[#8E8E8E] text-base font-extralight font-urbaninst">
+                                              <div className="IosAndroidSdkOrHybridWeBuildItAll w-60 text-[#8E8E8E] text-base font-extralight urbanist">
                                                 iOS, Android SDK or Hybrid - we
                                                 build it all.
                                               </div>
@@ -781,7 +781,7 @@ const Navbar = () => {
                                           </div>
                                         </div>
                                         <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
-                                          <div className="LearnMore text-[#8E8E8E] group-hover:text-[#E1E1E1] text-sm font-light font-urbaninst">
+                                          <div className="LearnMore text-[#8E8E8E] group-hover:text-[#E1E1E1] text-sm font-light urbanist">
                                             Learn more
                                           </div>
                                           <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
@@ -858,13 +858,13 @@ const Navbar = () => {
                                                 </defs>
                                               </svg>
                                             </div>
-                                            <div className="ResourceAugmentation grow shrink basis-0 text-white text-2xl font-normal font-urbaninst">
+                                            <div className="ResourceAugmentation grow shrink basis-0 text-white text-2xl font-normal urbanist">
                                               Resource Augmentation
                                             </div>
                                           </div>
                                           <div className="Frame1171281436 w-96 h-5 flex-col justify-start items-start gap-4 flex">
                                             <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                                              <div className="TheIntuitiveResourcesAugmentation self-stretch text-[#8E8E8E] text-base font-extralight font-urbaninst">
+                                              <div className="TheIntuitiveResourcesAugmentation self-stretch text-[#8E8E8E] text-base font-extralight urbanist">
                                                 The intuitive resources
                                                 augmentation.
                                               </div>
@@ -872,7 +872,7 @@ const Navbar = () => {
                                           </div>
                                         </div>
                                         <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
-                                          <div className="LearnMore text-[#8E8E8E] group-hover:text-[#E1E1E1] text-sm font-light font-urbaninst">
+                                          <div className="LearnMore text-[#8E8E8E] group-hover:text-[#E1E1E1] text-sm font-light urbanist">
                                             Learn more
                                           </div>
                                           <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
@@ -997,13 +997,13 @@ const Navbar = () => {
                                                 </defs>
                                               </svg>
                                             </div>
-                                            <div className="WorkflowAutomation w-64 text-white text-2xl font-normal font-urbaninst">
+                                            <div className="WorkflowAutomation w-64 text-white text-2xl font-normal urbanist">
                                               Workflow Automation
                                             </div>
                                           </div>
                                           <div className="Frame1171281436 w-96 h-4 flex-col justify-start items-start gap-4 flex">
                                             <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                                              <div className="WorkflowAutomationLikeNeverBefore self-stretch text-[#8E8E8E] text-base font-extralight font-urbaninst">
+                                              <div className=" self-stretch text-[#8E8E8E] text-base font-extralight urbanist">
                                                 Workflow automation like never
                                                 before.
                                               </div>
@@ -1011,7 +1011,7 @@ const Navbar = () => {
                                           </div>
                                         </div>
                                         <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
-                                          <div className="LearnMore text-[#8E8E8E] group-hover:text-[#E1E1E1] text-sm font-light font-urbaninst">
+                                          <div className="LearnMore text-[#8E8E8E] group-hover:text-[#E1E1E1] text-sm font-light urbanist">
                                             Learn more
                                           </div>
                                           <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
@@ -1044,7 +1044,7 @@ const Navbar = () => {
                                   <div className="Frame1171281486 w-96 h-96  mt-10 p-4 pb-10 border border-neutral-600 flex-col justify-start items-start  inline-flex">
                                     <Image src={AiFace} alt="" />
                                     <div className="Frame1171281498 self-stretch flex-col justify-start items-start gap-4 inline-flex">
-                                      <div className="DiscussYourAiProjectsWithUs w-96 pt-4 text-neutral-400 text-base font-light font-urbaninst">
+                                      <div className="DiscussYourAiProjectsWithUs w-96 pt-4 text-neutral-400 text-base font-light urbanist">
                                         Discuss your AI Projects with us
                                       </div>
                                       <div className="Frame1171281490 flex-col justify-start items-start gap-4 flex">
@@ -1092,7 +1092,7 @@ const Navbar = () => {
                                               </svg>
                                             </div>
                                           </div>
-                                          <div className="PersonalisedSolutions text-neutral-200 text-sm font-extralight font-urbaninst">
+                                          <div className="PersonalisedSolutions text-neutral-200 text-sm font-extralight urbanist">
                                             Personalised Solutions
                                           </div>
                                         </div>
@@ -1140,7 +1140,7 @@ const Navbar = () => {
                                               </svg>
                                             </div>
                                           </div>
-                                          <div className="EmbarkingOnAJourney text-neutral-200 text-sm font-extralight font-urbaninst">
+                                          <div className="EmbarkingOnAJourney text-neutral-200 text-sm font-extralight urbanist">
                                             Embarking on a Journey
                                           </div>
                                         </div>
@@ -1188,7 +1188,7 @@ const Navbar = () => {
                                               </svg>
                                             </div>
                                           </div>
-                                          <div className="InitiatingActionWithACall text-neutral-200 text-sm font-extralight font-urbaninst">
+                                          <div className="InitiatingActionWithACall text-neutral-200 text-sm font-extralight urbanist">
                                             Initiating Action with a Call
                                           </div>
                                         </div>
@@ -1236,7 +1236,7 @@ const Navbar = () => {
                                               </svg>
                                             </div>
                                           </div>
-                                          <div className="RobustAiEngine text-neutral-200 text-sm font-extralight font-urbaninst">
+                                          <div className="RobustAiEngine text-neutral-200 text-sm font-extralight urbanist">
                                             Robust AI Engine
                                           </div>
                                         </div>
@@ -1248,7 +1248,7 @@ const Navbar = () => {
                                   <div className="Frame1171281486 w-96 h-96  mt-10 p-4 pb-10 border border-neutral-600 flex-col justify-start items-start  inline-flex">
                                     <Image src={UiuxServise} alt="" />
                                     <div className="Frame1171281498 self-stretch flex-col justify-start items-start gap-4 inline-flex">
-                                      <div className="DiscussYourAiProjectsWithUs w-96 pt-4 text-neutral-400 text-base font-light font-urbaninst">
+                                      <div className="DiscussYourAiProjectsWithUs w-96 pt-4 text-neutral-400 text-base font-light urbanist">
                                         Discuss your UI and UX projects with us{" "}
                                       </div>
                                       <div className="Frame1171281490 flex-col justify-start items-start gap-4 flex">
@@ -1296,7 +1296,7 @@ const Navbar = () => {
                                               </svg>
                                             </div>
                                           </div>
-                                          <div className="PersonalisedSolutions text-neutral-200 text-sm font-extralight font-urbaninst">
+                                          <div className="PersonalisedSolutions text-neutral-200 text-sm font-extralight urbanist">
                                             Personalised Solutions
                                           </div>
                                         </div>
@@ -1344,7 +1344,7 @@ const Navbar = () => {
                                               </svg>
                                             </div>
                                           </div>
-                                          <div className="EmbarkingOnAJourney text-neutral-200 text-sm font-extralight font-urbaninst">
+                                          <div className="EmbarkingOnAJourney text-neutral-200 text-sm font-extralight urbanist">
                                             Embarking on a Journey
                                           </div>
                                         </div>
@@ -1392,7 +1392,7 @@ const Navbar = () => {
                                               </svg>
                                             </div>
                                           </div>
-                                          <div className="InitiatingActionWithACall text-neutral-200 text-sm font-extralight font-urbaninst">
+                                          <div className="InitiatingActionWithACall text-neutral-200 text-sm font-extralight urbanist">
                                             Initiating Action with a Call
                                           </div>
                                         </div>
@@ -1440,7 +1440,7 @@ const Navbar = () => {
                                               </svg>
                                             </div>
                                           </div>
-                                          <div className="RobustAiEngine text-neutral-200 text-sm font-extralight font-urbaninst">
+                                          <div className="RobustAiEngine text-neutral-200 text-sm font-extralight  urbanist">
                                             Robust AI Engine
                                           </div>
                                         </div>

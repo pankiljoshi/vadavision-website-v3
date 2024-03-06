@@ -255,10 +255,6 @@ body {
   }
   
 } */
-.gradient-input{
-background: rgba(255, 255, 255, 0.04);
-backdrop-filter: blur(4px);
-}
 @media screen and (max-width: 1320px) {
   .responsive-herosection {
     gap: 120px;
@@ -1017,11 +1013,16 @@ backdrop-filter: blur(4px);
   }
 }
 
-@media screen and (max-width: 1350px) {
+/* @media screen and (max-width: 1350px) {
   .card-responsive {
-    width: 290px;
+    width: 300px;
   }
 }
+@media screen and (max-width: 1450px) {
+  .card-responsive {
+    width: 350px;
+  }
+} */
 
 @media screen and (max-width: 1110px) {
   .card-responsive {
@@ -1061,6 +1062,8 @@ backdrop-filter: blur(4px);
 .card-responsive {
   position: relative;
   overflow: hidden;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .card-responsive::after {
@@ -1081,6 +1084,7 @@ backdrop-filter: blur(4px);
   right: 0;
   left: 0;
   margin: 0 auto;
+  transition: none;
   height: 55px;
 }
 @media screen and (max-width: 1430px) {
@@ -1698,3 +1702,5 @@ backdrop-filter: blur(4px);
   border-radius: 100px;
 background: linear-gradient(180deg, #1D1D1D 0%, #101010 100%);
 }
+
+

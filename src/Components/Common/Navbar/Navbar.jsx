@@ -180,7 +180,7 @@ const Navbar = () => {
                                     <Link href="/ai-bot-landing">
                                       <div
                                         onMouseEnter={showAiServises}
-                                        className="Card w-72 h-48 p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 group hover:border hover:border-neutral-400 flex-col justify-start items-start gap-2.5 inline-flex"
+                                        className="Card w-72 h-48 p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950  border border-black group hover:border hover:border-neutral-400 flex-col justify-start items-start gap-2.5 inline-flex"
                                       >
                                         <div className="Frame1171281439 h-36 flex-col justify-start items-start gap-6 flex">
                                           <div className="Frame1171281438 h-24 flex-col justify-start items-start gap-6 flex">
@@ -495,7 +495,7 @@ const Navbar = () => {
 
                                     <div
                                       onMouseEnter={showUiUx}
-                                      className="Card w-72 h-48 p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 group hover:border  hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex"
+                                      className="Card w-72 h-48 p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 group border border-black hover:border  hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex"
                                     >
                                       <div className="Frame1171281439 flex-col justify-start items-start gap-6 flex">
                                         <div className="Frame1171281438 w-60 h-24 flex-col justify-start items-start gap-6 flex">
@@ -593,7 +593,7 @@ const Navbar = () => {
                                       </div>
                                     </div>
 
-                                    <div className="Card w-72 h-48 p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 group hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
+                                    <div className="Card w-72 h-48 p-6 border border-black bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 group hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
                                       <div className="Frame1171281439 flex-col justify-start items-start gap-6 flex">
                                         <div className="Frame1171281438 w-60 h-24 flex-col justify-start items-start gap-6 flex">
                                           <div className="Frame1171281491 self-stretch justify-start items-center gap-4 inline-flex">
@@ -810,7 +810,7 @@ const Navbar = () => {
                                     </div>
                                   </div>
                                   <div className="flex flex-row gap-6  mt-10">
-                                    <div className="Card w-[443px] h-44 p-6 group bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
+                                    <div className="Card w-[443px] h-44 p-6 border border-black group bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
                                       <div className="Frame1171281439 flex-col justify-start items-start gap-6 flex">
                                         <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                                           <div className="Frame1171281491 self-stretch justify-start items-center gap-6 inline-flex">
@@ -899,7 +899,7 @@ const Navbar = () => {
                                         </div>
                                       </div>
                                     </div>
-                                    <div className="Card w-[443px] h-44 group p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
+                                    <div className="Card w-[443px] border border-black h-44 group p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
                                       <div className="Frame1171281439 w-64 h-28 flex-col justify-start items-start gap-6 flex">
                                         <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                                           <div className="Frame1171281491 self-stretch justify-start items-center gap-6 inline-flex">

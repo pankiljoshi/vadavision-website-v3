@@ -26,7 +26,7 @@ const Industries = () => {
           </span>
         </div>
         <div data-aos="zoom-in" className=" w-full">
-          <div className=" justify-start items-start gap-10 flex-wrap    inline-flex cards">
+          <div className=" gap-10 flex-wrap flex-row  inline-flex cards">
             <div className="card-responsive  w-[400px] h-[257px] p-4  bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
@@ -95,7 +95,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive  w-[400px] h-[257px]  p-4 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col   justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive  w-[400px] h-[257px]  p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950   flex-col   justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Finance w-8 h-8 px-0.5 py-0.5 justify-center items-center inline-flex">
@@ -146,9 +146,8 @@ const Industries = () => {
                         Upgrade the finance experience with us
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
-                        Enjoy safe data handling and efficient tools. Boost your
-                        business online with us for easy client interactions &
-                        growth.
+                        With our expertise in Design & Development in the <br />
+                        segment,we will help you obtain a better ROI.
                       </div>
                     </div>
                   </div>
@@ -181,7 +180,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive  w-[400px] h-[257px] p-4 bg-gradient-to-b from-stone-950  via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col   justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive  w-[400px] h-[257px] p-4 bg-gradient-to-b from-stone-950  via-neutral-900 to-stone-950  flex-col   justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Hr w-8 h-8 relative">
@@ -230,9 +229,8 @@ const Industries = () => {
                         Trust us to streamline your HR processes
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
-                        Were IT experts creating customized HR websites.
-                        Intuitive design , secure platform, and easy
-                        communication tools.
+                        With our expertise in Design & Development in the <br />
+                        segment,we will help you obtain a better ROI.
                       </div>
                     </div>
                   </div>
@@ -265,7 +263,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive w-[400px] h-[257px] p-5 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col  justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive w-[400px] h-[257px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col  justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Accounting w-8 h-8 px-px justify-center items-center inline-flex">
@@ -306,9 +304,8 @@ const Industries = () => {
                         Level Up Your Accounting Online
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
-                        We create easy-to-use websites for accountants. Safe,
-                        smooth, & efficient. Enhance your accounting business
-                        online!
+                        With our expertise in Design & Development in the <br />
+                        segment,we will help you obtain a better ROI.
                       </div>
                     </div>
                   </div>
@@ -341,7 +338,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive w-[400px] h-[257px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive w-[400px] h-[257px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Content w-8 h-8 p-0.5 justify-center items-center inline-flex">
@@ -412,9 +409,8 @@ const Industries = () => {
                         Better the content, more the conversion ratio
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
-                        We leverage AI and OpenAI API to craft smart, engaging,
-                        and automated content solutions tailored just for your
-                        business.
+                        With our expertise in Design & Development in the <br />
+                        segment,we will help you obtain a better ROI.
                       </div>
                     </div>
                   </div>
@@ -447,7 +443,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive  w-[400px] h-[257px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 border border-stone-950 border-opacity-0 flex-col  justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive  w-[400px] h-[257px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col  justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Retail w-8 h-8 relative">
@@ -483,8 +479,8 @@ const Industries = () => {
                         Simplify your retail experience
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
-                        Our IT team creates easy, secure, and successful retail
-                        websites, ensuring seamless shopping experiences.
+                        With our expertise in Design & Development in the <br />
+                        segment,we will help you obtain a better ROI.
                       </div>
                     </div>
                   </div>

@@ -13,6 +13,7 @@ import FrequentlyAksedQuestions from "./Faqs/FrequentlyAskedQuestions";
 import Testimonials from "./Testimonials/Testimonials";
 import MileStone from "./MileStone/MileStone";
 import HeroSection from "./Herosection/HeroSection";
+import IndustriesTesting from "./IndustriesTesting/IndustriesTesting";
 
 const LandingPage = () => {
   return (
@@ -34,6 +35,7 @@ const LandingPage = () => {
       <div>
         <Industries />
       </div>
+      <IndustriesTesting />
       <div>
         <Speciality />
       </div>

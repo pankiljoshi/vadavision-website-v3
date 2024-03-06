@@ -47,7 +47,7 @@ const Accordion = () => {
       <div data-aos="fade-right" className="w-[50%] display-full-faq ">
         {questionsData.map((item) => (
           <>
-            <div key={item.id} className="accordion-item  border-style-faq ">
+            <div key={item.id} className="accordion-item   border-style-faq ">
               <div
                 className="accordion-header"
                 onClick={() => toggleAccordion(item.id)}

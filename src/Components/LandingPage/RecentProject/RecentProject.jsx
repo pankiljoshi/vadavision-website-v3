@@ -20,7 +20,7 @@ const RecentProject = () => {
   }, []);
   return (
     <>
-      <div className="RecentProjects w-full   px-20  py-20 padding-industies   ">
+      <div className="RecentProjects w-full   px-20  py-20 padding-industies bg-no-repeat   ">
         <div data-aos="fade-down" className=" w-full flex justify-between    ">
           <div className="title-padding w-[700px]">
             <span className="text-neutral-400 text-4xl text-size-change1  font-medium urbanist">
@@ -121,7 +121,7 @@ const RecentProject = () => {
                 </div>
               </div>
               <div className="Frame1171281460 flex-col justify-start items-start gap-4 flex">
-                <div className="TechStack w-96 text-neutral-400 text-base font-semibold urbanist">
+                <div className="TechStack w-96 text-[#8E8E8E] text-base font-medium urbanist">
                   Tech Stack:
                 </div>
                 <div className="Frame1171281459 justify-start items-start gap-4 inline-flex">
@@ -130,8 +130,8 @@ const RecentProject = () => {
                 </div>
               </div>
             </div>
-            <div className="BookACall h-[46px] px-10 py-4 cursor-pointer bg-[#DD4243] hover:bg-[#D53033]  border border-white border-opacity-10 justify-center items-center gap-4 inline-flex">
-              <div className="BookACall text-white text-lg font-light urbanist">
+            <div className="BookACall h-[48px] w-[230px] px-10 py-4 cursor-pointer bg-[#DD4243] hover:bg-[#D53033]  border border-white border-opacity-10 justify-center items-center gap-4 inline-flex">
+              <div className="BookACall text-white text-[20px] font-normal urbanist">
                 View Project
               </div>
               <div className="Div w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">

@@ -26,12 +26,12 @@ const NewsLetter = () => {
           data-aos="fade-left"
           className=" justify-start flex-wrap email-subscribe items-start gap-6 flex"
         >
-          <div className="email-responsive w-72 h-12 px-2 pt-4 pb-3.5 bg-white bg-opacity-5 border border-white border-opacity-20 justify-center items-center flex">
-            <div className=" grow shrink basis-0 text-[#8E8E8E] text-[14px] font-light urbanist">
+          <div className="email-responsive w-[304px] h-[48px]  px-2 pt-4 pb-3.5 bg-opacity-5 border gradient-input border-white border-opacity-20 justify-center items-center flex">
+            <div className=" grow shrink basis-0 text-[#8E8E8E] text-[14px] font-light urbanist ">
               <input
                 type="text"
                 placeholder="Enter Your Email"
-                className="text-[#8E8E8E] border-none w-full outline-none text-[14px] bg-opacity-5 border border-white border-opacity-20 bg-black"
+                className=" text-neutral-500 border-none w-full outline-none text-[14px] bg-opacity-5 border border-white border-opacity-20 bg-black"
               />
             </div>
           </div>

@@ -151,7 +151,7 @@ const Testimonials = () => {
                             <span className="text-stone-300 text-base font-normal urbanist">
                               Business Director -{" "}
                             </span>
-                            <span className="text-red-500 text-base font-bold urbanist">
+                            <span className="text-[#DD4243] text-base font-bold urbanist">
                               Alphabet
                             </span>
                           </div>
@@ -184,7 +184,7 @@ const Testimonials = () => {
                             <span className="text-stone-300 text-base font-normal urbanist">
                               Founder -{" "}
                             </span>
-                            <span className="text-red-500 text-base font-bold urbanist">
+                            <span className="text-[#DD4243] text-base font-bold urbanist">
                               AB Infotech
                             </span>
                           </div>
@@ -217,7 +217,7 @@ const Testimonials = () => {
                             <span className="text-stone-300 text-base font-normal urbanist">
                               Engineer -{" "}
                             </span>
-                            <span className="text-red-500 text-base font-bold urbanist">
+                            <span className="text-[#DD4243] text-base font-bold urbanist">
                               Orange Tech.{" "}
                             </span>
                           </div>

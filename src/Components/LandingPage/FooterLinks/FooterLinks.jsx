@@ -58,7 +58,7 @@ const FooterLinks = () => {
           </div>
 
           <div className="TitleAndSubtitle flex-col justify-start items-start gap-2 flex">
-            <div className=" w-72 text-white text-opacity-80 text-[16px] leading-tight font-light urbanist">
+            <div className=" w-72 text-white text-opacity-80 text-[16px] leading-tight font-normal urbanist">
               Helping founders & startups with technology and design.
             </div>
           </div>

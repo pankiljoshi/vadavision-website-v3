@@ -36,7 +36,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .gradient-change {
-  background: linear-gradient(90deg, #fc4778 -0.73%, #3952f5 92.61%);
+  background: linear-gradient(150deg, #FC4778 0.73%, #3952F5 82.61%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -255,6 +255,10 @@ body {
   }
   
 } */
+.gradient-input{
+background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(4px);
+}
 @media screen and (max-width: 1320px) {
   .responsive-herosection {
     gap: 120px;
@@ -1624,11 +1628,7 @@ body {
   border-radius: 100px;
   border-top: 1px solid rgba(255, 255, 255, 0.24);
 
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0.23) 0%,
-    rgba(255, 255, 255, 0.1) 100%
-  );
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.23) 10%, rgba(255, 255, 255, 0.10) 100%);
 
   backdrop-filter: blur(10px);
 }
@@ -1693,4 +1693,8 @@ body {
   scale: 1.1;
   transition: all ease 0.5s;
   overflow: hidden;
+}
+.startupStudio-gradient{
+  border-radius: 100px;
+background: linear-gradient(180deg, #1D1D1D 0%, #101010 100%);
 }

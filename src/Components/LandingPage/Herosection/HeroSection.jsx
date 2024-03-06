@@ -16,29 +16,29 @@ const HeroSection = () => {
   }, []);
   return (
     <>
-      <div className=" w-full pt-12 pb-14 flex    justify-between gap-28 px-20 bg-gradient-to-br herosection-responsive  from-black to-zinc-950 herosection-bg bg-no-repeat bg-cover ">
+      <div className=" w-full pt-12 pb-14 flex flex-row gap-36 px-20 bg-gradient-to-br herosection-responsive  from-black to-zinc-950 herosection-bg bg-no-repeat bg-cover ">
         <div
           data-aos="fade-right"
           className="LeftSide w-[50%] mt-16 flex-col justify-start items-start gap-6 inline-flex"
         >
           <div className="LeftLabel">
-            <div className=" p-4 bg-gradient-to-b from-stone-900 to-stone-950 rounded-full  flex-col justify-start items-start gap-2.5 flex">
+            <div className=" p-4 startupStudio-gradient rounded-full  flex-col justify-start items-start gap-2.5 flex">
               <div className=" text-emerald-400 text-sm font-light urbanist">
                 🚀 <span className="StartupStudio">STARTUP STUDIO</span>
               </div>
             </div>
           </div>
 
-          <div className=" w-[690px] responsive-section flex-col  justify-start items-start gap-10 flex">
+          <div className=" w-[736px] responsive-section flex-col  justify-start items-start gap-10 flex">
             <div className=" flex-col justify-start items-start gap-6 flex">
               <div
-                className="  text-neutral-100 responsive-heading  leading-normal text-6xl font-bold prompt
+                className="  text-neutral-100 responsive-heading  leading-normal text-[64px] font-bold prompt
                text-color-gradient "
               >
                 Crafting Digital Dreams <br />
                 into Tangible Reality
               </div>
-              <div className="  text-neutral-400 para-responsive w-[670px]  text-xl font-light  urbanist ">
+              <div className="  text-neutral-400 para-responsive w-[670px] leading-tight  text-xl font-light  urbanist ">
                 We build a solid foundation for your dream startup and fuel it
                 for explosive growth. With innovative strategies and unwavering
                 dedication, we have the path for success that exceeds.
@@ -55,9 +55,9 @@ const HeroSection = () => {
               </div>
               <div
                 data-aos="zoom-in"
-                className="BookACall cursor-pointer reponsive-button h-[48px] px-5 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button"
+                className="BookACall cursor-pointer w-[198px] urbanist reponsive-button h-[48px] px-5 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button"
               >
-                <div className="BookACall w-[120px]  text-white text-[16px] font-light urbanist  Schedule-button">
+                <div className="BookACall   text-white text-[16px] font-light urbanist  Schedule-button">
                   Schedule a Call
                 </div>
                 <div className="consultUs-svg w-6 h-6 p-3 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
@@ -90,8 +90,8 @@ const HeroSection = () => {
           data-aos="fade-left"
           className=" w-[50%] padding-responsive mt-20 pt-20"
         >
-          <div className="  servises-card  ml-20 mt-16 justify-start  items-start gap-6 inline-flex">
-            <div className="Frame1171281402 servises-cards1 servises-cards  p-4 w-[172px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
+          <div className="  servises-card  ml-20 mt-6 justify-start  items-start gap-6 inline-flex">
+            <div className="Frame1171281402 servises-cards1 servises-cards  p-4 w-[148px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col justify-start items-start gap-4 flex">
                 <div className="AiAssistant1 w-8 h-8 relative">
                   <div className="Group w-8 h-8 left-[0.81px] top-0 absolute">

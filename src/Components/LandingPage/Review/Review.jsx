@@ -28,7 +28,7 @@ const Review = () => {
         <div className="  gap-14 review-rating  inline-flex  ">
           <div
             data-aos="fade-down"
-            className=" pl-6 pr-12 w-[340px] py-3 bg-neutral-900 upwork  justify-start items-center flex "
+            className=" pl-6 pr-12 w-[340px] h-[128px] py-3 bg-[#111111] upwork  justify-start items-center flex "
           >
             <div className=" self-stretch justify-center items-center gap-6 inline-flex">
               <div className=" w-20 h-20 relative">
@@ -153,7 +153,7 @@ const Review = () => {
           </div>
           <div
             data-aos="fade-up"
-            className=" pl-6 pr-12 py-6 w-[340px] bg-neutral-900 google  justify-start items-center flex "
+            className=" pl-6 pr-12 py-6 w-[340px] h-[128px]  bg-[#111111] google  justify-start items-center flex "
           >
             <div className="Frame1171281462 self-stretch justify-start items-center gap-6 inline-flex">
               <div className="GoogleGLogo1 w-20 h-20 relative flex-col justify-start items-start inline-flex">

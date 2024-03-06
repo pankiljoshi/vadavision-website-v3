@@ -23,13 +23,13 @@ const Servise = () => {
             <h1 className=" gradient-change  text-[56px] font-bold urbanist text-responsive">
               Fast. Efficient. Reliable.
             </h1>
-            <p className="text-[#8E8E8E] w-[550px]  text-xl  font-light urbanist paragraph-responsive mt-4">
+            <p className="text-[#8E8E8E] w-[615px]  text-xl  font-light urbanist paragraph-responsive mt-4">
               VadaVision! gives you an assurance of faster delivery, efficient
               results and a very reliable team.
             </p>
           </div>
           <div className="flex flex-row flex-wrap gap-6 responsive-button-servise">
-            <div className="  w-[160px] servise-button padding-button servise-border-gradient items-center px-2 py-3  bg-gradient-to-b bg-servise-gradient rounded-full   backdrop-blur-lg justify-start  gap-2 flex mt-10 ">
+            <div className="  w-[167px] servise-button flex justify-center padding-button servise-border-gradient items-center px-2 py-3  bg-gradient-to-b bg-servise-gradient rounded-full   backdrop-blur-lg  gap-2  mt-10 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -66,7 +66,7 @@ const Servise = () => {
                 Multiple Domains
               </span>
             </div>
-            <div className="  w-[152px] servise-button padding-button servise-border-gradient items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg justify-start  gap-2 flex mt-10 ">
+            <div className="  w-[152px] servise-button flex justify-center padding-button servise-border-gradient items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg  gap-2  mt-10 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -103,7 +103,7 @@ const Servise = () => {
                 Timely Delivery
               </span>
             </div>
-            <div className="  w-[140px] servise-button padding-button servise-border-gradient items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg justify-start  gap-2 flex mt-10 ">
+            <div className="  w-[140px] flex justify-center servise-button padding-button servise-border-gradient items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg   gap-2  mt-10 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -140,7 +140,7 @@ const Servise = () => {
                 Scalable Tech
               </span>
             </div>{" "}
-            <div className="  w-[150px] servise-button servise-border-gradient padding-button items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg justify-start  gap-2 flex mt-10 ">
+            <div className="  w-[147px] flex justify-center servise-button servise-border-gradient padding-button items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg   gap-2  mt-10 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

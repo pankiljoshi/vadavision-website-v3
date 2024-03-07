@@ -27,7 +27,7 @@ const Industries = () => {
         </div>
         <div data-aos="zoom-in" className=" w-full">
           <div className=" gap-10 flex-wrap flex-row  inline-flex cards">
-            <div className="card-responsive  w-[400px] h-[257px] p-4  bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive  w-[400px] h-[267px] p-4  bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="ECommerce w-8 h-8 relative">
@@ -61,7 +61,7 @@ const Industries = () => {
                         Increase your checkout count, more than before
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
-                        With our expertise in Design & Development in the <br />
+                        With our expertise in Design & Development in the
                         segment,we will help you obtain a better ROI.
                       </div>
                     </div>
@@ -95,7 +95,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive  w-[400px] h-[257px]  p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950   flex-col   justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive  w-[400px] h-[267px]  p-4 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950   flex-col   justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Finance w-8 h-8 px-0.5 py-0.5 justify-center items-center inline-flex">
@@ -146,7 +146,7 @@ const Industries = () => {
                         Upgrade the finance experience with us
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
-                        With our expertise in Design & Development in the <br />
+                        With our expertise in Design & Development in the
                         segment,we will help you obtain a better ROI.
                       </div>
                     </div>
@@ -180,7 +180,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive  w-[400px] h-[257px] p-4 bg-gradient-to-b from-stone-950  via-neutral-900 to-stone-950  flex-col   justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive  w-[400px] h-[267px] p-4 bg-gradient-to-b from-stone-950  via-neutral-900 to-stone-950  flex-col   justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Hr w-8 h-8 relative">
@@ -229,7 +229,7 @@ const Industries = () => {
                         Trust us to streamline your HR processes
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
-                        With our expertise in Design & Development in the <br />
+                        With our expertise in Design & Development in the
                         segment,we will help you obtain a better ROI.
                       </div>
                     </div>
@@ -263,7 +263,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive w-[400px] h-[257px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col  justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive w-[400px] h-[267px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col  justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Accounting w-8 h-8 px-px justify-center items-center inline-flex">
@@ -304,7 +304,7 @@ const Industries = () => {
                         Level Up Your Accounting Online
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
-                        With our expertise in Design & Development in the <br />
+                        With our expertise in Design & Development in the
                         segment,we will help you obtain a better ROI.
                       </div>
                     </div>
@@ -338,7 +338,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive w-[400px] h-[257px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive w-[400px] h-[267px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Content w-8 h-8 p-0.5 justify-center items-center inline-flex">
@@ -409,7 +409,7 @@ const Industries = () => {
                         Better the content, more the conversion ratio
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
-                        With our expertise in Design & Development in the <br />
+                        With our expertise in Design & Development in the
                         segment,we will help you obtain a better ROI.
                       </div>
                     </div>
@@ -443,7 +443,7 @@ const Industries = () => {
                 </div>
               </div>
             </div>{" "}
-            <div className="card-responsive  w-[400px] h-[257px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col  justify-start items-start gap-2.5 inline-flex">
+            <div className="card-responsive  w-[400px] h-[267px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col  justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
                 <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                   <div className="Retail w-8 h-8 relative">
@@ -479,7 +479,7 @@ const Industries = () => {
                         Simplify your retail experience
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
-                        With our expertise in Design & Development in the <br />
+                        With our expertise in Design & Development in the
                         segment,we will help you obtain a better ROI.
                       </div>
                     </div>

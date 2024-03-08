@@ -19,7 +19,7 @@ const HeroSection = () => {
       <div className=" w-full pt-12 pb-14 flex flex-row gap-36 px-20 bg-gradient-to-br herosection-responsive padding-industies  from-black to-zinc-950 herosection-bg bg-no-repeat bg-cover ">
         <div
           data-aos="fade-right"
-          className="LeftSide w-[50%] mt-16 flex-col justify-start items-start gap-6 inline-flex"
+          className="LeftSide w-[50%] responsive-left-side min-w-[600px] mt-16 flex-col justify-start items-start gap-6 inline-flex"
         >
           <div className="LeftLabel">
             <div className=" p-4 startupStudio-gradient rounded-full  flex-col justify-start items-start gap-2.5 flex">
@@ -29,8 +29,8 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className=" w-[736px] responsive-section flex-col  justify-start items-start gap-10 flex">
-            <div className=" flex-col justify-start items-start gap-6 flex">
+          <div className=" w-[736px]  flex-col responsive-section  justify-start items-start gap-10 flex">
+            <div className=" flex-col justify-start items-start gap-6   flex">
               <div
                 className="  text-neutral-100 responsive-heading  leading-normal text-[64px] font-bold prompt
                text-color-gradient "
@@ -38,7 +38,7 @@ const HeroSection = () => {
                 Crafting Digital Dreams <br />
                 into Tangible Reality
               </div>
-              <div className="  text-neutral-400 para-responsive w-[670px] leading-tight  text-xl font-light  urbanist ">
+              <div className="  text-neutral-400  w-[670px] leading-tight paragraph-full-width  text-xl font-light  urbanist ">
                 We build a solid foundation for your dream startup and fuel it
                 for explosive growth. With innovative strategies and unwavering
                 dedication, we have the path for success that exceeds.
@@ -92,7 +92,7 @@ const HeroSection = () => {
         >
           <div className="  servises-card  ml-20 mt-6 justify-start  items-start gap-6 inline-flex">
             <div className="Frame1171281402 servises-cards1 servises-cards  p-4 w-[148px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
-              <div className="Frame1171281402 flex-col justify-start items-start gap-4 flex">
+              <div className="Frame1171281402 flex-col justify-start ai-servise-padding items-start gap-4 flex">
                 <div className="AiAssistant1 w-8 h-8 relative">
                   <div className="Group w-8 h-8 left-[0.81px] top-0 absolute">
                     <div className="Group w-7 h-7 left-[1.38px] top-[3.44px] absolute"></div>
@@ -313,13 +313,13 @@ const HeroSection = () => {
                     </div>
                   </div>
                 </div>
-                <div className="AiServices text-neutral-400 mt-3 text-lg font-normal font-urbaninst">
+                <div className="AiServices text-neutral-400 mt-3 text-lg font-normal responsive-font-size font-urbaninst">
                   AI Services
                 </div>
               </div>
             </div>
             <div className="Frame1171281404 servises-cards2 w-[261px] h-[120px] servises-cards  services-Card-hover hover:border-yellow-50 hover:border-opacity-15  p-6 border   border-white border-opacity-10  flex-col justify-start items-start gap-2.5 inline-flex">
-              <div className="Frame1171281402 flex-col justify-start items-start gap-4 flex">
+              <div className="Frame1171281402 flex-col app-delopment-padding justify-start items-start gap-4 flex">
                 <div className="Resource1 w-8 h-8  svg-margin relative">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -353,7 +353,7 @@ const HeroSection = () => {
                     </defs>
                   </svg>
                 </div>
-                <div className="ResourceAugmentation text-neutral-400 font-normal font-urbaninst text-lg">
+                <div className="ResourceAugmentation text-neutral-400 font-normal responsive-font-size font-urbaninst text-lg">
                   Resource Augmentation
                 </div>
               </div>
@@ -361,7 +361,7 @@ const HeroSection = () => {
           </div>
           <div className="Frame1171281406  mt-6 justify-start items-start gap-6 inline-flex pb-20">
             <div className="Frame1171281403 servises-cards2 w-[275px] h-[120px] servises-cards   p-5 hover:border-yellow-50 hover:border-opacity-15   services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
-              <div className="Frame1171281402 flex-col justify-start items-start gap-4 flex">
+              <div className="Frame1171281402 app-delopment-padding flex-col justify-start items-start gap-4 flex">
                 <div className="MobileDevelopment1 w-8 h-8 svg-margin relative">
                   <div className="Group w-7 h-7 ">
                     <svg
@@ -508,13 +508,13 @@ const HeroSection = () => {
                     </svg>
                   </div>
                 </div>
-                <div className="MobileAppDevelopment text-neutral-400 text-xl font-normal font-urbaninst">
-                  Mobile App Development
+                <div className="MobileAppDevelopment text-neutral-400 responsive-font-size text-xl font-normal font-urbaninst">
+                  App Development
                 </div>
               </div>
             </div>
             <div className="Frame1171281402 servises-cards1  servises-cards  p-4 w-[172px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
-              <div className="Frame1171281402 flex-col justify-start items-start gap-4 flex">
+              <div className="Frame1171281402 flex-col justify-start items-start ai-servise-padding gap-4 flex">
                 <div className="UxDesign1 w-8 h-8 relative">
                   <div className="VectorIllustration w-7 h-7 svg-margin left-[1.88px] top-[1.60px] absolute">
                     <svg
@@ -565,7 +565,7 @@ const HeroSection = () => {
                     </svg>
                   </div>
                 </div>
-                <div className="UiUxDesign text-neutral-400 mt-4 text-lg font-normal font-urbaninst">
+                <div className="UiUxDesign text-neutral-400 mt-4 responsive-font-size text-lg font-normal font-urbaninst">
                   UI/ UX Design
                 </div>
               </div>

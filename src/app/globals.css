@@ -248,13 +248,13 @@ body {
     font-size: 26px;
     text-align: center;
   }
-}
+} */
 
 @media screen and (max-width: 460px) {
   .reponsive-button {
     gap: 10px;
   }
-} */
+}
 
 /* @media screen and (max-width:1050px) {
   .responsive-font{
@@ -325,8 +325,8 @@ body {
 }
 @media screen and (max-width: 460px) {
   .explore-button {
-    width: 120px;
-    font-size: 10px;
+    width: 175px;
+    font-size: 16px;
     padding: 0px;
     text-align: center;
   }
@@ -370,14 +370,21 @@ body {
     font-size: 42px;
   }
 }
+
+@media screen and (max-width:520px) {
+  .responsive-font-size{
+    font-size: 13px;
+  }
+  
+}
 @media screen and (max-width: 570px) {
   .responsive-heading {
-    font-size: 36px;
+    font-size: 28px;
   }
 }
 @media screen and (max-width: 720px) {
   .responsive-section {
-    width: 550px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 990px) {
@@ -385,6 +392,12 @@ body {
     padding: 0px;
     margin: 0px;
   }
+}
+@media screen and (max-width:720px) {
+  .paragraph-full-width{
+    width: 100%;
+  }
+  
 }
 
 @media screen and (max-width: 1280px) {
@@ -409,8 +422,8 @@ body {
 
 @media screen and (max-width: 460px) {
   .Schedule-button {
-    width: 150px;
-    font-size: 10px;
+    width: 175px;
+    font-size: 16px;
     padding: 0px;
     text-align: center;
   }
@@ -495,14 +508,29 @@ body {
     margin: 0px;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 440px) {
   .servises-cards1 {
-    width: 164px;
-    padding: 0px;
+    width: 180px;
+    padding-left:  0px;
     margin: 0px;
+    align-items: start;
+
   }
 }
 
+@media screen and (max-width:440px) {
+  .ai-servise-padding{
+    padding-left: 20px;
+  }
+  
+}
+
+@media screen and (max-width:440px) {
+  .app-delopment-padding{
+    padding-left: 20px;
+  }
+  
+}
 @media screen and (max-width: 1280px) {
   .servises-cards2 {
     width: 200px;
@@ -566,20 +594,27 @@ body {
 }
 @media screen and (max-width: 440px) {
   .servises-cards1 {
-    width: 121px;
+    width: 167px;
     padding: 0px;
-    height: 140px;
+    height: 106px;
     margin: 0px;
   }
 }
 @media screen and (max-width: 440px) {
   .servises-cards2 {
-    width: 144px;
+    width: 167px;
     padding: 0px;
-    height: 140px;
-    padding-left: 20px;
+    height: 106px;
+    align-items: start;
     margin: 0px;
   }
+}
+
+@media screen and (max-width:720px) {
+  .responsive-left-side{
+    min-width: 100%;
+  }
+  
 }
 
 @media screen and (max-width: 440px) {
@@ -899,7 +934,7 @@ body {
 }
 @media screen and (max-width: 390px) {
   .margin-reponsive {
-    margin-top: 4px;
+    margin-top: 0px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -995,7 +1030,22 @@ body {
   }
   
 }
-
+@media screen and (max-width:440px) {
+  .servises-button{
+    width: 155px;
+    margin: 0px;
+    
+  }
+  
+}
+@media screen and (max-width:380px) {
+  .servises-button{
+    width: 140px;
+    margin: 0px;
+    
+  }
+  
+}
 @media screen and (max-width:1020px) {
   .milesstone-padding{
     padding-right: 12px;

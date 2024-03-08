@@ -20,7 +20,7 @@ const FooterLinks = () => {
     <>
       <div
         data-aos="zoom-in"
-        className="Container w-full flex-wrap px-20 border-style pb-16  justify-between items-center inline-flex padding-industies mt-20 "
+        className="Container  w-full flex-wrap px-20 border-style pb-16  justify-between items-center inline-flex padding-industies mt-20 "
       >
         <div className="LogoAndText w-72 flex-col justify-start items-start gap-4 inline-flex">
           <div className=" cursor-pointer  ">
@@ -63,7 +63,7 @@ const FooterLinks = () => {
             </div>
           </div>
         </div>
-        <div className="FooterLinks justify-start flex-wrap items-start gap-16 flex">
+        <div className="FooterLinks responsive-footer justify-start flex-wrap items-start gap-16 flex">
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
             <div className="Services text-neutral-400 text-base font-normal urbanist">
               Services

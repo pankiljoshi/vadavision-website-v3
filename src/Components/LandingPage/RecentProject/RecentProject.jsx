@@ -130,7 +130,7 @@ const RecentProject = () => {
                 </div>
               </div>
             </div>
-            <div className="BookACall h-[48px] w-[230px] px-10 py-4 cursor-pointer bg-[#DD4243] hover:bg-[#D53033]  border border-white border-opacity-10 justify-center items-center gap-4 inline-flex">
+            <div className="BookACall Schedulecall h-[48px] w-[230px] px-10 py-4 cursor-pointer bg-[#DD4243] hover:bg-[#D53033]  border border-white border-opacity-10 justify-center items-center gap-4 inline-flex">
               <div className="BookACall text-white text-[20px] font-normal urbanist">
                 View Project
               </div>

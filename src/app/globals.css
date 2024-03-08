@@ -47,6 +47,7 @@ body {
 
 .background-gradient {
   background-image: url("../../public/Images/cardGradient.png");
+  background-size: cover;
 }
 
 .border-gradient-top {
@@ -132,6 +133,12 @@ body {
   background:  linear-gradient(220.07deg, #161616, 20.3%, #1D1D1D 106.51%);
  
 } */
+@media screen and (max-width:880px) {
+  .Unique{
+    background: none;
+  }
+  
+}
 .text-color-gradient {
   background: linear-gradient(
     94deg,
@@ -979,6 +986,23 @@ body {
     padding-right: 30px;
   }
 }
+
+@media screen and (max-width:580px) {
+  .servises-button{
+    width: 170px;
+    margin: 0px;
+    
+  }
+  
+}
+
+@media screen and (max-width:1020px) {
+  .milesstone-padding{
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+  
+}
 @media screen and (max-width: 620px) {
   .padding-between {
     padding: 10px;
@@ -1007,29 +1031,80 @@ body {
     margin-bottom: 20px;
   }
 }
-
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1458px) {
   .card-responsive {
-    width: 375px;
+    width: 390px;
   }
 }
+@media screen and (max-width: 1288px) {
+  .card-responsive {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 1408px) {
+  .card-responsive {
+    width: 370px;
+  }
+}
+
 @media screen and (max-width: 1370px) {
   .card-responsive {
-    width: 355px;
+    width: 360px;
   }
-}@media screen and (max-width: 1370px) {
+}
+@media screen and (max-width: 1325px) {
   .card-responsive {
-    width: 325px;
+    width: 348px;
   }
 }
 @media screen and (max-width: 1290px) {
-  .card-responsives {
-    width: 20px
+  .card-responsive {
+    width: 338px
+  }
+}
+@media screen and (max-width: 1255px) {
+  .card-responsive {
+    width: 328px
   }
 }
 
-
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1225px) {
+  .card-responsive {
+    width: 315px
+  }
+}
+@media screen and (max-width: 1185px) {
+  .card-responsive {
+    width: 305px
+  }
+}
+@media screen and (max-width: 1155px) {
+  .card-responsive {
+    width: 295px
+  }
+}
+@media screen and (max-width: 1125px) {
+  .card-responsive {
+    width: 285px
+  }
+}
+@media screen and (max-width: 1095px) {
+  .card-responsive {
+    width: 275px
+  }
+}
+@media screen and (max-width: 1065px) {
+  .card-responsive {
+    width: 265px
+  }
+}
+@media screen and (max-width: 1035px) {
+  .card-responsive {
+    width: 255px
+  }
+}
+@media screen and (max-width: 1050px) {
   .card-responsive {
     width: 47%;
   }
@@ -1056,6 +1131,12 @@ body {
     width: 100%;
     margin-bottom: 20px;
   }
+}
+@media screen and (max-width:1280px) {
+  .arrow-responsive{
+    margin-top: 27px;
+  }
+  
 }
 @media screen and (max-width: 750px) {
   .title-padding {
@@ -1114,7 +1195,7 @@ body {
 }
 @media screen and (max-width: 420px) {
   .unique-cards {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -1709,3 +1790,11 @@ background: linear-gradient(180deg, #1D1D1D 0%, #101010 100%);
 }
 
 
+
+@media screen and (max-width:520px) {
+  .responsive-footer{
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+}

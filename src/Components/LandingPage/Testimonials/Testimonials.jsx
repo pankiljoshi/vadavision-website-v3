@@ -48,8 +48,8 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div data-aos="fade-left" className="mt-10  testimonial relative ">
-            <div className="Frame7 justify-end   items-start gap-3.5 flex ">
+          <div data-aos="fade-left" className="mt-10   testimonial relative ">
+            <div className="testimonial-arrow justify-end   items-start gap-3.5 flex ">
               <div
                 onClick={handlePrevClick}
                 className="left-arrow w-[70px] h-[36px]  z-10 absolute -top-32 right-24 cursor-pointer bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex"
@@ -126,6 +126,9 @@ const Testimonials = () => {
                 pagination: false,
 
                 breakpoints: {
+                  1000: {
+                    perPage: 2,
+                  },
                   720: {
                     perPage: 1,
                   },

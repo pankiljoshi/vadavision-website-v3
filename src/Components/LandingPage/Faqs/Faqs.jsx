@@ -136,7 +136,7 @@ const Accordion = () => {
           ))}
         </div>
       )}
-      <div className="w-full hidden show-button">
+      <div className="w-full hidden show-button" data-aos="fade-up">
         <button
           onClick={handleLoadMoreClick}
           className="flex justify-center items-center mx-auto py-3 bg-[#DD4243] text-white font-medium text-[14px] button-responsive w-[400px]"

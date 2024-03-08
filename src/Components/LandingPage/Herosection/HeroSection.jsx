@@ -16,10 +16,10 @@ const HeroSection = () => {
   }, []);
   return (
     <>
-      <div className=" w-full pt-12 pb-14 flex flex-row gap-36 px-20 bg-gradient-to-br herosection-responsive padding-industies  from-black to-zinc-950 herosection-bg bg-no-repeat bg-cover ">
+      <div className=" w-full pt-12 pb-14 flex overflow-x-hidden flex-row gap-36 px-20 bg-gradient-to-br herosection-responsive padding-industies bg-cover  from-black to-zinc-950 herosection-bg bg-no-repeat h-screen ">
         <div
           data-aos="fade-right"
-          className="LeftSide w-[50%] responsive-left-side min-w-[600px] mt-16 flex-col justify-start items-start gap-6 inline-flex"
+          className="LeftSide w-[50%]  responsive-left-side min-w-[600px] mt-16 flex-col justify-start items-start gap-6 inline-flex"
         >
           <div className="LeftLabel">
             <div className=" p-4 startupStudio-gradient rounded-full  flex-col justify-start items-start gap-2.5 flex">
@@ -29,7 +29,7 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className=" w-[736px]  flex-col responsive-section  justify-start items-start gap-10 flex">
+          <div className=" w-[790px]  flex-col responsive-section  justify-start items-start gap-10 flex">
             <div className=" flex-col justify-start items-start gap-6   flex">
               <div
                 className="  text-neutral-100 responsive-heading  leading-normal text-[64px] font-bold prompt
@@ -44,10 +44,10 @@ const HeroSection = () => {
                 dedication, we have the path for success that exceeds.
               </div>
             </div>
-            <div className=" justify-start items-center gap-10 inline-flex reponsive-button ">
+            <div className=" justify-start buttons-herosection items-center gap-10 inline-flex reponsive-button ">
               <div
                 data-aos="zoom-in"
-                className="BookACall cursor-pointer h-[48px] px-9 reponsive-button bg-white hover:bg-[#FFFFFF3D] bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex explore-button"
+                className="BookACall explore-more cursor-pointer h-[48px] px-9 reponsive-button bg-white hover:bg-[#FFFFFF3D] bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex explore-button"
               >
                 <div className="BookACall w-[120px] text-white text-[20px] font-light text-center urbanist   explore-button">
                   Explore More
@@ -55,7 +55,7 @@ const HeroSection = () => {
               </div>
               <div
                 data-aos="zoom-in"
-                className="BookACall cursor-pointer w-[198px] urbanist reponsive-button h-[48px] px-5 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button"
+                className="BookACall  herosection-Schedule-button cursor-pointer w-[198px] urbanist reponsive-button h-[48px] px-5 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button"
               >
                 <div className="BookACall   text-white text-[16px] font-light urbanist  Schedule-button">
                   Schedule a Call
@@ -88,10 +88,10 @@ const HeroSection = () => {
         </div>
         <div
           data-aos="fade-left"
-          className=" w-[50%] padding-responsive mt-20 pt-20"
+          className=" w-[50%]   padding-responsive mt-20 pt-20 "
         >
-          <div className="  servises-card  ml-20 mt-6 justify-start  items-start gap-6 inline-flex">
-            <div className="Frame1171281402 servises-cards1 servises-cards  p-4 w-[148px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
+          <div className="  servises-card   ml-20 mt-6 justify-start  items-start gap-6 inline-flex">
+            <div className="Frame1171281402 servises-cards1 mobile-view-gradient servises-cards  p-4 w-[148px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col justify-start ai-servise-padding items-start gap-4 flex">
                 <div className="AiAssistant1 w-8 h-8 relative">
                   <div className="Group w-8 h-8 left-[0.81px] top-0 absolute">
@@ -318,7 +318,7 @@ const HeroSection = () => {
                 </div>
               </div>
             </div>
-            <div className="Frame1171281404 servises-cards2 w-[261px] h-[120px] servises-cards  services-Card-hover hover:border-yellow-50 hover:border-opacity-15  p-6 border   border-white border-opacity-10  flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="Frame1171281404 servises-cards2 w-[261px] h-[120px] mobile-view-gradient servises-cards  services-Card-hover hover:border-yellow-50 hover:border-opacity-15  p-6 border   border-white border-opacity-10  flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col app-delopment-padding justify-start items-start gap-4 flex">
                 <div className="Resource1 w-8 h-8  svg-margin relative">
                   <svg
@@ -360,7 +360,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="Frame1171281406  mt-6 justify-start items-start gap-6 inline-flex pb-20">
-            <div className="Frame1171281403 servises-cards2 w-[275px] h-[120px] servises-cards   p-5 hover:border-yellow-50 hover:border-opacity-15   services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="Frame1171281403 servises-cards2 w-[275px] h-[120px] mobile-view-gradient servises-cards   p-5 hover:border-yellow-50 hover:border-opacity-15   services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 app-delopment-padding flex-col justify-start items-start gap-4 flex">
                 <div className="MobileDevelopment1 w-8 h-8 svg-margin relative">
                   <div className="Group w-7 h-7 ">
@@ -513,7 +513,7 @@ const HeroSection = () => {
                 </div>
               </div>
             </div>
-            <div className="Frame1171281402 servises-cards1  servises-cards  p-4 w-[172px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="Frame1171281402 servises-cards1  servises-cards mobile-view-gradient  p-4 w-[172px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col justify-start items-start ai-servise-padding gap-4 flex">
                 <div className="UxDesign1 w-8 h-8 relative">
                   <div className="VectorIllustration w-7 h-7 svg-margin left-[1.88px] top-[1.60px] absolute">

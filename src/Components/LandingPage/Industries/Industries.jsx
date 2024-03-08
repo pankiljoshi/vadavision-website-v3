@@ -60,7 +60,7 @@ const Industries = () => {
                       <div className=" self-stretch text-[#CACACA] text-[15px] font-medium italic  urbanist">
                         Increase your checkout count, more than before
                       </div>
-                      <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
+                      <div className=" self-stretch text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
                         With our expertise in Design & Development in the
                         segment,we will help you obtain a better ROI.
                       </div>
@@ -68,7 +68,7 @@ const Industries = () => {
                   </div>
                 </div>
                 <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us gap-2  inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
+                  <div className="ScheduleACall text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4   flex-col justify-start items-start inline-flex">
@@ -145,7 +145,7 @@ const Industries = () => {
                       <div className=" self-stretch text-stone-300 text-[15px] font-medium italic urbanist">
                         Upgrade the finance experience with us
                       </div>
-                      <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
+                      <div className=" self-stretch text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
                         With our expertise in Design & Development in the
                         segment,we will help you obtain a better ROI.
                       </div>
@@ -153,7 +153,7 @@ const Industries = () => {
                   </div>
                 </div>
                 <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us   gap-2 inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
+                  <div className="ScheduleACall text-neutral-400 text-sm  inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
@@ -228,7 +228,7 @@ const Industries = () => {
                       <div className=" self-stretch text-stone-300 text-[15px] font-medium italic urbanist">
                         Trust us to streamline your HR processes
                       </div>
-                      <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
+                      <div className=" self-stretch text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
                         With our expertise in Design & Development in the
                         segment,we will help you obtain a better ROI.
                       </div>
@@ -236,7 +236,7 @@ const Industries = () => {
                   </div>
                 </div>
                 <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us  gap-2 inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
+                  <div className="ScheduleACall text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
@@ -303,7 +303,7 @@ const Industries = () => {
                       <div className=" self-stretch text-stone-300 text-[15px] font-medium italic urbanist">
                         Level Up Your Accounting Online
                       </div>
-                      <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
+                      <div className=" self-stretch text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
                         With our expertise in Design & Development in the
                         segment,we will help you obtain a better ROI.
                       </div>
@@ -311,7 +311,7 @@ const Industries = () => {
                   </div>
                 </div>
                 <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us  gap-2 inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
+                  <div className="ScheduleACall text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
@@ -408,7 +408,7 @@ const Industries = () => {
                       <div className=" self-stretch text-stone-300 text-[15px] font-medium italic urbanist">
                         Better the content, more the conversion ratio
                       </div>
-                      <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
+                      <div className=" self-stretch text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
                         With our expertise in Design & Development in the
                         segment,we will help you obtain a better ROI.
                       </div>
@@ -416,7 +416,7 @@ const Industries = () => {
                   </div>
                 </div>
                 <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us  gap-2 inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
+                  <div className="ScheduleACall text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
@@ -478,7 +478,7 @@ const Industries = () => {
                       <div className=" self-stretch text-stone-300 text-[15px] font-medium italic urbanist">
                         Simplify your retail experience
                       </div>
-                      <div className=" self-stretch text-neutral-400 text-sm font-light urbanist">
+                      <div className=" self-stretch text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
                         With our expertise in Design & Development in the
                         segment,we will help you obtain a better ROI.
                       </div>
@@ -486,7 +486,7 @@ const Industries = () => {
                   </div>
                 </div>
                 <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us  gap-2 inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm font-light urbanist">
+                  <div className="ScheduleACall text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">

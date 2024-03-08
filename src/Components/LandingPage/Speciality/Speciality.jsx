@@ -58,7 +58,7 @@ const Speciality = () => {
                       </defs>
                     </svg>
                   </div>
-                  <div className="Quality text-white text-xl font-normal urbanist">
+                  <div className="Quality text-white text-xl  font-normal urbanist">
                     Quality
                   </div>
                 </div>

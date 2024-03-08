@@ -69,29 +69,29 @@ const FooterLinks = () => {
               Services
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
-              <div className="MobileAppDevelopment cursor-pointer text-white text-[19px] font-normal urbanist">
+              <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
                 Mobile App Development
               </div>
-              <div className="UiUxDesign cursor-pointer text-white text-[19px] font-normal urbanist">
+              <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
                 UI/ UX Design
               </div>
-              <div className="AiServices cursor-pointer text-white text-[19px] font-normal urbanist">
+              <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
                 AI Services
               </div>
             </div>
           </div>
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
-            <div className="Company text-neutral-400 text-base font-normal urbanist">
+            <div className="footer-link-font text-neutral-400 text-base font-normal urbanist">
               Company
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
-              <div className="Blog cursor-pointer text-white text-[19px] font-normal urbanist">
+              <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
                 Blog
               </div>
-              <div className="Careers cursor-pointer text-white text-[19px] font-normal urbanist">
+              <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
                 Careers
               </div>
-              <div className="ContactUs cursor-pointer text-white text-[19px] font-normal urbanist">
+              <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
                 Contact Us
               </div>
             </div>
@@ -101,13 +101,13 @@ const FooterLinks = () => {
               Resources
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
-              <div className="Documentation cursor-pointer text-white text-[19px] font-normal urbanist">
+              <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
                 Documentation
               </div>
-              <div className="MediaCoverage cursor-pointer text-white text-[19px] font-normal urbanist">
+              <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
                 Media Coverage
               </div>
-              <div className="Faqs text-white cursor-pointer text-[19px] font-normal urbanist">
+              <div className="footer-link-font text-white cursor-pointer text-[19px] font-normal urbanist">
                 FAQs
               </div>
             </div>

@@ -1776,11 +1776,11 @@ const Navbar = () => {
           </div>
         </div>
         <div className="hamburger-icon  w-full relative  cursor-pointer hidden">
-          <div className="Frame2 cursor-pointer pb-4  justify-start items-center gap-2 inline-flex">
+          <div className="Frame2 cursor-pointer py-4  justify-start items-center gap-2 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="28"
-              height="17"
+              height="24"
               viewBox="0 0 28 17"
               fill="none"
             >
@@ -1804,7 +1804,7 @@ const Navbar = () => {
                 </linearGradient>
               </defs>
             </svg>
-            <div className="Vadavision text-white text-2xl font-bold prompt leading-7">
+            <div className="Vadavision text-white text-xl font-bold prompt  leading-7">
               VadaVision!
             </div>
           </div>

@@ -29,6 +29,7 @@ const MileStone = () => {
                 height="40"
                 viewBox="0 0 40 40"
                 fill="none"
+                className="milestonesSvg"
               >
                 <path
                   d="M14.0605 12.1818C14.0605 15.7576 16.9696 18.6061 20.4848 18.6061C21.8181 18.6061 23.0302 18.2424 23.9999 17.5151C24.0605 17.5151 24.0605 17.4545 24.1212 17.4545C25.8181 16.303 26.909 14.3636 26.909 12.1212C26.909 8.54545 23.9999 5.69696 20.4848 5.69696C16.9696 5.69696 14.0605 8.60605 14.0605 12.1818Z"
@@ -71,6 +72,7 @@ const MileStone = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
                 height="40"
+                className="milestonesSvg"
                 viewBox="0 0 40 40"
                 fill="none"
               >
@@ -95,6 +97,7 @@ const MileStone = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
                 height="40"
+                className="milestonesSvg"
                 viewBox="0 0 40 40"
                 fill="none"
               >
@@ -149,6 +152,7 @@ const MileStone = () => {
                 height="40"
                 viewBox="0 0 40 40"
                 fill="none"
+                className="milestonesSvg"
               >
                 <path
                   fillRule="evenodd"

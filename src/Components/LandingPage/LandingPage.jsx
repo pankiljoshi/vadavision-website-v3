@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../Common/Navbar/Navbar";
 import Servise from "../Servises/Servise";
 import Industries from "./Industries/Industries";
-import RecentProject from "./RecentProject/RecentProject";
 import Review from "./Review/Review";
 import ConsultWithUs from "./ConsultWithUs/ConsultWithUs";
 import Speciality from "./Speciality/Speciality";
@@ -10,7 +9,6 @@ import NewsLetter from "./NewsLetter/NewsLetter";
 import FooterLinks from "./FooterLinks/FooterLinks";
 import Footer from "./Footer/Footer";
 import FrequentlyAksedQuestions from "./Faqs/FrequentlyAskedQuestions";
-import Testimonials from "./Testimonials/Testimonials";
 import MileStone from "./MileStone/MileStone";
 import HeroSection from "./Herosection/HeroSection";
 
@@ -37,18 +35,18 @@ const LandingPage = () => {
       <div>
         <Speciality />
       </div>
-      <div>
+      {/* <div>
         <RecentProject />
-      </div>
+      </div> */}
       <div>
         <Review />
       </div>
       <div>
         <ConsultWithUs />
       </div>
-      <div>
+      {/* <div>
         <Testimonials />
-      </div>
+      </div> */}
       <div>
         <FrequentlyAksedQuestions />
       </div>

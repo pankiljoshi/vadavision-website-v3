@@ -22,14 +22,15 @@ const FooterLinks = () => {
         data-aos="zoom-in"
         className="Container  w-full flex-wrap px-20 border-style pb-16  justify-between items-center inline-flex padding-industies mt-20 "
       >
-        <div className="LogoAndText w-72 flex-col justify-start items-start gap-4 inline-flex">
-          <div className=" cursor-pointer  ">
+        <div className="LogoAndText w-72 flex-col   justify-start items-start gap-4 inline-flex">
+          <div className=" responsive-footer-link-logo cursor-pointer  ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="50"
               height="31"
               viewBox="0 0 50 31"
               fill="none"
+              className="footer-logo"
             >
               <path
                 id="Union"
@@ -52,7 +53,7 @@ const FooterLinks = () => {
                 </linearGradient>
               </defs>
             </svg>
-            <div className="Vadavision cursor-pointer mt-3 text-white text-[32px] font-bold prompt leading-10">
+            <div className="Vadavision footer-logo-text cursor-pointer mt-3 text-white text-[32px] font-bold prompt leading-10">
               VadaVision!
             </div>
           </div>
@@ -63,9 +64,10 @@ const FooterLinks = () => {
             </div>
           </div>
         </div>
+        <div className="border-style-hidden mt-10 hidden "></div>
         <div className="FooterLinks responsive-footer justify-start flex-wrap items-start gap-16 flex">
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
-            <div className="Services text-neutral-400 text-base font-normal urbanist">
+            <div className="Services footer-heading-text text-neutral-400 text-base font-normal urbanist">
               Services
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
@@ -81,7 +83,7 @@ const FooterLinks = () => {
             </div>
           </div>
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
-            <div className="footer-link-font text-neutral-400 text-base font-normal urbanist">
+            <div className="footer-heading-text text-neutral-400 text-base font-normal urbanist">
               Company
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
@@ -97,7 +99,7 @@ const FooterLinks = () => {
             </div>
           </div>
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
-            <div className="Resources text-neutral-400 text-base font-medium urbanist">
+            <div className="Resources footer-heading-text text-neutral-400 text-base font-medium urbanist">
               Resources
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
@@ -113,7 +115,7 @@ const FooterLinks = () => {
             </div>
           </div>
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
-            <div className="FollowUsOn text-neutral-400 text-base font-light urbanist">
+            <div className=" footer-heading-text text-neutral-400 text-base font-light urbanist">
               Follow us on
             </div>
             <div className="ButtonsContainer  justify-start items-start gap-2.5 inline-flex">

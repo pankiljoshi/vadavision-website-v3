@@ -43,7 +43,7 @@ const Accordion = () => {
   };
 
   return (
-    <div className="pb-10 pt-5 mt-14 flex justify-between gap-11 load-faq">
+    <div className="pb-10 pt-5 mt-14 flex justify-between faq-gap gap-11 load-faq">
       <div data-aos="fade-right" className="w-[50%] display-full-faq ">
         {questionsData.map((item) => (
           <>
@@ -53,7 +53,7 @@ const Accordion = () => {
                 onClick={() => toggleAccordion(item.id)}
               >
                 <div className="flex gap-2 justify-between accordion-title">
-                  <div className="montserrat text-[#CFD3D7] text-2xl pt-4  pb-6  leading-[24px] font-medium">
+                  <div className="montserrat text-[#CFD3D7] text-2xl faq-question-size pt-4  pb-6  leading-[24px] font-medium">
                     {item.questions}{" "}
                   </div>
                   <div className="accordion-icon mt-6 cursor-pointer ">
@@ -83,7 +83,7 @@ const Accordion = () => {
                 onClick={() => toggleAccordion(item.id)}
               >
                 <div className="flex gap-2 justify-between accordion-title">
-                  <div className="montserrat text-[#CFD3D7] text-2xl pt-4  pb-6  leading-[24px] font-medium">
+                  <div className="montserrat text-[#CFD3D7] faq-question-size text-2xl pt-4  pb-6  leading-[24px] font-medium">
                     {item.questions}{" "}
                   </div>
                   <div className="accordion-icon mt-6 cursor-pointer ">
@@ -105,16 +105,16 @@ const Accordion = () => {
         ))}
       </div>
       {showHiddenFaq && (
-        <div className="w-[50%] display-full-faq border-style-faq  ">
+        <div className="w-[50%] display-full-faq    ">
           {questionsData.map((item) => (
             <>
-              <div key={item.id} className="accordion-item  ">
+              <div key={item.id} className="accordion-item border-style-faq  ">
                 <div
                   className="accordion-header"
                   onClick={() => toggleAccordion(item.id)}
                 >
                   <div className="flex gap-2 justify-between accordion-title">
-                    <div className="montserrat text-[#CFD3D7] text-2xl pt-4  pb-6  leading-[24px] font-medium">
+                    <div className="montserrat text-[#CFD3D7] text-2xl pt-4 faq-question-size  pb-6  leading-[24px] font-medium">
                       {item.questions}{" "}
                     </div>
                     <div className="accordion-icon mt-6 cursor-pointer ">

@@ -16,7 +16,7 @@ const HeroSection = () => {
   }, []);
   return (
     <>
-      <div className=" w-full pt-12 pb-14 flex overflow-x-hidden flex-row gap-36 px-20 bg-gradient-to-br herosection-responsive padding-industies bg-cover  from-black to-zinc-950 herosection-bg bg-no-repeat h-screen ">
+      <div className=" w-full pt-12 pb-14 flex  scrollbar flex-row gap-36 px-20 bg-gradient-to-br herosection-responsive  padding-industies bg-cover  from-black to-zinc-950 herosection-bg  bg-no-repeat ">
         <div
           data-aos="fade-right"
           className="LeftSide w-[50%]  responsive-left-side min-w-[600px] mt-16 flex-col justify-start items-start gap-6 inline-flex"
@@ -88,10 +88,10 @@ const HeroSection = () => {
         </div>
         <div
           data-aos="fade-left"
-          className=" w-[50%]   padding-responsive mt-20 pt-20 "
+          className=" w-[50%] right-side-herosection   padding-responsive mt-20 pt-20 "
         >
-          <div className="  servises-card   ml-20 mt-6 justify-start  items-start gap-6 inline-flex">
-            <div className="Frame1171281402 servises-cards1 mobile-view-gradient servises-cards  p-4 w-[148px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
+          <div className=" first-row-cards servises-card   ml-20 mt-6 justify-start  items-start gap-6 inline-flex">
+            <div className="ai-servise-card  servises-cards1 mobile-view-gradient servises-cards  p-4 w-[148px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col justify-start ai-servise-padding items-start gap-4 flex">
                 <div className="AiAssistant1 w-8 h-8 relative">
                   <div className="Group w-8 h-8 left-[0.81px] top-0 absolute">
@@ -102,6 +102,7 @@ const HeroSection = () => {
                         width="32"
                         height="32"
                         viewBox="0 0 32 32"
+                        className="servise-card-svg"
                         fill="none"
                       >
                         <g id="ai-assistant 1" clipPath="url(#clip0_46_837)">
@@ -318,7 +319,7 @@ const HeroSection = () => {
                 </div>
               </div>
             </div>
-            <div className="Frame1171281404 servises-cards2 w-[261px] h-[120px] mobile-view-gradient servises-cards  services-Card-hover hover:border-yellow-50 hover:border-opacity-15  p-6 border   border-white border-opacity-10  flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="resource-card servises-cards2 w-[261px] h-[120px] mobile-view-gradient servises-cards  services-Card-hover hover:border-yellow-50 hover:border-opacity-15  p-6 border   border-white border-opacity-10  flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col app-delopment-padding justify-start items-start gap-4 flex">
                 <div className="Resource1 w-8 h-8  svg-margin relative">
                   <svg
@@ -326,6 +327,7 @@ const HeroSection = () => {
                     width="32"
                     height="32"
                     viewBox="0 0 32 32"
+                    className="servise-card-svg"
                     fill="none"
                   >
                     <g id="resource 1" clipPath="url(#clip0_46_856)">
@@ -359,8 +361,8 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          <div className="Frame1171281406  mt-6 justify-start items-start gap-6 inline-flex pb-20">
-            <div className="Frame1171281403 servises-cards2 w-[275px] h-[120px] mobile-view-gradient servises-cards   p-5 hover:border-yellow-50 hover:border-opacity-15   services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
+          <div className="second-row-cards  mt-6 justify-start items-start gap-6 inline-flex pb-20">
+            <div className="mobile-development-card servises-cards2 w-[275px] h-[120px] mobile-view-gradient servises-cards   p-5 hover:border-yellow-50 hover:border-opacity-15   services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 app-delopment-padding flex-col justify-start items-start gap-4 flex">
                 <div className="MobileDevelopment1 w-8 h-8 svg-margin relative">
                   <div className="Group w-7 h-7 ">
@@ -369,6 +371,7 @@ const HeroSection = () => {
                       width="32"
                       height="32"
                       viewBox="0 0 32 32"
+                      className="servise-card-svg"
                       fill="none"
                     >
                       <g id="mobile-development 1">
@@ -513,13 +516,14 @@ const HeroSection = () => {
                 </div>
               </div>
             </div>
-            <div className="Frame1171281402 servises-cards1  servises-cards mobile-view-gradient  p-4 w-[172px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="ui-ux-card servises-cards1  servises-cards mobile-view-gradient  p-4 w-[172px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281402 flex-col justify-start items-start ai-servise-padding gap-4 flex">
                 <div className="UxDesign1 w-8 h-8 relative">
                   <div className="VectorIllustration w-7 h-7 svg-margin left-[1.88px] top-[1.60px] absolute">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="32"
+                      className="servise-card-svg"
                       height="32"
                       viewBox="0 0 32 32"
                       fill="none"

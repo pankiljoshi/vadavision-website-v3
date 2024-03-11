@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const RedBar = () => (
@@ -50,19 +51,24 @@ const ResponsiveNavbar = () => {
     <>
       <div className="Hero w-full relative bg-gradient-to-br from-black to-zinc-950 flex-col padding-none justify-start items-start inline-flex">
         <div className="MenuItems w-full flex-col justify-start items-start  inline-flex">
-          <div className="Frame1000003590 w-full  py-3  border-b border-stone-900 justify-start items-center inline-flex">
-            <div
-              className={`Home text-white cursor-pointer  text-[18px] font-light font-urbaninst ${
-                activeTab === "home" ? "active" : ""
-              }`}
-              onClick={() => setActiveTab("home")}
-            >
-              <div className="flex relative">
-                {activeTab === "home" && <RedBar className="top-2 absolute " />}
-                <span className="top-2 absolute right-0"> Home</span>
+          <Link href="/">
+            <div className="Frame1000003590 w-full  py-3  border-b border-stone-900 justify-start items-center inline-flex">
+              <div
+                className={`Home text-white cursor-pointer  text-[18px] font-light font-urbaninst ${
+                  activeTab === "home" ? "active" : ""
+                }`}
+                onClick={() => setActiveTab("home")}
+              >
+                <div className="flex relative">
+                  {activeTab === "home" && (
+                    <RedBar className="top-2 absolute " />
+                  )}
+                  <span className="top-2 absolute right-0"> Home</span>
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
+
           <div className="Frame1000003591 w-full pl-10 py-3 border-b border-stone-900 justify-start items-center inline-flex">
             <div className="About text-stone-300 text-[18px] font-light font-urbaninst">
               About
@@ -290,279 +296,319 @@ const ResponsiveNavbar = () => {
                 </div>
                 <div className="flex flex-row gap-5 mt-4  ">
                   <div className="Card w-[50%] min-w-[190px] p-4 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-2.5 inline-flex">
-                    <div className="Frame1171281439 self-stretch h-24 flex-col justify-start items-start gap-4 flex">
-                      <div className="Frame1171281438 h-16 flex-col justify-start items-start gap-2 flex">
-                        <div className="Frame1171281491 justify-start items-center gap-2 inline-flex">
-                          <div className="Frame1171281402 flex-col justify-start items-start gap-4 inline-flex">
-                            <div className="AiAssistant1 w-4 h-4 relative">
-                              <div className="Group w-4 h-4 left-[0.41px] top-0 absolute">
-                                <div className="Group w-3.5 h-3.5 left-[0.69px] top-[1.72px] absolute">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="16"
-                                    height="17"
-                                    viewBox="0 0 16 17"
-                                    fill="none"
-                                  >
-                                    <g
-                                      id="ai-assistant 1"
-                                      clipPath="url(#clip0_702_13733)"
+                    <Link href="/ai-bot-landing">
+                      <div className="Frame1171281439 self-stretch h-24 flex-col justify-start items-start gap-4 flex">
+                        <div className="Frame1171281438 h-16 flex-col justify-start items-start gap-2 flex">
+                          <div className="Frame1171281491 justify-start items-center gap-2 inline-flex">
+                            <div className="Frame1171281402 flex-col justify-start items-start gap-4 inline-flex">
+                              <div className="AiAssistant1 w-4 h-4 relative">
+                                <div className="Group w-4 h-4 left-[0.41px] top-0 absolute">
+                                  <div className="Group w-3.5 h-3.5 left-[0.69px] top-[1.72px] absolute">
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="16"
+                                      height="17"
+                                      viewBox="0 0 16 17"
+                                      fill="none"
                                     >
-                                      <g id="Group">
-                                        <g id="Group_2">
-                                          <path
-                                            id="Vector"
-                                            d="M7.65625 2.21831H8.34377V3.59335H7.65625V2.21831Z"
-                                            fill="url(#paint0_linear_702_13733)"
-                                          />
-                                          <path
-                                            id="Vector_2"
-                                            d="M12.438 11.9999H13.8755V12.6874H12.438V11.9999Z"
-                                            fill="url(#paint1_linear_702_13733)"
-                                          />
-                                          <path
-                                            id="Vector_3"
-                                            d="M14.2192 13.0311V16.1562C14.2192 16.3461 14.3731 16.5 14.563 16.5C14.7528 16.5 14.9068 16.3461 14.9068 16.1562V13.0311H14.2192Z"
-                                            fill="url(#paint2_linear_702_13733)"
-                                          />
-                                          <path
-                                            id="Vector_4"
-                                            d="M2.125 11.9999H3.56254V12.6874H2.125V11.9999Z"
-                                            fill="url(#paint3_linear_702_13733)"
-                                          />
-                                          <path
-                                            id="Vector_5"
-                                            d="M1.09375 13.0311V16.1562C1.09375 16.3461 1.24766 16.5 1.43751 16.5C1.62736 16.5 1.78127 16.3461 1.78127 16.1562V13.0311H1.09375Z"
-                                            fill="url(#paint4_linear_702_13733)"
-                                          />
-                                          <path
-                                            id="Vector_6"
-                                            d="M7.69584 5.1044C7.69462 5.10124 7.6934 5.09809 7.69212 5.09496C7.62918 4.94211 7.48183 4.84339 7.31654 4.84339C7.31639 4.84339 7.31623 4.84339 7.31608 4.84339C7.15063 4.84358 7.00325 4.94264 6.94066 5.09577C6.9396 5.09834 6.9386 5.10093 6.9376 5.10352L5.90494 7.81489C5.83734 7.9923 5.92641 8.1909 6.10382 8.2585C6.28133 8.32606 6.47986 8.23703 6.5474 8.05959L6.72025 7.60573H7.90484L8.07576 8.05862C8.12773 8.19628 8.25854 8.28112 8.39745 8.28109C8.43777 8.28109 8.47883 8.27394 8.51877 8.25887C8.6964 8.19184 8.78606 7.99349 8.71903 7.81589L7.69584 5.1044ZM6.98216 6.91821L7.31533 6.04343L7.64546 6.91821H6.98216Z"
-                                            fill="url(#paint5_linear_702_13733)"
-                                          />
-                                          <path
-                                            id="Vector_7"
-                                            d="M9.77442 4.84339C9.58458 4.84339 9.43066 4.9973 9.43066 5.18715V7.93724C9.43066 8.12709 9.58458 8.281 9.77442 8.281C9.96427 8.281 10.1182 8.12709 10.1182 7.93724V5.18715C10.1182 4.9973 9.96427 4.84339 9.77442 4.84339Z"
-                                            fill="url(#paint6_linear_702_13733)"
-                                          />
-                                        </g>
-                                        <g id="Group_3">
-                                          <path
-                                            id="Vector_8"
-                                            d="M4.93751 15.125H11.0627C11.2526 15.125 11.4065 14.971 11.4065 14.7812V12.3436C11.4065 12.1538 11.2526 11.9999 11.0627 11.9999H4.93751C4.74766 11.9999 4.59375 12.1538 4.59375 12.3436V14.7812C4.59375 14.971 4.74766 15.125 4.93751 15.125ZM5.28127 12.6874H10.7189V14.4374H5.28127V12.6874Z"
-                                            fill="url(#paint7_linear_702_13733)"
-                                          />
-                                          <path
-                                            id="Vector_9"
-                                            d="M12.732 5.37465H12.1565V4.63488C12.1565 3.87104 11.5351 3.24959 10.7713 3.24959H5.22908C4.46525 3.24959 3.84379 3.87104 3.84379 4.63488V5.37465H3.26837C2.89638 5.37465 2.59375 5.67729 2.59375 6.04924V7.07511C2.59375 7.44709 2.89638 7.7497 3.26837 7.7497H3.84379V8.48947C3.84379 9.25331 4.46525 9.87476 5.22908 9.87476H5.80154V10.6248H3.56253C3.37268 10.6248 3.21877 10.7787 3.21877 10.9685V16.1562C3.21877 16.3461 3.37268 16.5 3.56253 16.5H12.4378C12.6277 16.5 12.7816 16.3461 12.7816 16.1562V10.9685C12.7816 10.7787 12.6277 10.6248 12.4378 10.6248H10.1988V9.87476H10.7713C11.5351 9.87476 12.1565 9.25331 12.1565 8.48947V7.7497H12.732C13.104 7.7497 13.4066 7.44706 13.4066 7.07511V6.04924C13.4066 5.67729 13.104 5.37465 12.732 5.37465ZM3.28127 7.06221V6.06218H3.84379V7.06221H3.28127ZM12.094 15.8125H3.90629V11.3123H12.094V15.8125ZM9.51128 10.6248H6.48909V9.87479H9.51128V10.6248ZM11.469 8.4895C11.469 8.87426 11.156 9.18727 10.7713 9.18727H5.22908C4.84432 9.18727 4.53131 8.87426 4.53131 8.4895V4.63488C4.53131 4.25012 4.84435 3.93711 5.22908 3.93711H10.7713C11.156 3.93711 11.469 4.25012 11.469 4.63488V8.4895ZM12.7191 7.06221H12.1565V6.06218H12.7191V7.06221Z"
-                                            fill="url(#paint8_linear_702_13733)"
-                                          />
-                                          <path
-                                            id="Vector_10"
-                                            d="M8.00004 2.5616C8.26414 2.5616 8.52821 2.46106 8.72928 2.26003C9.13135 1.85795 9.13135 1.20368 8.72928 0.801606C8.3272 0.399562 7.67293 0.399469 7.27079 0.801606C6.86872 1.20368 6.86872 1.85795 7.27079 2.26003C7.47186 2.46106 7.73593 2.5616 8.00004 2.5616ZM7.75697 1.28772C7.824 1.22068 7.912 1.18718 8.00004 1.18718C8.08804 1.18718 8.1761 1.22068 8.24311 1.28768C8.37714 1.42172 8.37714 1.63982 8.24311 1.77382C8.10907 1.90786 7.89097 1.90789 7.75693 1.77382C7.6229 1.63976 7.62293 1.42175 7.75697 1.28772Z"
-                                            fill="url(#paint9_linear_702_13733)"
-                                          />
-                                          <path
-                                            id="Vector_11"
-                                            d="M14.563 11.3123C13.9944 11.3123 13.5317 11.775 13.5317 12.3436C13.5317 12.9123 13.9944 13.3749 14.563 13.3749C15.1317 13.3749 15.5943 12.9123 15.5943 12.3436C15.5943 11.775 15.1317 11.3123 14.563 11.3123ZM14.563 12.6874C14.3735 12.6874 14.2193 12.5332 14.2193 12.3436C14.2193 12.1541 14.3735 11.9999 14.563 11.9999C14.7526 11.9999 14.9068 12.1541 14.9068 12.3436C14.9068 12.5332 14.7526 12.6874 14.563 12.6874Z"
-                                            fill="url(#paint10_linear_702_13733)"
-                                          />
-                                          <path
-                                            id="Vector_12"
-                                            d="M1.43753 11.3123C0.868889 11.3123 0.40625 11.775 0.40625 12.3436C0.40625 12.9123 0.868889 13.3749 1.43753 13.3749C2.00617 13.3749 2.46881 12.9123 2.46881 12.3436C2.46881 11.775 2.00617 11.3123 1.43753 11.3123ZM1.43753 12.6874C1.248 12.6874 1.09377 12.5332 1.09377 12.3436C1.09377 12.1541 1.248 11.9999 1.43753 11.9999C1.62707 11.9999 1.78129 12.1541 1.78129 12.3436C1.78129 12.5332 1.6271 12.6874 1.43753 12.6874Z"
-                                            fill="url(#paint11_linear_702_13733)"
-                                          />
+                                      <g
+                                        id="ai-assistant 1"
+                                        clipPath="url(#clip0_702_13733)"
+                                      >
+                                        <g id="Group">
+                                          <g id="Group_2">
+                                            <path
+                                              id="Vector"
+                                              d="M7.65625 2.21831H8.34377V3.59335H7.65625V2.21831Z"
+                                              fill="url(#paint0_linear_702_13733)"
+                                            />
+                                            <path
+                                              id="Vector_2"
+                                              d="M12.438 11.9999H13.8755V12.6874H12.438V11.9999Z"
+                                              fill="url(#paint1_linear_702_13733)"
+                                            />
+                                            <path
+                                              id="Vector_3"
+                                              d="M14.2192 13.0311V16.1562C14.2192 16.3461 14.3731 16.5 14.563 16.5C14.7528 16.5 14.9068 16.3461 14.9068 16.1562V13.0311H14.2192Z"
+                                              fill="url(#paint2_linear_702_13733)"
+                                            />
+                                            <path
+                                              id="Vector_4"
+                                              d="M2.125 11.9999H3.56254V12.6874H2.125V11.9999Z"
+                                              fill="url(#paint3_linear_702_13733)"
+                                            />
+                                            <path
+                                              id="Vector_5"
+                                              d="M1.09375 13.0311V16.1562C1.09375 16.3461 1.24766 16.5 1.43751 16.5C1.62736 16.5 1.78127 16.3461 1.78127 16.1562V13.0311H1.09375Z"
+                                              fill="url(#paint4_linear_702_13733)"
+                                            />
+                                            <path
+                                              id="Vector_6"
+                                              d="M7.69584 5.1044C7.69462 5.10124 7.6934 5.09809 7.69212 5.09496C7.62918 4.94211 7.48183 4.84339 7.31654 4.84339C7.31639 4.84339 7.31623 4.84339 7.31608 4.84339C7.15063 4.84358 7.00325 4.94264 6.94066 5.09577C6.9396 5.09834 6.9386 5.10093 6.9376 5.10352L5.90494 7.81489C5.83734 7.9923 5.92641 8.1909 6.10382 8.2585C6.28133 8.32606 6.47986 8.23703 6.5474 8.05959L6.72025 7.60573H7.90484L8.07576 8.05862C8.12773 8.19628 8.25854 8.28112 8.39745 8.28109C8.43777 8.28109 8.47883 8.27394 8.51877 8.25887C8.6964 8.19184 8.78606 7.99349 8.71903 7.81589L7.69584 5.1044ZM6.98216 6.91821L7.31533 6.04343L7.64546 6.91821H6.98216Z"
+                                              fill="url(#paint5_linear_702_13733)"
+                                            />
+                                            <path
+                                              id="Vector_7"
+                                              d="M9.77442 4.84339C9.58458 4.84339 9.43066 4.9973 9.43066 5.18715V7.93724C9.43066 8.12709 9.58458 8.281 9.77442 8.281C9.96427 8.281 10.1182 8.12709 10.1182 7.93724V5.18715C10.1182 4.9973 9.96427 4.84339 9.77442 4.84339Z"
+                                              fill="url(#paint6_linear_702_13733)"
+                                            />
+                                          </g>
+                                          <g id="Group_3">
+                                            <path
+                                              id="Vector_8"
+                                              d="M4.93751 15.125H11.0627C11.2526 15.125 11.4065 14.971 11.4065 14.7812V12.3436C11.4065 12.1538 11.2526 11.9999 11.0627 11.9999H4.93751C4.74766 11.9999 4.59375 12.1538 4.59375 12.3436V14.7812C4.59375 14.971 4.74766 15.125 4.93751 15.125ZM5.28127 12.6874H10.7189V14.4374H5.28127V12.6874Z"
+                                              fill="url(#paint7_linear_702_13733)"
+                                            />
+                                            <path
+                                              id="Vector_9"
+                                              d="M12.732 5.37465H12.1565V4.63488C12.1565 3.87104 11.5351 3.24959 10.7713 3.24959H5.22908C4.46525 3.24959 3.84379 3.87104 3.84379 4.63488V5.37465H3.26837C2.89638 5.37465 2.59375 5.67729 2.59375 6.04924V7.07511C2.59375 7.44709 2.89638 7.7497 3.26837 7.7497H3.84379V8.48947C3.84379 9.25331 4.46525 9.87476 5.22908 9.87476H5.80154V10.6248H3.56253C3.37268 10.6248 3.21877 10.7787 3.21877 10.9685V16.1562C3.21877 16.3461 3.37268 16.5 3.56253 16.5H12.4378C12.6277 16.5 12.7816 16.3461 12.7816 16.1562V10.9685C12.7816 10.7787 12.6277 10.6248 12.4378 10.6248H10.1988V9.87476H10.7713C11.5351 9.87476 12.1565 9.25331 12.1565 8.48947V7.7497H12.732C13.104 7.7497 13.4066 7.44706 13.4066 7.07511V6.04924C13.4066 5.67729 13.104 5.37465 12.732 5.37465ZM3.28127 7.06221V6.06218H3.84379V7.06221H3.28127ZM12.094 15.8125H3.90629V11.3123H12.094V15.8125ZM9.51128 10.6248H6.48909V9.87479H9.51128V10.6248ZM11.469 8.4895C11.469 8.87426 11.156 9.18727 10.7713 9.18727H5.22908C4.84432 9.18727 4.53131 8.87426 4.53131 8.4895V4.63488C4.53131 4.25012 4.84435 3.93711 5.22908 3.93711H10.7713C11.156 3.93711 11.469 4.25012 11.469 4.63488V8.4895ZM12.7191 7.06221H12.1565V6.06218H12.7191V7.06221Z"
+                                              fill="url(#paint8_linear_702_13733)"
+                                            />
+                                            <path
+                                              id="Vector_10"
+                                              d="M8.00004 2.5616C8.26414 2.5616 8.52821 2.46106 8.72928 2.26003C9.13135 1.85795 9.13135 1.20368 8.72928 0.801606C8.3272 0.399562 7.67293 0.399469 7.27079 0.801606C6.86872 1.20368 6.86872 1.85795 7.27079 2.26003C7.47186 2.46106 7.73593 2.5616 8.00004 2.5616ZM7.75697 1.28772C7.824 1.22068 7.912 1.18718 8.00004 1.18718C8.08804 1.18718 8.1761 1.22068 8.24311 1.28768C8.37714 1.42172 8.37714 1.63982 8.24311 1.77382C8.10907 1.90786 7.89097 1.90789 7.75693 1.77382C7.6229 1.63976 7.62293 1.42175 7.75697 1.28772Z"
+                                              fill="url(#paint9_linear_702_13733)"
+                                            />
+                                            <path
+                                              id="Vector_11"
+                                              d="M14.563 11.3123C13.9944 11.3123 13.5317 11.775 13.5317 12.3436C13.5317 12.9123 13.9944 13.3749 14.563 13.3749C15.1317 13.3749 15.5943 12.9123 15.5943 12.3436C15.5943 11.775 15.1317 11.3123 14.563 11.3123ZM14.563 12.6874C14.3735 12.6874 14.2193 12.5332 14.2193 12.3436C14.2193 12.1541 14.3735 11.9999 14.563 11.9999C14.7526 11.9999 14.9068 12.1541 14.9068 12.3436C14.9068 12.5332 14.7526 12.6874 14.563 12.6874Z"
+                                              fill="url(#paint10_linear_702_13733)"
+                                            />
+                                            <path
+                                              id="Vector_12"
+                                              d="M1.43753 11.3123C0.868889 11.3123 0.40625 11.775 0.40625 12.3436C0.40625 12.9123 0.868889 13.3749 1.43753 13.3749C2.00617 13.3749 2.46881 12.9123 2.46881 12.3436C2.46881 11.775 2.00617 11.3123 1.43753 11.3123ZM1.43753 12.6874C1.248 12.6874 1.09377 12.5332 1.09377 12.3436C1.09377 12.1541 1.248 11.9999 1.43753 11.9999C1.62707 11.9999 1.78129 12.1541 1.78129 12.3436C1.78129 12.5332 1.6271 12.6874 1.43753 12.6874Z"
+                                              fill="url(#paint11_linear_702_13733)"
+                                            />
+                                          </g>
                                         </g>
                                       </g>
-                                    </g>
-                                    <defs>
-                                      <linearGradient
-                                        id="paint0_linear_702_13733"
-                                        x1="8.00001"
-                                        y1="2.21831"
-                                        x2="8.00001"
-                                        y2="3.59335"
-                                        gradientUnits="userSpaceOnUse"
-                                      >
-                                        <stop stopColor="#A8FF78" />
-                                        <stop offset="1" stopColor="#78FFD6" />
-                                      </linearGradient>
-                                      <linearGradient
-                                        id="paint1_linear_702_13733"
-                                        x1="13.1568"
-                                        y1="11.9999"
-                                        x2="13.1568"
-                                        y2="12.6874"
-                                        gradientUnits="userSpaceOnUse"
-                                      >
-                                        <stop stopColor="#A8FF78" />
-                                        <stop offset="1" stopColor="#78FFD6" />
-                                      </linearGradient>
-                                      <linearGradient
-                                        id="paint2_linear_702_13733"
-                                        x1="14.563"
-                                        y1="13.0311"
-                                        x2="14.563"
-                                        y2="16.5"
-                                        gradientUnits="userSpaceOnUse"
-                                      >
-                                        <stop stopColor="#A8FF78" />
-                                        <stop offset="1" stopColor="#78FFD6" />
-                                      </linearGradient>
-                                      <linearGradient
-                                        id="paint3_linear_702_13733"
-                                        x1="2.84377"
-                                        y1="11.9999"
-                                        x2="2.84377"
-                                        y2="12.6874"
-                                        gradientUnits="userSpaceOnUse"
-                                      >
-                                        <stop stopColor="#A8FF78" />
-                                        <stop offset="1" stopColor="#78FFD6" />
-                                      </linearGradient>
-                                      <linearGradient
-                                        id="paint4_linear_702_13733"
-                                        x1="1.43751"
-                                        y1="13.0311"
-                                        x2="1.43751"
-                                        y2="16.5"
-                                        gradientUnits="userSpaceOnUse"
-                                      >
-                                        <stop stopColor="#A8FF78" />
-                                        <stop offset="1" stopColor="#78FFD6" />
-                                      </linearGradient>
-                                      <linearGradient
-                                        id="paint5_linear_702_13733"
-                                        x1="7.31179"
-                                        y1="4.84339"
-                                        x2="7.31179"
-                                        y2="8.2811"
-                                        gradientUnits="userSpaceOnUse"
-                                      >
-                                        <stop stopColor="#A8FF78" />
-                                        <stop offset="1" stopColor="#78FFD6" />
-                                      </linearGradient>
-                                      <linearGradient
-                                        id="paint6_linear_702_13733"
-                                        x1="9.77442"
-                                        y1="4.84339"
-                                        x2="9.77442"
-                                        y2="8.281"
-                                        gradientUnits="userSpaceOnUse"
-                                      >
-                                        <stop stopColor="#A8FF78" />
-                                        <stop offset="1" stopColor="#78FFD6" />
-                                      </linearGradient>
-                                      <linearGradient
-                                        id="paint7_linear_702_13733"
-                                        x1="8.00011"
-                                        y1="11.9999"
-                                        x2="8.00011"
-                                        y2="15.125"
-                                        gradientUnits="userSpaceOnUse"
-                                      >
-                                        <stop stopColor="#A8FF78" />
-                                        <stop offset="1" stopColor="#78FFD6" />
-                                      </linearGradient>
-                                      <linearGradient
-                                        id="paint8_linear_702_13733"
-                                        x1="8.00017"
-                                        y1="3.24959"
-                                        x2="8.00017"
-                                        y2="16.5"
-                                        gradientUnits="userSpaceOnUse"
-                                      >
-                                        <stop stopColor="#A8FF78" />
-                                        <stop offset="1" stopColor="#78FFD6" />
-                                      </linearGradient>
-                                      <linearGradient
-                                        id="paint9_linear_702_13733"
-                                        x1="8.00004"
-                                        y1="0.500038"
-                                        x2="8.00004"
-                                        y2="2.5616"
-                                        gradientUnits="userSpaceOnUse"
-                                      >
-                                        <stop stopColor="#A8FF78" />
-                                        <stop offset="1" stopColor="#78FFD6" />
-                                      </linearGradient>
-                                      <linearGradient
-                                        id="paint10_linear_702_13733"
-                                        x1="14.563"
-                                        y1="11.3123"
-                                        x2="14.563"
-                                        y2="13.3749"
-                                        gradientUnits="userSpaceOnUse"
-                                      >
-                                        <stop stopColor="#A8FF78" />
-                                        <stop offset="1" stopColor="#78FFD6" />
-                                      </linearGradient>
-                                      <linearGradient
-                                        id="paint11_linear_702_13733"
-                                        x1="1.43753"
-                                        y1="11.3123"
-                                        x2="1.43753"
-                                        y2="13.3749"
-                                        gradientUnits="userSpaceOnUse"
-                                      >
-                                        <stop stopColor="#A8FF78" />
-                                        <stop offset="1" stopColor="#78FFD6" />
-                                      </linearGradient>
-                                      <clipPath id="clip0_702_13733">
-                                        <rect
-                                          width="16"
-                                          height="16"
-                                          fill="white"
-                                          transform="translate(0 0.5)"
-                                        />
-                                      </clipPath>
-                                    </defs>
-                                  </svg>
+                                      <defs>
+                                        <linearGradient
+                                          id="paint0_linear_702_13733"
+                                          x1="8.00001"
+                                          y1="2.21831"
+                                          x2="8.00001"
+                                          y2="3.59335"
+                                          gradientUnits="userSpaceOnUse"
+                                        >
+                                          <stop stopColor="#A8FF78" />
+                                          <stop
+                                            offset="1"
+                                            stopColor="#78FFD6"
+                                          />
+                                        </linearGradient>
+                                        <linearGradient
+                                          id="paint1_linear_702_13733"
+                                          x1="13.1568"
+                                          y1="11.9999"
+                                          x2="13.1568"
+                                          y2="12.6874"
+                                          gradientUnits="userSpaceOnUse"
+                                        >
+                                          <stop stopColor="#A8FF78" />
+                                          <stop
+                                            offset="1"
+                                            stopColor="#78FFD6"
+                                          />
+                                        </linearGradient>
+                                        <linearGradient
+                                          id="paint2_linear_702_13733"
+                                          x1="14.563"
+                                          y1="13.0311"
+                                          x2="14.563"
+                                          y2="16.5"
+                                          gradientUnits="userSpaceOnUse"
+                                        >
+                                          <stop stopColor="#A8FF78" />
+                                          <stop
+                                            offset="1"
+                                            stopColor="#78FFD6"
+                                          />
+                                        </linearGradient>
+                                        <linearGradient
+                                          id="paint3_linear_702_13733"
+                                          x1="2.84377"
+                                          y1="11.9999"
+                                          x2="2.84377"
+                                          y2="12.6874"
+                                          gradientUnits="userSpaceOnUse"
+                                        >
+                                          <stop stopColor="#A8FF78" />
+                                          <stop
+                                            offset="1"
+                                            stopColor="#78FFD6"
+                                          />
+                                        </linearGradient>
+                                        <linearGradient
+                                          id="paint4_linear_702_13733"
+                                          x1="1.43751"
+                                          y1="13.0311"
+                                          x2="1.43751"
+                                          y2="16.5"
+                                          gradientUnits="userSpaceOnUse"
+                                        >
+                                          <stop stopColor="#A8FF78" />
+                                          <stop
+                                            offset="1"
+                                            stopColor="#78FFD6"
+                                          />
+                                        </linearGradient>
+                                        <linearGradient
+                                          id="paint5_linear_702_13733"
+                                          x1="7.31179"
+                                          y1="4.84339"
+                                          x2="7.31179"
+                                          y2="8.2811"
+                                          gradientUnits="userSpaceOnUse"
+                                        >
+                                          <stop stopColor="#A8FF78" />
+                                          <stop
+                                            offset="1"
+                                            stopColor="#78FFD6"
+                                          />
+                                        </linearGradient>
+                                        <linearGradient
+                                          id="paint6_linear_702_13733"
+                                          x1="9.77442"
+                                          y1="4.84339"
+                                          x2="9.77442"
+                                          y2="8.281"
+                                          gradientUnits="userSpaceOnUse"
+                                        >
+                                          <stop stopColor="#A8FF78" />
+                                          <stop
+                                            offset="1"
+                                            stopColor="#78FFD6"
+                                          />
+                                        </linearGradient>
+                                        <linearGradient
+                                          id="paint7_linear_702_13733"
+                                          x1="8.00011"
+                                          y1="11.9999"
+                                          x2="8.00011"
+                                          y2="15.125"
+                                          gradientUnits="userSpaceOnUse"
+                                        >
+                                          <stop stopColor="#A8FF78" />
+                                          <stop
+                                            offset="1"
+                                            stopColor="#78FFD6"
+                                          />
+                                        </linearGradient>
+                                        <linearGradient
+                                          id="paint8_linear_702_13733"
+                                          x1="8.00017"
+                                          y1="3.24959"
+                                          x2="8.00017"
+                                          y2="16.5"
+                                          gradientUnits="userSpaceOnUse"
+                                        >
+                                          <stop stopColor="#A8FF78" />
+                                          <stop
+                                            offset="1"
+                                            stopColor="#78FFD6"
+                                          />
+                                        </linearGradient>
+                                        <linearGradient
+                                          id="paint9_linear_702_13733"
+                                          x1="8.00004"
+                                          y1="0.500038"
+                                          x2="8.00004"
+                                          y2="2.5616"
+                                          gradientUnits="userSpaceOnUse"
+                                        >
+                                          <stop stopColor="#A8FF78" />
+                                          <stop
+                                            offset="1"
+                                            stopColor="#78FFD6"
+                                          />
+                                        </linearGradient>
+                                        <linearGradient
+                                          id="paint10_linear_702_13733"
+                                          x1="14.563"
+                                          y1="11.3123"
+                                          x2="14.563"
+                                          y2="13.3749"
+                                          gradientUnits="userSpaceOnUse"
+                                        >
+                                          <stop stopColor="#A8FF78" />
+                                          <stop
+                                            offset="1"
+                                            stopColor="#78FFD6"
+                                          />
+                                        </linearGradient>
+                                        <linearGradient
+                                          id="paint11_linear_702_13733"
+                                          x1="1.43753"
+                                          y1="11.3123"
+                                          x2="1.43753"
+                                          y2="13.3749"
+                                          gradientUnits="userSpaceOnUse"
+                                        >
+                                          <stop stopColor="#A8FF78" />
+                                          <stop
+                                            offset="1"
+                                            stopColor="#78FFD6"
+                                          />
+                                        </linearGradient>
+                                        <clipPath id="clip0_702_13733">
+                                          <rect
+                                            width="16"
+                                            height="16"
+                                            fill="white"
+                                            transform="translate(0 0.5)"
+                                          />
+                                        </clipPath>
+                                      </defs>
+                                    </svg>
+                                  </div>
+                                  <div className="Group w-4 h-4 left-0 top-0 absolute"></div>
                                 </div>
-                                <div className="Group w-4 h-4 left-0 top-0 absolute"></div>
+                              </div>
+                            </div>
+                            <div className="AiServices text-white text-base font-semibold font-urbaninst">
+                              AI Services
+                            </div>
+                          </div>
+                          <div className="Frame1171281436 self-stretch h-11 flex-col justify-start items-start gap-4 flex">
+                            <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
+                              <div className="GetThePowerfulAiServicesBuiltByTheExperts self-stretch text-neutral-400 text-xs font-light font-urbaninst">
+                                Get the powerful AI services built by the
+                                experts.
                               </div>
                             </div>
                           </div>
-                          <div className="AiServices text-white text-base font-semibold font-urbaninst">
-                            AI Services
+                        </div>
+                        <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
+                          <div className="LearnMore text-neutral-200 text-xs font-medium font-urbaninst">
+                            Learn more
                           </div>
-                        </div>
-                        <div className="Frame1171281436 self-stretch h-11 flex-col justify-start items-start gap-4 flex">
-                          <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                            <div className="GetThePowerfulAiServicesBuiltByTheExperts self-stretch text-neutral-400 text-xs font-light font-urbaninst">
-                              Get the powerful AI services built by the experts.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
-                        <div className="LearnMore text-neutral-200 text-xs font-medium font-urbaninst">
-                          Learn more
-                        </div>
-                        <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="16"
-                            height="16"
-                            viewBox="0 0 16 16"
-                            fill="none"
-                          >
-                            <g id="left-up 1">
-                              <g id="Group">
-                                <g id="Group_2">
-                                  <path
-                                    id="Vector"
-                                    d="M3.04029 13.9024L12.6667 4.27604L12.6667 9.66667C12.6667 9.85092 12.8157 10 13 10L13.6667 10C13.8509 10 14 9.85092 14 9.66667L14 2.33334C14 2.14909 13.8509 2 13.6667 2L6.3333 2C6.14908 2 5.99998 2.14909 5.99998 2.33334L5.99998 3C5.99998 3.18425 6.14908 3.33335 6.33333 3.33335L11.724 3.33335L2.0976 12.9597C2.03379 13.0235 2.00129 13.1068 2.00004 13.1904C1.99873 13.2774 2.03129 13.3647 2.0976 13.4311L2.56891 13.9024C2.6317 13.9652 2.71332 13.9977 2.79563 13.9999C2.88388 14.0023 2.97295 13.9697 3.04029 13.9024Z"
-                                    fill="#DD4243"
-                                  />
+                          <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 16 16"
+                              fill="none"
+                            >
+                              <g id="left-up 1">
+                                <g id="Group">
+                                  <g id="Group_2">
+                                    <path
+                                      id="Vector"
+                                      d="M3.04029 13.9024L12.6667 4.27604L12.6667 9.66667C12.6667 9.85092 12.8157 10 13 10L13.6667 10C13.8509 10 14 9.85092 14 9.66667L14 2.33334C14 2.14909 13.8509 2 13.6667 2L6.3333 2C6.14908 2 5.99998 2.14909 5.99998 2.33334L5.99998 3C5.99998 3.18425 6.14908 3.33335 6.33333 3.33335L11.724 3.33335L2.0976 12.9597C2.03379 13.0235 2.00129 13.1068 2.00004 13.1904C1.99873 13.2774 2.03129 13.3647 2.0976 13.4311L2.56891 13.9024C2.6317 13.9652 2.71332 13.9977 2.79563 13.9999C2.88388 14.0023 2.97295 13.9697 3.04029 13.9024Z"
+                                      fill="#DD4243"
+                                    />
+                                  </g>
                                 </g>
                               </g>
-                            </g>
-                          </svg>
+                            </svg>
+                          </div>
                         </div>
                       </div>
-                    </div>
+                    </Link>
                   </div>
+
                   <div className="Card w-[50%] min-w-[190px] p-4 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-2.5 inline-flex">
                     <div className="Frame1171281439 self-stretch h-24 flex-col justify-start items-start gap-4 flex">
                       <div className="Frame1171281438 flex-col justify-start items-start gap-2 flex">

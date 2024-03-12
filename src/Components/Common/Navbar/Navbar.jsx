@@ -165,7 +165,7 @@ const Navbar = () => {
                   >
                     <div>
                       {isPopupOpen && (
-                        <div className="fixed inset-0 backdrop-blur-[8px]   mt-20  flex z-10 justify-center  ">
+                        <div className="fixed inset-0 backdrop-blur-[8px]   mt-20  flex z-10  px-10  ">
                           <div className="flex   ">
                             <div
                               className="w-full px-4  h-[484px] bg-black  "
@@ -176,11 +176,11 @@ const Navbar = () => {
                             >
                               <div className="flex flex-row gap-6">
                                 <div className="flex flex-col">
-                                  <div className="flex flex-row gap-6  mt-10">
+                                  <div className="flex flex-row gap-6 cards-gap  mt-10">
                                     <Link href="/ai-bot-landing">
                                       <div
                                         onMouseEnter={showAiServises}
-                                        className="Card w-72 h-48 p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950  border border-black group hover:border hover:border-neutral-400 flex-col justify-start items-start gap-2.5 inline-flex"
+                                        className="servises-dropdown-card w-[288px] h-[192px] p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950  border border-black group hover:border hover:border-neutral-400 flex-col justify-start items-start gap-2.5 inline-flex"
                                       >
                                         <div className="Frame1171281439 h-36 flex-col justify-start items-start gap-6 flex">
                                           <div className="Frame1171281438 h-24 flex-col justify-start items-start gap-6 flex">
@@ -450,13 +450,13 @@ const Navbar = () => {
                                                   </div>
                                                 </div>
                                               </div>
-                                              <div className="AiServices text-white text-2xl font-normal urbanist">
+                                              <div className="AiServices AppDevelopment text-white text-2xl font-normal urbanist">
                                                 AI Services
                                               </div>
                                             </div>
-                                            <div className="Frame1171281436 w-60 h-11 flex-col justify-start items-start gap-4 flex">
-                                              <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                                                <div className=" self-stretch text-[#8E8E8E] text-base font-extralight urbanist">
+                                            <div className="Frame1171281436  flex-col justify-start items-start gap-4 flex">
+                                              <div className="Frame1171281435 self-stretch  flex-col justify-start items-start gap-2 flex">
+                                                <div className=" app-development-text leading-tight self-stretch text-[#8E8E8E] text-base font-extralight urbanist">
                                                   Get the powerful AI services
                                                   built by the experts.
                                                 </div>
@@ -495,7 +495,7 @@ const Navbar = () => {
 
                                     <div
                                       onMouseEnter={showUiUx}
-                                      className="Card w-72 h-48 p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 group border border-black hover:border  hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex"
+                                      className="servises-dropdown-card w-[288px] h-[192px] p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 group border border-black hover:border  hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex"
                                     >
                                       <div className="Frame1171281439 flex-col justify-start items-start gap-6 flex">
                                         <div className="Frame1171281438 w-60 h-24 flex-col justify-start items-start gap-6 flex">
@@ -552,13 +552,13 @@ const Navbar = () => {
                                                 </defs>
                                               </svg>
                                             </div>
-                                            <div className="UiUxDesign text-white text-2xl font-normal urbanist">
+                                            <div className="UiUxDesign AppDevelopment text-white text-2xl font-normal urbanist">
                                               UI UX Design
                                             </div>
                                           </div>
-                                          <div className="Frame1171281436 w-60 h-5 flex-col justify-start items-start gap-4 flex">
-                                            <div className="Frame1171281435 self-stretch h-9 flex-col justify-start items-start gap-2 flex">
-                                              <div className="BestInClassUiAndUxDesigns self-stretch text-[#8E8E8E] text-base font-extralight urbanist">
+                                          <div className="Frame1171281436  flex-col justify-start items-start gap-4 flex">
+                                            <div className="Frame1171281435 self-stretch flex-col justify-start items-start gap-2 flex">
+                                              <div className="app-development-text self-stretch text-[#8E8E8E] text-base font-extralight urbanist">
                                                 Best in class UI and UX Designs.
                                               </div>
                                             </div>
@@ -593,7 +593,7 @@ const Navbar = () => {
                                       </div>
                                     </div>
 
-                                    <div className="Card w-72 h-48 p-6 border border-black bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 group hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
+                                    <div className="servises-dropdown-card w-[288px] h-[192px] p-6 border border-black bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 group hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
                                       <div className="Frame1171281439 flex-col justify-start items-start gap-6 flex">
                                         <div className="Frame1171281438 w-60 h-24 flex-col justify-start items-start gap-6 flex">
                                           <div className="Frame1171281491 self-stretch justify-start items-center gap-4 inline-flex">
@@ -771,9 +771,9 @@ const Navbar = () => {
                                               App Development
                                             </div>
                                           </div>
-                                          <div className="Frame1171281436 w-60 h-5 flex-col justify-start items-start gap-4 flex">
+                                          <div className=" app-development-text flex-col justify-start items-start gap-4 flex">
                                             <div className="Frame1171281435 self-stretch h-9 flex-col justify-start items-start gap-2 flex">
-                                              <div className="IosAndroidSdkOrHybridWeBuildItAll w-60 text-[#8E8E8E] text-base font-extralight urbanist">
+                                              <div className=" text-[#8E8E8E] text-base font-extralight urbanist">
                                                 iOS, Android SDK or Hybrid - we
                                                 build it all.
                                               </div>
@@ -810,7 +810,7 @@ const Navbar = () => {
                                     </div>
                                   </div>
                                   <div className="flex flex-row gap-6  mt-10">
-                                    <div className="Card w-[443px] h-44 p-6 border border-black group bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
+                                    <div className="work-flow-automation-card w-[443px] h-[176px] p-6 border border-black group bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
                                       <div className="Frame1171281439 flex-col justify-start items-start gap-6 flex">
                                         <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                                           <div className="Frame1171281491 self-stretch justify-start items-center gap-6 inline-flex">
@@ -858,12 +858,12 @@ const Navbar = () => {
                                                 </defs>
                                               </svg>
                                             </div>
-                                            <div className="ResourceAugmentation grow shrink basis-0 text-white text-2xl font-normal urbanist">
+                                            <div className="ResourceAugmentation  AppDevelopment grow shrink basis-0 text-white text-2xl font-normal urbanist">
                                               Resource Augmentation
                                             </div>
                                           </div>
-                                          <div className="Frame1171281436 w-96 h-5 flex-col justify-start items-start gap-4 flex">
-                                            <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
+                                          <div className="Frame1171281436 app-development-text  flex-col justify-start items-start gap-4 flex">
+                                            <div className="Frame1171281435 self-stretch  flex-col justify-start items-start gap-2 flex">
                                               <div className="TheIntuitiveResourcesAugmentation self-stretch text-[#8E8E8E] text-base font-extralight urbanist">
                                                 The intuitive resources
                                                 augmentation.
@@ -899,7 +899,7 @@ const Navbar = () => {
                                         </div>
                                       </div>
                                     </div>
-                                    <div className="Card w-[443px] border border-black h-44 group p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
+                                    <div className="work-flow-automation-card w-[443px] border border-black h-44 group p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
                                       <div className="Frame1171281439 w-64 h-28 flex-col justify-start items-start gap-6 flex">
                                         <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                                           <div className="Frame1171281491 self-stretch justify-start items-center gap-6 inline-flex">
@@ -997,11 +997,11 @@ const Navbar = () => {
                                                 </defs>
                                               </svg>
                                             </div>
-                                            <div className="WorkflowAutomation w-64 text-white text-2xl font-normal urbanist">
+                                            <div className="WorkflowAutomation AppDevelopment w-64 text-white text-2xl font-normal urbanist">
                                               Workflow Automation
                                             </div>
                                           </div>
-                                          <div className="Frame1171281436 w-96 h-4 flex-col justify-start items-start gap-4 flex">
+                                          <div className="app-development-text  flex-col justify-start items-start gap-4 flex">
                                             <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
                                               <div className=" self-stretch text-[#8E8E8E] text-base font-extralight urbanist">
                                                 Workflow automation like never
@@ -1041,13 +1041,13 @@ const Navbar = () => {
                                   </div>
                                 </div>
                                 {isAiServisesVisible && (
-                                  <div className="Frame1171281486 w-96 h-96  mt-10 p-4 pb-10 border border-neutral-600 flex-col justify-start items-start  inline-flex">
+                                  <div className="ai-servises-card  w-96 h-96  mt-10 p-4 pb-10 border border-neutral-600 flex-col justify-start items-start  inline-flex">
                                     <Image src={AiFace} alt="" />
                                     <div className="Frame1171281498 self-stretch flex-col justify-start items-start gap-4 inline-flex">
                                       <div className="DiscussYourAiProjectsWithUs w-96 pt-4 text-neutral-400 text-base font-light urbanist">
                                         Discuss your AI Projects with us
                                       </div>
-                                      <div className="Frame1171281490 flex-col justify-start items-start gap-4 flex">
+                                      <div className="flex-col justify-start items-start gap-4 flex">
                                         <div className="Frame1171281465 justify-center items-center gap-2 inline-flex">
                                           <div className="Correct1 w-4 h-4 relative">
                                             <div className="Group w-4 h-4 left-0 top-0 absolute">
@@ -1245,7 +1245,7 @@ const Navbar = () => {
                                   </div>
                                 )}
                                 {isUiUXVisible && (
-                                  <div className="Frame1171281486 w-96 h-96  mt-10 p-4 pb-10 border border-neutral-600 flex-col justify-start items-start  inline-flex">
+                                  <div className="ai-servises-card w-96 h-96  mt-10 p-4 pb-10 border border-neutral-600 flex-col justify-start items-start  inline-flex">
                                     <Image src={UiuxServise} alt="" />
                                     <div className="Frame1171281498 self-stretch flex-col justify-start items-start gap-4 inline-flex">
                                       <div className="DiscussYourAiProjectsWithUs w-96 pt-4 text-neutral-400 text-base font-light urbanist">

@@ -360,7 +360,12 @@ body {
 
 @media screen and (max-width: 1280px) {
   .herosection-responsive {
-    gap: 140px;
+    gap: 228px;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .herosection-responsive {
+    gap: 185px;
   }
 }
 @media screen and (max-width: 1180px) {
@@ -378,9 +383,15 @@ body {
     gap: 60px;
   }
 }
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1050px) {
   .herosection-responsive {
     flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .padding-herosection {
+    padding-right: 20px;
+    padding-left: 30px;
   }
 }
 
@@ -388,6 +399,27 @@ body {
   .responsive-heading {
     font-size: 42px;
     width: 100%;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .responsive-heading {
+    font-size: 62px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .responsive-heading {
+    font-size: 58px;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .responsive-heading {
+    font-size: 58px;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .responsive-heading {
+    font-size: 48px;
   }
 }
 @media screen and (max-width: 850px) {
@@ -402,6 +434,24 @@ body {
   }
 }
 
+@media screen and (max-width: 1040px) {
+  .responsive-heading {
+    width: 100%;
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .responsive-heading {
+    width: 100%;
+    font-size: 58px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .responsive-heading {
+    width: 100%;
+    font-size: 48px;
+  }
+}
 @media screen and (max-width: 520px) {
   .responsive-font-size {
     font-size: 14px;
@@ -425,6 +475,13 @@ body {
     text-align: center;
   }
 }
+@media screen and (max-width: 620px) {
+  .responsive-heading {
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 820px) {
   .responsive-section {
     width: 100%;
@@ -441,6 +498,37 @@ body {
     width: 100%;
   }
 }
+@media screen and (max-width: 640px) {
+  .paragraph-full-width {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .herosection-margin {
+    margin: 0px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .paragraph-full-width {
+    width: 78%;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .paragraph-full-width {
+    width: 64%;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .paragraph-full-width {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 620px) {
   .paragraph-full-width {
     width: 100%;
@@ -461,7 +549,7 @@ body {
 }
 @media screen and (max-width: 1050px) {
   .Schedule-button {
-    width: 180px;
+    width: 100%;
     font-size: 14px;
     padding: 4px;
 
@@ -698,6 +786,36 @@ body {
 @media screen and (max-width: 720px) {
   .responsive-left-side {
     min-width: 100%;
+  }
+}
+@media screen and (max-width: 720px) {
+  .responsive-left-side {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1370px) {
+  .responsive-left-side {
+    min-width: 540px;
+  }
+}
+@media screen and (max-width: 1270px) {
+  .responsive-left-side {
+    min-width: 438px;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .responsive-left-side {
+    min-width: 488px;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .responsive-left-side {
+    min-width: 458px;
+  }
+}
+@media screen and (max-width: 1210px) {
+  .responsive-left-side {
+    min-width: 400px;
   }
 }
 
@@ -1056,7 +1174,7 @@ body {
     gap: 10px;
   }
 }
-.buttons-herosection{
+.buttons-herosection {
   width: 100%;
 }
 @media screen and (max-width: 620px) {
@@ -1662,8 +1780,7 @@ body {
   );
   border-image-slice: 1;
 }
-@media screen and (max-width:520px) {
-  
+@media screen and (max-width: 520px) {
   .border-style-hidden {
     display: block;
     width: 100%;
@@ -1678,7 +1795,6 @@ body {
     border-image-slice: 1;
   }
 }
-
 
 .border-style-project {
   border-width: 0px 0px 4px 0px;
@@ -1991,8 +2107,12 @@ body {
   }
 }
 
-
 @media screen and (max-width: 520px) {
+  .herosection-Schedule-button {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 1050px) {
   .herosection-Schedule-button {
     width: 48%;
   }
@@ -2002,7 +2122,11 @@ body {
     width: 48%;
   }
 }
-
+@media screen and (max-width: 1050px) {
+  .explore-more {
+    width: 48%;
+  }
+}
 @media screen and (max-width: 520px) {
   .Frame1171281406 {
     gap: 10px;
@@ -2129,6 +2253,7 @@ body {
 @media screen and (max-width: 1050px) {
   .first-row-cards {
     width: 100%;
+    margin: 0px;
   }
 }
 @media screen and (max-width: 1050px) {
@@ -2148,19 +2273,125 @@ body {
     gap: 11px;
     padding: 0px;
   }
-}@media screen and (max-width: 1050px) {
+}
+@media screen and (max-width: 1050px) {
   .ui-ux-card {
     width: 50%;
   }
-}@media screen and (max-width: 1050px) {
+}
+@media screen and (max-width: 1050px) {
   .mobile-development-card {
     width: 50%;
   }
 }
 
-@media screen and (max-width:520px) {
-  .servise-card-svg{
+@media screen and (max-width: 520px) {
+  .servise-card-svg {
     width: 24px;
   }
-  
+}
+
+@media screen and (max-width: 1400px) {
+  .servises-dropdown-card {
+    width: 270px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .work-flow-automation-card {
+    width: 420px;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .servises-dropdown-card {
+    width: 270px;
+  }
+}
+@media screen and (max-width: 1340px) {
+  .work-flow-automation-card {
+    width: 390px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .servises-dropdown-card {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 1210px) {
+  .work-flow-automation-card {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  .servises-dropdown-card {
+    width: 236px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .servises-dropdown-card {
+    width: 216px;
+    padding: 14px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .servises-dropdown-card {
+    width: 192px;
+    padding: 14px;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .work-flow-automation-card {
+    width: 352px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .work-flow-automation-card {
+    width: 322px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .work-flow-automation-card {
+    width: 285px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .ai-servises-card {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .cards-gap {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .app-development-text {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .app-development-text {
+    flex-wrap: wrap;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .AppDevelopment {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .AppDevelopment {
+    font-size: 15px;
+  }
 }

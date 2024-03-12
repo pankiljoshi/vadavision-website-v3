@@ -16,7 +16,7 @@ const HeroSection = () => {
   }, []);
   return (
     <>
-      <div className=" w-full pt-12 pb-14 flex  scrollbar flex-row gap-36 px-20 bg-gradient-to-br herosection-responsive  padding-industies bg-cover  from-black to-zinc-950 herosection-bg  bg-no-repeat ">
+      <div className=" w-full pt-12 pb-14 flex  scrollbar flex-row gap-36 px-20 bg-gradient-to-br padding-herosection herosection-responsive  padding-industies bg-cover  from-black to-zinc-950 herosection-bg  bg-no-repeat ">
         <div
           data-aos="fade-right"
           className="LeftSide w-[50%]  responsive-left-side min-w-[600px] mt-16 flex-col justify-start items-start gap-6 inline-flex"
@@ -38,7 +38,7 @@ const HeroSection = () => {
                 Crafting Digital Dreams <br />
                 into Tangible Reality
               </div>
-              <div className="  text-neutral-400  w-[670px] leading-tight paragraph-full-width  text-xl font-light  urbanist ">
+              <div className="  text-neutral-400  w-[670px] leading-tight paragraph-full-width mobile-view-paragraph  text-xl font-light  urbanist ">
                 We build a solid foundation for your dream startup and fuel it
                 for explosive growth. With innovative strategies and unwavering
                 dedication, we have the path for success that exceeds.
@@ -88,7 +88,7 @@ const HeroSection = () => {
         </div>
         <div
           data-aos="fade-left"
-          className=" w-[50%] right-side-herosection   padding-responsive mt-20 pt-20 "
+          className=" w-[50%] right-side-herosection herosection-margin   padding-responsive mt-20 pt-20 "
         >
           <div className=" first-row-cards servises-card   ml-20 mt-6 justify-start  items-start gap-6 inline-flex">
             <div className="ai-servise-card  servises-cards1 mobile-view-gradient servises-cards  p-4 w-[148px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">

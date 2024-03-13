@@ -1493,7 +1493,7 @@ body {
     width: 47%;
   }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
   .unique-cards {
     width: 100%;
   }

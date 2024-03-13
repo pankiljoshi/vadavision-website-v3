@@ -33,7 +33,7 @@ const Testimonials = () => {
   return (
     <>
       <div className="bg-[#060606]">
-        <div className="w-full px-20  h-[600px] mb-20 padding-industies  testimonial-background">
+        <div className="w-full pl-20  h-[600px] mb-20 padding-industies  testimonial-background">
           <div
             data-aos="fade-right"
             className="Frame1171281456  w-full  pt-20 justify-between  inline-flex"
@@ -52,7 +52,7 @@ const Testimonials = () => {
             <div className="testimonial-arrow justify-end   items-start gap-3.5 flex ">
               <div
                 onClick={handlePrevClick}
-                className="left-arrow w-[70px] h-[36px]  z-10 absolute -top-32 right-24 cursor-pointer bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex"
+                className="left-arrow w-[70px] h-[36px]   z-10 absolute -top-32  right-64 cursor-pointer bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex"
               >
                 <div className="Frame w-6  relative">
                   <svg
@@ -85,7 +85,7 @@ const Testimonials = () => {
               </div>
               <div
                 onClick={handleNextClick}
-                className="right-arrow w-[70px] h-[36px] z-10 absolute -top-32 cursor-pointer  bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex"
+                className="right-arrow w-[70px] h-[36px] z-10 absolute -top-32 cursor-pointer  right-40 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex"
               >
                 <div className="Frame relative">
                   <svg
@@ -122,15 +122,41 @@ const Testimonials = () => {
                 type: "loop",
                 perPage: 3,
                 gap: "1rem",
+                fixedWidth: "500px",
                 mediaQuery: "max",
                 pagination: false,
 
                 breakpoints: {
                   1000: {
                     perPage: 2,
+                    fixedWidth: "420px",
                   },
                   720: {
                     perPage: 1,
+                  },
+                  560: {
+                    perPage: 1,
+                    fixedWidth: "420px",
+                  },
+                  480: {
+                    perPage: 1,
+                    fixedWidth: "390px",
+                  },
+                  440: {
+                    perPage: 1,
+                    fixedWidth: "360px",
+                  },
+                  400: {
+                    perPage: 1,
+                    fixedWidth: "330px",
+                  },
+                  380: {
+                    perPage: 1,
+                    fixedWidth: "300px",
+                  },
+                  360: {
+                    perPage: 1,
+                    fixedWidth: "280px",
                   },
                 },
               }}

@@ -11,6 +11,7 @@ import Footer from "./Footer/Footer";
 import FrequentlyAksedQuestions from "./Faqs/FrequentlyAskedQuestions";
 import MileStone from "./MileStone/MileStone";
 import HeroSection from "./Herosection/HeroSection";
+import Testimonials from "./Testimonials/Testimonials";
 
 const LandingPage = () => {
   return (
@@ -44,9 +45,9 @@ const LandingPage = () => {
       <div>
         <ConsultWithUs />
       </div>
-      {/* <div>
+      <div>
         <Testimonials />
-      </div> */}
+      </div>
       <div>
         <FrequentlyAksedQuestions />
       </div>

@@ -16,7 +16,7 @@ const HeroSection = () => {
   }, []);
   return (
     <>
-      <div className=" w-full pt-12 pb-14 flex  scrollbar flex-row gap-36 px-20 bg-gradient-to-br padding-herosection herosection-responsive  padding-industies bg-cover  from-black to-zinc-950 herosection-bg  bg-no-repeat ">
+      <div className=" w-full pt-12 pb-14 flex  mobile-view-padding scrollbar flex-row gap-36 px-20 bg-gradient-to-br padding-herosection herosection-responsive  padding-industies bg-cover  from-black to-zinc-950 herosection-bg  bg-no-repeat ">
         <div
           data-aos="fade-right"
           className="LeftSide w-[50%]  responsive-left-side min-w-[600px] mt-16 flex-col justify-start items-start gap-6 inline-flex"
@@ -314,7 +314,7 @@ const HeroSection = () => {
                     </div>
                   </div>
                 </div>
-                <div className="AiServices text-neutral-400 mt-3 text-lg font-normal responsive-font-size font-urbaninst">
+                <div className="AiServices text-neutral-400  text-lg font-normal responsive-font-size font-urbaninst">
                   AI Services
                 </div>
               </div>
@@ -355,7 +355,7 @@ const HeroSection = () => {
                     </defs>
                   </svg>
                 </div>
-                <div className="ResourceAugmentation text-neutral-400 font-normal responsive-font-size font-urbaninst text-lg">
+                <div className="ResourceAugmentation text-neutral-400 leading-tight font-normal responsive-font-size font-urbaninst text-lg">
                   Resource Augmentation
                 </div>
               </div>

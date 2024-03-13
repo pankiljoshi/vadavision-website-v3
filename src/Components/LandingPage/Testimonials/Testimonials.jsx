@@ -33,7 +33,7 @@ const Testimonials = () => {
   return (
     <>
       <div className="bg-[#060606]">
-        <div className="w-full pl-20  h-[600px] mb-20 padding-industies  testimonial-background">
+        <div className="w-full pl-20  h-[600px] mb-20 testimonial-padding   testimonial-background">
           <div
             data-aos="fade-right"
             className="Frame1171281456  w-full  pt-20 justify-between  inline-flex"
@@ -48,7 +48,7 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div data-aos="fade-left" className="mt-10   testimonial relative ">
+          <div data-aos="fade-right" className="mt-10   testimonial relative ">
             <div className="testimonial-arrow justify-end   items-start gap-3.5 flex ">
               <div
                 onClick={handlePrevClick}

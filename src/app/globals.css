@@ -47,6 +47,7 @@ body {
 
 .background-gradient {
   background-image: url("../../public/Images/cardGradient.png");
+  background-size: cover;
 }
 
 .border-gradient-top {
@@ -746,6 +747,7 @@ body {
   .servises-cards1 {
     width: 200px;
     height: 140px;
+    padding-left: 20px;
     margin: 0px;
   }
 }
@@ -936,6 +938,12 @@ body {
   .width-heading {
     width: 464px;
   }
+}
+@media screen and (max-width:1000px) {
+  .testimonial-padding{
+    padding-left: 30px;
+  }
+  
 }
 @media screen and (max-width: 1450px) {
   .paragraph-width {

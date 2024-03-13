@@ -205,12 +205,12 @@ body {
   opacity: 1;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 855px) {
   .responsive-navbar {
     display: none;
   }
 }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 855px) {
   .hamburger-icon {
     display: block;
   }
@@ -523,7 +523,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1050px) {
   .paragraph-full-width {
     width: 100%;
   }
@@ -2238,6 +2238,12 @@ body {
     height: 180px;
   }
 }
+@media screen and (max-width:920px) {
+  .resource-learn-more-margin{
+    margin-top: 21px;
+  }
+  
+}
 @media screen and (max-width: 330px) {
   .card-height3 {
     height: 200px;
@@ -2342,11 +2348,24 @@ body {
     padding: 14px;
   }
 }
+@media screen and (max-width: 970px) {
+  .servises-dropdown-card {
+    width: 168px;
+    padding: 14px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .servises-dropdown-card {
+    width: 162px;
+    padding: 14px;
+  }
+}
 @media screen and (max-width: 1240px) {
   .work-flow-automation-card {
     width: 352px;
   }
 }
+
 
 @media screen and (max-width: 1180px) {
   .work-flow-automation-card {
@@ -2356,12 +2375,37 @@ body {
 @media screen and (max-width: 1080px) {
   .work-flow-automation-card {
     width: 285px;
+    padding: 14px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .work-flow-automation-card {
+    width: 246px;
+    height: 207px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .work-flow-automation-card {
+    width: 246px;
+    height: 207px;
   }
 }
 @media screen and (max-width: 1300px) {
   .ai-servises-card {
     width: 330px;
   }
+}
+@media screen and (max-width: 1030px) {
+  .ai-servises-card {
+    width: 304px;
+    margin-top: 48px;
+  }
+}
+@media screen and (max-width:1030px) {
+  .responsive-servise-dropdown {
+    justify-content: center;
+  }
+  
 }
 
 @media screen and (max-width: 1250px) {
@@ -2370,6 +2414,25 @@ body {
   }
 }
 
+@media screen and (max-width: 970px) {
+  .workflow-margin {
+    margin: 10px;
+    gap: 10px;
+    
+  }
+}
+@media screen  and (max-width:1100px) {
+  .servise-dropdown-ai-servise{
+    margin-top: 20px;
+  }
+  
+}
+@media screen  and (max-width:1100px) {
+  .uiux-servise-dropdown{
+    margin-top: 22px;
+  }
+  
+}
 @media screen and (max-width: 1230px) {
   .app-development-text {
     flex-wrap: wrap;
@@ -2383,7 +2446,12 @@ body {
     width: 75%;
   }
 }
-
+@media screen and (max-width:970px) {
+  .TheIntuitiveResourcesAugmentation{
+    width: 190px;
+  }
+  
+}
 @media screen and (max-width: 1230px) {
   .AppDevelopment {
     font-size: 19px;
@@ -2394,4 +2462,73 @@ body {
   .AppDevelopment {
     font-size: 15px;
   }
+}
+
+@media screen and (max-width:970px) {
+  .servise-dropdown-svg{
+    width: 18px;
+  }
+  
+}
+@media screen and (max-width:970px) {
+  .ai-servise-dropdown-gap{
+    gap: 3px;
+  }
+  
+}
+@media screen and (max-width:970px) {
+  .app-development-text{
+    width: 71%;
+  }
+  
+}
+
+@media screen and (max-width:1080px) {
+  .ai-servise-text{
+    width: 71%;
+  }
+  
+}@media screen and (max-width:1230px) {
+  .ai-servise-text{
+    width: 71%;
+  }
+  
+}@media screen and (max-width:970px) {
+  .ai-servise-text{
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width:1080px) {
+  .uiux-servise{
+    width: 71%;
+  }
+  
+}@media screen and (max-width:1230px) {
+  .uiux-servise{
+    width: 71%;
+  }
+  
+}@media screen and (max-width:970px) {
+  .uiux-servise{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:1080px) {
+  .resource-argumentation{
+    width: 71%;
+  }
+  
+}@media screen and (max-width:1230px) {
+  .resource-argumentation{
+    width: 71%;
+  }
+  
+}@media screen and (max-width:970px) {
+  .resource-argumentation{
+    width: 100%;
+  }
+  
 }

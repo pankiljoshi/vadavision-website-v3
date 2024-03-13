@@ -165,7 +165,7 @@ const Navbar = () => {
                   >
                     <div>
                       {isPopupOpen && (
-                        <div className="fixed inset-0 backdrop-blur-[8px]   mt-20  flex z-10  px-10  ">
+                        <div className="fixed inset-0 backdrop-blur-[8px] responsive-servise-dropdown  mt-20  flex z-10  px-10  ">
                           <div className="flex   ">
                             <div
                               className="w-full px-4  h-[484px] bg-black  "
@@ -184,7 +184,7 @@ const Navbar = () => {
                                       >
                                         <div className="Frame1171281439 h-36 flex-col justify-start items-start gap-6 flex">
                                           <div className="Frame1171281438 h-24 flex-col justify-start items-start gap-6 flex">
-                                            <div className="Frame1171281491 justify-start items-center gap-4 inline-flex">
+                                            <div className="ai-servise-dropdown-gap justify-start items-center gap-4 inline-flex">
                                               <div className="Frame1171281402 flex-col justify-start items-start gap-4 inline-flex">
                                                 <div className="AiAssistant1 w-8 h-8 relative">
                                                   <div className="Group w-8 h-8 left-[0.81px] top-0 absolute">
@@ -195,6 +195,7 @@ const Navbar = () => {
                                                         width="32"
                                                         height="32"
                                                         viewBox="0 0 32 32"
+                                                        className="servise-dropdown-svg"
                                                         fill="none"
                                                       >
                                                         <g
@@ -456,14 +457,14 @@ const Navbar = () => {
                                             </div>
                                             <div className="Frame1171281436  flex-col justify-start items-start gap-4 flex">
                                               <div className="Frame1171281435 self-stretch  flex-col justify-start items-start gap-2 flex">
-                                                <div className=" app-development-text leading-tight self-stretch text-[#8E8E8E] text-base font-extralight urbanist">
+                                                <div className=" ai-servise-text leading-tight self-stretch text-[#8E8E8E] text-base font-extralight urbanist">
                                                   Get the powerful AI services
                                                   built by the experts.
                                                 </div>
                                               </div>
                                             </div>
                                           </div>
-                                          <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
+                                          <div className="Frame1171281437 servise-dropdown-ai-servise justify-start items-center gap-2 inline-flex">
                                             <div className="LearnMore text-[#8E8E8E] group-hover:text-[#E1E1E1] text-sm font-light urbanist">
                                               Learn more
                                             </div>
@@ -499,11 +500,12 @@ const Navbar = () => {
                                     >
                                       <div className="Frame1171281439 flex-col justify-start items-start gap-6 flex">
                                         <div className="Frame1171281438 w-60 h-24 flex-col justify-start items-start gap-6 flex">
-                                          <div className="Frame1171281491 justify-start items-center gap-4 inline-flex">
+                                          <div className="ai-servise-dropdown-gap justify-start items-center gap-4 inline-flex">
                                             <div className="VectorIllustration w-6 h-6 relative">
                                               <svg
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 width="24"
+                                                className="servise-dropdown-svg"
                                                 height="25"
                                                 viewBox="0 0 24 25"
                                                 fill="none"
@@ -564,7 +566,7 @@ const Navbar = () => {
                                             </div>
                                           </div>
                                         </div>
-                                        <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
+                                        <div className="uiux-servise-dropdown justify-start items-center gap-2 inline-flex">
                                           <div className="LearnMore text-[#8E8E8E] group-hover:text-[#E1E1E1] text-sm font-light urbanist">
                                             Learn more
                                           </div>
@@ -596,12 +598,13 @@ const Navbar = () => {
                                     <div className="servises-dropdown-card w-[288px] h-[192px] p-6 border border-black bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 group hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
                                       <div className="Frame1171281439 flex-col justify-start items-start gap-6 flex">
                                         <div className="Frame1171281438 w-60 h-24 flex-col justify-start items-start gap-6 flex">
-                                          <div className="Frame1171281491 self-stretch justify-start items-center gap-4 inline-flex">
+                                          <div className="ai-servise-dropdown-gap self-stretch justify-start items-center gap-4 inline-flex">
                                             <div className="MobileDevelopment2 w-6 h-6 relative">
                                               <div className="Group w-5 h-5 left-[2px] top-[1px] absolute">
                                                 <svg
                                                   xmlns="http://www.w3.org/2000/svg"
                                                   width="25"
+                                                  className="servise-dropdown-svg"
                                                   height="25"
                                                   viewBox="0 0 25 25"
                                                   fill="none"
@@ -780,7 +783,7 @@ const Navbar = () => {
                                             </div>
                                           </div>
                                         </div>
-                                        <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
+                                        <div className="uiux-servise-dropdown justify-start items-center gap-2 inline-flex">
                                           <div className="LearnMore text-[#8E8E8E] group-hover:text-[#E1E1E1] text-sm font-light urbanist">
                                             Learn more
                                           </div>
@@ -809,11 +812,11 @@ const Navbar = () => {
                                       </div>
                                     </div>
                                   </div>
-                                  <div className="flex flex-row gap-6  mt-10">
+                                  <div className="flex flex-row gap-6 workflow-margin   mt-10">
                                     <div className="work-flow-automation-card w-[443px] h-[176px] p-6 border border-black group bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
                                       <div className="Frame1171281439 flex-col justify-start items-start gap-6 flex">
                                         <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
-                                          <div className="Frame1171281491 self-stretch justify-start items-center gap-6 inline-flex">
+                                          <div className="ai-servise-dropdown-gap self-stretch justify-start items-center gap-6 inline-flex">
                                             <div className="Resource1 w-6 h-6 relative">
                                               <svg
                                                 xmlns="http://www.w3.org/2000/svg"
@@ -821,6 +824,7 @@ const Navbar = () => {
                                                 height="25"
                                                 viewBox="0 0 24 25"
                                                 fill="none"
+                                                className="servise-dropdown-svg"
                                               >
                                                 <g
                                                   id="resource 1"
@@ -858,11 +862,11 @@ const Navbar = () => {
                                                 </defs>
                                               </svg>
                                             </div>
-                                            <div className="ResourceAugmentation  AppDevelopment grow shrink basis-0 text-white text-2xl font-normal urbanist">
+                                            <div className="ResourceAugmentation  leading-tight AppDevelopment grow shrink basis-0 text-white text-2xl font-normal urbanist">
                                               Resource Augmentation
                                             </div>
                                           </div>
-                                          <div className="Frame1171281436 app-development-text  flex-col justify-start items-start gap-4 flex">
+                                          <div className="Frame1171281436 resource-argumentation  flex-col justify-start items-start gap-4 flex">
                                             <div className="Frame1171281435 self-stretch  flex-col justify-start items-start gap-2 flex">
                                               <div className="TheIntuitiveResourcesAugmentation self-stretch text-[#8E8E8E] text-base font-extralight urbanist">
                                                 The intuitive resources
@@ -871,7 +875,7 @@ const Navbar = () => {
                                             </div>
                                           </div>
                                         </div>
-                                        <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
+                                        <div className="resource-learn-more-margin justify-start items-center gap-2 inline-flex">
                                           <div className="LearnMore text-[#8E8E8E] group-hover:text-[#E1E1E1] text-sm font-light urbanist">
                                             Learn more
                                           </div>
@@ -902,13 +906,14 @@ const Navbar = () => {
                                     <div className="work-flow-automation-card w-[443px] border border-black h-44 group p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
                                       <div className="Frame1171281439 w-64 h-28 flex-col justify-start items-start gap-6 flex">
                                         <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
-                                          <div className="Frame1171281491 self-stretch justify-start items-center gap-6 inline-flex">
+                                          <div className="ai-servise-dropdown-gap self-stretch justify-start items-center gap-6 inline-flex">
                                             <div className="Workflow1 w-6 h-6 relative">
                                               <svg
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 width="24"
                                                 height="25"
                                                 viewBox="0 0 24 25"
+                                                className="servise-dropdown-svg"
                                                 fill="none"
                                               >
                                                 <g
@@ -1002,7 +1007,7 @@ const Navbar = () => {
                                             </div>
                                           </div>
                                           <div className="app-development-text  flex-col justify-start items-start gap-4 flex">
-                                            <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
+                                            <div className="Frame1171281435 self-stretch  flex-col justify-start items-start gap-2 flex">
                                               <div className=" self-stretch text-[#8E8E8E] text-base font-extralight urbanist">
                                                 Workflow automation like never
                                                 before.

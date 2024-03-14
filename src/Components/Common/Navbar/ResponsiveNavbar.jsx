@@ -870,9 +870,9 @@ const ResponsiveNavbar = () => {
                           Resource Augmentation
                         </div>
                       </div>
-                      <div className="Frame1171281436 w-80 h-11 flex-col justify-start items-start gap-4 flex">
-                        <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                          <div className="TheIntuitiveResourcesAugmentation self-stretch text-neutral-400 text-xs font-light font-urbaninst">
+                      <div className="Frame1171281436  flex-col justify-start items-start gap-4 flex">
+                        <div className="Frame1171281435 self-stretch  flex-col justify-start items-start gap-2 flex">
+                          <div className=" self-stretch text-neutral-400 text-xs font-light font-urbaninst">
                             The intuitive resources augmentation
                           </div>
                         </div>

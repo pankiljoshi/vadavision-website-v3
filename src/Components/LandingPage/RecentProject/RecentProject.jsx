@@ -32,7 +32,7 @@ const RecentProject = () => {
             </span>
           </div>
           <div className=" justify-start items-start gap-3.5 flex ">
-            <div className=" left-arrow w-[70px] h-[36px] cursor-pointer bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex">
+            <div className="  w-[70px] h-[36px] cursor-pointer bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex">
               <div className="Frame w-6  ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ const RecentProject = () => {
                 </svg>
               </div>
             </div>
-            <div className="right-arrow w-[70px] h-[36px] cursor-pointer  bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex">
+            <div className=" w-[70px] h-[36px] cursor-pointer  bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex">
               <div className="Frame ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -98,15 +98,15 @@ const RecentProject = () => {
           data-aos="fade-up"
           className="flex flex-row gap-10 responsive-project"
         >
-          <div className="flex flex-col border-style-project">
+          <div className="flex flex-col portfolio-margin border-style-project">
             <div className=" flex flex-col min-w-[320px] px-10 mt-10 py-24 image-center bg-gradient-to-b from-zinc-950 via-stone-900 to-stone-950   justify-center items-center ">
               <Image src={TweekendApp} alt="" width={480} />
             </div>
           </div>
 
-          <div className="Frame1171281455 mt-20  responsive-project-rightside  flex-col justify-start items-start gap-12 inline-flex">
-            <div className="Frame1171281461 flex-col justify-start items-start gap-6 flex">
-              <div className="Frame1171281454 flex-col justify-start items-start gap-4 flex">
+          <div className="reponsive-portfolio-info mt-20  responsive-project-rightside  flex-col justify-start items-start gap-12 inline-flex">
+            <div className="reponsive-portfolio-info flex-col justify-start items-start gap-6 flex">
+              <div className="reponsive-portfolio-info flex-col justify-start items-start gap-4 flex">
                 <div className="Frame1171281453 mt-16 flex-col justify-start items-start gap-2 flex">
                   <div className="Tweekend text-white text-5xl font-bold font-urbaninst">
                     Tweekend
@@ -120,8 +120,8 @@ const RecentProject = () => {
                   helping users find and join social gatherings effortlessly.
                 </div>
               </div>
-              <div className="Frame1171281460 flex-col justify-start items-start gap-4 flex">
-                <div className="TechStack w-96 text-[#8E8E8E] text-base font-medium urbanist">
+              <div className="reponsive-portfolio-info flex-col justify-start items-start gap-4 flex">
+                <div className="TechStack reponsive-portfolio-info w-96 text-[#8E8E8E] text-base font-medium urbanist">
                   Tech Stack:
                 </div>
                 <div className="Frame1171281459 justify-start items-start gap-4 inline-flex">

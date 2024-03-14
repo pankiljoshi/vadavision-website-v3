@@ -2187,6 +2187,7 @@ body {
 @media screen and (max-width: 520px) {
   .herosection-Schedule-button {
     width: 48%;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 1050px) {
@@ -2210,6 +2211,20 @@ body {
   }
 }
 
+@media screen and (max-width:410px) {
+  .reponsive-portfolio-info{
+    width: 100%;
+    margin: 0px;
+  }
+  
+}
+
+@media screen and (max-width:720px) {
+  .portfolio-margin{
+    margin-top: 20px;
+  }
+  
+}
 @media screen and (max-width: 520px) {
   .footer-link-font {
     font-size: 23px;

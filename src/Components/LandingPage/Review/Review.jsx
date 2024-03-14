@@ -15,7 +15,7 @@ const Review = () => {
   }, []);
   return (
     <>
-      <div className=" w-full  py-20 justify-between padding-industies responsive-review flex px-20">
+      <div className=" w-full  py-20 justify-between padding-industies review-mobile-margin responsive-review flex px-20">
         <div data-aos="fade-right" className="title ">
           <span className="text-neutral-400 text-4xl font-medium  font-change-1 font-urbaninst">
             We are

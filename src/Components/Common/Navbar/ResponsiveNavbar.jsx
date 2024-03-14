@@ -51,8 +51,8 @@ const ResponsiveNavbar = () => {
     <>
       <div className="Hero w-full relative bg-gradient-to-br from-black to-zinc-950 flex-col  padding-none  justify-start items-start inline-flex">
         <div className="MenuItems w-full flex-col justify-start items-start  inline-flex">
-          <Link href="/">
-            <div className="Frame1000003590 w-full  py-3  border-b border-stone-900 justify-start items-center inline-flex">
+          <div className="Frame1000003590 w-full  py-3 border-b border-stone-900 justify-start items-center inline-flex">
+            <Link href="/">
               <div
                 className={`Home text-white cursor-pointer  text-[18px] font-light font-urbaninst ${
                   activeTab === "home" ? "active" : ""
@@ -66,8 +66,8 @@ const ResponsiveNavbar = () => {
                   <span className="top-2 absolute right-0"> Home</span>
                 </div>
               </div>
-            </div>
-          </Link>
+            </Link>
+          </div>
 
           <div className="Frame1000003591 w-full pl-10 py-3 border-b border-stone-900 justify-start items-center inline-flex">
             <div className="About text-stone-300 text-[18px] font-light font-urbaninst">
@@ -661,8 +661,8 @@ const ResponsiveNavbar = () => {
                             UI/ UX Design
                           </div>
                         </div>
-                        <div className="Frame1171281436 w-32 h-11 flex-col justify-start items-start gap-4 flex">
-                          <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
+                        <div className="Frame1171281436  flex-col justify-start items-start gap-4 flex">
+                          <div className="Frame1171281435 self-stretch  flex-col justify-start items-start gap-2 flex">
                             <div className="BestInClassUiAndUxDesigns self-stretch text-neutral-400 text-xs font-light font-urbaninst">
                               Best in class UI and UX Designs.
                             </div>

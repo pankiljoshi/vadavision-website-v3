@@ -15,7 +15,7 @@ const NewsLetter = () => {
   }, []);
   return (
     <>
-      <div className=" w-full  mt-10 justify-between overflow-x-hidden newsletter-responsive  padding-industies px-20 items-center gap-10 inline-flex">
+      <div className=" w-full  mt-10 justify-between overflow-x-hidden newsletter-mobile-margin newsletter-responsive  padding-industies px-20 items-center gap-10 inline-flex">
         <div
           data-aos="fade-right"
           className="JoinOurNewsletter w-[440px]  leading-tight  text-white text-[40px] font-semibold urbanist"

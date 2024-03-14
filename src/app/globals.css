@@ -2657,3 +2657,45 @@ body {
   }
   
 }
+
+.mobile-view-gradient-bg{
+  background-image: none;
+}
+@media screen and (max-width:800px) {
+  .mobile-view-gradient-bg{
+    background-image: url('../../public/Images/unique-mobile-view-bg.png');
+    background-size: cover;
+    
+  }
+  
+}
+@media screen and (max-width:520px) {
+  .mobile-view-gradient-bg{
+    background-image: url('../../public/Images/unique-mobile-view-bg.png');
+    background-size: cover;
+    
+  }
+  
+}
+
+@media screen and (max-width:680px) {
+    .review-mobile-margin{
+      padding-top: 0px;
+      margin-top: 10px;
+    }
+  
+}
+@media screen and (max-width:680px) {
+  .faq-mobile-margin{
+    padding-top: 0px;
+    padding-top: 90px;
+  }
+
+}
+
+@media screen and (max-width:680px) {
+  .newsletter-mobile-margin{
+    margin: 0px;
+  }
+  
+}

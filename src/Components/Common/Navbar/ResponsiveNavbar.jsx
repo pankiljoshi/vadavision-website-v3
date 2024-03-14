@@ -49,7 +49,7 @@ const ResponsiveNavbar = () => {
 
   return (
     <>
-      <div className="Hero w-full relative bg-gradient-to-br from-black to-zinc-950 flex-col padding-none justify-start items-start inline-flex">
+      <div className="Hero w-full relative bg-gradient-to-br from-black to-zinc-950 flex-col  padding-none  justify-start items-start inline-flex">
         <div className="MenuItems w-full flex-col justify-start items-start  inline-flex">
           <Link href="/">
             <div className="Frame1000003590 w-full  py-3  border-b border-stone-900 justify-start items-center inline-flex">
@@ -76,7 +76,7 @@ const ResponsiveNavbar = () => {
           </div>
           <div
             onClick={handleOpenModal}
-            className="Frame1000003592 w-full py-3 pl-10 border-b border-stone-900 justify-between items-end gap-64 inline-flex"
+            className="Frame1000003592 servise-gap w-full py-3 pl-10 border-b border-stone-900 justify-between items-end gap-32 inline-flex"
           >
             <div className="Services text-stone-300 text-[18px] font-lightfont-urbaninst">
               Services
@@ -102,200 +102,198 @@ const ResponsiveNavbar = () => {
           {isPopupOpen && (
             <div className="w-full">
               <div className="flex w-full flex-col flex-wrap">
-                <div>
-                  <div className="Card w-full px-4  py-4  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-2.5 inline-flex">
-                    <div className="Frame1171281439 self-stretch h-20 flex-col justify-start items-start gap-4 flex">
-                      <div className="Frame1171281438 self-stretch h-10 flex-col justify-start items-start gap-2 flex">
-                        <div className="Frame1171281491 justify-start items-center gap-2 inline-flex">
-                          <div className="MobileDevelopment2 w-4 h-4 relative">
-                            <div className="Group w-3.5 h-3.5 left-[1.33px] top-[0.67px] absolute">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="17"
-                                viewBox="0 0 16 17"
-                                fill="none"
-                              >
-                                <g id="mobile-development 2">
-                                  <g id="Group">
-                                    <path
-                                      id="Vector"
-                                      d="M13.7188 3.83333H10.6668V2.204C10.6668 1.632 10.2015 1.16667 9.6295 1.16667H2.37083C1.79883 1.16667 1.3335 1.632 1.3335 2.204V14.796C1.3335 15.368 1.79883 15.8333 2.37083 15.8333H9.6295C10.2015 15.8333 10.6668 15.368 10.6668 14.796V13.1667H13.7188C14.2415 13.1667 14.6668 12.7413 14.6668 12.2187V4.78133C14.6668 4.25867 14.2415 3.83333 13.7188 3.83333ZM14.0002 4.78133V5.16667H10.6855C10.5948 5.16667 10.5142 5.11667 10.4742 5.036L10.2062 4.5H13.7188C13.8742 4.5 14.0002 4.626 14.0002 4.78133ZM7.79416 1.83333L7.46083 2.5H4.5395L4.20616 1.83333H7.79416ZM9.6295 15.1667H2.37083C2.16683 15.1667 2.00016 15 2.00016 14.796V14.5H10.0002V14.796C10.0002 15 9.83416 15.1667 9.6295 15.1667ZM10.0002 13.8333H2.00016V2.204C2.00016 2 2.16683 1.83333 2.37083 1.83333H3.46083L4.0355 2.98267C4.09216 3.09533 4.2075 3.16667 4.3335 3.16667H7.66683C7.79283 3.16667 7.90816 3.09533 7.96483 2.98267L8.5395 1.83333H9.6295C9.83416 1.83333 10.0002 2 10.0002 2.204V3.83333H5.61483C5.09216 3.83333 4.66683 4.25867 4.66683 4.78133V12.2187C4.66683 12.7413 5.09216 13.1667 5.61483 13.1667H10.0002V13.8333ZM13.7188 12.5H5.61483C5.4595 12.5 5.3335 12.374 5.3335 12.2187V4.78133C5.3335 4.626 5.4595 4.5 5.61483 4.5H9.46083L9.8775 5.33333C10.0315 5.642 10.3415 5.83333 10.6855 5.83333H14.0002V12.2187C14.0002 12.374 13.8742 12.5 13.7188 12.5Z"
-                                      fill="url(#paint0_linear_702_13705)"
-                                    />
-                                    <path
-                                      id="Vector_2"
-                                      d="M6.76417 8.40267C6.8935 8.532 7.10617 8.532 7.2355 8.40267C7.36483 8.27333 7.36483 8.06067 7.2355 7.93133L6.80483 7.5L7.2355 7.06933C7.3655 6.93933 7.3655 6.728 7.2355 6.598C7.1055 6.468 6.89417 6.468 6.76417 6.598L6.0975 7.26467C5.9675 7.39467 5.9675 7.606 6.0975 7.736L6.76417 8.40267Z"
-                                      fill="url(#paint1_linear_702_13705)"
-                                    />
-                                    <path
-                                      id="Vector_3"
-                                      d="M8.18436 8.46467C8.34769 8.54667 8.54969 8.47933 8.63169 8.31533L9.29836 6.982C9.38036 6.81867 9.31303 6.61667 9.14903 6.53467C8.98503 6.45267 8.78369 6.52 8.70169 6.684L8.03503 8.01733C7.95369 8.18133 8.02103 8.38333 8.18436 8.46467Z"
-                                      fill="url(#paint2_linear_702_13705)"
-                                    />
-                                    <path
-                                      id="Vector_4"
-                                      d="M10.0975 8.40267C10.2268 8.532 10.4395 8.532 10.5688 8.40267L11.2355 7.736C11.3655 7.606 11.3655 7.39467 11.2355 7.26467L10.5688 6.598C10.4388 6.468 10.2275 6.468 10.0975 6.598C9.9675 6.728 9.9675 6.93933 10.0975 7.06933L10.5282 7.5L10.0975 7.93067C9.96883 8.06 9.96883 8.27333 10.0975 8.40267Z"
-                                      fill="url(#paint3_linear_702_13705)"
-                                    />
-                                    <path
-                                      id="Vector_5"
-                                      d="M6.33333 10.5H9.66667C9.85067 10.5 10 10.3507 10 10.1667C10 9.98267 9.85067 9.83333 9.66667 9.83333H6.33333C6.14933 9.83333 6 9.98267 6 10.1667C6 10.3507 6.14933 10.5 6.33333 10.5Z"
-                                      fill="url(#paint4_linear_702_13705)"
-                                    />
-                                    <path
-                                      id="Vector_6"
-                                      d="M12.3333 11.1667H6.33333C6.14933 11.1667 6 11.316 6 11.5C6 11.684 6.14933 11.8333 6.33333 11.8333H12.3333C12.5173 11.8333 12.6667 11.684 12.6667 11.5C12.6667 11.316 12.5173 11.1667 12.3333 11.1667Z"
-                                      fill="url(#paint5_linear_702_13705)"
-                                    />
-                                    <path
-                                      id="Vector_7"
-                                      d="M8.33333 5.83333C8.51743 5.83333 8.66667 5.68409 8.66667 5.5C8.66667 5.3159 8.51743 5.16667 8.33333 5.16667C8.14924 5.16667 8 5.3159 8 5.5C8 5.68409 8.14924 5.83333 8.33333 5.83333Z"
-                                      fill="url(#paint6_linear_702_13705)"
-                                    />
-                                    <path
-                                      id="Vector_8"
-                                      d="M7.00033 5.83333C7.18442 5.83333 7.33366 5.68409 7.33366 5.5C7.33366 5.3159 7.18442 5.16667 7.00033 5.16667C6.81623 5.16667 6.66699 5.3159 6.66699 5.5C6.66699 5.68409 6.81623 5.83333 7.00033 5.83333Z"
-                                      fill="url(#paint7_linear_702_13705)"
-                                    />
-                                  </g>
-                                </g>
-                                <defs>
-                                  <linearGradient
-                                    id="paint0_linear_702_13705"
-                                    x1="8.00016"
-                                    y1="1.16667"
-                                    x2="8.00016"
-                                    y2="15.8333"
-                                    gradientUnits="userSpaceOnUse"
-                                  >
-                                    <stop stopColor="#A8C0FF" />
-                                    <stop offset="1" stopColor="#8F7BE8" />
-                                  </linearGradient>
-                                  <linearGradient
-                                    id="paint1_linear_702_13705"
-                                    x1="6.6665"
-                                    y1="6.5005"
-                                    x2="6.6665"
-                                    y2="8.49967"
-                                    gradientUnits="userSpaceOnUse"
-                                  >
-                                    <stop stopColor="#A8C0FF" />
-                                    <stop offset="1" stopColor="#8F7BE8" />
-                                  </linearGradient>
-                                  <linearGradient
-                                    id="paint2_linear_702_13705"
-                                    x1="8.6669"
-                                    y1="6.49972"
-                                    x2="8.6669"
-                                    y2="8.49961"
-                                    gradientUnits="userSpaceOnUse"
-                                  >
-                                    <stop stopColor="#A8C0FF" />
-                                    <stop offset="1" stopColor="#8F7BE8" />
-                                  </linearGradient>
-                                  <linearGradient
-                                    id="paint3_linear_702_13705"
-                                    x1="10.6665"
-                                    y1="6.5005"
-                                    x2="10.6665"
-                                    y2="8.49967"
-                                    gradientUnits="userSpaceOnUse"
-                                  >
-                                    <stop stopColor="#A8C0FF" />
-                                    <stop offset="1" stopColor="#8F7BE8" />
-                                  </linearGradient>
-                                  <linearGradient
-                                    id="paint4_linear_702_13705"
-                                    x1="8"
-                                    y1="9.83333"
-                                    x2="8"
-                                    y2="10.5"
-                                    gradientUnits="userSpaceOnUse"
-                                  >
-                                    <stop stopColor="#A8C0FF" />
-                                    <stop offset="1" stopColor="#8F7BE8" />
-                                  </linearGradient>
-                                  <linearGradient
-                                    id="paint5_linear_702_13705"
-                                    x1="9.33333"
-                                    y1="11.1667"
-                                    x2="9.33333"
-                                    y2="11.8333"
-                                    gradientUnits="userSpaceOnUse"
-                                  >
-                                    <stop stopColor="#A8C0FF" />
-                                    <stop offset="1" stopColor="#8F7BE8" />
-                                  </linearGradient>
-                                  <linearGradient
-                                    id="paint6_linear_702_13705"
-                                    x1="8.33333"
-                                    y1="5.16667"
-                                    x2="8.33333"
-                                    y2="5.83333"
-                                    gradientUnits="userSpaceOnUse"
-                                  >
-                                    <stop stopColor="#A8C0FF" />
-                                    <stop offset="1" stopColor="#8F7BE8" />
-                                  </linearGradient>
-                                  <linearGradient
-                                    id="paint7_linear_702_13705"
-                                    x1="7.00033"
-                                    y1="5.16667"
-                                    x2="7.00033"
-                                    y2="5.83333"
-                                    gradientUnits="userSpaceOnUse"
-                                  >
-                                    <stop stopColor="#A8C0FF" />
-                                    <stop offset="1" stopColor="#8F7BE8" />
-                                  </linearGradient>
-                                </defs>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="AppDevelopment text-white text-base font-semibold font-urbaninst">
-                            App Development
-                          </div>
-                        </div>
-                        <div className="Frame1171281436 w-80 h-11 flex-col justify-start items-start gap-4 flex">
-                          <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                            <div className="GetThePowerfulAiServicesBuiltByTheExperts self-stretch text-neutral-400 text-xs font-light font-urbaninst">
-                              Get the powerful AI services built by the experts.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
-                        <div className="LearnMore text-neutral-200 text-xs font-normal font-urbaninst">
-                          Learn more
-                        </div>
-                        <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="16"
-                            height="16"
-                            viewBox="0 0 16 16"
-                            fill="none"
-                          >
-                            <g id="left-up 1">
-                              <g id="Group">
-                                <g id="Group_2">
+                <div className="Card w-full px-4  py-4  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-2.5 inline-flex">
+                  <div className="Frame1171281439 self-stretch h-20 flex-col justify-start items-start gap-4 flex">
+                    <div className="Frame1171281438 self-stretch h-10 flex-col justify-start items-start gap-2 flex">
+                      <div className="Frame1171281491 justify-start items-center gap-2 inline-flex">
+                        <div className="MobileDevelopment2 w-4 h-4 relative">
+                          <div className="Group w-3.5 h-3.5 left-[1.33px] top-[0.67px] absolute">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="17"
+                              viewBox="0 0 16 17"
+                              fill="none"
+                            >
+                              <g id="mobile-development 2">
+                                <g id="Group">
                                   <path
                                     id="Vector"
-                                    d="M3.04029 13.9024L12.6667 4.27604L12.6667 9.66667C12.6667 9.85092 12.8157 10 13 10L13.6667 10C13.8509 10 14 9.85092 14 9.66667L14 2.33334C14 2.14909 13.8509 2 13.6667 2L6.3333 2C6.14908 2 5.99998 2.14909 5.99998 2.33334L5.99998 3C5.99998 3.18425 6.14908 3.33335 6.33333 3.33335L11.724 3.33335L2.0976 12.9597C2.03379 13.0235 2.00129 13.1068 2.00004 13.1904C1.99873 13.2774 2.03129 13.3647 2.0976 13.4311L2.56891 13.9024C2.6317 13.9652 2.71332 13.9977 2.79563 13.9999C2.88388 14.0023 2.97295 13.9697 3.04029 13.9024Z"
-                                    fill="#DD4243"
+                                    d="M13.7188 3.83333H10.6668V2.204C10.6668 1.632 10.2015 1.16667 9.6295 1.16667H2.37083C1.79883 1.16667 1.3335 1.632 1.3335 2.204V14.796C1.3335 15.368 1.79883 15.8333 2.37083 15.8333H9.6295C10.2015 15.8333 10.6668 15.368 10.6668 14.796V13.1667H13.7188C14.2415 13.1667 14.6668 12.7413 14.6668 12.2187V4.78133C14.6668 4.25867 14.2415 3.83333 13.7188 3.83333ZM14.0002 4.78133V5.16667H10.6855C10.5948 5.16667 10.5142 5.11667 10.4742 5.036L10.2062 4.5H13.7188C13.8742 4.5 14.0002 4.626 14.0002 4.78133ZM7.79416 1.83333L7.46083 2.5H4.5395L4.20616 1.83333H7.79416ZM9.6295 15.1667H2.37083C2.16683 15.1667 2.00016 15 2.00016 14.796V14.5H10.0002V14.796C10.0002 15 9.83416 15.1667 9.6295 15.1667ZM10.0002 13.8333H2.00016V2.204C2.00016 2 2.16683 1.83333 2.37083 1.83333H3.46083L4.0355 2.98267C4.09216 3.09533 4.2075 3.16667 4.3335 3.16667H7.66683C7.79283 3.16667 7.90816 3.09533 7.96483 2.98267L8.5395 1.83333H9.6295C9.83416 1.83333 10.0002 2 10.0002 2.204V3.83333H5.61483C5.09216 3.83333 4.66683 4.25867 4.66683 4.78133V12.2187C4.66683 12.7413 5.09216 13.1667 5.61483 13.1667H10.0002V13.8333ZM13.7188 12.5H5.61483C5.4595 12.5 5.3335 12.374 5.3335 12.2187V4.78133C5.3335 4.626 5.4595 4.5 5.61483 4.5H9.46083L9.8775 5.33333C10.0315 5.642 10.3415 5.83333 10.6855 5.83333H14.0002V12.2187C14.0002 12.374 13.8742 12.5 13.7188 12.5Z"
+                                    fill="url(#paint0_linear_702_13705)"
+                                  />
+                                  <path
+                                    id="Vector_2"
+                                    d="M6.76417 8.40267C6.8935 8.532 7.10617 8.532 7.2355 8.40267C7.36483 8.27333 7.36483 8.06067 7.2355 7.93133L6.80483 7.5L7.2355 7.06933C7.3655 6.93933 7.3655 6.728 7.2355 6.598C7.1055 6.468 6.89417 6.468 6.76417 6.598L6.0975 7.26467C5.9675 7.39467 5.9675 7.606 6.0975 7.736L6.76417 8.40267Z"
+                                    fill="url(#paint1_linear_702_13705)"
+                                  />
+                                  <path
+                                    id="Vector_3"
+                                    d="M8.18436 8.46467C8.34769 8.54667 8.54969 8.47933 8.63169 8.31533L9.29836 6.982C9.38036 6.81867 9.31303 6.61667 9.14903 6.53467C8.98503 6.45267 8.78369 6.52 8.70169 6.684L8.03503 8.01733C7.95369 8.18133 8.02103 8.38333 8.18436 8.46467Z"
+                                    fill="url(#paint2_linear_702_13705)"
+                                  />
+                                  <path
+                                    id="Vector_4"
+                                    d="M10.0975 8.40267C10.2268 8.532 10.4395 8.532 10.5688 8.40267L11.2355 7.736C11.3655 7.606 11.3655 7.39467 11.2355 7.26467L10.5688 6.598C10.4388 6.468 10.2275 6.468 10.0975 6.598C9.9675 6.728 9.9675 6.93933 10.0975 7.06933L10.5282 7.5L10.0975 7.93067C9.96883 8.06 9.96883 8.27333 10.0975 8.40267Z"
+                                    fill="url(#paint3_linear_702_13705)"
+                                  />
+                                  <path
+                                    id="Vector_5"
+                                    d="M6.33333 10.5H9.66667C9.85067 10.5 10 10.3507 10 10.1667C10 9.98267 9.85067 9.83333 9.66667 9.83333H6.33333C6.14933 9.83333 6 9.98267 6 10.1667C6 10.3507 6.14933 10.5 6.33333 10.5Z"
+                                    fill="url(#paint4_linear_702_13705)"
+                                  />
+                                  <path
+                                    id="Vector_6"
+                                    d="M12.3333 11.1667H6.33333C6.14933 11.1667 6 11.316 6 11.5C6 11.684 6.14933 11.8333 6.33333 11.8333H12.3333C12.5173 11.8333 12.6667 11.684 12.6667 11.5C12.6667 11.316 12.5173 11.1667 12.3333 11.1667Z"
+                                    fill="url(#paint5_linear_702_13705)"
+                                  />
+                                  <path
+                                    id="Vector_7"
+                                    d="M8.33333 5.83333C8.51743 5.83333 8.66667 5.68409 8.66667 5.5C8.66667 5.3159 8.51743 5.16667 8.33333 5.16667C8.14924 5.16667 8 5.3159 8 5.5C8 5.68409 8.14924 5.83333 8.33333 5.83333Z"
+                                    fill="url(#paint6_linear_702_13705)"
+                                  />
+                                  <path
+                                    id="Vector_8"
+                                    d="M7.00033 5.83333C7.18442 5.83333 7.33366 5.68409 7.33366 5.5C7.33366 5.3159 7.18442 5.16667 7.00033 5.16667C6.81623 5.16667 6.66699 5.3159 6.66699 5.5C6.66699 5.68409 6.81623 5.83333 7.00033 5.83333Z"
+                                    fill="url(#paint7_linear_702_13705)"
                                   />
                                 </g>
                               </g>
-                            </g>
-                          </svg>
+                              <defs>
+                                <linearGradient
+                                  id="paint0_linear_702_13705"
+                                  x1="8.00016"
+                                  y1="1.16667"
+                                  x2="8.00016"
+                                  y2="15.8333"
+                                  gradientUnits="userSpaceOnUse"
+                                >
+                                  <stop stopColor="#A8C0FF" />
+                                  <stop offset="1" stopColor="#8F7BE8" />
+                                </linearGradient>
+                                <linearGradient
+                                  id="paint1_linear_702_13705"
+                                  x1="6.6665"
+                                  y1="6.5005"
+                                  x2="6.6665"
+                                  y2="8.49967"
+                                  gradientUnits="userSpaceOnUse"
+                                >
+                                  <stop stopColor="#A8C0FF" />
+                                  <stop offset="1" stopColor="#8F7BE8" />
+                                </linearGradient>
+                                <linearGradient
+                                  id="paint2_linear_702_13705"
+                                  x1="8.6669"
+                                  y1="6.49972"
+                                  x2="8.6669"
+                                  y2="8.49961"
+                                  gradientUnits="userSpaceOnUse"
+                                >
+                                  <stop stopColor="#A8C0FF" />
+                                  <stop offset="1" stopColor="#8F7BE8" />
+                                </linearGradient>
+                                <linearGradient
+                                  id="paint3_linear_702_13705"
+                                  x1="10.6665"
+                                  y1="6.5005"
+                                  x2="10.6665"
+                                  y2="8.49967"
+                                  gradientUnits="userSpaceOnUse"
+                                >
+                                  <stop stopColor="#A8C0FF" />
+                                  <stop offset="1" stopColor="#8F7BE8" />
+                                </linearGradient>
+                                <linearGradient
+                                  id="paint4_linear_702_13705"
+                                  x1="8"
+                                  y1="9.83333"
+                                  x2="8"
+                                  y2="10.5"
+                                  gradientUnits="userSpaceOnUse"
+                                >
+                                  <stop stopColor="#A8C0FF" />
+                                  <stop offset="1" stopColor="#8F7BE8" />
+                                </linearGradient>
+                                <linearGradient
+                                  id="paint5_linear_702_13705"
+                                  x1="9.33333"
+                                  y1="11.1667"
+                                  x2="9.33333"
+                                  y2="11.8333"
+                                  gradientUnits="userSpaceOnUse"
+                                >
+                                  <stop stopColor="#A8C0FF" />
+                                  <stop offset="1" stopColor="#8F7BE8" />
+                                </linearGradient>
+                                <linearGradient
+                                  id="paint6_linear_702_13705"
+                                  x1="8.33333"
+                                  y1="5.16667"
+                                  x2="8.33333"
+                                  y2="5.83333"
+                                  gradientUnits="userSpaceOnUse"
+                                >
+                                  <stop stopColor="#A8C0FF" />
+                                  <stop offset="1" stopColor="#8F7BE8" />
+                                </linearGradient>
+                                <linearGradient
+                                  id="paint7_linear_702_13705"
+                                  x1="7.00033"
+                                  y1="5.16667"
+                                  x2="7.00033"
+                                  y2="5.83333"
+                                  gradientUnits="userSpaceOnUse"
+                                >
+                                  <stop stopColor="#A8C0FF" />
+                                  <stop offset="1" stopColor="#8F7BE8" />
+                                </linearGradient>
+                              </defs>
+                            </svg>
+                          </div>
                         </div>
+                        <div className="AppDevelopment text-white text-base font-semibold font-urbaninst">
+                          App Development
+                        </div>
+                      </div>
+                      <div className="Frame1171281436 w-80 h-11 flex-col justify-start items-start gap-4 flex">
+                        <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
+                          <div className="GetThePowerfulAiServicesBuiltByTheExperts self-stretch text-neutral-400 text-xs font-light font-urbaninst">
+                            Get the powerful AI services built by the experts.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="Frame1171281437 justify-start items-center gap-2 inline-flex">
+                      <div className="LearnMore text-neutral-200 text-xs font-normal font-urbaninst">
+                        Learn more
+                      </div>
+                      <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          fill="none"
+                        >
+                          <g id="left-up 1">
+                            <g id="Group">
+                              <g id="Group_2">
+                                <path
+                                  id="Vector"
+                                  d="M3.04029 13.9024L12.6667 4.27604L12.6667 9.66667C12.6667 9.85092 12.8157 10 13 10L13.6667 10C13.8509 10 14 9.85092 14 9.66667L14 2.33334C14 2.14909 13.8509 2 13.6667 2L6.3333 2C6.14908 2 5.99998 2.14909 5.99998 2.33334L5.99998 3C5.99998 3.18425 6.14908 3.33335 6.33333 3.33335L11.724 3.33335L2.0976 12.9597C2.03379 13.0235 2.00129 13.1068 2.00004 13.1904C1.99873 13.2774 2.03129 13.3647 2.0976 13.4311L2.56891 13.9024C2.6317 13.9652 2.71332 13.9977 2.79563 13.9999C2.88388 14.0023 2.97295 13.9697 3.04029 13.9024Z"
+                                  fill="#DD4243"
+                                />
+                              </g>
+                            </g>
+                          </g>
+                        </svg>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-row gap-5 mt-4  ">
-                  <div className="Card w-[50%] min-w-[190px] p-4 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-2.5 inline-flex">
+                <div className="flex flex-row  mobile-view-direction gap-5 mt-4  ">
+                  <div className="Card w-[50%] min-w-[190px] mobile-ai-servises-cards p-4 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-2.5 inline-flex">
                     <Link href="/ai-bot-landing">
                       <div className="Frame1171281439 self-stretch h-24 flex-col justify-start items-start gap-4 flex">
                         <div className="Frame1171281438 h-16 flex-col justify-start items-start gap-2 flex">
@@ -609,7 +607,7 @@ const ResponsiveNavbar = () => {
                     </Link>
                   </div>
 
-                  <div className="Card w-[50%] min-w-[190px] p-4 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-2.5 inline-flex">
+                  <div className="Card w-[50%] min-w-[190px] mobile-ai-servises-cards p-4 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-2.5 inline-flex">
                     <div className="Frame1171281439 self-stretch h-24 flex-col justify-start items-start gap-4 flex">
                       <div className="Frame1171281438 flex-col justify-start items-start gap-2 flex">
                         <div className="Frame1171281491 justify-start items-center gap-2 inline-flex">
@@ -874,7 +872,7 @@ const ResponsiveNavbar = () => {
                       </div>
                       <div className="Frame1171281436 w-80 h-11 flex-col justify-start items-start gap-4 flex">
                         <div className="Frame1171281435 self-stretch h-16 flex-col justify-start items-start gap-2 flex">
-                          <div className=" self-stretch text-neutral-400 text-xs font-light font-urbaninst">
+                          <div className="TheIntuitiveResourcesAugmentation self-stretch text-neutral-400 text-xs font-light font-urbaninst">
                             The intuitive resources augmentation
                           </div>
                         </div>
@@ -912,7 +910,7 @@ const ResponsiveNavbar = () => {
             </div>
           )}
 
-          <div className="Frame1000003593 py-3 pl-10 w-full  border-b border-stone-900 justify-between items-end gap-64 inline-flex">
+          <div className="Frame1000003593 py-3 pl-10 w-full  border-b border-stone-900 justify-between items-end gap-32 inline-flex">
             <div className="Products text-stone-300 text-[18px] font-light font-urbaninst">
               Products
             </div>

@@ -94,6 +94,7 @@ const Industries = () => {
                   </div>
                 </div>
               </div>
+              <div className="hover-effect "></div>
             </div>{" "}
             <div className="card-responsive  w-[400px] h-[257px]  p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950   flex-col   justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
@@ -179,6 +180,7 @@ const Industries = () => {
                   </div>{" "}
                 </div>
               </div>
+              <div className="hover-effect "></div>
             </div>{" "}
             <div className="card-responsive  w-[400px] h-[257px] p-4 bg-gradient-to-b from-stone-950  via-neutral-900 to-stone-950  flex-col   justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
@@ -262,6 +264,7 @@ const Industries = () => {
                   </div>{" "}
                 </div>
               </div>
+              <div className="hover-effect "></div>
             </div>{" "}
             <div className="card-responsive w-[400px] h-[257px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col  justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
@@ -337,6 +340,7 @@ const Industries = () => {
                   </div>{" "}
                 </div>
               </div>
+              <div className="hover-effect "></div>
             </div>{" "}
             <div className="card-responsive w-[400px] h-[257px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
@@ -442,6 +446,7 @@ const Industries = () => {
                   </div>{" "}
                 </div>
               </div>
+              <div className="hover-effect "></div>
             </div>{" "}
             <div className="card-responsive  w-[400px] h-[257px] p-4 bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950  flex-col  justify-start items-start gap-2.5 inline-flex">
               <div className="Frame1171281439 flex-col justify-start items-start gap-8 flex">
@@ -512,6 +517,7 @@ const Industries = () => {
                   </div>{" "}
                 </div>
               </div>
+              <div className="hover-effect "></div>
             </div>
           </div>
         </div>

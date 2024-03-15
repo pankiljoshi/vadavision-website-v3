@@ -1466,7 +1466,25 @@ body {
   border-bottom: 1px solid black;
 }
 
-.card-responsive::after {
+.hover-effect {
+  position: absolute;
+  bottom: 0;
+  border-radius: 259px;
+  background: rgba(254, 25, 27, 0.32);
+  filter: blur(40px);
+  overflow: hidden;
+  width: 60%;
+  right: 80px;
+  height: 50px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-responsive:hover .hover-effect {
+  opacity: 1;
+}
+
+/* .card-responsive::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -1486,7 +1504,7 @@ body {
   margin: 0 auto;
   transition: none;
   height: 55px;
-}
+} */
 @media screen and (max-width: 1430px) {
   .unique-cards {
     width: 340px;

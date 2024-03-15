@@ -43,7 +43,7 @@ const Herosection = () => {
             <div className=" text-neutral-100 text-[64px] text-color-gradient font-bold prompt">
               Unleash the power of AI Chatbot
             </div>
-            <div className=" text-neutral-400 text-[20px] font-light font-urbaninst">
+            <div className=" text-neutral-400 text-[20px] font-light urbanist leading-snug">
               Leverage advanced natural language processing (NLP) algorithms,
               machine learning techniques, & sophisticated dialogue management
               systems and create intelligent virtual assistants capable of

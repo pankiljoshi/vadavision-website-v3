@@ -1180,12 +1180,17 @@ body {
     width: 145px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 396px) {
+  .svg-responsive {
+    width: 16px;
+  }
+}
+@media screen and (max-width: 380px) {
   .svg-responsive {
     width: 12px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 396px) {
   .responsive-button-servise {
     gap: 10px;
   }

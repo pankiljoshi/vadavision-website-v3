@@ -53,12 +53,12 @@ const Herosection = () => {
           </div>
           <div className="Frame1171281419 justify-start items-start gap-10 inline-flex reponsive-button ">
             <div className="BookACall cursor-pointer px-6 py-3 reponsive-button bg-white hover:bg-[#FFFFFF3D] bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex explore-button">
-              <div className="BookACall w-[120px] text-white text-md font-light text-center  font-urbaninst explore-button">
+              <div className="BookACall w-[120px] text-white text-md font-light text-center  urbanist explore-button">
                 Explore More
               </div>
             </div>
             <div className="BookACall cursor-pointer reponsive-button px-6 py-3 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button">
-              <div className="BookACall w-[120px]  text-white text-md font-light font-urbaninst Schedule-button">
+              <div className="BookACall w-[120px]  text-white text-md font-light urbanist Schedule-button">
                 Schedule a Call
               </div>
               <div className="consultUs-svg w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">

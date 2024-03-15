@@ -1472,11 +1472,10 @@ body {
   border-radius: 259px;
   background: rgba(254, 25, 27, 0.32);
   filter: blur(40px);
-  -webkit-filter: blur(40px);
-  -moz-filter: blur(40px);
+  /* -webkit-filter: blur(40px);
+  -moz-filter: blur(40px); */
   -webkit-backdrop-filter:blur(40px);
-
-  -ms-filter: blur(40px);
+  /* -ms-filter: blur(40px); */
   overflow: hidden;
   width: 60%;
   right: 80px;

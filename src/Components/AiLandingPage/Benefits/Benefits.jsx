@@ -37,7 +37,7 @@ const Benefits = () => {
           className="self-stretch flex-col justify-start  items-start gap-12 inline-flex"
         >
           <div className="justify-between items-start gap-6 flex-wrap inline-flex">
-            <div className="px-6 card-responsive h-[237px] p-10 w-[400px]  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="px-6 benefit-card-responsive h-[237px] p-10 w-[400px]  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <div className="w-8 h-8 left-0 top-0 absolute">
@@ -76,7 +76,7 @@ const Benefits = () => {
                 satisfaction.
               </div>
             </div>
-            <div className="px-6 card-responsive p-10 h-[232px] w-[400px]  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="px-6 benefit-card-responsive p-10 h-[232px] w-[400px]  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <div className="w-[30.67px] h-[30.67px] left-[0.67px] top-[0.67px] absolute">
@@ -214,7 +214,7 @@ const Benefits = () => {
                 scale their operations smoothly and efficiently
               </div>
             </div>
-            <div className="px-6 card-responsive p-10  w-[400px] h-[237px]  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="px-6 benefit-card-responsive p-10  w-[400px] h-[237px]  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <svg
@@ -277,7 +277,7 @@ const Benefits = () => {
                 objective.
               </div>
             </div>
-            <div className="px-6 card-responsive p-10  w-[400px] h-[237px]  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="px-6 benefit-card-responsive p-10  w-[400px] h-[237px]  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <svg
@@ -318,7 +318,7 @@ const Benefits = () => {
                 depending on the industry.
               </div>
             </div>
-            <div className="px-6  card-responsive p-10   w-[400px] h-[237px] bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="px-6  benefit-card-responsive p-10   w-[400px] h-[237px] bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <svg
@@ -350,7 +350,7 @@ const Benefits = () => {
                 accessible to users from different linguistic backgrounds.
               </div>
             </div>
-            <div className="px-6 card-responsive p-10  w-[400px] h-[237px] bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="px-6 benefit-card-responsive p-10  w-[400px] h-[237px] bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <div className="w-8 h-8 left-0 top-[-0px] absolute">

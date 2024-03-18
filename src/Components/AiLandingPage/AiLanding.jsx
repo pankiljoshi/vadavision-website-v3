@@ -4,7 +4,6 @@ import Features from "./Features/Features";
 import Benefits from "./Benefits/Benefits";
 import AiBotServises from "./AiBotServises/AiBotServises";
 import Herosection from "./Herosection/Herosection";
-import UseCases from "./UseCases/UseCases";
 import DataProtection from "./DataProtection/DataProtection";
 import Review from "../LandingPage/Review/Review";
 import ConsultWithUs from "../LandingPage/ConsultWithUs/ConsultWithUs";
@@ -32,9 +31,9 @@ const AiLanding = () => {
       <div>
         <AiBotServises />
       </div>
-      <div>
+      {/* <div>
         <UseCases />
-      </div>
+      </div> */}
       <div>
         <DataProtection />
       </div>

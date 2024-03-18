@@ -1,19 +1,35 @@
-import React from "react";
+"use client";
 
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 const UseCases = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full px-20 py-20 bg-gradient-to-r from-zinc-950 to-zinc-950 justify-center items-center inline-flex">
         <div className="grow shrink basis-0 self-stretch flex-col justify-start items-start gap-14 inline-flex">
-          <div className="w-[636px]">
-            <span className="text-neutral-400 text-[40px] font-normal font-urbaninst">
+          <div data-aos="fade-right" className="w-[636px]">
+            <span className="text-neutral-400 text-[40px] font-normal urbanist">
               We cover some good <br />
             </span>
-            <span className="text-emerald-500 text-[56px] font-bold leading-normal use-case-gradient font-urbaninst">
+            <span className="text-emerald-500 text-[56px] font-bold leading-normal use-case-gradient urbanist">
               Use Cases
             </span>
           </div>
-          <div className=" flex-col justify-start items-center gap-8 flex">
+          <div
+            data-aos="flip-right"
+            className=" flex-col justify-start items-center gap-8 flex"
+          >
             <div className="justify-start  items-start gap-6 inline-flex">
               <div className="p-6 bg-zinc-900  flex-col justify-start items-start gap-2.5 inline-flex">
                 <div className="justify-start items-center gap-4 inline-flex">
@@ -38,7 +54,7 @@ const UseCases = () => {
                       </defs>
                     </svg>
                   </div>
-                  <div className="text-stone-300 text-xl font-semibold  font-urbaninst">
+                  <div className="text-stone-300 text-xl font-medium  urbanist">
                     Education and Training
                   </div>
                 </div>
@@ -67,7 +83,7 @@ const UseCases = () => {
                       />
                     </svg>
                   </div>
-                  <div className="text-stone-300 text-xl font-semibold font-urbaninst">
+                  <div className="text-stone-300 text-xl font-medium urbanist">
                     Customer Service & Support
                   </div>
                 </div>
@@ -109,7 +125,7 @@ const UseCases = () => {
                       </svg>
                     </div>
                   </div>
-                  <div className="text-stone-300 text-xl font-semibold font-urbaninst">
+                  <div className="text-stone-300 text-xl font-medium urbanist">
                     Sales & Marketing
                   </div>
                 </div>
@@ -158,7 +174,7 @@ const UseCases = () => {
                       />
                     </svg>
                   </div>
-                  <div className="text-stone-300 text-xl font-semibold font-urbaninst">
+                  <div className="text-stone-300 text-xl font-medium urbanist">
                     Virtual Assistants
                   </div>
                 </div>
@@ -197,7 +213,7 @@ const UseCases = () => {
                       </defs>
                     </svg>
                   </div>
-                  <div className="text-stone-300 text-lg font-semibold font-urbaninst">
+                  <div className="text-stone-300 text-lg font-medium urbanist">
                     HR and Recruitment
                   </div>
                 </div>
@@ -248,7 +264,7 @@ const UseCases = () => {
                       </svg>
                     </div>
                   </div>
-                  <div className="text-stone-300 text-lg font-semibold font-urbaninst">
+                  <div className="text-stone-300 text-lg font-medium urbanist">
                     Information Retrieval
                   </div>
                 </div>
@@ -281,7 +297,7 @@ const UseCases = () => {
                       </defs>
                     </svg>
                   </div>
-                  <div className="text-stone-300 text-lg font-semibold font-urbaninst">
+                  <div className="text-stone-300 text-lg font-medium urbanist">
                     Travel and Hospitality
                   </div>
                 </div>
@@ -320,7 +336,7 @@ const UseCases = () => {
                       </svg>
                     </div>
                   </div>
-                  <div className="text-stone-300 text-lg font-semibold font-urbaninst">
+                  <div className="text-stone-300 text-lg font-medium urbanist">
                     Finance and Banking
                   </div>
                 </div>
@@ -350,7 +366,7 @@ const UseCases = () => {
                       </defs>
                     </svg>
                   </div>
-                  <div className="text-stone-300 text-lg font-semibold font-urbaninst">
+                  <div className="text-stone-300 text-lg font-medium urbanist">
                     Healthcare Support
                   </div>
                 </div>
@@ -384,7 +400,7 @@ const UseCases = () => {
                       </svg>
                     </div>
                   </div>
-                  <div className="text-stone-300 text-lg font-semibold font-urbaninst">
+                  <div className="text-stone-300 text-lg font-medium urbanist">
                     Finance and Banking
                   </div>
                 </div>
@@ -419,7 +435,7 @@ const UseCases = () => {
                       </svg>
                     </div>
                   </div>
-                  <div className="text-stone-300 text-lg font-semibold font-urbaninst">
+                  <div className="text-stone-300 text-lg font-medium urbanist">
                     E-Commerce and Retail
                   </div>
                 </div>
@@ -444,7 +460,7 @@ const UseCases = () => {
                       />
                     </svg>
                   </div>
-                  <div className="text-stone-300 text-lg font-semibold font-urbaninst">
+                  <div className="text-stone-300 text-lg font-medium urbanist">
                     Entertainment and Leisure
                   </div>
                 </div>
@@ -509,7 +525,7 @@ const UseCases = () => {
                       />
                     </svg>
                   </div>
-                  <div className="text-stone-300 text-lg font-semibold font-urbaninst">
+                  <div className="text-stone-300 text-lg font-medium urbanist">
                     Internal Business Processes
                   </div>
                 </div>

@@ -1,53 +1,70 @@
+"use client";
+
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 import Image from "next/image";
-import React from "react";
 import Women from "../../../../public/Images/caseStudyWomen.png";
 const CaseStudies = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
-      <div className="w-full px-20 py-10 bg-black flex-col justify-center padding-industies items-start gap-14 inline-flex">
-        <div className="w-[380px]">
-          <span className="text-neutral-400 text-[40px] case-study-heading1 font-semibold font-urbaninst">
+      <div className="w-full px-20 py-10 bg-black flex-col overflow-x-hidden justify-center padding-industies items-start gap-14 inline-flex">
+        <div data-aos="fade-down" className="w-[380px] leading-tight">
+          <span className="text-neutral-400 text-[40px] case-study-heading1 font-semibold urbanist">
             Some of our
             <br />
           </span>
-          <span className="text-pink-600 text-[56px] case-study-heading2 gradient-case-study font-bold font-urbaninst">
+          <span className="text-pink-600 text-[56px] case-study-heading2 gradient-case-study font-bold urbanist">
             Case Studies
           </span>
         </div>
         <div className="w-full relative  flex-col justify-start items-start flex">
-          <div className="justify-start responsive-casestudies  gap-16 inline-flex">
+          <div
+            data-aos="fade-right"
+            className="w-full justify-start responsive-casestudies  gap-16 inline-flex"
+          >
             <Image src={Women} width={540} alt="" />
             <div className="flex-col  justify-start responsive-heading-casestidies items-start gap-[72px] gap-responsive-casestudies-main inline-flex">
               <div className="flex-col justify-start items-start gap-14 gap-responsive-casestudies flex">
                 <div className="flex-col justify-start responsive-heading-casestidies items-start gap-4 flex">
-                  <div className="text-white text-xl font-light font-urbaninst">
+                  <div className="text-white text-xl font-light urbanist">
                     Support AI Bot
                   </div>
-                  <div className=" text-red-500 w-[340px] text-case-studies text-[40px] font-normal leading-tight font-urbaninst">
+                  <div className=" text-red-500 w-[340px] text-case-studies text-[40px] font-normal leading-tight urbanist">
                     Espress Boutique CX Support AI Bot
                   </div>
                 </div>
                 <div className="flex-col w-[380px] justify-start items-start gap-6 flex">
                   <div className="justify-start items-start gap-12 inline-flex">
-                    <div className="w-[105px] text-neutral-400 text-xl font-light font-urbaninst">
+                    <div className="w-[105px] text-neutral-400 text-xl font-light urbanist">
                       Industry
                     </div>
-                    <div className="text-white text-xl font-light font-urbaninst">
+                    <div className="text-white text-xl font-light urbanist">
                       Fashion & Apparel
                     </div>
                   </div>
                   <div className="justify-start items-start gap-12 inline-flex">
-                    <div className="text-neutral-400 text-xl font-light font-urbaninst">
+                    <div className="text-neutral-400 text-xl font-light urbanist">
                       Live Version
                     </div>
-                    <div className="text-white text-xl font-light font-urbaninst">
+                    <div className="text-white text-xl font-light urbanist">
                       www.express.fashion
                     </div>
                   </div>
                 </div>
               </div>
               <div className="justify-center items-center gap-2.5 inline-flex">
-                <div className="text-white text-base font-case-study font-light font-urbaninst">
+                <div className="text-white text-base font-case-study font-light urbanist">
                   Read Case Study
                 </div>
                 <div className="w-6 h-6 relative">
@@ -69,38 +86,41 @@ const CaseStudies = () => {
               </div>
             </div>
           </div>
-          <div className="justify-start responsive-casestudies1 gap-responsive-casestudies1-main gap-32 mt-20 inline-flex">
+          <div
+            data-aos="fade-left"
+            className=" w-full justify-end items-end responsive-casestudies1 gap-responsive-casestudies1-main gap-64 mt-20 inline-flex"
+          >
             <div className="flex-col  justify-start items-start gap-[72px] gap-responsive-casestudies-main  inline-flex">
-              <div className="flex-col justify-start w-[380px] items-start gap-responsive-casestudies gap-14 flex">
+              <div className="flex-col justify-start  items-start gap-responsive-casestudies gap-14 flex">
                 <div className="flex-col justify-start responsive-heading-casestidies items-start gap-4 flex">
-                  <div className="text-white text-xl font-light font-urbaninst">
+                  <div className="text-white text-xl font-light urbanist">
                     Support AI Bot
                   </div>
-                  <div className=" text-red-500 text-[40px] text-case-studies font-medium leading-tight font-urbaninst">
+                  <div className=" text-red-500 text-[40px] w-[400px] text-case-studies font-medium leading-tight urbanist">
                     Espress Boutique CX Support AI Bot
                   </div>
                 </div>
                 <div className="flex-col justify-start items-start gap-6 flex">
                   <div className="justify-start items-start gap-12 inline-flex">
-                    <div className="w-[105px] text-neutral-400 text-xl font-light font-urbaninst">
+                    <div className="w-[105px] text-neutral-400 text-xl font-light urbanist">
                       Industry
                     </div>
-                    <div className="text-white text-xl font-light font-urbaninst">
+                    <div className="text-white text-xl font-light urbanist">
                       Fashion & Apparel
                     </div>
                   </div>
                   <div className="justify-start items-start gap-12 inline-flex">
-                    <div className="text-neutral-400 text-xl font-light">
+                    <div className="text-neutral-400 text-xl font-light urbanist">
                       Live Version
                     </div>
-                    <div className="text-white text-xl font-light font-urbaninst">
+                    <div className="text-white text-xl font-light urbanist">
                       www.express.fashion
                     </div>
                   </div>
                 </div>
               </div>
               <div className=" gap-2.5 inline-flex">
-                <div className="text-white text-base font-case-study font-light font-urbaninst">
+                <div className="text-white text-base font-case-study font-light  urbanist">
                   Read Case Study
                 </div>
                 <div className="w-6 h-6 relative">
@@ -121,6 +141,7 @@ const CaseStudies = () => {
                 </div>
               </div>
             </div>
+
             <Image src={Women} width={550} alt="" />
           </div>
         </div>

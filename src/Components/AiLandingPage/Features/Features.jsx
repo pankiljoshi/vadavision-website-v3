@@ -1,10 +1,26 @@
-import React from "react";
+"use client";
 
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 const Features = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
-      <div className="w-full h-[107px] flex-wrap   bg-gradient-to-r from-red-500 to-orange-500">
-        <div className="w-full h-[100px] pt-3 flex flex-wrap padding-none  justify-between px-8  rotate-[-1.24deg] bg-white">
+      <div
+        data-aos="fade-left"
+        className="w-full h-[107px] flex-wrap    bg-gradient-to-r from-red-500 to-orange-500"
+      >
+        <div className="w-full h-[100px] pt-3  overflow-x-hidden flex flex-wrap padding-none  justify-between px-8  feature-animation bg-white">
           <div className="  justify-start items-center gap-2 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +50,7 @@ const Features = () => {
                 </linearGradient>
               </defs>
             </svg>
-            <div className="origin-top-left features-text-responsive rotate-[0.76deg] text-black text-2xl font-normal font-urbaninst">
+            <div className="origin-top-left features-text-responsive rotate-[0.76deg] text-black text-2xl font-medium urbanist">
               ChatBot Development
             </div>
           </div>
@@ -67,7 +83,7 @@ const Features = () => {
                 </linearGradient>
               </defs>
             </svg>
-            <div className="origin-top-left rotate-[0.76deg] features-text-responsive  text-black text-2xl font-normal font-urbaninst">
+            <div className="origin-top-left rotate-[0.76deg] features-text-responsive  text-black text-2xl font-medium urbanist">
               ChatGPT Integration
             </div>
           </div>
@@ -100,7 +116,7 @@ const Features = () => {
                 </linearGradient>
               </defs>
             </svg>
-            <div className="origin-top-left rotate-[0.76deg] features-text-responsive  text-black text-2xl font-normal font-urbaninst">
+            <div className="origin-top-left rotate-[0.76deg] features-text-responsive  text-black text-2xl font-medium urbanist">
               Data Preparation Services
             </div>
           </div>
@@ -133,7 +149,7 @@ const Features = () => {
                 </linearGradient>
               </defs>
             </svg>
-            <div className="origin-top-left rotate-[0.76deg] features-text-responsive  text-black text-2xl font-normal font-urbaninst">
+            <div className="origin-top-left rotate-[0.76deg] features-text-responsive  text-black text-2xl font-medium urbanist">
               Open Source Models
             </div>
           </div>

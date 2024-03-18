@@ -1,22 +1,41 @@
-import React from "react";
+"use client";
 
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 const AiBotServises = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
-      <div className="w-full  py-10 px-20  bg-zinc-950 padding-industies bg-opacity-90 bg-ai-bot-servises">
-        <div className="flex-col justify-start items-start gap-14 inline-flex">
+      <div className="w-full  py-14 px-20  overflow-x-hidden bg-zinc-950 padding-industies bg-opacity-90 bg-ai-bot-servises">
+        <div
+          data-aos="fade-right"
+          className="flex-col justify-start items-start gap-14 inline-flex"
+        >
           <div className="">
-            <span className="text-neutral-400 text-[40px] font-change-1 font-medium font-urbaninst">
+            <span className="text-neutral-400 text-[40px] font-change-1 font-medium urbanist">
               Our amazing
               <br />
             </span>
-            <span className="text-pink-600 text-[56px] gradient-heading font-change-2 font-bold font-urbaninst">
+            <span className="text-pink-600 text-[56px] gradient-heading font-change-2 font-bold urbanist">
               AI Bot Services
             </span>
           </div>
         </div>
-        <div className="max-w-screen overflow-x-auto hide-scrollbar">
-          <div className="  justify-start items-start gap-20 mt-10 inline-flex whitespace-nowrap">
+        <div
+          data-aos="fade-left"
+          className="max-w-screen overflow-x-auto hide-scrollbar"
+        >
+          <div className="  justify-start items-start gap-14  mt-10 inline-flex whitespace-nowrap">
             <div className="h-[29px] cursor-pointer justify-center items-center gap-2 flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +64,7 @@ const AiBotServises = () => {
                   </linearGradient>
                 </defs>
               </svg>
-              <div className="text-white text-xl font-normal font-urbaninst">
+              <div className="text-white text-[24px] font-medium urbanist">
                 ChatGPT Integration
               </div>
             </div>
@@ -64,7 +83,7 @@ const AiBotServises = () => {
                   fill="#CACACA"
                 />
               </svg>
-              <div className="text-neutral-400 text-xl font-light font-urbaninst">
+              <div className="text-neutral-400 text-[24px] font-medium urbanist">
                 Open Source Models
               </div>
             </div>
@@ -83,7 +102,7 @@ const AiBotServises = () => {
                   fill="#CACACA"
                 />
               </svg>
-              <div className="text-neutral-400 text-xl font-light font-urbaninst">
+              <div className="text-neutral-400 text-[24px] font-medium urbanist">
                 Fine-Tuning Services
               </div>
             </div>
@@ -102,7 +121,7 @@ const AiBotServises = () => {
                   fill="#CACACA"
                 />
               </svg>
-              <div className="text-neutral-400 text-xl font-light font-urbaninst">
+              <div className="text-neutral-400 text-[24px] font-medium urbanist">
                 Data Preparation Services
               </div>
             </div>
@@ -112,14 +131,17 @@ const AiBotServises = () => {
           </div>
         </div>
 
-        <div className="flex flex-row gap-32 responsiveServises mt-16">
+        <div
+          data-aos="fade-up"
+          className="flex flex-row gap-32 chapgpt-content responsiveServises mt-16"
+        >
           <div className="flex flex-col">
             <div className=" flex-col w-[800px] responsive-content-aiservises justify-start items-start gap-8 inline-flex">
-              <div className="flex-col  justify-start items-start gap-6 flex">
-                <div className="text-white text-[32px]  font-normal font-urbaninst">
+              <div className="flex-col w-[550px]  servises-paragraph justify-start items-start gap-6 flex">
+                <div className="text-white text-[32px]  font-normal urbanist">
                   Integrate ChatGPT to your application
                 </div>
-                <div className=" text-neutral-400 text-base font-light font-urbaninst">
+                <div className=" text-neutral-400  leading-snug text-base font-light urbanist">
                   Integrating ChatGPT for natural language understanding (NLU)
                   and conversation generation involves leveraging its powerful
                   language processing capabilities to comprehend user inputs and
@@ -129,11 +151,11 @@ const AiBotServises = () => {
                 </div>
               </div>
               <div className="flex-col justify-start items-start gap-6 flex">
-                <div className=" text-stone-300 text-xl font-medium font-urbaninst">
+                <div className=" text-stone-300 text-xl font-medium urbanist">
                   Why we need Quality Data?
                 </div>
                 <div className="flex-col justify-start responsive-wrap items-start gap-4 flex">
-                  <div className="self-stretch justify-start flex-wrap items-start gap-8 inline-flex">
+                  <div className=" justify-start flex-wrap items-start gap-8 inline-flex">
                     <div className="justify-start items-center gap-4 flex">
                       <div className="w-6 h-6 relative origin-top-left ">
                         <svg
@@ -163,7 +185,7 @@ const AiBotServises = () => {
                           </defs>
                         </svg>
                       </div>
-                      <div className="w-[286px] text-white text-base font-medium font-urbaninst">
+                      <div className="w-[286px] text-white text-base font-medium urbanist">
                         Training the Model
                       </div>
                     </div>
@@ -196,7 +218,7 @@ const AiBotServises = () => {
                           </defs>
                         </svg>
                       </div>
-                      <div className="text-white text-base font-medium font-urbaninst">
+                      <div className="text-white text-base font-medium urbanist">
                         Conversation Generation
                       </div>
                     </div>
@@ -231,7 +253,7 @@ const AiBotServises = () => {
                           </defs>
                         </svg>
                       </div>
-                      <div className="w-[286px] text-white text-base font-medium font-urbaninst">
+                      <div className="w-[286px] text-white text-base font-medium urbanist">
                         Error Correction and Handling
                       </div>
                     </div>
@@ -264,12 +286,12 @@ const AiBotServises = () => {
                           </defs>
                         </svg>
                       </div>
-                      <div className="text-white text-base font-medium font-urbaninst">
+                      <div className="text-white text-base font-medium urbanist">
                         Avoiding Bias and Misinformation
                       </div>
                     </div>
                   </div>
-                  <div className="justify-start flex-wrap items-start gap-8 inline-flex">
+                  <div className="justify-start flex-wrap items-start gap-10 inline-flex">
                     <div className="justify-start items-center gap-4 flex">
                       <div className="w-6 h-6 relative origin-top-left ">
                         <svg
@@ -299,7 +321,7 @@ const AiBotServises = () => {
                           </defs>
                         </svg>
                       </div>
-                      <div className="text-white text-base font-medium font-urbaninst">
+                      <div className="text-white text-base font-medium urbanist">
                         Natural Language Understanding (NLU)
                       </div>
                     </div>
@@ -332,15 +354,15 @@ const AiBotServises = () => {
                           </defs>
                         </svg>
                       </div>
-                      <div className="text-white text-base font-medium font-urbaninst">
+                      <div className="text-white text-base font-medium urbanist">
                         User Experience and Satisfaction
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="h-12 w-[232px] px-10 mt-14 consult-us-button  bg-[#D53033] justify-center items-center gap-4 inline-flex">
-                <div className="text-white text-xl font-light font-urbaninst">
+              <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#D53033] justify-center items-center gap-4 inline-flex">
+                <div className="text-white text-xl font-light urbanist">
                   Get in Touch
                 </div>
                 <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">

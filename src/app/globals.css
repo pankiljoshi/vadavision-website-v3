@@ -281,22 +281,22 @@ body {
   }
   
 } */
-@media screen and (max-width: 1320px) {
+/* @media screen and (max-width: 1320px) {
   .responsive-herosection {
     gap: 120px;
   }
-}
+} */
 @media screen and (max-width: 520px) {
   .responsive-herosection {
     padding: 20px;
   }
 }
 
-@media screen and (max-width: 1220px) {
+/* @media screen and (max-width: 1220px) {
   .responsive-herosection {
     gap: 110px;
   }
-}
+} */
 @media screen and (max-width: 1320px) {
   .responsive-para {
     width: 70%;
@@ -613,7 +613,7 @@ body {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1050px) {
   .responsive-herosection {
     flex-wrap: wrap;
     width: 100%;
@@ -1474,7 +1474,7 @@ body {
   filter: blur(40px);
   -webkit-filter: blur(40px);
   -moz-filter: blur(40px);
-  /* -webkit-backdrop-filter:blur(40px); */
+  -webkit-backdrop-filter: blur(40px);
   -ms-filter: blur(40px);
   overflow: hidden;
   width: 60%;
@@ -1933,6 +1933,7 @@ body {
 
 .background-herosection {
   background-image: url("../../public/Images/heroBg.png");
+  background-size: cover;
 }
 .benefit-heading-gradient {
   background: linear-gradient(90deg, #f3696e 3.3%, #f8a902 106.51%);
@@ -1948,6 +1949,7 @@ body {
 }
 .bg-ai-bot-servises {
   background-image: url("../../public/Images/ai-servises-bg.png");
+  background-size: contain;
 }
 
 .gradient-heading {
@@ -1972,28 +1974,28 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-@media screen and (max-width: 1400px) {
+/* @media screen and (max-width: 1400px) {
   .responsive-herosection {
     gap: 60px;
   }
-}
-@media screen and (max-width: 1350px) {
+} */
+/* @media screen and (max-width: 1350px) {
   .responsive-herosection {
     gap: 30px;
   }
-}
+} */
 
-@media screen and (max-width: 1300px) {
+/* @media screen and (max-width: 1300px) {
   .responsive-herosection {
     gap: 100px;
   }
-}
+} */
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .responsive-herosection {
-    gap: 70px;
+    gap: 40px;
   }
-}
+} */
 @media screen and (max-width: 1100px) {
   .responsive-herosection {
     gap: 50px;
@@ -2063,6 +2065,26 @@ body {
   }
 }
 
+@media screen and (max-width: 1030px) {
+  .responsive-content-aiservises {
+    width: 650px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .responsive-content-aiservises {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .responsive-content-aiservises {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .responsive-content-aiservises {
+    width: 450px;
+  }
+}
 @media screen and (max-width: 800px) {
   .responsive-wrap {
     flex-wrap: wrap;
@@ -2692,4 +2714,101 @@ body {
   .newsletter-mobile-margin {
     margin: 0px;
   }
+}
+
+.feature-animation {
+  --tw-rotate: -1.24deg !important;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); 
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width:1340px) {
+  .ai-bot-landing-herosection{
+    min-width: 640px;
+  }
+  
+}
+
+@media screen and (max-width:1260px) {
+  .ai-bot-landing-herosection{
+    min-width: 580px;
+  }
+  
+
+}
+
+@media screen and (max-width:1210px) {
+  .ai-bot-landing-herosection{
+    min-width: 480px;
+  }
+  
+}
+@media screen and (max-width:1120px) {
+  .ai-bot-landing-herosection{
+    min-width: 380px;
+  }
+  
+}
+@media screen and (max-width:1080px) {
+  .ai-bot-landing-herosection{
+    min-width: 350px;
+  }
+  
+}
+@media screen and (max-width:1050px) {
+  .ai-bot-landing-herosection{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:1110px) {
+  .ai-bot-heading{
+    font-size: 54px;
+  }
+  
+}
+@media screen and (max-width:1260px) {
+  .ai-bot-heading{
+    font-size: 47px;
+  }
+  
+}
+@media screen and (max-width:1080px) {
+  .ai-bot-heading{
+    font-size: 47px;
+  }
+  
+}
+@media screen and (max-width:1050px) {
+  .herosection-bot-image{
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width:1200px) {
+  .chapgpt-content{
+    gap: 0px;
+  }
+  
+}
+
+@media screen and (max-width:600px) {
+  .servises-paragraph{
+    width: 100%;
+  }
+  
 }

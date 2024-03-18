@@ -1,11 +1,28 @@
+"use client";
+
 import Image from "next/image";
-import React from "react";
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 import AiBotRobot from "../../../../public/Images/aiBotRobot.png";
 
 const Herosection = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
-    <div className="w-full  flex justify-between  bg-no-repeat px-20 py-20  background-herosection gap-28 responsive-herosection  bg-gradient-to-br from-black to-zinc-950">
-      <div className="  flex-col justify-start items-start gap-2 mt-10 pt-10 inline-flex">
+    <div className="w-full  flex  bg-no-repeat px-20 py-20  background-herosection  responsive-herosection  bg-gradient-to-br from-black to-zinc-950">
+      <div
+        data-aos="fade-right"
+        className="  flex-col justify-start w-[50%] min-w-[690px] ai-bot-landing-herosection items-start gap-2 mt-10 pt-10 inline-flex"
+      >
         <div className="justify-start items-center gap-3 inline-flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -34,13 +51,13 @@ const Herosection = () => {
               </linearGradient>
             </defs>
           </svg>
-          <div className="text-red-500 text-base herosection-gradient font-medium prompt uppercase leading-relaxed tracking-[6.40px]">
+          <div className="text-red-500 text-base herosection-gradient font-medium prompt uppercase leading-relaxedn  tracking-[6.40px]">
             Upgrade your ai game
           </div>
         </div>
         <div className="flex-col justify-start items-start gap-10 flex">
           <div className="flex-col justify-start items-start gap-6 flex">
-            <div className=" text-neutral-100 text-[64px] text-color-gradient font-bold prompt">
+            <div className=" text-neutral-100 text-[64px] text-color-gradient ai-bot-heading font-bold prompt">
               Unleash the power of AI Chatbot
             </div>
             <div className=" text-neutral-400 text-[20px] font-light urbanist leading-snug">
@@ -51,17 +68,17 @@ const Herosection = () => {
               manner.
             </div>
           </div>
-          <div className="Frame1171281419 justify-start items-start gap-10 inline-flex reponsive-button ">
-            <div className="BookACall cursor-pointer px-6 py-3 reponsive-button bg-white hover:bg-[#FFFFFF3D] bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex explore-button">
-              <div className="BookACall w-[120px] text-white text-md font-light text-center  urbanist explore-button">
+          <div className=" justify-center items-center gap-10 inline-flex  ">
+            <div className=" cursor-pointer  reponsive-button bg-white hover:bg-[#FFFFFF3D] bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex ">
+              <div className=" w-[197px] h-[48px] text-white text-[20px] font-light text-center pt-3 justify-center items-center  urbanist ">
                 Explore More
               </div>
             </div>
-            <div className="BookACall cursor-pointer reponsive-button px-6 py-3 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button">
-              <div className="BookACall w-[120px]  text-white text-md font-light urbanist Schedule-button">
+            <div className="BookACall cursor-pointer justify-center  w-[257px] h-[48px] reponsive-button  bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button">
+              <div className="BookACall  text-white text-[20px] font-normal urbanist Schedule-button">
                 Schedule a Call
               </div>
-              <div className="consultUs-svg w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+              <div className="consultUs-svg w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center  flex">
                 <div className="ChevronRight w-4 h-4 relative">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -87,8 +104,14 @@ const Herosection = () => {
           </div>
         </div>
       </div>
-
-      <Image src={AiBotRobot} alt="" width={550} />
+      <Image
+        src={AiBotRobot}
+        alt=""
+        width={560}
+        height={560}
+        style={{ animation: "moveUpDown 3s ease infinite" }}
+        className="herosection-bot-image"
+      />
     </div>
   );
 };

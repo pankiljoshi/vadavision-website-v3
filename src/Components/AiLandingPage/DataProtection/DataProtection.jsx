@@ -1,22 +1,38 @@
-import React from "react";
+"use client";
 
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 const DataProtection = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
-      <div className="w-full  px-20 py-10  inline-flex padding-industies data-protection-bg">
+      <div
+        data-aos="fade-right"
+        className="w-full  px-20 py-10  inline-flex padding-industies data-protection-bg"
+      >
         <div className="  justify-start  inline-flex">
           <div className="self-stretch flex-col justify-start items-start gap-14 inline-flex">
             <div className=" flex-col justify-start items-start gap-4 flex">
               <div className="">
-                <span className="text-neutral-400 text-[40px] dataprotection-heading font-normal font-urbanist">
+                <span className="text-neutral-400 text-[40px] dataprotection-heading font-normal urbanist">
                   Our top most priority is
                   <br />
                 </span>
-                <span className="text-rose-500 text-[56px] leading-tight dataprotection-gradient gradient-heading-text font-bold font-urbanist">
+                <span className="text-rose-500 text-[56px] leading-tight dataprotection-gradient gradient-heading-text font-bold urbanist">
                   Data Protection
                 </span>
               </div>
-              <div className="w-[669px] dataPtotection-paragraph  text-neutral-400 text-xl font-light font-urbanist">
+              <div className="w-[679px] leading-snug dataPtotection-paragraph  text-neutral-400 text-xl font-light urbanist">
                 At VadaVision! we recognize the paramount importance of data
                 security. We diligently implement industry-leading practices &
                 technologies to ensure robust protection against unauthorized
@@ -57,7 +73,7 @@ const DataProtection = () => {
                       </svg>
                     </div>
                   </div>
-                  <div className="text-white text-sm font-light font-urbanist">
+                  <div className="text-white text-sm font-light urbanist">
                     Confidentiality
                   </div>
                 </div>
@@ -95,7 +111,7 @@ const DataProtection = () => {
                       </svg>
                     </div>
                   </div>
-                  <div className="text-white text-sm font-light font-urbanist">
+                  <div className="text-white text-sm font-light urbanist">
                     No Data Breach
                   </div>
                 </div>
@@ -133,7 +149,7 @@ const DataProtection = () => {
                       </svg>
                     </div>
                   </div>
-                  <div className="text-white text-sm font-light font-urbanist">
+                  <div className="text-white text-sm font-light urbanist">
                     Integrity
                   </div>
                 </div>
@@ -171,7 +187,7 @@ const DataProtection = () => {
                       </svg>
                     </div>
                   </div>
-                  <div className="text-white text-sm font-light font-urbanist">
+                  <div className="text-white text-sm font-light urbanist">
                     Secure
                   </div>
                 </div>

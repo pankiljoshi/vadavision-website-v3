@@ -1461,6 +1461,7 @@ const Navbar = () => {
                     </div>
 
                     {activeTab === "services" && <RedBar />}
+
                     <div className="flex gap-2">
                       <span className=" text-[#8E8E8E] font-light urbanist">
                         Services

@@ -66,11 +66,11 @@ const Benefits = () => {
                     </svg>
                   </div>
                 </div>
-                <div className=" text-white text-[18px] font-medium urbanist">
+                <div className=" text-white text-[18px] benefit-heading-font font-medium urbanist">
                   Enhanced Model Accuracy
                 </div>
               </div>
-              <div className=" text-[#8E8E8E] leading-tight text-[16px] font-light urbanist">
+              <div className=" text-[#8E8E8E] leading-tight benefit-paragraph text-[16px] font-light urbanist">
                 We incorporate the enhanced AI Bot engine, which results in
                 accurate response to the prompt. More accuracy, more user
                 satisfaction.
@@ -205,11 +205,11 @@ const Benefits = () => {
                     </svg>
                   </div>
                 </div>
-                <div className=" text-white text-[18px] font-medium urbanist">
+                <div className=" text-white text-[18px] benefit-heading-font font-medium urbanist">
                   Scalability of Data Infrastructures
                 </div>
               </div>
-              <div className=" text-[#8E8E8E] leading-tight text-[16px] font-light urbanist">
+              <div className=" text-[#8E8E8E] leading-tight benefit-paragraph text-[16px] font-light urbanist">
                 Ability to handle large volume of data, allowing businesses to
                 scale their operations smoothly and efficiently
               </div>
@@ -267,11 +267,11 @@ const Benefits = () => {
                     </defs>
                   </svg>
                 </div>
-                <div className=" text-white text-[18px] font-medium urbanist">
+                <div className=" text-white text-[18px] benefit-heading-font font-medium urbanist">
                   Bespoke Dataset Creation
                 </div>
               </div>
-              <div className=" text-[#8E8E8E] leading-tight text-[16px] font-light urbanist">
+              <div className=" text-[#8E8E8E] leading-tight benefit-paragraph text-[16px] font-light urbanist">
                 Bespoke dataset creation involves collecting and organizing data
                 that is tailored to a specific task, application, or research
                 objective.
@@ -308,11 +308,11 @@ const Benefits = () => {
                     </defs>
                   </svg>
                 </div>
-                <div className=" text-white text-[18px] font-medium urbanist">
+                <div className=" text-white text-[18px] benefit-heading-font font-medium urbanist">
                   Security & Compliance
                 </div>
               </div>
-              <div className=" text-[#8E8E8E] leading-tight text-[16px] font-light urbanist">
+              <div className=" text-[#8E8E8E] leading-tight benefit-paragraph text-[16px] font-light urbanist">
                 AI bots are designed with security features to protect user data
                 and comply with relevant regulations, such as GDPR or HIPAA,
                 depending on the industry.
@@ -341,11 +341,11 @@ const Benefits = () => {
                     </defs>
                   </svg>
                 </div>
-                <div className=" text-white text-[18px] font-medium urbanist">
+                <div className=" text-white text-[18px] benefit-heading-font font-medium urbanist">
                   Muti-Channel Support
                 </div>
               </div>
-              <div className=" text-[#8E8E8E] leading-tight text-[16px] font-light urbanist">
+              <div className=" text-[#8E8E8E] leading-tight benefit-paragraph text-[16px] font-light urbanist">
                 AI bots can communicate in multiple languages, making them
                 accessible to users from different linguistic backgrounds.
               </div>
@@ -391,14 +391,14 @@ const Benefits = () => {
                     </svg>
                   </div>
                 </div>
-                <div className=" text-white text-[18px] font-medium urbanist">
+                <div className=" text-white text-[18px] benefit-heading-font font-medium urbanist">
                   Analytics & Reporting
                 </div>
               </div>
-              <div className=" text-[#8E8E8E] leading-tight text-[16px] font-light urbanist">
-                They provide analytics and reporting capabilities <br />
-                to track user interactions, measure performance metrics, & gain
-                insights for optimization.
+              <div className=" text-[#8E8E8E] leading-tight benefit-paragraph text-[16px] font-light urbanist">
+                They provide analytics and reporting capabilities to track user
+                interactions, measure performance metrics, & gain insights for
+                optimization.
               </div>
             </div>
           </div>

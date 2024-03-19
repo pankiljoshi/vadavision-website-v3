@@ -18,7 +18,7 @@ const Herosection = () => {
     }
   }, []);
   return (
-    <div className="w-full  flex  bg-no-repeat px-20 py-20  background-herosection padding-industies  responsive-herosection  bg-gradient-to-br from-black to-zinc-950">
+    <div className="w-full  flex  bg-no-repeat px-20 py-20  background-herosection padding-industies mobile-view-bg  responsive-herosection  bg-gradient-to-br from-black to-zinc-950">
       <div
         data-aos="fade-right"
         className="  flex-col justify-start w-[50%] min-w-[690px] ai-bot-landing-herosection items-start gap-2 mt-10 pt-10 inline-flex"
@@ -55,12 +55,12 @@ const Herosection = () => {
             Upgrade your ai game
           </div>
         </div>
-        <div className="flex-col justify-start items-start gap-10 flex">
+        <div className="flex-col content-width justify-start items-start gap-10 flex">
           <div className="flex-col justify-start items-start gap-6 flex">
             <div className=" text-neutral-100 text-[64px] text-color-gradient ai-bot-heading font-bold prompt">
               Unleash the power of AI Chatbot
             </div>
-            <div className=" text-neutral-400 text-[20px] font-light urbanist leading-snug">
+            <div className=" text-neutral-400 text-[20px] ai-herosection-paragraph font-light urbanist leading-snug">
               Leverage advanced natural language processing (NLP) algorithms,
               machine learning techniques, & sophisticated dialogue management
               systems and create intelligent virtual assistants capable of
@@ -68,17 +68,23 @@ const Herosection = () => {
               manner.
             </div>
           </div>
-          <div className=" justify-center items-center gap-10 inline-flex  ">
-            <div className=" cursor-pointer  reponsive-button bg-white hover:bg-[#FFFFFF3D] bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex ">
-              <div className=" w-[197px] h-[48px] text-white text-[20px] font-light text-center pt-3 justify-center items-center  urbanist ">
+          <div className=" justify-start buttons-herosection items-center gap-10 inline-flex reponsive-button ">
+            <div
+              data-aos="zoom-in"
+              className="BookACall explore-more cursor-pointer h-[48px] px-9 reponsive-button bg-white hover:bg-[#FFFFFF3D] bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex explore-button"
+            >
+              <div className="BookACall w-[120px] text-white text-[20px] font-light text-center urbanist   explore-button">
                 Explore More
               </div>
             </div>
-            <div className="BookACall cursor-pointer justify-center  w-[257px] h-[48px] reponsive-button  bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button">
-              <div className="BookACall  text-white text-[20px] font-normal urbanist Schedule-button">
+            <div
+              data-aos="zoom-in"
+              className="BookACall  herosection-Schedule-button cursor-pointer w-[198px] urbanist reponsive-button h-[48px] px-5 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button"
+            >
+              <div className="BookACall   text-white text-[16px] font-light urbanist  Schedule-button">
                 Schedule a Call
               </div>
-              <div className="consultUs-svg w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center  flex">
+              <div className="consultUs-svg w-6 h-6 p-3 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
                 <div className="ChevronRight w-4 h-4 relative">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

@@ -40,7 +40,7 @@ const DataProtection = () => {
               </div>
             </div>
             <div className="flex flex-row flex-wrap gap-6 responsive-button-servise">
-              <div className=" servises-button w-[167px] servise-button flex justify-start padding-button servise-border-gradient items-center px-2 py-3  bg-gradient-to-b bg-servise-gradient rounded-full   backdrop-blur-lg  gap-2  mt-10 ">
+              <div className=" servises-button w-[150px] servise-button flex justify-start padding-button servise-border-gradient items-center px-2 py-3  bg-gradient-to-b bg-servise-gradient rounded-full   backdrop-blur-lg  gap-2  mt-10 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -77,7 +77,7 @@ const DataProtection = () => {
                   Confidentiality{" "}
                 </span>
               </div>
-              <div className=" servises-button w-[152px] servise-button flex justify-start padding-button servise-border-gradient items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg  gap-2  mt-10 ">
+              <div className=" servises-button w-[157px] servise-button flex justify-start padding-button servise-border-gradient items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg  gap-2  mt-10 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -114,7 +114,7 @@ const DataProtection = () => {
                   No Data Breach{" "}
                 </span>
               </div>
-              <div className=" servises-button w-[140px] flex justify-start servise-button padding-button servise-border-gradient items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg   gap-2  mt-10 ">
+              <div className=" servises-button w-[112px] flex justify-start servise-button padding-button servise-border-gradient items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg   gap-2  mt-10 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -151,7 +151,7 @@ const DataProtection = () => {
                   Integrity{" "}
                 </span>
               </div>{" "}
-              <div className=" servises-button w-[147px] flex justify-start servise-button servise-border-gradient padding-button items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg   gap-2  mt-10 ">
+              <div className=" servises-button w-[103px] flex justify-start servise-button servise-border-gradient padding-button items-center px-2 py-3 bg-servise-gradient  bg-gradient-to-b from-white to-white rounded-full   backdrop-blur-lg   gap-2  mt-10 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"

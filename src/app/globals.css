@@ -1712,15 +1712,37 @@ body {
 }
 @media screen and (max-width: 1280px) {
   .padding-none {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
     margin: 0px;
   }
 }
+.active-tab {
+  color: #fff; 
+}
+
+.active-tab svg {
+  fill: #fff; 
+}
+
+.active-tab .urbanist {
+  color: #fff; 
+}
+
+.getintouch-gradient{
+  background: linear-gradient(94deg, #00CA96 5.14%, #0089D6 97.17%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.getintouch-bg{
+  background-image: url('../../public/Images/getintouch-Bg.png');
+  background-size: cover;
+}
 @media screen and (max-width: 460px) {
   .padding-none {
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
     margin: 0px;
   }
 }
@@ -3059,6 +3081,12 @@ body {
 @media screen and (max-width: 620px) {
   .ai-herosection-paragraph {
     text-align: center;
+  }
+}
+@media screen and (max-width: 520px) {
+  .ai-herosection-paragraph {
+    text-align: center;
+    font-size: 17px;
   }
 }
 @media screen and (max-width: 620px) {

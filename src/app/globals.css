@@ -1729,6 +1729,61 @@ body {
   color: #fff; 
 }
 
+@media screen and (max-width:1150px) {
+  .form-width{
+    width: 100%;
+    padding-bottom: 80px;
+  }
+  
+}
+@media screen and (max-width:560px) {
+  .form-width{
+    min-width: 505px;
+  }
+  
+}
+@media screen and (max-width:760px) {
+  .form-first-row{
+    flex-wrap: wrap;
+  }
+  
+}
+@media screen and (max-width:760px) {
+  .full-name{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:760px) {
+  .email{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:760px) {
+  .phone-number{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:760px) {
+  .form-second-row{
+    flex-wrap: wrap;
+  }
+  
+}
+@media screen and (max-width:760px) {
+  .enquiry{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:1150px) {
+  .image-width{
+    width: 100%;
+  }
+  
+}
 .getintouch-gradient{
   background: linear-gradient(94deg, #00CA96 5.14%, #0089D6 97.17%);
 background-clip: text;

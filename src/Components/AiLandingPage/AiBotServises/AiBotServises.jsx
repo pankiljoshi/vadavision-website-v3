@@ -3,6 +3,7 @@
 import Aos from "aos";
 import React, { useEffect, useState } from "react";
 import "aos/dist/aos.css";
+import Link from "next/link";
 const AiBotServises = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
@@ -565,29 +566,31 @@ const AiBotServises = () => {
                     </div>
                   </div>
                 </div>
-                <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#D53033] justify-center items-center gap-4 inline-flex">
-                  <div className="text-white text-xl font-light urbanist">
-                    Get in Touch
-                  </div>
-                  <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
-                    <div className="w-4 h-4 relative">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M5.52861 3.52858C5.78896 3.26823 6.21107 3.26823 6.47141 3.52858L10.4714 7.52858C10.7318 7.78892 10.7318 8.21103 10.4714 8.47138L6.47141 12.4714C6.21107 12.7317 5.78896 12.7317 5.52861 12.4714C5.26826 12.211 5.26826 11.7889 5.52861 11.5286L9.0572 7.99998L5.52861 4.47138C5.26826 4.21103 5.26826 3.78892 5.52861 3.52858Z"
-                          fill="white"
-                        />
-                      </svg>
+                <Link href="/contact-us">
+                  <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#D53033] justify-center items-center gap-4 inline-flex">
+                    <div className="text-white text-xl font-light urbanist">
+                      Get in Touch
+                    </div>
+                    <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+                      <div className="w-4 h-4 relative">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          fill="none"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            clipRule="evenodd"
+                            d="M5.52861 3.52858C5.78896 3.26823 6.21107 3.26823 6.47141 3.52858L10.4714 7.52858C10.7318 7.78892 10.7318 8.21103 10.4714 8.47138L6.47141 12.4714C6.21107 12.7317 5.78896 12.7317 5.52861 12.4714C5.26826 12.211 5.26826 11.7889 5.52861 11.5286L9.0572 7.99998L5.52861 4.47138C5.26826 4.21103 5.26826 3.78892 5.52861 3.52858Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </Link>
               </div>
             </div>
 
@@ -860,29 +863,31 @@ const AiBotServises = () => {
                     </div>
                   </div>
                 </div>
-                <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#D53033] justify-center items-center gap-4 inline-flex">
-                  <div className="text-white text-xl font-light urbanist">
-                    Get in Touch
-                  </div>
-                  <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
-                    <div className="w-4 h-4 relative">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M5.52861 3.52858C5.78896 3.26823 6.21107 3.26823 6.47141 3.52858L10.4714 7.52858C10.7318 7.78892 10.7318 8.21103 10.4714 8.47138L6.47141 12.4714C6.21107 12.7317 5.78896 12.7317 5.52861 12.4714C5.26826 12.211 5.26826 11.7889 5.52861 11.5286L9.0572 7.99998L5.52861 4.47138C5.26826 4.21103 5.26826 3.78892 5.52861 3.52858Z"
-                          fill="white"
-                        />
-                      </svg>
+                <Link href="/contact-us">
+                  <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#D53033] justify-center items-center gap-4 inline-flex">
+                    <div className="text-white text-xl font-light urbanist">
+                      Get in Touch
+                    </div>
+                    <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+                      <div className="w-4 h-4 relative">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          fill="none"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            clipRule="evenodd"
+                            d="M5.52861 3.52858C5.78896 3.26823 6.21107 3.26823 6.47141 3.52858L10.4714 7.52858C10.7318 7.78892 10.7318 8.21103 10.4714 8.47138L6.47141 12.4714C6.21107 12.7317 5.78896 12.7317 5.52861 12.4714C5.26826 12.211 5.26826 11.7889 5.52861 11.5286L9.0572 7.99998L5.52861 4.47138C5.26826 4.21103 5.26826 3.78892 5.52861 3.52858Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </Link>
               </div>
             </div>
 
@@ -1155,29 +1160,31 @@ const AiBotServises = () => {
                     </div>
                   </div>
                 </div>
-                <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#D53033] justify-center items-center gap-4 inline-flex">
-                  <div className="text-white text-xl font-light urbanist">
-                    Get in Touch
-                  </div>
-                  <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
-                    <div className="w-4 h-4 relative">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M5.52861 3.52858C5.78896 3.26823 6.21107 3.26823 6.47141 3.52858L10.4714 7.52858C10.7318 7.78892 10.7318 8.21103 10.4714 8.47138L6.47141 12.4714C6.21107 12.7317 5.78896 12.7317 5.52861 12.4714C5.26826 12.211 5.26826 11.7889 5.52861 11.5286L9.0572 7.99998L5.52861 4.47138C5.26826 4.21103 5.26826 3.78892 5.52861 3.52858Z"
-                          fill="white"
-                        />
-                      </svg>
+                <Link href="/contact-us">
+                  <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#D53033] justify-center items-center gap-4 inline-flex">
+                    <div className="text-white text-xl font-light urbanist">
+                      Get in Touch
+                    </div>
+                    <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+                      <div className="w-4 h-4 relative">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          fill="none"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            clipRule="evenodd"
+                            d="M5.52861 3.52858C5.78896 3.26823 6.21107 3.26823 6.47141 3.52858L10.4714 7.52858C10.7318 7.78892 10.7318 8.21103 10.4714 8.47138L6.47141 12.4714C6.21107 12.7317 5.78896 12.7317 5.52861 12.4714C5.26826 12.211 5.26826 11.7889 5.52861 11.5286L9.0572 7.99998L5.52861 4.47138C5.26826 4.21103 5.26826 3.78892 5.52861 3.52858Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </Link>
               </div>
             </div>
 
@@ -1449,29 +1456,31 @@ const AiBotServises = () => {
                     </div>
                   </div>
                 </div>
-                <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#D53033] justify-center items-center gap-4 inline-flex">
-                  <div className="text-white text-xl font-light urbanist">
-                    Get in Touch
-                  </div>
-                  <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
-                    <div className="w-4 h-4 relative">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M5.52861 3.52858C5.78896 3.26823 6.21107 3.26823 6.47141 3.52858L10.4714 7.52858C10.7318 7.78892 10.7318 8.21103 10.4714 8.47138L6.47141 12.4714C6.21107 12.7317 5.78896 12.7317 5.52861 12.4714C5.26826 12.211 5.26826 11.7889 5.52861 11.5286L9.0572 7.99998L5.52861 4.47138C5.26826 4.21103 5.26826 3.78892 5.52861 3.52858Z"
-                          fill="white"
-                        />
-                      </svg>
+                <Link href="/contact-us">
+                  <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#D53033] justify-center items-center gap-4 inline-flex">
+                    <div className="text-white text-xl font-light urbanist">
+                      Get in Touch
+                    </div>
+                    <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+                      <div className="w-4 h-4 relative">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          fill="none"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            clipRule="evenodd"
+                            d="M5.52861 3.52858C5.78896 3.26823 6.21107 3.26823 6.47141 3.52858L10.4714 7.52858C10.7318 7.78892 10.7318 8.21103 10.4714 8.47138L6.47141 12.4714C6.21107 12.7317 5.78896 12.7317 5.52861 12.4714C5.26826 12.211 5.26826 11.7889 5.52861 11.5286L9.0572 7.99998L5.52861 4.47138C5.26826 4.21103 5.26826 3.78892 5.52861 3.52858Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </Link>
               </div>
             </div>
 

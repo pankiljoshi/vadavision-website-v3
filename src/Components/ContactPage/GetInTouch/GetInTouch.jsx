@@ -5,7 +5,7 @@ import Link from "next/link";
 const GetInTouch = () => {
   return (
     <>
-      <div className="w-full px-4 md:px-8 lg:px-20 pt-6 pb-[67px] flex-col justify-start items-start gap-8 inline-flex getintouch-bg">
+      <div className="w-full px-4 md:px-20 lg:px-20 pt-6 pb-[67px] flex-col padding-industies justify-start items-start gap-8 inline-flex getintouch-bg">
         <div className=" justify-start items-center gap-2 inline-flex">
           <Link href="/">
             <div className="cursor-pointer">
@@ -76,9 +76,9 @@ const GetInTouch = () => {
           </div>
         </div>
         <div className="flex flex-wrap">
-          <div className="w-[60%] min-w-[550px] p-6  bg-neutral-900  flex-col justify-start items-start flex">
-            <div className="flex flex-row gap-10 w-full">
-              <div className="w-[380px] ">
+          <div className="w-[60%] min-w-[550px] p-6 form-width  bg-neutral-900  flex-col justify-start items-start flex">
+            <div className="flex flex-row gap-10 w-full form-first-row">
+              <div className="w-[50%] full-name  ">
                 <h1 className="text-[#CACACA] font-light urbanist">
                   Full Name
                 </h1>
@@ -89,11 +89,11 @@ const GetInTouch = () => {
                   <input
                     type="text"
                     placeholder="Your full name"
-                    className="border-none outline-none bg-[#8E8E8E] bg-opacity-5 urbanist  font-light  w-full py-3 text-[#8E8E8E] placeholder-[#8E8E8E] text-[16px] pl-4"
+                    className="border-none outline-none bg-[#8E8E8E] bg-opacity-5 urbanist  font-light  w-full py-3 text-white placeholder-[#8E8E8E] text-[16px] pl-4"
                   />
                 </div>
               </div>
-              <div className="w-[380px] ">
+              <div className="w-[50%] email ">
                 <h1 className="text-[#CACACA] font-light urbanist">Email</h1>
                 <div
                   className="mt-4"
@@ -102,19 +102,20 @@ const GetInTouch = () => {
                   <input
                     type="text"
                     placeholder="Your email"
-                    className="border-none outline-none bg-[#8E8E8E] urbanist bg-opacity-5  font-light  w-full py-3 text-[#8E8E8E] placeholder-[#8E8E8E] text-[16px] pl-4"
+                    className="border-none outline-none bg-[#8E8E8E] urbanist bg-opacity-5  font-light  w-full py-3 text-white placeholder-[#8E8E8E] text-[16px] pl-4"
                   />
                 </div>
               </div>
             </div>
-            <div className="flex flex-row gap-10 mt-4 w-full">
-              <div className="w-[340px]  ">
+
+            <div className="flex flex-row gap-10 mt-4 form-second-row w-[100%]">
+              <div className="w-[50%] phone-number  ">
                 <h1 className="text-[#CACACA] font-light urbanist">
                   Phone Number
                 </h1>
                 <div className="flex gap-6">
                   <div
-                    className="mt-4 w-[100px] py-3 bg-[#8E8E8E] bg-opacity-5 "
+                    className="mt-4 w-[20%] py-3 bg-[#8E8E8E] bg-opacity-5 "
                     style={{ border: "1px solid rgba(255, 255, 255, 0.16" }}
                   >
                     <div className="text-white pl-2 flex gap-2 urbanist ">
@@ -139,22 +140,23 @@ const GetInTouch = () => {
                       </svg>
                     </div>
                   </div>
+
                   <div
-                    className="mt-4"
+                    className="mt-4 phone-number"
                     style={{ border: "1px solid rgba(255, 255, 255, 0.16" }}
                   >
-                    <div className="w-[240px]">
+                    <div className="w-[30%] min-w-[230px] phone-number">
                       <input
                         type="text"
                         placeholder="Your phone number"
-                        className="border-none outline-none bg-[#8E8E8E] bg-opacity-5  urbanist font-light  w-[240px] py-3 text-[#8E8E8E] placeholder-[#8E8E8E] text-[16px] pl-4"
+                        className="border-none outline-none bg-[#8E8E8E] bg-opacity-5  urbanist font-light  w-full py-3 text-white placeholder-[#8E8E8E] text-[16px] pl-4"
                       />
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="w-[380px] ">
+              <div className="w-[50%] enquiry ">
                 <h1 className="text-[#CACACA] font-light urbanist">
                   Enquiry Type
                 </h1>
@@ -165,25 +167,27 @@ const GetInTouch = () => {
                   <input
                     type="text"
                     placeholder="Select Enquiry Type"
-                    className="border-none outline-none bg-[#8E8E8E] bg-opacity-5 urbanist font-light  w-full py-3 text-[#8E8E8E] placeholder-[#8E8E8E] text-[16px] pl-4"
+                    className="border-none outline-none bg-[#8E8E8E] bg-opacity-5 urbanist font-light  w-full py-3 text-white placeholder-[#8E8E8E] text-[16px] pl-4"
                   />
                 </div>
               </div>
             </div>
-            <div className="mt-4 flex-wrap">
+
+            <div className="mt-4 w-full flex-wrap">
               <div className="text-[#CACACA] font-light urbanist ">
                 Your Message
               </div>
               <textarea
+                style={{ border: "1px solid rgba(255, 255, 255, 0.16" }}
                 name="Enter your message"
                 id=""
                 cols="84"
-                className="mt-4 flex-wrap bg-[#8E8E8E] bg-opacity-5 pl-4 placeholder-[#8E8E8E] urbanist text-[16px] font-light text-amber-50 pt-3 border-none outline-none"
+                className="mt-4 flex-wrap bg-[#8E8E8E] w-full bg-opacity-5 pl-4 placeholder-[#8E8E8E] urbanist text-[16px] font-light text-white pt-3 border-none outline-none"
                 placeholder="Enter your message"
                 rows="7"
               ></textarea>
             </div>
-            <div className="w-full  flex justify-end mt-4">
+            <div className="w-full  flex justify-end mt-4 cursor-pointer">
               <div className="w-[211px]  px-10 py-3 bg-[#DD4243] hover:bg-[#D53033]  gap-4 ">
                 <div className="text-white text-xl font-light urbanist">
                   Send Message
@@ -191,8 +195,14 @@ const GetInTouch = () => {
               </div>
             </div>
           </div>
-          <div className="w-[40%] min-w-[420px]">
-            <Image src={GoogleMap} className="" />
+          <div className="w-[40%] min-w-[380px] image-width flex justify-center items-center">
+            <div className="w-[550px] h-[550px] image-width">
+              <Image
+                src={GoogleMap}
+                alt="Google Map"
+                className="w-full h-full"
+              />
+            </div>
           </div>
         </div>
       </div>

@@ -6,9 +6,9 @@ const ContactInfo = () => {
     <>
       <div
         data-aos="fade-up"
-        className="w-full  flex justify-between bg-[#0D0D0D] milesstone-padding  py-10 "
+        className="w-full  contact-info-content flex justify-between bg-[#0D0D0D]   py-10 "
       >
-        <div className="flex flex-col w-[33%] min-w-[70px] justify-start border-style-milestone  padding-between  ">
+        <div className="flex flex-col w-[33%] contact-info  justify-start border-style-milestone  padding-between  ">
           <div className="flex-col mx-auto">
             <span>
               <svg
@@ -32,7 +32,7 @@ const ContactInfo = () => {
             </p>
           </div>
         </div>{" "}
-        <div className="flex flex-col w-[33%] min-w-[70px]   border-style-milestone  padding-between   ">
+        <div className="flex flex-col w-[33%] contact-info    border-style-milestone1  padding-between   ">
           <div className="flex-col mx-auto">
             <span>
               <svg
@@ -63,7 +63,7 @@ const ContactInfo = () => {
             </p>
           </div>
         </div>{" "}
-        <div className="flex flex-col w-[33%] min-w-[70px]  padding-between ">
+        <div className="flex flex-col w-[33%] contact-info-address   ">
           <div className="flex-col mx-auto">
             <span>
               <svg

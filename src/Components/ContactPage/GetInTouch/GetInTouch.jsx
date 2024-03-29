@@ -5,7 +5,7 @@ import Link from "next/link";
 const GetInTouch = () => {
   return (
     <>
-      <div className="w-full px-4 md:px-20 lg:px-20 pt-6 pb-[67px] flex-col padding-industies justify-start items-start gap-8 inline-flex getintouch-bg">
+      <div className="w-full px-4 md:px-20 lg:px-20 pt-6 pb-[67px] flex-col getintouch-padding justify-start items-start gap-8 inline-flex getintouch-bg">
         <div className=" justify-start items-center gap-2 inline-flex">
           <Link href="/">
             <div className="cursor-pointer">
@@ -70,7 +70,7 @@ const GetInTouch = () => {
           <div className="text-emerald-500 text-[56px] font-bold getintouch-gradient urbanist">
             Get in Touch
           </div>
-          <div className="w-[386px] text-[#8E8E8E] text-base font-normal urbanist">
+          <div className="w-[386px] text-[#8E8E8E] text-base font-normal getintouch-paragraph urbanist">
             Having some doubt, or just want to know something? Drop us a message
             and we’ll connect back super soon.
           </div>

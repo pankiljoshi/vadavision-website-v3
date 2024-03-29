@@ -567,7 +567,7 @@ const AiBotServises = () => {
                   </div>
                 </div>
                 <Link href="/contact-us">
-                  <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#D53033] justify-center items-center gap-4 inline-flex">
+                  <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#DD4243] hover:bg-[#D53033] justify-center items-center gap-4 inline-flex">
                     <div className="text-white text-xl font-light urbanist">
                       Get in Touch
                     </div>

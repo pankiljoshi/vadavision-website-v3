@@ -37,7 +37,7 @@ const Benefits = () => {
           className="self-stretch flex-col justify-start  items-start gap-12 inline-flex"
         >
           <div className="justify-between items-start gap-6 flex-wrap inline-flex">
-            <div className="px-6 benefit-card-responsive h-[237px] p-10 w-[400px]  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="px-6 card-responsive h-[237px] p-10 w-[400px]  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <div className="w-8 h-8 left-0 top-0 absolute">
@@ -75,8 +75,9 @@ const Benefits = () => {
                 accurate response to the prompt. More accuracy, more user
                 satisfaction.
               </div>
+              <div className="hover-effect "></div>
             </div>
-            <div className="px-6 benefit-card-responsive p-10 h-[232px] w-[400px]  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="px-6 card-responsive p-10 h-[232px] w-[400px]  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <div className="w-[30.67px] h-[30.67px] left-[0.67px] top-[0.67px] absolute">
@@ -213,8 +214,9 @@ const Benefits = () => {
                 Ability to handle large volume of data, allowing businesses to
                 scale their operations smoothly and efficiently
               </div>
+              <div className="hover-effect "></div>
             </div>
-            <div className="px-6 benefit-card-responsive p-10  w-[400px] h-[237px]  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="px-6 card-responsive p-10  w-[400px] h-[237px]  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <svg
@@ -276,8 +278,9 @@ const Benefits = () => {
                 that is tailored to a specific task, application, or research
                 objective.
               </div>
+              <div className="hover-effect "></div>
             </div>
-            <div className="px-6 benefit-card-responsive p-10  w-[400px] h-[237px]  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="px-6 card-responsive p-10  w-[400px] h-[237px]  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <svg
@@ -317,8 +320,9 @@ const Benefits = () => {
                 and comply with relevant regulations, such as GDPR or HIPAA,
                 depending on the industry.
               </div>
+              <div className="hover-effect "></div>
             </div>
-            <div className="px-6  benefit-card-responsive p-10   w-[400px] h-[237px] bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="px-6  card-responsive p-10   w-[400px] h-[237px] bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <svg
@@ -349,8 +353,9 @@ const Benefits = () => {
                 AI bots can communicate in multiple languages, making them
                 accessible to users from different linguistic backgrounds.
               </div>
+              <div className="hover-effect "></div>
             </div>
-            <div className="px-6 benefit-card-responsive p-10  w-[400px] h-[237px] bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-6 inline-flex">
+            <div className="px-6 card-responsive p-10  w-[400px] h-[237px] bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <div className="w-8 h-8 left-0 top-[-0px] absolute">
@@ -400,6 +405,7 @@ const Benefits = () => {
                 interactions, measure performance metrics, & gain insights for
                 optimization.
               </div>
+              <div className="hover-effect "></div>
             </div>
           </div>
         </div>

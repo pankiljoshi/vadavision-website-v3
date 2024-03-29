@@ -4,8 +4,8 @@ import UiUxHerosectionImage from "../../../../public/Images/design-herosection.p
 const UiUxHerosection = () => {
   return (
     <>
-      <div className="w-full pl-20 py-20  flex flex-row ">
-        <div className=" w-[70%] flex-col justify-start items-start gap-2 inline-flex">
+      <div className="w-full    flex flex-row ">
+        <div className=" w-[70%] py-20 pl-20 flex-col justify-start items-start gap-2 inline-flex">
           <div className="justify-start items-center gap-3 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,10 @@ const UiUxHerosection = () => {
             </div>
           </div>
         </div>
-        <Image src={UiUxHerosectionImage} />
+
+        <div className="w-[30%] flex h-[420px] justify-end">
+          <Image src={UiUxHerosectionImage} />
+        </div>
       </div>
     </>
   );

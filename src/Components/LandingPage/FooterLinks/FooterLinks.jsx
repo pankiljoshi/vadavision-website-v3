@@ -23,40 +23,42 @@ const FooterLinks = () => {
         className="Container  w-full flex-wrap px-20 border-style pb-16  justify-between items-center inline-flex padding-industies mt-20 "
       >
         <div className="LogoAndText w-72 flex-col   justify-start items-start gap-4 inline-flex">
-          <div className=" responsive-footer-link-logo cursor-pointer  ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="50"
-              height="31"
-              viewBox="0 0 50 31"
-              fill="none"
-              className="footer-logo"
-            >
-              <path
-                id="Union"
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M27.1027 4.40261L40.9164 19.5665L49.9564 19.5577L49.9633 26.5299L37.8388 26.5417L24.0226 11.3748H13.5232C12.2975 13.6061 9.92484 15.1222 7.2044 15.1222C3.23197 15.1222 0 11.8903 0 7.91777C0 3.94524 3.23186 0.713263 7.2044 0.713379C9.9009 0.713379 12.2547 2.20334 13.4896 4.40261H27.1027ZM4.64826 7.91777C4.64826 9.32744 5.79496 10.474 7.20451 10.474C8.61395 10.474 9.76076 9.32733 9.76076 7.91777C9.76076 6.50834 8.61406 5.36153 7.20451 5.36153C5.79496 5.36153 4.64826 6.50834 4.64826 7.91777ZM37.0445 6.00064L34.4741 9.06842L39.2129 14.2697L40.3006 12.9729H49.9641V6.00064H37.0445ZM25.6569 19.5959H21.5207C20.2903 17.3806 17.9272 15.8776 15.2187 15.8776C11.2462 15.8776 8.01434 19.1095 8.01434 23.082C8.01434 27.0546 11.2463 30.2864 15.2187 30.2864C17.9273 30.2864 20.2905 28.7832 21.5207 26.5681H28.9118L31.6831 23.2592L26.945 18.058L25.6569 19.5959ZM15.2186 25.6383C13.8091 25.6383 12.6624 24.4915 12.6624 23.082C12.6624 21.6724 13.8091 20.5258 15.2186 20.5258C16.6282 20.5258 17.7749 21.6724 17.7749 23.082C17.7749 24.4915 16.6282 25.6383 15.2186 25.6383Z"
-                fill="url(#paint0_linear_128_428)"
-              />
-              <defs>
-                <linearGradient
-                  id="paint0_linear_128_428"
-                  x1="0"
-                  y1="0.713379"
-                  x2="52.0709"
-                  y2="10.6071"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stopColor="#E12223" />
-                  <stop offset="1" stopColor="#FB5F60" />
-                </linearGradient>
-              </defs>
-            </svg>
-            <div className="Vadavision footer-logo-text cursor-pointer mt-3 text-white text-[32px] font-bold prompt leading-10">
-              VadaVision!
+          <Link href="/">
+            <div className=" responsive-footer-link-logo cursor-pointer  ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="31"
+                viewBox="0 0 50 31"
+                fill="none"
+                className="footer-logo"
+              >
+                <path
+                  id="Union"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M27.1027 4.40261L40.9164 19.5665L49.9564 19.5577L49.9633 26.5299L37.8388 26.5417L24.0226 11.3748H13.5232C12.2975 13.6061 9.92484 15.1222 7.2044 15.1222C3.23197 15.1222 0 11.8903 0 7.91777C0 3.94524 3.23186 0.713263 7.2044 0.713379C9.9009 0.713379 12.2547 2.20334 13.4896 4.40261H27.1027ZM4.64826 7.91777C4.64826 9.32744 5.79496 10.474 7.20451 10.474C8.61395 10.474 9.76076 9.32733 9.76076 7.91777C9.76076 6.50834 8.61406 5.36153 7.20451 5.36153C5.79496 5.36153 4.64826 6.50834 4.64826 7.91777ZM37.0445 6.00064L34.4741 9.06842L39.2129 14.2697L40.3006 12.9729H49.9641V6.00064H37.0445ZM25.6569 19.5959H21.5207C20.2903 17.3806 17.9272 15.8776 15.2187 15.8776C11.2462 15.8776 8.01434 19.1095 8.01434 23.082C8.01434 27.0546 11.2463 30.2864 15.2187 30.2864C17.9273 30.2864 20.2905 28.7832 21.5207 26.5681H28.9118L31.6831 23.2592L26.945 18.058L25.6569 19.5959ZM15.2186 25.6383C13.8091 25.6383 12.6624 24.4915 12.6624 23.082C12.6624 21.6724 13.8091 20.5258 15.2186 20.5258C16.6282 20.5258 17.7749 21.6724 17.7749 23.082C17.7749 24.4915 16.6282 25.6383 15.2186 25.6383Z"
+                  fill="url(#paint0_linear_128_428)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_128_428"
+                    x1="0"
+                    y1="0.713379"
+                    x2="52.0709"
+                    y2="10.6071"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stopColor="#E12223" />
+                    <stop offset="1" stopColor="#FB5F60" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <div className="Vadavision footer-logo-text cursor-pointer mt-3 text-white text-[32px] font-bold prompt leading-10">
+                VadaVision!
+              </div>
             </div>
-          </div>
+          </Link>
 
           <div className="TitleAndSubtitle flex-col justify-start items-start gap-2 flex">
             <div className=" w-72 text-white text-opacity-80 text-[16px] leading-tight font-normal urbanist">
@@ -71,15 +73,24 @@ const FooterLinks = () => {
               Services
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
-              <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
-                Mobile App Development
-              </div>
-              <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
-                UI/ UX Design
-              </div>
-              <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
-                AI Services
-              </div>
+              <Link href="/app-development">
+                {" "}
+                <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
+                  Mobile App Development
+                </div>
+              </Link>
+              <Link href="/ui-ux">
+                {" "}
+                <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
+                  UI/ UX Design
+                </div>
+              </Link>
+              <Link href="/ai-bot-landing">
+                {" "}
+                <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
+                  AI Services
+                </div>
+              </Link>
             </div>
           </div>
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
@@ -90,12 +101,16 @@ const FooterLinks = () => {
               <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
                 Blog
               </div>
-              <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
-                Careers
-              </div>
-              <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
-                Contact Us
-              </div>
+              <Link href="/careers">
+                <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
+                  Careers
+                </div>
+              </Link>
+              <Link href="/contact-us">
+                <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
+                  Contact Us
+                </div>
+              </Link>
             </div>
           </div>
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">

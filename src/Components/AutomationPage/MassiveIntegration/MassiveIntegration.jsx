@@ -1,9 +1,26 @@
+import Image from "next/image";
 import React from "react";
+import Gmail from "../../../../public/Images/gamil.png";
+import Zapier from "../../../../public/Images/zapier.png";
+import Zoom from "../../../../public/Images/zoom.png";
+import Discord from "../../../../public/Images/discord.png";
+import Linkdin from "../../../../public/Images/linkdin.png";
+import Monkey from "../../../../public/Images/monkey.png";
+import Zoho from "../../../../public/Images/zoho.png";
+import Nbox from "../../../../public/Images/nbox.png";
+import OpenAi from "../../../../public/Images/openai.png";
+import Asana from "../../../../public/Images/asana.png";
+import Git from "../../../../public/Images/git.png";
+import Github from "../../../../public/Images/github.png";
+import GoogleMeet from "../../../../public/Images/googlemeet.png";
+import Smile from "../../../../public/Images/smile.png";
+import Slack from "../../../../public/Images/slack.png";
+import Share from "../../../../public/Images/share.png";
 
 const MassiveIntegration = () => {
   return (
     <>
-      <div className="px-20 flex flex-col w-full py-20">
+      <div className="px-20 flex flex-col w-full py-20 automation-domain-bg">
         <div className=" justify-start items-center gap-[685px] inline-flex">
           <div className="w-[527px]">
             <span className="text-neutral-400 text-[40px] font-semibold urbanist">
@@ -15,8 +32,60 @@ const MassiveIntegration = () => {
             </span>
           </div>
         </div>
+        <div className="flex gap-12 flex-row pt-16 ">
+          <div className="w-[100px] h-[100px] pt-10">
+            <Image src={Zapier} />
+          </div>
+          <div className="w-[130px] h-[130px] pt-12 ">
+            <Image src={Gmail} />
+          </div>
+          <div className="w-[91px] h-[91px] ">
+            <Image src={Discord} />
+          </div>
+          <div className="w-[80px] h-[80px pt-6 ">
+            <Image src={Linkdin} />
+          </div>{" "}
+          <div className="w-[140px] h-[140px] pt-16 ">
+            <Image src={Share} />
+          </div>{" "}
+          <div className="w-[91px] h-[91px] pt-20 ">
+            <Image src={Nbox} />
+          </div>
+          <div className="w-[136px] h-[136px] ">
+            <Image src={Monkey} />
+          </div>{" "}
+          <div className="w-[91px] h-[91px] pt-16 ">
+            <Image src={Zoom} />
+          </div>{" "}
+          <div className="w-[91px] h-[91px] pt-12 ">
+            <Image src={Zoho} />
+          </div>
+        </div>
+        <div className="flex gap-16 mt-4 flex-row pb-16">
+          <div className="w-[136px] h-[136px] pt-20 ">
+            <Image src={OpenAi} />
+          </div>
+          <div className="w-[91px] h-[91px] pt-20 ">
+            <Image src={Asana} />
+          </div>{" "}
+          <div className="w-[136px] h-[136px] ">
+            <Image src={Github} />
+          </div>{" "}
+          <div className="w-[110px] h-[110px] pt-20 ">
+            <Image src={Git} />
+          </div>{" "}
+          <div className="w-[91px] h-[91px] pt-20 ">
+            <Image src={GoogleMeet} />
+          </div>{" "}
+          <div className="w-[116px] h-[116px] pt-10 ">
+            <Image src={Smile} />
+          </div>
+          <div className="w-[140px] h-[140px] pt-14 ">
+            <Image src={Slack} />
+          </div>
+        </div>
 
-        <div className="w-[380px] h-[48px]  py-4  justify-center  items-center bg-red-600 mx-auto  gap-4 inline-flex">
+        <div className="w-[380px] h-[48px]  py-4 mt-20   justify-center  items-center bg-red-600 mx-auto  gap-4 inline-flex">
           <div className="text-white text-xl font-light  urbanist">
             View all Integrations
           </div>

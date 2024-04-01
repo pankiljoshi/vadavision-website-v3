@@ -3697,3 +3697,13 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.massive-integration-bg{
+  background-image: url('../../public/Images/massive-integration-bg.png');
+  background-size: cover;
+
+}
+
+.BenefitResourceAugmentation-bg{
+  background-image: url('../../public//Images/benefit-resource.png');
+  background-size: cover;
+}

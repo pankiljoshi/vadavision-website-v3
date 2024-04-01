@@ -3707,3 +3707,8 @@ body {
   background-image: url('../../public//Images/benefit-resource.png');
   background-size: cover;
 }
+
+.resource-herosection-bg{
+background-image: url('../../public/Images/resource-herosection-bg.png');
+background-size: cover;
+}

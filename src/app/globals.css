@@ -4006,7 +4006,12 @@ body {
     text-align: center;
   }
 }
-
+@media screen and (max-width:480px) {
+  .uplift-productivity{
+    font-size: 11px;
+  }
+  
+}
 .uplift-productivity {
   background: var(
     --Linear-600,

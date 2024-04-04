@@ -20,7 +20,7 @@ import Share from "../../../../public/Images/share.png";
 const MassiveIntegration = () => {
   return (
     <>
-      <div className="px-20 flex flex-col w-full py-20 automation-domain-bg">
+      <div className="px-20 flex flex-col w-full py-20 massive-integration-bg">
         <div className=" justify-start items-center gap-[685px] inline-flex">
           <div className="w-[527px]">
             <span className="text-neutral-400 text-[40px] font-semibold urbanist">
@@ -34,7 +34,7 @@ const MassiveIntegration = () => {
         </div>
         <div className="flex gap-12 flex-row pt-16 ">
           <div className="w-[100px] h-[100px] pt-10">
-            <Image src={Zapier} />
+            <Image src={Zapier} width={100} />
           </div>
           <div className="w-[130px] h-[130px] pt-12 ">
             <Image src={Gmail} />

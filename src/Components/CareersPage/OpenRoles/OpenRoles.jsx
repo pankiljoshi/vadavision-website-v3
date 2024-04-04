@@ -13,7 +13,7 @@ const OpenRoles = () => {
             Open Roles
           </span>
         </div>
-        <div className="w-full justify-center items-center gap-6 pt-10   inline-flex">
+        {/* <div className="w-full justify-center items-center gap-6 pt-10   inline-flex">
           <div className="p-4 bg-gradient-to-r  cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-20 backdrop-blur-[80px] justify-center items-center gap-2.5 flex">
             <div className=" text-zinc-100 text-xl font-semibold urbanist">
               All Roles{" "}
@@ -39,7 +39,7 @@ const OpenRoles = () => {
               HR & Administration
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="w-full flex-col justify-start pt-20 items-start gap-14 inline-flex">
           <div className="flex-col w-full justify-start items-start gap-8 flex">
             <div className="self-stretch roles-wrap justify-between items-center inline-flex">

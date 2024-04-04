@@ -11,7 +11,6 @@ import AutomationDomain from "./AutomationDomain/AutomationDomain";
 import HowItsWork from "./HowItsWork/HowItsWork";
 import AutomationTemplate from "./AutomationTemplate/AutomationTemplate";
 import OurPromises from "./OurPromises/OurPromises";
-import MassiveIntegration from "./MassiveIntegration/MassiveIntegration";
 
 const Automation = () => {
   return (
@@ -31,9 +30,9 @@ const Automation = () => {
       <div>
         <AutomationTemplate />
       </div>
-      <div>
+      {/* <div>
         <MassiveIntegration />
-      </div>
+      </div> */}
       <div>
         <OurPromises />
       </div>

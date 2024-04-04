@@ -8,7 +8,6 @@ import FooterLinks from "../LandingPage/FooterLinks/FooterLinks";
 import Footer from "../LandingPage/Footer/Footer";
 import PerksAndBenefit from "./PerksAndBenefit/PerksAndBenefit";
 import CareerHerosection from "./CareerHerosection/CareerHerosection";
-import AmbitiousTeam from "./AmbitiousTeam/AmbitiousTeam";
 import OpenRoles from "./OpenRoles/OpenRoles";
 import Map from "./Map/Map";
 
@@ -24,9 +23,9 @@ const Careers = () => {
       <div>
         <MileStone />
       </div>
-      <div>
+      {/* <div>
         <AmbitiousTeam />
-      </div>
+      </div> */}
       <div>
         <PerksAndBenefit />
       </div>

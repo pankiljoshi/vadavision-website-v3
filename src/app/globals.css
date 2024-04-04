@@ -2615,6 +2615,40 @@ body {
   }
   
 }
+@media screen and (max-width:1300px) {
+  .automationHerosection-heading{
+    width: 710px;
+  
+  }
+  
+}
+@media screen and (max-width:1200px) {
+  .automationHerosection-heading{
+    width: 550px;
+  
+  }
+  
+}
+@media screen and (max-width:1100px) {
+  .automationHerosection-heading{
+    width: 500px;
+  
+  }
+  
+}
+@media screen and (max-width:1050px) {
+  .automationHerosection-heading{
+    width: 100%;
+  
+  }
+  
+}
+@media screen and (max-width:1050px) {
+  .automation-image{
+    width: 100%;
+  }
+  
+}
 @media screen and (max-width: 580px) {
   .uiuxhersection-heading {
     width: 100%;
@@ -2723,6 +2757,22 @@ body {
     border: none;
   }
 }
+.border-style-milestone30{
+  border-width: 0px 2px 0px 0px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #dd424300, #aca4a4, #dd424300);
+  border-image-slice: 1;
+}
+@media screen and (max-width:930px) {
+  .border-style-milestone30{
+    border-width: 0px 2px 0px 0px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #dd424300, #aca4a4, #dd424300);
+    border-image-slice: 1;
+    border: none;
+  }
+  
+}
 .border-style-milestone2 {
   border-width: 0px 2px 0px 0px;
   border-style: solid;
@@ -2747,7 +2797,18 @@ body {
   border-image: linear-gradient(to bottom, #dd424300, #aca4a4, #dd424300);
   border-image-slice: 1;
 }
-
+@media screen  and (max-width:930px) {
+.show-promises-border{
+  display: block;
+}
+  
+}
+.border-style-milestone40 {
+  border-width: 0px 0px 2px 0px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #dd424300, #aca4a4, #dd424300);
+  border-image-slice: 1;
+}
 @media screen and (max-width: 920px) {
   .border-style-milestone3 {
     border-width: 0px 0px 2px 0px;
@@ -3955,7 +4016,173 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+@media screen and (max-width:1300px) {
+  .automation-heading{
+    font-size: 59px;
+  }
+  
+}
+@media screen and (max-width:1200px) {
+  .automation-heading{
+    font-size: 55px;
+  }
+  
+}
+@media screen and (max-width:1050px) {
+  .left-side-automation{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:1100px) {
+  .automation-heading{
+    font-size: 50px;
+  }
+  
+}
+@media screen and (max-width:620px) {
+  .automation-heading{
+    font-size: 47px;
+  }
+  
+}
+@media screen and (max-width:585px) {
+  .automation-heading{
+    font-size: 42px;
+  }
+  
+}
+@media screen and (max-width:530px) {
+  .automation-heading{
+    font-size: 35px;
+  }
+  
+}
+@media screen and (max-width:460px) {
+  .automation-heading{
+    font-size: 30px;
+  }
+  
+}
+@media screen and (max-width:1350px) {
+  .responsive-section-automation{
+    gap: 100px;
+  }
+  
+}
+@media screen and (max-width:1280px) {
+  .responsive-section-automation{
+    gap: 50px;
+  }
+  
+}
+@media screen and (max-width:1220px) {
+  .aumtomation-cards{
+    width: 580px;
+  }
+  
+}
+@media screen and (max-width:1110px) {
+  .aumtomation-cards{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:700px) {
+  .aumtomation-cards{
+    width: 100%;
+    height: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 25px;
+  }
+  
+}
+@media screen and (max-width:930px) {
+  .promises-wrap{
+    flex-direction: column;
+  }
+  
+}
+@media screen and (max-width:930px) {
+  .promises-cards{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:750px) {
+  .automation-templated-cards{
+    width: 100%;
+    height: 250px;
+  }
+  
+}
+@media screen and (max-width:1120px) {
+  .responsive-section-automation{
+    gap: 20px;
+  }
+  
+}
+@media screen and (max-width:780px) {
+  .automation-cards-width{
+    width: 370px;
+  }
+  
+}
+@media screen and (max-width:680px) {
+  .automation-cards-width{
+    width: 280px;
+  }
+  
+}
+@media screen and (max-width:510px) {
+  .automation-cards-width{
+    width: 220px;
+  }
+  
+}
+@media screen and (max-width:1110px) {
+  .flowchat-image{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:1110px) {
+  .responsive-section-automation{
+    flex-direction: column-reverse;
+  }
+  
+}
+@media screen and (max-width:1110px) {
+  .automation-cards-leftside{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:400px) {
+  .automation-heading{
+    font-size: 28px;
+  }
+  
+}
+@media screen and (max-width:1284px) {
+  .responsive-automation{
+    gap: 60px;
+  }
+  
+}
+@media screen and (max-width:1050px) {
+  .responsive-automation{
+    flex-direction: column;
+  }
+  
+}
+@media screen and (max-width:1050px) {
+  .left-side-automation-content{
+    width: 100%;
+  }
+  
+}
 .automation-heading {
   background: linear-gradient(
     94deg,

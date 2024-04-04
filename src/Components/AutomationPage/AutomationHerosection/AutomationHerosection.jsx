@@ -4,8 +4,8 @@ import AutomationHerosectionImage from "../../../../public/Images/automation-her
 const AutomationHerosection = () => {
   return (
     <>
-      <div className="w-full px-20 py-20 flex flex-row gap-16 automation-bg  bg-gradient-to-br from-black to-zinc-950">
-        <div className=" w-[58%]  min-w-[555px] flex-col justify-start items-start gap-2 inline-flex">
+      <div className="w-full px-20 py-20 responsive-automation padding-industies flex flex-row gap-32 automation-bg  bg-gradient-to-br from-black to-zinc-950">
+        <div className=" w-[60%]  left-side-automation  flex-col justify-start items-start gap-2 inline-flex">
           <div className="justify-start items-center gap-3 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -38,13 +38,13 @@ const AutomationHerosection = () => {
               UPLIFT YOUR PRODUCTIVITY
             </div>
           </div>
-          <div className="h-[402px] flex-col justify-start items-start gap-10 flex">
-            <div className="self-stretch h-[314px] flex-col justify-start items-start gap-6 flex">
-              <div className="self-stretch">
-                <span className="text-neutral-100 automation-heading text-[64px] font-bold  prompt">
+          <div className="left-side-automation-content flex-col justify-start items-start gap-10 flex">
+            <div className="self-stretch w-[850px] automationHerosection-heading   flex-col justify-start items-start gap-6 flex">
+              <div className="leading-tight uiuxhersection-heading">
+                <span className="text-neutral-100 automation-heading leading-tight text-[64px] font-bold  prompt">
                   Supercharge your workflow -{" "}
                 </span>
-                <span className="text-orange-400 text-[64px] automate-it font-bold prompt">
+                <span className="text-orange-400 text-[64px] automation-heading  automate-it font-bold prompt">
                   automate it
                 </span>
               </div>
@@ -99,7 +99,11 @@ const AutomationHerosection = () => {
             </div>
           </div>
         </div>
-        <Image src={AutomationHerosectionImage} width={520} />
+        <Image
+          src={AutomationHerosectionImage}
+          width={400}
+          className="automation-image"
+        />
       </div>
     </>
   );

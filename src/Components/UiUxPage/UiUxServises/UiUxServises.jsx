@@ -332,7 +332,7 @@ const UiUxServises = () => {
             data-aos="fade-up"
             className="flex flex-row gap-32 chapgpt-content responsiveServises mt-16"
           >
-            <div className="flex flex-col">
+            <div className="flex flex-col padding-manage">
               <div className=" flex-col w-[800px] responsive-content-aiservises justify-start items-start gap-8 inline-flex">
                 <div className="flex-col w-[580px]  servises-paragraph justify-start items-start gap-6 flex">
                   <div className="text-white text-[32px] ai-bot-servise-heading  font-normal urbanist">
@@ -605,7 +605,7 @@ const UiUxServises = () => {
             data-aos="fade-up"
             className="flex flex-row gap-32 chapgpt-content responsiveServises mt-16"
           >
-            <div className="flex flex-col">
+            <div className="flex flex-col padding-manage">
               <div className=" flex-col w-[800px] responsive-content-aiservises justify-start items-start gap-8 inline-flex">
                 <div className="flex-col w-[580px]  servises-paragraph justify-start items-start gap-6 flex">
                   <div className="text-white text-[32px] ai-bot-servise-heading  font-normal urbanist">
@@ -878,7 +878,7 @@ const UiUxServises = () => {
             data-aos="fade-up"
             className="flex flex-row gap-32 chapgpt-content responsiveServises mt-16"
           >
-            <div className="flex flex-col">
+            <div className="flex flex-col padding-manage">
               <div className=" flex-col w-[800px] responsive-content-aiservises justify-start items-start gap-8 inline-flex">
                 <div className="flex-col w-[580px]  servises-paragraph justify-start items-start gap-6 flex">
                   <div className="text-white text-[32px] ai-bot-servise-heading  font-normal urbanist">
@@ -1150,7 +1150,7 @@ const UiUxServises = () => {
             data-aos="fade-up"
             className="flex flex-row gap-32 chapgpt-content responsiveServises mt-16"
           >
-            <div className="flex flex-col">
+            <div className="flex flex-col padding-manage">
               <div className=" flex-col w-[800px] responsive-content-aiservises justify-start items-start gap-8 inline-flex">
                 <div className="flex-col w-[580px]  servises-paragraph justify-start items-start gap-6 flex">
                   <div className="text-white text-[32px] ai-bot-servise-heading  font-normal urbanist">

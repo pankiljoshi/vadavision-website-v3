@@ -4012,6 +4012,12 @@ body {
   }
   
 }
+@media screen and (max-width: 950px) {
+  .padding-manage{
+    padding-top: 40px;
+  }
+  
+}
 .uplift-productivity {
   background: var(
     --Linear-600,

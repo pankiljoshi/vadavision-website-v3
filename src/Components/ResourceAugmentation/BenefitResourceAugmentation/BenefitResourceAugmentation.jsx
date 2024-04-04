@@ -3,17 +3,17 @@ import React from "react";
 const BenefitResourceAugmentation = () => {
   return (
     <>
-      <div className="w-full px-20 py-20 bg-gradient-to-r BenefitResourceAugmentation-bg  from-zinc-950 to-zinc-950">
+      <div className="w-full px-20 py-20 bg-gradient-to-r BenefitResourceAugmentation-bg padding-industies  from-zinc-950 to-zinc-950">
         <div className=" ">
-          <span className="text-neutral-400 text-[40px] font-semibold urbanist">
+          <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
             Benefits you get from <br />
           </span>
-          <span className="text-cyan-400 text-[56px] gradient-heading font-bold urbanist">
+          <span className="text-cyan-400 text-[56px] gradient-heading font-change-2 font-bold urbanist">
             Resource Augmentation{" "}
           </span>
         </div>
-        <div className="mt-16 justify-start items-center gap-10 inline-flex">
-          <div className="flex-col p-4 justify-start border-style-milestone items-start gap-6 inline-flex">
+        <div className="mt-16 w-full cards-benefits  justify-start items-center gap-10 inline-flex">
+          <div className="flex-col benefit-cards p-4 justify-start border-style-milestone2 items-start gap-6 inline-flex">
             <div className="flex-col justify-start items-start gap-4 flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,14 +37,14 @@ const BenefitResourceAugmentation = () => {
               <div className="self-stretch text-white text-xl font-semibold urbanist">
                 Get top talent pool{" "}
               </div>
-              <div className="w-[380px] h-20 text-neutral-400 text-base font-medium urbanist">
+              <div className="w-[380px] benifit-cards-width h-20 text-neutral-400 text-base font-medium urbanist">
                 We deliver some really impactful stuffs, every moment. Our team
                 is way too dedicated on this mission
               </div>
             </div>
           </div>
 
-          <div className="flex-col p-4 justify-start items-start gap-6 inline-flex">
+          <div className="flex-col benefit-cards p-4 justify-start border-style-milestone3 items-start gap-6 inline-flex">
             <div className="flex-col justify-start items-start gap-4 flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +104,7 @@ const BenefitResourceAugmentation = () => {
               <div className="self-stretch text-white text-xl font-semibold urbanist">
                 Synchronised communications{" "}
               </div>
-              <div className="w-[380px] h-20 text-neutral-400 text-base font-medium urbanist">
+              <div className="w-[380px] benifit-cards-width h-20 text-neutral-400 text-base font-medium urbanist">
                 We like taking up challenging projects and carve it out as a
                 really beautiful product for the awesome users
               </div>
@@ -112,8 +112,8 @@ const BenefitResourceAugmentation = () => {
           </div>
         </div>
 
-        <div className=" mt-8 justify-start items-center gap-10 inline-flex">
-          <div className="flex-col  p-4 justify-start border-style-milestone items-start gap-6 inline-flex">
+        <div className=" mt-8 w-full cards-benefits justify-start items-center gap-10 inline-flex">
+          <div className="flex-col  p-4 benefit-cards justify-start border-style-milestone2 items-start gap-6 inline-flex">
             <div className="flex-col justify-start items-start gap-4 flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -150,14 +150,14 @@ const BenefitResourceAugmentation = () => {
               <div className="self-stretch text-white text-xl font-semibold urbanist">
                 Reduced hiring time{" "}
               </div>
-              <div className="w-[380px] h-20 text-neutral-400 text-base font-medium urbanist">
+              <div className="w-[380px] benifit-cards-width h-20 text-neutral-400 text-base font-medium urbanist">
                 We’re a transparent start-up, every idea & contributions find
                 support, and you have your own responsibility
               </div>
             </div>
           </div>
 
-          <div className="flex-col p-4 justify-start items-start gap-6 inline-flex">
+          <div className="flex-col p-4 benefit-cards justify-start border-style-milestone3 items-start gap-6 inline-flex">
             <div className="flex-col justify-start items-start gap-4 flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -217,7 +217,7 @@ const BenefitResourceAugmentation = () => {
               <div className="self-stretch text-white text-xl font-semibold urbanist">
                 Optimised team{" "}
               </div>
-              <div className="w-[380px] h-20 text-neutral-400 text-base font-medium urbanist">
+              <div className="w-[380px] benifit-cards-width h-20 text-neutral-400 text-base font-medium urbanist">
                 Every VadaVisioner’s are there for each other in every aspect of
                 life, promoting growth of every one working
               </div>

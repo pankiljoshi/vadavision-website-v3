@@ -3,14 +3,14 @@ import React from "react";
 const DevelopmentDesign = () => {
   return (
     <>
-      <div className="w-full px-20  bg-gradient-to-r from-zinc-950 to-zinc-950 justify-center items-center inline-flex">
+      <div className="w-full px-20  py-20 bg-gradient-to-r from-zinc-950 to-zinc-950 padding-industies justify-start items-start inline-flex">
         <div className="self-stretch flex-col justify-start items-start gap-14 inline-flex">
           <div className=" leading-tight">
-            <span className="text-neutral-400 text-[40px] font-semibold urbanist">
+            <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
               Why you should go for
               <br />
             </span>
-            <span className="text-cyan-400 text-[56px] development-vadavision font-bold urbanist">
+            <span className="text-cyan-400 text-[56px] development-vadavision font-change-2 font-bold urbanist">
               Development with VadaVision!
             </span>
           </div>

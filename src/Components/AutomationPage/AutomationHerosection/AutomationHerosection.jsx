@@ -99,7 +99,7 @@ const AutomationHerosection = () => {
             </div>
           </div>
         </div>
-        <Image src={AutomationHerosectionImage} width={460} />
+        <Image src={AutomationHerosectionImage} width={520} />
       </div>
     </>
   );

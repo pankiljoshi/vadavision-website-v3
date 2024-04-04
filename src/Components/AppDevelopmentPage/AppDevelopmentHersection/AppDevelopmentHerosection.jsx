@@ -4,8 +4,8 @@ import MobileAPP from "../../../../public/Images/herosection-app-dev.png";
 const AppDevelopmentHerosection = () => {
   return (
     <>
-      <div className="w-full px-20 flex flex-row gap-48 py-20 bg-gradient-to-l from-black to-zinc-950">
-        <div className=" w-[50%] flex-col justify-start items-start gap-2 inline-flex">
+      <div className="w-full px-20 flex flex-row gap-48 app-development-herosection padding-industies py-20 bg-gradient-to-l from-black to-zinc-950">
+        <div className=" w-[50%] app-development-leftside flex-col justify-start items-start gap-2 inline-flex">
           <div className="justify-start items-center gap-3 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -40,10 +40,10 @@ const AppDevelopmentHerosection = () => {
           </div>
           <div className="flex-col justify-start items-start gap-10 flex">
             <div className="flex-col justify-start items-start gap-6 flex">
-              <div className="w-[820px] text-neutral-100  text-color-gradient  leading-tight text-[64px] font-bold prompt">
+              <div className="w-[820px] text-neutral-100 app-development-heading  text-color-gradient  leading-tight text-[64px] font-bold prompt">
                 Your Hassle-Free Mobile App Journey Begins Here
               </div>
-              <div className=" text-neutral-400 text-xl font-medium urbanist">
+              <div className=" text-neutral-400 app-development-paragraph text-xl font-medium urbanist">
                 We develop innovative and scalable mobile apps for every device,
                 every way - be it Native, Hybrid or Cross-Platform. Our team
                 consists of top level developers having multiple years of

@@ -1,11 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import UiUxHerosectionImage from "../../../../public/Images/design-herosection.png";
+import UiUxHerosectionImage from "../../../../public/Images/uiux-hersection.png";
+import MobileUiUxHerosectionImage from "../../../../public/Images/uiux-mobile-herosection.png";
+
 const UiUxHerosection = () => {
   return (
     <>
-      <div className="w-full    flex flex-row ">
-        <div className=" w-[70%] py-20 pl-20 flex-col justify-start items-start gap-2 inline-flex">
+      <div className="w-full uiux-responsive  padding-industies flex flex-row ">
+        <div className=" w-[60%] uiux-leftside py-20 pl-20 flex-col justify-start items-start gap-2 inline-flex">
           <div className="justify-start items-center gap-3 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -38,12 +40,12 @@ const UiUxHerosection = () => {
               PUSH YOUR BRAND POTENTIAL
             </div>
           </div>
-          <div className="flex-col justify-start items-start gap-10 flex">
-            <div className="flex-col justify-start items-start gap-6 flex">
-              <div className="w-[850px] text-neutral-100 text-[64px] text-color-gradient font-bold  prompt ">
+          <div className="flex-col uiux-herosection-content justify-start items-start gap-10 flex">
+            <div className="flex-col leftside-content-uiux justify-start items-start gap-6 flex">
+              <div className="w-[850px] leading-tight uiuxhersection-heading text-neutral-100 text-[64px] text-color-gradient font-bold  prompt ">
                 Uplift your Brand Potential with Creative Design
               </div>
-              <div className="w-[760px] text-neutral-400 text-xl font-medium urbanist">
+              <div className="w-[760px] uiuxhersection-paragraph  text-neutral-400 text-xl font-medium urbanist">
                 Maximize the potential of your brand by using UX design that
                 puts the needs and happiness of the user first. Creating
                 user-friendly interfaces and smooth interactions will help you
@@ -94,8 +96,11 @@ const UiUxHerosection = () => {
           </div>
         </div>
 
-        <div className="w-[30%] flex h-[420px] justify-end">
+        <div className="w-[40%] flex h-[620px] justify-end hide-image-uiux">
           <Image src={UiUxHerosectionImage} />
+        </div>
+        <div className="w-[40%] mobile-view-uiux-image  h-[620px] justify-center pt-20 hidden show-image-uiux">
+          <Image src={MobileUiUxHerosectionImage} className="mx-auto" />
         </div>
       </div>
     </>

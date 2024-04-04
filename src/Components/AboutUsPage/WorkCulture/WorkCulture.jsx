@@ -4,25 +4,26 @@ import Image from "next/image";
 const WorkCulture = () => {
   return (
     <>
-      <div className="w-full px-20 pt-10  bg-zinc-950">
-        <div className="w-full ">
-          <span className="text-neutral-400 text-[40px] font-semibold urbanist">
+      <div className="w-full px-20 pt-10 padding-industies  bg-zinc-950">
+        <div className="w-full leading-tight ">
+          <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
             VadaVision
             <br />
           </span>
-          <span className="text-indigo-600 work-culture-gradient text-[56px] font-bold urbanist">
+          <span className="text-indigo-600 work-culture-gradient font-change-2 text-[56px] font-bold urbanist">
             Work Culture
           </span>
         </div>
-        <div className=" flex-col justify-start items-start mt-20  inline-flex">
+        <div className=" flex-col justify-start items-start mt-20 work-culture-container-margin  inline-flex">
           <div>
             <Image src={VirtualOffice} />
           </div>
-          <div className=" flex h-24 pt-10 gap-4 ">
+          <div className=" flex h-24 pt-10 gap-1 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="48"
               height="49"
+              className="work-culture-svg"
               viewBox="0 0 48 49"
               fill="none"
             >
@@ -45,7 +46,8 @@ const WorkCulture = () => {
                 </g>
               </g>
             </svg>
-            <div className=" pt-5  text-[#CACACA] leading-tight  text-xl font-normal urbanist">
+            <div></div>
+            <div className=" w-full  text-[#CACACA] leading-tight  text-xl font-normal urbanist">
               At Vadavision, work feels like crafting a story.characters shaping
               creativity and teamwork from our spaces. Ideas flow freely in our
               virtual world, unrestricted by office boundaries. Together, we
@@ -55,7 +57,7 @@ const WorkCulture = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row flex-wrap gap-6 justify-center mt-10 responsive-button-servise">
+        <div className="flex flex-row flex-wrap gap-6 justify-center mt-10 responsive-button-servise mobile-margin-top">
           <div className=" servises-button w-[182px] h-[48px] servise-button flex justify-center padding-button servise-border-gradient items-center px-2 py-3  bg-gradient-to-b bg-servise-gradient rounded-full   backdrop-blur-lg  gap-2  mt-10 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"

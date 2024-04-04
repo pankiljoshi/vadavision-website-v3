@@ -5,8 +5,8 @@ import UiUxHerosectionImage from "../../../../public/Images/design-herosection.p
 const ResourceAugmentationHerosection = () => {
   return (
     <>
-      <div className="w-full flex flex-row resource-herosection-bg  bg-gradient-to-l from-black to-zinc-950">
-        <div className=" w-[70%] flex-col py-20 pl-20 justify-start items-start gap-2 inline-flex">
+      <div className="w-full flex flex-row resource-herosection-bg padding-herosection   bg-gradient-to-l from-black to-zinc-950">
+        <div className=" w-[60%] min-w-[650px] padding-left-mobile flex-col py-20 pl-20 justify-start items-start gap-2 inline-flex">
           <div className="justify-start items-center gap-3 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -39,12 +39,12 @@ const ResourceAugmentationHerosection = () => {
               PUSH YOUR BRAND POTENTIAL
             </div>
           </div>
-          <div className="flex-col justify-start items-start gap-10 flex">
+          <div className="flex-col justify-start resource-herosection items-start gap-10 flex">
             <div className="flex-col justify-start items-start gap-6 flex">
-              <div className="w-[844px] text-neutral-100 text-color-gradient text-[64px] leading-tight font-bold prompt">
+              <div className="w-[844px] text-neutral-100 text-color-gradient text-[64px] resource-augmentation-heading leading-tight font-bold prompt">
                 Unlock hand-picked talent for your business
               </div>
-              <div className="w-[760px] text-neutral-400 text-xl font-medium urbanist">
+              <div className="w-[760px] text-neutral-400 text-xl font-medium resource-augmentation-paragraph urbanist">
                 Get the top notch talent for your business. We provide
                 hand-picked resources that will save cost related to hirings.
               </div>
@@ -92,7 +92,7 @@ const ResourceAugmentationHerosection = () => {
             </div>
           </div>
         </div>
-        <div className="w-[30%] flex h-[420px] justify-end">
+        <div className="w-[40%] flex h-[420px] justify-end image-hide">
           <Image src={UiUxHerosectionImage} alt="" />
         </div>
       </div>

@@ -4,12 +4,12 @@ import Wireframing from "../../../../public/Images/wireframing.png";
 const HowItsWork = () => {
   return (
     <>
-      <div className="w-full   px-20  bg-gradient-to-r from-zinc-950 to-zinc-950">
+      <div className="w-full   px-20  padding-industies bg-gradient-to-r from-zinc-950 to-zinc-950">
         <div className=" ">
-          <span className="text-neutral-400 text-[40px] font-semibold urbanist">
+          <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
             It’s so simple - <br />
           </span>
-          <span className="text-cyan-600 hows-work-gradient leading-tight text-[56px] font-bold urbanist">
+          <span className="text-cyan-600 hows-work-gradient font-change-2 leading-tight text-[56px] font-bold urbanist">
             How it Works
           </span>
         </div>
@@ -18,8 +18,8 @@ const HowItsWork = () => {
             <Image src={Wireframing} />
           </div>
           <div className="flex-col justify-start items-start gap-[49px] flex">
-            <div className="justify-start items-start gap-12 inline-flex">
-              <div className="w-[50%] pl-4 py-8 bg-gradient-to-bl background-gradient  border-gradient-bottom flex-col justify-center items-start gap-4 inline-flex">
+            <div className="justify-start howitswork-cards items-start gap-12 inline-flex">
+              <div className="w-[50%] pl-4 py-8 bg-gradient-to-bl howitswork-cards-width background-gradient  border-gradient-bottom flex-col justify-center items-start gap-4 inline-flex">
                 <div className="self-stretch justify-start items-center gap-4 inline-flex">
                   <div className="w-6 h-6 ">
                     <svg
@@ -60,7 +60,7 @@ const HowItsWork = () => {
                   your target audience.
                 </div>
               </div>
-              <div className="w-[50%] pl-4 py-8 bg-gradient-to-bl background-gradient  border-gradient-bottom flex-col justify-center items-start gap-4 inline-flex">
+              <div className="w-[50%] howitswork-cards-width pl-4 py-8 bg-gradient-to-bl background-gradient  border-gradient-bottom flex-col justify-center items-start gap-4 inline-flex">
                 <div className="self-stretch justify-start items-center gap-4 inline-flex">
                   <div className="w-6 h-6 ">
                     <svg
@@ -102,8 +102,8 @@ const HowItsWork = () => {
                 </div>
               </div>
             </div>
-            <div className="justify-start items-start gap-12 inline-flex">
-              <div className="w-[50%] pl-4 py-8 bg-gradient-to-bl background-gradient  border-gradient-bottom flex-col justify-center items-start gap-4 inline-flex">
+            <div className="justify-start howitswork-cards items-start gap-12 inline-flex">
+              <div className="w-[50%] howitswork-cards-width pl-4 py-8 bg-gradient-to-bl background-gradient  border-gradient-bottom flex-col justify-center items-start gap-4 inline-flex">
                 <div className="self-stretch justify-start items-center gap-4 inline-flex">
                   <div className="w-6 h-6 ">
                     <svg
@@ -140,7 +140,7 @@ const HowItsWork = () => {
                   tools and techniques.
                 </div>
               </div>
-              <div className="w-[50%] pl-4 py-8 bg-gradient-to-bl background-gradient  border-gradient-bottom flex-col justify-center items-start gap-4 inline-flex">
+              <div className="w-[50%] howitswork-cards-width pl-4 py-8 bg-gradient-to-bl background-gradient  border-gradient-bottom flex-col justify-center items-start gap-4 inline-flex">
                 <div className="self-stretch justify-start items-center gap-4 inline-flex">
                   <div className="w-6 h-6 ">
                     <svg

@@ -5,7 +5,7 @@ const AutomationHerosection = () => {
   return (
     <>
       <div className="w-full px-20 py-20 flex flex-row gap-16 automation-bg  bg-gradient-to-br from-black to-zinc-950">
-        <div className=" w-[58%] flex-col justify-start items-start gap-2 inline-flex">
+        <div className=" w-[58%]  min-w-[555px] flex-col justify-start items-start gap-2 inline-flex">
           <div className="justify-start items-center gap-3 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"

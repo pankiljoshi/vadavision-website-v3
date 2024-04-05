@@ -1,5 +1,9 @@
+"use client";
+
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Image from "next/image";
-import React from "react";
 import Gmail from "../../../../public/Images/gamil.png";
 import Zapier from "../../../../public/Images/zapier.png";
 import Zoom from "../../../../public/Images/zoom.png";
@@ -18,11 +22,21 @@ import Slack from "../../../../public/Images/slack.png";
 import Share from "../../../../public/Images/share.png";
 
 const MassiveIntegration = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="px-20 flex flex-col w-full py-20 padding-industies massive-integration-bg hide-integration">
         <div className=" justify-start items-center gap-[685px] inline-flex">
-          <div className="w-[527px]">
+          <div className="" data-aos="fade-right">
             <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
               We cover all
               <br />
@@ -32,7 +46,7 @@ const MassiveIntegration = () => {
             </span>
           </div>
         </div>
-        <div className="flex gap-12 flex-row pt-16 ">
+        <div data-aos="fade-down" className="flex gap-12 flex-row pt-16 ">
           <div className="w-[100px] h-[100px] pt-10">
             <Image src={Zapier} width={100} />
           </div>
@@ -61,7 +75,7 @@ const MassiveIntegration = () => {
             <Image src={Zoho} />
           </div>
         </div>
-        <div className="flex gap-16 mt-4 flex-row pb-16">
+        <div data-aos="fade-up" className="flex gap-16 mt-4 flex-row pb-16">
           <div className="w-[136px] h-[136px] pt-20 ">
             <Image src={OpenAi} />
           </div>
@@ -85,7 +99,10 @@ const MassiveIntegration = () => {
           </div>
         </div>
 
-        <div className="w-[380px] h-[48px]  py-4 mt-20   justify-center  items-center bg-red-600 mx-auto  gap-4 inline-flex">
+        <div
+          data-aos="zoom-in"
+          className="w-[380px] h-[48px]  py-4 mt-20   justify-center  items-center bg-red-600 mx-auto  gap-4 inline-flex"
+        >
           <div className="text-white text-xl font-light  urbanist">
             View all Integrations
           </div>
@@ -107,8 +124,9 @@ const MassiveIntegration = () => {
           </div>
         </div>
       </div>
+
       <div className="w-full px-20 py-20  massive-integration-mobile-bg hidden massive-integration-mobile-view  padding-industies">
-        <div className="">
+        <div data-aos="fade-right" className="">
           <span className="text-neutral-400 text-2xl massive-intergration-font-1 font-semibold urbanist ">
             You have
             <br />
@@ -116,7 +134,10 @@ const MassiveIntegration = () => {
           <span className="text-teal-300 text-[32px] massive-intergration-font-2 font-bold urbanist">
             Our Promise
           </span>
-          <div className="flex flex-row justify-center gap-20 pt-10 px-10">
+          <div
+            data-aos="fade-down"
+            className="flex flex-row justify-center gap-20 pt-10 px-10"
+          >
             <div className="pt-10">
               <Image src={Zapier} width={60} />
             </div>
@@ -127,7 +148,10 @@ const MassiveIntegration = () => {
               <Image src={Discord} width={80} />
             </div>
           </div>
-          <div className="flex flex-row justify-center gap-20 px-10 ">
+          <div
+            data-aos="fade-down"
+            className="flex flex-row justify-center gap-20 px-10 "
+          >
             <div className=" pt-10">
               <Image src={OpenAi} width={100} />
             </div>
@@ -138,7 +162,10 @@ const MassiveIntegration = () => {
               <Image src={Github} width={90} />
             </div>
           </div>{" "}
-          <div className="flex flex-row justify-center gap-20  pt-10 pl-20">
+          <div
+            data-aos="fade-uo"
+            className="flex flex-row justify-center gap-20  pt-10 pl-20"
+          >
             <div>
               <Image src={Linkdin} width={60} />
             </div>
@@ -149,7 +176,10 @@ const MassiveIntegration = () => {
               <Image src={Nbox} width={100} />
             </div>
           </div>
-          <div className="flex flex-row justify-center gap-20 px-10  pt-10">
+          <div
+            data-aos="fade-up"
+            className="flex flex-row justify-center gap-20 px-10  pt-10"
+          >
             <div>
               <Image src={Git} width={100} />
             </div>
@@ -162,8 +192,11 @@ const MassiveIntegration = () => {
           </div>
         </div>
 
-        <div className="w-full h-10 px-10 py-4 mt-20  bg-red-500 justify-center items-center gap-4 inline-flex">
-          <div className="text-white text-sm font-medium font-['Urbanist']">
+        <div
+          data-aos="zoom-in"
+          className="w-full h-10 px-10 py-4 mt-20  bg-red-500 justify-center items-center gap-4 inline-flex"
+        >
+          <div className="text-white text-[20px] font-normal urbanist ">
             View all Integrations
           </div>
         </div>

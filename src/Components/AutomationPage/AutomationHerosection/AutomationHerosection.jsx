@@ -17,7 +17,7 @@ const AutomationHerosection = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20 py-20 responsive-automation padding-industies flex flex-row gap-32 automation-bg  bg-gradient-to-br from-black to-zinc-950">
+      <div className="w-full px-20 py-20 mt-10 responsive-automation padding-industies flex flex-row gap-4 automation-bg  bg-gradient-to-br from-black to-zinc-950">
         <div
           data-aos="fade-right"
           className=" w-[60%]  left-side-automation  flex-col justify-start items-start gap-2 inline-flex"
@@ -55,7 +55,7 @@ const AutomationHerosection = () => {
             </div>
           </div>
           <div className="left-side-automation-content flex-col justify-start items-start gap-10 flex">
-            <div className="self-stretch w-[850px] automationHerosection-heading   flex-col justify-start items-start gap-6 flex">
+            <div className="self-stretch  automationHerosection-heading   flex-col justify-start items-start gap-6 flex">
               <div className="leading-tight uiuxhersection-heading">
                 <span className="text-neutral-100 automation-heading leading-tight text-[64px] font-bold  prompt">
                   Supercharge your workflow -{" "}
@@ -64,7 +64,7 @@ const AutomationHerosection = () => {
                   automate it
                 </span>
               </div>
-              <div className="self-stretch text-[#8E8E8E] text-[20px] font-normal  urbanist">
+              <div className="self-stretch text-[#8E8E8E] leading-tight text-[20px] font-normal  urbanist">
                 Automation offers a powerful solution to streamline processes,
                 reduce manual tasks, and boost productivity across various
                 industries. This brief explores the benefits of automation in
@@ -115,12 +115,13 @@ const AutomationHerosection = () => {
             </div>
           </div>
         </div>
-        <Image
-          src={AutomationHerosectionImage}
-          width={400}
-          data-aos="zoom-in"
-          className="automation-image"
-        />
+        <div className="h-[500px] w-[40%]">
+          <Image
+            src={AutomationHerosectionImage}
+            data-aos="zoom-in"
+            className="automation-image"
+          />
+        </div>
       </div>
     </>
   );

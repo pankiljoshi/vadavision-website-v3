@@ -3896,9 +3896,16 @@ body {
     font-size: 17px;
   }
 }
+@media screen and (max-width:1050px) {
+  .hide-integration{
+    display: none;
+  }
+  
+}
 @media screen and (max-width: 620px) {
   .herosection-paragraph {
     font-size: 25px;
+    text-align: center;
   }
 }
 @media screen and (max-width: 620px) {
@@ -4396,6 +4403,20 @@ body {
 .massive-integration-bg {
   background-image: url("../../public/Images/massive-integration-bg.png");
   background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width:1050px) {
+  .massive-intergration-font-1{
+    font-size: 30px;
+  }
+  
+}
+@media screen and (max-width:1050px) {
+  .massive-intergration-font-2{
+    font-size: 40px;
+  }
+  
 }
 
 .BenefitResourceAugmentation-bg {
@@ -4750,4 +4771,19 @@ body {
   .image-hide {
     display: none;
   }
+}
+
+
+@media screen and (max-width:1050px) {
+  .massive-integration-mobile-bg{
+    background-image: url('../../public/Images/massive-integration-mobile-bg.png');
+    background-size: cover;
+  }
+  
+}
+@media screen and (max-width:1050px) {
+  .massive-integration-mobile-view{
+    display: block;
+  }
+  
 }

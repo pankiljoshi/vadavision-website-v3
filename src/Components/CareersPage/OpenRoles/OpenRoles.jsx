@@ -4,7 +4,7 @@ const OpenRoles = () => {
   return (
     <>
       <div className="w-full py-20 px-20  padding-industies Unique bg-cover">
-        <div className=" ">
+        <div data-aos="fade-down" className=" ">
           <span className="text-neutral-400 text-[40px] font-semibold urbanist">
             Check out the
             <br />
@@ -40,7 +40,10 @@ const OpenRoles = () => {
             </div>
           </div>
         </div> */}
-        <div className="w-full flex-col justify-start pt-20 items-start gap-14 inline-flex">
+        <div
+          data-aos="fade-right"
+          className="w-full flex-col justify-start pt-20 items-start gap-14 inline-flex"
+        >
           <div className="flex-col w-full justify-start items-start gap-8 flex">
             <div className="self-stretch roles-wrap justify-between items-center inline-flex">
               <div className="w-[892px] open-roles-field-width flex-col justify-start items-start gap-6 inline-flex">
@@ -406,7 +409,10 @@ const OpenRoles = () => {
             <div className="w-full h-[0px] uiux-border-style "></div>
           </div>
         </div>
-        <div className=" w-full flex-col pt-20 open-roles-padding justify-start items-center gap-6 inline-flex">
+        <div
+          data-aos="fade-left"
+          className=" w-full flex-col pt-20 open-roles-padding justify-start items-center gap-6 inline-flex"
+        >
           <div className="text-white text-[40px] font-semibold urbanist">
             Couldn’t find a role that suits you?
           </div>

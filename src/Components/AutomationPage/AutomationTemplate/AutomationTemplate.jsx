@@ -100,7 +100,7 @@ const AutomationTemplate = () => {
             </div>
           </div>
           <div className="w-[390px] design-cards h-[455px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
-            <Image src={GoogleSheet} />
+            <Image src={GoogleSheet} className="automation-templated-cards" />
             <div className="  flex-col justify-start items-start gap-2 inline-flex">
               <div className=" text-zinc-100 pt-4 text-xl font-normal urbanist">
                 Google Sheets x Sales Mango Integration{" "}
@@ -133,7 +133,10 @@ const AutomationTemplate = () => {
             </div>
           </div>
           <div className="w-[390px] design-cards h-[455px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
-            <Image src={DailyOperation} />
+            <Image
+              src={DailyOperation}
+              className="automation-templated-cards"
+            />
             <div className="  flex-col justify-start items-start gap-2 inline-flex">
               <div className=" text-zinc-100 pt-4 text-xl font-normal urbanist">
                 Automating Daily Operations{" "}
@@ -166,7 +169,7 @@ const AutomationTemplate = () => {
             </div>
           </div>
           <div className="w-[390px] design-cards h-[455px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
-            <Image src={Notionx} />
+            <Image src={Notionx} className="automation-templated-cards" />
             <div className="  flex-col justify-start items-start gap-2 inline-flex">
               <div className=" text-zinc-100 pt-4 text-xl font-normal urbanist">
                 Notion x Google Sheet Automation{" "}
@@ -199,7 +202,7 @@ const AutomationTemplate = () => {
             </div>
           </div>
           <div className="w-[390px] design-cards h-[455px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
-            <Image src={Trello} />
+            <Image src={Trello} className="automation-templated-cards" />
             <div className="  flex-col justify-start items-start gap-2 inline-flex">
               <div className=" text-zinc-100 pt-4 text-xl font-normal urbanist">
                 Trello Card Automation via Google Sheets{" "}
@@ -232,7 +235,7 @@ const AutomationTemplate = () => {
             </div>
           </div>
           <div className="w-[390px] design-cards h-[455px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
-            <Image src={Mailchimp} />
+            <Image src={Mailchimp} className="automation-templated-cards" />
             <div className="  flex-col justify-start items-start gap-2 inline-flex">
               <div className=" text-zinc-100 pt-4 text-xl font-normal urbanist">
                 Mailchimp Marketing Automation{" "}

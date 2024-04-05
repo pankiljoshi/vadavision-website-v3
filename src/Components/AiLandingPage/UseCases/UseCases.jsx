@@ -16,9 +16,9 @@ const UseCases = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20 py-20 bg-gradient-to-r from-zinc-950 to-zinc-950 justify-center items-center inline-flex">
-        <div className="grow shrink basis-0 self-stretch flex-col justify-start items-start gap-14 inline-flex">
-          <div data-aos="fade-right" className="w-[636px]">
+      <div className="w-full px-20 py-20 padding-industies bg-gradient-to-r from-zinc-950 to-zinc-950 justify-center items-center inline-flex">
+        <div className=" flex-col justify-start items-start gap-14 inline-flex">
+          <div data-aos="fade-right">
             <span className="text-neutral-400 text-[40px] font-normal urbanist">
               We cover some good <br />
             </span>

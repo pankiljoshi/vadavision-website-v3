@@ -1,14 +1,31 @@
 /* eslint-disable no-irregular-whitespace */
 /* eslint-disable react/no-unescaped-entities */
+"use client";
+
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Image from "next/image";
-import React from "react";
 import TeamPic from "../../../../public/Images/team-photo.png";
 
 const CareerHerosection = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full   about-us-bg flex carrer-herosection flex-row gap-44 padding-industies py-20 bg-gradient-to-br from-black to-zinc-950">
-        <div className="w-[50%] carrer-left-section pl-20 justify-start items-start gap-[190px] inline-flex">
+        <div
+          data-aos="fade-right"
+          className="w-[50%] carrer-left-section pl-20 justify-start items-start gap-[190px] inline-flex"
+        >
           <div className="flex-col justify-start items-start gap-6 inline-flex">
             <div className="LeftLabel">
               <div className=" p-4 startupStudio-gradient rounded-full  flex-col justify-start items-start gap-2.5 flex">
@@ -30,7 +47,10 @@ const CareerHerosection = () => {
             </div>
           </div>
         </div>
-        <div className=" w-[50%] mobile-min-width min-w-[350px]  about-us-image image-bg py-10">
+        <div
+          data-aos="fade-left"
+          className=" w-[50%] mobile-min-width min-w-[350px]  about-us-image image-bg py-10"
+        >
           <Image src={TeamPic} className="mx-auto" />
         </div>
       </div>

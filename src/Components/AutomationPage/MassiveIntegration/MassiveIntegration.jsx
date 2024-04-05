@@ -20,14 +20,14 @@ import Share from "../../../../public/Images/share.png";
 const MassiveIntegration = () => {
   return (
     <>
-      <div className="px-20 flex flex-col w-full py-20 massive-integration-bg">
+      <div className="px-20 flex flex-col w-full py-20 padding-industies massive-integration-bg hide-integration">
         <div className=" justify-start items-center gap-[685px] inline-flex">
           <div className="w-[527px]">
-            <span className="text-neutral-400 text-[40px] font-semibold urbanist">
+            <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
               We cover all
               <br />
             </span>
-            <span className="text-teal-500 massive-integration-gradient text-[56px] font-bold urbanist">
+            <span className="text-teal-500 massive-integration-gradient font-change-2 text-[56px] font-bold urbanist">
               Massive Integrations
             </span>
           </div>
@@ -104,6 +104,67 @@ const MassiveIntegration = () => {
                 fill="white"
               />
             </svg>{" "}
+          </div>
+        </div>
+      </div>
+      <div className="w-full px-20 py-20  massive-integration-mobile-bg hidden massive-integration-mobile-view  padding-industies">
+        <div className="">
+          <span className="text-neutral-400 text-2xl massive-intergration-font-1 font-semibold urbanist ">
+            You have
+            <br />
+          </span>
+          <span className="text-teal-300 text-[32px] massive-intergration-font-2 font-bold urbanist">
+            Our Promise
+          </span>
+          <div className="flex flex-row justify-center gap-20 pt-10 px-10">
+            <div className="pt-10">
+              <Image src={Zapier} width={60} />
+            </div>
+            <div className="pt-20">
+              <Image src={Gmail} width={90} />
+            </div>
+            <div>
+              <Image src={Discord} width={80} />
+            </div>
+          </div>
+          <div className="flex flex-row justify-center gap-20 px-10 ">
+            <div className=" pt-10">
+              <Image src={OpenAi} width={100} />
+            </div>
+            <div className="pt-20">
+              <Image src={Asana} width={80} />
+            </div>
+            <div>
+              <Image src={Github} width={90} />
+            </div>
+          </div>{" "}
+          <div className="flex flex-row justify-center gap-20  pt-10 pl-20">
+            <div>
+              <Image src={Linkdin} width={60} />
+            </div>
+            <div>
+              <Image src={Share} width={90} />
+            </div>
+            <div>
+              <Image src={Nbox} width={100} />
+            </div>
+          </div>
+          <div className="flex flex-row justify-center gap-20 px-10  pt-10">
+            <div>
+              <Image src={Git} width={100} />
+            </div>
+            <div className="pt-6">
+              <Image src={GoogleMeet} width={80} />
+            </div>
+            <div className="pt-10">
+              <Image src={Monkey} width={100} />
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full h-10 px-10 py-4 mt-20  bg-red-500 justify-center items-center gap-4 inline-flex">
+          <div className="text-white text-sm font-medium font-['Urbanist']">
+            View all Integrations
           </div>
         </div>
       </div>

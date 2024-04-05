@@ -1,6 +1,19 @@
-import React from "react";
+"use client";
 
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const PerksAndBenefit = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="RecentProjects w-full px-20 py-10  flex-col justify-center padding-industies items-start gap-14 inline-flex">
@@ -17,12 +30,12 @@ const PerksAndBenefit = () => {
             </span>
           </div>
         </div>
-        <div
-          data-aos="flip-left"
-          className="self-stretch flex-col justify-start  items-start gap-12 inline-flex"
-        >
+        <div className="self-stretch flex-col justify-start  items-start gap-12 inline-flex">
           <div className="justify-between items-start gap-6 flex-wrap inline-flex">
-            <div className="px-6 card-responsive h-[200px] p-10 w-[400px]  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex">
+            <div
+              data-aos="fade-right"
+              className="px-6 card-responsive h-[200px] p-10 w-[400px]  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex"
+            >
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <div className="w-8 h-8 left-0 top-0 absolute">
@@ -53,7 +66,10 @@ const PerksAndBenefit = () => {
               </div>
               <div className="hover-effect "></div>
             </div>
-            <div className="px-6 card-responsive p-10 h-[200px] w-[400px]  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex">
+            <div
+              data-aos="fade-right"
+              className="px-6 card-responsive p-10 h-[200px] w-[400px]  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex"
+            >
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <div className="w-[30.67px] h-[30.67px] left-[0.67px] top-[0.67px] absolute">
@@ -92,7 +108,10 @@ const PerksAndBenefit = () => {
               </div>
               <div className="hover-effect "></div>
             </div>
-            <div className="px-6 card-responsive p-10  w-[400px] h-[200px]  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex">
+            <div
+              data-aos="fade-right"
+              className="px-6 card-responsive p-10  w-[400px] h-[200px]  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex"
+            >
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <svg
@@ -123,7 +142,10 @@ const PerksAndBenefit = () => {
               </div>
               <div className="hover-effect "></div>
             </div>
-            <div className="px-6 card-responsive p-10  w-[400px] h-[200px]  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex">
+            <div
+              data-aos="fade-left"
+              className="px-6 card-responsive p-10  w-[400px] h-[200px]  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex"
+            >
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <svg
@@ -166,7 +188,10 @@ const PerksAndBenefit = () => {
               </div>
               <div className="hover-effect "></div>
             </div>
-            <div className="px-6  card-responsive p-10   w-[400px] h-[200px] bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex">
+            <div
+              data-aos="fade-left"
+              className="px-6  card-responsive p-10   w-[400px] h-[200px] bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex"
+            >
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <svg
@@ -197,7 +222,10 @@ const PerksAndBenefit = () => {
               </div>
               <div className="hover-effect "></div>
             </div>
-            <div className="px-6 card-responsive p-10  w-[400px] h-[200px] bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex">
+            <div
+              data-aos="fade-left"
+              className="px-6 card-responsive p-10  w-[400px] h-[200px] bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex"
+            >
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">
                   <div className="w-8 h-8 left-0 top-[-0px] absolute">

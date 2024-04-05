@@ -26,11 +26,12 @@ const Careers = () => {
       {/* <div>
         <AmbitiousTeam />
       </div> */}
-      <div>
-        <PerksAndBenefit />
-      </div>
+
       <div>
         <Map />
+      </div>
+      <div>
+        <PerksAndBenefit />
       </div>
       <div>
         <OpenRoles />

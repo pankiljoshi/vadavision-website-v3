@@ -1,11 +1,25 @@
+"use client";
+
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Image from "next/image";
-import React from "react";
 import WorldMap from "../../../../public/Images/world-map.png";
 const Map = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full px-20 py-20 padding-industies  bg-zinc-950">
-        <div className=" leading-tight pb-10">
+        <div data-aos="fade-down" className=" leading-tight pb-10">
           <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
             We work
             <br />
@@ -14,7 +28,7 @@ const Map = () => {
             Across the Globe
           </span>
         </div>
-        <Image src={WorldMap} />
+        <Image src={WorldMap} data-aos="fade-up" />
       </div>
     </>
   );

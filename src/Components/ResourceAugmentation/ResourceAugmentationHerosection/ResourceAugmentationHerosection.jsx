@@ -1,12 +1,29 @@
+"use client";
+
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 import Image from "next/image";
-import React from "react";
 import UiUxHerosectionImage from "../../../../public/Images/design-herosection.png";
 
 const ResourceAugmentationHerosection = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full flex flex-row resource-herosection-bg padding-herosection   bg-gradient-to-l from-black to-zinc-950">
-        <div className=" w-[60%] min-w-[650px] padding-left-mobile flex-col py-20 pl-20 justify-start items-start gap-2 inline-flex">
+        <div
+          data-aos="fade-right"
+          className=" w-[60%] min-w-[650px] padding-left-mobile flex-col py-20 pl-20 justify-start items-start gap-2 inline-flex"
+        >
           <div className="justify-start items-center gap-3 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +109,10 @@ const ResourceAugmentationHerosection = () => {
             </div>
           </div>
         </div>
-        <div className="w-[40%] flex h-[420px] justify-end image-hide">
+        <div
+          data-aos="zoom-in"
+          className="w-[40%] flex h-[420px] justify-end image-hide"
+        >
           <Image src={UiUxHerosectionImage} alt="" />
         </div>
       </div>

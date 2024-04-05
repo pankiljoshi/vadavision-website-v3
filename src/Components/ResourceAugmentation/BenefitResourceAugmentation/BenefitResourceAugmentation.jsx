@@ -1,10 +1,23 @@
-import React from "react";
+"use client";
 
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 const BenefitResourceAugmentation = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full px-20 py-20 bg-gradient-to-r BenefitResourceAugmentation-bg padding-industies  from-zinc-950 to-zinc-950">
-        <div className=" ">
+        <div data-aos="fade-right" className=" ">
           <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
             Benefits you get from <br />
           </span>
@@ -12,7 +25,10 @@ const BenefitResourceAugmentation = () => {
             Resource Augmentation{" "}
           </span>
         </div>
-        <div className="mt-16 w-full cards-benefits  justify-start items-center gap-10 inline-flex">
+        <div
+          data-aos="fade-right"
+          className="mt-16 w-full cards-benefits  justify-start items-center gap-10 inline-flex"
+        >
           <div className="flex-col benefit-cards p-4 justify-start border-style-milestone2 items-start gap-6 inline-flex">
             <div className="flex-col justify-start items-start gap-4 flex">
               <svg
@@ -112,7 +128,10 @@ const BenefitResourceAugmentation = () => {
           </div>
         </div>
 
-        <div className=" mt-8 w-full cards-benefits justify-start items-center gap-10 inline-flex">
+        <div
+          data-aos="fade-left"
+          className=" mt-8 w-full cards-benefits justify-start items-center gap-10 inline-flex"
+        >
           <div className="flex-col  p-4 benefit-cards justify-start border-style-milestone2 items-start gap-6 inline-flex">
             <div className="flex-col justify-start items-start gap-4 flex">
               <svg

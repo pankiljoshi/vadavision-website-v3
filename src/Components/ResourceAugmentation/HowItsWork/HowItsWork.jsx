@@ -1,11 +1,25 @@
+"use client";
+
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 import Image from "next/image";
-import React from "react";
 import TeamWork from "../../../../public/Images/team-work.png";
 const HowItsWork = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full  padding-industies  px-20  py-20 bg-gradient-to-r from-zinc-950 to-zinc-950">
-        <div className=" ">
+        <div data-aos="fade-right" className=" ">
           <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
             It’s so simple - <br />
           </span>
@@ -14,10 +28,16 @@ const HowItsWork = () => {
           </span>
         </div>
         <div className=" flex-col justify-start items-start gap-14 inline-flex">
-          <div className="justify-start items-center pt-16 inline-flex">
+          <div
+            data-aos="fade-down"
+            className="justify-start items-center pt-16 inline-flex"
+          >
             <Image src={TeamWork} />
           </div>
-          <div className="flex-col justify-start items-start gap-[49px] flex">
+          <div
+            data-aos="fade-up"
+            className="flex-col justify-start items-start gap-[49px] flex"
+          >
             <div className="justify-start howitswork-cards  items-start gap-12 inline-flex">
               <div className="w-[50%] pl-4 h-[157px] howitswork-cards-width bg-gradient-to-bl background-gradient  border-gradient-bottom flex-col justify-center items-start gap-4 inline-flex">
                 <div className="self-stretch justify-start items-center gap-4 inline-flex">

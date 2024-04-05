@@ -1,11 +1,24 @@
 /* eslint-disable no-irregular-whitespace */
-import React from "react";
+"use client";
 
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const ContactInfo = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div
-        data-aos="fade-up"
+        data-aos="zoom-in"
         className="w-full  contact-info-content flex justify-between bg-[#0D0D0D]   py-10 "
       >
         <div className="flex flex-col w-[33%] contact-info  justify-start border-style-milestone  padding-between  ">
@@ -84,7 +97,7 @@ const ContactInfo = () => {
             </span>{" "}
             <p className="text-white font-light text-[24px] text-size urbanist">
               Plot 337, Phase 2 Chandigarh,
-              <br />  India - 160002{" "}
+              <br /> India - 160002{" "}
             </p>
           </div>
         </div>

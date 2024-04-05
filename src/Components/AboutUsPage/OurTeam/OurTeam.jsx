@@ -1,4 +1,8 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import PankhilSir from "../../../../public/Images/pankil-sir.png";
 import Image from "next/image";
 import Neeraj from "../../../../public/Images/neerajsir.png";
@@ -10,13 +14,29 @@ import Prashant from "../../../../public/Images/prashant.png";
 import Neesha from "../../../../public/Images/neesha.png";
 
 const OurTeam = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full px-20 py-20 flex-col justify-start padding-industies our-team-bg items-start gap-14 inline-flex">
-        <div className="text-emerald-500 our-team-gradient text-[56px] font-bold font-['Urbanist']">
+        <div
+          data-aos="fade-right"
+          className="text-emerald-500 our-team-gradient text-[56px] font-bold font-['Urbanist']"
+        >
           Our Team
         </div>
-        <div className=" flex-wrap teams-cards-mobile-width justify-center items-start gap-14 teams-cards-gap inline-flex">
+        <div
+          data-aos="fade-up"
+          className=" flex-wrap teams-cards-mobile-width justify-center items-start gap-14 teams-cards-gap inline-flex"
+        >
           <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
             <Image src={PankhilSir} />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">

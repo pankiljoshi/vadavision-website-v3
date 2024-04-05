@@ -1,12 +1,29 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import GoogleMap from "../../../../public/Images/googlemap.png";
 import Link from "next/link";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const GetInTouch = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
+
   return (
     <>
       <div className="w-full px-4 md:px-20 lg:px-20 pt-6 pb-[67px] flex-col getintouch-padding justify-start items-start gap-8 inline-flex getintouch-bg">
-        <div className=" justify-start items-center gap-2 inline-flex">
+        <div
+          data-aos="fade-right"
+          className=" justify-start items-center gap-2 inline-flex"
+        >
           <Link href="/">
             <div className="cursor-pointer">
               <svg
@@ -66,7 +83,10 @@ const GetInTouch = () => {
             Contact Us
           </div>
         </div>
-        <div className=" flex-col justify-start items-start gap-4 inline-flex">
+        <div
+          data-aos="fade-right"
+          className=" flex-col justify-start items-start gap-4 inline-flex"
+        >
           <div className="text-emerald-500 text-[56px] font-bold getintouch-gradient urbanist">
             Get in Touch
           </div>
@@ -75,7 +95,7 @@ const GetInTouch = () => {
             and we’ll connect back super soon.
           </div>
         </div>
-        <div className="flex flex-wrap">
+        <div data-aos="fade-up" className="flex flex-wrap">
           <div className="w-[60%] min-w-[550px] p-6 form-width  bg-neutral-900  flex-col justify-start items-start flex">
             <div className="flex flex-row gap-10 w-full form-first-row">
               <div className="w-[50%] full-name  ">

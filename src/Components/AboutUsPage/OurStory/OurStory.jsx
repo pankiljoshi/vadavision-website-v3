@@ -1,13 +1,30 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Image from "next/image";
 import Logo from "../../../../public/Images/logo.png";
 
 const OurStory = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full px-20 py-20 justify-start our-story-bg padding-industies items-center inline-flex">
         <div className="self-stretch justify-start our-story-gap items-center gap-56 inline-flex">
-          <div className="flex-col justify-start items-start gap-6 inline-flex">
+          <div
+            data-aos="fade-right"
+            className="flex-col justify-start items-start gap-6 inline-flex"
+          >
             <div className="w-[246px] text-teal-500 our-story-gradient our-story-heading text-[56px] font-bold urbanist">
               Our Story
             </div>
@@ -22,7 +39,10 @@ const OurStory = () => {
             </div>
           </div>
           <div className="w-[246px] h-[246px] image-our-story">
-            <div data-aos="zoom-in" className=" min-w-[300px] responsive-logo1">
+            <div
+              data-aos="fade-left"
+              className=" min-w-[300px] responsive-logo1"
+            >
               <Image src={Logo} alt="" width={340} className="logo" />
             </div>
           </div>

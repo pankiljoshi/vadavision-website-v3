@@ -1,11 +1,25 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import VirtualOffice from "../../../../public/Images/virtual-office.png";
 import Image from "next/image";
 const WorkCulture = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full px-20 pt-10 padding-industies  bg-zinc-950">
-        <div className="w-full leading-tight ">
+        <div data-aoa="fade-right" className="w-full leading-tight ">
           <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
             VadaVision
             <br />
@@ -14,7 +28,10 @@ const WorkCulture = () => {
             Work Culture
           </span>
         </div>
-        <div className=" flex-col justify-start items-start mt-20 work-culture-container-margin  inline-flex">
+        <div
+          data-aos="zoom-in"
+          className=" flex-col justify-start items-start mt-20 work-culture-container-margin  inline-flex"
+        >
           <div>
             <Image src={VirtualOffice} />
           </div>
@@ -57,7 +74,10 @@ const WorkCulture = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row flex-wrap gap-6 justify-center mt-10 responsive-button-servise mobile-margin-top">
+        <div
+          data-aos="zoom-in"
+          className="flex flex-row flex-wrap gap-6 justify-center mt-10 responsive-button-servise mobile-margin-top"
+        >
           <div className=" servises-button w-[182px] h-[48px] servise-button flex justify-center padding-button servise-border-gradient items-center px-2 py-3  bg-gradient-to-b bg-servise-gradient rounded-full   backdrop-blur-lg  gap-2  mt-10 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"

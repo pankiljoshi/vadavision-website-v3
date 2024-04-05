@@ -1,11 +1,26 @@
-import React from "react";
-
+"use client";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const UiUxQuality = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full px-20 uiux-border-style content-height h-[114px] padding-industies bg-gradient-to-r from-stone-950 via-zinc-900 to-stone-950   items-center flex">
         <div className=" w-full flex-wrap servises-direction justify-between items-center   flex">
-          <div className="justify-start items-center gap-2 flex">
+          <div
+            data-aos="fade-right"
+            className="justify-start items-center gap-2 flex"
+          >
             <div className="w-6 h-6 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +57,10 @@ const UiUxQuality = () => {
               UX Research
             </div>
           </div>
-          <div className="justify-start items-center gap-2 flex">
+          <div
+            data-aos="fade-right"
+            className="justify-start items-center gap-2 flex"
+          >
             <div className="w-6 h-6 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +97,10 @@ const UiUxQuality = () => {
               UX Writing
             </div>
           </div>
-          <div className="justify-start items-center gap-2 flex">
+          <div
+            data-aos="fade-right"
+            className="justify-start items-center gap-2 flex"
+          >
             <div className="w-6 h-6 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -116,7 +137,10 @@ const UiUxQuality = () => {
               Wireframing
             </div>
           </div>
-          <div className="justify-start items-center gap-2 flex">
+          <div
+            data-aos="fade-left"
+            className="justify-start items-center gap-2 flex"
+          >
             <div className="w-6 h-6 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -153,7 +177,10 @@ const UiUxQuality = () => {
               UI Designing
             </div>
           </div>
-          <div className="justify-start items-center gap-2 flex">
+          <div
+            data-aos="fade-left"
+            className="justify-start items-center gap-2 flex"
+          >
             <div className="w-6 h-6 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

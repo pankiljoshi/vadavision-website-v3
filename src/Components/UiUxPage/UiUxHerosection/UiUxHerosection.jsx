@@ -1,13 +1,29 @@
+"use client";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Image from "next/image";
-import React from "react";
 import UiUxHerosectionImage from "../../../../public/Images/uiux-hersection.png";
 import MobileUiUxHerosectionImage from "../../../../public/Images/uiux-mobile-herosection.png";
 
 const UiUxHerosection = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full uiux-responsive  padding-industies flex flex-row ">
-        <div className=" w-[60%] uiux-leftside py-20 pl-20 flex-col justify-start items-start gap-2 inline-flex">
+        <div
+          data-aos="fade-right"
+          className=" w-[60%] uiux-leftside py-20 pl-20 flex-col justify-start items-start gap-2 inline-flex"
+        >
           <div className="justify-start items-center gap-3 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -96,10 +112,16 @@ const UiUxHerosection = () => {
           </div>
         </div>
 
-        <div className="w-[40%] flex h-[620px] justify-end hide-image-uiux">
+        <div
+          data-aos="fade-left"
+          className="w-[40%] flex h-[620px] justify-end hide-image-uiux"
+        >
           <Image src={UiUxHerosectionImage} />
         </div>
-        <div className="w-[40%] mobile-view-uiux-image  h-[620px] justify-center pt-20 hidden show-image-uiux">
+        <div
+          data-aos="fade-up"
+          className="w-[40%] mobile-view-uiux-image  h-[620px] justify-center pt-20 hidden show-image-uiux"
+        >
           <Image src={MobileUiUxHerosectionImage} className="mx-auto" />
         </div>
       </div>

@@ -1,14 +1,30 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Office from "../../../../public/Images/office.png";
 import Image from "next/image";
 
 const AboutUsHerosection = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full px-20 py-20 about-us-bg about-us-padding  bg-gradient-to-br from-black to-zinc-950">
         <div className="  justify-start gap-about-us-herosection about-us-herosection  items-start gap-32 inline-flex">
-          <div className="flex-col w-[50%] min-w-[625px] about-us-leftside justify-start items-start gap-6 inline-flex">
+          <div
+            data-aos="fade-right"
+            className="flex-col w-[50%] min-w-[625px] about-us-leftside justify-start items-start gap-6 inline-flex"
+          >
             <div className="LeftLabel">
               <div className=" p-4 startupStudio-gradient rounded-full  flex-col justify-start items-start gap-2.5 flex">
                 <div className=" text-emerald-400 text-sm font-light urbanist">
@@ -69,7 +85,10 @@ const AboutUsHerosection = () => {
               </div>
             </div>
           </div>
-          <div className=" w-[50%] min-w-[350px]  about-us-image image-bg py-10">
+          <div
+            data-aos="fade-left"
+            className=" w-[50%] min-w-[350px]  about-us-image image-bg py-10"
+          >
             <Image
               src={Office}
               width={580}

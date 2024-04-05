@@ -1,13 +1,29 @@
 /* eslint-disable no-irregular-whitespace */
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
+"use client";
 
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const MissionVision = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full px-20 py-20 bg-zinc-950 justify-center padding-industies items-center inline-flex">
         <div className=" justify-start mission-vision-card items-start gap-14 inline-flex">
-          <div className="w-[50%] mission-card min-w-[360px] border-gradient-style px-10 pt-10 pb-[80px] bg-gradient-to-b from-stone-950 to-stone-950  flex-col justify-start items-start gap-10 inline-flex">
+          <div
+            data-aos="fade-right"
+            className="w-[50%] mission-card min-w-[360px] border-gradient-style px-10 pt-10 pb-[80px] bg-gradient-to-b from-stone-950 to-stone-950  flex-col justify-start items-start gap-10 inline-flex"
+          >
             <div className=" justify-start items-center gap-8 inline-flex">
               <div className="w-12 h-12 relative">
                 <svg
@@ -65,7 +81,10 @@ const MissionVision = () => {
               Vadavision.
             </div>
           </div>
-          <div className="w-[50%] mission-card min-w-[360px] border-gradient-style  px-10 pt-10 pb-[78px] bg-gradient-to-b from-stone-950 to-stone-950  flex-col justify-start items-start gap-10 inline-flex">
+          <div
+            data-aos="fade-left"
+            className="w-[50%] mission-card min-w-[360px] border-gradient-style  px-10 pt-10 pb-[78px] bg-gradient-to-b from-stone-950 to-stone-950  flex-col justify-start items-start gap-10 inline-flex"
+          >
             <div className="justify-start items-center gap-8 inline-flex">
               <div className="w-12 h-12 relative">
                 <svg

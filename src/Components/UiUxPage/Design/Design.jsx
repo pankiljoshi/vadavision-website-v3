@@ -1,10 +1,22 @@
-import React from "react";
-
+"use client";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Design = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full px-20 py-20 bg-gradient-to-r padding-industies from-zinc-950 to-zinc-950">
-        <div className=" ">
+        <div data-aos="fade-right" className=" ">
           <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
             Why you should choose
             <br />
@@ -14,7 +26,10 @@ const Design = () => {
           </span>
         </div>
 
-        <div className="flex flex-row  pt-16 flex-wrap gap-10 ">
+        <div
+          data-aos="zoom-in"
+          className="flex flex-row  pt-16 flex-wrap gap-10 "
+        >
           <div className="w-[400px]  design-cards flex-col  justify-start  items-start gap-6 inline-flex">
             <div className="border-style-milestone11">
               <div className="flex-col justify-start items-start gap-4 flex">

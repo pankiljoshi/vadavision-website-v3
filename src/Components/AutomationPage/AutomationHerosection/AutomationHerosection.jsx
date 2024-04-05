@@ -1,11 +1,27 @@
+"use client";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Image from "next/image";
-import React from "react";
 import AutomationHerosectionImage from "../../../../public/Images/automation-herosection.png";
 const AutomationHerosection = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full px-20 py-20 responsive-automation padding-industies flex flex-row gap-32 automation-bg  bg-gradient-to-br from-black to-zinc-950">
-        <div className=" w-[60%]  left-side-automation  flex-col justify-start items-start gap-2 inline-flex">
+        <div
+          data-aos="fade-right"
+          className=" w-[60%]  left-side-automation  flex-col justify-start items-start gap-2 inline-flex"
+        >
           <div className="justify-start items-center gap-3 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -102,6 +118,7 @@ const AutomationHerosection = () => {
         <Image
           src={AutomationHerosectionImage}
           width={400}
+          data-aos="zoom-in"
           className="automation-image"
         />
       </div>

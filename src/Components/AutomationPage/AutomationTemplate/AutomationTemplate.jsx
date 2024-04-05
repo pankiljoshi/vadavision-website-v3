@@ -1,5 +1,8 @@
+"use client";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Image from "next/image";
-import React from "react";
 import LinkdinAutomation from "../../../../public/Images/linkdin-automation.png";
 import Mailchimp from "../../../../public/Images/Mailchimp.png";
 import GoogleSheet from "../../../../public/Images/googlesheet.png";
@@ -7,10 +10,20 @@ import DailyOperation from "../../../../public/Images/dailyoperation.png";
 import Notionx from "../../../../public/Images/notionx.png";
 import Trello from "../../../../public/Images/trello.png";
 const AutomationTemplate = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full px-20 padding-industies  bg-gradient-to-r from-zinc-950 to-zinc-950 automation-domain-bg ">
-        <div className=" ">
+        <div data-aos="fade-right" className=" ">
           <span className="text-neutral-400 text-[40px] font-change-1 font-semibold  urbanist">
             We cover bunch of customisable
             <br />
@@ -46,7 +59,10 @@ const AutomationTemplate = () => {
             </div>
           </div>
         </div> */}
-        <div className=" flex-row flex-wrap justify-start items-start gap-10 pt-16 inline-flex">
+        <div
+          data-aos="zoom-in"
+          className=" flex-row flex-wrap justify-start items-start gap-10 pt-16 inline-flex"
+        >
           <div className="w-[390px] design-cards h-[455px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
             <Image
               src={LinkdinAutomation}

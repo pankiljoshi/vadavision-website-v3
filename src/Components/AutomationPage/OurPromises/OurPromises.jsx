@@ -1,11 +1,23 @@
-import React from "react";
-
+"use client";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const OurPromises = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="unique-gradient-background">
         <div className="w-full px-20  padding-industies Unique bg-cover py-20 ">
-          <div className=" ">
+          <div data-aos="fade-right" className=" ">
             <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
               You have
               <br />
@@ -15,7 +27,10 @@ const OurPromises = () => {
             </span>
           </div>
           <div className="w-full pt-10 promises-wrap  justify-start gap-10  inline-flex">
-            <div className="w-[33%] promises-cards border-style-milestone30 flex-col justify-start items-start gap-4 inline-flex">
+            <div
+              data-aos="fade-right"
+              className="w-[33%] promises-cards border-style-milestone30 flex-col justify-start items-start gap-4 inline-flex"
+            >
               <div className="flex-col justify-start items-start gap-1 flex">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +53,10 @@ const OurPromises = () => {
               </div>
               <div className="w-full   border-style-milestone40 hidden show-promises-border "></div>
             </div>
-            <div className="w-[33%] promises-cards border-style-milestone30 flex-col justify-start items-start gap-4 inline-flex">
+            <div
+              data-aos="fade-down"
+              className="w-[33%] promises-cards border-style-milestone30 flex-col justify-start items-start gap-4 inline-flex"
+            >
               <div className="flex-col justify-start items-start gap-1 flex">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +79,10 @@ const OurPromises = () => {
               </div>
               <div className="w-full   border-style-milestone40 hidden show-promises-border  "></div>
             </div>
-            <div className="w-[33%] promises-cards flex-col justify-start items-start gap-4 inline-flex">
+            <div
+              data-aos="fade-left"
+              className="w-[33%] promises-cards flex-col justify-start items-start gap-4 inline-flex"
+            >
               <div className="flex-col justify-start items-start gap-1 flex">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -1,12 +1,25 @@
+"use client";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Image from "next/image";
-import React from "react";
 import FlowChat from "../../../../public/Images/automation-work.png";
 
 const HowItsWork = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full px-20 py-20 padding-industies bg-gradient-to-r how-is-work-bg from-zinc-950 to-zinc-950">
-        <div className=" ">
+        <div data-aos="fade-right" className=" ">
           <span className="text-neutral-400 text-[40px] font-change-1 font-semibold furbanist">
             As easy as it can be
             <br />
@@ -16,7 +29,10 @@ const HowItsWork = () => {
           </span>
         </div>
         <div className="flex flex-row gap-48 responsive-section-automation pt-10">
-          <div className="flex-col w-[60%] automation-cards-leftside  justify-start items-start gap-10 inline-flex">
+          <div
+            data-aos="fade-right"
+            className="flex-col w-[60%] automation-cards-leftside  justify-start items-start gap-10 inline-flex"
+          >
             <div className="w-[635px] h-[130px] aumtomation-cards flex gap-11 items-center px-10  bg-gradient-to-r from-stone-950 via-zinc-900 to-neutral-900 cards-border-style">
               <div className=" text-red-500 text-[56px] font-bold urbanist">
                 01
@@ -59,7 +75,12 @@ const HowItsWork = () => {
               </div>
             </div>
           </div>
-          <Image src={FlowChat} width={405} className="flowchat-image" />
+          <Image
+            src={FlowChat}
+            width={405}
+            data-aos="zoom-in "
+            className="flowchat-image"
+          />
         </div>
       </div>
     </>

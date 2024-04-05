@@ -8,6 +8,10 @@ import AiFace from "../../../../public/Images/aiRobotFace.png";
 import Usflag from "../../../../public/Images/usFlag.png";
 import spainFlag from "../../../../public/Images/spainFlag.png";
 import franceFlag from "../../../../public/Images/franceFlag.png";
+import AppServise from "../../../../public/Images/app-servise.png";
+import Automation from "../../../../public/Images/automation-servises.png";
+import Resource from "../../../../public/Images/resource-servises.png";
+
 const RedBar = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -48,11 +52,45 @@ const Navbar = () => {
   const showAiServises = () => {
     setIsAiServiseVisible(true);
     setUiUxVisible(false);
+    setAutomationVisible(false);
+
+    setAppVisible(false);
+    setResourceVisible(false);
   };
   const [isUiUXVisible, setUiUxVisible] = useState(false);
   const showUiUx = () => {
     setUiUxVisible(true);
     setIsAiServiseVisible(false);
+    setAppVisible(false);
+    setAutomationVisible(false);
+
+    setResourceVisible(false);
+  };
+  const [isAppisible, setAppVisible] = useState(false);
+  const showApp = () => {
+    setUiUxVisible(false);
+    setIsAiServiseVisible(false);
+    setAppVisible(true);
+    setAutomationVisible(false);
+
+    setResourceVisible(false);
+  };
+  const [isAutomationisible, setAutomationVisible] = useState(false);
+  const showAutomation = () => {
+    setUiUxVisible(false);
+    setAutomationVisible(true);
+    setIsAiServiseVisible(false);
+    setAppVisible(false);
+    setResourceVisible(false);
+  };
+  const [isResourceVisible, setResourceVisible] = useState(false);
+  const showResource = () => {
+    setUiUxVisible(false);
+    setResourceVisible(true);
+    setAutomationVisible(false);
+
+    setIsAiServiseVisible(false);
+    setAppVisible(false);
   };
   const [isDropDownOpen, setIsDropDownOpen] = useState(false);
   const handelOpenDropDown = () => {
@@ -598,7 +636,10 @@ const Navbar = () => {
                                       </div>
                                     </Link>
                                     <Link href="/app-development">
-                                      <div className="servises-dropdown-card cursor-pointer w-[288px] h-[192px] p-6 border border-black bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 group hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
+                                      <div
+                                        onMouseEnter={showApp}
+                                        className="servises-dropdown-card cursor-pointer w-[288px] h-[192px] p-6 border border-black bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 group hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex"
+                                      >
                                         <div className="Frame1171281439 flex-col justify-start items-start gap-6 flex">
                                           <div className="Frame1171281438 w-60 h-24 flex-col justify-start items-start gap-6 flex">
                                             <div className="ai-servise-dropdown-gap self-stretch justify-start items-center gap-4 inline-flex">
@@ -818,7 +859,10 @@ const Navbar = () => {
                                   </div>
                                   <div className="flex flex-row gap-6  workflow-margin   mt-10">
                                     <Link href="/resource-augmentation">
-                                      <div className="work-flow-automation-card cursor-pointer w-[443px] h-[176px] p-6 border border-black group bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
+                                      <div
+                                        onMouseEnter={showResource}
+                                        className="work-flow-automation-card cursor-pointer w-[443px] h-[176px] p-6 border border-black group bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex"
+                                      >
                                         <div className="Frame1171281439 flex-col justify-start items-start gap-6 flex">
                                           <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                                             <div className="ai-servise-dropdown-gap self-stretch justify-start items-center gap-6 inline-flex">
@@ -911,7 +955,10 @@ const Navbar = () => {
                                     </Link>
 
                                     <Link href="/automation">
-                                      <div className="work-flow-automation-card cursor-pointer w-[443px] border border-black h-44 group p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex">
+                                      <div
+                                        onMouseEnter={showAutomation}
+                                        className="work-flow-automation-card cursor-pointer w-[443px] border border-black h-44 group p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex"
+                                      >
                                         <div className="Frame1171281439 w-64 h-28 flex-col justify-start items-start gap-6 flex">
                                           <div className="Frame1171281438 flex-col justify-start items-start gap-6 flex">
                                             <div className="ai-servise-dropdown-gap self-stretch justify-start items-center gap-6 inline-flex">
@@ -1261,6 +1308,618 @@ const Navbar = () => {
                                 {isUiUXVisible && (
                                   <div className="ai-servises-card w-96 h-96  mt-10 p-4 pb-10 border border-neutral-600 flex-col justify-start items-start  inline-flex">
                                     <Image src={UiuxServise} alt="" />
+                                    <div className="Frame1171281498 self-stretch flex-col justify-start items-start gap-4 inline-flex">
+                                      <div className="DiscussYourAiProjectsWithUs w-96 pt-4 text-neutral-400 text-base font-light urbanist">
+                                        Discuss your UI and UX projects with us{" "}
+                                      </div>
+                                      <div className="Frame1171281490 flex-col justify-start items-start gap-4 flex">
+                                        <div className="Frame1171281465 justify-center items-center gap-2 inline-flex">
+                                          <div className="Correct1 w-4 h-4 relative">
+                                            <div className="Group w-4 h-4 left-0 top-0 absolute">
+                                              <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16"
+                                                height="17"
+                                                viewBox="0 0 16 17"
+                                                fill="none"
+                                              >
+                                                <g
+                                                  id="correct 1"
+                                                  clipPath="url(#clip0_478_5197)"
+                                                >
+                                                  <g id="Group">
+                                                    <path
+                                                      id="Vector"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M8 0.5C3.5875 0.5 0 4.0875 0 8.5C0 12.9125 3.5875 16.5 8 16.5C12.4125 16.5 16 12.9125 16 8.5C16 4.0875 12.4125 0.5 8 0.5Z"
+                                                      fill="#4BAE4F"
+                                                    />
+                                                    <path
+                                                      id="Vector_2"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M11.8687 5.80313C12.0625 5.99688 12.0625 6.31563 11.8687 6.50938L7.18124 11.1969C7.08437 11.2938 6.95624 11.3438 6.82812 11.3438C6.69999 11.3438 6.57187 11.2938 6.47499 11.1969L4.13124 8.85313C3.93749 8.65938 3.93749 8.34063 4.13124 8.14688C4.32499 7.95313 4.64374 7.95313 4.83749 8.14688L6.82812 10.1375L11.1625 5.80313C11.3562 5.60625 11.675 5.60625 11.8687 5.80313Z"
+                                                      fill="white"
+                                                    />
+                                                  </g>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_478_5197">
+                                                    <rect
+                                                      width="16"
+                                                      height="16"
+                                                      fill="white"
+                                                      transform="translate(0 0.5)"
+                                                    />
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </div>
+                                          </div>
+                                          <div className="PersonalisedSolutions text-neutral-200 text-sm font-extralight urbanist">
+                                            Personalised Solutions
+                                          </div>
+                                        </div>
+                                        <div className="Frame1171281489 justify-center items-center gap-2 inline-flex">
+                                          <div className="Correct1 w-4 h-4 relative">
+                                            <div className="Group w-4 h-4 left-0 top-0 absolute">
+                                              <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16"
+                                                height="17"
+                                                viewBox="0 0 16 17"
+                                                fill="none"
+                                              >
+                                                <g
+                                                  id="correct 1"
+                                                  clipPath="url(#clip0_478_5197)"
+                                                >
+                                                  <g id="Group">
+                                                    <path
+                                                      id="Vector"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M8 0.5C3.5875 0.5 0 4.0875 0 8.5C0 12.9125 3.5875 16.5 8 16.5C12.4125 16.5 16 12.9125 16 8.5C16 4.0875 12.4125 0.5 8 0.5Z"
+                                                      fill="#4BAE4F"
+                                                    />
+                                                    <path
+                                                      id="Vector_2"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M11.8687 5.80313C12.0625 5.99688 12.0625 6.31563 11.8687 6.50938L7.18124 11.1969C7.08437 11.2938 6.95624 11.3438 6.82812 11.3438C6.69999 11.3438 6.57187 11.2938 6.47499 11.1969L4.13124 8.85313C3.93749 8.65938 3.93749 8.34063 4.13124 8.14688C4.32499 7.95313 4.64374 7.95313 4.83749 8.14688L6.82812 10.1375L11.1625 5.80313C11.3562 5.60625 11.675 5.60625 11.8687 5.80313Z"
+                                                      fill="white"
+                                                    />
+                                                  </g>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_478_5197">
+                                                    <rect
+                                                      width="16"
+                                                      height="16"
+                                                      fill="white"
+                                                      transform="translate(0 0.5)"
+                                                    />
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </div>
+                                          </div>
+                                          <div className="EmbarkingOnAJourney text-neutral-200 text-sm font-extralight urbanist">
+                                            Embarking on a Journey
+                                          </div>
+                                        </div>
+                                        <div className="Frame1171281488 justify-center items-center gap-2 inline-flex">
+                                          <div className="Correct1 w-4 h-4 relative">
+                                            <div className="Group w-4 h-4 left-0 top-0 absolute">
+                                              <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16"
+                                                height="17"
+                                                viewBox="0 0 16 17"
+                                                fill="none"
+                                              >
+                                                <g
+                                                  id="correct 1"
+                                                  clipPath="url(#clip0_478_5197)"
+                                                >
+                                                  <g id="Group">
+                                                    <path
+                                                      id="Vector"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M8 0.5C3.5875 0.5 0 4.0875 0 8.5C0 12.9125 3.5875 16.5 8 16.5C12.4125 16.5 16 12.9125 16 8.5C16 4.0875 12.4125 0.5 8 0.5Z"
+                                                      fill="#4BAE4F"
+                                                    />
+                                                    <path
+                                                      id="Vector_2"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M11.8687 5.80313C12.0625 5.99688 12.0625 6.31563 11.8687 6.50938L7.18124 11.1969C7.08437 11.2938 6.95624 11.3438 6.82812 11.3438C6.69999 11.3438 6.57187 11.2938 6.47499 11.1969L4.13124 8.85313C3.93749 8.65938 3.93749 8.34063 4.13124 8.14688C4.32499 7.95313 4.64374 7.95313 4.83749 8.14688L6.82812 10.1375L11.1625 5.80313C11.3562 5.60625 11.675 5.60625 11.8687 5.80313Z"
+                                                      fill="white"
+                                                    />
+                                                  </g>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_478_5197">
+                                                    <rect
+                                                      width="16"
+                                                      height="16"
+                                                      fill="white"
+                                                      transform="translate(0 0.5)"
+                                                    />
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </div>
+                                          </div>
+                                          <div className="InitiatingActionWithACall text-neutral-200 text-sm font-extralight urbanist">
+                                            Initiating Action with a Call
+                                          </div>
+                                        </div>
+                                        <div className="Frame1171281490 justify-center items-center gap-2 inline-flex">
+                                          <div className="Correct1 w-4 h-4 relative">
+                                            <div className="Group w-4 h-4 left-0 top-0 absolute">
+                                              <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16"
+                                                height="17"
+                                                viewBox="0 0 16 17"
+                                                fill="none"
+                                              >
+                                                <g
+                                                  id="correct 1"
+                                                  clipPath="url(#clip0_478_5197)"
+                                                >
+                                                  <g id="Group">
+                                                    <path
+                                                      id="Vector"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M8 0.5C3.5875 0.5 0 4.0875 0 8.5C0 12.9125 3.5875 16.5 8 16.5C12.4125 16.5 16 12.9125 16 8.5C16 4.0875 12.4125 0.5 8 0.5Z"
+                                                      fill="#4BAE4F"
+                                                    />
+                                                    <path
+                                                      id="Vector_2"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M11.8687 5.80313C12.0625 5.99688 12.0625 6.31563 11.8687 6.50938L7.18124 11.1969C7.08437 11.2938 6.95624 11.3438 6.82812 11.3438C6.69999 11.3438 6.57187 11.2938 6.47499 11.1969L4.13124 8.85313C3.93749 8.65938 3.93749 8.34063 4.13124 8.14688C4.32499 7.95313 4.64374 7.95313 4.83749 8.14688L6.82812 10.1375L11.1625 5.80313C11.3562 5.60625 11.675 5.60625 11.8687 5.80313Z"
+                                                      fill="white"
+                                                    />
+                                                  </g>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_478_5197">
+                                                    <rect
+                                                      width="16"
+                                                      height="16"
+                                                      fill="white"
+                                                      transform="translate(0 0.5)"
+                                                    />
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </div>
+                                          </div>
+                                          <div className="RobustAiEngine text-neutral-200 text-sm font-extralight  urbanist">
+                                            Robust AI Engine
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                )}
+                                {isAppisible && (
+                                  <div className="ai-servises-card w-96 h-96  mt-10 p-4 pb-10 border border-neutral-600 flex-col justify-start items-start  inline-flex">
+                                    <Image src={AppServise} alt="" />
+                                    <div className="Frame1171281498 self-stretch flex-col justify-start items-start gap-4 inline-flex">
+                                      <div className="DiscussYourAiProjectsWithUs w-96 pt-4 text-neutral-400 text-base font-light urbanist">
+                                        Discuss your UI and UX projects with us{" "}
+                                      </div>
+                                      <div className="Frame1171281490 flex-col justify-start items-start gap-4 flex">
+                                        <div className="Frame1171281465 justify-center items-center gap-2 inline-flex">
+                                          <div className="Correct1 w-4 h-4 relative">
+                                            <div className="Group w-4 h-4 left-0 top-0 absolute">
+                                              <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16"
+                                                height="17"
+                                                viewBox="0 0 16 17"
+                                                fill="none"
+                                              >
+                                                <g
+                                                  id="correct 1"
+                                                  clipPath="url(#clip0_478_5197)"
+                                                >
+                                                  <g id="Group">
+                                                    <path
+                                                      id="Vector"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M8 0.5C3.5875 0.5 0 4.0875 0 8.5C0 12.9125 3.5875 16.5 8 16.5C12.4125 16.5 16 12.9125 16 8.5C16 4.0875 12.4125 0.5 8 0.5Z"
+                                                      fill="#4BAE4F"
+                                                    />
+                                                    <path
+                                                      id="Vector_2"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M11.8687 5.80313C12.0625 5.99688 12.0625 6.31563 11.8687 6.50938L7.18124 11.1969C7.08437 11.2938 6.95624 11.3438 6.82812 11.3438C6.69999 11.3438 6.57187 11.2938 6.47499 11.1969L4.13124 8.85313C3.93749 8.65938 3.93749 8.34063 4.13124 8.14688C4.32499 7.95313 4.64374 7.95313 4.83749 8.14688L6.82812 10.1375L11.1625 5.80313C11.3562 5.60625 11.675 5.60625 11.8687 5.80313Z"
+                                                      fill="white"
+                                                    />
+                                                  </g>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_478_5197">
+                                                    <rect
+                                                      width="16"
+                                                      height="16"
+                                                      fill="white"
+                                                      transform="translate(0 0.5)"
+                                                    />
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </div>
+                                          </div>
+                                          <div className="PersonalisedSolutions text-neutral-200 text-sm font-extralight urbanist">
+                                            Personalised Solutions
+                                          </div>
+                                        </div>
+                                        <div className="Frame1171281489 justify-center items-center gap-2 inline-flex">
+                                          <div className="Correct1 w-4 h-4 relative">
+                                            <div className="Group w-4 h-4 left-0 top-0 absolute">
+                                              <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16"
+                                                height="17"
+                                                viewBox="0 0 16 17"
+                                                fill="none"
+                                              >
+                                                <g
+                                                  id="correct 1"
+                                                  clipPath="url(#clip0_478_5197)"
+                                                >
+                                                  <g id="Group">
+                                                    <path
+                                                      id="Vector"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M8 0.5C3.5875 0.5 0 4.0875 0 8.5C0 12.9125 3.5875 16.5 8 16.5C12.4125 16.5 16 12.9125 16 8.5C16 4.0875 12.4125 0.5 8 0.5Z"
+                                                      fill="#4BAE4F"
+                                                    />
+                                                    <path
+                                                      id="Vector_2"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M11.8687 5.80313C12.0625 5.99688 12.0625 6.31563 11.8687 6.50938L7.18124 11.1969C7.08437 11.2938 6.95624 11.3438 6.82812 11.3438C6.69999 11.3438 6.57187 11.2938 6.47499 11.1969L4.13124 8.85313C3.93749 8.65938 3.93749 8.34063 4.13124 8.14688C4.32499 7.95313 4.64374 7.95313 4.83749 8.14688L6.82812 10.1375L11.1625 5.80313C11.3562 5.60625 11.675 5.60625 11.8687 5.80313Z"
+                                                      fill="white"
+                                                    />
+                                                  </g>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_478_5197">
+                                                    <rect
+                                                      width="16"
+                                                      height="16"
+                                                      fill="white"
+                                                      transform="translate(0 0.5)"
+                                                    />
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </div>
+                                          </div>
+                                          <div className="EmbarkingOnAJourney text-neutral-200 text-sm font-extralight urbanist">
+                                            Embarking on a Journey
+                                          </div>
+                                        </div>
+                                        <div className="Frame1171281488 justify-center items-center gap-2 inline-flex">
+                                          <div className="Correct1 w-4 h-4 relative">
+                                            <div className="Group w-4 h-4 left-0 top-0 absolute">
+                                              <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16"
+                                                height="17"
+                                                viewBox="0 0 16 17"
+                                                fill="none"
+                                              >
+                                                <g
+                                                  id="correct 1"
+                                                  clipPath="url(#clip0_478_5197)"
+                                                >
+                                                  <g id="Group">
+                                                    <path
+                                                      id="Vector"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M8 0.5C3.5875 0.5 0 4.0875 0 8.5C0 12.9125 3.5875 16.5 8 16.5C12.4125 16.5 16 12.9125 16 8.5C16 4.0875 12.4125 0.5 8 0.5Z"
+                                                      fill="#4BAE4F"
+                                                    />
+                                                    <path
+                                                      id="Vector_2"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M11.8687 5.80313C12.0625 5.99688 12.0625 6.31563 11.8687 6.50938L7.18124 11.1969C7.08437 11.2938 6.95624 11.3438 6.82812 11.3438C6.69999 11.3438 6.57187 11.2938 6.47499 11.1969L4.13124 8.85313C3.93749 8.65938 3.93749 8.34063 4.13124 8.14688C4.32499 7.95313 4.64374 7.95313 4.83749 8.14688L6.82812 10.1375L11.1625 5.80313C11.3562 5.60625 11.675 5.60625 11.8687 5.80313Z"
+                                                      fill="white"
+                                                    />
+                                                  </g>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_478_5197">
+                                                    <rect
+                                                      width="16"
+                                                      height="16"
+                                                      fill="white"
+                                                      transform="translate(0 0.5)"
+                                                    />
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </div>
+                                          </div>
+                                          <div className="InitiatingActionWithACall text-neutral-200 text-sm font-extralight urbanist">
+                                            Initiating Action with a Call
+                                          </div>
+                                        </div>
+                                        <div className="Frame1171281490 justify-center items-center gap-2 inline-flex">
+                                          <div className="Correct1 w-4 h-4 relative">
+                                            <div className="Group w-4 h-4 left-0 top-0 absolute">
+                                              <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16"
+                                                height="17"
+                                                viewBox="0 0 16 17"
+                                                fill="none"
+                                              >
+                                                <g
+                                                  id="correct 1"
+                                                  clipPath="url(#clip0_478_5197)"
+                                                >
+                                                  <g id="Group">
+                                                    <path
+                                                      id="Vector"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M8 0.5C3.5875 0.5 0 4.0875 0 8.5C0 12.9125 3.5875 16.5 8 16.5C12.4125 16.5 16 12.9125 16 8.5C16 4.0875 12.4125 0.5 8 0.5Z"
+                                                      fill="#4BAE4F"
+                                                    />
+                                                    <path
+                                                      id="Vector_2"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M11.8687 5.80313C12.0625 5.99688 12.0625 6.31563 11.8687 6.50938L7.18124 11.1969C7.08437 11.2938 6.95624 11.3438 6.82812 11.3438C6.69999 11.3438 6.57187 11.2938 6.47499 11.1969L4.13124 8.85313C3.93749 8.65938 3.93749 8.34063 4.13124 8.14688C4.32499 7.95313 4.64374 7.95313 4.83749 8.14688L6.82812 10.1375L11.1625 5.80313C11.3562 5.60625 11.675 5.60625 11.8687 5.80313Z"
+                                                      fill="white"
+                                                    />
+                                                  </g>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_478_5197">
+                                                    <rect
+                                                      width="16"
+                                                      height="16"
+                                                      fill="white"
+                                                      transform="translate(0 0.5)"
+                                                    />
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </div>
+                                          </div>
+                                          <div className="RobustAiEngine text-neutral-200 text-sm font-extralight  urbanist">
+                                            Robust AI Engine
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                )}{" "}
+                                {isAutomationisible && (
+                                  <div className="ai-servises-card w-96 h-96  mt-10 p-4 pb-10 border border-neutral-600 flex-col justify-start items-start  inline-flex">
+                                    <Image src={Automation} alt="" />
+                                    <div className="Frame1171281498 self-stretch flex-col justify-start items-start gap-4 inline-flex">
+                                      <div className="DiscussYourAiProjectsWithUs w-96 pt-4 text-neutral-400 text-base font-light urbanist">
+                                        Discuss your UI and UX projects with us{" "}
+                                      </div>
+                                      <div className="Frame1171281490 flex-col justify-start items-start gap-4 flex">
+                                        <div className="Frame1171281465 justify-center items-center gap-2 inline-flex">
+                                          <div className="Correct1 w-4 h-4 relative">
+                                            <div className="Group w-4 h-4 left-0 top-0 absolute">
+                                              <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16"
+                                                height="17"
+                                                viewBox="0 0 16 17"
+                                                fill="none"
+                                              >
+                                                <g
+                                                  id="correct 1"
+                                                  clipPath="url(#clip0_478_5197)"
+                                                >
+                                                  <g id="Group">
+                                                    <path
+                                                      id="Vector"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M8 0.5C3.5875 0.5 0 4.0875 0 8.5C0 12.9125 3.5875 16.5 8 16.5C12.4125 16.5 16 12.9125 16 8.5C16 4.0875 12.4125 0.5 8 0.5Z"
+                                                      fill="#4BAE4F"
+                                                    />
+                                                    <path
+                                                      id="Vector_2"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M11.8687 5.80313C12.0625 5.99688 12.0625 6.31563 11.8687 6.50938L7.18124 11.1969C7.08437 11.2938 6.95624 11.3438 6.82812 11.3438C6.69999 11.3438 6.57187 11.2938 6.47499 11.1969L4.13124 8.85313C3.93749 8.65938 3.93749 8.34063 4.13124 8.14688C4.32499 7.95313 4.64374 7.95313 4.83749 8.14688L6.82812 10.1375L11.1625 5.80313C11.3562 5.60625 11.675 5.60625 11.8687 5.80313Z"
+                                                      fill="white"
+                                                    />
+                                                  </g>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_478_5197">
+                                                    <rect
+                                                      width="16"
+                                                      height="16"
+                                                      fill="white"
+                                                      transform="translate(0 0.5)"
+                                                    />
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </div>
+                                          </div>
+                                          <div className="PersonalisedSolutions text-neutral-200 text-sm font-extralight urbanist">
+                                            Personalised Solutions
+                                          </div>
+                                        </div>
+                                        <div className="Frame1171281489 justify-center items-center gap-2 inline-flex">
+                                          <div className="Correct1 w-4 h-4 relative">
+                                            <div className="Group w-4 h-4 left-0 top-0 absolute">
+                                              <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16"
+                                                height="17"
+                                                viewBox="0 0 16 17"
+                                                fill="none"
+                                              >
+                                                <g
+                                                  id="correct 1"
+                                                  clipPath="url(#clip0_478_5197)"
+                                                >
+                                                  <g id="Group">
+                                                    <path
+                                                      id="Vector"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M8 0.5C3.5875 0.5 0 4.0875 0 8.5C0 12.9125 3.5875 16.5 8 16.5C12.4125 16.5 16 12.9125 16 8.5C16 4.0875 12.4125 0.5 8 0.5Z"
+                                                      fill="#4BAE4F"
+                                                    />
+                                                    <path
+                                                      id="Vector_2"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M11.8687 5.80313C12.0625 5.99688 12.0625 6.31563 11.8687 6.50938L7.18124 11.1969C7.08437 11.2938 6.95624 11.3438 6.82812 11.3438C6.69999 11.3438 6.57187 11.2938 6.47499 11.1969L4.13124 8.85313C3.93749 8.65938 3.93749 8.34063 4.13124 8.14688C4.32499 7.95313 4.64374 7.95313 4.83749 8.14688L6.82812 10.1375L11.1625 5.80313C11.3562 5.60625 11.675 5.60625 11.8687 5.80313Z"
+                                                      fill="white"
+                                                    />
+                                                  </g>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_478_5197">
+                                                    <rect
+                                                      width="16"
+                                                      height="16"
+                                                      fill="white"
+                                                      transform="translate(0 0.5)"
+                                                    />
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </div>
+                                          </div>
+                                          <div className="EmbarkingOnAJourney text-neutral-200 text-sm font-extralight urbanist">
+                                            Embarking on a Journey
+                                          </div>
+                                        </div>
+                                        <div className="Frame1171281488 justify-center items-center gap-2 inline-flex">
+                                          <div className="Correct1 w-4 h-4 relative">
+                                            <div className="Group w-4 h-4 left-0 top-0 absolute">
+                                              <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16"
+                                                height="17"
+                                                viewBox="0 0 16 17"
+                                                fill="none"
+                                              >
+                                                <g
+                                                  id="correct 1"
+                                                  clipPath="url(#clip0_478_5197)"
+                                                >
+                                                  <g id="Group">
+                                                    <path
+                                                      id="Vector"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M8 0.5C3.5875 0.5 0 4.0875 0 8.5C0 12.9125 3.5875 16.5 8 16.5C12.4125 16.5 16 12.9125 16 8.5C16 4.0875 12.4125 0.5 8 0.5Z"
+                                                      fill="#4BAE4F"
+                                                    />
+                                                    <path
+                                                      id="Vector_2"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M11.8687 5.80313C12.0625 5.99688 12.0625 6.31563 11.8687 6.50938L7.18124 11.1969C7.08437 11.2938 6.95624 11.3438 6.82812 11.3438C6.69999 11.3438 6.57187 11.2938 6.47499 11.1969L4.13124 8.85313C3.93749 8.65938 3.93749 8.34063 4.13124 8.14688C4.32499 7.95313 4.64374 7.95313 4.83749 8.14688L6.82812 10.1375L11.1625 5.80313C11.3562 5.60625 11.675 5.60625 11.8687 5.80313Z"
+                                                      fill="white"
+                                                    />
+                                                  </g>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_478_5197">
+                                                    <rect
+                                                      width="16"
+                                                      height="16"
+                                                      fill="white"
+                                                      transform="translate(0 0.5)"
+                                                    />
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </div>
+                                          </div>
+                                          <div className="InitiatingActionWithACall text-neutral-200 text-sm font-extralight urbanist">
+                                            Initiating Action with a Call
+                                          </div>
+                                        </div>
+                                        <div className="Frame1171281490 justify-center items-center gap-2 inline-flex">
+                                          <div className="Correct1 w-4 h-4 relative">
+                                            <div className="Group w-4 h-4 left-0 top-0 absolute">
+                                              <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16"
+                                                height="17"
+                                                viewBox="0 0 16 17"
+                                                fill="none"
+                                              >
+                                                <g
+                                                  id="correct 1"
+                                                  clipPath="url(#clip0_478_5197)"
+                                                >
+                                                  <g id="Group">
+                                                    <path
+                                                      id="Vector"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M8 0.5C3.5875 0.5 0 4.0875 0 8.5C0 12.9125 3.5875 16.5 8 16.5C12.4125 16.5 16 12.9125 16 8.5C16 4.0875 12.4125 0.5 8 0.5Z"
+                                                      fill="#4BAE4F"
+                                                    />
+                                                    <path
+                                                      id="Vector_2"
+                                                      fillRule="evenodd"
+                                                      clipRule="evenodd"
+                                                      d="M11.8687 5.80313C12.0625 5.99688 12.0625 6.31563 11.8687 6.50938L7.18124 11.1969C7.08437 11.2938 6.95624 11.3438 6.82812 11.3438C6.69999 11.3438 6.57187 11.2938 6.47499 11.1969L4.13124 8.85313C3.93749 8.65938 3.93749 8.34063 4.13124 8.14688C4.32499 7.95313 4.64374 7.95313 4.83749 8.14688L6.82812 10.1375L11.1625 5.80313C11.3562 5.60625 11.675 5.60625 11.8687 5.80313Z"
+                                                      fill="white"
+                                                    />
+                                                  </g>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_478_5197">
+                                                    <rect
+                                                      width="16"
+                                                      height="16"
+                                                      fill="white"
+                                                      transform="translate(0 0.5)"
+                                                    />
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </div>
+                                          </div>
+                                          <div className="RobustAiEngine text-neutral-200 text-sm font-extralight  urbanist">
+                                            Robust AI Engine
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                )}{" "}
+                                {isResourceVisible && (
+                                  <div className="ai-servises-card w-96 h-96  mt-10 p-4 pb-10 border border-neutral-600 flex-col justify-start items-start  inline-flex">
+                                    <Image src={Resource} alt="" />
                                     <div className="Frame1171281498 self-stretch flex-col justify-start items-start gap-4 inline-flex">
                                       <div className="DiscussYourAiProjectsWithUs w-96 pt-4 text-neutral-400 text-base font-light urbanist">
                                         Discuss your UI and UX projects with us{" "}

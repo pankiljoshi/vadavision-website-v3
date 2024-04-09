@@ -8,7 +8,7 @@ const ResourceServises = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
       Aos.init({
-        offset: 300,
+        offset: 100,
         duration: 1000,
         once: true,
         easing: "ease",

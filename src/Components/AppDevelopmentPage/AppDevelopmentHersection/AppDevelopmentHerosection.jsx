@@ -1,11 +1,27 @@
+"use client";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Image from "next/image";
-import React from "react";
 import MobileAPP from "../../../../public/Images/herosection-app-dev.png";
 const AppDevelopmentHerosection = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 100,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full px-20 flex flex-row gap-48 app-development-herosection padding-industies py-20 bg-gradient-to-l from-black to-zinc-950">
-        <div className=" w-[50%] app-development-leftside flex-col justify-start items-start gap-2 inline-flex">
+        <div
+          data-aos="fade-right"
+          className=" w-[50%] app-development-leftside flex-col justify-start items-start gap-2 inline-flex"
+        >
           <div className="justify-start items-center gap-3 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +109,7 @@ const AppDevelopmentHerosection = () => {
             </div>
           </div>
         </div>
-        <Image src={MobileAPP} />
+        <Image src={MobileAPP} data-aos="fade-left" />
       </div>
     </>
   );

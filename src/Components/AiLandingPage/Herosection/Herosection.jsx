@@ -10,7 +10,7 @@ const Herosection = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
       Aos.init({
-        offset: 300,
+        offset: 100,
         duration: 1000,
         once: true,
         easing: "ease",
@@ -110,14 +110,16 @@ const Herosection = () => {
           </div>
         </div>
       </div>
-      <Image
-        src={AiBotRobot}
-        alt=""
-        width={560}
-        height={560}
-        style={{ animation: "moveUpDown 3s ease infinite" }}
-        className="herosection-bot-image"
-      />
+      <div className="w-[50%] flex justify-center herosection-bot-image">
+        <Image
+          src={AiBotRobot}
+          alt=""
+          width={560}
+          height={560}
+          style={{ animation: "moveUpDown 3s ease infinite" }}
+          className="herosection-bot-image"
+        />
+      </div>
     </div>
   );
 };

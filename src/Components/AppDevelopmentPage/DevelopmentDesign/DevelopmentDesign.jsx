@@ -1,11 +1,23 @@
-import React from "react";
-
+"use client";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const DevelopmentDesign = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 100,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full px-20  py-20 bg-gradient-to-r from-zinc-950 to-zinc-950 padding-industies justify-start items-start inline-flex">
         <div className="self-stretch flex-col justify-start items-start gap-14 inline-flex">
-          <div className=" leading-tight">
+          <div data-aos="fade-right" className=" leading-tight">
             <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
               Why you should go for
               <br />
@@ -14,7 +26,10 @@ const DevelopmentDesign = () => {
               Development with VadaVision!
             </span>
           </div>
-          <div className="justify-between items-start gap-6 flex-wrap inline-flex">
+          <div
+            data-aos="fade-up"
+            className="justify-between items-start gap-6 flex-wrap inline-flex"
+          >
             <div className="px-6 card-responsive h-[200px] p-10 w-[400px]  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
                 <div className="w-8 h-8 relative">

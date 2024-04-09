@@ -1,16 +1,29 @@
 /* eslint-disable no-irregular-whitespace */
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import TechStach from "../../../../public/Images/tech-stack.png";
 import ReactNative from "../../../../public/Images/react-native.png";
 import Flutter from "../../../../public/Images/flutter.png";
 import Hybrid from "../../../../public/Images/hybrid.png";
 import Image from "next/image";
 const TechStack = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 100,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full px-20 padding-industies  py-20 bg-gradient-to-r from-zinc-950 to-zinc-950">
-        <div className=" ">
+        <div data-aos="fade-up" className=" ">
           <span className="text-neutral-400 text-[40px] leading-tight font-semibold urbanist">
             Our <br />
           </span>
@@ -19,10 +32,16 @@ const TechStack = () => {
           </span>
         </div>
         <div className=" flex-col justify-start  pt-10 items-start gap-14 inline-flex">
-          <div className="w-full justify-center items-center inline-flex">
+          <div
+            data-aos="zoom-in"
+            className="w-full justify-center items-center inline-flex"
+          >
             <Image src={TechStach} width={1320} />
           </div>
-          <div className="flex-col justify-start items-start gap-14 flex">
+          <div
+            data-aos="fade-right"
+            className="flex-col justify-start items-start gap-14 flex"
+          >
             <div className="w-full tech-stack-wrap justify-start items-start gap-14 inline-flex">
               <div className="w-[50%] pt-4 px-4 background-gradient h-[243px] tech-stack-height tech-stack-gap tech-stack-columm   border-gradient-bottom flex flex-row items-center gap-10  bg-gradient-to-bl ">
                 <Image
@@ -57,7 +76,10 @@ const TechStack = () => {
               </div>
             </div>
           </div>
-          <div className="px-4 h-[223px]  tech-stack-hybrid  background-gradient tech-stack-columm pt-8 pb-[62px] tech-stack-gap border-gradient-bottom bg-gradient-to-bl  items-center justify-start  gap-[38px] inline-flex">
+          <div
+            data-aos="zoom-in"
+            className="px-4 h-[223px]  tech-stack-hybrid  background-gradient tech-stack-columm pt-8 pb-[62px] tech-stack-gap border-gradient-bottom bg-gradient-to-bl  items-center justify-start  gap-[38px] inline-flex"
+          >
             <Image src={Hybrid} className="react-native-image" />
             <div className="self-stretch flex-col justify-start items-start gap-4 inline-flex">
               <div className="w-[292px] text-white text-[32px] font-medium urbanist">

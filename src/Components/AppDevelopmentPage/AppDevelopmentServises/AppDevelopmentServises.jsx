@@ -10,7 +10,7 @@ const AppDevelopmentServises = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
       Aos.init({
-        offset: 300,
+        offset: 100,
         duration: 1000,
         once: true,
         easing: "ease",
@@ -495,7 +495,10 @@ const AppDevelopmentServises = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="justify-start flex-wrap items-start gap-ai-servise   gap-28 inline-flex">
+                    <div
+                      style={{ gap: "19px" }}
+                      className=" justify-start flex-wrap items-start gap-8 inline-flex"
+                    >
                       <div className="justify-start items-center gap-4 flex">
                         <div className="w-6 h-6 relative origin-top-left ">
                           <svg
@@ -525,11 +528,11 @@ const AppDevelopmentServises = () => {
                             </defs>
                           </svg>
                         </div>
-                        <div className="text-white text-base ai-servise-data font-medium urbanist">
-                          Lower Development Costs{" "}
+                        <div className="w-[286px] text-white ai-servise-data text-base font-medium urbanist">
+                          lower Development Costs{" "}
                         </div>
                       </div>
-                      <div className="justify-start items-center gap-4 pl-2 flex">
+                      <div className="justify-start items-center gap-4 flex">
                         <div className="w-6 h-6 relative origin-top-left ">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -769,7 +772,10 @@ const AppDevelopmentServises = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="justify-start flex-wrap items-start gap-ai-servise   gap-28 inline-flex">
+                    <div
+                      style={{ gap: "19px" }}
+                      className=" justify-start flex-wrap items-start gap-8 inline-flex"
+                    >
                       <div className="justify-start items-center gap-4 flex">
                         <div className="w-6 h-6 relative origin-top-left ">
                           <svg
@@ -799,11 +805,11 @@ const AppDevelopmentServises = () => {
                             </defs>
                           </svg>
                         </div>
-                        <div className="text-white text-base ai-servise-data font-medium urbanist">
-                          Lower Development Costs{" "}
+                        <div className="w-[286px] text-white ai-servise-data text-base font-medium urbanist">
+                          lower Development Costs{" "}
                         </div>
                       </div>
-                      <div className="justify-start items-center gap-4 pl-2 flex">
+                      <div className="justify-start items-center gap-4 flex">
                         <div className="w-6 h-6 relative origin-top-left ">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -1043,7 +1049,10 @@ const AppDevelopmentServises = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="justify-start flex-wrap items-start gap-ai-servise   gap-28 inline-flex">
+                    <div
+                      style={{ gap: "19px" }}
+                      className=" justify-start flex-wrap items-start gap-8 inline-flex"
+                    >
                       <div className="justify-start items-center gap-4 flex">
                         <div className="w-6 h-6 relative origin-top-left ">
                           <svg
@@ -1073,11 +1082,11 @@ const AppDevelopmentServises = () => {
                             </defs>
                           </svg>
                         </div>
-                        <div className="text-white text-base ai-servise-data font-medium urbanist">
-                          Lower Development Costs{" "}
+                        <div className="w-[286px] text-white ai-servise-data text-base font-medium urbanist">
+                          lower Development Costs{" "}
                         </div>
                       </div>
-                      <div className="justify-start items-center gap-4 pl-2 flex">
+                      <div className="justify-start items-center gap-4 flex">
                         <div className="w-6 h-6 relative origin-top-left ">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -1316,7 +1325,10 @@ const AppDevelopmentServises = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="justify-start flex-wrap items-start gap-ai-servise   gap-28 inline-flex">
+                    <div
+                      style={{ gap: "19px" }}
+                      className=" justify-start flex-wrap items-start gap-8 inline-flex"
+                    >
                       <div className="justify-start items-center gap-4 flex">
                         <div className="w-6 h-6 relative origin-top-left ">
                           <svg
@@ -1346,11 +1358,11 @@ const AppDevelopmentServises = () => {
                             </defs>
                           </svg>
                         </div>
-                        <div className="text-white text-base ai-servise-data font-medium urbanist">
-                          Lower Development Costs{" "}
+                        <div className="w-[286px] text-white ai-servise-data text-base font-medium urbanist">
+                          lower Development Costs{" "}
                         </div>
                       </div>
-                      <div className="justify-start items-center gap-4 pl-2 padding-servise flex">
+                      <div className="justify-start items-center gap-4 flex">
                         <div className="w-6 h-6 relative origin-top-left ">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"

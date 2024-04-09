@@ -8,7 +8,7 @@ const AutomationHerosection = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
       Aos.init({
-        offset: 200,
+        offset: 100,
         duration: 1000,
         once: true,
         easing: "ease",

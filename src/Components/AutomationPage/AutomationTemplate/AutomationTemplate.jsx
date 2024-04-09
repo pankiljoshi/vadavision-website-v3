@@ -13,7 +13,7 @@ const AutomationTemplate = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
       Aos.init({
-        offset: 300,
+        offset: 100,
         duration: 1000,
         once: true,
         easing: "ease",
@@ -32,29 +32,29 @@ const AutomationTemplate = () => {
             Automation Templates
           </span>
         </div>
-        <div className="w-full justify-center items-center gap-6 pt-10   inline-flex">
-          <div className="p-4 bg-gradient-to-r  cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-20 backdrop-blur-[80px] justify-center items-center gap-2.5 flex">
-            <div className="w-[117px] text-zinc-100 text-xl font-semibold urbanist">
+        <div className="w-full justify-center items-center gap-6 pt-10  template-gap-responsive  inline-flex">
+          <div className="p-4 bg-gradient-to-r  template-padding cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-20 backdrop-blur-[80px] justify-center items-center gap-2.5 flex">
+            <div className="w-[117px] all-templated-button text-zinc-100 text-xl font-semibold urbanist templated-cards-font-size">
               All Template
             </div>
           </div>
-          <div className="p-4 bg-gradient-to-r  cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-10 backdrop-blur-[80px] flex-col justify-start items-start gap-2.5 inline-flex">
-            <div className="text-neutral-400 text-xl font-medium urbanist">
+          <div className="p-4 bg-gradient-to-r  template-padding cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-10 backdrop-blur-[80px] flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="text-neutral-400 text-xl font-medium urbanist templated-cards-font-size">
               Marketing
             </div>
           </div>
-          <div className="p-4 bg-gradient-to-r cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-10 backdrop-blur-[80px] flex-col justify-start items-start gap-2.5 inline-flex">
-            <div className="text-neutral-400 text-xl font-medium urbanist">
+          <div className="p-4 bg-gradient-to-r template-padding cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-10 backdrop-blur-[80px] flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="text-neutral-400 text-xl font-medium urbanist templated-cards-font-size">
               Sales
             </div>
           </div>
-          <div className="p-4 bg-gradient-to-r  cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-10 backdrop-blur-[80px] flex-col justify-start items-start gap-2.5 inline-flex">
-            <div className="text-neutral-400 text-xl font-medium urbanist">
+          <div className="p-4 bg-gradient-to-r template-padding  cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-10 backdrop-blur-[80px] flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="text-neutral-400 text-xl font-medium urbanist templated-cards-font-size">
               Operations
             </div>
           </div>
-          <div className="p-4 bg-gradient-to-r  cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-10 backdrop-blur-[80px] flex-col justify-start items-start gap-2.5 inline-flex">
-            <div className="text-neutral-400 text-xl font-medium urbanist">
+          <div className="p-4 bg-gradient-to-r template-padding  cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-10 backdrop-blur-[80px] flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="text-neutral-400 text-xl font-medium urbanist templated-cards-font-size">
               Support
             </div>
           </div>
@@ -63,7 +63,7 @@ const AutomationTemplate = () => {
           data-aos="zoom-in"
           className=" flex-row flex-wrap justify-start items-start gap-10 pt-16 inline-flex"
         >
-          <div className="w-[390px] design-cards h-[455px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
+          <div className="w-[390px] design-cards h-[485px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
             <Image
               src={LinkdinAutomation}
               className="automation-templated-cards"
@@ -99,7 +99,7 @@ const AutomationTemplate = () => {
               </div>
             </div>
           </div>
-          <div className="w-[390px] design-cards h-[455px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
+          <div className="w-[390px] design-cards h-[485px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
             <Image src={GoogleSheet} className="automation-templated-cards" />
             <div className="  flex-col justify-start items-start gap-2 inline-flex">
               <div className=" text-zinc-100 pt-4 text-xl font-normal urbanist">
@@ -132,7 +132,7 @@ const AutomationTemplate = () => {
               </div>
             </div>
           </div>
-          <div className="w-[390px] design-cards h-[455px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
+          <div className="w-[390px] design-cards h-[485px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
             <Image
               src={DailyOperation}
               className="automation-templated-cards"
@@ -168,7 +168,7 @@ const AutomationTemplate = () => {
               </div>
             </div>
           </div>
-          <div className="w-[390px] design-cards h-[455px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
+          <div className="w-[390px] design-cards h-[485px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
             <Image src={Notionx} className="automation-templated-cards" />
             <div className="  flex-col justify-start items-start gap-2 inline-flex">
               <div className=" text-zinc-100 pt-4 text-xl font-normal urbanist">
@@ -201,7 +201,7 @@ const AutomationTemplate = () => {
               </div>
             </div>
           </div>
-          <div className="w-[390px] design-cards h-[455px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
+          <div className="w-[390px] design-cards h-[485px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
             <Image src={Trello} className="automation-templated-cards" />
             <div className="  flex-col justify-start items-start gap-2 inline-flex">
               <div className=" text-zinc-100 pt-4 text-xl font-normal urbanist">
@@ -234,7 +234,7 @@ const AutomationTemplate = () => {
               </div>
             </div>
           </div>
-          <div className="w-[390px] design-cards h-[455px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
+          <div className="w-[390px] design-cards h-[485px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
             <Image src={Mailchimp} className="automation-templated-cards" />
             <div className="  flex-col justify-start items-start gap-2 inline-flex">
               <div className=" text-zinc-100 pt-4 text-xl font-normal urbanist">

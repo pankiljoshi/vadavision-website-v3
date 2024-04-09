@@ -9,7 +9,7 @@ const HowItsWork = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
       Aos.init({
-        offset: 300,
+        offset: 100,
         duration: 1000,
         once: true,
         easing: "ease",
@@ -28,7 +28,7 @@ const HowItsWork = () => {
             How it Works
           </span>
         </div>
-        <div className="flex flex-row gap-48 responsive-section-automation pt-10">
+        <div className="flex flex-row gap-8 responsive-section-automation pt-10">
           <div
             data-aos="fade-right"
             className="flex-col w-[55%] automation-cards-leftside  justify-start items-start gap-10 inline-flex"
@@ -75,14 +75,12 @@ const HowItsWork = () => {
               </div>
             </div>
           </div>
-          <div className="w-[45%] h-[100px]">
-            <Image
-              src={FlowChat}
-              width={405}
-              data-aos="zoom-in "
-              className="flowchat-image"
-            />
-          </div>
+          <Image
+            src={FlowChat}
+            data-aos="zoom-in "
+            width={490}
+            className="flowchat-image "
+          />
         </div>
       </div>
     </>

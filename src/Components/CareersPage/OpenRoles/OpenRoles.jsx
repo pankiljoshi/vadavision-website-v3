@@ -13,29 +13,29 @@ const OpenRoles = () => {
             Open Roles
           </span>
         </div>
-        {/* <div className="w-full justify-center items-center gap-6 pt-10   inline-flex">
-          <div className="p-4 bg-gradient-to-r  cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-20 backdrop-blur-[80px] justify-center items-center gap-2.5 flex">
-            <div className=" text-zinc-100 text-xl font-semibold urbanist">
+        {/* <div className="w-full justify-center items-center gap-6 pt-10 template-gap-responsive  inline-flex">
+          <div className="p-4 bg-gradient-to-r template-padding  cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-20 backdrop-blur-[80px] justify-center items-center gap-2.5 flex">
+            <div className=" text-zinc-100 text-xl font-semibold urbanist templated-cards-font-size">
               All Roles{" "}
             </div>
           </div>
-          <div className="p-4 bg-gradient-to-r  cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-10 backdrop-blur-[80px] flex-col justify-start items-start gap-2.5 inline-flex">
-            <div className="text-neutral-400 text-xl font-medium urbanist">
+          <div className="p-4 bg-gradient-to-r template-padding cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-10 backdrop-blur-[80px] flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="text-neutral-400 text-xl font-medium urbanist templated-cards-font-size">
               Development
             </div>
           </div>
-          <div className="p-4 bg-gradient-to-r cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-10 backdrop-blur-[80px] flex-col justify-start items-start gap-2.5 inline-flex">
-            <div className="text-neutral-400 text-xl font-medium urbanist">
+          <div className="p-4 bg-gradient-to-r cursor-pointer template-padding from-stone-900 to-neutral-950 border border-white border-opacity-10 backdrop-blur-[80px] flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="text-neutral-400 text-xl font-medium urbanist templated-cards-font-size">
               Marketing
             </div>
           </div>
-          <div className="p-4 bg-gradient-to-r  cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-10 backdrop-blur-[80px] flex-col justify-start items-start gap-2.5 inline-flex">
-            <div className="text-neutral-400 text-xl font-medium urbanist">
+          <div className="p-4 bg-gradient-to-r  cursor-pointer template-padding from-stone-900 to-neutral-950 border border-white border-opacity-10 backdrop-blur-[80px] flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="text-neutral-400 text-xl font-medium urbanist templated-cards-font-size">
               Sales
             </div>
           </div>
-          <div className="p-4 bg-gradient-to-r  cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-10 backdrop-blur-[80px] flex-col justify-start items-start gap-2.5 inline-flex">
-            <div className="text-neutral-400 text-xl font-medium urbanist">
+          <div className="p-4 bg-gradient-to-r template-padding cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-10 backdrop-blur-[80px] flex-col justify-start items-start gap-2.5 inline-flex">
+            <div className="text-neutral-400 text-xl font-medium urbanist templated-cards-font-size">
               HR & Administration
             </div>
           </div>

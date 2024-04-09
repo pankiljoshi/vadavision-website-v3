@@ -7,7 +7,7 @@ const Industries = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
       Aos.init({
-        offset: 300,
+        offset: 100,
         duration: 2000,
         once: true,
         easing: "ease",

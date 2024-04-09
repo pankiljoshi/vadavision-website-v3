@@ -10,7 +10,7 @@ const UiUxHerosection = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
       Aos.init({
-        offset: 300,
+        offset: 100,
         duration: 1000,
         once: true,
         easing: "ease",
@@ -19,7 +19,7 @@ const UiUxHerosection = () => {
   }, []);
   return (
     <>
-      <div className="w-full uiux-responsive  padding-industies flex flex-row ">
+      <div className="w-full uiux-responsive mobile-view-bg-ui-ux  padding-industies flex flex-row ">
         <div
           data-aos="fade-right"
           className=" w-[60%] uiux-leftside py-20 pl-20 flex-col justify-start items-start gap-2 inline-flex"
@@ -120,7 +120,7 @@ const UiUxHerosection = () => {
         </div>
         <div
           data-aos="fade-up"
-          className="w-[40%] mobile-view-uiux-image  h-[620px] justify-center pt-20 hidden show-image-uiux"
+          className="w-[40%] mobile-view-uiux-image  justify-center py-20 hidden show-image-uiux"
         >
           <Image src={MobileUiUxHerosectionImage} className="mx-auto" />
         </div>

@@ -2990,6 +2990,7 @@ body {
 @media screen and (max-width: 940px) {
   .responsiveServises {
     gap: 10px;
+    width: 100%;
   }
 }
 
@@ -3023,24 +3024,10 @@ body {
 }
 @media screen and (max-width: 540px) {
   .responsive-content-aiservises {
-    width: 450px;
+    width: 100%;
   }
 }
-@media screen and (max-width: 490px) {
-  .responsive-content-aiservises {
-    width: 410px;
-  }
-}
-@media screen and (max-width: 460px) {
-  .responsive-content-aiservises {
-    width: 390px;
-  }
-}
-@media screen and (max-width: 420px) {
-  .responsive-content-aiservises {
-    width: 350px;
-  }
-}
+
 @media screen and (max-width: 800px) {
   .responsive-wrap {
     flex-wrap: wrap;
@@ -3373,10 +3360,10 @@ body {
 }
 @media screen and (max-width: 680px) {
   .content-height {
-    height: 300px;
+    height: 380px;
     align-items: initial;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 @media screen and (max-width: 520px) {
@@ -3751,6 +3738,14 @@ body {
     background-image: url("../../public/Images/herosection-ai-bot-mobile-view.png");
   }
 }
+@media screen and (max-width:1050px) {
+  .mobile-view-bg-ui-ux{
+    background-image: url('../../public/Images/ui-ux-mobile-view-herosection.png');
+    background-size: cover;
+    background-position: top;
+  }
+  
+}
 @media screen and (max-width: 680px) {
   .data-protection-mobile-bg {
     background-image: url("../../public/Images/data-protection-mobile-bg.png");
@@ -4100,7 +4095,44 @@ body {
 }
 @media screen and (max-width:1280px) {
   .responsive-section-automation{
-    gap: 50px;
+    gap: 90px;
+  }
+  
+}
+@media screen and (max-width:620px) {
+  .templated-cards-font-size{
+    font-size: 16px;
+  }
+  
+}
+@media screen and (max-width:460px) {
+  .wireframing-content{
+    width: 100%;
+
+  }
+  
+}
+@media screen and (max-width:460px) {
+  .all-templated-button{
+    width: 70px;
+  }
+  
+}
+@media screen and (max-width:480px) {
+  .templated-cards-font-size{
+    font-size: 11px;
+  }
+  
+}
+@media screen and (max-width:550px) {
+  .template-gap-responsive{
+    gap: 7px;
+  }
+  
+}
+@media screen and (max-width:720px) {
+  .template-padding{
+    padding: 6px;
   }
   
 }
@@ -4166,6 +4198,24 @@ body {
 @media screen and (max-width:510px) {
   .automation-cards-width{
     width: 220px;
+  }
+  
+}
+@media screen and (max-width:1270px) {
+  .flowchat-image{
+    width: 450px;
+  }
+  
+}
+@media screen and (max-width:1170px) {
+  .flowchat-image{
+    width: 410px;
+  }
+  
+}
+@media screen and (max-width:1130px) {
+  .flowchat-image{
+    width: 390px;
   }
   
 }
@@ -4772,6 +4822,12 @@ body {
   .howitswork-cards {
     flex-wrap: wrap;
   }
+}
+@media screen and (max-width:460px) {
+  .ui-ux-howitswork-cards{
+    width: 100%;
+  }
+  
 }
 @media screen and (max-width: 440px) {
   .resource-augmentation-heading {

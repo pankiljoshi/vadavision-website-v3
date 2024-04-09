@@ -10,7 +10,7 @@ const UiUxServises = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
       Aos.init({
-        offset: 300,
+        offset: 100,
         duration: 1000,
         once: true,
         easing: "ease",
@@ -496,7 +496,10 @@ const UiUxServises = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="justify-start flex-wrap items-start gap-ai-servise   gap-36 inline-flex">
+                    <div
+                      style={{ gap: "19px" }}
+                      className=" justify-start flex-wrap items-start gap-8 inline-flex"
+                    >
                       <div className="justify-start items-center gap-4 flex">
                         <div className="w-6 h-6 relative origin-top-left ">
                           <svg
@@ -526,11 +529,11 @@ const UiUxServises = () => {
                             </defs>
                           </svg>
                         </div>
-                        <div className="text-white text-base ai-servise-data font-medium urbanist">
+                        <div className="w-[286px] text-white ai-servise-data text-base font-medium urbanist">
                           Brand Loyalty{" "}
                         </div>
                       </div>
-                      <div className="justify-start items-center gap-4 pl-16 flex">
+                      <div className="justify-start items-center gap-4 flex">
                         <div className="w-6 h-6 relative origin-top-left ">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -566,31 +569,33 @@ const UiUxServises = () => {
                     </div>
                   </div>
                 </div>
-                <Link href="/contact-us">
-                  <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#DD4243] hover:bg-[#D53033] justify-center items-center gap-4 inline-flex">
-                    <div className="text-white text-xl font-light urbanist">
-                      Get in Touch
-                    </div>
-                    <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
-                      <div className="w-4 h-4 relative">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          viewBox="0 0 16 16"
-                          fill="none"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            clipRule="evenodd"
-                            d="M5.52861 3.52858C5.78896 3.26823 6.21107 3.26823 6.47141 3.52858L10.4714 7.52858C10.7318 7.78892 10.7318 8.21103 10.4714 8.47138L6.47141 12.4714C6.21107 12.7317 5.78896 12.7317 5.52861 12.4714C5.26826 12.211 5.26826 11.7889 5.52861 11.5286L9.0572 7.99998L5.52861 4.47138C5.26826 4.21103 5.26826 3.78892 5.52861 3.52858Z"
-                            fill="white"
-                          />
-                        </svg>
+                <div className="consult-us-button">
+                  <Link href="/contact-us">
+                    <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#DD4243] hover:bg-[#D53033] justify-center items-center gap-4 inline-flex">
+                      <div className="text-white text-xl font-light urbanist">
+                        Get in Touch
+                      </div>
+                      <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+                        <div className="w-4 h-4 relative">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            viewBox="0 0 16 16"
+                            fill="none"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              clipRule="evenodd"
+                              d="M5.52861 3.52858C5.78896 3.26823 6.21107 3.26823 6.47141 3.52858L10.4714 7.52858C10.7318 7.78892 10.7318 8.21103 10.4714 8.47138L6.47141 12.4714C6.21107 12.7317 5.78896 12.7317 5.52861 12.4714C5.26826 12.211 5.26826 11.7889 5.52861 11.5286L9.0572 7.99998L5.52861 4.47138C5.26826 4.21103 5.26826 3.78892 5.52861 3.52858Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </Link>
+                  </Link>
+                </div>
               </div>
             </div>
 
@@ -769,7 +774,10 @@ const UiUxServises = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="justify-start flex-wrap items-start gap-ai-servise   gap-36 inline-flex">
+                    <div
+                      style={{ gap: "19px" }}
+                      className=" justify-start flex-wrap items-start gap-8 inline-flex"
+                    >
                       <div className="justify-start items-center gap-4 flex">
                         <div className="w-6 h-6 relative origin-top-left ">
                           <svg
@@ -799,11 +807,11 @@ const UiUxServises = () => {
                             </defs>
                           </svg>
                         </div>
-                        <div className="text-white text-base ai-servise-data font-medium urbanist">
+                        <div className="w-[286px] text-white ai-servise-data text-base font-medium urbanist">
                           Brand Loyalty{" "}
                         </div>
                       </div>
-                      <div className="justify-start items-center gap-4 pl-16 flex">
+                      <div className="justify-start items-center gap-4 flex">
                         <div className="w-6 h-6 relative origin-top-left ">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -839,31 +847,33 @@ const UiUxServises = () => {
                     </div>
                   </div>
                 </div>
-                <Link href="/contact-us">
-                  <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#DD4243] hover:bg-[#D53033] justify-center items-center gap-4 inline-flex">
-                    <div className="text-white text-xl font-light urbanist">
-                      Get in Touch
-                    </div>
-                    <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
-                      <div className="w-4 h-4 relative">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          viewBox="0 0 16 16"
-                          fill="none"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            clipRule="evenodd"
-                            d="M5.52861 3.52858C5.78896 3.26823 6.21107 3.26823 6.47141 3.52858L10.4714 7.52858C10.7318 7.78892 10.7318 8.21103 10.4714 8.47138L6.47141 12.4714C6.21107 12.7317 5.78896 12.7317 5.52861 12.4714C5.26826 12.211 5.26826 11.7889 5.52861 11.5286L9.0572 7.99998L5.52861 4.47138C5.26826 4.21103 5.26826 3.78892 5.52861 3.52858Z"
-                            fill="white"
-                          />
-                        </svg>
+                <div className="consult-us-button">
+                  <Link href="/contact-us">
+                    <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#DD4243] hover:bg-[#D53033] justify-center items-center gap-4 inline-flex">
+                      <div className="text-white text-xl font-light urbanist">
+                        Get in Touch
+                      </div>
+                      <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+                        <div className="w-4 h-4 relative">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            viewBox="0 0 16 16"
+                            fill="none"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              clipRule="evenodd"
+                              d="M5.52861 3.52858C5.78896 3.26823 6.21107 3.26823 6.47141 3.52858L10.4714 7.52858C10.7318 7.78892 10.7318 8.21103 10.4714 8.47138L6.47141 12.4714C6.21107 12.7317 5.78896 12.7317 5.52861 12.4714C5.26826 12.211 5.26826 11.7889 5.52861 11.5286L9.0572 7.99998L5.52861 4.47138C5.26826 4.21103 5.26826 3.78892 5.52861 3.52858Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </Link>
+                  </Link>
+                </div>
               </div>
             </div>
 
@@ -1042,7 +1052,10 @@ const UiUxServises = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="justify-start flex-wrap items-start gap-ai-servise   gap-36 inline-flex">
+                    <div
+                      style={{ gap: "19px" }}
+                      className=" justify-start flex-wrap items-start gap-8 inline-flex"
+                    >
                       <div className="justify-start items-center gap-4 flex">
                         <div className="w-6 h-6 relative origin-top-left ">
                           <svg
@@ -1072,11 +1085,11 @@ const UiUxServises = () => {
                             </defs>
                           </svg>
                         </div>
-                        <div className="text-white text-base ai-servise-data font-medium urbanist">
+                        <div className="w-[286px] text-white ai-servise-data text-base font-medium urbanist">
                           Brand Loyalty{" "}
                         </div>
                       </div>
-                      <div className="justify-start items-center gap-4 pl-16 flex">
+                      <div className="justify-start items-center gap-4 flex">
                         <div className="w-6 h-6 relative origin-top-left ">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -1112,31 +1125,33 @@ const UiUxServises = () => {
                     </div>
                   </div>
                 </div>
-                <Link href="/contact-us">
-                  <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#DD4243] hover:bg-[#D53033] justify-center items-center gap-4 inline-flex">
-                    <div className="text-white text-xl font-light urbanist">
-                      Get in Touch
-                    </div>
-                    <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
-                      <div className="w-4 h-4 relative">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          viewBox="0 0 16 16"
-                          fill="none"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            clipRule="evenodd"
-                            d="M5.52861 3.52858C5.78896 3.26823 6.21107 3.26823 6.47141 3.52858L10.4714 7.52858C10.7318 7.78892 10.7318 8.21103 10.4714 8.47138L6.47141 12.4714C6.21107 12.7317 5.78896 12.7317 5.52861 12.4714C5.26826 12.211 5.26826 11.7889 5.52861 11.5286L9.0572 7.99998L5.52861 4.47138C5.26826 4.21103 5.26826 3.78892 5.52861 3.52858Z"
-                            fill="white"
-                          />
-                        </svg>
+                <div className="consult-us-button">
+                  <Link href="/contact-us">
+                    <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#DD4243] hover:bg-[#D53033] justify-center items-center gap-4 inline-flex">
+                      <div className="text-white text-xl font-light urbanist">
+                        Get in Touch
+                      </div>
+                      <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+                        <div className="w-4 h-4 relative">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            viewBox="0 0 16 16"
+                            fill="none"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              clipRule="evenodd"
+                              d="M5.52861 3.52858C5.78896 3.26823 6.21107 3.26823 6.47141 3.52858L10.4714 7.52858C10.7318 7.78892 10.7318 8.21103 10.4714 8.47138L6.47141 12.4714C6.21107 12.7317 5.78896 12.7317 5.52861 12.4714C5.26826 12.211 5.26826 11.7889 5.52861 11.5286L9.0572 7.99998L5.52861 4.47138C5.26826 4.21103 5.26826 3.78892 5.52861 3.52858Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </Link>
+                  </Link>
+                </div>
               </div>
             </div>
 
@@ -1314,7 +1329,10 @@ const UiUxServises = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="justify-start flex-wrap items-start gap-ai-servise   gap-36 inline-flex">
+                    <div
+                      style={{ gap: "19px" }}
+                      className=" justify-start flex-wrap items-start gap-8 inline-flex"
+                    >
                       <div className="justify-start items-center gap-4 flex">
                         <div className="w-6 h-6 relative origin-top-left ">
                           <svg
@@ -1344,11 +1362,11 @@ const UiUxServises = () => {
                             </defs>
                           </svg>
                         </div>
-                        <div className="text-white text-base ai-servise-data font-medium urbanist">
+                        <div className="w-[286px] text-white ai-servise-data text-base font-medium urbanist">
                           Brand Loyalty{" "}
                         </div>
                       </div>
-                      <div className="justify-start items-center gap-4 pl-16 flex">
+                      <div className="justify-start items-center gap-4 flex">
                         <div className="w-6 h-6 relative origin-top-left ">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -1384,31 +1402,33 @@ const UiUxServises = () => {
                     </div>
                   </div>
                 </div>
-                <Link href="/contact-us">
-                  <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#DD4243] hover:bg-[#D53033] justify-center items-center gap-4 inline-flex">
-                    <div className="text-white text-xl font-light urbanist">
-                      Get in Touch
-                    </div>
-                    <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
-                      <div className="w-4 h-4 relative">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          viewBox="0 0 16 16"
-                          fill="none"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            clipRule="evenodd"
-                            d="M5.52861 3.52858C5.78896 3.26823 6.21107 3.26823 6.47141 3.52858L10.4714 7.52858C10.7318 7.78892 10.7318 8.21103 10.4714 8.47138L6.47141 12.4714C6.21107 12.7317 5.78896 12.7317 5.52861 12.4714C5.26826 12.211 5.26826 11.7889 5.52861 11.5286L9.0572 7.99998L5.52861 4.47138C5.26826 4.21103 5.26826 3.78892 5.52861 3.52858Z"
-                            fill="white"
-                          />
-                        </svg>
+                <div className="consult-us-button">
+                  <Link href="/contact-us">
+                    <div className="h-12 w-[232px] px-10 mt-8 consult-us-button  bg-[#DD4243] hover:bg-[#D53033] justify-center items-center gap-4 inline-flex">
+                      <div className="text-white text-xl font-light urbanist">
+                        Get in Touch
+                      </div>
+                      <div className="w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+                        <div className="w-4 h-4 relative">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            viewBox="0 0 16 16"
+                            fill="none"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              clipRule="evenodd"
+                              d="M5.52861 3.52858C5.78896 3.26823 6.21107 3.26823 6.47141 3.52858L10.4714 7.52858C10.7318 7.78892 10.7318 8.21103 10.4714 8.47138L6.47141 12.4714C6.21107 12.7317 5.78896 12.7317 5.52861 12.4714C5.26826 12.211 5.26826 11.7889 5.52861 11.5286L9.0572 7.99998L5.52861 4.47138C5.26826 4.21103 5.26826 3.78892 5.52861 3.52858Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </Link>
+                  </Link>
+                </div>
               </div>
             </div>
 

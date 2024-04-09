@@ -8,7 +8,7 @@ const HowItsWork = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
       Aos.init({
-        offset: 300,
+        offset: 100,
         duration: 1000,
         once: true,
         easing: "ease",
@@ -26,7 +26,7 @@ const HowItsWork = () => {
             How it Works
           </span>
         </div>
-        <div className=" flex-col justify-start items-start gap-14 inline-flex">
+        <div className=" flex-col justify-start wireframing-content items-start gap-14 inline-flex">
           <div
             data-aos="zoom-in"
             className="justify-start items-center pt-16 inline-flex"
@@ -35,9 +35,9 @@ const HowItsWork = () => {
           </div>
           <div
             data-aos="fade-right"
-            className="flex-col justify-start items-start gap-[49px] flex"
+            className="flex-col justify-start ui-ux-howitswork-cards items-start gap-[49px] flex"
           >
-            <div className="justify-start howitswork-cards items-start gap-12 inline-flex">
+            <div className="justify-start ui-ux-howitswork-cards howitswork-cards items-start gap-12 inline-flex">
               <div className="w-[50%] pl-4 py-8 bg-gradient-to-bl howitswork-cards-width background-gradient  border-gradient-bottom flex-col justify-center items-start gap-4 inline-flex">
                 <div className="self-stretch justify-start items-center gap-4 inline-flex">
                   <div className="w-6 h-6 ">
@@ -121,8 +121,8 @@ const HowItsWork = () => {
                 </div>
               </div>
             </div>
-            <div className="justify-start howitswork-cards items-start gap-12 inline-flex">
-              <div className="w-[50%] howitswork-cards-width pl-4 py-8 bg-gradient-to-bl background-gradient  border-gradient-bottom flex-col justify-center items-start gap-4 inline-flex">
+            <div className="justify-start howitswork-cards  ui-ux-howitswork-cards items-start gap-12 inline-flex">
+              <div className="w-[50%] howitswork-cards-width ui-ux-howitswork-cards pl-4 py-8 bg-gradient-to-bl background-gradient  border-gradient-bottom flex-col justify-center items-start gap-4 inline-flex">
                 <div className="self-stretch justify-start items-center gap-4 inline-flex">
                   <div className="w-6 h-6 ">
                     <svg

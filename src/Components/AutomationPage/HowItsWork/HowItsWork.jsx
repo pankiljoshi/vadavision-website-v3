@@ -31,7 +31,7 @@ const HowItsWork = () => {
         <div className="flex flex-row gap-48 responsive-section-automation pt-10">
           <div
             data-aos="fade-right"
-            className="flex-col w-[60%] automation-cards-leftside  justify-start items-start gap-10 inline-flex"
+            className="flex-col w-[55%] automation-cards-leftside  justify-start items-start gap-10 inline-flex"
           >
             <div className="w-[635px] h-[130px] aumtomation-cards flex gap-11 items-center px-10  bg-gradient-to-r from-stone-950 via-zinc-900 to-neutral-900 cards-border-style">
               <div className=" text-red-500 text-[56px] font-bold urbanist">
@@ -75,12 +75,14 @@ const HowItsWork = () => {
               </div>
             </div>
           </div>
-          <Image
-            src={FlowChat}
-            width={405}
-            data-aos="zoom-in "
-            className="flowchat-image"
-          />
+          <div className="w-[45%] h-[100px]">
+            <Image
+              src={FlowChat}
+              width={405}
+              data-aos="zoom-in "
+              className="flowchat-image"
+            />
+          </div>
         </div>
       </div>
     </>

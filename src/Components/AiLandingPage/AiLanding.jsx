@@ -12,7 +12,6 @@ import Testimonials from "../LandingPage/Testimonials/Testimonials";
 import NewsLetter from "../LandingPage/NewsLetter/NewsLetter";
 import FooterLinks from "../LandingPage/FooterLinks/FooterLinks";
 import Footer from "../LandingPage/Footer/Footer";
-import UseCases from "./UseCases/UseCases";
 
 const AiLanding = () => {
   return (
@@ -32,9 +31,9 @@ const AiLanding = () => {
       <div>
         <AiBotServises />
       </div>
-      <div>
+      {/* <div>
         <UseCases />
-      </div>
+      </div> */}
       <div>
         <DataProtection />
       </div>

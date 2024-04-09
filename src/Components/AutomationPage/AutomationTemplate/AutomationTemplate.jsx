@@ -32,7 +32,7 @@ const AutomationTemplate = () => {
             Automation Templates
           </span>
         </div>
-        {/* <div className="w-full justify-center items-center gap-6 pt-10   inline-flex">
+        <div className="w-full justify-center items-center gap-6 pt-10   inline-flex">
           <div className="p-4 bg-gradient-to-r  cursor-pointer from-stone-900 to-neutral-950 border border-white border-opacity-20 backdrop-blur-[80px] justify-center items-center gap-2.5 flex">
             <div className="w-[117px] text-zinc-100 text-xl font-semibold urbanist">
               All Template
@@ -58,7 +58,7 @@ const AutomationTemplate = () => {
               Support
             </div>
           </div>
-        </div> */}
+        </div>
         <div
           data-aos="zoom-in"
           className=" flex-row flex-wrap justify-start items-start gap-10 pt-16 inline-flex"

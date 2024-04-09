@@ -8,7 +8,7 @@ const AutomationHerosection = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
       Aos.init({
-        offset: 300,
+        offset: 200,
         duration: 1000,
         once: true,
         easing: "ease",
@@ -115,7 +115,7 @@ const AutomationHerosection = () => {
             </div>
           </div>
         </div>
-        <div className="h-[500px] w-[40%]">
+        <div className=" w-[40%] automation-herosection-image">
           <Image
             src={AutomationHerosectionImage}
             data-aos="zoom-in"

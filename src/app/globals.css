@@ -2625,6 +2625,13 @@ body {
   }
   
 }
+
+@media screen and (max-width:1050px) {
+  .automation-herosection-image{
+    width: 100%;
+  }
+  
+}
 @media screen and (max-width:1200px) {
   .automationHerosection-heading{
     width: 550px;
@@ -4165,6 +4172,12 @@ body {
 @media screen and (max-width:1110px) {
   .flowchat-image{
     width: 100%;
+  }
+  
+}
+@media screen and (max-width:540px) {
+  .padding-servise{
+    padding: 0px;
   }
   
 }

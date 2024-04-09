@@ -28,7 +28,7 @@ const Design = () => {
 
         <div
           data-aos="zoom-in"
-          className="flex flex-row  pt-16 flex-wrap gap-10 "
+          className="flex flex-row  justify-between pt-16 flex-wrap gap-10 "
         >
           <div className="w-[400px]  design-cards flex-col  justify-start  items-start gap-6 inline-flex">
             <div className="border-style-milestone11">

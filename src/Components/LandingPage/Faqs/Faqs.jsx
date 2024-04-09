@@ -44,7 +44,7 @@ const Accordion = () => {
 
   return (
     <div className="pb-10 pt-5 mt-14 flex justify-between faq-gap gap-11 load-faq">
-      <div data-aos="fade-right" className="w-[50%] display-full-faq ">
+      <div data-aos="fade-up" className="w-[50%] display-full-faq ">
         {questionsData.map((item) => (
           <>
             <div key={item.id} className="accordion-item   border-style-faq ">
@@ -74,7 +74,7 @@ const Accordion = () => {
           </>
         ))}
       </div>
-      <div data-aos="fade-left" className="w-[50%] hide-faq  ">
+      <div data-aos="fade-up" className="w-[50%] hide-faq  ">
         {questionsData.map((item) => (
           <>
             <div key={item.id} className="accordion-item border-style-faq ">

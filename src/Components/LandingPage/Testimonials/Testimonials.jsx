@@ -1,9 +1,12 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 import Image from "next/image";
 import Aos from "aos";
 import React, { useEffect, useRef } from "react";
 import "aos/dist/aos.css";
-import CLient from "../../../../public/Images/client.png";
+import Florian from "../../../../public/Images/florian.png";
+import Ivan from "../../../../public/Images/ivan.jpeg";
+import Reeza from "../../../../public/Images/reeza.jpeg";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import "./testimonial.css";
@@ -164,65 +167,37 @@ const Testimonials = () => {
             >
               <SplideSlide>
                 <div className="testimonial-gradient-color-change">
-                  <div className=" h-72  testimonial-gradient-cards bg-gradient-color relative flex-col justify-start items-start flex">
-                    <div className="Frame1171281448 flex-col justify-start mt-6  items-start gap-8 inline-flex">
-                      <div className="Frame1171281447 justify-start items-center gap-6 inline-flex">
-                        <div className="Group7 ml-4 w-20 h-20 relative">
-                          <div className="Ellipse309 w-20 h-20 left-0 top-0 absolute rounded-full shadow-inner">
-                            <Image src={CLient} alt="" />
-                          </div>
-                        </div>
-                        <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
-                          <div className="KevinOBrian  text-white text-2xl font-bold urbanist">
-                            Kevin O’Brian
-                          </div>
-                          <div className="BusinessDirectorAlphabet ">
-                            <span className="text-stone-300 text-base font-normal urbanist">
-                              Business Director -{" "}
-                            </span>
-                            <span className="text-[#DD4243] text-base font-bold urbanist">
-                              Alphabet
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                      <div className=" px-4 text-center text-neutral-200 text-xl font-normal urbanist">
-                        It was great to work with Kevin on a UI redesign of our
-                        product from A to Z. He is fast, accurate and expert on
-                        SaaS topics. <br />I recommend him!
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SplideSlide>
-              <SplideSlide>
-                <div className="testimonial-gradient-color-change">
-                  <div className=" h-72  testimonial-gradient-cards bg-gradient-color relative flex-col justify-start items-start flex">
+                  <div className=" h-72 testimonuial-cards-height  testimonial-gradient-cards bg-gradient-color relative flex-col justify-start items-start flex">
                     <div className="Frame1171281448 flex-col justify-start mt-6  items-start gap-8 inline-flex">
                       <div className="Frame1171281447 justify-start items-center gap-6 inline-flex">
                         <div className="Group7 w-20 h-20 relative ml-4">
                           <div className="Ellipse309 w-20 h-20 left-0 top-0 absolute rounded-full shadow-inner">
-                            <Image src={CLient} alt="" />
+                            <Image
+                              src={Florian}
+                              alt=""
+                              className="rounded-full"
+                            />
                           </div>
                         </div>
                         <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
                           <div className="KevinOBrian  text-white text-2xl font-bold urbanist">
-                            Lindsey Koelpin MD{" "}
+                            Florian{" "}
                           </div>
                           <div className="BusinessDirectorAlphabet ">
                             <span className="text-stone-300 text-base font-normal urbanist">
                               Founder -{" "}
                             </span>
                             <span className="text-[#DD4243] text-base font-bold urbanist">
-                              AB Infotech
+                              Standard Insights.{" "}
                             </span>
                           </div>
                         </div>
                       </div>
                       <div className=" px-4 text-center text-neutral-200 text-xl font-normal urbanist">
-                        It was great to work with Kevin on a UI redesign of our
-                        product from A to Z. He is fast, accurate and expert on
-                        SaaS topics. <br />I recommend him!
+                        Collaborating with Pankil and his team on intricate
+                        projects has consistently been rewarding. Their work on
+                        our web app greatly improved its usability and
+                        functionality. We're excited about future partnerships.
                       </div>
                     </div>
                   </div>
@@ -230,32 +205,108 @@ const Testimonials = () => {
               </SplideSlide>
               <SplideSlide>
                 <div className="testimonial-gradient-color-change">
-                  <div className=" h-72  testimonial-gradient-cards bg-gradient-color relative flex-col justify-start items-start flex">
+                  <div className=" h-72 testimonuial-cards-height testimonial-gradient-cards bg-gradient-color relative flex-col justify-start items-start flex">
                     <div className="Frame1171281448 flex-col justify-start mt-6  items-start gap-8 inline-flex">
                       <div className="Frame1171281447 justify-start items-center gap-6 inline-flex">
                         <div className="Group7 w-20 h-20 relative ml-4">
                           <div className="Ellipse309 w-20 h-20 left-0 top-0 absolute rounded-full shadow-inner">
-                            <Image src={CLient} alt="" />
+                            <Image src={Ivan} alt="" className="rounded-full" />
                           </div>
                         </div>
                         <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
                           <div className="KevinOBrian  text-white text-2xl font-bold urbanist">
-                            Santiago Hoeger III{" "}
+                            Ivan{" "}
                           </div>
                           <div className="BusinessDirectorAlphabet ">
                             <span className="text-stone-300 text-base font-normal urbanist">
-                              Engineer -{" "}
+                              Founder -{" "}
                             </span>
                             <span className="text-[#DD4243] text-base font-bold urbanist">
-                              Orange Tech.{" "}
+                              360 Rotation Booth.{" "}
                             </span>
                           </div>
                         </div>
                       </div>
                       <div className=" px-4 text-center text-neutral-200 text-xl font-normal urbanist">
-                        It was great to work with Kevin on a UI redesign of our
-                        product from A to Z. He is fast, accurate and expert on
-                        SaaS topics. <br />I recommend him!
+                        The Vadavision team excelled in understanding our needs
+                        and timely delivery, creating a user-friendly mobile
+                        app. We're definitely considering them for our next
+                        project.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div className="testimonial-gradient-color-change">
+                  <div className=" h-72 testimonuial-cards-height  testimonial-gradient-cards bg-gradient-color relative flex-col justify-start items-start flex">
+                    <div className="Frame1171281448 flex-col justify-start mt-6  items-start gap-8 inline-flex">
+                      <div className="Frame1171281447 justify-start items-center gap-6 inline-flex">
+                        <div className="Group7 w-20 h-20 relative ml-4">
+                          <div className="Ellipse309 w-20 h-20 left-0 top-0 absolute rounded-full shadow-inner">
+                            <Image
+                              src={Reeza}
+                              alt=""
+                              className="rounded-full"
+                            />
+                          </div>
+                        </div>
+                        <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
+                          <div className="KevinOBrian  text-white text-2xl font-bold urbanist">
+                            Momd Reza{" "}
+                          </div>
+                          <div className="BusinessDirectorAlphabet ">
+                            <span className="text-stone-300 text-base font-normal urbanist">
+                              Founder -{" "}
+                            </span>
+                            <span className="text-[#DD4243] text-base font-bold urbanist">
+                              Stellar Vision
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className=" px-4 text-center text-neutral-200 text-xl font-normal urbanist">
+                        Working with Vadavision was fantastic; they simplified
+                        our web app, enhancing user experience. I look forward
+                        to future projects. Their expertise and approach are
+                        commendable and highly recommendable.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SplideSlide>
+
+              <SplideSlide>
+                <div className="testimonial-gradient-color-change">
+                  <div className=" h-72 testimonuial-cards-height  testimonial-gradient-cards bg-gradient-color relative flex-col justify-start items-start flex">
+                    <div className="Frame1171281448 flex-col justify-start mt-6  items-start gap-8 inline-flex">
+                      <div className="Frame1171281447 justify-start items-center gap-6 inline-flex">
+                        <div className="Group7 ml-4 w-20 h-20 relative">
+                          <div className="Ellipse309 w-20 h-20 left-0  top-0 bottom-4 absolute bg-white rounded-full shadow-inner">
+                            <h1 className="bottom-0 absolute right-6 text-[55px] ">
+                              R
+                            </h1>
+                          </div>
+                        </div>
+                        <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
+                          <div className="KevinOBrian  text-white text-2xl font-bold urbanist">
+                            Rick{" "}
+                          </div>
+                          <div className="BusinessDirectorAlphabet ">
+                            <span className="text-stone-300 text-base font-normal urbanist">
+                              Founder -{" "}
+                            </span>
+                            <span className="text-[#DD4243] text-base font-bold urbanist">
+                              ON THE GO Cleaners
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className=" px-4 text-center text-neutral-200 text-xl font-normal urbanist">
+                        I'm highly satisfied with VadaVision's detailed,
+                        responsive, and flexible work on my site and app,
+                        setting them apart. Excited for future projects and
+                        grateful to Pankil, Kaushal, and Shivendra.
                       </div>
                     </div>
                   </div>

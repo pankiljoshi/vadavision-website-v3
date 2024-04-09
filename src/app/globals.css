@@ -3257,12 +3257,12 @@ body {
   }
 
   .left-arrow {
-    top: 428px;
+    top: 480px;
     right: 64px;
   }
 
   .right-arrow {
-    top: 373px;
+    top: 426px;
     left: 48px;
   }
 }
@@ -4605,7 +4605,7 @@ body {
     font-size: 40px;
   }
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1050px) {
   .app-development-leftside {
     width: 100%;
   }
@@ -4614,6 +4614,18 @@ body {
   .app-development-paragraph {
     text-align: center;
   }
+}
+@media screen and (max-width:1000px) {
+  .testimonuial-cards-height{
+    height: 330px;
+  }
+  
+}
+@media screen and (max-width:450px) {
+  .testimonuial-cards-height{
+    height: 350px;
+  }
+  
 }
 @media screen and (max-width: 620px) {
   .app-development-heading {

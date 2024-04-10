@@ -52,7 +52,7 @@ const UiUxHerosection = () => {
                 </linearGradient>
               </defs>
             </svg>
-            <div className="text-red-500 text-base font-medium  prompt uppercase leading-relaxed tracking-[6.40px]">
+            <div className="text-red-500 text-base font-medium  prompt uppercase leading-relaxed ">
               PUSH YOUR BRAND POTENTIAL
             </div>
           </div>

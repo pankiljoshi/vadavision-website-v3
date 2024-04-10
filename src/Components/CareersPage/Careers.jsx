@@ -10,6 +10,7 @@ import PerksAndBenefit from "./PerksAndBenefit/PerksAndBenefit";
 import CareerHerosection from "./CareerHerosection/CareerHerosection";
 import OpenRoles from "./OpenRoles/OpenRoles";
 import Map from "./Map/Map";
+import AmbitiousTeam from "./AmbitiousTeam/AmbitiousTeam";
 
 const Careers = () => {
   return (
@@ -23,9 +24,9 @@ const Careers = () => {
       <div>
         <MileStone />
       </div>
-      {/* <div>
+      <div>
         <AmbitiousTeam />
-      </div> */}
+      </div>
 
       <div>
         <Map />

@@ -297,7 +297,7 @@ const Testimonials = () => {
                               Founder -{" "}
                             </span>
                             <span className="text-[#DD4243] text-base font-bold urbanist">
-                              ON THE GO Cleaners
+                              On The Go Cleaners
                             </span>
                           </div>
                         </div>

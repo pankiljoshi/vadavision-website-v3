@@ -61,8 +61,9 @@ const Industries = () => {
                         Increase your checkout count, more than before
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
-                        With our expertise in Design & Development in the
-                        segment,we will help you obtain a better ROI.
+                        Boost Your Online Shop with Us! We create easy and
+                        secure eCommerce websites. Enjoy smooth shopping and
+                        grow your online business with our help.
                       </div>
                     </div>
                   </div>
@@ -147,8 +148,9 @@ const Industries = () => {
                         Upgrade the finance experience with us
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
-                        With our expertise in Design & Development in the
-                        segment,we will help you obtain a better ROI.
+                        Enjoy safe data handling and efficient tools. Boost your
+                        business online with us for easy client interactions &
+                        growth.
                       </div>
                     </div>
                   </div>
@@ -231,8 +233,9 @@ const Industries = () => {
                         Trust us to streamline your HR processes
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
-                        With our expertise in Design & Development in the
-                        segment,we will help you obtain a better ROI.
+                        We are IT experts creating customized HR websites.
+                        Intuitive design , secure platform, and easy
+                        communication tools.
                       </div>
                     </div>
                   </div>
@@ -307,8 +310,9 @@ const Industries = () => {
                         Level Up Your Accounting Online
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
-                        With our expertise in Design & Development in the
-                        segment,we will help you obtain a better ROI.
+                        We create easy-to-use websites for accountants. Safe,
+                        smooth, & efficient. Enhance your accounting business
+                        online!
                       </div>
                     </div>
                   </div>
@@ -413,8 +417,9 @@ const Industries = () => {
                         Better the content, more the conversion ratio
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
-                        With our expertise in Design & Development in the
-                        segment,we will help you obtain a better ROI.
+                        We leverage AI and OpenAI API to craft smart, engaging,
+                        and automated content solutions tailored just for your
+                        business.
                       </div>
                     </div>
                   </div>
@@ -484,8 +489,8 @@ const Industries = () => {
                         Simplify your retail experience
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
-                        With our expertise in Design & Development in the
-                        segment,we will help you obtain a better ROI.
+                        Our IT team creates easy, secure, and successful retail
+                        websites, ensuring seamless shopping experiences.
                       </div>
                     </div>
                   </div>

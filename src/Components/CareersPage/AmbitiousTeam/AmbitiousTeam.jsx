@@ -1,26 +1,24 @@
-import Image from "next/image";
 import React from "react";
-import Splash from "../../../../public/Images/ambitious-team-splash.png";
 const AmbitiousTeam = () => {
   return (
     <>
-      <div className="w-full pl-20 py-20 team-bg">
-        <div className=" flex-col justify-start items-start gap-6 inline-flex">
-          <div className="">
-            <span className="text-neutral-400 text-[40px] font-semibold urbanist">
-              Join our
-            </span>
-            <br />
-            <span className="text-cyan-400 text-[56px] ambitious-team-gradient font-bold urbanist">
-              {" "}
-              Ambitious Team
-            </span>
+      <div className="w-full pl-20 py-20 padding-industies team-bg">
+        <div className="splash-image-bg">
+          <div className=" flex-col justify-start items-start gap-6 inline-flex">
+            <div className="">
+              <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
+                Join our
+              </span>
+              <br />
+              <span className="text-cyan-400 text-[56px] ambitious-team-gradient font-change-2 font-bold urbanist">
+                {" "}
+                Ambitious Team
+              </span>
+            </div>
           </div>
-        </div>
-        <div className="flex flex-row gap-10">
-          <div className=" flex-col justify-start items-start pt-20 gap-14 inline-flex">
-            <div className="w-[949px] flex-row gap-16 items-center inline-flex">
-              <div className="w-[440px] border-style-milestone flex-col justify-start items-start gap-6 inline-flex">
+          <div className=" flex-col design-vadavision-cards-width  justify-start items-start pt-20 gap-14 inline-flex">
+            <div className=" flex-row design-vadavision-cards-width flex-wrap gap-16 items-center inline-flex">
+              <div className="w-[440px] design-vadavision-cards-width uiux-cards-border-style-milestone flex-col justify-start items-start gap-6 inline-flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -37,14 +35,16 @@ const AmbitiousTeam = () => {
                   <div className="self-stretch text-white text-xl font-semibold urbanist">
                     Impact focused
                   </div>
-                  <div className="w-[401px] h-20 text-neutral-400 text-base font-light urbanist">
+                  <div className="w-[401px] h-20 design-vadavision-cards-width text-neutral-400 text-base font-light urbanist">
                     We deliver some really impactful stuffs, every moment.
                     <br />
                     Our team is way too dedicated on this mission
                   </div>
                 </div>
               </div>
-              <div className="w-[440px] flex-col justify-start items-start gap-6 inline-flex">
+              <div className="w-full   border-style-milestone44 hidden  "></div>
+
+              <div className="w-[440px] design-vadavision-cards-width flex-col justify-start items-start gap-6 inline-flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -104,15 +104,15 @@ const AmbitiousTeam = () => {
                   <div className="self-stretch text-white text-xl font-semibold urbanist">
                     Fearless team
                   </div>
-                  <div className="w-[401px] h-20 text-neutral-400 text-base font-light urbanist">
+                  <div className="w-[401px] h-20 design-vadavision-cards-width text-neutral-400 text-base font-light urbanist">
                     We like taking up challenging projects and carve it out as a
                     really beautiful product for the awesome users
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="w-[949px] justify-between items-center inline-flex">
-              <div className="w-[440px] border-style-milestone flex-col justify-start items-start gap-6 inline-flex">
+              <div className="w-full   border-style-milestone44  hidden "></div>
+
+              <div className="w-[440px] design-vadavision-cards-width uiux-cards-border-style-milestone flex-col justify-start items-start gap-6 inline-flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -136,13 +136,15 @@ const AmbitiousTeam = () => {
                   <div className="self-stretch text-white text-xl font-semibold urbanist">
                     Sense of Autonomy
                   </div>
-                  <div className="w-[401px] h-20 text-neutral-400 text-base font-light urbanist">
+                  <div className="w-[401px] h-20 design-vadavision-cards-width text-neutral-400 text-base font-light urbanist">
                     We’re a transparent start-up, every idea & contributions
                     find support, and you have your own responsibility
                   </div>
                 </div>
               </div>
-              <div className="w-[440px] flex-col justify-start items-start gap-6 inline-flex">
+              <div className="w-full   border-style-milestone44   hidden "></div>
+
+              <div className="w-[440px] design-vadavision-cards-width flex-col justify-start items-start gap-6 inline-flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -202,15 +204,15 @@ const AmbitiousTeam = () => {
                   <div className="self-stretch text-white text-xl font-semibold urbanist">
                     Boosting the Growth
                   </div>
-                  <div className="w-[401px] h-20 text-neutral-400 text-base font-light urbanist">
+                  <div className="w-[401px] design-vadavision-cards-width h-20 text-neutral-400 text-base font-light urbanist">
                     Every VadaVisioner’s are there for each other in every
                     aspect of life, promoting growth of every one working
                   </div>
                 </div>
               </div>
+              <div className="w-full   border-style-milestone44  hidden "></div>
             </div>
           </div>
-          <Image src={Splash} />
         </div>
       </div>
     </>

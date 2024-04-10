@@ -50,7 +50,7 @@ const AutomationHerosection = () => {
                 </linearGradient>
               </defs>
             </svg>
-            <div className="text-red-500 text-base font-medium uplift-productivity  prompt uppercase leading-relaxed tracking-[6.40px]">
+            <div className="text-red-500 text-base font-medium uplift-productivity  prompt uppercase leading-relaxed  tracking-[5px]">
               UPLIFT YOUR PRODUCTIVITY
             </div>
           </div>

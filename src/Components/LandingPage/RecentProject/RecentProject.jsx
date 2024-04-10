@@ -11,7 +11,7 @@ const RecentProject = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
       Aos.init({
-        offset: 100,
+        offset: 300,
         duration: 1000,
         once: true,
         easing: "ease",

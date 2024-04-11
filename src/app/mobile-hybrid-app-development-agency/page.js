@@ -1,44 +1,19 @@
-import LandingPage from "@/Components/LandingPage/LandingPage";
-import React from "react";
+import AppDevelopment from "@/Components/AppDevelopmentPage/AppDevelopment";
 import Head from "next/head";
-import StructuredData from "@/Components/StructuredData";
-export default function Home() {
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "Corporation",
-    name: "Vadavision",
-    alternateName: "Vada Vision!",
-    url: "https://www.vadavision.com",
-    logo: "https://www.vadavision.com/images/logo-icon.jpg",
-    address: {
-      "@type": "PostalAddress",
-      addressRegion: "Chandigarh",
-      addressCountry: "India",
-    },
-    contactPoint: {
-      "@type": "ContactPoint",
-      telephone: "+916280007001",
-      contactType: "technical support",
-      areaServed: ["IN", "AE", "GB", "US", "AU", "DE", "CA", "SE", "JP", "KR"],
-      availableLanguage: "en",
-    },
-    sameAs: [
-      "https://www.linkedin.com/company/vadavision/",
-      "https://www.instagram.com/vadavision/",
-      "https://github.com/Vadavision/",
-    ],
-  };
+import React from "react";
+
+const page = () => {
   return (
     <>
       <div>
         <Head>
           <title>
-            Vadavision | Transforming Ideas into Reality | AI, Web Automation,
-            Mobile Apps
+            Vadavision Ventures into Tomorrow: Unleashing the Power of Mobile
+            Hybrid App Development.
           </title>
           <meta
             name="description"
-            content="Vadavision is a leading software company and startup studio based in India, specializing in staff/resource augmentation, AI, web automation applications, mobile apps, and cutting-edge UI/UX design. Our dedicated team of skilled developers ensures swift project delivery and cost-efficiency. Let us turn your ideas into reality."
+            content="Discover the future of mobile innovation with Vadavision. As a leading software company, we specialize in crafting dynamic and efficient mobile apps. From AI integration to seamless UI/UX design, our skilled developers bring your ideas to life with speed and precision."
           />
           <meta
             name="keywords"
@@ -60,9 +35,10 @@ export default function Home() {
             content="http://vadavision.com/images/vadavision-homepage-screenshot.png"
           />
         </Head>
-        <StructuredData data={structuredData} />
-        <LandingPage />
+        <AppDevelopment />
       </div>
     </>
   );
-}
+};
+
+export default page;

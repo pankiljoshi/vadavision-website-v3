@@ -57,7 +57,7 @@ const Testimonials = () => {
                 onClick={handlePrevClick}
                 className="left-arrow w-[70px] h-[36px]   z-10 absolute -top-32  right-64 cursor-pointer bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex"
               >
-                <div className="Frame w-6  relative">
+                <div className="Frame w-6">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -73,6 +73,7 @@ const Testimonials = () => {
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
+                        className="group-hover:stroke-[#DD4243]"
                       />
                       <path
                         id="Vector_2"
@@ -81,6 +82,7 @@ const Testimonials = () => {
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
+                        className="group-hover:stroke-[#DD4243]"
                       />
                     </g>
                   </svg>
@@ -102,7 +104,7 @@ const Testimonials = () => {
                       <path
                         id="Vector"
                         d="M5 12.5H19"
-                        stroke="#DD4243"
+                        stroke="#8E8E8E"
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -110,7 +112,7 @@ const Testimonials = () => {
                       <path
                         id="Vector_2"
                         d="M12 5.5L19 12.5L12 19.5"
-                        stroke="#DD4243"
+                        stroke="#8E8E8E"
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"

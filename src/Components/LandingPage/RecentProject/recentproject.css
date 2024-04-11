@@ -1,0 +1,6 @@
+.recent-project > .splide > .splide__arrows  >.splide__arrow--prev{
+    display: none;
+}
+.recent-project > .splide > .splide__arrows  >.splide__arrow--next{
+    display: none;
+}

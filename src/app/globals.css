@@ -2714,6 +2714,13 @@ body {
     width: 580px;
   }
 }
+.svg-container {
+  visibility: hidden; 
+ }
+ 
+ .svg-container.visible {
+  visibility: visible; 
+ }
 @media screen and (max-width: 1050px) {
   .uiuxhersection-paragraph {
     width: 100%;
@@ -4160,13 +4167,13 @@ body {
 }
 @media screen and (max-width:1350px) {
   .responsive-section-automation{
-    gap: 100px;
+    gap: 50px;
   }
   
 }
 @media screen and (max-width:1280px) {
   .responsive-section-automation{
-    gap: 90px;
+    gap: 130px;
   }
   
 }
@@ -4960,5 +4967,10 @@ body {
   .massive-integration-mobile-view{
     display: block;
   }
+  
+}
+.svg-arrow:hover{
+  stroke: #DD4243;
+  color: #DD4243;
   
 }

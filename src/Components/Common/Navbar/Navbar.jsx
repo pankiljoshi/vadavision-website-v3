@@ -105,6 +105,7 @@ const Navbar = () => {
   const [activeTab, setActiveTab] = useState("home");
   const [hoveredTab, setHoveredTab] = useState("home");
   console.log(activeTab);
+
   return (
     <>
       <div className="NavigationWeb w-full px-20 relative  padding-none pt-2 pb-2 bg-white bg-opacity-5 border border-neutral-900 ">
@@ -531,7 +532,7 @@ const Navbar = () => {
                                         </div>
                                       </div>
                                     </Link>
-                                    <Link href="/top-ui-ux-design-agency">
+                                    <Link href="ui-ux">
                                       <div
                                         onMouseEnter={showUiUx}
                                         className="servises-dropdown-card cursor-pointer w-[288px] h-[192px] p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 group border border-black hover:border  hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex"
@@ -634,7 +635,7 @@ const Navbar = () => {
                                         </div>
                                       </div>
                                     </Link>
-                                    <Link href="/mobile-hybrid-app-development-agency">
+                                    <Link href="/app-development">
                                       <div
                                         onMouseEnter={showApp}
                                         className="servises-dropdown-card cursor-pointer w-[288px] h-[192px] p-6 border border-black bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 group hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex"

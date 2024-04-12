@@ -532,7 +532,7 @@ const Navbar = () => {
                                         </div>
                                       </div>
                                     </Link>
-                                    <Link href="ui-ux">
+                                    <Link href="/top-ui-ux-design-agency">
                                       <div
                                         onMouseEnter={showUiUx}
                                         className="servises-dropdown-card cursor-pointer w-[288px] h-[192px] p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 group border border-black hover:border  hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex"
@@ -635,7 +635,7 @@ const Navbar = () => {
                                         </div>
                                       </div>
                                     </Link>
-                                    <Link href="/app-development">
+                                    <Link href="/mobile-hybrid-app-development-agency">
                                       <div
                                         onMouseEnter={showApp}
                                         className="servises-dropdown-card cursor-pointer w-[288px] h-[192px] p-6 border border-black bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 group hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex"

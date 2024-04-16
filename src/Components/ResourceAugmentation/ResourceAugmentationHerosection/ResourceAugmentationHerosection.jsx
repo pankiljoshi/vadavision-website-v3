@@ -19,10 +19,10 @@ const ResourceAugmentationHerosection = () => {
   }, []);
   return (
     <>
-      <div className="w-full flex flex-row resource-herosection-bg padding-herosection   bg-gradient-to-l from-black to-zinc-950">
+      <div className="w-full flex flex-row resource-herosection-bg padding-herosection  padding-full-left-side  bg-gradient-to-l from-black to-zinc-950">
         <div
           data-aos="fade-right"
-          className=" w-[60%] min-w-[650px] padding-left-mobile flex-col py-20 pl-20 justify-start items-start gap-2 inline-flex"
+          className=" w-[60%] min-w-[650px] padding-left-mobile flex-col py-20  justify-start items-start gap-2 inline-flex"
         >
           <div className="justify-start items-center gap-3 inline-flex">
             <svg

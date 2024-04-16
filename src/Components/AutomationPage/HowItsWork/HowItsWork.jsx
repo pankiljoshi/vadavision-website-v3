@@ -18,7 +18,7 @@ const HowItsWork = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20 py-20 padding-industies bg-gradient-to-r how-is-work-bg from-zinc-950 to-zinc-950">
+      <div className="w-full px-20 py-20 padding-industies padding-full-website bg-gradient-to-r how-is-work-bg from-zinc-950 to-zinc-950">
         <div data-aos="fade-right" className=" ">
           <span className="text-neutral-400 text-[40px] font-change-1 font-semibold furbanist">
             As easy as it can be

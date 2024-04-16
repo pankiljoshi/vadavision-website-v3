@@ -35,9 +35,9 @@ const OurTeam = () => {
         </div>
         <div
           data-aos="fade-up"
-          className=" flex-wrap teams-cards-mobile-width justify-center items-start gap-14 teams-cards-gap inline-flex"
+          className=" flex-wrap teams-cards-mobile-width justify-center items-start gap-20 our-team-gap teams-cards-gap inline-flex"
         >
-          <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
+          <div className="w-[260px] h-[448px]  teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
             <Image src={PankhilSir} />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">
               <div className="text-neutral-200 text-2xl font-semibold urbanist">

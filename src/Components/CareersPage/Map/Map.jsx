@@ -18,7 +18,7 @@ const Map = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20 py-20 padding-industies  bg-zinc-950">
+      <div className="w-full px-20 py-20 padding-industies padding-full-website bg-zinc-950">
         <div data-aos="fade-down" className=" leading-tight pb-10">
           <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
             We work

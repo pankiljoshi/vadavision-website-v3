@@ -22,7 +22,7 @@ const AutomationTemplate = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20 padding-industies  bg-gradient-to-r from-zinc-950 to-zinc-950 automation-domain-bg ">
+      <div className="w-full px-20 padding-industies padding-full-website bg-gradient-to-r from-zinc-950 to-zinc-950 automation-domain-bg ">
         <div data-aos="fade-right" className=" ">
           <span className="text-neutral-400 text-[40px] font-change-1 font-semibold  urbanist">
             We cover bunch of customisable

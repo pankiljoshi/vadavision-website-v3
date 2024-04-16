@@ -2,7 +2,7 @@ import React from "react";
 const AmbitiousTeam = () => {
   return (
     <>
-      <div className="w-full pl-20 py-20 padding-industies team-bg">
+      <div className="w-full pl-20 py-20 padding-industies  padding-full-left-side team-bg">
         <div className="splash-image-bg">
           <div className=" flex-col justify-start items-start gap-6 inline-flex">
             <div className="">
@@ -18,7 +18,7 @@ const AmbitiousTeam = () => {
           </div>
           <div className=" flex-col design-vadavision-cards-width  justify-start items-start pt-20 gap-14 inline-flex">
             <div className=" flex-row design-vadavision-cards-width flex-wrap gap-16 items-center inline-flex">
-              <div className="w-[440px] design-vadavision-cards-width uiux-cards-border-style-milestone flex-col justify-start items-start gap-6 inline-flex">
+              <div className="w-[440px] design-vadavision-cards-width monitor-width-cards uiux-cards-border-style-milestone flex-col justify-start items-start gap-6 inline-flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ const AmbitiousTeam = () => {
               </div>
               <div className="w-full   border-style-milestone44 hidden  "></div>
 
-              <div className="w-[440px] design-vadavision-cards-width flex-col justify-start items-start gap-6 inline-flex">
+              <div className="w-[440px] design-vadavision-cards-width monitor-width-cards flex-col justify-start items-start gap-6 inline-flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +112,7 @@ const AmbitiousTeam = () => {
               </div>
               <div className="w-full   border-style-milestone44  hidden "></div>
 
-              <div className="w-[440px] design-vadavision-cards-width uiux-cards-border-style-milestone flex-col justify-start items-start gap-6 inline-flex">
+              <div className="w-[440px] design-vadavision-cards-width  monitor-width-cards uiux-cards-border-style-milestone flex-col justify-start items-start gap-6 inline-flex">
                 <div className="flex-col justify-start items-start gap-4 flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

@@ -21,10 +21,10 @@ const CareerHerosection = () => {
   }, []);
   return (
     <>
-      <div className="w-full   about-us-bg flex carrer-herosection flex-row gap-44 padding-industies py-20 bg-gradient-to-br from-black to-zinc-950">
+      <div className="w-full   about-us-bg flex padding-full-left-side  carrer-herosection flex-row gap-44 padding-industies py-20 bg-gradient-to-br from-black to-zinc-950">
         <div
           data-aos="fade-right"
-          className="w-[50%] carrer-left-section pl-20 justify-start items-start gap-[190px] inline-flex"
+          className="w-[50%] carrer-left-section  justify-start items-start gap-[190px] inline-flex"
         >
           <div className="flex-col justify-start items-start gap-6 inline-flex">
             <div className="LeftLabel">

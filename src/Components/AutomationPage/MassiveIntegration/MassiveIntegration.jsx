@@ -34,7 +34,7 @@ const MassiveIntegration = () => {
   }, []);
   return (
     <>
-      <div className="px-20 flex flex-col w-full py-20 padding-industies massive-integration-bg hide-integration">
+      <div className="px-20 flex flex-col w-full padding-full-website py-20 padding-industies massive-integration-bg hide-integration">
         <div className=" justify-start items-center gap-[685px] inline-flex">
           <div className="" data-aos="fade-right">
             <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">

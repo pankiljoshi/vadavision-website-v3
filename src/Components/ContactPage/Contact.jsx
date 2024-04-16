@@ -15,7 +15,7 @@ const Contact = () => {
       <div>
         <Navbar />
       </div>
-      <div>
+      <div className="">
         <GetInTouch />
       </div>
       <div>

@@ -425,7 +425,7 @@ body {
 }
 @media screen and (max-width: 2000px) {
   .responsive-heading {
-    font-size: 68px;
+    font-size: 66px;
   }
 }
 @media screen and (max-width: 1600px) {
@@ -2373,6 +2373,63 @@ body {
     flex-wrap: wrap;
   }
 }
+@media screen and (max-width:1930px) {
+  .teams-cards{
+    width: 350px;
+  }
+  
+}
+@media screen and (max-width:1860px) {
+  .teams-cards{
+    width: 330px;
+  }
+  
+}
+@media screen and (max-width:1820px) {
+  .teams-cards{
+    width: 310px;
+  }
+  
+}
+@media screen and (max-width:1740px) {
+  .teams-cards{
+    width: 270px;
+  }
+  
+}
+@media screen and (max-width:1670px) {
+  .teams-cards{
+    width: 310px;
+  }
+  
+}
+@media screen and (max-width:1630px) {
+  .teams-cards{
+    width: 290px;
+  }
+  
+}
+@media screen and (max-width:1600px) {
+  .teams-cards{
+    width: 330px;
+  }
+  
+}
+@media screen and (max-width:1560px) {
+  .teams-cards{
+    width: 300px;
+  }
+  
+}
+@media screen and (max-width:1460px) {
+  .teams-cards{
+    width: 260px;
+  }
+  
+}
+
+
+
 @media screen and (max-width: 1050px) {
   .teams-cards {
     width: 370px;
@@ -2386,6 +2443,11 @@ body {
 @media screen and (max-width: 850px) {
   .teams-cards-gap {
     gap: 30px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .teams-cards {
+    width: 350px;
   }
 }
 @media screen and (max-width: 860px) {
@@ -2976,6 +3038,45 @@ body {
   border-image-slice: 1;
 }
 
+@media screen and (max-width:2000px) {
+  .monitor-width-cards{
+    width: 600px;
+  }
+  
+}
+@media screen and (max-width:1960px) {
+  .our-team-gap{
+      gap: 60px;
+    
+  }
+  
+}
+@media screen and (max-width:1740px) {
+  .our-team-gap{
+      gap: 90px;
+    
+  }
+  
+}
+@media screen and (max-width:1670px) {
+  .our-team-gap{
+      gap: 30px;
+    
+  }
+  
+}
+@media screen and (max-width:2000px) {
+  .padding-full-left-side{
+    padding-left: 136px;
+  }
+  
+}
+@media screen and (max-width:1500px) {
+  .padding-full-left-side{
+    padding-left: 30px;
+  }
+  
+}
 @media screen and (max-width:540px) {
   .design-vadavision-cards-width{
     width: 100%;

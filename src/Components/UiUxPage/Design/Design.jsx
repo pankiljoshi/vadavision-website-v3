@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 import React, { useEffect } from "react";
 import Aos from "aos";
@@ -15,7 +16,7 @@ const Design = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20 py-20 bg-gradient-to-r padding-industies from-zinc-950 to-zinc-950">
+      <div className="w-full px-20 py-20 bg-gradient-to-r padding-full-website padding-industies from-zinc-950 to-zinc-950">
         <div data-aos="fade-right" className=" ">
           <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
             Why you should choose
@@ -86,11 +87,11 @@ const Design = () => {
                   </defs>
                 </svg>
                 <div className="self-stretch text-white text-xl font-semibold urbanist">
-                  Top-notch quality
+                  Creative thinking{" "}
                 </div>
                 <div className=" h-20 text-neutral-400 text-base font-medium urbanist">
-                  Be it small or large, our utmost priority is designing it the
-                  best and top notch
+                  Our design team comprises of creative thinkers, who loves to
+                  solve problem with creativity - always
                 </div>
               </div>
             </div>
@@ -119,11 +120,11 @@ const Design = () => {
                   </defs>
                 </svg>
                 <div className="self-stretch text-white text-xl font-semibold urbanist">
-                  Top-notch quality
+                  Value for money{" "}
                 </div>
                 <div className=" h-20 text-neutral-400 text-base font-medium urbanist">
-                  Be it small or large, our utmost priority is designing it the
-                  best and top notch
+                  You’ll always find our work worthy of every amount you’ve
+                  invested
                 </div>
               </div>
             </div>
@@ -152,11 +153,11 @@ const Design = () => {
                   </defs>
                 </svg>
                 <div className="self-stretch text-white text-xl font-semibold urbanist">
-                  Top-notch quality
+                  Experienced design team{" "}
                 </div>
                 <div className=" h-20 text-neutral-400 text-base font-medium urbanist">
-                  Be it small or large, our utmost priority is designing it the
-                  best and top notch
+                  High-end work from a dedicated team of senior designers that's
+                  always available when you need it.
                 </div>
               </div>
             </div>
@@ -185,11 +186,11 @@ const Design = () => {
                   </defs>
                 </svg>
                 <div className="self-stretch text-white text-xl font-semibold urbanist">
-                  Top-notch quality
+                  Extensive research & innovation{" "}
                 </div>
                 <div className=" h-20 text-neutral-400 text-base font-medium urbanist">
-                  Be it small or large, our utmost priority is designing it the
-                  best and top notch
+                  We rely on our extensive research findings and proceed with
+                  the optimised yet innovative designs
                 </div>
               </div>
             </div>
@@ -218,11 +219,11 @@ const Design = () => {
                   </defs>
                 </svg>
                 <div className="self-stretch text-white text-xl font-semibold urbanist">
-                  Top-notch quality
+                  Always on time{" "}
                 </div>
                 <div className=" h-20 text-neutral-400 text-base font-medium urbanist">
-                  Be it small or large, our utmost priority is designing it the
-                  best and top notch
+                  We mostly deliver the projects before time. So, you can be
+                  assured your projects will never be delayed
                 </div>
               </div>
             </div>

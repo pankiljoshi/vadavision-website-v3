@@ -19,7 +19,7 @@ const GetInTouch = () => {
 
   return (
     <>
-      <div className="w-full px-4 md:px-20 lg:px-20 pt-6 pb-[67px] flex-col getintouch-padding justify-start items-start gap-8 inline-flex getintouch-bg">
+      <div className="w-full px-4 md:px-20 lg:px-20 pt-6 pb-[67px]  flex-col getintouch-padding justify-start items-start gap-8 inline-flex getintouch-bg">
         <div
           data-aos="fade-right"
           className=" justify-start items-center gap-2 inline-flex"

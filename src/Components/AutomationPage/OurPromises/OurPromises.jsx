@@ -15,8 +15,8 @@ const OurPromises = () => {
   }, []);
   return (
     <>
-      <div className="unique-gradient-background">
-        <div className="w-full px-20  padding-industies Unique bg-cover py-20 ">
+      <div className="unique-gradient-background ">
+        <div className="w-full px-20  padding-industies padding-full-website Unique bg-cover py-20 ">
           <div data-aos="fade-right" className=" ">
             <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
               You have

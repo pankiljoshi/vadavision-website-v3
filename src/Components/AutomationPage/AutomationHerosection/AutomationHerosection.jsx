@@ -17,7 +17,7 @@ const AutomationHerosection = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20 py-20 mt-10 responsive-automation padding-industies flex flex-row gap-4 automation-bg  bg-gradient-to-br from-black to-zinc-950">
+      <div className="w-full px-20 py-20 mt-10 responsive-automation padding-full-website padding-industies flex flex-row gap-4 automation-bg  bg-gradient-to-br from-black to-zinc-950">
         <div
           data-aos="fade-right"
           className=" w-[60%]  left-side-automation  flex-col justify-start items-start gap-2 inline-flex"

@@ -3,7 +3,7 @@ import React from "react";
 const OpenRoles = () => {
   return (
     <>
-      <div className="w-full py-20 px-20  padding-industies Unique bg-cover">
+      <div className="w-full py-20 px-20 padding-full-website  padding-industies Unique bg-cover">
         <div data-aos="fade-down" className=" ">
           <span className="text-neutral-400 text-[40px] font-semibold urbanist">
             Check out the

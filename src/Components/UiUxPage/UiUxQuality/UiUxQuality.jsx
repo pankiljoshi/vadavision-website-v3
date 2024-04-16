@@ -15,7 +15,7 @@ const UiUxQuality = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20 uiux-border-style content-height h-[114px] padding-industies bg-gradient-to-r from-stone-950 via-zinc-900 to-stone-950   items-center flex">
+      <div className="w-full px-20 uiux-border-style padding-full-website content-height h-[114px] padding-industies bg-gradient-to-r from-stone-950 via-zinc-900 to-stone-950   items-center flex">
         <div className=" w-full flex-wrap servises-direction justify-between items-center   flex">
           <div
             data-aos="fade-right"

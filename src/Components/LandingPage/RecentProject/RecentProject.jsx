@@ -36,7 +36,7 @@ const RecentProject = () => {
   };
   return (
     <>
-      <div className="RecentProjects w-full   px-20  recent-project py-20 padding-industies bg-no-repeat   ">
+      <div className="RecentProjects w-full   px-20 padding-full-website  recent-project py-20 padding-industies bg-no-repeat   ">
         <div data-aos="fade-down" className=" w-full  flex justify-between    ">
           <div className="title-padding w-[700px]">
             <span className="text-neutral-400 text-4xl text-size-change1  font-medium urbanist">
@@ -135,7 +135,7 @@ const RecentProject = () => {
               data-aos="fade-up"
               className="flex flex-row gap-10 responsive-project"
             >
-              <div className="flex flex-col portfolio-margin border-style-project">
+              <div className="flex flex-col portfolio-margin recent-project-width border-style-project">
                 <div className=" flex flex-col px-10 mt-10 py-24 image-center bg-gradient-to-b from-zinc-950 via-stone-900 to-stone-950   justify-center items-center ">
                   <Image src={TweekendApp} alt="" width={480} />
                 </div>
@@ -202,7 +202,7 @@ const RecentProject = () => {
               data-aos="fade-up"
               className="flex flex-row gap-10 responsive-project"
             >
-              <div className="flex flex-col portfolio-margin border-style-project">
+              <div className="flex flex-col portfolio-margin  recent-project-width border-style-project">
                 <div className=" flex flex-col  px-10 mt-10 py-24 image-center bg-gradient-to-b from-zinc-950 via-stone-900 to-stone-950   justify-center items-center ">
                   <Image src={StandardInsists} alt="" width={480} />
                 </div>
@@ -270,7 +270,7 @@ const RecentProject = () => {
               data-aos="fade-up"
               className="flex flex-row gap-10 responsive-project"
             >
-              <div className="flex flex-col portfolio-margin border-style-project">
+              <div className="flex flex-col portfolio-margin recent-project-width border-style-project">
                 <div className=" flex flex-col  px-10 mt-10 py-24 image-center bg-gradient-to-b from-zinc-950 via-stone-900 to-stone-950   justify-center items-center ">
                   <Image src={Otgc} alt="" width={480} />
                 </div>

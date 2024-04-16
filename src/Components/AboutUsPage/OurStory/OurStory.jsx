@@ -19,7 +19,7 @@ const OurStory = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20 py-20 justify-start our-story-bg padding-industies items-center inline-flex">
+      <div className="w-full px-20 py-20 padding-full-website justify-start our-story-bg padding-industies items-center inline-flex">
         <div className="self-stretch justify-start our-story-gap items-center gap-56 inline-flex">
           <div
             data-aos="fade-right"

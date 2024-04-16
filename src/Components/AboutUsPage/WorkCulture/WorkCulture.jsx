@@ -18,7 +18,7 @@ const WorkCulture = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20 pt-10 padding-industies  bg-zinc-950">
+      <div className="w-full px-20 pt-10 padding-industies padding-full-website bg-zinc-950">
         <div data-aoa="fade-right" className="w-full leading-tight ">
           <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
             VadaVision

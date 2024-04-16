@@ -16,7 +16,7 @@ const ConsultWithUs = () => {
   }, []);
   return (
     <>
-      <div className="px-10 cosult-with-us-padding ">
+      <div className="px-10 cosult-with-us-padding padding-full-website">
         <div
           data-aos="zoom-in"
           className=" w-full  justify-center items-center my-16   padding-industies inline-flex consultus-bg"

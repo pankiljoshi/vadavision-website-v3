@@ -72,7 +72,7 @@ const UiUxServises = () => {
           data-aos="fade-left"
           className="max-w-screen overflow-x-auto hide-scrollbar"
         >
-          <div className="  justify-start items-start gap-14  relative  mt-10 inline-flex whitespace-nowrap">
+          <div className=" justify-between aibot-servises-width items-start gap-14  relative  mt-10 inline-flex whitespace-nowrap">
             <div
               className={`h-[29px] w-[260px] cursor-pointer justify-center  items-center gap-2 flex ${
                 activeTab === 0 ? "active-tab" : ""
@@ -325,7 +325,10 @@ const UiUxServises = () => {
               )}{" "}
             </div>
           </div>
-          <div className="w-[1252px] h-1 bg-zinc-600  justify-start items-center inline-flex"></div>
+          <div
+            className="w-[1252px] h-1 bg-zinc-600 border-width-servises
+           justify-start items-center inline-flex"
+          ></div>
         </div>
         {isChatGPTIntegration && (
           <div
@@ -599,8 +602,8 @@ const UiUxServises = () => {
               </div>
             </div>
 
-            <div className="flex-col justify-center items-center gap-10 inline-flex">
-              <Image src={UiUxServise} />
+            <div className="flex-col justify-center   items-center gap-10 inline-flex">
+              <Image src={UiUxServise} className="" />
             </div>
           </div>
         )}

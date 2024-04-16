@@ -18,7 +18,7 @@ const MissionVision = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20 py-20 bg-zinc-950 justify-center padding-industies items-center inline-flex">
+      <div className="w-full px-20 py-20 bg-zinc-950 padding-full-website justify-center padding-industies items-center inline-flex">
         <div className=" justify-start mission-vision-card items-start gap-14 inline-flex">
           <div
             data-aos="fade-right"

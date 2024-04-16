@@ -18,7 +18,7 @@ const HowItsWork = () => {
   }, []);
   return (
     <>
-      <div className="w-full  padding-industies  px-20  py-20 bg-gradient-to-r from-zinc-950 to-zinc-950">
+      <div className="w-full  padding-industies padding-full-website  px-20  py-20 bg-gradient-to-r from-zinc-950 to-zinc-950">
         <div data-aos="fade-right" className=" ">
           <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
             It’s so simple - <br />
@@ -36,9 +36,9 @@ const HowItsWork = () => {
           </div>
           <div
             data-aos="fade-up"
-            className="flex-col justify-start items-start gap-[49px] flex"
+            className="flex-col justify-start items-start ui-ux-howitswork-cards-width gap-[49px] flex"
           >
-            <div className="justify-start howitswork-cards  items-start gap-12 inline-flex">
+            <div className="justify-start howitswork-cards ui-ux-howitswork-cards-width  items-start gap-12 inline-flex">
               <div className="w-[50%] pl-4 h-[157px] howitswork-cards-width bg-gradient-to-bl background-gradient  border-gradient-bottom flex-col justify-center items-start gap-4 inline-flex">
                 <div className="self-stretch justify-start items-center gap-4 inline-flex">
                   <div className="w-6 h-6  bg-red-500 rounded-full">
@@ -68,7 +68,7 @@ const HowItsWork = () => {
                 </div>
               </div>
             </div>
-            <div className="justify-start  howitswork-cards items-start gap-12 inline-flex">
+            <div className="justify-start  howitswork-cards ui-ux-howitswork-cards-width items-start gap-12 inline-flex">
               <div className="w-[50%] pl-4 h-[157px] howitswork-cards-width bg-gradient-to-bl background-gradient  border-gradient-bottom flex-col justify-center items-start gap-4 inline-flex">
                 <div className="self-stretch justify-start items-center gap-4 inline-flex">
                   <div className="w-6 h-6  bg-red-500 rounded-full">

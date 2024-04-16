@@ -26,7 +26,7 @@ const OurTeam = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20 py-20 flex-col justify-start padding-industies our-team-bg items-start gap-14 inline-flex">
+      <div className="w-full px-20 py-20 padding-full-website flex-col justify-start padding-industies our-team-bg items-start gap-14 inline-flex">
         <div
           data-aos="fade-right"
           className="text-emerald-500 our-team-gradient text-[56px] font-bold font-['Urbanist']"

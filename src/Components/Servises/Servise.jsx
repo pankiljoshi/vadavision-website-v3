@@ -17,7 +17,7 @@ const Servise = () => {
   }, []);
   return (
     <>
-      <div className="Content w-full justify-between py-20 px-16 gap-20 flex padding-industies responsive-content ">
+      <div className="Content w-full justify-between py-20 px-16 gap-20 flex padding-industies padding-full-website responsive-content ">
         <div data-aos="fade-right" className="text-content w-[60%] mt-20">
           <div className="">
             <h1 className=" gradient-change  text-[56px] font-bold urbanist text-responsive">

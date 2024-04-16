@@ -18,7 +18,7 @@ const CaseStudies = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20 py-10 bg-black flex-col  justify-center padding-industies items-start gap-14 inline-flex">
+      <div className="w-full px-20 py-10 bg-black flex-col padding-full-website  justify-center padding-industies items-start gap-14 inline-flex">
         <div data-aos="fade-down" className="w-[380px] leading-tight">
           <span className="text-neutral-400 text-[40px] case-study-heading1 font-semibold urbanist">
             Some of our

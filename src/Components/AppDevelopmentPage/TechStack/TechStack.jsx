@@ -22,7 +22,7 @@ const TechStack = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20 padding-industies  py-20 bg-gradient-to-r from-zinc-950 to-zinc-950">
+      <div className="w-full px-20 padding-industies padding-full-website  py-20 bg-gradient-to-r from-zinc-950 to-zinc-950">
         <div data-aos="fade-up" className=" ">
           <span className="text-neutral-400 text-[40px] leading-tight font-semibold urbanist">
             Our <br />
@@ -36,7 +36,11 @@ const TechStack = () => {
             data-aos="zoom-in"
             className="w-full justify-center items-center inline-flex"
           >
-            <Image src={TechStach} width={1320} />
+            <Image
+              src={TechStach}
+              width={1320}
+              className="tech-stack-image-width"
+            />
           </div>
           <div
             data-aos="fade-right"

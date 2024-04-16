@@ -17,7 +17,7 @@ const AppDevelopmentHerosection = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20 flex flex-row gap-48 app-development-herosection padding-industies py-20 bg-gradient-to-l from-black to-zinc-950">
+      <div className="w-full px-20 flex flex-row gap-48 app-development-herosection padding-full-website padding-industies py-20 bg-gradient-to-l from-black to-zinc-950">
         <div
           data-aos="fade-right"
           className=" w-[50%] app-development-leftside flex-col justify-start items-start gap-2 inline-flex"

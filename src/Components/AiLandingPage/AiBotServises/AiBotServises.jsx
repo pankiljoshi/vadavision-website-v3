@@ -52,7 +52,7 @@ const AiBotServises = () => {
   };
   return (
     <>
-      <div className="w-full  py-14 px-20  overflow-x-hidden bg-zinc-950 padding-industies bg-opacity-90 bg-ai-bot-servises">
+      <div className="w-full  py-14 px-20  overflow-x-hidden bg-zinc-950 padding-industies bg-opacity-90 padding-full-website bg-ai-bot-servises">
         <div
           data-aos="fade-right"
           className="flex-col justify-start items-start gap-14 inline-flex"
@@ -71,7 +71,7 @@ const AiBotServises = () => {
           data-aos="fade-left"
           className="max-w-screen overflow-x-auto hide-scrollbar"
         >
-          <div className="  justify-start items-start gap-14  relative  mt-10 inline-flex whitespace-nowrap">
+          <div className="  justify-between items-start gap-14  aibot-servises-width relative  mt-10 inline-flex whitespace-nowrap">
             <div
               className={`h-[29px] cursor-pointer justify-center  items-center gap-2 flex ${
                 activeTab === 0 ? "active-tab" : ""
@@ -324,7 +324,7 @@ const AiBotServises = () => {
               )}{" "}
             </div>
           </div>
-          <div className="w-[1252px] h-1 bg-zinc-600  justify-start items-center inline-flex"></div>
+          <div className="w-[1252px] h-1 bg-zinc-600 border-width-servises justify-start items-center inline-flex"></div>
         </div>
         {isChatGPTIntegration && (
           <div

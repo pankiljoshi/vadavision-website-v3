@@ -16,7 +16,7 @@ const Industries = () => {
   }, []);
   return (
     <>
-      <div className="industry-bg  w-full px-20 pb-10  flex-col justify-start  items-start gap-14 padding-industies inline-flex">
+      <div className="industry-bg  w-full px-20 pb-10 padding-full-website  flex-col justify-start  items-start gap-14 padding-industies inline-flex">
         <div data-aos="fade-right" className="title-padding   pt-10">
           <span className="text-neutral-400 text-4xl font-semibold font-change-1 urbanist">
             We cover a <br />

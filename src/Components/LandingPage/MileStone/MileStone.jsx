@@ -18,7 +18,7 @@ const MileStone = () => {
     <>
       <div
         data-aos="fade-up"
-        className="w-full flex justify-between bg-[#0D0D0D] milesstone-padding  py-10 "
+        className="w-full flex justify-between  bg-[#0D0D0D] milesstone-padding  py-10 "
       >
         <div className="flex flex-col w-[25%] min-w-[70px] border-style-milestone padding-between  ">
           <div className="flex flex-col mx-auto">

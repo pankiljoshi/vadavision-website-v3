@@ -17,7 +17,7 @@ const ResourceServises = () => {
   }, []);
   return (
     <>
-      <div className="Content w-full justify-between py-20 px-16 gap-20 flex padding-industies responsive-content ">
+      <div className="Content w-full justify-between padding-full-website py-20 px-16 gap-20 flex padding-industies responsive-content ">
         <div data-aos="fade-right" className="text-content w-[60%] mt-20">
           <div className="">
             <div className="">

@@ -17,7 +17,7 @@ const Benefits = () => {
   }, []);
   return (
     <>
-      <div className="RecentProjects w-full px-20 py-10  flex-col justify-center padding-industies items-start gap-14 inline-flex">
+      <div className="RecentProjects w-full px-20 py-10  padding-full-website flex-col justify-center padding-industies items-start gap-14 inline-flex">
         <div
           data-aos="fade-right"
           className="self-stretch justify-start items-center inline-flex"

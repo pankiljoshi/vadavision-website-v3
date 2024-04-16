@@ -18,7 +18,7 @@ const DataProtection = () => {
     <>
       <div
         data-aos="fade-right"
-        className="w-full  px-20 py-10  inline-flex padding-industies data-protection-mobile-bg data-protection-bg"
+        className="w-full  px-20 py-10 padding-full-website  inline-flex padding-industies data-protection-mobile-bg data-protection-bg"
       >
         <div className="  justify-start  inline-flex">
           <div className="self-stretch flex-col justify-start items-start gap-14 inline-flex">

@@ -19,7 +19,7 @@ const AboutUsHerosection = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20 py-20 about-us-bg about-us-padding  bg-gradient-to-br from-black to-zinc-950">
+      <div className="w-full px-20 py-20 about-us-bg about-us-padding padding-full-website bg-gradient-to-br from-black to-zinc-950">
         <div className="  justify-start gap-about-us-herosection about-us-herosection  items-start gap-32 inline-flex">
           <div
             data-aos="fade-right"
@@ -87,7 +87,7 @@ const AboutUsHerosection = () => {
           </div>
           <div
             data-aos="fade-left"
-            className=" w-[50%] min-w-[350px]  about-us-image image-bg py-10"
+            className=" w-[50%] min-w-[400px]  about-us-image image-bg py-10"
           >
             <Image
               src={Office}

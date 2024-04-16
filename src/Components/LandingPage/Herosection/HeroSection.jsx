@@ -16,10 +16,10 @@ const HeroSection = () => {
   }, []);
   return (
     <>
-      <div className=" w-full pt-12 pb-14 flex  mobile-view-padding scrollbar flex-row gap-36 px-20 bg-gradient-to-br padding-herosection herosection-responsive  padding-industies bg-cover  from-black to-zinc-950 herosection-bg  bg-no-repeat ">
+      <div className=" w-full pt-12 pb-14 flex  mobile-view-padding  scrollbar flex-row gap-24 px-20 bg-gradient-to-br padding-herosection herosection-responsive  padding-industies bg-cover padding-full-website  from-black to-zinc-950 herosection-bg  bg-no-repeat ">
         <div
           data-aos="fade-right"
-          className="LeftSide w-[50%]  responsive-left-side min-w-[600px] mt-16 flex-col justify-start items-start gap-6 inline-flex"
+          className="LeftSide w-[55%]  responsive-left-side min-w-[600px] mt-16 flex-col justify-start items-start gap-2 inline-flex"
         >
           <div className="LeftLabel">
             <div className=" p-4 startupStudio-gradient rounded-full  flex-col justify-start items-start gap-2.5 flex">
@@ -29,16 +29,15 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className=" w-[790px]  flex-col responsive-section  justify-start items-start gap-10 flex">
+          <div className="  flex-col responsive-section  justify-start items-start gap-10 flex">
             <div className=" flex-col justify-start items-start gap-6   flex">
               <div
                 className="  text-neutral-100 responsive-heading  leading-normal text-[64px] font-bold prompt
                text-color-gradient "
               >
-                Crafting Digital Dreams <br />
-                into Tangible Reality
+                Crafting Digital Dreams into Tangible Reality
               </div>
-              <div className="  text-neutral-400  w-[670px] leading-tight paragraph-full-width mobile-view-paragraph  text-xl font-light  urbanist ">
+              <div className="  text-neutral-400 w-[720px]  leading-tight paragraph-full-width mobile-view-paragraph  text-xl font-light  urbanist ">
                 We build a solid foundation for your dream startup and fuel it
                 for explosive growth. With innovative strategies and unwavering
                 dedication, we have the path for success that exceeds.
@@ -89,7 +88,7 @@ const HeroSection = () => {
         </div>
         <div
           data-aos="fade-left"
-          className=" w-[50%] right-side-herosection herosection-margin   padding-responsive mt-20 pt-20 "
+          className=" w-[45%] right-side-herosection herosection-margin   padding-responsive mt-20 pt-20 "
         >
           <div className=" first-row-cards servises-card   ml-20 mt-6 justify-start  items-start gap-6 inline-flex">
             <div className="ai-servise-card  servises-cards1 mobile-view-gradient servises-cards  p-4 w-[148px] h-[120px] hover:border-yellow-50 hover:border-opacity-15  services-Card-hover border border-white border-opacity-10 flex-col justify-start items-start gap-2.5 inline-flex">

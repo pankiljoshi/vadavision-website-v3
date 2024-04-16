@@ -15,7 +15,7 @@ const DevelopmentDesign = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20  py-20 bg-gradient-to-r from-zinc-950 to-zinc-950 padding-industies justify-start items-start inline-flex">
+      <div className="w-full px-20  py-20 bg-gradient-to-r from-zinc-950 to-zinc-950 padding-full-website padding-industies justify-start items-start inline-flex">
         <div className="self-stretch flex-col justify-start items-start gap-14 inline-flex">
           <div data-aos="fade-right" className=" leading-tight">
             <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">

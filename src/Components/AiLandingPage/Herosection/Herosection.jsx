@@ -18,7 +18,7 @@ const Herosection = () => {
     }
   }, []);
   return (
-    <div className="w-full  flex  bg-no-repeat px-20 py-20  background-herosection padding-industies mobile-view-bg  responsive-herosection  bg-gradient-to-br from-black to-zinc-950">
+    <div className="w-full  flex  bg-no-repeat px-20 py-20 padding-full-website  background-herosection padding-industies mobile-view-bg  responsive-herosection  bg-gradient-to-br from-black to-zinc-950">
       <div
         data-aos="fade-right"
         className="  flex-col justify-start w-[50%] min-w-[690px] ai-bot-landing-herosection items-start gap-2 mt-10 pt-10 inline-flex"

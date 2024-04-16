@@ -16,8 +16,8 @@ const Speciality = () => {
   }, []);
   return (
     <>
-      <div className="unique-gradient-background mobile-view-gradient-bg">
-        <div className=" w-full Unique bg-cover   px-20 py-10 bg-right-top  pt-10 bg-no-repeat  padding-industies ">
+      <div className="unique-gradient-background  mobile-view-gradient-bg">
+        <div className=" w-full Unique bg-cover padding-full-website   px-20 py-10 bg-right-top  pt-10 bg-no-repeat  padding-industies ">
           <div className="">
             <div data-aos="fade-down" className="title-padding   mt-10    ">
               <span className="text-neutral-400 text-4xl font-medium font-change-1 urbanist">

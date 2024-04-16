@@ -153,6 +153,7 @@ body {
 
 .Content {
   background-image: url(../../public//Images/ABOUT.png);
+  background-size: cover;
 }
 
 .industry-bg {
@@ -400,30 +401,18 @@ body {
 
 @media screen and (max-width: 1280px) {
   .herosection-responsive {
-    gap: 228px;
+    gap: 22px;
   }
 }
-@media screen and (max-width: 1170px) {
-  .herosection-responsive {
-    gap: 185px;
-  }
-}
+
 @media screen and (max-width: 1180px) {
   .herosection-responsive {
-    gap: 100px;
+    gap: 10px;
   }
 }
-@media screen and (max-width: 1110px) {
-  .herosection-responsive {
-    gap: 70px;
-  }
-}
-@media screen and (max-width: 1050px) {
-  .herosection-responsive {
-    gap: 60px;
-  }
-}
-@media screen and (max-width: 1050px) {
+
+
+@media screen and (max-width: 1080px) {
   .herosection-responsive {
     flex-wrap: wrap;
   }
@@ -434,7 +423,42 @@ body {
     padding-left: 30px;
   }
 }
+@media screen and (max-width: 2000px) {
+  .responsive-heading {
+    font-size: 68px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .responsive-heading {
+    font-size: 64px;
+  }
+}
+@media screen and (max-width: 1520px) {
+  .responsive-heading {
+    font-size: 62px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .responsive-heading {
+    font-size: 60px;
+  }
+}
 
+@media screen and (max-width: 1380px) {
+  .responsive-heading {
+    font-size:46px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .responsive-heading {
+    font-size: 47px;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .responsive-heading {
+    font-size: 44px;
+  }
+}
 @media screen and (max-width: 640px) {
   .responsive-heading {
     font-size: 42px;
@@ -447,21 +471,9 @@ body {
     width: 100%;
   }
 }
-@media screen and (max-width: 1360px) {
-  .responsive-heading {
-    font-size: 58px;
-  }
-}
-@media screen and (max-width: 1360px) {
-  .responsive-heading {
-    font-size: 58px;
-  }
-}
-@media screen and (max-width: 1180px) {
-  .responsive-heading {
-    font-size: 48px;
-  }
-}
+
+
+
 @media screen and (max-width: 850px) {
   .responsive-heading {
     width: 100%;
@@ -569,7 +581,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
   .herosection-margin {
     margin: 0px;
     padding-top: 10px;
@@ -578,12 +590,12 @@ body {
 
 @media screen and (max-width: 1370px) {
   .paragraph-full-width {
-    width: 78%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1170px) {
   .paragraph-full-width {
-    width: 64%;
+    width: 100%;
   }
 }
 
@@ -895,6 +907,11 @@ body {
 @media screen and (max-width: 1210px) {
   .responsive-left-side {
     min-width: 400px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .responsive-left-side {
+    min-width: 100%;
   }
 }
 
@@ -1441,6 +1458,27 @@ body {
     width: 47%;
   }
 }
+@media screen and (max-width: 2000px) {
+  .design-cards {
+    width: 438px;
+  }
+}
+@media screen and (max-width: 1560px) {
+  .design-cards {
+    width: 418px;
+  }
+}
+@media screen and (max-width:2000px) {
+  .tech-stack-image-width{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width: 1500px) {
+  .design-cards {
+    width: 400px;
+  }
+}
 @media screen and (max-width: 1220px) {
   .design-cards {
     width: 47%;
@@ -1471,6 +1509,27 @@ body {
     margin-bottom: 20px;
   }
 }
+@media screen and (max-width: 2000px) {
+  .card-responsive {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 1900px) {
+  .card-responsive {
+    width: 460px;
+  }
+}
+@media screen and (max-width: 1780px) {
+  .card-responsive {
+    width: 430px;
+  }
+}
+@media screen and (max-width: 1690px) {
+  .card-responsive {
+    width: 400px;
+  }
+}
+
 @media screen and (max-width: 1458px) {
   .card-responsive {
     width: 390px;
@@ -1809,6 +1868,31 @@ body {
     width: 340px;
   }
 }
+@media screen and (max-width: 2000px) {
+  .unique-cards {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 1900px) {
+  .unique-cards {
+    width: 470px;
+  }
+}
+@media screen and (max-width: 1820px) {
+  .unique-cards {
+    width: 440px;
+  }
+}
+@media screen and (max-width: 1730px) {
+  .unique-cards {
+    width: 410px;
+  }
+}
+@media screen and (max-width: 1640px) {
+  .unique-cards {
+    width: 370px;
+  }
+}
 @media screen and (max-width: 1280px) {
   .unique-cards {
     width: 300px;
@@ -1969,6 +2053,18 @@ body {
     right: 80px;
   }
 }
+@media screen and (max-width:2000px) {
+  .responsive-project{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:2000px) {
+  .recent-project-width{
+    width: 100%;
+  }
+  
+}
 @media screen and (max-width: 850px) {
   .responsive-project {
     flex-wrap: wrap;
@@ -1976,6 +2072,16 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
+  }
+}
+@media screen and (max-width: 2000px) {
+  .responsive-project {
+   justify-content: center;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .responsive-project {
+   justify-content: start;
   }
 }
 @media screen and (max-width: 1280px) {
@@ -2942,7 +3048,7 @@ body {
 }
 .bg-ai-bot-servises {
   background-image: url("../../public/Images/ai-servises-bg.png");
-  background-size: contain;
+  background-size: cover;
 }
 
 .gradient-heading {
@@ -2953,12 +3059,25 @@ body {
 }
 .data-protection-bg {
   background-image: url("../../public/Images/dataProtectionBg.png");
+  background-size: cover;
 }
 @media screen and (max-width: 1030px) {
   .data-protection-bg {
     background-image: url("../../public/Images/dataProtectionBg.png");
     background-position: center;
   }
+}
+@media screen and (max-width:2000px) {
+  .aibot-servises-width{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:2000px) {
+  .border-width-servises{
+    width: 100%;
+  }
+  
 }
 .gradient-heading-text {
   background: linear-gradient(94deg, #fc4778 5.14%, #3952f5 97.17%);
@@ -3373,7 +3492,12 @@ body {
     margin: 0px;
   }
 }
-
+@media screen and (max-width: 2000px) {
+  .reponsive-portfolio-info {
+    width: 100%;
+    
+  }
+}
 @media screen and (max-width: 720px) {
   .portfolio-margin {
     margin-top: 20px;
@@ -3530,43 +3654,73 @@ body {
   }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
   .right-side-herosection {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
   .first-row-cards {
     width: 100%;
     margin: 0px;
     gap: 12px;
   }
 }
-@media screen and (max-width: 1050px) {
-  .ai-servise-card {
-    width: 50%;
+
+@media screen and (max-width: 2000px) {
+  .resource-card {
+    height: 150px;
   }
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1500px) {
+  .resource-card {
+    height: 122px;
+    width: 261px;
+  }
+}
+@media screen and (max-width: 1080px) {
   .resource-card {
     width: 50%;
   }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
   .second-row-cards {
     width: 100%;
     gap: 11px;
     padding: 0px;
   }
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 2000px) {
+  .ui-ux-card {
+    width: 202px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .ui-ux-card {
+    width: 172px;
+    height: 122px;
+  }
+}
+@media screen and (max-width: 1080px) {
   .ui-ux-card {
     width: 50%;
   }
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 2000px) {
+  .mobile-development-card {
+    height: 150px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .mobile-development-card {
+    height: 122px;
+    width: 275px;
+  }
+}
+@media screen and (max-width: 1080px) {
   .mobile-development-card {
     width: 50%;
   }
@@ -3577,10 +3731,69 @@ body {
     width: 24px;
   }
 }
-
+@media screen and (max-width: 2000px) {
+  .servises-dropdown-card {
+    width: 440px;
+  }
+}
+@media screen and (max-width: 1930px) {
+  .servises-dropdown-card {
+    width: 410px;
+  }
+}
+@media screen and (max-width: 1830px) {
+  .servises-dropdown-card {
+    width: 375px;
+  }
+}
+@media screen and (max-width: 1730px) {
+  .servises-dropdown-card {
+    width: 335px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .servises-dropdown-card {
+    width: 315px;
+  }
+}
+@media screen and (max-width: 1530px) {
+  .servises-dropdown-card {
+    width: 280px;
+  }
+}
 @media screen and (max-width: 1400px) {
   .servises-dropdown-card {
     width: 270px;
+  }
+}
+@media screen and (max-width: 2000px) {
+  .work-flow-automation-card {
+    width: 675px;
+  }
+}
+@media screen and (max-width: 1930px) {
+  .work-flow-automation-card {
+    width: 625px;
+  }
+}
+@media screen and (max-width: 1830px) {
+  .work-flow-automation-card {
+    width: 575px;
+  }
+}
+@media screen and (max-width: 1730px) {
+  .work-flow-automation-card {
+    width: 515px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .work-flow-automation-card {
+    width: 485px;
+  }
+}
+@media screen and (max-width: 1530px) {
+  .work-flow-automation-card {
+    width: 435px;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -4177,7 +4390,27 @@ body {
   }
   
 }
-
+@media screen and (max-width:2000px) {
+  .padding-full-website{
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+  
+}
+@media screen and (max-width:1600px) {
+  .padding-full-website{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  
+}
+@media screen and (max-width:1020px) {
+  .padding-full-website{
+    padding-left: 30px;
+    padding-right:30px;
+  }
+  
+}
 @media screen and (max-width:620px) {
   .templated-cards-font-size{
     font-size: 16px;
@@ -4373,9 +4606,33 @@ body {
     width: 100%;
   }
 }
+@media screen and (max-width: 2000px) {
+  .about-us-image {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 1350px) {
   .about-us-image {
     margin-top: 50px;
+  }
+}
+@media screen and (max-width:2000px) {
+  .ai-servise-card{
+    width: 166px;
+    height: 150px;
+  }
+  
+}
+@media screen and (max-width:1500px) {
+  .ai-servise-card{
+    width: 148px;
+    height: 122px;
+  }
+  
+}
+@media screen and (max-width: 1080px) {
+  .ai-servise-card {
+    width: 50%;
   }
 }
 @media screen and (max-width: 1050px) {
@@ -4924,6 +5181,12 @@ body {
 }
 @media screen and (max-width:460px) {
   .ui-ux-howitswork-cards{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:2000px) {
+  .ui-ux-howitswork-cards-width{
     width: 100%;
   }
   

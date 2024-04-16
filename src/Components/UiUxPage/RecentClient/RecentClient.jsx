@@ -18,7 +18,7 @@ const RecentClient = () => {
   }, []);
   return (
     <>
-      <div className="w-full py-20 px-20 padding-industies responsive-recent-client  justify-start items-start gap-60 inline-flex">
+      <div className="w-full py-20 px-20 padding-industies padding-full-website responsive-recent-client  justify-between items-start gap-60 inline-flex">
         <div data-aos="fade-right" className=" leading-tight">
           <span className="text-neutral-400 text-[40px] font-change-1 font-semibold font-['Urbanist']">
             Our most

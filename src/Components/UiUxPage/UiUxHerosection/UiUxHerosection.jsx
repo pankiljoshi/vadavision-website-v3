@@ -19,7 +19,7 @@ const UiUxHerosection = () => {
   }, []);
   return (
     <>
-      <div className="w-full uiux-responsive mobile-view-bg-ui-ux  padding-industies flex flex-row ">
+      <div className="w-full uiux-responsive mobile-view-bg-ui-ux   padding-industies flex flex-row ">
         <div
           data-aos="fade-right"
           className=" w-[60%] uiux-leftside py-20 pl-20 flex-col justify-start items-start gap-2 inline-flex"

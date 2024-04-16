@@ -20,7 +20,7 @@ const FooterLinks = () => {
     <>
       <div
         data-aos="zoom-in"
-        className="Container  w-full flex-wrap px-20 border-style pb-16  justify-between items-center inline-flex padding-industies mt-20 "
+        className="Container  w-full flex-wrap px-20 border-style pb-16 padding-full-website  justify-between items-center inline-flex padding-industies mt-20 "
       >
         <div className="LogoAndText w-72 flex-col   justify-start items-start gap-4 inline-flex">
           <Link href="/">

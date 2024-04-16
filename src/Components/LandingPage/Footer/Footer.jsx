@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className="Container w-full my-10 px-20 flex-wrap footer-responsive padding-industies  justify-between items-center inline-flex ">
+      <div className="Container w-full my-10 px-20 flex-wrap padding-full-website footer-responsive padding-industies  justify-between items-center inline-flex ">
         <div className=" text-[#8E8E8E] text-[16px] font-medium urbanist TermsOfService">
           © 2024 - VadaVision! All Rights Reserved.
         </div>

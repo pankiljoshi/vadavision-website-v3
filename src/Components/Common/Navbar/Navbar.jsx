@@ -108,7 +108,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="NavigationWeb w-full px-20 relative  padding-none pt-2 pb-2 bg-white bg-opacity-5 border border-neutral-900 ">
+      <div className="NavigationWeb w-full px-20 relative padding-full-website  padding-none pt-2 pb-2 bg-white bg-opacity-5 border border-neutral-900 ">
         <div className="responsive-navbar ">
           <div className="flex justify-between items-center h-[60px]">
             <Link href="/">
@@ -205,15 +205,15 @@ const Navbar = () => {
                     <div>
                       {isPopupOpen && (
                         <div className="fixed inset-0 backdrop-blur-[8px] responsive-servise-dropdown  mt-20  flex z-10  px-10  ">
-                          <div className="flex   ">
+                          <div className="flex w-full   ">
                             <div
-                              className="w-full px-4  h-[484px] bg-black  "
+                              className=" px-4 w-full  h-[484px] bg-black  "
                               onMouseLeave={() => {
                                 setActiveTab("home");
                                 handleClosePopup();
                               }}
                             >
-                              <div className="flex flex-row gap-6">
+                              <div className="w-full flex flex-row gap-6">
                                 <div className="flex flex-col">
                                   <div className="flex flex-row gap-6 cards-gap  mt-10">
                                     <Link href="/ai-bot-landing">

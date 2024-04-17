@@ -73,13 +73,13 @@ const FooterLinks = () => {
               Services
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
-              <Link href="/app-development">
+              <Link href="/mobile-hybrid-app-development-agency">
                 {" "}
                 <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
                   Mobile App Development
                 </div>
               </Link>
-              <Link href="/ui-ux">
+              <Link href="/top-ui-ux-design-agency">
                 {" "}
                 <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
                   UI/ UX Design

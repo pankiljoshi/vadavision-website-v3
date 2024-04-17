@@ -3,7 +3,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import PankhilSir from "../../../../public/Images/pankil-sir.png";
+import PankhilSir from "../../../../public/Images/pankilSir.png";
 import Image from "next/image";
 import Neeraj from "../../../../public/Images/neerajsir.png";
 import Sahil from "../../../../public/Images/sahil.png";
@@ -12,7 +12,7 @@ import Shivendra from "../../../../public/Images/shivendra.png";
 import Hritik from "../../../../public/Images/hritik.png";
 import Prashant from "../../../../public/Images/prashant.png";
 import Neesha from "../../../../public/Images/neesha.png";
-
+import Client from "../../../../public/Images/pankil-sir.png";
 const OurTeam = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
@@ -732,7 +732,7 @@ const OurTeam = () => {
             </div>
           </div>
           <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
-            <Image src={PankhilSir} />
+            <Image src={Client} />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">
               <div className="text-neutral-200 text-2xl font-semibold urbanist">
                 Sandeep Salaria{" "}
@@ -831,7 +831,7 @@ const OurTeam = () => {
             </div>
           </div>
           <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
-            <Image src={PankhilSir} />
+            <Image src={Client} />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">
               <div className="text-neutral-200 text-2xl font-semibold urbanist">
                 Minal Thakur{" "}

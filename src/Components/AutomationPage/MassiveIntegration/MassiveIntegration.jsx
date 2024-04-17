@@ -46,56 +46,62 @@ const MassiveIntegration = () => {
             </span>
           </div>
         </div>
-        <div data-aos="fade-down" className="flex gap-12 flex-row pt-16 ">
-          <div className="w-[100px] h-[100px] pt-10">
-            <Image src={Zapier} width={100} />
+        <div
+          data-aos="fade-down"
+          className="flex gap-12  massive-intergration-gap flex-row pt-16 "
+        >
+          <div className="w-[100px] h-[100px] Zapier pt-10">
+            <Image src={Zapier} width={100} className="Zapier" />
           </div>
-          <div className="w-[130px] h-[130px] pt-12 ">
-            <Image src={Gmail} />
+          <div className="w-[130px] h-[130px] gmail pt-12 ">
+            <Image src={Gmail} className="gmail" />
           </div>
-          <div className="w-[91px] h-[91px] ">
-            <Image src={Discord} />
+          <div className="w-[91px] h-[91px] Discord ">
+            <Image src={Discord} className="Discord" />
           </div>
-          <div className="w-[80px] h-[80px pt-6 ">
-            <Image src={Linkdin} />
+          <div className="w-[80px] h-[80px] Linkdin pt-6 ">
+            <Image src={Linkdin} className="Linkdin" />
           </div>{" "}
-          <div className="w-[140px] h-[140px] pt-16 ">
-            <Image src={Share} />
+          <div className="w-[140px]  Share h-[140px] pt-16 ">
+            <Image src={Share} className="" />
           </div>{" "}
-          <div className="w-[91px] h-[91px] pt-20 ">
-            <Image src={Nbox} />
+          <div className="w-[91px] Nbox h-[91px] pt-20 ">
+            <Image src={Nbox} className="Nbox" />
           </div>
-          <div className="w-[136px] h-[136px] ">
-            <Image src={Monkey} />
+          <div className="w-[136px] Monkey h-[136px] ">
+            <Image src={Monkey} className="Monkey" />
           </div>{" "}
-          <div className="w-[91px] h-[91px] pt-16 ">
-            <Image src={Zoom} />
+          <div className="w-[91px] Zoom h-[91px] pt-16 ">
+            <Image src={Zoom} className="Zoom" />
           </div>{" "}
-          <div className="w-[91px] h-[91px] pt-12 ">
-            <Image src={Zoho} />
+          <div className="w-[91px] Zoho  h-[91px] pt-12 ">
+            <Image src={Zoho} className="Zoho" />
           </div>
         </div>
-        <div data-aos="fade-up" className="flex gap-16 mt-4 flex-row pb-16">
-          <div className="w-[136px] h-[136px] pt-20 ">
-            <Image src={OpenAi} />
+        <div
+          data-aos="fade-up"
+          className="flex gap-16  massive-intergration-gap mt-4 flex-row pb-16"
+        >
+          <div className="w-[136px] OpenAi h-[136px] pt-20 ">
+            <Image src={OpenAi} className="OpenAi" />
           </div>
-          <div className="w-[91px] h-[91px] pt-20 ">
-            <Image src={Asana} />
+          <div className="w-[91px] Asana h-[91px] pt-20 ">
+            <Image src={Asana} className="Asana" />
           </div>{" "}
-          <div className="w-[136px] h-[136px] ">
-            <Image src={Github} />
+          <div className="w-[136px] Github h-[136px] ">
+            <Image src={Github} className="Github" />
           </div>{" "}
-          <div className="w-[110px] h-[110px] pt-20 ">
-            <Image src={Git} />
+          <div className="w-[110px] Git h-[110px] pt-20 ">
+            <Image src={Git} className="Git" />
           </div>{" "}
-          <div className="w-[91px] h-[91px] pt-20 ">
-            <Image src={GoogleMeet} />
+          <div className="w-[91px] GoogleMeet h-[91px] pt-20 ">
+            <Image src={GoogleMeet} className="GoogleMeet" />
           </div>{" "}
-          <div className="w-[116px] h-[116px] pt-10 ">
-            <Image src={Smile} />
+          <div className="w-[116px] Smile h-[116px] pt-10 ">
+            <Image src={Smile} className="Smile" />
           </div>
-          <div className="w-[140px] h-[140px] pt-14 ">
-            <Image src={Slack} />
+          <div className="w-[140px] Slack h-[140px] pt-14 ">
+            <Image src={Slack} className="Slack" />
           </div>
         </div>
 

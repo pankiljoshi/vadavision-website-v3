@@ -27,7 +27,7 @@ const BenefitResourceAugmentation = () => {
         </div>
         <div
           data-aos="fade-right"
-          className="mt-16 w-full cards-benefits  justify-start items-center gap-10 inline-flex"
+          className="mt-16 w-full cards-benefits  justify-between items-center gap-10 inline-flex"
         >
           <div className="flex-col w-[50%] benefit-cards p-4 justify-start border-style-milestone2 items-start gap-6 inline-flex">
             <div className="flex-col justify-start items-start gap-4 flex">
@@ -60,7 +60,7 @@ const BenefitResourceAugmentation = () => {
             </div>
           </div>
 
-          <div className="flex-col w-[50%] benefit-cards p-4 justify-start border-style-milestone3 items-start gap-6 inline-flex">
+          <div className="flex-col w-[50%] benefit-cards p-4 justify-center bennefit-cards-start border-style-milestone3 items-center gap-6 inline-flex">
             <div className="flex-col justify-start items-start gap-4 flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -176,7 +176,7 @@ const BenefitResourceAugmentation = () => {
             </div>
           </div>
 
-          <div className="flex-col w-[50%] p-4 benefit-cards justify-start border-style-milestone3 items-start gap-6 inline-flex">
+          <div className="flex-col w-[50%] p-4 benefit-cards justify-start bennefit-cards-start border-style-milestone3 items-center gap-6 inline-flex">
             <div className="flex-col justify-start items-start gap-4 flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

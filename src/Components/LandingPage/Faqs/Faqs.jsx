@@ -76,7 +76,7 @@ const Accordion = () => {
                   onClick={() => toggleAccordion(item.id)}
                 >
                   <div className="flex gap-2 justify-between  accordion-title">
-                    <div className="montserrat text-[#CFD3D7] cursor-pointer text-2xl faq-question-size pt-4  pb-6  leading-[24px] font-medium">
+                    <div className="montserrat text-[#CFD3D7] cursor-pointer text-2xl faq-question-size pt-4  pb-6  leading-[24px] line-height-faq font-medium">
                       {item.questions}{" "}
                     </div>
                     <div className="accordion-icon mt-6 cursor-pointer ">
@@ -108,7 +108,7 @@ const Accordion = () => {
                   onClick={() => toggleAccordion(item.id)}
                 >
                   <div className="flex gap-2 justify-between accordion-title">
-                    <div className="montserrat text-[#CFD3D7] cursor-pointer faq-question-size text-2xl pt-4  pb-6  leading-[24px] font-medium">
+                    <div className="montserrat text-[#CFD3D7] cursor-pointer faq-question-size text-2xl pt-4  pb-6  leading-[24px] line-height-faq font-medium">
                       {item.questions}{" "}
                     </div>
                     <div className="accordion-icon mt-6 cursor-pointer ">

@@ -31,7 +31,7 @@ const HowItsWork = () => {
         <div className="flex flex-row gap-8 responsive-section-automation pt-10">
           <div
             data-aos="fade-right"
-            className="flex-col w-[50%] automation-cards-leftside  justify-start items-start gap-8   inline-flex"
+            className="flex-col w-[50%] automation-cards-leftside space-y-12  justify-start items-start gap-8   inline-flex"
           >
             <div className="w-full h-[130px] aumtomation-cards flex gap-11 items-center px-10  bg-gradient-to-r from-stone-950 via-zinc-900 to-neutral-900 cards-border-style">
               <div className=" text-red-500 text-[56px] font-bold urbanist">

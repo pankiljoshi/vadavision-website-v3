@@ -25,7 +25,7 @@ const Speciality = () => {
                 <br />
               </span>
               <span className="text-pink-600 text-color-change text-6xl font-bold leading-normal font-change-2 urbanist mt-4">
-                VadaVision! unique
+                VadaVision! Unique{" "}
               </span>
             </div>
             <div

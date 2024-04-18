@@ -39,7 +39,7 @@ const CareerHerosection = () => {
               remarkable stuffs
             </div>
             <div className="self-stretch text-[#8E8E8E] text-xl font-normal career-paragraph  leading-tight urbanist">
-              At Vadavision, we chose the word'Vada'to represent trust,
+              At VadaVision, we chose the word'Vada'to represent trust,
               reliability, and integrity in our services. It signifies the
               strong foundation of trust we build with our
               clients. 'Vision' embodies innovation, creativity, and

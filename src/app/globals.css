@@ -1169,6 +1169,13 @@ body {
     flex-wrap: wrap;
   }
 }
+@media screen and (max-width: 720px) {
+  .paragraph-responsive {
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 18px;
+  }
+}
 @media screen and (max-width: 560px) {
   .paragraph-responsive {
     flex-wrap: wrap;

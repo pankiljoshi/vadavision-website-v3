@@ -72,13 +72,13 @@ const MissionVision = () => {
               </div>
             </div>
             <div className=" text-[#8E8E8E]  text-[20px] leading-tight font-normal  urbanist">
-              At Vadavision, making clients happy and helping our team grow are
+              At VadaVision, making clients happy and helping our team grow are
               like pieces of a story. We focus on what our clients need and aim
               to exceed their expectations, building strong relationships along
               the way. Our team flourishes too, learning and growing in a
               supportive environment. As our clients succeed, our team members
               do too, creating a story of shared successes and happiness at
-              Vadavision.
+              VadaVision.
             </div>
           </div>
           <div

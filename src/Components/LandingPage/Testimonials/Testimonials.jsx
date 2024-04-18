@@ -10,6 +10,8 @@ import Reeza from "../../../../public/Images/reeza.jpeg";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import "./testimonial.css";
+import { IoMdArrowBack, IoMdArrowForward } from "react-icons/io";
+
 const Testimonials = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
@@ -57,68 +59,16 @@ const Testimonials = () => {
                 onClick={handlePrevClick}
                 className="left-arrow w-[70px] h-[36px]   z-10 absolute -top-32  right-64 cursor-pointer bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex"
               >
-                <div className="Frame">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="25"
-                    viewBox="0 0 24 25"
-                    fill="none"
-                  >
-                    <g id="Frame">
-                      <path
-                        id="Vector"
-                        d="M19 12.5H5"
-                        stroke="#8E8E8E"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className="group-hover:stroke-[#DD4243]"
-                      />
-                      <path
-                        id="Vector_2"
-                        d="M12 19.5L5 12.5L12 5.5"
-                        stroke="#8E8E8E"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className="group-hover:stroke-[#DD4243]"
-                      />
-                    </g>
-                  </svg>
+                <div className="Frame text-[#8E8E8E] hover:text-[#DD4243]">
+                  <IoMdArrowBack size={24} />
                 </div>
               </div>
               <div
                 onClick={handleNextClick}
                 className="right-arrow w-[70px] h-[36px] z-10 absolute -top-32 cursor-pointer  right-40 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex"
               >
-                <div className="Frame ">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="25"
-                    viewBox="0 0 24 25"
-                    fill="none"
-                  >
-                    <g id="Frame">
-                      <path
-                        id="Vector"
-                        d="M5 12.5H19"
-                        stroke="#8E8E8E"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                      <path
-                        id="Vector_2"
-                        d="M12 5.5L19 12.5L12 19.5"
-                        stroke="#8E8E8E"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </g>
-                  </svg>
+                <div className="Frame  text-[#8E8E8E] hover:text-[#DD4243]">
+                  <IoMdArrowForward size={24} />
                 </div>
               </div>
             </div>
@@ -268,7 +218,7 @@ const Testimonials = () => {
                         </div>
                       </div>
                       <div className=" px-4 text-center text-neutral-200 text-xl font-normal urbanist">
-                        Working with Vadavision was fantastic; they simplified
+                        Working with VadaVision was fantastic; they simplified
                         our web app, enhancing user experience. I look forward
                         to future projects. Their expertise and approach are
                         commendable and highly recommendable.

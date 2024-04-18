@@ -37,11 +37,10 @@ const AboutUsHerosection = () => {
               We’re here to make things simpler
             </div>
             <div className="self-stretch text-[#8E8E8E] text-xl herosection-paragraph  leading-tight font-normal urbanist ">
-              At Vadavision, we chose the word'Vada'to represent trust,
+              At VadaVision, we chose the word 'Vada' to represent trust,
               reliability, and integrity in our services. It signifies the
-              strong foundation of trust we build with our
-              clients.'Vision'embodies innovation, creativity, and
-              forward-thinking.
+              strong foundation of trust we build with our clients. 'Vision'
+              embodies innovation, creativity, and forward-thinking.
             </div>
             <div className=" justify-start buttons-herosection items-center gap-10 inline-flex reponsive-button ">
               <div

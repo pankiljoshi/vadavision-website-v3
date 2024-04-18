@@ -119,10 +119,10 @@ const FooterLinks = () => {
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
               <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
-                Documentation
+                Terms of Service
               </div>
               <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
-                Media Coverage
+                Privacy Policy
               </div>
               <div className="footer-link-font text-white cursor-pointer text-[19px] font-normal urbanist">
                 FAQs

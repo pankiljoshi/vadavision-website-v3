@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 
 import React, { useEffect } from "react";
@@ -29,13 +30,13 @@ const OurStory = () => {
               Our Story
             </div>
             <div className="w-[793px] text-[#8E8E8E] our-story-paragraph leading-tight text-[20px] font-normal urbanist">
-              Vadavision was born from a shared vision and unwavering passion.
+              VadaVision was born from a shared vision and unwavering passion.
               Over the past 1.5 years, we transformed challenges into
-              opportunities, guided by our clients support and our team
-              sdedication. Today, Vadavision stands as a testament to our
-              journey of creativity and growth. With each passing day, our
-              commitment to excellence propels us forward, showcasing
-              dedication, innovation, and unwavering commitment in every step.
+              opportunities, guided by our clients support and our team's
+              dedication. Today, VadaVision stands as a testament to our journey
+              of creativity and growth. With each passing day, our commitment to
+              excellence propels us forward, showcasing dedication, innovation,
+              and unwavering commitment in every step.
             </div>
           </div>
           <div className="w-[246px] h-[246px] image-our-story">

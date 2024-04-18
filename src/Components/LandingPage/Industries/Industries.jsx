@@ -61,15 +61,14 @@ const Industries = () => {
                         Increase your checkout count, more than before
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
-                        Boost Your Online Shop with Us! We create easy and
-                        secure eCommerce websites. Enjoy smooth shopping and
-                        grow your online business with our help.
+                        With our expertise in Design & Development in the
+                        segment,we will help you obtain a better ROI.
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us gap-2  inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
+                  <div className="ScheduleACall text-neutral-400 cursor-pointer text-sm inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4   flex-col justify-start items-start inline-flex">
@@ -156,7 +155,7 @@ const Industries = () => {
                   </div>
                 </div>
                 <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us   gap-2 inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm  inudstries-paragraph font-light urbanist">
+                  <div className="ScheduleACall text-neutral-400 text-sm  cursor-pointer inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
@@ -241,7 +240,7 @@ const Industries = () => {
                   </div>
                 </div>
                 <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us  gap-2 inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
+                  <div className="ScheduleACall text-neutral-400 cursor-pointer text-sm inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
@@ -318,7 +317,7 @@ const Industries = () => {
                   </div>
                 </div>
                 <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us  gap-2 inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
+                  <div className="ScheduleACall text-neutral-400 cursor-pointer text-sm inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
@@ -425,7 +424,7 @@ const Industries = () => {
                   </div>
                 </div>
                 <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us  gap-2 inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
+                  <div className="ScheduleACall text-neutral-400 text-sm cursor-pointer inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">
@@ -495,8 +494,8 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us  gap-2 inline-flex">
-                  <div className="ScheduleACall text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
+                <div className="Frame1171281437 arrow-responsive justify-start cursor-pointer items-center consult-us  gap-2 inline-flex">
+                  <div className="ScheduleACall text-neutral-400 cursor-pointer text-sm inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
                   <div className="LeftUp1 w-4 h-4 relative origin-top-left  flex-col justify-start items-start inline-flex">

@@ -23,7 +23,7 @@ const Servise = () => {
             <h1 className=" gradient-change  text-[56px] font-bold urbanist text-responsive">
               Fast. Efficient. Reliable.
             </h1>
-            <p className="text-[#8E8E8E]   text-xl  font-light urbanist paragraph-responsive my-4">
+            <p className="text-[#8E8E8E]  w-[620px]  text-xl  font-light urbanist paragraph-responsive my-4">
               VadaVision! gives you an assurance of faster delivery, efficient
               results and a very reliable team.
             </p>

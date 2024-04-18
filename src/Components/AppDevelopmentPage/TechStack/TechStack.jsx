@@ -90,7 +90,7 @@ const TechStack = () => {
                 Hybrid Apps
               </div>
               <div className=" text-neutral-400 text-xl tech-stack-card-font-size font-normal urbanist">
-                Explore Vadavision 'Hybrid Development, where we mix different
+                Explore VadaVision 'Hybrid Development, where we mix different
                 technologies to create apps. Our solutions are flexible,
                 affordable, and work well on various devices. We make sure users
                 get the same experience no matter what device they use. Try our

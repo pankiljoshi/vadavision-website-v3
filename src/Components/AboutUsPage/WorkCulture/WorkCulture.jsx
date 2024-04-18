@@ -65,7 +65,7 @@ const WorkCulture = () => {
             </svg>
             <div></div>
             <div className=" w-full  text-[#CACACA] leading-tight  text-xl font-normal urbanist">
-              At Vadavision, work feels like crafting a story.characters shaping
+              At VadaVision, work feels like crafting a story.characters shaping
               creativity and teamwork from our spaces. Ideas flow freely in our
               virtual world, unrestricted by office boundaries. Together, we
               tackle challenges, crafting a tale of adaptability and excellence.

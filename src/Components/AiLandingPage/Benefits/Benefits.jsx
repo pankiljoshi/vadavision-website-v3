@@ -212,7 +212,7 @@ const Benefits = () => {
               </div>
               <div className=" text-[#8E8E8E] leading-tight benefit-paragraph text-[16px] font-light urbanist">
                 Ability to handle large volume of data, allowing businesses to
-                scale their operations smoothly and efficiently
+                scale their operations smoothly and efficiently.
               </div>
               <div className="hover-effect "></div>
             </div>

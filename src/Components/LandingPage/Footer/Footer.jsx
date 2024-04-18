@@ -9,10 +9,10 @@ const Footer = () => {
         </div>
         <div className="Links justify-start items-start footer-links-responsive gap-10 flex">
           <div className="TermsOfService cursor-pointer text-[#8E8E8E] text-[16px] font-normal urbanist">
-            Terms of Service
+            info@vadavision.ca
           </div>
           <div className="TermsOfService cursor-pointer text-[#8E8E8E] text-[16px] font-normal urbanist">
-            Privacy Policy
+            +91 62 8000 7001
           </div>
           <div className="TermsOfService cursor-pointer text-[#8E8E8E] text-[16px] font-normal urbanist">
             Cookies

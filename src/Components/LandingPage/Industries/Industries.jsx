@@ -147,9 +147,8 @@ const Industries = () => {
                         Upgrade the finance experience with us
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
-                        Enjoy safe data handling and efficient tools. Boost your
-                        business online with us for easy client interactions &
-                        growth.
+                        Experience secure data handling and efficient tools for
+                        online business growth and client interactions.
                       </div>
                     </div>
                   </div>
@@ -232,9 +231,8 @@ const Industries = () => {
                         Trust us to streamline your HR processes
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
-                        We are IT experts creating customized HR websites.
-                        Intuitive design , secure platform, and easy
-                        communication tools.
+                        We craft HR websites: intuitive design, secure platform,
+                        and seamless communication tools.
                       </div>
                     </div>
                   </div>
@@ -309,9 +307,8 @@ const Industries = () => {
                         Level Up Your Accounting Online
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
-                        We create easy-to-use websites for accountants. Safe,
-                        smooth, & efficient. Enhance your accounting business
-                        online!
+                        Streamlined websites for accountants. Safe, efficient,
+                        and business-enhancing. Elevate your online presence
                       </div>
                     </div>
                   </div>
@@ -416,9 +413,8 @@ const Industries = () => {
                         Better the content, more the conversion ratio
                       </div>
                       <div className=" self-stretch text-neutral-400 text-sm inudstries-paragraph font-light urbanist">
-                        We leverage AI and OpenAI API to craft smart, engaging,
-                        and automated content solutions tailored just for your
-                        business.
+                        We use AI and OpenAI API to create smart, engaging
+                        content solutions tailored for your business.
                       </div>
                     </div>
                   </div>

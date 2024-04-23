@@ -109,7 +109,7 @@ const AppDevelopmentHerosection = () => {
             </div>
           </div>
         </div>
-        <Image src={MobileAPP} data-aos="fade-left" />
+        <Image src={MobileAPP} data-aos="fade-left" className="w-full" />
       </div>
     </>
   );

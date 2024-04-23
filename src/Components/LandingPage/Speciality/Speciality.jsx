@@ -30,7 +30,7 @@ const Speciality = () => {
             </div>
             <div
               data-aos="fade-up"
-              className="  items-start  w-full justify-between flex-wrap gap-11  inline-flex  pt-10"
+              className="  items-start  w-full justify-between flex-wrap gap-11  inline-flex  pt-20"
             >
               <div className="unique-cards p-4 w-[395px] h-[155px] card-height1 bg-no-repeat  border-gradient-bottom border-gradient-top border-gradient-right border-t border-b border-r border-zinc-800  background-gradient  flex-col justify-start items-start gap-6 inline-flex">
                 <div className="Frame1171281468  self-stretch justify-start items-start gap-4 inline-flex">

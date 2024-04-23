@@ -40,10 +40,7 @@ const OurStory = () => {
             </div>
           </div>
           <div className="w-[246px] h-[246px] image-our-story">
-            <div
-              data-aos="fade-left"
-              className=" min-w-[300px] responsive-logo1"
-            >
+            <div data-aos="zoom-in" className=" min-w-[300px] responsive-logo1">
               <Image src={Logo} alt="" width={340} className="logo" />
             </div>
           </div>

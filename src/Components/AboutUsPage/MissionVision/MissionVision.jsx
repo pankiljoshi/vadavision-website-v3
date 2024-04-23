@@ -21,7 +21,7 @@ const MissionVision = () => {
       <div className="w-full px-20 py-20 bg-zinc-950 padding-full-website justify-center padding-industies items-center inline-flex">
         <div className=" justify-start mission-vision-card items-start gap-14 inline-flex">
           <div
-            data-aos="fade-right"
+            data-aos="fade-up"
             className="w-[50%] mission-card min-w-[360px] border-gradient-style px-10 pt-10 pb-[80px] bg-gradient-to-b from-stone-950 to-stone-950  flex-col justify-start items-start gap-10 inline-flex"
           >
             <div className=" justify-start items-center gap-8 inline-flex">
@@ -82,7 +82,7 @@ const MissionVision = () => {
             </div>
           </div>
           <div
-            data-aos="fade-left"
+            data-aos="fade-up"
             className="w-[50%] mission-card min-w-[360px] border-gradient-style  px-10 pt-10 pb-[78px] bg-gradient-to-b from-stone-950 to-stone-950  flex-col justify-start items-start gap-10 inline-flex"
           >
             <div className="justify-start items-center gap-8 inline-flex">

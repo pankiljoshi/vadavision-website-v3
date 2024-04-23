@@ -17,7 +17,7 @@ const BenefitResourceAugmentation = () => {
   return (
     <>
       <div className="w-full px-20 py-20 bg-gradient-to-r padding-full-website BenefitResourceAugmentation-bg padding-industies  from-zinc-950 to-zinc-950">
-        <div data-aos="fade-right" className=" ">
+        <div data-aos="fade-down" className=" ">
           <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
             Benefits you get from <br />
           </span>
@@ -26,7 +26,7 @@ const BenefitResourceAugmentation = () => {
           </span>
         </div>
         <div
-          data-aos="fade-right"
+          data-aos="fade-down"
           className="mt-16 w-full cards-benefits  justify-between items-center gap-10 inline-flex"
         >
           <div className="flex-col w-[50%] benefit-cards p-4 justify-start border-style-milestone2 items-start gap-6 inline-flex">
@@ -129,7 +129,7 @@ const BenefitResourceAugmentation = () => {
         </div>
 
         <div
-          data-aos="fade-left"
+          data-aos="fade-up"
           className=" mt-8 w-full cards-benefits justify-start items-center gap-10 inline-flex"
         >
           <div className="flex-col w-[50%] p-4 benefit-cards justify-start border-style-milestone2 items-start gap-6 inline-flex">

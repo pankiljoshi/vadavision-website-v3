@@ -33,7 +33,7 @@ const PerksAndBenefit = () => {
         <div className="self-stretch flex-col justify-start  items-start gap-12 inline-flex">
           <div className="justify-between items-start gap-6 flex-wrap inline-flex">
             <div
-              data-aos="fade-right"
+              data-aos="fade-down"
               className="px-6 card-responsive h-[200px] p-10 w-[400px]  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex"
             >
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
@@ -67,7 +67,7 @@ const PerksAndBenefit = () => {
               <div className="hover-effect "></div>
             </div>
             <div
-              data-aos="fade-right"
+              data-aos="fade-down"
               className="px-6 card-responsive p-10 h-[200px] w-[400px]  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex"
             >
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
@@ -109,7 +109,7 @@ const PerksAndBenefit = () => {
               <div className="hover-effect "></div>
             </div>
             <div
-              data-aos="fade-right"
+              data-aos="fade-down"
               className="px-6 card-responsive p-10  w-[400px] h-[200px]  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex"
             >
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
@@ -143,7 +143,7 @@ const PerksAndBenefit = () => {
               <div className="hover-effect "></div>
             </div>
             <div
-              data-aos="fade-left"
+              data-aos="fade-up"
               className="px-6 card-responsive p-10  w-[400px] h-[200px]  bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex"
             >
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
@@ -189,7 +189,7 @@ const PerksAndBenefit = () => {
               <div className="hover-effect "></div>
             </div>
             <div
-              data-aos="fade-left"
+              data-aos="fade-up"
               className="px-6  card-responsive p-10   w-[400px] h-[200px] bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex"
             >
               <div className="self-stretch justify-start items-center gap-6 inline-flex">
@@ -223,7 +223,7 @@ const PerksAndBenefit = () => {
               <div className="hover-effect "></div>
             </div>
             <div
-              data-aos="fade-left"
+              data-aos="fade-up"
               className="px-6 card-responsive p-10  w-[400px] h-[200px] bg-gradient-to-b from-stone-950 via-zinc-900 to-stone-950  flex-col justify-start items-start gap-6 inline-flex"
             >
               <div className="self-stretch justify-start items-center gap-6 inline-flex">

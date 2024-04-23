@@ -410,7 +410,7 @@ const OpenRoles = () => {
           </div>
         </div>
         <div
-          data-aos="fade-left"
+          data-aos="fade-up"
           className=" w-full flex-col pt-20 open-roles-padding justify-start items-center gap-6 inline-flex"
         >
           <div className="text-white text-[40px] font-semibold urbanist">

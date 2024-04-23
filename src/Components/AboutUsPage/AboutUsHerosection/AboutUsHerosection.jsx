@@ -85,7 +85,7 @@ const AboutUsHerosection = () => {
             </div>
           </div>
           <div
-            data-aos="fade-left"
+            data-aos="zoom-in"
             className=" w-[50%] min-w-[400px]  about-us-image image-bg py-10"
           >
             <Image

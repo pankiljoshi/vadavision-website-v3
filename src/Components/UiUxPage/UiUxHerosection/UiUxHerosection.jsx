@@ -113,7 +113,7 @@ const UiUxHerosection = () => {
         </div>
 
         <div
-          data-aos="fade-left"
+          data-aos="zoom-in"
           className="w-[40%] flex h-[620px] justify-end hide-image-uiux"
         >
           <Image src={UiUxHerosectionImage} />

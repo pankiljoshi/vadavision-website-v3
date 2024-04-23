@@ -78,7 +78,7 @@ const HowItsWork = () => {
 
           <Image
             src={FlowChat}
-            data-aos="zoom-in "
+            data-aos="zoom-in"
             className="flowchat-image w-[50%]"
           />
         </div>

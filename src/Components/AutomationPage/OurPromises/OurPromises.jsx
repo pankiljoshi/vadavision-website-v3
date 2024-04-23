@@ -28,7 +28,7 @@ const OurPromises = () => {
           </div>
           <div className="w-full pt-10 promises-wrap  justify-start gap-10  inline-flex">
             <div
-              data-aos="fade-right"
+              data-aos="fade-up"
               className="w-[33%] promises-cards border-style-milestone30 flex-col justify-start items-start gap-4 inline-flex"
             >
               <div className="flex-col justify-start items-start gap-1 flex">
@@ -107,7 +107,7 @@ const OurPromises = () => {
               <div className="w-full   border-style-milestone40 hidden show-promises-border  "></div>
             </div>
             <div
-              data-aos="fade-left"
+              data-aos="fade-up"
               className="w-[33%] promises-cards flex-col justify-start items-start gap-4 inline-flex"
             >
               <div className="flex-col  justify-start items-start gap-1 flex">

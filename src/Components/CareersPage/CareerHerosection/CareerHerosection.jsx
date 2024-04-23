@@ -48,7 +48,7 @@ const CareerHerosection = () => {
           </div>
         </div>
         <div
-          data-aos="fade-left"
+          data-aos="zoom-in"
           className=" w-[50%] mobile-min-width min-w-[350px]  about-us-image image-bg py-10"
         >
           <Image src={TeamPic} className="mx-auto" />

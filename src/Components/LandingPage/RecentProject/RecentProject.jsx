@@ -47,7 +47,7 @@ const RecentProject = () => {
               Recent Projects
             </span>
           </div>
-          <div className="justify-start items-start gap-3.5  flex">
+          <div className="justify-start items-start gap-3.5 pt-10  flex">
             <div
               onClick={handlePrevClick}
               className="w-[70px] h-[36px] cursor-pointer bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex group"

@@ -3,16 +3,17 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import PankhilSir from "../../../../public/Images/pankilSir.png";
+// import PankhilSir from "../../../../public/Images/pankilSir.png";
 import Image from "next/image";
 import Neeraj from "../../../../public/Images/neerajsir.png";
 import Sahil from "../../../../public/Images/sahil.png";
 import Sabahat from "../../../../public/Images/sabahat.png";
-import Shivendra from "../../../../public/Images/shivendra.png";
+// import Shivendra from "../../../../public/Images/shivendra.png";
 import Hritik from "../../../../public/Images/hritik.png";
 import Prashant from "../../../../public/Images/prashant.png";
 import Neesha from "../../../../public/Images/neesha.png";
-import Client from "../../../../public/Images/pankil-sir.png";
+import Link from "next/link";
+// import Client from "../../../../public/Images/pankil-sir.png";
 const OurTeam = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
@@ -37,7 +38,7 @@ const OurTeam = () => {
           data-aos="fade-up"
           className=" flex-wrap teams-cards-mobile-width justify-center items-start gap-20 our-team-gap teams-cards-gap inline-flex"
         >
-          <div className="w-[260px] h-[448px]  teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
+          {/* <div className="w-[260px] h-[448px]  teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
             <Image src={PankhilSir} />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">
               <div className="text-neutral-200 text-2xl font-semibold urbanist">
@@ -135,7 +136,7 @@ const OurTeam = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
             <Image src={Neeraj} />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">
@@ -154,33 +155,38 @@ const OurTeam = () => {
             <div className="justify-start items-start gap-4 mt-8 inline-flex">
               <div className="w-8 h-8 p-2 cursor-pointer border border-zinc-900 justify-center items-center flex">
                 <div className="w-4 h-4  flex-col justify-start items-start flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
+                  <Link
+                    target="_blank"
+                    href="https://www.linkedin.com/in/neeraj-sharma-2725151bb/"
                   >
-                    <g clipPath="url(#clip0_1800_16378)">
-                      <path
-                        d="M15.996 16L16 15.9993V10.1313C16 7.26065 15.382 5.04932 12.026 5.04932C10.4127 5.04932 9.33003 5.93465 8.88803 6.77398H8.84136V5.31732H5.65936V15.9993H8.9727V10.71C8.9727 9.31732 9.2367 7.97065 10.9614 7.97065C12.6607 7.97065 12.686 9.55998 12.686 10.7993V16H15.996Z"
-                        fill="#DD4243"
-                      />
-                      <path
-                        d="M0.263977 5.31812H3.58131V16.0001H0.263977V5.31812Z"
-                        fill="#DD4243"
-                      />
-                      <path
-                        d="M1.92133 0C0.860667 0 0 0.860667 0 1.92133C0 2.982 0.860667 3.86067 1.92133 3.86067C2.982 3.86067 3.84267 2.982 3.84267 1.92133C3.842 0.860667 2.98133 0 1.92133 0Z"
-                        fill="#DD4243"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_1800_16378">
-                        <rect width="16" height="16" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <g clipPath="url(#clip0_1800_16378)">
+                        <path
+                          d="M15.996 16L16 15.9993V10.1313C16 7.26065 15.382 5.04932 12.026 5.04932C10.4127 5.04932 9.33003 5.93465 8.88803 6.77398H8.84136V5.31732H5.65936V15.9993H8.9727V10.71C8.9727 9.31732 9.2367 7.97065 10.9614 7.97065C12.6607 7.97065 12.686 9.55998 12.686 10.7993V16H15.996Z"
+                          fill="#DD4243"
+                        />
+                        <path
+                          d="M0.263977 5.31812H3.58131V16.0001H0.263977V5.31812Z"
+                          fill="#DD4243"
+                        />
+                        <path
+                          d="M1.92133 0C0.860667 0 0 0.860667 0 1.92133C0 2.982 0.860667 3.86067 1.92133 3.86067C2.982 3.86067 3.84267 2.982 3.84267 1.92133C3.842 0.860667 2.98133 0 1.92133 0Z"
+                          fill="#DD4243"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1800_16378">
+                          <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </Link>
                 </div>
               </div>
               <div className="w-8 h-8 p-2 cursor-pointer border border-zinc-900 justify-center items-center flex">
@@ -254,33 +260,38 @@ const OurTeam = () => {
             <div className="justify-start items-start gap-4 mt-8 inline-flex">
               <div className="w-8 h-8  cursor-pointer p-2 border border-zinc-900 justify-center items-center flex">
                 <div className="w-4 h-4  flex-col justify-start items-start flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
+                  <Link
+                    target="_blank"
+                    href="https://www.linkedin.com/in/sahil-mangukiya-70210817b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   >
-                    <g clipPath="url(#clip0_1800_16378)">
-                      <path
-                        d="M15.996 16L16 15.9993V10.1313C16 7.26065 15.382 5.04932 12.026 5.04932C10.4127 5.04932 9.33003 5.93465 8.88803 6.77398H8.84136V5.31732H5.65936V15.9993H8.9727V10.71C8.9727 9.31732 9.2367 7.97065 10.9614 7.97065C12.6607 7.97065 12.686 9.55998 12.686 10.7993V16H15.996Z"
-                        fill="#DD4243"
-                      />
-                      <path
-                        d="M0.263977 5.31812H3.58131V16.0001H0.263977V5.31812Z"
-                        fill="#DD4243"
-                      />
-                      <path
-                        d="M1.92133 0C0.860667 0 0 0.860667 0 1.92133C0 2.982 0.860667 3.86067 1.92133 3.86067C2.982 3.86067 3.84267 2.982 3.84267 1.92133C3.842 0.860667 2.98133 0 1.92133 0Z"
-                        fill="#DD4243"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_1800_16378">
-                        <rect width="16" height="16" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <g clipPath="url(#clip0_1800_16378)">
+                        <path
+                          d="M15.996 16L16 15.9993V10.1313C16 7.26065 15.382 5.04932 12.026 5.04932C10.4127 5.04932 9.33003 5.93465 8.88803 6.77398H8.84136V5.31732H5.65936V15.9993H8.9727V10.71C8.9727 9.31732 9.2367 7.97065 10.9614 7.97065C12.6607 7.97065 12.686 9.55998 12.686 10.7993V16H15.996Z"
+                          fill="#DD4243"
+                        />
+                        <path
+                          d="M0.263977 5.31812H3.58131V16.0001H0.263977V5.31812Z"
+                          fill="#DD4243"
+                        />
+                        <path
+                          d="M1.92133 0C0.860667 0 0 0.860667 0 1.92133C0 2.982 0.860667 3.86067 1.92133 3.86067C2.982 3.86067 3.84267 2.982 3.84267 1.92133C3.842 0.860667 2.98133 0 1.92133 0Z"
+                          fill="#DD4243"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1800_16378">
+                          <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </Link>
                 </div>
               </div>
               <div className="w-8 h-8 cursor-pointer p-2 border border-zinc-900 justify-center items-center flex">
@@ -353,33 +364,38 @@ const OurTeam = () => {
             <div className="justify-start items-start gap-4 mt-8 inline-flex">
               <div className="w-8 h-8 p-2 cursor-pointer border border-zinc-900 justify-center items-center flex">
                 <div className="w-4 h-4  flex-col justify-start items-start flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
+                  <Link
+                    target="_blank"
+                    href="https://www.linkedin.com/in/heysabahat/"
                   >
-                    <g clipPath="url(#clip0_1800_16378)">
-                      <path
-                        d="M15.996 16L16 15.9993V10.1313C16 7.26065 15.382 5.04932 12.026 5.04932C10.4127 5.04932 9.33003 5.93465 8.88803 6.77398H8.84136V5.31732H5.65936V15.9993H8.9727V10.71C8.9727 9.31732 9.2367 7.97065 10.9614 7.97065C12.6607 7.97065 12.686 9.55998 12.686 10.7993V16H15.996Z"
-                        fill="#DD4243"
-                      />
-                      <path
-                        d="M0.263977 5.31812H3.58131V16.0001H0.263977V5.31812Z"
-                        fill="#DD4243"
-                      />
-                      <path
-                        d="M1.92133 0C0.860667 0 0 0.860667 0 1.92133C0 2.982 0.860667 3.86067 1.92133 3.86067C2.982 3.86067 3.84267 2.982 3.84267 1.92133C3.842 0.860667 2.98133 0 1.92133 0Z"
-                        fill="#DD4243"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_1800_16378">
-                        <rect width="16" height="16" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <g clipPath="url(#clip0_1800_16378)">
+                        <path
+                          d="M15.996 16L16 15.9993V10.1313C16 7.26065 15.382 5.04932 12.026 5.04932C10.4127 5.04932 9.33003 5.93465 8.88803 6.77398H8.84136V5.31732H5.65936V15.9993H8.9727V10.71C8.9727 9.31732 9.2367 7.97065 10.9614 7.97065C12.6607 7.97065 12.686 9.55998 12.686 10.7993V16H15.996Z"
+                          fill="#DD4243"
+                        />
+                        <path
+                          d="M0.263977 5.31812H3.58131V16.0001H0.263977V5.31812Z"
+                          fill="#DD4243"
+                        />
+                        <path
+                          d="M1.92133 0C0.860667 0 0 0.860667 0 1.92133C0 2.982 0.860667 3.86067 1.92133 3.86067C2.982 3.86067 3.84267 2.982 3.84267 1.92133C3.842 0.860667 2.98133 0 1.92133 0Z"
+                          fill="#DD4243"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1800_16378">
+                          <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </Link>
                 </div>
               </div>
               <div className="w-8 h-8 p-2 cursor-pointer border border-zinc-900 justify-center items-center flex">
@@ -434,7 +450,7 @@ const OurTeam = () => {
               </div>
             </div>
           </div>
-          <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
+          {/* <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
             <Image src={Shivendra} />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">
               <div className="text-neutral-200 text-2xl font-semibold urbanist">
@@ -532,7 +548,7 @@ const OurTeam = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
             <Image src={Hritik} />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">
@@ -551,33 +567,38 @@ const OurTeam = () => {
             <div className="justify-start items-start gap-4 mt-8 inline-flex">
               <div className="w-8 h-8 p-2 cursor-pointer border border-zinc-900 justify-center items-center flex">
                 <div className="w-4 h-4  flex-col justify-start items-start flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
+                  <Link
+                    target="_blank"
+                    href="https://www.linkedin.com/in/ritik-dwivedi-0b8b3a21a"
                   >
-                    <g clipPath="url(#clip0_1800_16378)">
-                      <path
-                        d="M15.996 16L16 15.9993V10.1313C16 7.26065 15.382 5.04932 12.026 5.04932C10.4127 5.04932 9.33003 5.93465 8.88803 6.77398H8.84136V5.31732H5.65936V15.9993H8.9727V10.71C8.9727 9.31732 9.2367 7.97065 10.9614 7.97065C12.6607 7.97065 12.686 9.55998 12.686 10.7993V16H15.996Z"
-                        fill="#DD4243"
-                      />
-                      <path
-                        d="M0.263977 5.31812H3.58131V16.0001H0.263977V5.31812Z"
-                        fill="#DD4243"
-                      />
-                      <path
-                        d="M1.92133 0C0.860667 0 0 0.860667 0 1.92133C0 2.982 0.860667 3.86067 1.92133 3.86067C2.982 3.86067 3.84267 2.982 3.84267 1.92133C3.842 0.860667 2.98133 0 1.92133 0Z"
-                        fill="#DD4243"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_1800_16378">
-                        <rect width="16" height="16" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <g clipPath="url(#clip0_1800_16378)">
+                        <path
+                          d="M15.996 16L16 15.9993V10.1313C16 7.26065 15.382 5.04932 12.026 5.04932C10.4127 5.04932 9.33003 5.93465 8.88803 6.77398H8.84136V5.31732H5.65936V15.9993H8.9727V10.71C8.9727 9.31732 9.2367 7.97065 10.9614 7.97065C12.6607 7.97065 12.686 9.55998 12.686 10.7993V16H15.996Z"
+                          fill="#DD4243"
+                        />
+                        <path
+                          d="M0.263977 5.31812H3.58131V16.0001H0.263977V5.31812Z"
+                          fill="#DD4243"
+                        />
+                        <path
+                          d="M1.92133 0C0.860667 0 0 0.860667 0 1.92133C0 2.982 0.860667 3.86067 1.92133 3.86067C2.982 3.86067 3.84267 2.982 3.84267 1.92133C3.842 0.860667 2.98133 0 1.92133 0Z"
+                          fill="#DD4243"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1800_16378">
+                          <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </Link>
                 </div>
               </div>
               <div className="w-8 h-8 p-2 cursor-pointer border border-zinc-900 justify-center items-center flex">
@@ -650,33 +671,38 @@ const OurTeam = () => {
             <div className="justify-start items-start gap-4 mt-8 inline-flex">
               <div className="w-8 h-8 p-2 cursor-pointer border border-zinc-900 justify-center items-center flex">
                 <div className="w-4 h-4  flex-col justify-start items-start flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
+                  <Link
+                    target="_blank"
+                    href="https://www.linkedin.com/in/prashant-ranjan-7659ba1b5/"
                   >
-                    <g clipPath="url(#clip0_1800_16378)">
-                      <path
-                        d="M15.996 16L16 15.9993V10.1313C16 7.26065 15.382 5.04932 12.026 5.04932C10.4127 5.04932 9.33003 5.93465 8.88803 6.77398H8.84136V5.31732H5.65936V15.9993H8.9727V10.71C8.9727 9.31732 9.2367 7.97065 10.9614 7.97065C12.6607 7.97065 12.686 9.55998 12.686 10.7993V16H15.996Z"
-                        fill="#DD4243"
-                      />
-                      <path
-                        d="M0.263977 5.31812H3.58131V16.0001H0.263977V5.31812Z"
-                        fill="#DD4243"
-                      />
-                      <path
-                        d="M1.92133 0C0.860667 0 0 0.860667 0 1.92133C0 2.982 0.860667 3.86067 1.92133 3.86067C2.982 3.86067 3.84267 2.982 3.84267 1.92133C3.842 0.860667 2.98133 0 1.92133 0Z"
-                        fill="#DD4243"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_1800_16378">
-                        <rect width="16" height="16" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <g clipPath="url(#clip0_1800_16378)">
+                        <path
+                          d="M15.996 16L16 15.9993V10.1313C16 7.26065 15.382 5.04932 12.026 5.04932C10.4127 5.04932 9.33003 5.93465 8.88803 6.77398H8.84136V5.31732H5.65936V15.9993H8.9727V10.71C8.9727 9.31732 9.2367 7.97065 10.9614 7.97065C12.6607 7.97065 12.686 9.55998 12.686 10.7993V16H15.996Z"
+                          fill="#DD4243"
+                        />
+                        <path
+                          d="M0.263977 5.31812H3.58131V16.0001H0.263977V5.31812Z"
+                          fill="#DD4243"
+                        />
+                        <path
+                          d="M1.92133 0C0.860667 0 0 0.860667 0 1.92133C0 2.982 0.860667 3.86067 1.92133 3.86067C2.982 3.86067 3.84267 2.982 3.84267 1.92133C3.842 0.860667 2.98133 0 1.92133 0Z"
+                          fill="#DD4243"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1800_16378">
+                          <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </Link>
                 </div>
               </div>
               <div className="w-8 h-8 p-2 cursor-pointer border border-zinc-900 justify-center items-center flex">
@@ -731,7 +757,8 @@ const OurTeam = () => {
               </div>
             </div>
           </div>
-          <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
+
+          {/* <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
             <Image src={Client} />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">
               <div className="text-neutral-200 text-2xl font-semibold urbanist">
@@ -829,8 +856,9 @@ const OurTeam = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
+          </div> */}
+
+          {/* <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
             <Image src={Client} />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">
               <div className="text-neutral-200 text-2xl font-semibold urbanist">
@@ -928,7 +956,7 @@ const OurTeam = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
             <Image src={Neesha} />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">
@@ -947,33 +975,38 @@ const OurTeam = () => {
             <div className="justify-start items-start gap-4 mt-8 inline-flex">
               <div className="w-8 h-8 p-2 cursor-pointer border border-zinc-900 justify-center items-center flex">
                 <div className="w-4 h-4  flex-col justify-start items-start flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
+                  <Link
+                    target="_blank"
+                    href="https://www.linkedin.com/in/neesha-6245a11b7/"
                   >
-                    <g clipPath="url(#clip0_1800_16378)">
-                      <path
-                        d="M15.996 16L16 15.9993V10.1313C16 7.26065 15.382 5.04932 12.026 5.04932C10.4127 5.04932 9.33003 5.93465 8.88803 6.77398H8.84136V5.31732H5.65936V15.9993H8.9727V10.71C8.9727 9.31732 9.2367 7.97065 10.9614 7.97065C12.6607 7.97065 12.686 9.55998 12.686 10.7993V16H15.996Z"
-                        fill="#DD4243"
-                      />
-                      <path
-                        d="M0.263977 5.31812H3.58131V16.0001H0.263977V5.31812Z"
-                        fill="#DD4243"
-                      />
-                      <path
-                        d="M1.92133 0C0.860667 0 0 0.860667 0 1.92133C0 2.982 0.860667 3.86067 1.92133 3.86067C2.982 3.86067 3.84267 2.982 3.84267 1.92133C3.842 0.860667 2.98133 0 1.92133 0Z"
-                        fill="#DD4243"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_1800_16378">
-                        <rect width="16" height="16" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <g clipPath="url(#clip0_1800_16378)">
+                        <path
+                          d="M15.996 16L16 15.9993V10.1313C16 7.26065 15.382 5.04932 12.026 5.04932C10.4127 5.04932 9.33003 5.93465 8.88803 6.77398H8.84136V5.31732H5.65936V15.9993H8.9727V10.71C8.9727 9.31732 9.2367 7.97065 10.9614 7.97065C12.6607 7.97065 12.686 9.55998 12.686 10.7993V16H15.996Z"
+                          fill="#DD4243"
+                        />
+                        <path
+                          d="M0.263977 5.31812H3.58131V16.0001H0.263977V5.31812Z"
+                          fill="#DD4243"
+                        />
+                        <path
+                          d="M1.92133 0C0.860667 0 0 0.860667 0 1.92133C0 2.982 0.860667 3.86067 1.92133 3.86067C2.982 3.86067 3.84267 2.982 3.84267 1.92133C3.842 0.860667 2.98133 0 1.92133 0Z"
+                          fill="#DD4243"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1800_16378">
+                          <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </Link>
                 </div>
               </div>
               <div className="w-8 h-8 p-2 cursor-pointer border border-zinc-900 justify-center items-center flex">

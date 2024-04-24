@@ -54,7 +54,7 @@ const UiUxServises = () => {
   };
   return (
     <>
-      <div className="w-full  py-14 px-20  overflow-x-hidden padding-full-website bg-zinc-950 padding-industies bg-opacity-90 bg-ai-bot-servises">
+      <div className="w-full  py-14 px-20  overflow-hidden padding-full-website bg-zinc-950 padding-industies bg-opacity-90 bg-ai-bot-servises">
         <div
           data-aos="fade-right"
           className="flex-col justify-start items-start gap-14 inline-flex"

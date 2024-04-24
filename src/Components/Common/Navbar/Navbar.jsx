@@ -204,10 +204,10 @@ const Navbar = () => {
                   >
                     <div>
                       {isPopupOpen && (
-                        <div className="fixed inset-0 backdrop-blur-[8px] responsive-servise-dropdown  mt-20  flex z-10  px-10  ">
+                        <div className="fixed inset-0 backdrop-blur-[8px] responsive-servise-dropdown  mt-20  flex z-10    ">
                           <div className="flex w-full   ">
                             <div
-                              className=" px-4 w-full  h-[484px] bg-black  "
+                              className="  w-full px-16 h-[484px] bg-black  "
                               onMouseLeave={() => {
                                 setActiveTab("home");
                                 handleClosePopup();

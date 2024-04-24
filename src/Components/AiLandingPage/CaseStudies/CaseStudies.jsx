@@ -88,7 +88,7 @@ const CaseStudies = () => {
           </div>
           <div
             data-aos="fade-right"
-            className=" w-full justify-end items-end overflow-x-hidden case-studies-gap responsive-casestudies1 gap-responsive-casestudies1-main gap-64 mt-20 inline-flex"
+            className=" w-full justify-end items-end overflow-y-hidden case-studies-gap responsive-casestudies1 gap-responsive-casestudies1-main gap-64 mt-20 inline-flex"
           >
             <div className="flex-col  justify-start items-start gap-[72px] gap-responsive-casestudies-main  inline-flex">
               <div className="flex-col justify-start   items-start gap-responsive-casestudies gap-14 flex">

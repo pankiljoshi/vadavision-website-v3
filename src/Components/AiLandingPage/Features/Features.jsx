@@ -18,9 +18,9 @@ const Features = () => {
     <>
       <div
         data-aos="fade-right"
-        className="w-full h-[107px] flex-wrap    bg-gradient-to-r from-red-500 to-orange-500"
+        className="w-full h-[107px] flex-wrap  overflow-hidden  bg-gradient-to-r from-red-500 to-orange-500"
       >
-        <div className="w-full h-[100px] pt-3  overflow-x-hidden flex flex-wrap padding-none  justify-between px-8  feature-animation bg-white">
+        <div className="w-full h-[100px] pt-3  overflow-hidden flex flex-wrap padding-none  justify-between px-8  feature-animation bg-white">
           <div className="  justify-start items-center gap-2 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"

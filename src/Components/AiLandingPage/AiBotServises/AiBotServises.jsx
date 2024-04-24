@@ -68,7 +68,7 @@ const AiBotServises = () => {
           </div>
         </div>
         <div
-          data-aos="fade-left"
+          data-aos="fade-right"
           className="max-w-screen overflow-x-auto hide-scrollbar"
         >
           <div className="  justify-between items-start gap-14  aibot-servises-width relative  mt-10 inline-flex whitespace-nowrap">

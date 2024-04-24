@@ -1,11 +1,25 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const AmbitiousTeam = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      Aos.init({
+        offset: 100,
+        duration: 1000,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="w-full pl-20 py-20 padding-industies  padding-full-left-side team-bg">
         <div className="splash-image-bg">
           <div className=" flex-col justify-start items-start gap-6 inline-flex">
-            <div className="">
+            <div data-aos="fade-down" className="">
               <span className="text-neutral-400 text-[40px] font-change-1 font-semibold urbanist">
                 Join our
               </span>
@@ -18,7 +32,10 @@ const AmbitiousTeam = () => {
           </div>
           <div className=" flex-col design-vadavision-cards-width  justify-start items-start pt-20 gap-14 inline-flex">
             <div className=" flex-row design-vadavision-cards-width flex-wrap gap-16 items-center inline-flex">
-              <div className="w-[440px] design-vadavision-cards-width monitor-width-cards uiux-cards-border-style-milestone flex-col justify-start items-start gap-6 inline-flex">
+              <div
+                data-aos="fade-down"
+                className="w-[440px] design-vadavision-cards-width monitor-width-cards uiux-cards-border-style-milestone flex-col justify-start items-start gap-6 inline-flex"
+              >
                 <div className="flex-col justify-start items-start gap-4 flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +61,10 @@ const AmbitiousTeam = () => {
               </div>
               <div className="w-full   border-style-milestone44 hidden  "></div>
 
-              <div className="w-[440px] design-vadavision-cards-width monitor-width-cards flex-col justify-start items-start gap-6 inline-flex">
+              <div
+                data-aos="fade-down"
+                className="w-[440px] design-vadavision-cards-width monitor-width-cards flex-col justify-start items-start gap-6 inline-flex"
+              >
                 <div className="flex-col justify-start items-start gap-4 flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +132,10 @@ const AmbitiousTeam = () => {
               </div>
               <div className="w-full   border-style-milestone44  hidden "></div>
 
-              <div className="w-[440px] design-vadavision-cards-width  monitor-width-cards uiux-cards-border-style-milestone flex-col justify-start items-start gap-6 inline-flex">
+              <div
+                data-aos="fade-up"
+                className="w-[440px] design-vadavision-cards-width  monitor-width-cards uiux-cards-border-style-milestone flex-col justify-start items-start gap-6 inline-flex"
+              >
                 <div className="flex-col justify-start items-start gap-4 flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -144,7 +167,10 @@ const AmbitiousTeam = () => {
               </div>
               <div className="w-full   border-style-milestone44   hidden "></div>
 
-              <div className="w-[440px] design-vadavision-cards-width flex-col justify-start items-start gap-6 inline-flex">
+              <div
+                data-aos="fade-up"
+                className="w-[440px] design-vadavision-cards-width flex-col justify-start items-start gap-6 inline-flex"
+              >
                 <div className="flex-col justify-start items-start gap-4 flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

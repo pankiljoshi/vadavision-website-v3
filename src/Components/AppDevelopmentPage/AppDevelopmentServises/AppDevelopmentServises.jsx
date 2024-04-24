@@ -69,7 +69,7 @@ const AppDevelopmentServises = () => {
           </div>
         </div>
         <div
-          data-aos="fade-left"
+          data-aos="fade-right"
           className="max-w-screen overflow-x-auto hide-scrollbar"
         >
           <div className="  justify-between aibot-servises-width items-start gap-14  relative  mt-10 inline-flex whitespace-nowrap">

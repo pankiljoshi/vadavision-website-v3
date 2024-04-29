@@ -118,12 +118,18 @@ const FooterLinks = () => {
               Resources
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
-              <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
-                Terms of Service
-              </div>
-              <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
-                Privacy Policy
-              </div>
+              <Link href="/terms-and-condition">
+                <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
+                  Terms of Service
+                </div>
+              </Link>
+
+              <Link href="/privacy-policy">
+                <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
+                  Privacy Policy
+                </div>
+              </Link>
+
               <div className="footer-link-font text-white cursor-pointer text-[19px] font-normal urbanist">
                 FAQs
               </div>

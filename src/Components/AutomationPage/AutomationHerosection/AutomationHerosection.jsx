@@ -4,6 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
 import AutomationHerosectionImage from "../../../../public/Images/automation-herosection.png";
+import Link from "next/link";
 const AutomationHerosection = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
@@ -84,33 +85,38 @@ const AutomationHerosection = () => {
 
               <div
                 data-aos="zoom-in"
-                className="BookACall  herosection-Schedule-button cursor-pointer w-[198px] urbanist reponsive-button h-[48px] px-5 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button"
+                className="BookACall  flex-row  herosection-Schedule-button cursor-pointer w-[198px] urbanist reponsive-button h-[48px] px-5 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button"
               >
-                <div className="BookACall   text-white text-[16px] font-light urbanist  Schedule-button">
-                  Schedule a Call
-                </div>
-                <div className="consultUs-svg w-6 h-6 p-3 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
-                  <div className="ChevronRight w-4 h-4 relative">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                      fill="none"
-                      className=""
-                    >
-                      <g id="chevron-right">
-                        <path
-                          id="Vector (Stroke)"
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M5.52876 3.52861C5.78911 3.26826 6.21122 3.26826 6.47157 3.52861L10.4716 7.52861C10.7319 7.78896 10.7319 8.21107 10.4716 8.47141L6.47157 12.4714C6.21122 12.7318 5.78911 12.7318 5.52876 12.4714C5.26841 12.2111 5.26841 11.789 5.52876 11.5286L9.05735 8.00001L5.52876 4.47141C5.26841 4.21107 5.26841 3.78896 5.52876 3.52861Z"
-                          fill="white"
-                        />
-                      </g>
-                    </svg>
+                <Link
+                  href="/contact-us"
+                  className="flex gap-4 w-full justify-center"
+                >
+                  <div className="BookACall   text-white text-[16px] font-light urbanist  Schedule-button">
+                    Schedule a Call
                   </div>
-                </div>
+                  <div className="consultUs-svg w-6 h-6 p-3 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+                    <div className="ChevronRight w-4 h-4 relative">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        className=""
+                      >
+                        <g id="chevron-right">
+                          <path
+                            id="Vector (Stroke)"
+                            fillRule="evenodd"
+                            clipRule="evenodd"
+                            d="M5.52876 3.52861C5.78911 3.26826 6.21122 3.26826 6.47157 3.52861L10.4716 7.52861C10.7319 7.78896 10.7319 8.21107 10.4716 8.47141L6.47157 12.4714C6.21122 12.7318 5.78911 12.7318 5.52876 12.4714C5.26841 12.2111 5.26841 11.789 5.52876 11.5286L9.05735 8.00001L5.52876 4.47141C5.26841 4.21107 5.26841 3.78896 5.52876 3.52861Z"
+                            fill="white"
+                          />
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

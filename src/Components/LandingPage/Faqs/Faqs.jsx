@@ -18,30 +18,32 @@ const questionsData = [
   },
   {
     id: 3,
-    questions: "How can I make a payment for Vadavision's software services?",
+    questions:
+      "How does Vadavision create website content without knowing our Business plan?",
     answer:
-      "Vadavision accepts payments through various methods, including credit/debit cards, PayPal, bank transfers, and other secure online payment gateways.",
+      "Vadavision offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing. ",
   },
 
   {
     id: 4,
-    questions: "What is Post-Service Support?",
+    questions:
+      "How does Vadavision ensure effective communication with clients?",
     answer:
-      "Post-Service Support refers to the assistance and solutions provided after the completion of a project. It includes maintenance, troubleshooting, updates, and technical assistance to ensure your software continues to function optimally.",
+      "We use various communication channels including emails, video conferences, and project management tools to keep clients updated and ensure smooth communication.  ",
   },
   {
     id: 5,
     questions:
-      "Can I get a refund if I am dissatisfied with the software services provided by Vadavision?",
+      "Does Vadavision provide services for both web and mobile app development?",
     answer:
-      "Vadavision offers a refund policy. Please refer to our Terms of Service or contact customer support for detailed information about our refund process and eligibility criteria.",
+      "Vadavision offers comprehensive services for both web and mobile app development. We create responsive websites and cross-platform mobile applications to cater to diverse user needs.  ",
   },
 
   {
     id: 6,
-    questions: "Are there any additional fees or charges for making payments?",
+    questions: "What is Post-Service Support?",
     answer:
-      " Vadavision does not charge additional fees for standard payment methods. However, please check with your bank or payment provider for any transaction fees they might apply.",
+      "Post-Service Support refers to the assistance and solutions provided after the completion of a project. It includes maintenance, troubleshooting, updates, and technical assistance to ensure your software continues to function optimally.",
   },
 ];
 

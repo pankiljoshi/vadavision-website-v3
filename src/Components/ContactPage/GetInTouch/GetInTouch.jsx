@@ -1,11 +1,14 @@
 "use client";
 import Image from "next/image";
-import React, { useEffect } from "react";
-import GoogleMap from "../../../../public/Images/googlemap.png";
+import React, { useEffect, useState } from "react";
+import Contact from "../../../../public/Images/contact.png";
 import Link from "next/link";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 const GetInTouch = () => {
+  const [number, setNumber] = useState("in");
   useEffect(() => {
     if (typeof document !== "undefined") {
       Aos.init({
@@ -133,62 +136,42 @@ const GetInTouch = () => {
                 <h1 className="text-[#CACACA] font-light urbanist">
                   Phone Number
                 </h1>
-                <div className="flex gap-6">
+                <div className="flex w-full gap-6">
                   <div
-                    className="mt-4 w-[20%] py-3 bg-[#8E8E8E] bg-opacity-5 "
+                    className="mt-4  w-[100%] bg-[#8E8E8E] bg-opacity-5   "
                     style={{ border: "1px solid rgba(255, 255, 255, 0.16" }}
                   >
-                    <div className="text-white pl-2 flex gap-2 urbanist ">
-                      +91
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                      >
-                        <g id="Icon">
-                          <path
-                            id="Vector"
-                            d="M6 9L12 15L18 9"
-                            stroke="#DD4243"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </g>
-                      </svg>
-                    </div>
-                  </div>
-
-                  <div
-                    className="mt-4 phone-number"
-                    style={{ border: "1px solid rgba(255, 255, 255, 0.16" }}
-                  >
-                    <div className="w-[30%] min-w-[230px] phone-number">
-                      <input
-                        type="text"
+                    <div className="w-full  bg-[#8E8E8E] bg-opacity-5 ">
+                      <PhoneInput
+                        className=" bg-[#8E8E8E] bg-opacity-5  "
+                        style={{ width: "100%" }}
+                        country={number}
                         placeholder="Your phone number"
-                        className="border-none outline-none bg-[#8E8E8E] bg-opacity-5  urbanist font-light  w-full py-3 text-white placeholder-[#8E8E8E] text-[16px] pl-4"
+                        onChange={(value) => {
+                          setNumber(value);
+                        }}
+                        countryCodeEditable={false}
                       />
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="w-[50%] enquiry ">
+              <div className="w-[50%] enquiry  ">
                 <h1 className="text-[#CACACA] font-light urbanist">
                   Enquiry Type
                 </h1>
                 <div
-                  className="mt-4 flex bg-[#8E8E8E] bg-opacity-5 "
+                  className="mt-4  w-[100%]  bg-[#8E8E8E] bg-opacity-5 justify-between  items-center "
                   style={{ border: "1px solid rgba(255, 255, 255, 0.16" }}
                 >
-                  <input
-                    type="text"
-                    placeholder="Select Enquiry Type"
-                    className="border-none outline-none bg-[#8E8E8E] bg-opacity-5 urbanist font-light  w-full py-3 text-white placeholder-[#8E8E8E] text-[16px] pl-4"
-                  />
+                  <div className="flex justify-between  bg-[#8E8E8E] bg-opacity-5 w-[100%] items-center">
+                    <input
+                      type="text"
+                      placeholder="Select Enquiry Type"
+                      className="border-none outline-none bg-[#8E8E8E] bg-opacity-5 pl-4 urbanist font-light  w-full py-3 text-white placeholder-[#8E8E8E] text-[16px] "
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -216,11 +199,15 @@ const GetInTouch = () => {
             </div>
           </div>
           <div className="w-[40%] min-w-[380px] image-width flex justify-center items-center">
-            <div className="w-[550px] h-[550px] image-width">
+            <div
+              className="w-[550px] h-[550px] image-width"
+              style={{ mixBlendMode: "luminosity" }}
+            >
               <Image
-                src={GoogleMap}
+                src={Contact}
                 alt="Google Map"
-                className="w-full h-full"
+                className="w-full h-full bg-gray-50"
+                style={{ mixBlendMode: "luminosity" }}
               />
             </div>
           </div>

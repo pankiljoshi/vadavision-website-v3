@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 import Aos from "aos";
 import React, { useEffect, useRef } from "react";
@@ -216,14 +217,13 @@ const RecentProject = () => {
                         Standard Insights
                       </div>
                       <div className=" text-stone-300 text-xl font-normal mt-2 italic urbanist">
-                        A booking app for social events.
+                        Simplify surveys and reports with this app!
                       </div>
                     </div>
                     <div className=" text-[#8E8E8E] text-xl font-light flex-wrap flex urbanist responsive-paragraph">
-                      Our experienced developers crafted a user-friendly online
-                      <br />
-                      platform integrating advanced feedback tools like Node.js
-                      and Next.js.
+                      Surveys gather feedback, enhancing satisfaction for
+                      customers <br /> and employees. Our team excels in
+                      user-friendly apps.
                     </div>
                   </div>
                   <div className="reponsive-portfolio-info flex-col justify-start items-start gap-4 flex">
@@ -288,10 +288,9 @@ const RecentProject = () => {
                       </div>
                     </div>
                     <div className=" text-[#8E8E8E] text-xl font-light flex-wrap flex urbanist responsive-paragraph">
-                      Our experienced developers crafted a user-friendly online
-                      <br />
-                      platform integrating advanced feedback tools like Node.js
-                      and Next.js.
+                      Explore projects like 'On The Go Cleaners.' Effortlessly
+                      combining intuitive features, secure payment methods, and
+                      live order tracking.
                     </div>
                   </div>
                   <div className="reponsive-portfolio-info flex-col justify-start items-start gap-4 flex">

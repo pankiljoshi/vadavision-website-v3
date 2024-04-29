@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -24,9 +25,11 @@ const Footer = () => {
               +91 62 8000 7001
             </div>
           </a>
-          <div className="TermsOfService cursor-pointer text-[#8E8E8E] text-[16px] font-normal urbanist">
-            Cookies
-          </div>
+          <Link href="/cookies">
+            <div className="TermsOfService cursor-pointer text-[#8E8E8E] text-[16px] font-normal urbanist">
+              Cookies
+            </div>
+          </Link>
         </div>
       </div>
     </>

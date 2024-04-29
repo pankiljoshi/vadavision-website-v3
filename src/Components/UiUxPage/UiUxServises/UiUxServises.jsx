@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 
 import Aos from "aos";
@@ -6,6 +7,10 @@ import "aos/dist/aos.css";
 import Link from "next/link";
 import Image from "next/image";
 import UiUxServise from "../../../../public/Images/uiux-servises.png";
+import UiUxDesign from "../../../../public/Images/design-uiux.png";
+import VisualDesign from "../../../../public/Images/visualdesign.png";
+import BrandIdentity from "../../../../public/Images/brandidentity.png";
+
 const UiUxServises = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
@@ -617,14 +622,15 @@ const UiUxServises = () => {
               <div className=" flex-col w-[800px] responsive-content-aiservises justify-start items-start gap-8 inline-flex">
                 <div className="flex-col w-[580px]  servises-paragraph justify-start items-start gap-6 flex">
                   <div className="text-white text-[32px] ai-bot-servise-heading  font-normal urbanist">
-                    Don’t miss the best UX Consulting with us{" "}
+                    Get the engaging UI/ UX design{" "}
                   </div>
                   <div className=" text-neutral-400 ai-servise-paragraph  leading-snug text-base font-light urbanist">
-                    Our goal is to enhance the overall user experience of your
-                    digital platform. Through a meticulous process of research,
-                    design, testing, and delivery, we aim to understand your
-                    target audiences needs, behaviors, and pain points to craft
-                    intuitive and user-centric solutions.
+                    We create an engaging UI/UX design that captivates users and
+                    enhances their experience. By understanding your audience
+                    and simplifying navigation, you ensure intuitive usability.
+                    Implementing responsive design and visual hierarchy ensures
+                    consistency across devices and prioritizes content
+                    effectively.
                   </div>
                 </div>
                 <div className="flex-col justify-start items-start gap-6 flex">
@@ -669,7 +675,7 @@ const UiUxServises = () => {
                           </svg>
                         </div>
                         <div className="w-[286px] text-white ai-servise-data text-base font-medium urbanist">
-                          Customer Satisfaction{" "}
+                          Better Customer Engagement{" "}
                         </div>
                       </div>
                       <div className="justify-start items-center gap-4 flex">
@@ -702,7 +708,7 @@ const UiUxServises = () => {
                           </svg>
                         </div>
                         <div className="text-white text-base ai-servise-data font-medium urbanist">
-                          Increased User Engagement{" "}
+                          Happy User Flow{" "}
                         </div>
                       </div>
                     </div>
@@ -773,7 +779,7 @@ const UiUxServises = () => {
                           </svg>
                         </div>
                         <div className="text-white text-base  ai-servise-data font-medium urbanist">
-                          Competitive Advantage{" "}
+                          Better User Retention{" "}
                         </div>
                       </div>
                     </div>
@@ -811,7 +817,7 @@ const UiUxServises = () => {
                           </svg>
                         </div>
                         <div className="w-[286px] text-white ai-servise-data text-base font-medium urbanist">
-                          Brand Loyalty{" "}
+                          Customer Loyalty{" "}
                         </div>
                       </div>
                       <div className="justify-start items-center gap-4 flex">
@@ -881,7 +887,7 @@ const UiUxServises = () => {
             </div>
 
             <div className="flex-col justify-center items-center gap-10 inline-flex">
-              <Image src={UiUxServise} />
+              <Image src={UiUxDesign} />
             </div>
           </div>
         )}
@@ -895,14 +901,16 @@ const UiUxServises = () => {
               <div className=" flex-col w-[800px] responsive-content-aiservises justify-start items-start gap-8 inline-flex">
                 <div className="flex-col w-[580px]  servises-paragraph justify-start items-start gap-6 flex">
                   <div className="text-white text-[32px] ai-bot-servise-heading  font-normal urbanist">
-                    Don’t miss the best UX Consulting with us{" "}
+                    Best visual design for your business needs{" "}
                   </div>
                   <div className=" text-neutral-400 ai-servise-paragraph  leading-snug text-base font-light urbanist">
-                    Our goal is to enhance the overall user experience of your
-                    digital platform. Through a meticulous process of research,
-                    design, testing, and delivery, we aim to understand your
-                    target audiences needs, behaviors, and pain points to craft
-                    intuitive and user-centric solutions.
+                    Elevate your business with the best visual design tailored
+                    to meet your specific needs. Our expertly crafted designs
+                    blend creativity with functionality, ensuring a visually
+                    stunning and impactful representation of your brand. From
+                    captivating graphics to sleek interfaces, we tailor each
+                    element to resonate with your target audience and elevate
+                    your brand identity.
                   </div>
                 </div>
                 <div className="flex-col justify-start items-start gap-6 flex">
@@ -947,7 +955,7 @@ const UiUxServises = () => {
                           </svg>
                         </div>
                         <div className="w-[286px] text-white ai-servise-data text-base font-medium urbanist">
-                          Customer Satisfaction{" "}
+                          Better First Impression{" "}
                         </div>
                       </div>
                       <div className="justify-start items-center gap-4 flex">
@@ -980,7 +988,7 @@ const UiUxServises = () => {
                           </svg>
                         </div>
                         <div className="text-white text-base ai-servise-data font-medium urbanist">
-                          Increased User Engagement{" "}
+                          Enhances the Look & Feel{" "}
                         </div>
                       </div>
                     </div>
@@ -1122,7 +1130,7 @@ const UiUxServises = () => {
                           </svg>
                         </div>
                         <div className="text-white text-base ai-servise-data font-medium urbanist">
-                          Cost Savings{" "}
+                          Brand Recognition{" "}
                         </div>
                       </div>
                     </div>
@@ -1159,7 +1167,7 @@ const UiUxServises = () => {
             </div>
 
             <div className="flex-col justify-center items-center gap-10 inline-flex">
-              <Image src={UiUxServise} />
+              <Image src={VisualDesign} />
             </div>
           </div>
         )}
@@ -1172,14 +1180,14 @@ const UiUxServises = () => {
               <div className=" flex-col w-[800px] responsive-content-aiservises justify-start items-start gap-8 inline-flex">
                 <div className="flex-col w-[580px]  servises-paragraph justify-start items-start gap-6 flex">
                   <div className="text-white text-[32px] ai-bot-servise-heading  font-normal urbanist">
-                    Don’t miss the best UX Consulting with us{" "}
+                    Create a stronger brand identity with us{" "}
                   </div>
                   <div className=" text-neutral-400 ai-servise-paragraph  leading-snug text-base font-light urbanist">
-                    Our goal is to enhance the overall user experience of your
-                    digital platform. Through a meticulous process of research,
-                    design, testing, and delivery, we aim to understand your
-                    target audiences needs, behaviors, and pain points to craft
-                    intuitive and user-centric solutions.
+                    Empower your brand with a stronger identity alongside us. We
+                    specialize in crafting compelling visuals and strategic
+                    messaging that resonate with your audience. Through
+                    thoughtful design and cohesive branding elements, we help
+                    you stand out in today's competitive landscape.
                   </div>
                 </div>
                 <div className="flex-col justify-start items-start gap-6 flex">
@@ -1224,7 +1232,7 @@ const UiUxServises = () => {
                           </svg>
                         </div>
                         <div className="w-[286px] text-white ai-servise-data text-base font-medium urbanist">
-                          Customer Satisfaction{" "}
+                          Customer Trust & Credibility{" "}
                         </div>
                       </div>
                       <div className="justify-start items-center gap-4 flex">
@@ -1257,7 +1265,7 @@ const UiUxServises = () => {
                           </svg>
                         </div>
                         <div className="text-white text-base ai-servise-data font-medium urbanist">
-                          Increased User Engagement{" "}
+                          Consistency & Cohesion{" "}
                         </div>
                       </div>
                     </div>
@@ -1295,7 +1303,7 @@ const UiUxServises = () => {
                           </svg>
                         </div>
                         <div className="w-[286px] text-white text-base ai-servise-data font-medium urbanist">
-                          Increased Conversion Rates{" "}
+                          Emotional Connection{" "}
                         </div>
                       </div>
                       <div className="justify-start items-center gap-4 flex">
@@ -1366,7 +1374,7 @@ const UiUxServises = () => {
                           </svg>
                         </div>
                         <div className="w-[286px] text-white ai-servise-data text-base font-medium urbanist">
-                          Brand Loyalty{" "}
+                          Recognition & Recall{" "}
                         </div>
                       </div>
                       <div className="justify-start items-center gap-4 flex">
@@ -1436,7 +1444,7 @@ const UiUxServises = () => {
             </div>
 
             <div className="flex-col justify-center items-center gap-10 inline-flex">
-              <Image src={UiUxServise} />
+              <Image src={BrandIdentity} />
             </div>
           </div>
         )}

@@ -1,0 +1,9 @@
+{
+  "m.homeserver": {
+    "base_url": "https://chat-home.vadavision.com",
+    "io.element.e2ee": {
+      "force_disable": true,
+      "default": false
+    }
+  }
+}

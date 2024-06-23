@@ -17,7 +17,7 @@ const HeroSection = () => {
   }, []);
   return (
     <>
-      <div className=" w-full pt-12 pb-14 flex  mobile-view-padding  scrollbar flex-row gap-24 px-20 bg-gradient-to-br padding-herosection herosection-responsive  padding-industies bg-cover padding-full-website  from-black to-zinc-950 herosection-bg  bg-no-repeat ">
+      <div className="w-full pt-12 pb-14 flex  mobile-view-padding  scrollbar flex-row gap-24 px-20 bg-gradient-to-br padding-herosection herosection-responsive  padding-industies bg-cover padding-full-website  from-black to-zinc-950 herosection-bg  bg-no-repeat ">
         <div
           data-aos="fade-right"
           className="LeftSide w-[55%]  responsive-left-side min-w-[600px] mt-16 flex-col justify-start items-start gap-2 inline-flex"

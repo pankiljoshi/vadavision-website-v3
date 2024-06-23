@@ -46,7 +46,7 @@ body {
 }
 
 .background-gradient {
-  background-image: url("public/Images/webp/cardGradient.webp"), url(../../public/Images/cardGradient.png);
+  background-image: url("../../public/Images/webp/cardGradient.webp"), url(../../public/Images/cardGradient.png);
   background-size: cover;
 }
 
@@ -115,7 +115,7 @@ body {
   }
 }
 .testimonial-gradient-cards {
-  background-image: url("public/Images/webp/testimonialBg.webp"), url(../../public/Images/testimonialBg.png);
+  background-image: url("../../public/Images/webp/testimonialBg.webp"), url(../../public/Images/testimonialBg.png);
   background-size: cover;
   background-position: center;
 }
@@ -127,12 +127,12 @@ body {
 }
 
 .herosection-bg {
-  background-image: url("public/Images/webp/HERO.webp"), url(../../public/Images/HERO.png);
+  background-image: url("../../public/Images/webp/HERO.webp"), url(../../public/Images/HERO.png);
   background-position: right;
 }
 @media screen and (max-width: 520px) {
   .herosection-bg {
-    background-image: url("public/Images/webp/herosection-mobile-bg.webp"), url(../../public/Images/herosection-mobile-bg.png);
+    background-image: url("../../public/Images/webp/herosection-mobile-bg.webp"), url(../../public/Images/herosection-mobile-bg.png);
     background-size: cover;
     background-position: right;
   }
@@ -152,33 +152,33 @@ body {
 }
 
 .Content {
-  background-image: url("public/Images/webp/ABOUT.webp"), url(../../public/Images/ABOUT.png);
+  background-image: url("../../public/Images/webp/ABOUT.webp"), url(../../public/Images/ABOUT.png);
   background-size: cover;
 }
 
 .industry-bg {
-  background-image: url("public/Images/webp/INDUSTRIES.webp"), url(../../public/Images/INDUSTRIES.png);
+  background-image: url("../../public/Images/webp/INDUSTRIES.webp"), url(../../public/Images/INDUSTRIES.png);
 }
 .RecentProjects {
-  background-image: url("public/Images/webp/RECENT-PROJECTS.webp"), url(../../public/Images/RECENT-PROJECTS.png);
+  background-image: url("../../public/Images/webp/RECENT-PROJECTS.webp"), url(../../public/Images/RECENT-PROJECTS.png);
 }
 .Unique {
-  background-image: url("public/Images/webp/UNIQUE.webp"), url(../../public/Images/UNIQUE.png);
+  background-image: url("../../public/Images/webp/UNIQUE.webp"), url(../../public/Images/UNIQUE.png);
 }
 .testimonial-bg {
-  background-image: url("public/Images/webp/testimonial-right-splash.webp"), url(../../public/Images/testimonial-right-splash.png);
+  background-image: url("../../public/Images/webp/testimonial-right-splash.webp"), url(../../public/Images/testimonial-right-splash.png);
 }
 
 .testimonial-background {
-  background-image: url("public/Images/webp/TESTIMONIALS.webp"), url(../../public/Images/TESTIMONIALS.png);
+  background-image: url("../../public/Images/webp/TESTIMONIALS.webp"), url(../../public/Images/TESTIMONIALS.png);
   background-position: right;
 }
 .unique-gradient-background {
   background-position: bottom;
-  background-image: url("public/Images/webp/unique-background-gradient.webp"), url(../../public/Images/unique-background-gradient.png);
+  background-image: url("../../public/Images/webp/unique-background-gradient.webp"), url(../../public/Images/unique-background-gradient.png);
 }
 .gradient-background-img {
-  background-image: url("public/Images/webp/testimonial-right-splash.webp"), url(../../public/Images/testimonial-right-splash.png);
+  background-image: url("../../public/Images/webp/testimonial-right-splash.webp"), url(../../public/Images/testimonial-right-splash.png);
 }
 /* .bg-gradient-color{
   background:  linear-gradient(220.07deg, #161616, 20.3%, #1D1D1D 106.51%);
@@ -214,7 +214,7 @@ body {
 }
 
 .consultus-bg {
-  background-image: url("public/Images/webp/Card.webp"), url(../../public/Images/Card.png);
+  background-image: url("../../public/Images/webp/Card.webp"), url(../../public/Images/Card.png);
   background-size: cover;
   padding-top: 60px;
   padding-bottom: 70px;
@@ -222,7 +222,7 @@ body {
 }
 @media screen and (max-width: 520px) {
   .consultus-bg {
-    background-image: url("public/Images/webp/consultUs.webp"), url(../../public/Images/consultUs.png);
+    background-image: url("../../public/Images/webp/consultUs.webp"), url(../../public/Images/consultUs.png);
   }
 }
 .hover-bg-gradient {
@@ -1866,7 +1866,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .team-bg {
-  background-image: url("public/Images/webp/ambitious-team-bg.webp"), url(../../public/Images/ambitious-team-bg.png);
+  background-image: url("../../public/Images/webp/ambitious-team-bg.webp"), url(../../public/Images/ambitious-team-bg.png);
   background-size: contain;
 }
 .perks-heading-gradient {
@@ -2116,14 +2116,14 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .our-story-bg {
-  background-image: url("public/Images/webp/ourstory-bg.webp"), url(../../public/Images/ourstory-bg.png);
+  background-image: url("../../public/Images/webp/ourstory-bg.webp"), url(../../public/Images/ourstory-bg.png);
   background-size: cover;
 }
 .image-bg {
-  background-image: url("public/Images/webp/splash-herosection-bg.webp"), url(../../public/Images/splash-herosection-bg.png);
+  background-image: url("../../public/Images/webp/splash-herosection-bg.webp"), url(../../public/Images/splash-herosection-bg.png);
 }
 .about-us-bg {
-  background-image: url("public/Images/webp/about-us-herosection-bg.webp"), url(../../public/Images/about-us-herosection-bg.png);
+  background-image: url("../../public/Images/webp/about-us-herosection-bg.webp"), url(../../public/Images/about-us-herosection-bg.png);
   background-size: cover;
 }
 .work-culture-gradient {
@@ -2164,7 +2164,7 @@ body {
 }
 
 .our-team-bg {
-  background-image: url("public/Images/webp/team-bg.webp"), url(../../public/Images/team-bg.png);
+  background-image: url("../../public/Images/webp/team-bg.webp"), url(../../public/Images/team-bg.png);
   background-size: cover;
 }
 .our-team-gradient {
@@ -2193,7 +2193,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .getintouch-bg {
-  background-image: url("public/Images/webp/getintouch-Bg.webp"), url(../../public/Images/getintouch-Bg.png);
+  background-image: url("../../public/Images/webp/getintouch-Bg.webp"), url(../../public/Images/getintouch-Bg.png);
   background-size: cover;
 }
 @media screen and (max-width: 460px) {
@@ -3174,7 +3174,7 @@ body {
 }
 
 .background-herosection {
-  background-image: url("public/Images/webp/heroBg.webp"), url(../../public/Images/heroBg.png);
+  background-image: url("../../public/Images/webp/heroBg.webp"), url(../../public/Images/heroBg.png);
   background-size: cover;
 }
 .benefit-heading-gradient {
@@ -3190,7 +3190,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .bg-ai-bot-servises {
-  background-image: url("public/Images/webp/ai-servises-bg.webp"), url(../../public/Images/ai-servises-bg.png);
+  background-image: url("../../public/Images/webp/ai-servises-bg.webp"), url(../../public/Images/ai-servises-bg.png);
   background-size: cover;
 }
 
@@ -3201,12 +3201,12 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .data-protection-bg {
-  background-image: url("public/Images/webp/dataProtectionBg.webp"), url(../../public/Images/dataProtectionBg.png);
+  background-image: url("../../public/Images/webp/dataProtectionBg.webp"), url(../../public/Images/dataProtectionBg.png);
   background-size: cover;
 }
 @media screen and (max-width: 1030px) {
   .data-protection-bg {
-    background-image: url("public/Images/webp/dataProtectionBg.webp"), url(../../public/Images/dataProtectionBg.png);
+    background-image: url("../../public/Images/webp/dataProtectionBg.webp"), url(../../public/Images/dataProtectionBg.png);
     background-position: center;
   }
 }
@@ -3412,14 +3412,14 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .automation-domain-bg {
-  background-image: url("public/Images/webp/automation-domain-bg.webp"), url(../../public/Images/automation-domain-bg.png);
+  background-image: url("../../public/Images/webp/automation-domain-bg.webp"), url(../../public/Images/automation-domain-bg.png);
   background-size: cover;
 }
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
 .how-is-work-bg {
-  background-image: url("public/Images/webp/howitwork-bg.webp"), url(../../public/Images/howitwork-bg.png);
+  background-image: url("../../public/Images/webp/howitwork-bg.webp"), url(../../public/Images/howitwork-bg.png);
   background-size: cover;
 }
 .gradient-heading-automation-domain {
@@ -4164,19 +4164,19 @@ body {
 }
 @media screen and (max-width: 620px) {
   .mobile-view-bg {
-    background-image: url("public/Images/webp/herosection-ai-bot-mobile-view.webp"), url(../../public/Images/herosection-ai-bot-mobile-view.png);
+    background-image: url("../../public/Images/webp/herosection-ai-bot-mobile-view.webp"), url(../../public/Images/herosection-ai-bot-mobile-view.png);
   }
 }
 @media screen and (max-width: 1050px) {
   .mobile-view-bg-ui-ux {
-    background-image: url("public/Images/webp/ui-ux-mobile-view-herosection.webp"), url(../../public/Images/ui-ux-mobile-view-herosection.png);
+    background-image: url("../../public/Images/webp/ui-ux-mobile-view-herosection.webp"), url(../../public/Images/ui-ux-mobile-view-herosection.png);
     background-size: cover;
     background-position: top;
   }
 }
 @media screen and (max-width: 680px) {
   .data-protection-mobile-bg {
-    background-image: url("public/Images/webp/data-protection-mobile-bg.webp"), url(../../public/Images/data-protection-mobile-bg.png);
+    background-image: url("../../public/Images/webp/data-protection-mobile-bg.webp"), url(../../public/Images/data-protection-mobile-bg.png);
     background-size: cover;
   }
 }
@@ -4185,13 +4185,13 @@ body {
 }
 @media screen and (max-width: 800px) {
   .mobile-view-gradient-bg {
-    background-image: url("public/Images/webp/unique-mobile-view-bg.webp"), url(../../public/Images/unique-mobile-view-bg.png);
+    background-image: url("../../public/Images/webp/unique-mobile-view-bg.webp"), url(../../public/Images/unique-mobile-view-bg.png);
     background-size: cover;
   }
 }
 @media screen and (max-width: 520px) {
   .mobile-view-gradient-bg {
-    background-image: url("public/Images/webp/unique-mobile-view-bg.webp"), url(../../public/Images/unique-mobile-view-bg.png);
+    background-image: url("../../public/Images/webp/unique-mobile-view-bg.webp"), url(../../public/Images/unique-mobile-view-bg.png);
     background-size: cover;
   }
 }
@@ -5136,7 +5136,7 @@ body {
 }
 
 .automation-bg {
-  background-image: url("public/Images/webp/automation-spash.webp"), url(../../public/Images/automation-spash.png);
+  background-image: url("../../public/Images/webp/automation-spash.webp"), url(../../public/Images/automation-spash.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -5149,7 +5149,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .massive-integration-bg {
-  background-image: url("public/Images/webp/massive-integration-bg.webp"), url(../../public/Images/massive-integration-bg.png);
+  background-image: url("../../public/Images/webp/massive-integration-bg.webp"), url(../../public/Images/massive-integration-bg.png);
   background-size: cover;
   background-position: center;
 }
@@ -5166,17 +5166,17 @@ body {
 }
 
 .BenefitResourceAugmentation-bg {
-  background-image: url("public/Images/webp/benefit-resource.webp"), url(../../public/Images/benefit-resource.png);
+  background-image: url("../../public/Images/webp/benefit-resource.webp"), url(../../public/Images/benefit-resource.png);
   background-size: cover;
 }
 
 .resource-herosection-bg {
-  background-image: url("public/Images/webp/resource-herosection-bg.webp"), url(../../public/Images/resource-herosection-bg.png);
+  background-image: url("../../public/Images/webp/resource-herosection-bg.webp"), url(../../public/Images/resource-herosection-bg.png);
   background-size: cover;
 }
 
 .error-bg {
-  background-image: url("public/Images/webp/error-bg.webp"), url(../../public/Images/error-bg.png);
+  background-image: url("../../public/Images/webp/error-bg.webp"), url(../../public/Images/error-bg.png);
   background-size: contain;
 }
 
@@ -5501,7 +5501,7 @@ body {
   }
 }
 .splash-image-bg {
-  background-image: url("public/Images/webp/ambitious-team-splash.webp"), url(../../public/Images/ambitious-team-splash.png);
+  background-image: url("../../public/Images/webp/ambitious-team-splash.webp"), url(../../public/Images/ambitious-team-splash.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -5556,7 +5556,7 @@ body {
 
 @media screen and (max-width: 1050px) {
   .massive-integration-mobile-bg {
-    background-image: url("public/Images/webp/massive-integration-mobile-bg.webp"), url(../../public/Images/massive-integration-mobile-bg.png);
+    background-image: url("../../public/Images/webp/massive-integration-mobile-bg.webp"), url(../../public/Images/massive-integration-mobile-bg.png);
     background-size: cover;
   }
 }

@@ -126,6 +126,7 @@ const AutomationHerosection = () => {
             src={AutomationHerosectionImage}
             data-aos="zoom-in"
             className="automation-image"
+            priority
           />
         </div>
       </div>

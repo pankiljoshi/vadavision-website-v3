@@ -1,5 +1,5 @@
-import ResourceAugmentation from "@/Components/ResourceAugmentation/ResourceAugmentation";
 import React from "react";
+import ResourceAugmentation from "../../Components/ResourceAugmentation/ResourceAugmentation";
 export const metadata = {
   title: "Resource-Augmentation",
   description:

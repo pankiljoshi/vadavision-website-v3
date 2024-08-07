@@ -1,6 +1,6 @@
-import UiUx from "@/Components/UiUxPage/UiUx";
 import Head from "next/head";
 import React from "react";
+import UiUx from "../../Components/UiUxPage/UiUx";
 export const metadata = {
   title: " Vadavision: Where Innovation Meets Intuitive Design",
   description:

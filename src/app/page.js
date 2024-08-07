@@ -1,6 +1,5 @@
-import LandingPage from "@/Components/LandingPage/LandingPage";
 import React from "react";
-import StructuredData from "@/Components/StructuredData";
+import LandingPage from "../Components/LandingPage/LandingPage";
 export const metadata = {
   title:
     " Vadavision | Transforming Ideas into Reality | AI, Web Automation,Mobile Apps",
@@ -50,7 +49,7 @@ export default function Home() {
   return (
     <>
       <div>
-        <StructuredData data={structuredData} />
+        <structuredData data={structuredData} />
         <LandingPage />
       </div>
     </>

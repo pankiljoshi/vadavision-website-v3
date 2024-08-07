@@ -1,5 +1,5 @@
-import Careers from "@/Components/CareersPage/Careers";
 import React from "react";
+import Careers from "../../Components/CareersPage/Careers";
 export const metadata = {
   title: "Career",
   description:

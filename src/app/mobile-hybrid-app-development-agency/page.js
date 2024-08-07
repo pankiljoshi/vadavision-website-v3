@@ -1,6 +1,6 @@
-import AppDevelopment from "@/Components/AppDevelopmentPage/AppDevelopment";
 import Head from "next/head";
 import React from "react";
+import AppDevelopment from "../../Components/AppDevelopmentPage/AppDevelopment";
 
 export const metadata = {
   title:

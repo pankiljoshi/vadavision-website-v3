@@ -1,5 +1,5 @@
-import Contact from "@/Components/ContactPage/Contact";
 import React from "react";
+import Contact from "../../Components/ContactPage/Contact";
 export const metadata = {
   title: "Contact-Us",
   description:

@@ -1,5 +1,5 @@
-import AiLanding from "@/Components/AiLandingPage/AiLanding";
 import React from "react";
+import AiLanding from "../../Components/AiLandingPage/AiLanding";
 export const metadata = {
   title: "Ai-Services",
   description:

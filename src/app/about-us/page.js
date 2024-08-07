@@ -1,5 +1,5 @@
-import AboutUs from "@/Components/AboutUsPage/AboutUs";
 import React from "react";
+import AboutUs from "../../Components/AboutUsPage/AboutUs";
 
 export const metadata = {
   title: "About-Us",

@@ -146,10 +146,10 @@ const Testimonials = () => {
                         </div>
                       </div>
                       <div className=" px-4 text-center text-neutral-200 text-xl font-normal urbanist">
-                        Collaborating with Pankil and his team on intricate
-                        projects has consistently been rewarding. Their work on
-                        our web app greatly improved its usability and
-                        functionality. We're excited about future partnerships.
+                        Collaborating with Vadavision team on intricate projects
+                        has consistently been rewarding. Their work on our web
+                        app greatly improved its usability and functionality.
+                        We're excited about future partnerships.
                       </div>
                     </div>
                   </div>
@@ -258,7 +258,7 @@ const Testimonials = () => {
                         I'm highly satisfied with VadaVision's detailed,
                         responsive, and flexible work on my site and app,
                         setting them apart. Excited for future projects and
-                        grateful to Pankil, Kaushal, and Shivendra.
+                        grateful to Kaushal, and Shivendra.
                       </div>
                     </div>
                   </div>

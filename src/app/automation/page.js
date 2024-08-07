@@ -1,5 +1,5 @@
-import Automation from "@/Components/AutomationPage/Automation";
 import React from "react";
+import Automation from "../../Components/AutomationPage/Automation";
 export const metadata = {
   title: "Workflow-Automation",
   description:

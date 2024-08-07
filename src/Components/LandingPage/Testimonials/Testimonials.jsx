@@ -126,7 +126,7 @@ const Testimonials = () => {
                           <div className="Ellipse309 w-20 h-20 left-0 top-0 absolute rounded-full shadow-inner">
                             <Image
                               src={Florian}
-                              alt=""
+                              alt="florian"
                               className="rounded-full"
                             />
                           </div>

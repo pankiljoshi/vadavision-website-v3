@@ -1,10 +1,9 @@
-import Cookies from "@/Components/Cookies/Cookies";
 import React from "react";
-
+import Cookies from '../../Components/Cookies/Cookies'
 const page = () => {
   return (
     <div>
-      <Cookies />
+      <Cookies/>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import ErrorPage from "@/Components/ErrorPage/ErrorPage";
+import ErrorPage from '../../Components/ErrorPage/ErrorPage'
 import React from "react";
 
 const page = () => {

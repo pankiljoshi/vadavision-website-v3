@@ -3,7 +3,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import VirtualOffice from "../../../../public/Images/virtual-office.png";
+import VirtualOffice from "../../../../public/Images/webp/virtual-office.webp";
 import Image from "next/image";
 const WorkCulture = () => {
   useEffect(() => {
@@ -33,7 +33,7 @@ const WorkCulture = () => {
           className=" flex-col justify-start items-start mt-20 work-culture-container-margin  inline-flex"
         >
           <div>
-            <Image src={VirtualOffice} />
+            <Image priority src={VirtualOffice} />
           </div>
           <div className=" flex h-24 pt-10 gap-1 ">
             <svg

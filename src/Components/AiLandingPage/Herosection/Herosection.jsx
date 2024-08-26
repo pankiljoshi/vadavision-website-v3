@@ -4,7 +4,7 @@ import Image from "next/image";
 import Aos from "aos";
 import React, { useEffect } from "react";
 import "aos/dist/aos.css";
-import AiBotRobot from "../../../../public/Images/aiBotRobot.png";
+import AiBotRobot from "../../../../public/Images/webp/aiBotRobot.webp";
 import Link from "next/link";
 
 const Herosection = () => {
@@ -118,6 +118,7 @@ const Herosection = () => {
       </div>
       <div className="w-[50%] flex justify-center herosection-bot-image">
         <Image
+          priority
           src={AiBotRobot}
           alt=""
           width={560}

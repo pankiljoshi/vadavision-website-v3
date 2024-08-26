@@ -67,102 +67,111 @@ const Accordion = () => {
 
   return (
     <div className="pb-10 pt-5 mt-14 flex justify-between faq-gap gap-11 load-faq">
-      <div data-aos="fade-up" className="w-[50%] display-full-faq ">
+      <div data-aos="fade-up" className="w-[50%] display-full-faq">
         {questionsData
           .filter((a) => a.id < 4)
           .map((item) => (
-            <>
-              <div key={item.id} className="accordion-item   border-style-faq ">
-                <div
-                  className="accordion-header"
-                  onClick={() => toggleAccordion(item.id)}
-                >
-                  <div className="flex gap-2 justify-between  accordion-title">
-                    <div className="montserrat text-[#CFD3D7] cursor-pointer text-2xl faq-question-size pt-4  pb-6  leading-[24px] line-height-faq font-medium">
-                      {item.questions}{" "}
-                    </div>
-                    <div className="accordion-icon mt-6 cursor-pointer ">
-                      {openAccordion === item.id ? (
-                        <FaMinus size={24} color="#DD4242" />
-                      ) : (
-                        <AiOutlinePlus size={24} color="#DD4242" />
-                      )}
-                    </div>
+            <div key={item.id} className="accordion-item border-style-faq">
+              <div
+                className="accordion-header"
+                onClick={() => toggleAccordion(item.id)}
+              >
+                <div className="flex gap-2 justify-between accordion-title">
+                  <div className="montserrat text-[#CFD3D7] cursor-pointer text-2xl faq-question-size pt-4 pb-6 leading-[24px] line-height-faq font-medium">
+                    {item.questions}
+                  </div>
+                  <div className="accordion-icon mt-6 cursor-pointer">
+                    {openAccordion === item.id ? (
+                      <FaMinus size={24} color="#DD4242" />
+                    ) : (
+                      <AiOutlinePlus size={24} color="#DD4242" />
+                    )}
                   </div>
                 </div>
-                {openAccordion === item.id && (
-                  <div className="text-[15px] font-normal text-[#7e7f7f] pb-6 montserrat  w-[80%] pt-2  accordion-content">
-                    {item.answer}
-                  </div>
-                )}
               </div>
-            </>
+              <div
+                className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                  openAccordion === item.id ? "max-h-[500px]" : "max-h-0"
+                }`}
+              >
+                <div className="text-[15px] font-normal text-[#7e7f7f] pb-6 montserrat w-[80%] pt-2 accordion-content">
+                  {item.answer}
+                </div>
+              </div>
+            </div>
           ))}
       </div>
-      <div data-aos="fade-up" className="w-[50%] hide-faq  ">
+
+      <div data-aos="fade-up" className="w-[50%] hide-faq">
         {questionsData
           .filter((a) => a.id >= 4)
           .map((item) => (
-            <>
-              <div key={item.id} className="accordion-item border-style-faq ">
-                <div
-                  className="accordion-header"
-                  onClick={() => toggleAccordion(item.id)}
-                >
-                  <div className="flex gap-2 justify-between accordion-title">
-                    <div className="montserrat text-[#CFD3D7] cursor-pointer faq-question-size text-2xl pt-4  pb-6  leading-[24px] line-height-faq font-medium">
-                      {item.questions}{" "}
-                    </div>
-                    <div className="accordion-icon mt-6 cursor-pointer ">
-                      {openAccordion === item.id ? (
-                        <FaMinus size={24} color="#DD4242" />
-                      ) : (
-                        <AiOutlinePlus size={24} color="#DD4242" />
-                      )}
-                    </div>
+            <div key={item.id} className="accordion-item border-style-faq">
+              <div
+                className="accordion-header"
+                onClick={() => toggleAccordion(item.id)}
+              >
+                <div className="flex gap-2 justify-between accordion-title">
+                  <div className="montserrat text-[#CFD3D7] cursor-pointer faq-question-size text-2xl pt-4 pb-6 leading-[24px] line-height-faq font-medium">
+                    {item.questions}
+                  </div>
+                  <div className="accordion-icon mt-6 cursor-pointer">
+                    {openAccordion === item.id ? (
+                      <FaMinus size={24} color="#DD4242" />
+                    ) : (
+                      <AiOutlinePlus size={24} color="#DD4242" />
+                    )}
                   </div>
                 </div>
-                {openAccordion === item.id && (
-                  <div className="text-[15px] font-normal text-[#7e7f7f] pb-6 montserrat  w-[80%] pt-2  accordion-content">
-                    {item.answer}
-                  </div>
-                )}
               </div>
-            </>
+              <div
+                className={`overflow-hidden transition-all duration-400 ease-in-out ${
+                  openAccordion === item.id ? "max-h-[500px]" : "max-h-0"
+                }`}
+              >
+                <div className="text-[15px] font-normal text-[#7e7f7f] pb-6 montserrat w-[80%] pt-2 accordion-content">
+                  {item.answer}
+                </div>
+              </div>
+            </div>
           ))}
       </div>
+
       {showHiddenFaq && (
-        <div className="w-[50%] display-full-faq    ">
+        <div className="w-[50%] display-full-faq">
           {questionsData.map((item) => (
-            <>
-              <div key={item.id} className="accordion-item border-style-faq  ">
-                <div
-                  className="accordion-header"
-                  onClick={() => toggleAccordion(item.id)}
-                >
-                  <div className="flex gap-2 justify-between accordion-title">
-                    <div className="montserrat text-[#CFD3D7] cursor-pointer text-2xl pt-4 faq-question-size  pb-6  leading-[24px] font-medium">
-                      {item.questions}{" "}
-                    </div>
-                    <div className="accordion-icon mt-6 cursor-pointer ">
-                      {openAccordion === item.id ? (
-                        <FaMinus size={24} color="#DD4242" />
-                      ) : (
-                        <AiOutlinePlus size={24} color="#DD4242" />
-                      )}
-                    </div>
+            <div key={item.id} className="accordion-item border-style-faq">
+              <div
+                className="accordion-header"
+                onClick={() => toggleAccordion(item.id)}
+              >
+                <div className="flex gap-2 justify-between accordion-title">
+                  <div className="montserrat text-[#CFD3D7] cursor-pointer text-2xl pt-4 faq-question-size pb-6 leading-[24px] font-medium">
+                    {item.questions}
+                  </div>
+                  <div className="accordion-icon mt-6 cursor-pointer">
+                    {openAccordion === item.id ? (
+                      <FaMinus size={24} color="#DD4242" />
+                    ) : (
+                      <AiOutlinePlus size={24} color="#DD4242" />
+                    )}
                   </div>
                 </div>
-                {openAccordion === item.id && (
-                  <div className="text-[15px] font-normal text-[#7e7f7f] pb-6 montserrat  w-[80%] pt-2  accordion-content">
-                    {item.answer}
-                  </div>
-                )}
               </div>
-            </>
+              <div
+                className={`overflow-hidden transition-all duration-400 ease-in-out ${
+                  openAccordion === item.id ? "max-h-[500px]" : "max-h-0"
+                }`}
+              >
+                <div className="text-[15px] font-normal text-[#7e7f7f] pb-6 montserrat w-[80%] pt-2 accordion-content">
+                  {item.answer}
+                </div>
+              </div>
+            </div>
           ))}
         </div>
       )}
+
       <div className="w-full hidden show-button" data-aos="fade-up">
         <button
           onClick={handleLoadMoreClick}

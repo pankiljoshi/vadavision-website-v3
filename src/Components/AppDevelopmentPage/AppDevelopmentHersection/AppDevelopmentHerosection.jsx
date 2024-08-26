@@ -3,8 +3,9 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
-import MobileAPP from "../../../../public/Images/herosection-app-dev.png";
+import MobileAPP from "../../../../public/Images/webp/herosection-app-dev.webp";
 import Link from "next/link";
+
 const AppDevelopmentHerosection = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
@@ -116,7 +117,7 @@ const AppDevelopmentHerosection = () => {
           </div>
         </div>
         <div className="w-[40%] mobile-app-image">
-          <Image src={MobileAPP} data-aos="zoom-in" className="" />
+          <Image priority src={MobileAPP} data-aos="zoom-in" className="" />
         </div>
       </div>
     </>

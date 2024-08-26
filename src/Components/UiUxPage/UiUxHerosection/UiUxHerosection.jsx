@@ -3,8 +3,8 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
-import UiUxHerosectionImage from "../../../../public/Images/uiux-hersection.png";
-import MobileUiUxHerosectionImage from "../../../../public/Images/uiux-mobile-herosection.png";
+import UiUxHerosectionImage from "../../../../public/Images/webp/uiux-hersection.webp";
+import MobileUiUxHerosectionImage from "../../../../public/Images/webp/uiux-mobile-herosection.webp";
 import Link from "next/link";
 
 const UiUxHerosection = () => {
@@ -18,6 +18,7 @@ const UiUxHerosection = () => {
       });
     }
   }, []);
+
   return (
     <>
       <div className="w-full uiux-responsive mobile-view-bg-ui-ux padding-full-left-side   padding-industies flex flex-row ">
@@ -122,13 +123,17 @@ const UiUxHerosection = () => {
           data-aos="zoom-in"
           className="w-[40%] flex h-[620px] justify-end hide-image-uiux"
         >
-          <Image src={UiUxHerosectionImage} />
+          <Image priority src={UiUxHerosectionImage} />
         </div>
         <div
           data-aos="fade-up"
           className="w-[40%] mobile-view-uiux-image  justify-center py-20 hidden show-image-uiux"
         >
-          <Image src={MobileUiUxHerosectionImage} className="mx-auto" />
+          <Image
+            priority
+            src={MobileUiUxHerosectionImage}
+            className="mx-auto"
+          />
         </div>
       </div>
     </>

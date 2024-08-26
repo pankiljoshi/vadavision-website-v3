@@ -3,7 +3,8 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
-import AutomationHerosectionImage from "../../../../public/Images/automation-herosection.png";
+import AutomationHerosectionImage from "../../../../public/Images/webp/automation-herosection.webp";
+
 import Link from "next/link";
 const AutomationHerosection = () => {
   useEffect(() => {
@@ -123,10 +124,10 @@ const AutomationHerosection = () => {
         </div>
         <div className=" w-[40%] automation-herosection-image">
           <Image
+            priority
             src={AutomationHerosectionImage}
             data-aos="zoom-in"
             className="automation-image"
-            priority
           />
         </div>
       </div>

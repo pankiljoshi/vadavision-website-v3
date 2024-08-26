@@ -1066,7 +1066,7 @@ const OurTeam = () => {
               </div>
             </div>
           </div> */}
-          <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
+          {/* <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
             <Image src={Neesha} />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">
               <div className="text-neutral-200 text-2xl font-semibold urbanist">
@@ -1170,7 +1170,7 @@ const OurTeam = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

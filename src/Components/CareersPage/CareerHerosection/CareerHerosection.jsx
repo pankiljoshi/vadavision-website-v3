@@ -1,12 +1,9 @@
-/* eslint-disable no-irregular-whitespace */
-/* eslint-disable react/no-unescaped-entities */
 "use client";
-
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
-import TeamPic from "../../../../public/Images/team-photo.png";
+import TeamPic from "../../../../public/Images/webp/team-photo.webp";
 
 const CareerHerosection = () => {
   useEffect(() => {
@@ -19,9 +16,10 @@ const CareerHerosection = () => {
       });
     }
   }, []);
+
   return (
     <>
-      <div className="w-full   about-us-bg flex padding-full-left-side  carrer-herosection flex-row gap-44 padding-industies py-20 bg-gradient-to-br from-black to-zinc-950">
+      <div className="w-full about-us-bg flex padding-full-left-side justify-between carrer-herosection flex-row gap-20 padding-industies py-20 bg-gradient-to-br from-black to-zinc-950">
         <div
           data-aos="fade-right"
           className="w-[50%] carrer-left-section  justify-start items-start gap-[190px] inline-flex"
@@ -49,9 +47,11 @@ const CareerHerosection = () => {
         </div>
         <div
           data-aos="zoom-in"
-          className=" w-[50%] mobile-min-width min-w-[350px]  about-us-image image-bg py-10"
+          className="flex justify-end w-[50%] mobile-min-width min-w-[350px]  about-us-image image-bg py-10"
         >
-          <Image src={TeamPic} className="mx-auto" />
+          <span>
+            <Image priority src={TeamPic} className="" />
+          </span>
         </div>
       </div>
     </>

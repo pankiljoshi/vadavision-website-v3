@@ -19,8 +19,8 @@ const AboutUsHerosection = () => {
   }, []);
   return (
     <>
-      <div className="w-full px-20 py-20 about-us-bg about-us-padding padding-full-website bg-gradient-to-br from-black to-zinc-950">
-        <div className="  justify-start gap-about-us-herosection about-us-herosection  items-start gap-32 inline-flex">
+      <div className="w-full px-20 pr-0 py-20 about-us-bg about-us-padding bg-gradient-to-br from-black to-zinc-950">
+        <div className="  justify-start gap-about-us-herosection about-us-herosection  items-start inline-flex">
           <div
             data-aos="fade-right"
             className="flex-col w-[50%] min-w-[625px] about-us-leftside justify-start items-start gap-6 inline-flex"
@@ -86,14 +86,16 @@ const AboutUsHerosection = () => {
           </div>
           <div
             data-aos="zoom-in"
-            className=" w-[50%] min-w-[400px]  about-us-image image-bg py-10"
+            className="flex justify-end w-[50%] min-w-[400px]  about-us-image image-bg py-10"
           >
-            <Image
-              src={Office}
-              width={580}
-              height={580}
-              className="about-us-image"
-            />
+            <span>
+              <Image
+                src={Office}
+                width={580}
+                height={580}
+                className="about-us-image"
+              />
+            </span>
           </div>
         </div>
       </div>

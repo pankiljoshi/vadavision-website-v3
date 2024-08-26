@@ -16,7 +16,7 @@ import AutomationLogo from "./NavIcons/AutomationLogo";
 import LinkLogo from "./NavIcons/LinkLogo";
 import ResourceLogo from "./NavIcons/ResourceLogo";
 import UiUxLogo from "./NavIcons/UiUxLogo";
-import Check from "./NavIcons/check";
+import Check from "./NavIcons/Check";
 import { usePathname } from "next/navigation";
 
 const Navbar = () => {

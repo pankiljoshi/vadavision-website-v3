@@ -2,7 +2,7 @@ import React from "react";
 import AboutUs from "../../Components/AboutUsPage/AboutUs";
 
 export const metadata = {
-  title: "About-Us",
+  title: "About Us: Where Expertise Meets Dedication",
   description:
     "Discover the future of mobile innovation with Vadavision. As a leading software company, we specialize in crafting dynamic and efficient mobile apps. From AI integration to seamless UI/UX design, our skilled developers bring your ideas to life with speed and precision.",
   keywords:

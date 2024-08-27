@@ -1,7 +1,7 @@
 import React from "react";
 import Automation from "../../Components/AutomationPage/Automation";
 export const metadata = {
-  title: "Workflow-Automation",
+  title: "Empower Your Business with Advanced Workflow Automation",
   description:
     "Discover the future of mobile innovation with Vadavision. As a leading software company, we specialize in crafting dynamic and efficient mobile apps. From AI integration to seamless UI/UX design, our skilled developers bring your ideas to life with speed and precision.",
   keywords:

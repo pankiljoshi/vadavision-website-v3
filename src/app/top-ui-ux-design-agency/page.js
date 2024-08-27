@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import UiUx from "../../Components/UiUxPage/UiUx";
+
 export const metadata = {
   title: "Where Innovation Meets Intuitive Design",
   description:

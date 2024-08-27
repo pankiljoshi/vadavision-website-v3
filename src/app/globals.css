@@ -5168,8 +5168,7 @@ body {
 }
 
 .automation-bg {
-  background-image: url("../../public/Images/webp/automation-spash.webp"),
-    url(../../public/Images/automation-spash.png);
+  background-image: url("../../public/Images/webp/splash-2.webp");
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;

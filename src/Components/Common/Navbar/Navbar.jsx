@@ -94,7 +94,7 @@ const Navbar = () => {
     <>
       <div className="NavigationWeb w-full px-20 overflow-x-hidden padding-full-website  padding-none bg-white bg-opacity-5 border border-neutral-900 ">
         <div className="responsive-navbar ">
-          <div className="h-[57px] flex justify-between items-center">
+          <div className="h-[60px] flex justify-between items-center">
             <Link href="/">
               <div className="Frame2 cursor-pointer py-2 justify-start items-center gap-2 inline-flex">
                 <span>
@@ -115,7 +115,7 @@ const Navbar = () => {
                   >
                     <span className="font-urbaninst ml-2 font-light">Home</span>
                     <span
-                      className={`absolute top-[-1px] left-0 transform transition-opacity duration-300 ease-in-out
+                      className={`absolute top-[-2px] left-0 transform transition-opacity duration-300 ease-in-out
             ${pathname === "/" || isHomeHovered ? "opacity-100" : "opacity-0"}
           `}
                     >
@@ -133,7 +133,7 @@ const Navbar = () => {
                       About
                     </span>
                     <span
-                      className={`absolute top-[-1px] left-[-4px] transform transition-opacity duration-300 ease-in-out
+                      className={`absolute top-[-2px] left-[-4px] transform transition-opacity duration-300 ease-in-out
             ${
               pathname === "/about-us" || isAboutHovered
                 ? "opacity-100"
@@ -154,7 +154,7 @@ const Navbar = () => {
                   >
                     <div>
                       {isPopupOpen && (
-                        <div className="fixed inset-0 backdrop-blur-[8px] responsive-servise-dropdown mt-14 flex z-10    ">
+                        <div className="fixed inset-0 backdrop-blur-[8px] responsive-servise-dropdown mt-[56px] flex z-10    ">
                           <div className="flex w-full   ">
                             <div
                               className="  w-full px-16 h-[484px] bg-black  "
@@ -461,7 +461,7 @@ const Navbar = () => {
                                 {isAppisible && (
                                   <div className="ai-servises-card w-96 h-96  mt-10 p-4 pb-10 border border-neutral-600 flex-col justify-start items-start  inline-flex">
                                     <span>
-                                      <AppDevIcon />
+                                      <Image priority src={AppServise} alt="" />
                                     </span>
                                     <div className="Frame1171281498 self-stretch flex-col justify-start items-start gap-4 inline-flex">
                                       <div className="DiscussYourAiProjectsWithUs w-96 pt-4 text-neutral-400 text-base font-light urbanist">
@@ -646,7 +646,7 @@ const Navbar = () => {
                       </svg>
                       {isServiceHovered && (
                         <span
-                          className={`absolute top-[-1px] left-[-38px] transform transition-opacity duration-300 ease-in-out ${
+                          className={`absolute top-[-2px] left-[-38px] transform transition-opacity duration-300 ease-in-out ${
                             isServiceHovered ? "opacity-100" : "opacity-0"
                           }`}
                         >

@@ -17,6 +17,7 @@ import LinkLogo from "./NavIcons/LinkLogo";
 import ResourceLogo from "./NavIcons/ResourceLogo";
 import UiUxLogo from "./NavIcons/UiUxLogo";
 import Check from "./NavIcons/Check";
+import AppDevIcon from "./NavIcons/AppDevIcon";
 import { usePathname } from "next/navigation";
 
 const Navbar = () => {
@@ -459,7 +460,9 @@ const Navbar = () => {
                                 )}
                                 {isAppisible && (
                                   <div className="ai-servises-card w-96 h-96  mt-10 p-4 pb-10 border border-neutral-600 flex-col justify-start items-start  inline-flex">
-                                    <Image priority src={AppServise} alt="" />
+                                    <span>
+                                      <AppDevIcon />
+                                    </span>
                                     <div className="Frame1171281498 self-stretch flex-col justify-start items-start gap-4 inline-flex">
                                       <div className="DiscussYourAiProjectsWithUs w-96 pt-4 text-neutral-400 text-base font-light urbanist">
                                         Discuss your UI and UX projects with us{" "}

@@ -17,9 +17,6 @@ const AiLanding = () => {
   return (
     <>
       <div>
-        <Navbar />
-      </div>
-      <div>
         <Herosection />
       </div>
       <div>

@@ -17,9 +17,6 @@ const ResourceAugmentation = () => {
   return (
     <>
       <div>
-        <Navbar />
-      </div>
-      <div>
         <ResourceAugmentationHerosection />
       </div>
       <div>

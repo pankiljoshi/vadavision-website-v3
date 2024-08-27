@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
-import MobileAPP from "../../../../public/Images/webp/herosection-app-dev.webp";
+import MobileAPP from "../../../../public/Images/herosection-app-dev.png";
 import Link from "next/link";
 
 const AppDevelopmentHerosection = () => {

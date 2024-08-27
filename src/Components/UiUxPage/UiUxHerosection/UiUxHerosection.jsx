@@ -3,8 +3,8 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
-import UiUxHerosectionImage from "../../../../public/Images/webp/uiux-hersection.webp";
-import MobileUiUxHerosectionImage from "../../../../public/Images/webp/uiux-mobile-herosection.webp";
+import UiUxHerosectionImage from "../../../../public/Images/uiux-hersection.png";
+import MobileUiUxHerosectionImage from "../../../../public/Images/uiux-mobile-herosection.png";
 import Link from "next/link";
 
 const UiUxHerosection = () => {

@@ -19,9 +19,6 @@ const AppDevelopment = () => {
   return (
     <>
       <div>
-        <Navbar />
-      </div>
-      <div>
         <AppDevelopmentHerosection />
       </div>
       <div>

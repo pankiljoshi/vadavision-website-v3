@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
-import TeamPic from "../../../../public/Images/webp/team-photo.webp";
+import TeamPic from "../../../../public/Images/team-photo.png";
 
 const CareerHerosection = () => {
   useEffect(() => {
@@ -47,7 +47,7 @@ const CareerHerosection = () => {
         </div>
         <div
           data-aos="zoom-in"
-          className="flex justify-end w-[50%] mobile-min-width min-w-[350px]  about-us-image image-bg py-10"
+          className="flex justify-end max-md:justify-center w-[50%] mobile-min-width min-w-[350px]  about-us-image image-bg py-10"
         >
           <span>
             <Image priority src={TeamPic} className="" />

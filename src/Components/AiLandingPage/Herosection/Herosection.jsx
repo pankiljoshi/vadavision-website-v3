@@ -4,7 +4,7 @@ import Image from "next/image";
 import Aos from "aos";
 import React, { useEffect } from "react";
 import "aos/dist/aos.css";
-import AiBotRobot from "../../../../public/Images/webp/aiBotRobot.webp";
+import AiBotRobot from "../../../../public/Images/aiBotRobot.png";
 import Link from "next/link";
 
 const Herosection = () => {

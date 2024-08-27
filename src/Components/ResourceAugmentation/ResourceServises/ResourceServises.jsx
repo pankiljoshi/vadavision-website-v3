@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import "aos/dist/aos.css";
 import Logo from "../../../../public/Images/logo.png";
+
 const ResourceServises = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {

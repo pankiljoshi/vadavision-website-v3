@@ -10,9 +10,6 @@ const Cookies = () => {
   return (
     <>
       <div>
-        <Navbar />
-      </div>
-      <div>
         <CookiesHerosection />
       </div>
       <div>

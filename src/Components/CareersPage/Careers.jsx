@@ -16,9 +16,6 @@ const Careers = () => {
   return (
     <>
       <div>
-        <Navbar />
-      </div>
-      <div>
         <CareerHerosection />
       </div>
       <div>

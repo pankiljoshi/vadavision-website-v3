@@ -10,9 +10,6 @@ const TermsAndCondition = () => {
   return (
     <>
       <div>
-        <Navbar />
-      </div>
-      <div>
         <TermsAndConditionsHerosection />
       </div>
       <div>

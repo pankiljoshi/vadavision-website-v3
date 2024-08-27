@@ -18,12 +18,8 @@ const LandingPage = () => {
   return (
     <>
       <div>
-        <Navbar />
-      </div>
-      <div>
         <HeroSection />
       </div>
-
       <div className="">
         <MileStone />
       </div>

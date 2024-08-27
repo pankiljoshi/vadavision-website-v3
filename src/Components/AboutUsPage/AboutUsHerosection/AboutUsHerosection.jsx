@@ -17,6 +17,7 @@ const AboutUsHerosection = () => {
       });
     }
   }, []);
+
   return (
     <>
       <div className="w-full px-20 pr-0 py-20 about-us-bg about-us-padding bg-gradient-to-br from-black to-zinc-950">
@@ -86,10 +87,11 @@ const AboutUsHerosection = () => {
           </div>
           <div
             data-aos="zoom-in"
-            className="flex justify-end w-[50%] min-w-[400px]  about-us-image image-bg py-10"
+            className="flex justify-end max-md:justify-center w-[50%] min-w-[400px]  about-us-image image-bg py-10"
           >
             <span>
               <Image
+                priority
                 src={Office}
                 width={580}
                 height={580}

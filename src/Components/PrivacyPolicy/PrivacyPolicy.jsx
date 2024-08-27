@@ -10,9 +10,6 @@ const PrivacyPolicy = () => {
   return (
     <>
       <div>
-        <Navbar />
-      </div>
-      <div>
         <PrivacyPolicyHerosection />
       </div>
       <div>

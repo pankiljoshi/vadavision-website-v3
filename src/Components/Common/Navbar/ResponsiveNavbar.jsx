@@ -1,51 +1,21 @@
 "use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React, { useState } from "react";
+import ActiveLogo from "./NavIcons/ActiveLogoResponsive";
 
-const RedBar = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="79"
-    height="39"
-    viewBox="0 0 79 39"
-    fill="none"
-  >
-    <rect
-      y="39"
-      width="39"
-      height="4"
-      transform="rotate(-90 0 39)"
-      fill="#DE090A"
-    />
-    <rect
-      x="4"
-      y="39"
-      width="39"
-      height="74.2326"
-      transform="rotate(-90 4 39)"
-      fill="url(#paint0_linear_702_13862)"
-    />
-    <defs>
-      <linearGradient
-        id="paint0_linear_702_13862"
-        x1="23.5"
-        y1="39"
-        x2="23.5"
-        y2="100.535"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop stopColor="#DE090A" stopOpacity="0.49" />
-        <stop offset="1" stopColor="#DD4243" stopOpacity="0" />
-      </linearGradient>
-    </defs>
-  </svg>
-);
-const ResponsiveNavbar = () => {
-  const [activeTab, setActiveTab] = useState("home");
+const ResponsiveNavbar = ({ onClick }) => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
+
   const handleOpenModal = () => {
     setIsPopupOpen(!isPopupOpen);
   };
+
+  const handCloseModal = () => {
+    setIsPopupOpen(false);
+  };
+
+  const pathname = usePathname();
 
   return (
     <>
@@ -53,33 +23,39 @@ const ResponsiveNavbar = () => {
         <div className="MenuItems w-full flex-col justify-start items-start  inline-flex">
           <div className="Frame1000003590 w-full  py-3 border-b border-stone-900 justify-start items-center inline-flex">
             <Link href="/">
-              <div
-                className={`Home text-white cursor-pointer  text-[18px] font-light font-urbaninst ${
-                  activeTab === "home" ? "active" : ""
-                }`}
-                onClick={() => setActiveTab("home")}
-              >
+              <div className="Home text-white cursor-pointer  text-[18px] font-light font-urbaninst">
                 <div className="flex relative">
-                  {activeTab === "home" && (
-                    <RedBar className="top-2 absolute " />
-                  )}
-                  <span className="top-2 absolute right-0"> Home</span>
+                  <span
+                    className={`absolute top-[-6px] ${
+                      pathname === "/" ? "opacity-100" : "opacity-0"
+                    }`}
+                  >
+                    <ActiveLogo className=" " />
+                  </span>
+                  <span className="px-5"> Home</span>
                 </div>
               </div>
             </Link>
           </div>
 
           <Link href="/about-us">
-            <div className="Frame1000003591 w-full pl-10 py-3 border-b border-stone-900 justify-start items-center inline-flex">
-              <div className="About text-stone-300 text-[18px] font-light font-urbaninst">
-                About
+            <div className="Home text-white cursor-pointer  text-[18px] font-light font-urbaninst">
+              <div className="flex relative">
+                <span
+                  className={`absolute top-[-6px]  ${
+                    pathname === "/about-us" ? "opacity-100" : "opacity-0"
+                  }`}
+                >
+                  <ActiveLogo className=" " />
+                </span>
+                <span className="px-5">About</span>
               </div>
             </div>
           </Link>
 
           <div
             onClick={handleOpenModal}
-            className="Frame1000003592 servise-gap w-full py-3 pl-10 border-b border-stone-900 justify-between items-end gap-32 inline-flex"
+            className="Frame1000003592 servise-gap w-full py-3 px-5 border-b border-stone-900 justify-between items-end gap-32 inline-flex"
           >
             <div className="Services text-stone-300 text-[18px] font-lightfont-urbaninst">
               Services
@@ -103,9 +79,12 @@ const ResponsiveNavbar = () => {
             </div>
           </div>
           {isPopupOpen && (
-            <div className="w-full">
+            <div className="w-full h-[500px] overflow-y-scroll">
               <div className="flex w-full flex-col flex-wrap">
-                <Link href="/mobile-hybrid-app-development-agency">
+                <Link
+                  onClick={onClick}
+                  href="/mobile-hybrid-app-development-agency"
+                >
                   <div className="Card w-full px-4  py-4  bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-2.5 inline-flex">
                     <div className="Frame1171281439 self-stretch h-20 flex-col justify-start items-start gap-4 flex">
                       <div className="Frame1171281438 self-stretch h-10 flex-col justify-start items-start gap-2 flex">
@@ -300,7 +279,7 @@ const ResponsiveNavbar = () => {
 
                 <div className="flex flex-row  mobile-view-direction gap-5 mt-4  ">
                   <div className="Card w-[50%] min-w-[190px] mobile-ai-servises-cards p-4 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-2.5 inline-flex">
-                    <Link href="/ai-bot-landing">
+                    <Link onClick={onClick} href="/ai-bot-landing">
                       <div className="Frame1171281439 self-stretch h-24 flex-col justify-start items-start gap-4 flex">
                         <div className="Frame1171281438 h-16 flex-col justify-start items-start gap-2 flex">
                           <div className="Frame1171281491 justify-start items-center gap-2 inline-flex">
@@ -612,7 +591,7 @@ const ResponsiveNavbar = () => {
                       </div>
                     </Link>
                   </div>
-                  <Link href="/top-ui-ux-design-agency">
+                  <Link onClick={onClick} href="/top-ui-ux-design-agency">
                     <div className="Card w-[50%] min-w-[190px] mobile-ai-servises-cards p-4 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-2.5 inline-flex">
                       <div className="Frame1171281439 self-stretch h-24 flex-col justify-start items-start gap-4 flex">
                         <div className="Frame1171281438 flex-col justify-start items-start gap-2 flex">
@@ -705,7 +684,7 @@ const ResponsiveNavbar = () => {
                     </div>
                   </Link>
                 </div>
-                <Link href="/automation">
+                <Link onClick={onClick} href="/automation">
                   <div className="Card w-full px-4 py-4 mt-4 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-2.5 inline-flex">
                     <div className="Frame1171281439 self-stretch h-20 flex-col justify-start items-start gap-4 flex">
                       <div className="Frame1171281438 self-stretch h-10 flex-col justify-start items-start gap-2 flex">
@@ -836,7 +815,7 @@ const ResponsiveNavbar = () => {
                     </div>
                   </div>
                 </Link>
-                <Link href="/resource-augmentation">
+                <Link onClick={onClick} href="/resource-augmentation">
                   <div className="Card w-full px-4 py-4 mt-4 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 border border-stone-900 flex-col justify-start items-start gap-2.5 inline-flex">
                     <div className="Frame1171281439 self-stretch h-20 flex-col justify-start items-start gap-4 flex">
                       <div className="Frame1171281438 self-stretch h-10 flex-col justify-start items-start gap-2 flex">

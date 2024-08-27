@@ -18,9 +18,6 @@ const AboutUs = () => {
   return (
     <>
       <div>
-        <Navbar />
-      </div>
-      <div>
         <AboutUsHerosection />
       </div>
       <div>

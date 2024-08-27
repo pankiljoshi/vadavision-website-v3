@@ -7,8 +7,6 @@ const ErrorPage = () => {
   return (
     <>
       <div className="h-[100vh]">
-        <Navbar />
-
         <div className="flex flex-col justify-center error-bg bg-no-repeat h-[90%]">
           <div className="w-full flex flex-row  px-20 gap-44 justify-center   items-center  ">
             <div className="w-[50%] flex-col justify-start items-center gap-6 inline-flex">

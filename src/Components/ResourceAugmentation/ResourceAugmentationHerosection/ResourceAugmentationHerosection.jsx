@@ -119,7 +119,7 @@ const ResourceAugmentationHerosection = () => {
           data-aos="zoom-in"
           className="w-[40%] flex h-[420px] justify-end image-hide"
         >
-          <Image src={UiUxHerosectionImage} alt="" />
+          <Image priority src={UiUxHerosectionImage} alt="" />
         </div>
       </div>
     </>

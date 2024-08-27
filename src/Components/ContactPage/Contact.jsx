@@ -12,9 +12,6 @@ import ContactInfo from "./ContactInfo/ContactInfo";
 const Contact = () => {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
       <div className="">
         <GetInTouch />
       </div>

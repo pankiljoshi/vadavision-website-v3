@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
-import AutomationHerosectionImage from "../../../../public/Images/webp/automation-herosection.webp";
+import AutomationHerosectionImage from "../../../../public/Images/automation-herosection.png";
 
 import Link from "next/link";
 const AutomationHerosection = () => {

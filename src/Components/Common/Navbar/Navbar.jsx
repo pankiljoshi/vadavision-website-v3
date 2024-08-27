@@ -89,6 +89,7 @@ const Navbar = () => {
   const [isHomeHovered, setIsHomeHovered] = useState(false);
   const [isAboutHovered, setIsAboutHovered] = useState(false);
   const [isServiceHovered, setIsServiceHovered] = useState(false);
+  console.log("isDropDownOpen", isDropDownOpen);
 
   return (
     <>
@@ -165,7 +166,10 @@ const Navbar = () => {
                               <div className="w-full flex flex-row gap-6">
                                 <div className="flex flex-col">
                                   <div className="flex flex-row gap-6 cards-gap  mt-10">
-                                    <Link href="/ai-bot-landing">
+                                    <Link
+                                      onClick={handleClosePopup}
+                                      href="/ai-bot-landing"
+                                    >
                                       <div
                                         onMouseEnter={showAiServises}
                                         className="servises-dropdown-card cursor-pointer w-[288px] h-[192px] p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950  border border-black group hover:border hover:border-neutral-400 flex-col justify-start items-start gap-2.5 inline-flex"
@@ -209,6 +213,7 @@ const Navbar = () => {
                                     </Link>
                                     <Link href="/top-ui-ux-design-agency">
                                       <div
+                                        onClick={handleClosePopup}
                                         onMouseEnter={showUiUx}
                                         className="servises-dropdown-card cursor-pointer w-[288px] h-[192px] p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 group border border-black hover:border  hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex"
                                       >
@@ -242,7 +247,10 @@ const Navbar = () => {
                                         </div>
                                       </div>
                                     </Link>
-                                    <Link href="/mobile-hybrid-app-development-agency">
+                                    <Link
+                                      onClick={handleClosePopup}
+                                      href="/mobile-hybrid-app-development-agency"
+                                    >
                                       <div
                                         onMouseEnter={showApp}
                                         className="servises-dropdown-card cursor-pointer w-[288px] h-[192px] p-6 border border-black bg-gradient-to-b  from-stone-950 via-neutral-900 to-stone-950 group hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex"
@@ -281,7 +289,10 @@ const Navbar = () => {
                                     </Link>
                                   </div>
                                   <div className="flex flex-row gap-6  workflow-margin   mt-10">
-                                    <Link href="/resource-augmentation">
+                                    <Link
+                                      onClick={handleClosePopup}
+                                      href="/resource-augmentation"
+                                    >
                                       <div
                                         onMouseEnter={showResource}
                                         className="work-flow-automation-card cursor-pointer w-[443px] h-[176px] p-6 border border-black group bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex"
@@ -317,7 +328,10 @@ const Navbar = () => {
                                       </div>
                                     </Link>
 
-                                    <Link href="/automation">
+                                    <Link
+                                      onClick={handleClosePopup}
+                                      href="/automation"
+                                    >
                                       <div
                                         onMouseEnter={showAutomation}
                                         className="work-flow-automation-card cursor-pointer w-[443px] border border-black h-44 group p-6 bg-gradient-to-b from-stone-950 via-neutral-900 to-stone-950 hover:border hover:border-neutral-400 border-opacity-0 flex-col justify-start items-start gap-2.5 inline-flex"
@@ -671,7 +685,9 @@ const Navbar = () => {
         <div className="hamburger-icon  w-full relative  cursor-pointer hidden">
           <Link href="/">
             <div className="Frame2 cursor-pointer py-4  pl-5 justify-start items-center gap-2 inline-flex">
-              <VadavisionLogo />
+              <span>
+                <VadavisionLogo />
+              </span>{" "}
               <div className="Vadavision text-white text-xl font-bold prompt  leading-7">
                 VadaVision!
               </div>
@@ -723,8 +739,12 @@ const Navbar = () => {
               </span>
             )}
           </div>
-          <div className="top-10 absolute  w-full z-50">
-            {isDropDownOpen && <ResponsiveNavbar />}
+          <div className="top-5 fixed left-0 w-full z-50">
+            {isDropDownOpen && (
+              <>
+                <ResponsiveNavbar onClick={closeDropDown} />
+              </>
+            )}
           </div>
         </div>
       </div>

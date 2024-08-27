@@ -19,9 +19,6 @@ const UiUx = () => {
   return (
     <>
       <div>
-        <Navbar />
-      </div>
-      <div>
         <UiUxHerosection />
       </div>
       <div>

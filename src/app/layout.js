@@ -2,6 +2,7 @@ import { Prompt, Inter, Urbanist, Montserrat, Raleway } from "next/font/google";
 import "./globals.css";
 import React from "react";
 import Head from "next/head";
+import Navbar from "../Components/Common/Navbar/Navbar";
 
 const prompt = Prompt({
   subsets: ["latin"],
@@ -59,7 +60,12 @@ export default function RootLayout({ children }) {
           }}
         ></noscript>
 
-        {children}
+        <div>
+          <div>
+            <Navbar />
+          </div>
+          <div>{children}</div>
+        </div>
       </body>
     </html>
   );

@@ -17,9 +17,6 @@ const Automation = () => {
   return (
     <>
       <div>
-        <Navbar />
-      </div>
-      <div>
         <AutomationHerosection />
       </div>
       <div>

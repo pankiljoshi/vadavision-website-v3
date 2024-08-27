@@ -59,9 +59,9 @@ const HeroSection = () => {
               >
                 <Link
                   href="/contact-us"
-                  className="flex gap-4 w-full justify-center"
+                  className="flex gap-4 max-md:gap-2 max-md:items-center w-full justify-center"
                 >
-                  <div className="BookACall   text-white text-[16px] font-light urbanist  Schedule-button">
+                  <div className="BookACall text-white text-[16px] font-light urbanist  Schedule-button">
                     Schedule a Call
                   </div>
                   <div className="consultUs-svg w-6 h-6 p-3 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">

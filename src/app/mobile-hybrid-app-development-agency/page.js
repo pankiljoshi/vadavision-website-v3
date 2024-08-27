@@ -4,7 +4,7 @@ import AppDevelopment from "../../Components/AppDevelopmentPage/AppDevelopment";
 
 export const metadata = {
   title:
-    "  Vadavision Ventures into Tomorrow: Unleashing the Power of Mobile Hybrid App Development.",
+    "Ventures into Tomorrow: Unleashing the Power of Mobile Hybrid App Development.",
   description:
     "Discover the future of mobile innovation with Vadavision. As a leading software company, we specialize in crafting dynamic and efficient mobile apps. From AI integration to seamless UI/UX design, our skilled developers bring your ideas to life with speed and precision.",
   keywords:

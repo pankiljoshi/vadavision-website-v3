@@ -2,7 +2,7 @@ import Head from "next/head";
 import React from "react";
 import UiUx from "../../Components/UiUxPage/UiUx";
 export const metadata = {
-  title: " Vadavision: Where Innovation Meets Intuitive Design",
+  title: "Where Innovation Meets Intuitive Design",
   description:
     "Vadavision is a leading software company and startup studio based in India, specializing in staff/resource augmentation, AI, web automation applications, mobile apps, and cutting-edge UI/UX design. Our dedicated team of skilled developers ensures swift project delivery and cost-efficiency. Let us turn your ideas into reality.",
   keywords:

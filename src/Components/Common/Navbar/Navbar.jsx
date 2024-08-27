@@ -3,11 +3,11 @@ import React, { useState } from "react";
 import ResponsiveNavbar from "./ResponsiveNavbar";
 import Link from "next/link";
 import Image from "next/image";
-import UiuxServise from "../../../../public/Images/webp/uiuxDesignServise.webp";
-import AiFace from "../../../../public/Images/webp/aiRobotFace.webp";
-import AppServise from "../../../../public/Images/webp/app-servise.webp";
-import Automation from "../../../../public/Images/webp/automation-servises.webp";
-import Resource from "../../../../public/Images/webp/resource-servises.webp";
+import UiuxServise from "../../../../public/Images/webp/uiux.webp";
+import AiFace from "../../../../public/Images/webp/ai-bot.webp";
+import AppServise from "../../../../public/Images/webp/app-dev.webp";
+import Automation from "../../../../public/Images/webp/automation.webp";
+import Resource from "../../../../public/Images/webp/resource.webp";
 import VadavisionLogo from "./NavIcons/VadavisionLogo";
 import AIService from "./NavIcons/AIService";
 import ActiveLogo from "./NavIcons/ActiveLogo";
@@ -93,7 +93,7 @@ const Navbar = () => {
     <>
       <div className="NavigationWeb w-full px-20 overflow-x-hidden padding-full-website  padding-none bg-white bg-opacity-5 border border-neutral-900 ">
         <div className="responsive-navbar ">
-          <div className=" flex justify-between items-center">
+          <div className="h-[57px] flex justify-between items-center">
             <Link href="/">
               <div className="Frame2 cursor-pointer py-2 justify-start items-center gap-2 inline-flex">
                 <span>
@@ -153,7 +153,7 @@ const Navbar = () => {
                   >
                     <div>
                       {isPopupOpen && (
-                        <div className="fixed inset-0 backdrop-blur-[8px] responsive-servise-dropdown  mt-20  flex z-10    ">
+                        <div className="fixed inset-0 backdrop-blur-[8px] responsive-servise-dropdown mt-14 flex z-10    ">
                           <div className="flex w-full   ">
                             <div
                               className="  w-full px-16 h-[484px] bg-black  "

@@ -108,7 +108,7 @@ const Navbar = () => {
             </Link>
             <div className="">
               <div className="Frame  justify-start items-center gap-8 inline-flex">
-                <Link href="/">
+                <Link onClick={handleClosePopup} href="/">
                   <div
                     className="Home text-white cursor-pointer text-base py-4 font-semibold font-urbaninst relative"
                     onMouseEnter={() => setIsHomeHovered(true)}
@@ -124,7 +124,7 @@ const Navbar = () => {
                     </span>
                   </div>
                 </Link>
-                <Link href="/about-us">
+                <Link onClick={handleClosePopup} href="/about-us">
                   <div
                     className="About text-neutral-400 cursor-pointer py-4 text-base font-medium font-urbaninst relative"
                     onMouseEnter={() => setIsAboutHovered(true)}

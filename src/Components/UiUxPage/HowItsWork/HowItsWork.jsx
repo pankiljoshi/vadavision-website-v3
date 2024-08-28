@@ -31,7 +31,7 @@ const HowItsWork = () => {
             data-aos="zoom-in"
             className="justify-start items-center pt-16 inline-flex"
           >
-            <Image src={Wireframing} />
+            <Image src={Wireframing} alt="image explaning how it works" />
           </div>
           <div
             data-aos="fade-right"

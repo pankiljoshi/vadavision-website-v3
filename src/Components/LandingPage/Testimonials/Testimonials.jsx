@@ -126,7 +126,7 @@ const Testimonials = () => {
                           <div className="Ellipse309 w-20 h-20 left-0 top-0 absolute rounded-full shadow-inner">
                             <Image
                               src={Florian}
-                              alt="florian"
+                              alt="florian profile picture"
                               className="rounded-full"
                             />
                           </div>
@@ -162,7 +162,11 @@ const Testimonials = () => {
                       <div className="Frame1171281447 justify-start items-center gap-6 inline-flex">
                         <div className="Group7 w-20 h-20 relative ml-4">
                           <div className="Ellipse309 w-20 h-20 left-0 top-0 absolute rounded-full shadow-inner">
-                            <Image src={Ivan} alt="" className="rounded-full" />
+                            <Image
+                              src={Ivan}
+                              alt="Ivan profile picture"
+                              className="rounded-full"
+                            />
                           </div>
                         </div>
                         <div className="Frame1171281446 flex-col justify-start items-start gap-2 inline-flex">
@@ -198,7 +202,7 @@ const Testimonials = () => {
                           <div className="Ellipse309 w-20 h-20 left-0 top-0 absolute rounded-full shadow-inner">
                             <Image
                               src={Reeza}
-                              alt=""
+                              alt="Reza profile picture"
                               className="rounded-full"
                             />
                           </div>

@@ -187,7 +187,7 @@ const FooterLinks = () => {
               <Link
                 target="_blank"
                 href={
-                  "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A82602036&keywords=vadavision!%20consultancy%20inc.&origin=RICH_QUERY_SUGGESTION&position=9&searchId=7aaa9361-861c-44e4-a50d-58b34828f598&sid=sGe&spellCorrectionEnabled=false"
+                  "https://www.linkedin.com/company/vadavision/posts/?feedView=all"
                 }
               >
                 {" "}

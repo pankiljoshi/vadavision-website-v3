@@ -3,6 +3,7 @@ import Navbar from "../Common/Navbar/Navbar";
 import Error from "../../../public/Images/errorImage.png";
 import Image from "next/image";
 import Link from "next/link";
+
 const ErrorPage = () => {
   return (
     <>

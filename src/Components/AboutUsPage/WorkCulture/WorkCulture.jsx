@@ -33,7 +33,11 @@ const WorkCulture = () => {
           className=" flex-col justify-start items-start mt-20 work-culture-container-margin  inline-flex"
         >
           <div>
-            <Image priority src={VirtualOffice} />
+            <Image
+              priority
+              src={VirtualOffice}
+              alt="team sitting in the gather town"
+            />
           </div>
           <div className=" flex h-24 pt-10 gap-1 ">
             <svg

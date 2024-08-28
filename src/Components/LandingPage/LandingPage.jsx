@@ -26,7 +26,6 @@ const LandingPage = () => {
       <div className="">
         <Servise />
       </div>
-
       <div>
         <Industries />
       </div>

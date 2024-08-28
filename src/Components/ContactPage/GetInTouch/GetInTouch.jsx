@@ -7,6 +7,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+
 const GetInTouch = () => {
   const [number, setNumber] = useState("in");
   useEffect(() => {
@@ -205,7 +206,7 @@ const GetInTouch = () => {
             >
               <Image
                 src={Contact}
-                alt="Google Map"
+                alt="Contact image"
                 className="w-full h-full bg-gray-50"
                 style={{ mixBlendMode: "luminosity" }}
               />

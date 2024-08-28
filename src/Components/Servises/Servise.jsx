@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import "aos/dist/aos.css";
 import Logo from "../../../public/Images/logo.png";
+
 const Servise = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
@@ -180,7 +181,12 @@ const Servise = () => {
           </div>
         </div>
         <div data-aos="zoom-in" className=" min-w-[300px] responsive-logo">
-          <Image src={Logo} alt="" width={340} className="logo" />
+          <Image
+            src={Logo}
+            alt="vadavision logo"
+            width={340}
+            className="logo"
+          />
         </div>
       </div>
     </>

@@ -1179,7 +1179,7 @@ const AiBotServises = () => {
 
             <div className="flex-col justify-center items-center gap-10 inline-flex">
               <div className=" relative bg-teal-600 rounded-[30px]">
-                <Image src={FineTuning} />
+                <Image src={FineTuning} alt="" />
               </div>
             </div>
           </div>
@@ -1456,7 +1456,7 @@ const AiBotServises = () => {
 
             <div className="flex-col justify-center items-center gap-10 inline-flex">
               <div className="relative bg-teal-600 rounded-[30px]">
-                <Image src={DataPreparation} />
+                <Image src={DataPreparation} alt="" />
               </div>
             </div>
           </div>

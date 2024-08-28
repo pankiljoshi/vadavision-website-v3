@@ -1,6 +1,4 @@
-"use client";
-import React, { useEffect } from "react";
-import Aos from "aos";
+import React from "react";
 import "aos/dist/aos.css";
 import Image from "next/image";
 import UiUxHerosectionImage from "../../../../public/Images/uiux-hersection.png";
@@ -8,24 +6,10 @@ import MobileUiUxHerosectionImage from "../../../../public/Images/uiux-mobile-he
 import Link from "next/link";
 
 const UiUxHerosection = () => {
-  useEffect(() => {
-    if (typeof document !== "undefined") {
-      Aos.init({
-        offset: 100,
-        duration: 1000,
-        once: true,
-        easing: "ease",
-      });
-    }
-  }, []);
-
   return (
     <>
       <div className="w-full uiux-responsive mobile-view-bg-ui-ux padding-full-left-side   padding-industies flex flex-row ">
-        <div
-          data-aos="fade-right"
-          className=" w-[60%] uiux-leftside py-20  flex-col justify-start items-start gap-2 inline-flex"
-        >
+        <div className=" w-[60%] uiux-leftside py-20  flex-col justify-start items-start gap-2 inline-flex fade-right">
           <div className="justify-start items-center gap-3 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -71,19 +55,13 @@ const UiUxHerosection = () => {
               </div>
             </div>
             <div className=" justify-start buttons-herosection items-center gap-10 inline-flex reponsive-button ">
-              <div
-                data-aos="zoom-in"
-                className="BookACall explore-more cursor-pointer h-[48px] px-9 reponsive-button bg-white hover:bg-[#FFFFFF3D] bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex explore-button"
-              >
+              <div className="zoom-in-btn BookACall explore-more cursor-pointer h-[48px] px-9 reponsive-button bg-white hover:bg-[#FFFFFF3D] bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex explore-button">
                 <div className="BookACall w-[120px] text-white text-[20px] font-light text-center urbanist   explore-button">
                   Explore More
                 </div>
               </div>
 
-              <div
-                data-aos="zoom-in"
-                className="BookACall  flex-row  herosection-Schedule-button cursor-pointer w-[198px] urbanist reponsive-button h-[48px] px-5 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button"
-              >
+              <div className="zoom-in-btn BookACall  flex-row  herosection-Schedule-button cursor-pointer w-[198px] urbanist reponsive-button h-[48px] px-5 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button">
                 <Link
                   href="/contact-us"
                   className="flex gap-4 w-full justify-center"
@@ -119,20 +97,15 @@ const UiUxHerosection = () => {
           </div>
         </div>
 
-        <div
-          data-aos="zoom-in"
-          className="w-[40%] flex h-[620px] justify-end hide-image-uiux"
-        >
-          <Image priority src={UiUxHerosectionImage} />
+        <div className="w-[40%] flex h-[620px] justify-end hide-image-uiux zoom-in">
+          <Image priority src={UiUxHerosectionImage} alt="ui ux icons" />
         </div>
-        <div
-          data-aos="fade-up"
-          className="w-[40%] mobile-view-uiux-image  justify-center py-20 hidden show-image-uiux"
-        >
+        <div className="w-[40%] mobile-view-uiux-image  justify-center py-20 hidden show-image-uiux">
           <Image
             priority
             src={MobileUiUxHerosectionImage}
             className="mx-auto"
+            alt="ui ux icons"
           />
         </div>
       </div>

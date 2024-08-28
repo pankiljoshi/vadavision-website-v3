@@ -188,7 +188,13 @@ const ResourceServises = () => {
           </div>
         </div>
         <div data-aos="zoom-in" className=" min-w-[300px] responsive-logo">
-          <Image priority src={Logo} alt="" width={340} className="logo" />
+          <Image
+            priority
+            src={Logo}
+            alt=""
+            width={340}
+            className="vadavision logo"
+          />
         </div>
       </div>
     </>

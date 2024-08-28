@@ -120,7 +120,7 @@ const Herosection = () => {
         <Image
           priority
           src={AiBotRobot}
-          alt=""
+          alt="Ai bot icon"
           width={560}
           height={560}
           style={{ animation: "moveUpDown 3s ease infinite" }}

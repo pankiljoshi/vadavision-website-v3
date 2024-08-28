@@ -40,6 +40,7 @@ const TechStack = () => {
               src={TechStach}
               width={1320}
               className="tech-stack-image-width"
+              alt=""
             />
           </div>
           <div
@@ -51,6 +52,7 @@ const TechStack = () => {
                 <Image
                   src={ReactNative}
                   width={160}
+                  alt="React Native icon"
                   className="react-native-image"
                 />
                 <div className=" flex-col justify-start items-start gap-4 inline-flex">
@@ -66,7 +68,11 @@ const TechStack = () => {
                 </div>
               </div>
               <div className="w-[50%] background-gradient h-[243px] tech-stack-height px-4 tech-stack-columm tech-stack-gap border-gradient-bottom flex flex-row items-center gap-10  bg-gradient-to-bl ">
-                <Image src={Flutter} className="react-native-image" />
+                <Image
+                  src={Flutter}
+                  className="react-native-image"
+                  alt="Flutter Icon"
+                />
                 <div className=" flex-col justify-start items-start gap-4 inline-flex">
                   <div className="w-[292px] text-white text-[32px] font-medium urbanist">
                     Flutter
@@ -84,7 +90,11 @@ const TechStack = () => {
             data-aos="zoom-in"
             className="px-4 h-[223px]  tech-stack-hybrid  background-gradient tech-stack-columm pt-8 pb-[62px] tech-stack-gap border-gradient-bottom bg-gradient-to-bl  items-center justify-start  gap-[38px] inline-flex"
           >
-            <Image src={Hybrid} className="react-native-image" />
+            <Image
+              src={Hybrid}
+              className="react-native-image"
+              alt="Hybrid icon"
+            />
             <div className="self-stretch flex-col justify-start items-start gap-4 inline-flex">
               <div className="w-[292px] text-white text-[32px] font-medium urbanist">
                 Hybrid Apps

@@ -608,7 +608,7 @@ const UiUxServises = () => {
             </div>
 
             <div className="flex-col justify-center   items-center gap-10 inline-flex">
-              <Image src={UiUxServise} className="" />
+              <Image src={UiUxServise} className="" alt="UX Consulting image" />
             </div>
           </div>
         )}
@@ -887,7 +887,7 @@ const UiUxServises = () => {
             </div>
 
             <div className="flex-col justify-center items-center gap-10 inline-flex">
-              <Image src={UiUxDesign} />
+              <Image src={UiUxDesign} alt="UI/ UX Design image" />
             </div>
           </div>
         )}
@@ -1167,7 +1167,7 @@ const UiUxServises = () => {
             </div>
 
             <div className="flex-col justify-center items-center gap-10 inline-flex">
-              <Image src={VisualDesign} />
+              <Image src={VisualDesign} alt="Visual Design image" />
             </div>
           </div>
         )}
@@ -1444,7 +1444,7 @@ const UiUxServises = () => {
             </div>
 
             <div className="flex-col justify-center items-center gap-10 inline-flex">
-              <Image src={BrandIdentity} />
+              <Image src={BrandIdentity} alt="Brand Identity image" />
             </div>
           </div>
         )}

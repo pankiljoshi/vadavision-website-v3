@@ -41,7 +41,12 @@ const OurStory = () => {
           </div>
           <div className="w-[246px] h-[246px] image-our-story">
             <div data-aos="zoom-in" className=" min-w-[300px] responsive-logo1">
-              <Image src={Logo} alt="" width={340} className="logo" />
+              <Image
+                src={Logo}
+                alt="vadavision logo"
+                width={340}
+                className="logo"
+              />
             </div>
           </div>
         </div>

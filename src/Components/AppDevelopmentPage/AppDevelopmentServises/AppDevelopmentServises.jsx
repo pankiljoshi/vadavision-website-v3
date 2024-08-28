@@ -599,7 +599,7 @@ const AppDevelopmentServises = () => {
             </div>
 
             <div className="flex-col justify-center items-center gap-10 inline-flex">
-              <Image src={AndroidApp} />
+              <Image src={AndroidApp} alt="Android App Development Image" />
             </div>
           </div>
         )}
@@ -876,7 +876,7 @@ const AppDevelopmentServises = () => {
             </div>
 
             <div className="flex-col justify-center items-center gap-10 inline-flex">
-              <Image src={AndroidApp} />
+              <Image src={AndroidApp} alt="Android App Development Image" />
             </div>
           </div>
         )}
@@ -1153,7 +1153,7 @@ const AppDevelopmentServises = () => {
             </div>
 
             <div className="flex-col justify-center items-center gap-10 inline-flex">
-              <Image src={AndroidApp} />
+              <Image src={AndroidApp} alt="Android App Development Image" />
             </div>
           </div>
         )}
@@ -1429,7 +1429,7 @@ const AppDevelopmentServises = () => {
             </div>
 
             <div className="flex-col justify-center items-center gap-10 inline-flex">
-              <Image src={AndroidApp} />
+              <Image src={AndroidApp} alt="Android App Development Image" />
             </div>
           </div>
         )}

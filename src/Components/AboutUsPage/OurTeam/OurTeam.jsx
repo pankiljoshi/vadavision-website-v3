@@ -141,7 +141,7 @@ const OurTeam = () => {
             </div>
           </div> */}
           <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
-            <Image src={Neeraj} />
+            <Image src={Neeraj} alt="Neeraj's profile picture" />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">
               <div className="text-neutral-200 text-2xl font-semibold urbanist">
                 Neeraj Sharma{" "}
@@ -245,7 +245,7 @@ const OurTeam = () => {
             </div>
           </div>
           <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
-            <Image src={Sahil} />
+            <Image src={Sahil} alt="Sahil's profile picture" />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">
               <div className="text-neutral-200 text-2xl font-semibold urbanist">
                 Sahil Mangukiya
@@ -350,7 +350,7 @@ const OurTeam = () => {
             </div>
           </div>
           <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
-            <Image src={Sabahat} />
+            <Image src={Sabahat} alt="Sabahat's profile picture" />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">
               <div className="text-neutral-200 text-2xl font-semibold urbanist">
                 Sabahat Hussain{" "}
@@ -553,7 +553,7 @@ const OurTeam = () => {
             </div>
           </div> */}
           <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
-            <Image src={Ajay} />
+            <Image src={Ajay} alt="Ajay's profile picture" />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">
               <div className="text-neutral-200 text-2xl font-semibold urbanist">
                 Ajay Vataliya{" "}
@@ -658,7 +658,7 @@ const OurTeam = () => {
             </div>
           </div>
           <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
-            <Image src={Hritik} />
+            <Image src={Hritik} alt="Hritik's profile picture" />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">
               <div className="text-neutral-200 text-2xl font-semibold urbanist">
                 Ritik Dwivedi{" "}
@@ -763,7 +763,7 @@ const OurTeam = () => {
             </div>
           </div>
           <div className="w-[260px] h-[448px] teams-cards px-4 bg-gradient-to-b from-stone-950 via-neutral-800 to-stone-950 border border-stone-950 border-opacity-0">
-            <Image src={Prashant} />
+            <Image src={Prashant} alt="Prashant's profile picture" />
             <div className=" flex-col justify-start mt-4 items-start gap-1 inline-flex">
               <div className="text-neutral-200 text-2xl font-semibold urbanist">
                 Prashant Ranjan{" "}

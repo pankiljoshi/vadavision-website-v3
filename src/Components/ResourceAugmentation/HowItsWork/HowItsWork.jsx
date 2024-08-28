@@ -32,7 +32,7 @@ const HowItsWork = () => {
             data-aos="fade-down"
             className="justify-start items-center pt-16 inline-flex"
           >
-            <Image src={TeamWork} />
+            <Image src={TeamWork} alt="team sitting in office image" />
           </div>
           <div
             data-aos="fade-up"

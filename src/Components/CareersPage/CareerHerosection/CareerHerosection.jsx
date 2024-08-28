@@ -1,29 +1,12 @@
-"use client";
-import React, { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import Image from "next/image";
 import TeamPic from "../../../../public/Images/team-photo.png";
 
 const CareerHerosection = () => {
-  useEffect(() => {
-    if (typeof document !== "undefined") {
-      Aos.init({
-        offset: 100,
-        duration: 1000,
-        once: true,
-        easing: "ease",
-      });
-    }
-  }, []);
-
   return (
     <>
       <div className="w-full about-us-bg flex padding-full-left-side justify-between carrer-herosection flex-row gap-20 padding-industies py-20 bg-gradient-to-br from-black to-zinc-950">
-        <div
-          data-aos="fade-right"
-          className="w-[50%] carrer-left-section  justify-start items-start gap-[190px] inline-flex"
-        >
+        <div className="fade-right w-[50%] carrer-left-section  justify-start items-start gap-[190px] inline-flex">
           <div className="flex-col justify-start items-start gap-6 inline-flex">
             <div className="LeftLabel">
               <div className=" p-4 startupStudio-gradient rounded-full  flex-col justify-start items-start gap-2.5 flex">
@@ -45,12 +28,14 @@ const CareerHerosection = () => {
             </div>
           </div>
         </div>
-        <div
-          data-aos="zoom-in"
-          className="flex justify-end max-md:justify-center w-[50%] mobile-min-width min-w-[350px]  about-us-image image-bg py-10"
-        >
+        <div className="zoom-in flex justify-end max-md:justify-center w-[50%] mobile-min-width min-w-[350px]  about-us-image image-bg py-10">
           <span>
-            <Image priority src={TeamPic} className="" />
+            <Image
+              priority
+              src={TeamPic}
+              className=""
+              alt="vadavision team image wearing vadavision logo t-shirts"
+            />
           </span>
         </div>
       </div>

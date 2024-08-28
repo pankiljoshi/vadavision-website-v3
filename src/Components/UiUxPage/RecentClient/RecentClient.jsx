@@ -33,13 +33,17 @@ const RecentClient = () => {
             data-aos="fade-up"
             className="w-[187px] h-32 pl-6 pr-[23.58px] py-5 bg-neutral-900 rotation360  justify-center items-center flex"
           >
-            <Image src={Rotation360} width={190} />
+            <Image
+              src={Rotation360}
+              width={190}
+              alt="recent client Rotation360 logo"
+            />
           </div>
           <div
             data-aos="fade-down"
             className="w-[187px] h-32 pl-[29px] pr-[28.59px] py-5 bg-neutral-900  rotation360 justify-center items-center flex"
           >
-            <Image src={Otgc} width={150} />
+            <Image src={Otgc} width={150} alt="recent client Otgc logo" />
           </div>
           <div
             data-aos="fade-up"

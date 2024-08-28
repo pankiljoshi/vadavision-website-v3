@@ -602,7 +602,7 @@ const AutomationDomain = () => {
             </div>
 
             <div className="flex-col justify-center items-center gap-10 inline-flex">
-              <Image src={AutoDomain} />
+              <Image src={AutoDomain} alt="Marketing Automation image" />
             </div>
           </div>
         )}
@@ -882,7 +882,7 @@ const AutomationDomain = () => {
             </div>
 
             <div className="flex-col justify-center items-center gap-10 inline-flex">
-              <Image src={AutoDomain} />
+              <Image src={AutoDomain} alt="Support Automation image" />
             </div>
           </div>
         )}
@@ -1162,7 +1162,7 @@ const AutomationDomain = () => {
             </div>
 
             <div className="flex-col justify-center items-center gap-10 inline-flex">
-              <Image src={AutoDomain} />
+              <Image src={AutoDomain} alt="CRM Automation image" />
             </div>
           </div>
         )}
@@ -1441,7 +1441,7 @@ const AutomationDomain = () => {
             </div>
 
             <div className="flex-col justify-center items-center gap-10 inline-flex">
-              <Image src={AutoDomain} />
+              <Image src={AutoDomain} alt="Backend Prototyping image" />
             </div>
           </div>
         )}

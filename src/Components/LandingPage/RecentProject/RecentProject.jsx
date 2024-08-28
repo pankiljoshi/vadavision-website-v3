@@ -138,10 +138,13 @@ const RecentProject = () => {
             >
               <div className="flex flex-col portfolio-margin recent-project-width border-style-project">
                 <div className=" flex flex-col px-10 mt-10 py-24 image-center bg-gradient-to-b from-zinc-950 via-stone-900 to-stone-950   justify-center items-center ">
-                  <Image src={TweekendApp} alt="" width={480} />
+                  <Image
+                    src={TweekendApp}
+                    alt="Tweekend a booking app for social events."
+                    width={480}
+                  />
                 </div>
               </div>
-
               <div className="reponsive-portfolio-info mt-20  responsive-project-rightside  flex-col justify-start items-start gap-12 inline-flex">
                 <div className="reponsive-portfolio-info flex-col justify-start items-start gap-6 flex">
                   <div className="reponsive-portfolio-info flex-col justify-start items-start gap-4 flex">
@@ -164,8 +167,8 @@ const RecentProject = () => {
                       Tech Stack:
                     </div>
                     <div className="Frame1171281459 justify-start items-start gap-4 inline-flex">
-                      <Image src={NodeImage} alt="" />
-                      <Image src={ReactImage} alt="" />
+                      <Image src={NodeImage} alt="node icon" />
+                      <Image src={ReactImage} alt="react icon" />
                     </div>
                   </div>
                 </div>
@@ -205,10 +208,13 @@ const RecentProject = () => {
             >
               <div className="flex flex-col portfolio-margin  recent-project-width border-style-project">
                 <div className=" flex flex-col  px-10 mt-10 py-24 image-center bg-gradient-to-b from-zinc-950 via-stone-900 to-stone-950   justify-center items-center ">
-                  <Image src={StandardInsists} alt="" width={480} />
+                  <Image
+                    src={StandardInsists}
+                    alt="Standard Insights Simplify surveys and reports with this app!"
+                    width={480}
+                  />
                 </div>
               </div>
-
               <div className="reponsive-portfolio-info mt-20  responsive-project-rightside  flex-col justify-start items-start gap-12 inline-flex">
                 <div className="reponsive-portfolio-info flex-col justify-start items-start gap-6 flex">
                   <div className="reponsive-portfolio-info flex-col justify-start items-start gap-4 flex">
@@ -231,8 +237,8 @@ const RecentProject = () => {
                       Tech Stack:
                     </div>
                     <div className="Frame1171281459 justify-start items-start gap-4 inline-flex">
-                      <Image src={NodeImage} alt="" />
-                      <Image src={ReactImage} alt="" />
+                      <Image src={NodeImage} alt="node icon" />
+                      <Image src={ReactImage} alt="react icon" />
                     </div>
                   </div>
                 </div>
@@ -272,10 +278,13 @@ const RecentProject = () => {
             >
               <div className="flex flex-col portfolio-margin recent-project-width border-style-project">
                 <div className=" flex flex-col  px-10 mt-10 py-24 image-center bg-gradient-to-b from-zinc-950 via-stone-900 to-stone-950   justify-center items-center ">
-                  <Image src={Otgc} alt="" width={480} />
+                  <Image
+                    src={Otgc}
+                    alt=" On The Go Cleaners Laundry App"
+                    width={480}
+                  />
                 </div>
               </div>
-
               <div className="reponsive-portfolio-info mt-20  responsive-project-rightside  flex-col justify-start items-start gap-12 inline-flex">
                 <div className="reponsive-portfolio-info flex-col justify-start items-start gap-6 flex">
                   <div className="reponsive-portfolio-info flex-col justify-start items-start gap-4 flex">
@@ -298,8 +307,8 @@ const RecentProject = () => {
                       Tech Stack:
                     </div>
                     <div className="Frame1171281459 justify-start items-start gap-4 inline-flex">
-                      <Image src={NodeImage} alt="" />
-                      <Image src={ReactImage} alt="" />
+                      <Image src={NodeImage} alt="node icon" />
+                      <Image src={ReactImage} alt="react icon" />
                     </div>
                   </div>
                 </div>

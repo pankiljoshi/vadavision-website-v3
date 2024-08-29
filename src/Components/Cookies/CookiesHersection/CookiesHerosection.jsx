@@ -66,38 +66,155 @@ const CookiesHerosection = () => {
         <div className="text-white text-sm font-normal urbanist">Cookies</div>
       </div>
       <div className="px-20 pb-10 mobile-privacy-page">
-        <h1 className="text-5xl tracking-widest getintouch-gradient text-start hero-heading leading-[120%] urbanist font-bold text-white">
+        <p className="mt-8 text-white font-normal text-xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+          Welcome to Vadavision! By accessing or using our website and services,
+          you agree to our use of cookies as outlined in this Cookies Policy.
+          Please read this policy carefully to understand how we use cookies and
+          how you can manage your preferences.
+        </p>
+        <h1 className="text-5xl mt-5 tracking-widest getintouch-gradient text-start hero-heading leading-[120%] urbanist font-bold text-white">
           Cookies
         </h1>
-        <p className="mt-8 text-white font-light text-sm leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti
-          omnis odio rem a? Ex laboriosam ullam nobis dolore atque amet adipisci
-          quidem fugit nulla laudantium, non soluta nesciunt consequatur!
-          Voluptate. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Dolorum, corrupti at? Optio numquam nesciunt soluta maiores, corrupti
-          et laboriosam itaque necessitatibus tempore? Excepturi molestiae hic,
-          odio rem velit debitis magni. Lorem, ipsum dolor sit amet consectetur
-          adipisicing elit. Eveniet earum totam minus cum vel id aspernatur
-          assumenda, porro natus suscipit expedita. Tenetur distinctio voluptate
-          aperiam vel. Accusamus expedita voluptas tempora? Lorem, ipsum dolor
-          sit amet consectetur adipisicing elit. Reprehenderit nulla eaque
-          laborum voluptates, similique aperiam corporis ipsam sunt mollitia
-          doloremque voluptatibus hic. Nisi, molestias sit perspiciatis quasi
-          dignissimos numquam quam? Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Deleniti omnis odio rem a? Ex laboriosam ullam nobis
-          dolore atque amet adipisci quidem fugit nulla laudantium, non soluta
-          nesciunt consequatur! Voluptate. Lorem, ipsum dolor sit amet
-          consectetur adipisicing elit. Dolorum, corrupti at? Optio numquam
-          nesciunt soluta maiores, corrupti et laboriosam itaque necessitatibus
-          tempore? Excepturi molestiae hic, odio rem velit debitis magni. Lorem,
-          ipsum dolor sit amet consectetur adipisicing elit. Eveniet earum totam
-          minus cum vel id aspernatur assumenda, porro natus suscipit expedita.
-          Tenetur distinctio voluptate aperiam vel. Accusamus expedita voluptas
-          tempora? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Reprehenderit nulla eaque laborum voluptates, similique aperiam
-          corporis ipsam sunt mollitia doloremque voluptatibus hic. Nisi,
-          molestias sit perspiciatis quasi dignissimos numquam quam?
-        </p>
+        <div>
+          <p className="mt-8 text-white font-normal text-2xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            1. Introduction
+          </p>
+          <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            Welcome to Vadavision! This Cookies Policy explains what cookies
+            are, how we use them on our website vadavision.com, and how you can
+            manage your cookie preferences. By continuing to use our Website,
+            you consent to the use of cookies as described in this policy.
+          </p>
+        </div>
+        <div>
+          <p className="mt-8 text-white font-normal text-2xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            2. What Are Cookies?
+          </p>
+          <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            Cookies are small text files that are placed on your device
+            (computer, smartphone, or tablet) when you visit a website. They
+            help websites remember your preferences and actions, which can
+            enhance your browsing experience. Cookies can be either "session
+            cookies," which are deleted when you close your browser, or
+            "persistent cookies," which remain on your device for a set period
+            or until you delete them.
+          </p>
+        </div>
+        <div>
+          <p className="mt-8 text-white font-normal text-2xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            3. How We Use Cookies
+          </p>
+          <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            We use cookies for the following purposes:
+          </p>
+          <div className="mx-2">
+            <p className="text-white font-medium text-xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+              3.1 Essential Cookies
+            </p>
+            <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+              These cookies are necessary for the operation of our Website and
+              enable you to navigate and use its features. Without these
+              cookies, certain services or functionalities may not be available.{" "}
+            </p>
+          </div>
+          <div className="mx-2">
+            <p className="text-white font-medium text-xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+              3.2 Performance Cookies
+            </p>
+            <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+              Performance cookies help us analyze how visitors use our Website
+              and monitor its performance. This information allows us to provide
+              a high-quality experience and improve our Website. These cookies
+              collect information such as the pages you visit, how long you
+              stay, and any errors you encounter.
+            </p>
+          </div>
+          <div className="mx-2">
+            <p className="text-white font-medium text-xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+              3.3 Functional Cookies
+            </p>
+            <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+              Functional cookies allow our Website to remember your preferences
+              and provide a more personalized experience. For example, these
+              cookies may remember your language preference or login details.
+            </p>
+          </div>
+          <div className="mx-2">
+            <p className="text-white font-medium text-xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+              3.4 Targeting Cookies
+            </p>
+            <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+              Targeting cookies are used to deliver advertisements that are
+              relevant to you and your interests. They may also be used to limit
+              the number of times you see an advertisement and help measure the
+              effectiveness of advertising campaigns. These cookies are often
+              set by third-party advertising networks.
+            </p>
+          </div>
+        </div>
+        <div>
+          <p className="mt-8 text-white font-normal text-2xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            4. Third-Party Cookies
+          </p>
+          <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            We may also use cookies from third-party service providers who
+            assist us in delivering our Website and Services. These third
+            parties may set their own cookies on your device. For example, we
+            may use analytics services provided by Google Analytics, which sets
+            cookies to help us understand how visitors interact with our
+            Website.
+          </p>
+        </div>
+        <div>
+          <p className="mt-8 text-white font-normal text-2xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            5. Managing Cookies
+          </p>
+          <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            You can manage your cookie preferences through your browser
+            settings. Most browsers allow you to:
+          </p>
+          <ul className="list-disc mx-7 text-white mt-2">
+            <li>View and delete cookies that have been set on your device.</li>
+            <li className="mt-2">
+              Block cookies from being set in the future.
+            </li>
+            <li className="mt-2">
+              Set your browser to notify you when cookies are being set.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p className="mt-8 text-white font-normal text-2xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            6. Changes to This Cookies Policy
+          </p>
+          <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            We may update this Cookies Policy from time to time to reflect
+            changes in our practices or legal requirements. Any updates will be
+            posted on this page, and we will notify you of significant changes
+            through our Website or by email. Your continued use of our Website
+            after any changes constitutes your acceptance of the updated Cookies
+            Policy.
+          </p>
+        </div>
+        <div>
+          <p className="mt-8 text-white font-normal text-2xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            10. Contact Us
+          </p>
+          <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            If you have any questions or concerns about this Privacy Policy or
+            our privacy practices, please contact us at
+          </p>
+          <ul className="list-disc mx-7 text-white mt-2">
+            <li>
+              <span className="text-[17px] font-semibold">Email: </span>
+              info@vadavision.com
+            </li>
+            <li className="mt-2">
+              <span className="text-[17px] font-semibold">Phone: </span>
+              +1 (701) 800-7001
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   );

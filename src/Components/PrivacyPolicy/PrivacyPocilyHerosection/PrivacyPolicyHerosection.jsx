@@ -68,38 +68,206 @@ const PrivacyPolicyHerosection = () => {
         </div>
       </div>
       <div className="px-20 pb-10 mobile-privacy-page">
-        <h1 className="text-5xl tracking-widest getintouch-gradient text-start hero-heading leading-[120%] urbanist font-bold text-white">
-          Privacy & Policy
-        </h1>
-        <p className="mt-8 text-white font-light text-sm leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti
-          omnis odio rem a? Ex laboriosam ullam nobis dolore atque amet adipisci
-          quidem fugit nulla laudantium, non soluta nesciunt consequatur!
-          Voluptate. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Dolorum, corrupti at? Optio numquam nesciunt soluta maiores, corrupti
-          et laboriosam itaque necessitatibus tempore? Excepturi molestiae hic,
-          odio rem velit debitis magni. Lorem, ipsum dolor sit amet consectetur
-          adipisicing elit. Eveniet earum totam minus cum vel id aspernatur
-          assumenda, porro natus suscipit expedita. Tenetur distinctio voluptate
-          aperiam vel. Accusamus expedita voluptas tempora? Lorem, ipsum dolor
-          sit amet consectetur adipisicing elit. Reprehenderit nulla eaque
-          laborum voluptates, similique aperiam corporis ipsam sunt mollitia
-          doloremque voluptatibus hic. Nisi, molestias sit perspiciatis quasi
-          dignissimos numquam quam? Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Deleniti omnis odio rem a? Ex laboriosam ullam nobis
-          dolore atque amet adipisci quidem fugit nulla laudantium, non soluta
-          nesciunt consequatur! Voluptate. Lorem, ipsum dolor sit amet
-          consectetur adipisicing elit. Dolorum, corrupti at? Optio numquam
-          nesciunt soluta maiores, corrupti et laboriosam itaque necessitatibus
-          tempore? Excepturi molestiae hic, odio rem velit debitis magni. Lorem,
-          ipsum dolor sit amet consectetur adipisicing elit. Eveniet earum totam
-          minus cum vel id aspernatur assumenda, porro natus suscipit expedita.
-          Tenetur distinctio voluptate aperiam vel. Accusamus expedita voluptas
-          tempora? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Reprehenderit nulla eaque laborum voluptates, similique aperiam
-          corporis ipsam sunt mollitia doloremque voluptatibus hic. Nisi,
-          molestias sit perspiciatis quasi dignissimos numquam quam?
+        <p className="mt-8 text-white font-normal text-xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+          Welcome to Vadavision! By accessing or using our website and services,
+          you agree to comply with and be bound by the following Privacy Policy.
+          Please read them carefully.
         </p>
+        <h1 className="text-5xl mt-5 tracking-widest getintouch-gradient text-start hero-heading leading-[120%] urbanist font-bold text-white">
+          Privacy Policy
+        </h1>
+        <div>
+          <p className="mt-8 text-white font-normal text-2xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            1. Introduction
+          </p>
+          <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            We are committed to protecting your privacy. This Privacy Policy
+            explains how we collect, use, disclose, and safeguard your
+            information when you visit our website vadavision.com and use our
+            services, including web development, mobile app development, UI/UX
+            design, automation, AI services, and resource management. By
+            accessing or using our Website and Services, you agree to the terms
+            of this Privacy Policy.
+          </p>
+        </div>
+        <div>
+          <p className="mt-8 text-white font-normal text-2xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            2. Information We Collect
+          </p>
+          <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            2.1 Personal Information <br />
+            We may also collect non-personal information automatically when you
+            interact with our Website and Services, such as:
+          </p>
+          <ul className="list-disc mx-7 text-white mt-2">
+            <li>
+              <span className="text-[17px] font-semibold">Usage Data: </span>
+              IP address, browser type, operating system, pages viewed, and time
+              spent on our Website.
+            </li>
+            <li className="mt-2">
+              <span className="text-[17px] font-semibold">
+                Cookies and Tracking Technologies:{" "}
+              </span>
+              We use cookies and similar technologies to enhance your
+              experience, analyze usage, and tailor content to your preferences.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p className="mt-8 text-white font-normal text-2xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            3. How We Use Your Information
+          </p>
+          <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            We use your information for various purposes, including:
+          </p>
+          <ul className="list-disc mx-7 text-white mt-2">
+            <li>
+              <span className="text-[17px] font-semibold">
+                To Provide and Improve Services:{" "}
+              </span>
+              To deliver and enhance our Services, including web development,
+              mobile app development, UI/UX design, automation, AI services, and
+              resource management.
+            </li>
+            <li className="mt-2">
+              <span className="text-[17px] font-semibold">To Communicate:</span>
+              To send you updates, newsletters, and promotional materials
+              related to our Services. You can opt-out of these communications
+              at any time.
+            </li>
+            <li className="mt-2">
+              <span className="text-[17px] font-semibold">
+                To Process Transactions:
+              </span>
+              To handle payments and process transactions securely.
+            </li>{" "}
+            <li className="mt-2">
+              <span className="text-[17px] font-semibold">
+                To Analyze and Monitor:
+              </span>
+              To analyze usage patterns and improve our Website and Services.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p className="mt-8 text-white font-normal text-2xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            4. How We Share Your Information
+          </p>
+          <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            We may share your information in the following circumstances:
+          </p>
+          <ul className="list-disc mx-7 text-white mt-2">
+            <li>
+              <span className="text-[17px] font-semibold">
+                With Service Providers:{" "}
+              </span>
+              We may share information with third-party service providers who
+              assist us in delivering our Services, such as payment processors,
+              analytics providers, and hosting services.
+            </li>
+            <li className="mt-2">
+              <span className="text-[17px] font-semibold">
+                For Legal Reasons: :
+              </span>
+              We may disclose your information if required by law or to comply
+              with legal processes, respond to requests from public authorities,
+              or protect our rights and interests.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p className="mt-8 text-white font-normal text-2xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            5. Data Security
+          </p>
+          <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            We implement reasonable security measures to protect your
+            information from unauthorized access, use, or disclosure. However,
+            no method of transmission over the internet or electronic storage is
+            completely secure, so we cannot guarantee absolute security.{" "}
+          </p>
+        </div>
+        <div>
+          <p className="mt-8 text-white font-normal text-2xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            6. Your Choices
+          </p>
+          <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            You have the following rights regarding your personal information:
+          </p>
+          <ul className="list-disc mx-7 text-white mt-2">
+            <li>
+              <span className="text-[17px] font-semibold">
+                Access and Update:
+              </span>
+              You can access and update your personal information by logging
+              into your account or contacting us directly.
+            </li>
+            <li className="mt-2">
+              <span className="text-[17px] font-semibold">Opt-Out: </span>
+              You can opt-out of receiving marketing communications by following
+              the unsubscribe instructions in those communications.
+            </li>
+            <li className="mt-2">
+              <span className="text-[17px] font-semibold">Cookies: </span>
+              You can manage your cookie preferences through your browser
+              settings.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p className="mt-8 text-white font-normal text-2xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            7. Third-Party Links
+          </p>
+          <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            Our Website may contain links to third-party websites. We are not
+            responsible for the privacy practices or content of these third
+            parties. We encourage you to review their privacy policies before
+            providing any information.
+          </p>
+        </div>
+        <div>
+          <p className="mt-8 text-white font-normal text-2xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            8. Children's Privacy
+          </p>
+          <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            Our Website and Services are not intended for children under the age
+            of 13. We do not knowingly collect personal information from
+            children. If we become aware that we have collected personal
+            information from a child, we will take steps to delete that
+            information.
+          </p>
+        </div>{" "}
+        <div>
+          <p className="mt-8 text-white font-normal text-2xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            9. Changes to This Privacy Policy
+          </p>
+          <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            We may update this Privacy Policy from time to time. Any changes
+            will be posted on this page, and we will notify you of significant
+            changes through our Website or by email. Your continued use of our
+            Website and Services after any changes constitutes your acceptance
+            of the updated Privacy Policy.
+          </p>
+        </div>
+        <div>
+          <p className="mt-8 text-white font-normal text-2xl leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            10. Contact Us
+          </p>
+          <p className="mt-2 text-white font-normal text-base leading-[40px] mx-auto min-w-[280px] urbanist mobile-full-width ">
+            If you have any questions or concerns about this Privacy Policy or
+            our privacy practices, please contact us at
+          </p>
+          <ul className="list-disc mx-7 text-white mt-2">
+            <li>
+              <span className="text-[17px] font-semibold">Email: </span>
+              info@vadavision.com
+            </li>
+            <li className="mt-2">
+              <span className="text-[17px] font-semibold">Phone: </span>
+              +1 (701) 800-7001
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   );

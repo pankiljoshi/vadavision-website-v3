@@ -8,6 +8,7 @@ import AiFace from "../../../../public/Images/webp/ai-bot.webp";
 import AppServise from "../../../../public/Images/webp/app-dev.webp";
 import Automation from "../../../../public/Images/webp/automation.webp";
 import Resource from "../../../../public/Images/webp/resource.webp";
+import logo from "../../../../public/Images/vadavision-logo.svg";
 import VadavisionLogo from "./NavIcons/VadavisionLogo";
 import AIService from "./NavIcons/AIService";
 import ActiveLogo from "./NavIcons/ActiveLogo";
@@ -665,7 +666,10 @@ const Navbar = () => {
                         )}
                       </div>
                       <div
-                        onMouseEnter={() => setIsServiceHovered(true)}
+                        onMouseEnter={() => {
+                          handleOpenPopup();
+                          setIsServiceHovered(true);
+                        }}
                         onMouseLeave={() => setIsServiceHovered(false)}
                         onClick={handleOpenPopup}
                         className="relative flex gap-2 py-4"
@@ -716,9 +720,9 @@ const Navbar = () => {
           </div>
           <div className="hamburger-icon  w-full relative  cursor-pointer hidden">
             <Link href="/">
-              <div className="Frame2 cursor-pointer py-4  pl-5 justify-start items-center gap-2 inline-flex">
+              <div className="Frame2 cursor-pointer py-4 justify-start items-center gap-2 inline-flex">
                 <span>
-                  <VadavisionLogo />
+                  <Image src={logo} alt="vadavision logo" />
                 </span>{" "}
                 <div className="Vadavision text-white text-xl font-bold prompt  leading-7">
                   VadaVision!
@@ -726,7 +730,7 @@ const Navbar = () => {
               </div>
             </Link>
 
-            <div className="float-end mt-4 px-4" onClick={handleToggle}>
+            <div className="float-end mt-4 px-2" onClick={handleToggle}>
               {showSVG ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -111,9 +111,10 @@ const GetInTouch = () => {
                   style={{ border: "1px solid rgba(255, 255, 255, 0.16" }}
                 >
                   <input
+                    style={{ backgroundColor: "rgba(255, 255, 255, 0.04)" }}
                     type="text"
                     placeholder="Your full name"
-                    className="border-none outline-none bg-[#8E8E8E] bg-opacity-5 urbanist  font-light  w-full py-3 text-white placeholder-[#8E8E8E] text-[16px] pl-4"
+                    className="border-none outline-none urbanist  font-light  w-full py-3 text-white placeholder-[#8E8E8E] text-[16px] pl-4"
                   />
                 </div>
               </div>
@@ -124,14 +125,14 @@ const GetInTouch = () => {
                   style={{ border: "1px solid rgba(255, 255, 255, 0.16" }}
                 >
                   <input
+                    style={{ backgroundColor: "rgba(255, 255, 255, 0.04)" }}
                     type="text"
                     placeholder="Your email"
-                    className="border-none outline-none bg-[#8E8E8E] urbanist bg-opacity-5  font-light  w-full py-3 text-white placeholder-[#8E8E8E] text-[16px] pl-4"
+                    className="border-none outline-none  urbanist  font-light  w-full py-3 text-white placeholder-[#8E8E8E] text-[16px] pl-4"
                   />
                 </div>
               </div>
             </div>
-
             <div className="flex flex-row gap-10 mt-4 form-second-row w-[100%]">
               <div className="w-[50%] phone-number  ">
                 <h1 className="text-[#CACACA] font-light urbanist">
@@ -139,13 +140,15 @@ const GetInTouch = () => {
                 </h1>
                 <div className="flex w-full gap-6">
                   <div
-                    className="mt-4  w-[100%] bg-[#8E8E8E] bg-opacity-5   "
+                    className="mt-4  w-[100%]"
                     style={{ border: "1px solid rgba(255, 255, 255, 0.16" }}
                   >
-                    <div className="w-full  bg-[#8E8E8E] bg-opacity-5 ">
+                    <div className="">
                       <PhoneInput
-                        className=" bg-[#8E8E8E] bg-opacity-5  "
-                        style={{ width: "100%" }}
+                        style={{
+                          backgroundColor: "rgba(255, 255, 255, 0.04)",
+                          width: "100%",
+                        }}
                         country={number}
                         placeholder="Your phone number"
                         onChange={(value) => {
@@ -163,15 +166,21 @@ const GetInTouch = () => {
                   Enquiry Type
                 </h1>
                 <div
-                  className="mt-4  w-[100%]  bg-[#8E8E8E] bg-opacity-5 justify-between  items-center "
+                  className="mt-4  w-[100%] justify-between  items-center "
                   style={{ border: "1px solid rgba(255, 255, 255, 0.16" }}
                 >
-                  <div className="flex justify-between  bg-[#8E8E8E] bg-opacity-5 w-[100%] items-center">
-                    <input
-                      type="text"
-                      placeholder="Select Enquiry Type"
-                      className="border-none outline-none bg-[#8E8E8E] bg-opacity-5 pl-4 urbanist font-light  w-full py-3 text-white placeholder-[#8E8E8E] text-[16px] "
-                    />
+                  <div className="flex justify-between  w-[100%] items-center">
+                    <select
+                      style={{ backgroundColor: "rgba(255, 255, 255, 0.04)" }}
+                      className="border-none outline-none bg-[#8E8E8E] urbanist  font-light  w-full py-[15px] text-white placeholder-[#8E8E8E] text-[16px] pl-4"
+                      name=""
+                      id=""
+                    >
+                      <option value="">Sales</option>
+                      <option value="">Partnership</option>{" "}
+                      <option value="">Hiring</option>
+                      <option value="">Other</option>
+                    </select>
                   </div>
                 </div>
               </div>
@@ -182,11 +191,14 @@ const GetInTouch = () => {
                 Your Message
               </div>
               <textarea
-                style={{ border: "1px solid rgba(255, 255, 255, 0.16" }}
+                style={{
+                  border: "1px solid rgba(255, 255, 255, 0.16",
+                  backgroundColor: "rgba(255, 255, 255, 0.04)",
+                }}
                 name="Enter your message"
                 id=""
                 cols="84"
-                className="mt-4 flex-wrap bg-[#8E8E8E] w-full bg-opacity-5 pl-4 placeholder-[#8E8E8E] urbanist text-[16px] font-light text-white pt-3 border-none outline-none"
+                className="mt-4 flex-wrap w-full pl-4 resize-none placeholder-[#8E8E8E] urbanist text-[16px] font-light text-white pt-3 border-none outline-none"
                 placeholder="Enter your message"
                 rows="7"
               ></textarea>

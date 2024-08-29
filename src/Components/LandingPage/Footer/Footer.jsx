@@ -21,9 +21,9 @@ const Footer = () => {
             >
               info@vadavision.ca
             </div>
-            <a href="tel:+916280007001">
+            <a href="tel:+17018007001">
               <div className="TermsOfService cursor-pointer   text-[#8E8E8E] text-[16px] font-normal urbanist">
-                +91 62 8000 7001
+                +1 (701) 800-7001{" "}
               </div>
             </a>
             <Link href="/cookies">

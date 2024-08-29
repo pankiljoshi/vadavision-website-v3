@@ -10,7 +10,7 @@ const AppDevelopmentHerosection = () => {
     <>
       <div className="w-full px-20 flex flex-row gap-24 app-development-herosection padding-full-website padding-industies py-20 bg-gradient-to-l from-black to-zinc-950">
         <div className=" w-[60%] app-development-leftside flex-col justify-start items-start gap-2 inline-flex fade-right">
-          <div className="justify-start items-center gap-3 inline-flex">
+          <div className="justify-start max-sm:justify-center max-sm:text-center max-sm:items-start max-sm:gap-0 items-center gap-3 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="28"
@@ -42,12 +42,12 @@ const AppDevelopmentHerosection = () => {
               PUSH YOUR BRAND POTENTIAL
             </div>
           </div>
-          <div className="flex-col justify-start items-start gap-10 flex">
-            <div className="flex-col justify-start items-start gap-6 flex">
-              <div className="w-[820px] text-neutral-100 app-development-heading  text-color-gradient  leading-tight text-[64px] font-bold prompt">
+          <div className="w-full flex-col justify-start items-start gap-10 flex">
+            <div className="w-full flex-col justify-start items-start gap-6 flex">
+              <div className="w-[820px] max-md:w-full text-neutral-100 app-development-heading  text-color-gradient  leading-tight text-[64px] font-bold prompt">
                 Your Hassle-Free Mobile App Journey Begins Here
               </div>
-              <div className=" text-neutral-400 app-development-paragraph text-xl font-medium urbanist">
+              <div className="max-md:w-full text-neutral-400 app-development-paragraph text-xl font-medium urbanist">
                 We develop innovative and scalable mobile apps for every device,
                 every way - be it Native, Hybrid or Cross-Platform. Our team
                 consists of top level developers having multiple years of
@@ -64,7 +64,7 @@ const AppDevelopmentHerosection = () => {
               <div className="zoom-in-btn BookACall  flex-row  herosection-Schedule-button cursor-pointer w-[198px] urbanist reponsive-button h-[48px] px-5 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button">
                 <Link
                   href="/contact-us"
-                  className="flex gap-4 w-full justify-center"
+                  className="flex gap-4 max-sm:gap-2 max-sm:mt-items-center w-full justify-center"
                 >
                   <div className="BookACall   text-white text-[16px] font-light urbanist  Schedule-button">
                     Schedule a Call

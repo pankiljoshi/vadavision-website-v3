@@ -5689,6 +5689,7 @@ body {
 .delay-2s {
   animation-delay: 2s;
 }
+
 .loader {
   width: fit-content;
   font-weight: bold;
@@ -5699,8 +5700,8 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-  clip-path: inset(0 2.5ch 0 0);
-  animation: l4 2s steps(4) infinite;
+  clip-path: inset(0 1.5ch 0 0);
+  animation: l4 1s steps(3) infinite;
   position: relative;
 }
 

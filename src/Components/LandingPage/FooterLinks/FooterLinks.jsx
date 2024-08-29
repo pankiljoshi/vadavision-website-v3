@@ -98,17 +98,14 @@ const FooterLinks = () => {
               Company
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
-              <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
-                Blog
-              </div>
-              <Link href="/careers">
-                <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
-                  Careers
-                </div>
-              </Link>
               <Link href="/contact-us">
                 <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
                   Contact Us
+                </div>
+              </Link>
+              <Link href="/careers">
+                <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
+                  Careers
                 </div>
               </Link>
             </div>
@@ -129,10 +126,6 @@ const FooterLinks = () => {
                   Privacy Policy
                 </div>
               </Link>
-
-              <div className="footer-link-font text-white cursor-pointer text-[19px] font-normal urbanist">
-                FAQs
-              </div>
             </div>
           </div>
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
@@ -186,9 +179,7 @@ const FooterLinks = () => {
 
               <Link
                 target="_blank"
-                href={
-                  "https://www.linkedin.com/company/vadavision/posts/?feedView=all"
-                }
+                href={"https://www.linkedin.com/company/vadavision"}
               >
                 {" "}
                 <div className="Button cursor-pointer social-media-hover-linkdin w-11 h-11 p-3 bg-gradient-to-b from-neutral-900 via-zinc-800 to-stone-950 border border-stone-950 border-opacity-0 justify-center items-center flex">

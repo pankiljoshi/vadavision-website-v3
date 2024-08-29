@@ -1,13 +1,11 @@
 import React from "react";
 
-const page = () => {
+const Page = () => {
   return (
-    <div>
-      <p className="h-screen flex justify-center items-center text-white text-[30px]">
-        Loading...
-      </p>
+    <div className="h-[88vh] flex justify-center items-center">
+      <p className="loader"></p>
     </div>
   );
 };
 
-export default page;
+export default Page;

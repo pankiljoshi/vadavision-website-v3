@@ -78,7 +78,7 @@ const GetInTouch = () => {
       return;
     }
     data.phone_number = number;
-    const result = await sendContactFor(data);
+    const result = await sendContactForm(data);
 
     if (result.success) {
       successToast("Message sent successfully!");
@@ -316,7 +316,6 @@ const GetInTouch = () => {
                 </div>
               </div>
             </div>
-            <div></div>
             <div className="mt-4 w-full flex-wrap">
               <div className="text-[#CACACA] font-light urbanist">
                 Your Message

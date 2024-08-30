@@ -3,6 +3,8 @@ import "./globals.css";
 import React from "react";
 import Head from "next/head";
 import Navbar from "../Components/Common/Navbar/Navbar";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const prompt = Prompt({
   subsets: ["latin"],
@@ -65,6 +67,7 @@ export default function RootLayout({ children }) {
             <Navbar />
           </div>
           <div>{children}</div>
+          <ToastContainer />
         </div>
       </body>
     </html>

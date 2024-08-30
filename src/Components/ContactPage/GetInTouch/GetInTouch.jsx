@@ -7,9 +7,35 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+import { useForm } from "react-hook-form";
+import useContact from "../../../apiHooks/constants/useContact";
+import ErrorIcon from "./ErrorIcon";
+import { errorToast, successToast } from "../../../utils/toast";
+import Select from "../../Common/CustomSelect/CustomSelect";
+
+const options = [
+  { value: "sales", label: "Sales" },
+  { value: "partnership", label: "Partnership" },
+  { value: "hiring", label: "Hiring" },
+  { value: "other", label: "Other" },
+];
 
 const GetInTouch = () => {
+  const [selectedValue, setSelectedValue] = React.useState("");
+
+  const handleSelectChange = (value) => {
+    setSelectedValue(value);
+  };
+  const { sendContactForm } = useContact();
   const [number, setNumber] = useState("in");
+  const {
+    control,
+    register,
+    handleSubmit,
+    formState: { errors },
+    setValue,
+  } = useForm();
+
   useEffect(() => {
     if (typeof document !== "undefined") {
       Aos.init({
@@ -20,6 +46,28 @@ const GetInTouch = () => {
       });
     }
   }, []);
+
+  const onSubmit = async (data) => {
+    if (!data.enquiry_type) {
+      // Set error for enquiry_type if empty
+      setError("enquiry_type", {
+        type: "manual",
+        message: "Enquiry type is required",
+      });
+      return; // Prevent form submission
+    }
+
+    data.phone_number = number;
+    console.log(data, "data", data.enquiry_type);
+
+    const result = await sendContactForm(data);
+
+    if (result.success) {
+      successToast("Message sent successfully!");
+    } else {
+      errorToast(result.message || "Failed to send message. Please try again.");
+    }
+  };
 
   return (
     <>
@@ -99,121 +147,213 @@ const GetInTouch = () => {
             and we’ll connect back super soon.
           </div>
         </div>
-        <div data-aos="fade-up" className="flex flex-wrap">
-          <div className="w-[60%] min-w-[550px] p-6 form-width  bg-neutral-900  flex-col justify-start items-start flex">
-            <div className="flex flex-row gap-10 w-full form-first-row">
-              <div className="w-[50%] full-name  ">
+        <form
+          onSubmit={handleSubmit(onSubmit)}
+          data-aos="fade-up"
+          className="flex flex-wrap"
+        >
+          <div className="w-[60%] min-w-[550px] p-6 bg-neutral-900 flex-col justify-start items-start flex">
+            <div className="flex flex-row gap-10 w-full">
+              <div className="w-[50%]">
                 <h1 className="text-[#CACACA] font-light urbanist">
                   Full Name
                 </h1>
-                <div
-                  className="mt-4"
-                  style={{ border: "1px solid rgba(255, 255, 255, 0.16" }}
-                >
+                <div className="mt-4">
                   <input
                     style={{ backgroundColor: "rgba(255, 255, 255, 0.04)" }}
                     type="text"
                     placeholder="Your full name"
-                    className="border-none outline-none urbanist  font-light  w-full py-3 text-white placeholder-[#8E8E8E] text-[16px] pl-4"
+                    className={`h-[50px] outline-none urbanist font-normal w-full py-3 text-white placeholder-[#8E8E8E] text-[16px] pl-4  ${
+                      errors.full_name
+                        ? "border border-[#DD4243]"
+                        : "border border-[#FFFFFF29]"
+                    }`}
+                    {...register("full_name", {
+                      required: "Full name is required",
+                    })}
                   />
                 </div>
-              </div>
-              <div className="w-[50%] email ">
-                <h1 className="text-[#CACACA] font-light urbanist">Email</h1>
                 <div
-                  className="mt-4"
-                  style={{ border: "1px solid rgba(255, 255, 255, 0.16" }}
+                  className={`mx-2 ${
+                    errors.full_name ? "opacity-100" : "opacity-0"
+                  } transition-opacity duration-300`}
                 >
+                  {errors.full_name && (
+                    <p className="mt-1 text-red-500 flex items-center gap-1">
+                      <span>
+                        {" "}
+                        <ErrorIcon />
+                      </span>
+                      {errors.full_name.message}
+                    </p>
+                  )}
+                </div>
+              </div>
+              <div className="w-[50%]">
+                <h1 className="text-[#CACACA] font-light urbanist">Email</h1>
+                <div className="mt-4">
                   <input
                     style={{ backgroundColor: "rgba(255, 255, 255, 0.04)" }}
-                    type="text"
+                    type="email"
                     placeholder="Your email"
-                    className="border-none outline-none  urbanist  font-light  w-full py-3 text-white placeholder-[#8E8E8E] text-[16px] pl-4"
+                    className={`h-[50px] outline-none urbanist font-normal w-full py-3 text-white placeholder-[#8E8E8E] text-[16px] pl-4  ${
+                      errors.email
+                        ? "border border-[#DD4243]"
+                        : "border border-[#FFFFFF29]"
+                    }`}
+                    {...register("email", {
+                      required: "Email is required",
+                      pattern: {
+                        value:
+                          /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$/,
+                        message: "Please enter a valid email address",
+                      },
+                    })}
                   />
+                </div>
+                <div
+                  className={`mx-2 ${
+                    errors.email ? "opacity-100" : "opacity-0"
+                  } transition-opacity duration-300`}
+                >
+                  {errors.email && (
+                    <p className="mt-1 text-red-500 flex items-center gap-1">
+                      <span>
+                        <ErrorIcon />
+                      </span>
+                      {errors.email.message}
+                    </p>
+                  )}
                 </div>
               </div>
             </div>
-            <div className="flex flex-row gap-10 mt-4 form-second-row w-[100%]">
-              <div className="w-[50%] phone-number  ">
+            <div className="flex flex-row gap-10 mt-4 w-[100%]">
+              <div className="w-[50%]">
                 <h1 className="text-[#CACACA] font-light urbanist">
                   Phone Number
                 </h1>
                 <div className="flex w-full gap-6">
                   <div
-                    className="mt-4  w-[100%]"
-                    style={{ border: "1px solid rgba(255, 255, 255, 0.16" }}
+                    className={`h-[50px] mt-4 w-[100%]  ${
+                      errors.phone_number
+                        ? "border border-[#DD4243]"
+                        : "border border-[#FFFFFF29]"
+                    }`}
                   >
-                    <div className="">
-                      <PhoneInput
-                        style={{
-                          backgroundColor: "rgba(255, 255, 255, 0.04)",
-                          width: "100%",
-                        }}
-                        country={number}
-                        placeholder="Your phone number"
-                        onChange={(value) => {
-                          setNumber(value);
-                        }}
-                        countryCodeEditable={false}
-                      />
-                    </div>
+                    <PhoneInput
+                      style={{
+                        backgroundColor: "rgba(255, 255, 255, 0.04)",
+                        width: "100%",
+                      }}
+                      country={number}
+                      placeholder="Your phone number"
+                      onChange={(value) => {
+                        setNumber(value);
+                        setValue("phone_number", value);
+                      }}
+                      countryCodeEditable={true}
+                    />
                   </div>
                 </div>
+                <div
+                  className={`mx-2 ${
+                    errors.phone_number ? "opacity-100" : "opacity-0"
+                  } transition-opacity duration-300`}
+                >
+                  {errors.phone_number && (
+                    <p className="mt-1 text-red-500 flex items-center gap-1">
+                      <span>
+                        <ErrorIcon />
+                      </span>
+                      {errors.phone_number.message}
+                    </p>
+                  )}
+                </div>
               </div>
-
-              <div className="w-[50%] enquiry  ">
+              <div className="w-[50%]">
                 <h1 className="text-[#CACACA] font-light urbanist">
                   Enquiry Type
                 </h1>
-                <div
-                  className="mt-4  w-[100%] justify-between  items-center "
-                  style={{ border: "1px solid rgba(255, 255, 255, 0.16" }}
-                >
-                  <div className="flex justify-between  w-[100%] items-center">
-                    <select
-                      style={{ backgroundColor: "rgba(255, 255, 255, 0.04)" }}
-                      className="border-none outline-none bg-[#8E8E8E] urbanist  font-light  w-full py-[15px] text-white placeholder-[#8E8E8E] text-[16px] pl-4"
-                      name=""
-                      id=""
-                    >
-                      <option value="">Sales</option>
-                      <option value="">Partnership</option>{" "}
-                      <option value="">Hiring</option>
-                      <option value="">Other</option>
-                    </select>
+                <div className="mt-4 w-[100%]">
+                  <Select
+                    options={options}
+                    placeholder="Select enquiry type"
+                    name="enquiry_type"
+                    register={register}
+                    error={errors.enquiry_type}
+                    onChange={(value) => setValue("enquiry_type", value)}
+                    className={`w-full ${
+                      errors.enquiry_type
+                        ? "border border-[#DD4243]"
+                        : "border border-[#FFFFFF29]"
+                    }`}
+                  />
+                  <div
+                    className={`mx-2 ${
+                      errors.enquiry_type ? "opacity-100" : "opacity-0"
+                    } transition-opacity duration-300`}
+                  >
+                    {errors.enquiry_type && (
+                      <p className="mt-1 text-red-500 flex items-center gap-1">
+                        <span>
+                          <ErrorIcon />
+                        </span>
+                        {errors.enquiry_type.message}
+                      </p>
+                    )}
                   </div>
                 </div>
               </div>
             </div>
-
+            <div></div>
             <div className="mt-4 w-full flex-wrap">
-              <div className="text-[#CACACA] font-light urbanist ">
+              <div className="text-[#CACACA] font-light urbanist">
                 Your Message
               </div>
               <textarea
                 style={{
-                  border: "1px solid rgba(255, 255, 255, 0.16",
                   backgroundColor: "rgba(255, 255, 255, 0.04)",
                 }}
-                name="Enter your message"
-                id=""
                 cols="84"
-                className="mt-4 flex-wrap w-full pl-4 resize-none placeholder-[#8E8E8E] urbanist text-[16px] font-light text-white pt-3 border-none outline-none"
-                placeholder="Enter your message"
                 rows="7"
-              ></textarea>
-            </div>
-            <div className="w-full  flex justify-end mt-4 cursor-pointer">
-              <div className="w-[211px]  px-10 py-3 bg-[#DD4243] hover:bg-[#D53033]  gap-4 ">
-                <div className="text-white text-xl font-light urbanist">
-                  Send Message
-                </div>
+                placeholder="Enter your message"
+                className={`mt-4 flex-wrap w-full pl-4 resize-none placeholder-[#8E8E8E] urbanist text-[16px] font-light text-white pt-3 outline-none  ${
+                  errors.message
+                    ? "border border-[#DD4243]"
+                    : "border border-[#FFFFFF29]"
+                }`}
+                {...register("message", {
+                  required: "Message is required",
+                })}
+              />
+              <div
+                className={`mx-2 ${
+                  errors.message ? "opacity-100" : "opacity-0"
+                } transition-opacity duration-300`}
+              >
+                {errors.message && (
+                  <p className="mt-1 text-red-500 flex items-center gap-1">
+                    <span>
+                      <ErrorIcon />
+                    </span>
+                    {errors.message.message}
+                  </p>
+                )}
               </div>
             </div>
+            <div className="w-full flex justify-end mt-4 cursor-pointer">
+              <button
+                type="submit"
+                className="w-[211px] px-10 py-3 bg-[#DD4243] hover:bg-[#D53033] text-white text-xl font-light urbanist"
+              >
+                Send Message
+              </button>
+            </div>
           </div>
-          <div className="w-[40%] min-w-[380px] image-width flex justify-center items-center">
+
+          <div className="w-[40%] min-w-[380px] flex justify-center items-center">
             <div
-              className="w-[550px] h-[550px] image-width"
+              className="w-[550px] h-[550px]"
               style={{ mixBlendMode: "luminosity" }}
             >
               <Image
@@ -224,7 +364,7 @@ const GetInTouch = () => {
               />
             </div>
           </div>
-        </div>
+        </form>
       </div>
     </>
   );

@@ -41,7 +41,7 @@ const ContactInfo = () => {
               </svg>
             </span>{" "}
             <p className="text-white font-light text-[24px] text-size  urbanist">
-              +91 62 8000 7001{" "}
+              +1 (701) 800-7001
             </p>
           </div>
         </div>{" "}

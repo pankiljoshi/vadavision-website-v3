@@ -168,11 +168,11 @@ const GetInTouch = () => {
         <form
           onSubmit={handleSubmit(onSubmit)}
           data-aos="fade-up"
-          className="flex flex-wrap"
+          className="w-full flex flex-wrap"
         >
-          <div className="w-[60%] min-w-[550px] p-6 bg-neutral-900 flex-col justify-start items-start flex">
-            <div className="flex flex-row gap-10 w-full">
-              <div className="w-[50%]">
+          <div className="w-[60%] min-w-[550px] max-md:min-w-full max-md:w-full p-6 bg-neutral-900 flex-col justify-start items-start flex">
+            <div className="flex flex-row max-md:flex-wrap items-center gap-10 w-full">
+              <div className="w-[50%] max-md:w-full">
                 <h1 className="text-[#CACACA] font-light urbanist">
                   Full Name
                 </h1>
@@ -207,7 +207,7 @@ const GetInTouch = () => {
                   )}
                 </div>
               </div>
-              <div className="w-[50%]">
+              <div className="w-[50%] max-md:w-full">
                 <h1 className="text-[#CACACA] font-light urbanist">Email</h1>
                 <div className="mt-4">
                   <input
@@ -245,8 +245,8 @@ const GetInTouch = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-row gap-10 mt-4 w-[100%]">
-              <div className="w-[50%]">
+            <div className="flex flex-row max-md:flex-wrap items-center gap-10 mt-4 w-[100%]">
+              <div className="w-[50%] max-md:w-full">
                 <h1 className="text-[#CACACA] font-light urbanist">
                   Phone Number
                 </h1>
@@ -290,7 +290,7 @@ const GetInTouch = () => {
                   )}
                 </div>
               </div>
-              <div className="w-[50%]">
+              <div className="w-[50%] max-md:w-full">
                 <h1 className="text-[#CACACA] font-light urbanist">
                   Enquiry Type
                 </h1>
@@ -363,9 +363,9 @@ const GetInTouch = () => {
             </div>
           </div>
 
-          <div className="w-[40%] min-w-[380px] flex justify-center items-center">
+          <div className="w-[40%] min-w-[380px] max-md:min-w-full max-md:w-full flex justify-center items-center">
             <div
-              className="w-[550px] h-[550px]"
+              className="w-[550px] h-[550px] max-md:w-full max-md:mt-5 mx-auto"
               style={{ mixBlendMode: "luminosity" }}
             >
               <Image

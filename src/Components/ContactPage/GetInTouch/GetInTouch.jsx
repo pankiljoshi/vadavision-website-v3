@@ -235,7 +235,7 @@ const GetInTouch = () => {
                   } transition-opacity duration-300`}
                 >
                   {errors.email && (
-                    <p className="mt-1 text-red-500 flex items-center gap-1">
+                    <p className="mt-1 text-sm text-red-500 flex items-center gap-1">
                       <span>
                         <ErrorIcon />
                       </span>
@@ -277,15 +277,15 @@ const GetInTouch = () => {
                 </div>
                 <div
                   className={`mx-2 ${
-                    errors.number ? "opacity-100" : "opacity-0"
+                    errors.phone_number ? "opacity-100" : "opacity-0"
                   } transition-opacity duration-300`}
                 >
-                  {errors.number && (
-                    <p className="mt-1 text-red-500 flex items-center gap-1">
+                  {errors.phone_number && (
+                    <p className="mt-1 text-sm text-red-500 flex items-center gap-1">
                       <span>
                         <ErrorIcon />
                       </span>
-                      {errors.number.message}
+                      {errors.phone_number.message}
                     </p>
                   )}
                 </div>
@@ -342,7 +342,7 @@ const GetInTouch = () => {
                 } transition-opacity duration-300`}
               >
                 {errors.message && (
-                  <p className="mt-1 text-red-500 flex items-center gap-1">
+                  <p className="mt-1 text-sm text-red-500 flex items-center gap-1">
                     <span>
                       <ErrorIcon />
                     </span>

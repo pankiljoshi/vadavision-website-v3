@@ -34,6 +34,8 @@ const GetInTouch = () => {
     handleSubmit,
     formState: { errors },
     setValue,
+    setError,
+    clearErrors,
   } = useForm();
 
   useEffect(() => {
@@ -47,20 +49,36 @@ const GetInTouch = () => {
     }
   }, []);
 
-  const onSubmit = async (data) => {
-    if (!data.enquiry_type) {
-      // Set error for enquiry_type if empty
+  const validateEnquiryType = () => {
+    if (!selectedValue) {
       setError("enquiry_type", {
         type: "manual",
         message: "Enquiry type is required",
       });
-      return; // Prevent form submission
+      return false;
     }
+    clearErrors("enquiry_type");
+    return true;
+  };
 
+  const validatePhoneNumber = () => {
+    if (!number) {
+      setError("phone_number", {
+        type: "manual",
+        message: "Phone number is required",
+      });
+      return false;
+    }
+    clearErrors("phone_number");
+    return true;
+  };
+
+  const onSubmit = async (data) => {
+    if (!validateEnquiryType() || !validatePhoneNumber()) {
+      return;
+    }
     data.phone_number = number;
-    console.log(data, "data", data.enquiry_type);
-
-    const result = await sendContactForm(data);
+    const result = await sendContactFor(data);
 
     if (result.success) {
       successToast("Message sent successfully!");
@@ -179,7 +197,7 @@ const GetInTouch = () => {
                   } transition-opacity duration-300`}
                 >
                   {errors.full_name && (
-                    <p className="mt-1 text-red-500 flex items-center gap-1">
+                    <p className="mt-1 text-sm text-red-500 flex items-center gap-1">
                       <span>
                         {" "}
                         <ErrorIcon />
@@ -245,27 +263,29 @@ const GetInTouch = () => {
                         backgroundColor: "rgba(255, 255, 255, 0.04)",
                         width: "100%",
                       }}
-                      country={number}
+                      country={"in"}
                       placeholder="Your phone number"
+                      value={number}
                       onChange={(value) => {
                         setNumber(value);
                         setValue("phone_number", value);
+                        clearErrors("phone_number");
                       }}
-                      countryCodeEditable={true}
+                      onBlur={validatePhoneNumber}
                     />
                   </div>
                 </div>
                 <div
                   className={`mx-2 ${
-                    errors.phone_number ? "opacity-100" : "opacity-0"
+                    errors.number ? "opacity-100" : "opacity-0"
                   } transition-opacity duration-300`}
                 >
-                  {errors.phone_number && (
+                  {errors.number && (
                     <p className="mt-1 text-red-500 flex items-center gap-1">
                       <span>
                         <ErrorIcon />
                       </span>
-                      {errors.phone_number.message}
+                      {errors.number.message}
                     </p>
                   )}
                 </div>
@@ -276,32 +296,23 @@ const GetInTouch = () => {
                 </h1>
                 <div className="mt-4 w-[100%]">
                   <Select
+                    value={selectedValue}
+                    onChange={(newValue) => {
+                      setSelectedValue(newValue);
+                      setValue("enquiry_type", newValue);
+                      clearErrors("enquiry_type");
+                    }}
+                    className=""
+                    placeholder="Select Enquiry Type"
                     options={options}
-                    placeholder="Select enquiry type"
-                    name="enquiry_type"
-                    register={register}
-                    error={errors.enquiry_type}
-                    onChange={(value) => setValue("enquiry_type", value)}
-                    className={`w-full ${
-                      errors.enquiry_type
-                        ? "border border-[#DD4243]"
-                        : "border border-[#FFFFFF29]"
-                    }`}
                   />
-                  <div
-                    className={`mx-2 ${
-                      errors.enquiry_type ? "opacity-100" : "opacity-0"
-                    } transition-opacity duration-300`}
-                  >
-                    {errors.enquiry_type && (
-                      <p className="mt-1 text-red-500 flex items-center gap-1">
-                        <span>
-                          <ErrorIcon />
-                        </span>
-                        {errors.enquiry_type.message}
-                      </p>
-                    )}
-                  </div>
+
+                  {errors.enquiry_type && (
+                    <div className="text-red-500 text-sm flex items-center gap-2">
+                      <ErrorIcon />
+                      <span>{errors.enquiry_type.message}</span>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
@@ -343,6 +354,7 @@ const GetInTouch = () => {
             </div>
             <div className="w-full flex justify-end mt-4 cursor-pointer">
               <button
+                onClick={() => validateEnquiryType()}
                 type="submit"
                 className="w-[211px] px-10 py-3 bg-[#DD4243] hover:bg-[#D53033] text-white text-xl font-light urbanist"
               >

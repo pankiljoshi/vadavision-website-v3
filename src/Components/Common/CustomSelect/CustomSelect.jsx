@@ -8,7 +8,10 @@ import React, {
 import ErrorIcon from "../../ContactPage/GetInTouch/ErrorIcon";
 
 const CustomSelect = forwardRef(
-  ({ options, placeholder, register, name, error, onChange }, ref) => {
+  (
+    { options, placeholder, register, className, name, error, onChange },
+    ref
+  ) => {
     const [isOpen, setIsOpen] = useState(false);
     const [selectedValue, setSelectedValue] = useState("");
     const dropdownRef = useRef(null);
@@ -45,11 +48,11 @@ const CustomSelect = forwardRef(
         <button
           style={{ backgroundColor: "rgba(255, 255, 255, 0.04)" }}
           type="button"
-          className={`w-full text-white py-[15px] px-4 text-[16px] h-[50px] flex items-center justify-between ${
+          className={` ${className} w-full text-white py-[15px] px-4 text-[16px] h-[50px] flex items-center justify-between ${
             error ? "border border-[#DD4243]" : "border border-[#FFFFFF29]"
           }`}
           onClick={() => setIsOpen(!isOpen)}
-          {...register(name)}
+          //   {...register(name)}
         >
           <span
             className={`${

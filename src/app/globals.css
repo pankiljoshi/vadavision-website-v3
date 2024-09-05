@@ -5760,3 +5760,32 @@ body {
   border-right: 1px solid #cacaca;
   border-radius: 0 !important;
 }
+
+.loading-circle {
+  border: 4px solid #1a5bc4;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+.loading {
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(227 227 227 / 70%);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

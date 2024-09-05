@@ -12,6 +12,7 @@ import useContact from "../../../apiHooks/constants/useContact";
 import ErrorIcon from "./ErrorIcon";
 import { errorToast, successToast } from "../../../utils/toast";
 import Select from "../../Common/CustomSelect/CustomSelect";
+import ButtonLoader from "../../Common/ButtonLoader";
 
 const options = [
   { value: "sales", label: "Sales" },
@@ -22,6 +23,7 @@ const options = [
 
 const GetInTouch = () => {
   const [selectedValue, setSelectedValue] = React.useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleSelectChange = (value) => {
     setSelectedValue(value);
@@ -77,6 +79,7 @@ const GetInTouch = () => {
     if (!validateEnquiryType() || !validatePhoneNumber()) {
       return;
     }
+    setIsLoading(true);
     data.phone_number = number;
     const result = await sendContactForm(data);
 
@@ -85,6 +88,7 @@ const GetInTouch = () => {
     } else {
       errorToast(result.message || "Failed to send message. Please try again.");
     }
+    setIsLoading(false);
   };
 
   return (
@@ -352,16 +356,29 @@ const GetInTouch = () => {
               </div>
             </div>
             <div className="w-full flex justify-end mt-4 cursor-pointer">
-              <button
-                onClick={() => validateEnquiryType()}
-                type="submit"
-                className="w-[211px] px-10 py-3 bg-[#DD4243] hover:bg-[#D53033] text-white text-xl font-light urbanist"
-              >
-                Send Message
-              </button>
+              {!isLoading ? (
+                <button
+                  onClick={() => validateEnquiryType()}
+                  type="submit"
+                  className="w-[211px] px-10 py-3 bg-[#DD4243] hover:bg-[#D53033] text-white text-xl font-light urbanist"
+                >
+                  Send Message
+                </button>
+              ) : (
+                <div>
+                  <ButtonLoader
+                    text={"Loading"}
+                    backgroundColor={"#DD4243"}
+                    textColor={"white"}
+                    // padding={"2px 0px 2px"}
+                    // margin={"1px 0px 0px 0px"}
+                    // fontSize={"10px"}
+                    className="flex items-center gap-2 w-[211px] px-10 py-3 bg-[#DD4243] hover:bg-[#D53033] text-white text-xl font-light urbanist"
+                  />
+                </div>
+              )}
             </div>
           </div>
-
           <div className="w-[40%] min-w-[380px] max-md:min-w-full max-md:w-full flex justify-center items-center">
             <div
               className="w-[550px] h-[550px] max-md:w-full max-md:mt-5 mx-auto"

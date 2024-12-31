@@ -67,7 +67,7 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us gap-2  inline-flex">
+                {/* <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us gap-2  inline-flex">
                   <div className="ScheduleACall text-neutral-400 cursor-pointer text-sm inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
@@ -92,7 +92,7 @@ const Industries = () => {
                       </g>
                     </svg>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="hover-effect "></div>
             </div>{" "}
@@ -153,7 +153,7 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us   gap-2 inline-flex">
+                {/* <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us   gap-2 inline-flex">
                   <div className="ScheduleACall text-neutral-400 text-sm  cursor-pointer inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
@@ -178,7 +178,7 @@ const Industries = () => {
                       </g>
                     </svg>
                   </div>{" "}
-                </div>
+                </div> */}
               </div>
               <div className="hover-effect "></div>
             </div>{" "}
@@ -237,7 +237,7 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us  gap-2 inline-flex">
+                {/* <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us  gap-2 inline-flex">
                   <div className="ScheduleACall text-neutral-400 cursor-pointer text-sm inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
@@ -262,7 +262,7 @@ const Industries = () => {
                       </g>
                     </svg>
                   </div>{" "}
-                </div>
+                </div> */}
               </div>
               <div className="hover-effect "></div>
             </div>{" "}
@@ -313,7 +313,7 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us  gap-2 inline-flex">
+                {/* <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us  gap-2 inline-flex">
                   <div className="ScheduleACall text-neutral-400 cursor-pointer text-sm inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
@@ -338,7 +338,7 @@ const Industries = () => {
                       </g>
                     </svg>
                   </div>{" "}
-                </div>
+                </div> */}
               </div>
               <div className="hover-effect "></div>
             </div>{" "}
@@ -419,7 +419,7 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us  gap-2 inline-flex">
+                {/* <div className="Frame1171281437 arrow-responsive justify-start items-center consult-us  gap-2 inline-flex">
                   <div className="ScheduleACall text-neutral-400 text-sm cursor-pointer inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
@@ -444,7 +444,7 @@ const Industries = () => {
                       </g>
                     </svg>
                   </div>{" "}
-                </div>
+                </div> */}
               </div>
               <div className="hover-effect "></div>
             </div>{" "}
@@ -490,7 +490,7 @@ const Industries = () => {
                     </div>
                   </div>
                 </div>
-                <div className="Frame1171281437 arrow-responsive justify-start cursor-pointer items-center consult-us  gap-2 inline-flex">
+                {/* <div className="Frame1171281437 arrow-responsive justify-start cursor-pointer items-center consult-us  gap-2 inline-flex">
                   <div className="ScheduleACall text-neutral-400 cursor-pointer text-sm inudstries-paragraph font-light urbanist">
                     Learn More{" "}
                   </div>
@@ -515,7 +515,7 @@ const Industries = () => {
                       </g>
                     </svg>
                   </div>{" "}
-                </div>
+                </div> */}
               </div>
               <div className="hover-effect "></div>
             </div>

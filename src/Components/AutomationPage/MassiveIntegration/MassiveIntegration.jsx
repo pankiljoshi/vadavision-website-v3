@@ -105,7 +105,7 @@ const MassiveIntegration = () => {
           </div>
         </div>
 
-        <div
+        {/* <div
           data-aos="zoom-in"
           className="w-[380px] h-[48px]  py-4 mt-20   justify-center  items-center bg-red-600 mx-auto  gap-4 inline-flex"
         >
@@ -128,7 +128,7 @@ const MassiveIntegration = () => {
               />
             </svg>{" "}
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="w-full px-20 py-20  massive-integration-mobile-bg hidden massive-integration-mobile-view  padding-industies">
@@ -198,14 +198,14 @@ const MassiveIntegration = () => {
           </div>
         </div>
 
-        <div
+        {/* <div
           data-aos="zoom-in"
           className="w-full h-10 px-10 py-4 mt-20  bg-red-500 justify-center items-center gap-4 inline-flex"
         >
           <div className="text-white text-[20px] font-normal urbanist ">
             View all Integrations
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

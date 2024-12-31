@@ -70,14 +70,14 @@ const Herosection = () => {
             </div>
           </div>
           <div className=" justify-start buttons-herosection items-center gap-10 inline-flex reponsive-button ">
-            <div
+            {/* <div
               data-aos="zoom-in"
               className="BookACall explore-more cursor-pointer h-[48px] px-9 reponsive-button bg-white hover:bg-[#FFFFFF3D] bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-4 flex explore-button"
             >
               <div className="BookACall w-[120px] text-white text-[20px] font-light text-center urbanist   explore-button">
                 Explore More
               </div>
-            </div>
+            </div> */}
             <div
               data-aos="zoom-in"
               className="BookACall  flex-row  herosection-Schedule-button cursor-pointer w-[198px] urbanist reponsive-button h-[48px] px-5 bg-[#DD4243] hover:bg-[#D53033] items-center gap-4 flex Schedule-button"

@@ -36,7 +36,7 @@ const ConsultWithUs = () => {
               <Link href="/contact-us">
                 <div className="Schedulecall h-12 px-10 py-4 bg-[#DD4243] hover:bg-[#D53033] cursor-pointer justify-center items-center gap-4 inline-flex">
                   <div className="BookACall text-white text-xl font-light  urbanist">
-                    Schedule a Call
+                    Get In Touch
                   </div>
                   <div className="Div w-6 h-6 p-2 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
                     <div className="ChevronRight w-4 h-4 relative">

@@ -23,7 +23,7 @@ const CopywriterRoadmap = () => {
   return (
     <>
       <div
-        className={`w-full campaign-herosection-light-bg bg-black py-10 px-6 sm:px-8 lg:px-20 xl:px-40 flex flex-col lg:flex-row justify-center items-center gap-12 lg:gap-20 ${lato.className}`}
+        className={`w-full campaign-herosection-light-bg bg-black py-16 px-6 sm:px-8 lg:px-20 xl:px-40 flex flex-col lg:flex-row justify-center items-center gap-12 lg:gap-20 ${lato.className}`}
       >
         <div className="w-full lg:w-[46%] text-center lg:text-left">
           <div className="text-white dark:text-black text-center text-[28px]  lg:text-[40px] font-bold leading-snug">

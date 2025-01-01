@@ -40,9 +40,9 @@ const AiLanding = () => {
       <div>
         <ConsultWithUs />
       </div>
-      <div>
+      {/* <div>
         <CaseStudies />
-      </div>
+      </div> */}
       <div>
         <Testimonials />
       </div>

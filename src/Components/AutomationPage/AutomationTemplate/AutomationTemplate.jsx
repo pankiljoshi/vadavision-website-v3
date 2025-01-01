@@ -80,7 +80,7 @@ const AutomationTemplate = () => {
                 marketing. You can also customise it.
               </div>
             </div>
-            <div className="px-4 py-2.5 mt-6 cursor-pointer  bg-white bg-opacity-5 border border-white border-opacity-25 flex-col justify-start items-start gap-6 inline-flex">
+            {/* <div className="px-4 py-2.5 mt-6 cursor-pointer  bg-white bg-opacity-5 border border-white border-opacity-25 flex-col justify-start items-start gap-6 inline-flex">
               <div className="justify-start items-center gap-2 inline-flex">
                 <div className="text-white text-sm font-normal urbanist">
                   Use Template
@@ -100,7 +100,7 @@ const AutomationTemplate = () => {
                   </svg>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="w-[390px]  automation-cards h-[485px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
             <Image src={GoogleSheet} className="automation-templated-cards" />
@@ -113,7 +113,7 @@ const AutomationTemplate = () => {
                 marketing. You can also customise it.
               </div>
             </div>
-            <div className="px-4 py-2.5 mt-6 cursor-pointer  bg-white bg-opacity-5 border border-white border-opacity-25 flex-col justify-start items-start gap-6 inline-flex">
+            {/* <div className="px-4 py-2.5 mt-6 cursor-pointer  bg-white bg-opacity-5 border border-white border-opacity-25 flex-col justify-start items-start gap-6 inline-flex">
               <div className="justify-start items-center gap-2 inline-flex">
                 <div className="text-white text-sm font-normal urbanist">
                   Use Template
@@ -133,7 +133,7 @@ const AutomationTemplate = () => {
                   </svg>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="w-[390px]  automation-cards h-[485px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
             <Image
@@ -149,7 +149,7 @@ const AutomationTemplate = () => {
                 marketing. You can also customise it.
               </div>
             </div>
-            <div className="px-4 py-2.5 mt-6 cursor-pointer  bg-white bg-opacity-5 border border-white border-opacity-25 flex-col justify-start items-start gap-6 inline-flex">
+            {/* <div className="px-4 py-2.5 mt-6 cursor-pointer  bg-white bg-opacity-5 border border-white border-opacity-25 flex-col justify-start items-start gap-6 inline-flex">
               <div className="justify-start items-center gap-2 inline-flex">
                 <div className="text-white text-sm font-normal urbanist">
                   Use Template
@@ -169,7 +169,7 @@ const AutomationTemplate = () => {
                   </svg>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="w-[390px]  automation-cards h-[485px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
             <Image src={Notionx} className="automation-templated-cards" />
@@ -182,7 +182,7 @@ const AutomationTemplate = () => {
                 marketing. You can also customise it.
               </div>
             </div>
-            <div className="px-4 py-2.5 mt-6  cursor-pointer bg-white bg-opacity-5 border border-white border-opacity-25 flex-col justify-start items-start gap-6 inline-flex">
+            {/* <div className="px-4 py-2.5 mt-6  cursor-pointer bg-white bg-opacity-5 border border-white border-opacity-25 flex-col justify-start items-start gap-6 inline-flex">
               <div className="justify-start items-center gap-2 inline-flex">
                 <div className="text-white text-sm font-normal urbanist">
                   Use Template
@@ -202,7 +202,7 @@ const AutomationTemplate = () => {
                   </svg>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="w-[390px]  automation-cards h-[485px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
             <Image src={Trello} className="automation-templated-cards" />
@@ -215,7 +215,7 @@ const AutomationTemplate = () => {
                 marketing. You can also customise it.
               </div>
             </div>
-            <div className="px-4 py-2.5 mt-6 cursor-pointer  bg-white bg-opacity-5 border border-white border-opacity-25 flex-col justify-start items-start gap-6 inline-flex">
+            {/* <div className="px-4 py-2.5 mt-6 cursor-pointer  bg-white bg-opacity-5 border border-white border-opacity-25 flex-col justify-start items-start gap-6 inline-flex">
               <div className="justify-start items-center gap-2 inline-flex">
                 <div className="text-white text-sm font-normal urbanist">
                   Use Template
@@ -235,7 +235,7 @@ const AutomationTemplate = () => {
                   </svg>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="w-[390px]  automation-cards h-[485px] px-5  pt-6 bg-gradient-to-b from-zinc-900 to-neutral-900 custom-border-style">
             <Image src={Mailchimp} className="automation-templated-cards" />
@@ -248,7 +248,7 @@ const AutomationTemplate = () => {
                 marketing. You can also customise it.
               </div>
             </div>
-            <div className="px-4 py-2.5 mt-6 cursor-pointer  bg-white bg-opacity-5 border border-white border-opacity-25 flex-col justify-start items-start gap-6 inline-flex">
+            {/* <div className="px-4 py-2.5 mt-6 cursor-pointer  bg-white bg-opacity-5 border border-white border-opacity-25 flex-col justify-start items-start gap-6 inline-flex">
               <div className="justify-start items-center gap-2 inline-flex">
                 <div className="text-white text-sm font-normal urbanist">
                   Use Template
@@ -268,7 +268,7 @@ const AutomationTemplate = () => {
                   </svg>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

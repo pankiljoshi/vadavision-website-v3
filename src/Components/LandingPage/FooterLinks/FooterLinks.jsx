@@ -93,7 +93,7 @@ const FooterLinks = () => {
               </Link>
             </div>
           </div>
-          <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
+          {/* <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
             <div className="footer-heading-text text-neutral-400 text-base font-normal urbanist">
               Company
             </div>
@@ -109,10 +109,10 @@ const FooterLinks = () => {
                 </div>
               </Link>
             </div>
-          </div>
+          </div> */}
           <div className="LinksColumn flex-col justify-start items-start gap-4 inline-flex">
             <div className="Resources footer-heading-text text-neutral-400 text-base font-medium urbanist">
-              Resources
+              Information
             </div>
             <div className="Links flex-col justify-start items-start gap-4 flex">
               <Link href="/terms-and-condition">
@@ -124,6 +124,11 @@ const FooterLinks = () => {
               <Link href="/privacy-policy">
                 <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
                   Privacy Policy
+                </div>
+              </Link>
+              <Link href="/contact-us">
+                <div className="footer-link-font cursor-pointer text-white text-[19px] font-normal urbanist">
+                  Contact Us
                 </div>
               </Link>
             </div>

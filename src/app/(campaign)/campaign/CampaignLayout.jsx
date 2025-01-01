@@ -21,16 +21,29 @@ const CampaignLayout = () => {
       setDarkMode(themeMode === "dark");
     }
   }, [themeMode]);
+  const [systemPreference, setSystemPreference] = useState("light");
+
+  useEffect(() => {
+    const updateSystemPreference = () => {
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      setSystemPreference(prefersDark ? "dark" : "light");
+    };
+
+    updateSystemPreference();
+
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    mediaQuery.addEventListener("change", updateSystemPreference);
+
+    return () => mediaQuery.removeEventListener("change", updateSystemPreference);
+  }, []);
+
   return (
     <section className={`${darkMode ? "" : "dark"}`}>
       <CampaignHerosection />
       <OurClients />
 
       <DesignAuditReport
-        toggle={() => setDarkMode(!darkMode)}
-        darkMode={darkMode}
-        themeMode={themeMode}
-        setThemeMode={setThemeMode}
+       themeMode={themeMode} systemPreference={systemPreference}
       />
 
       <LeadDesigner />

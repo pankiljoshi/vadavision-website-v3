@@ -19,7 +19,7 @@ const lato = Lato({
   variable: "--font-lato",
 });
 
-const DesignAuditReport = ({ themeMode }) => {
+const DesignAuditReport = ({ themeMode, systemPreference }) => {
   const roadmapPoints = [
     {
       text: "Identify and fix 80% of usability problems on your website with expert analysis and guidance",
@@ -44,7 +44,8 @@ const DesignAuditReport = ({ themeMode }) => {
   const handelCloseAuditPopup = () => {
     setAuditPopupOpen(false)
   }
-  
+  const activeTheme = themeMode === "system" ? systemPreference : themeMode;
+
   return (
     <>
       <div
@@ -57,8 +58,8 @@ const DesignAuditReport = ({ themeMode }) => {
           <span className="text-[#6CE9B9] dark:text-[#DD4243]"> convert more visitors</span>, and elevate your brand with our design audit
         </div>
 
-        <div className="flex flex-col lg:flex-row items-center w-full justify-center py-10 gap-10 lg:gap-20 px-4  mt-8 sm:px-8">
-          <div className="w-full lg:w-[40%]">
+        <div className="flex flex-col lg:flex-row items-center w-full justify-center py-10 gap-16 lg:gap-20 px-4  mt-8 sm:px-8">
+          <div className="w-full lg:w-[36%]">
             <div className="text-[18px] sm:text-[20px] lg:text-[22px] font-normal dark:text-black text-white">
               What's inside your design audit report:
             </div>
@@ -66,7 +67,7 @@ const DesignAuditReport = ({ themeMode }) => {
               {roadmapPoints.map((point, index) => (
                 <li key={index} className="flex items-start gap-5">
                   <div className="w-[24px] h-[24px]">
-                  {themeMode === "dark" ? <CheckIcon /> : <YellowArrow />}
+                  {activeTheme === "dark" ? <CheckIcon /> : <YellowArrow />}
                   </div>
                   <p className="text-[16px] sm:text-[18px] lg:text-[20px] font-medium  dark:text-black text-white">
                     {point.text}
@@ -88,9 +89,9 @@ const DesignAuditReport = ({ themeMode }) => {
               DESIGN AUDIT REPORT
               <div className="w-[120px] md:block hidden sm:w-[160px] h-[3px] sm:h-[4px] absolute right-0 bottom-2 sm:bottom-4 bg-[#DD4243]"></div>
             </div>
-            <div className="flex relative justify-end pt-6 sm:pt-8">
+            <div className="flex relative justify-end pt-1 sm:pt-1">
               <Image src={SpiralLoop} alt="SpiralLoop" height={330} />
-              <div className="absolute bottom-3 sm:bottom-10 left-0">
+              <div className="absolute bottom-3 sm:bottom-1 left-0">
                 <div className="text-[14px] sm:text-[16px] font-semibold text-[#8E8E8E]">
                   Report by -
                 </div>

@@ -13,7 +13,7 @@ const DesignAuditPopup = ({ onClose }) => {
     <>
       <div className="fixed inset-0 popup-bg z-40 flex justify-center items-center">
         <div
-          className={`w-[90%] max-w-[560px] h-auto max-h-[600px] p-6 bg-[#111] rounded-xl shadow flex-col justify-start items-start gap-2.5 inline-flex ${lato.className}`}
+          className={`w-[90%] max-w-[560px] h-auto max-h-[600px] p-6 bg-[#111]  shadow flex-col justify-start items-start gap-2.5 inline-flex ${lato.className}`}
         >
           <div className="w-full flex justify-end">
             <RxCross1
@@ -23,7 +23,7 @@ const DesignAuditPopup = ({ onClose }) => {
             />
           </div>
           <div className="text-[24px] md:text-[40px] w-full md:w-[80%] mx-auto flex-col font-bold leading-normal text-white text-center">
-            GET YOUR DESIGN AUDIT REPORT{" "}
+            GET YOUR DESIGN AUDIT REPORT{" "} <br />
             <span className="text-[#6CE9B9] font-bold">FREE</span>
           </div>
           <div className="w-full md:w-[80%] mx-auto text-center text-[14px] md:text-[18px] font-medium text-[#8E8E8E]">
@@ -56,7 +56,7 @@ const DesignAuditPopup = ({ onClose }) => {
               </div>
             </div>
           </div>
-          <button className="md:text-[24px] text-[18px] font-semibold w-full md:w-[80%] mx-auto text-white bg-[#D53033] mt-8 p-2 ">
+          <button className="md:text-[24px] text-[18px] font-semibold w-full md:w-[80%] mx-auto text-white bg-[#D53033] mt-4 p-2 ">
             GET FREE DESIGN AUDIT
           </button>
         </div>

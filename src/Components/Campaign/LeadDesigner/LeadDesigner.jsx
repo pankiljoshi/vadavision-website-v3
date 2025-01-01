@@ -12,17 +12,17 @@ const LeadDesigner = () => {
   return (
     <>
       <div
-        className={`w-full pt-16 sm:pt-20 px-6 sm:px-8 lg:px-20 xl:px-40 lead-designer-bg bg-[#111111] flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20 ${lato.className}`}
+        className={`w-full py-16 sm:py-20 px-6 sm:px-8 lg:px-20 xl:px-40 lead-designer-bg bg-[#111111] flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20 ${lato.className}`}
       >
-        <div className="w-full lg:w-[45%] pb-20 sm:pb-20 text-center lg:text-left">
-          <div className=" text-[#8E8E8E] text-[28px] sm:text-[32px] lg:text-[40px] leading-tight font-bold">
+        <div className="w-full lg:w-[38%] pb-20 sm:pb-20 text-center lg:text-left">
+          <div className=" text-[#8E8E8E] text-[28px] sm:text-[32px] lg:text-[30px] leading-tight font-bold">
             Let’s know about our
             <br />
-            <span className=" font-bold dark:text-black text-white">
+            <span className=" text-[40px] font-bold dark:text-black text-white">
               Lead Designer
             </span>
           </div>
-          <div className="text-[#FAFAFA] dark:text-black text-[21px] font-semibold pt-14">
+          <div className="text-[#FAFAFA] dark:text-black text-[21px] font-medium pt-14">
             👋 Hi, I’m Sabahat, lead UI/UX Designer at{" "}
             <span className="text-[#DD4243]">Vadavision</span>. My journey as a
             designer began after meeting multiple business owners and witnessing
@@ -31,18 +31,18 @@ const LeadDesigner = () => {
             their revenue and hold on their users in their website or app for a
             longer duration.
           </div>
-          <div className="text-[#FAFAFA] dark:text-black text-[21px] font-semibold pt-8">
+          {/* <div className="text-[#FAFAFA] dark:text-black text-[21px] font-semibold pt-8">
             At Vadavision, I’ve helped redesign over 100 websites, resulting in
             happier users, fewer drop-offs, and a{" "}
             <span className="text-[#DD4243]">75% increase in sales</span> for
             our clients. It’s incredible how even small design tweaks can lead
             to big changes.
-          </div>
-          <div className="text-[#FAFAFA] dark:text-black text-[21px] font-semibold pt-8">
+          </div> */}
+          {/* <div className="text-[#FAFAFA] dark:text-black text-[21px] font-semibold pt-8">
             Every day your website is confusing, you’re losing potential
             customers. With just a few changes, we can transform your site into
             a powerful tool that engages visitors and keeps them coming back.
-          </div>
+          </div> */}
         </div>
 
         <div className="w-full lg:w-[40%] flex items-center justify-center">

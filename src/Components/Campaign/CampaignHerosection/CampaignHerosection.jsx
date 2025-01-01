@@ -31,27 +31,27 @@ const CampaignHerosection = () => {
         Does your user often dropout from your app or website?
       </div>
 
-      <div className="text-[36px] sm:text-[48px] md:text-[60px] lg:text-[56px] w-full sm:w-[90%] md:w-[80%] lg:w-[70%] text-center leading-normal dark:text-black text-white font-extrabold">
+      <div className="text-[36px] sm:text-[48px] md:text-[60px] lg:text-[56px] w-full sm:w-[90%] md:w-[80%] lg:w-[70%] text-center leading-snug dark:text-black text-white font-extrabold">
         65% OF OUR CLIENTS <span className="text-[#6CE9B9] dark:text-[#D53033]">INCREASED</span>{" "}
         THEIR <span className="text-[#6CE9B9] dark:text-[#D53033]">USER RETENTION</span>WITH OUR
         DESIGN AUDIT
       </div>
 
       <div className="py-6 sm:py-7">
-        <div className="text-[18px] sm:text-[20px] md:text-[24px] dark:text-[#000000] font-medium text-[#E1E1E1] text-center">
+        <div className="text-[18px] sm:text-[20px] md:text-[24px] dark:text-[#000000] font-normal text-[#E1E1E1] text-center">
           Get your{" "}
-          <span className=" dark:text-[#000000] text-[#F5F5F5] font-normal">
+          <span className=" dark:text-[#000000] text-[#F5F5F5] font-medium">
             UI/ UX Design Audit
           </span>{" "}
           report delivered within 24 hours.
         </div>
-        <div className="mt-2  md:block hidden px-4 sm:px-10 md:px-24">
+        <div className="mt-1  md:block hidden px-4 sm:px-10 md:px-24">
           <LineIcon />
         </div>
       </div>
-      <div className="md:pl-40  flex gap-10">
-        <div className="flex flex-col sm:flex-row items-center justify-center pb-6 sm:pb-10 gap-4 sm:gap-8 mx-auto">
-          <button onClick={handelOpenAuditPopup} className="text-[16px] sm:text-[20px] md:text-[24px] font-bold text-white bg-[#DD4243] py-3 sm:py-3.5 px-8 sm:px-10 rounded-md">
+      <div className="md:pl-40  gap-8 flex">
+        <div className="flex flex-col sm:flex-row items-center justify-center sm:pb-10 mt-7 gap-4 sm:gap-8 mx-auto">
+          <button onClick={handelOpenAuditPopup} className="text-[16px] sm:text-[20px] md:text-[24px] font-extrabold text-white bg-[#DD4243] py-3 sm:py-3.5 px-8 sm:px-10 ">
             GET FREE DESIGN AUDIT
           </button>
         </div>

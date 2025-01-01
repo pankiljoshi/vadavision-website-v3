@@ -17,7 +17,7 @@ const TopRatedReview = () => {
         className={`w-full py-10 px-4 sm:px-8 lg:px-20 xl:px-40 bg-[#0C0C0C] flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-16 ${lato.className}`}
       >
         <div className="text-center lg:text-left">
-          <span className="text-[28px] sm:text-[32px] lg:text-[36px] font-semibold text-[#8E8E8E]">
+          <span className="text-[28px] sm:text-[28px] lg:text-[36px] font-semibold text-[#8E8E8E]">
             We are
           </span>
           <br />

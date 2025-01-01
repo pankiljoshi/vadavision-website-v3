@@ -26,7 +26,12 @@ const CampaignLayout = () => {
       <CampaignHerosection />
       <OurClients />
 
-      <DesignAuditReport />
+      <DesignAuditReport
+        toggle={() => setDarkMode(!darkMode)}
+        darkMode={darkMode}
+        themeMode={themeMode}
+        setThemeMode={setThemeMode}
+      />
 
       <LeadDesigner />
 

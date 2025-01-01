@@ -26,17 +26,21 @@ const Footer = ({ toggle, darkMode, themeMode, setThemeMode }) => {
   return (
     <>
       <div
-        className={`w-full flex flex-col sm:flex-row justify-center items-center py-6 gap-4 sm:gap-12 gradient-top-border-style ${urbanist.className}`}
+        className={`w-full flex flex-col sm:flex-row justify-between px-6 sm:px-10 md:px-20 items-center py-10 gap-4 sm:gap-12 gradient-top-border-style ${urbanist.className}`}
       >
-        <div className="text-[14px] sm:text-[16px] font-semibold text-[#EEEEEE] cursor-pointer text-center">
+        <div className="flex w-full sm:items-center sm:justify-start gap-10 lg:flex-row flex-col ">
+
+       
+        <div className="text-[14px] sm:text-[16px] md:justify-start flex font-semibold text-[#EEEEEE] cursor-pointer text-center">
           © 2024 - VadaVision! All Rights Reserved.
         </div>
 
-        <div className="text-[14px] sm:text-[16px] font-semibold text-[#EEEEEE] cursor-pointer text-center">
+        <div className="text-[14px] sm:text-[16px] md:justify-start lg:text-start flex font-semibold text-[#EEEEEE] cursor-pointer text-center">
           Terms & Conditions
         </div>
-        <div className="text-[14px] sm:text-[16px] font-semibold cursor-pointer text-[#EEEEEE] text-center">
+        <div className="text-[14px] sm:text-[16px] md:justify-start text-start font-semibold cursor-pointer text-[#EEEEEE] ">
           Privacy Policy
+        </div>
         </div>
         <div className="flex gap-2 bg-[#1F1F1F] px-1 py-1  rounded-full items-center">
           <div

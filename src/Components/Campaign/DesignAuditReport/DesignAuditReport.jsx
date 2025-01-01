@@ -19,7 +19,7 @@ const lato = Lato({
   variable: "--font-lato",
 });
 
-const DesignAuditReport = ({darkMode}) => {
+const DesignAuditReport = ({ themeMode }) => {
   const roadmapPoints = [
     {
       text: "Identify and fix 80% of usability problems on your website with expert analysis and guidance",
@@ -57,29 +57,29 @@ const DesignAuditReport = ({darkMode}) => {
           <span className="text-[#6CE9B9] dark:text-[#DD4243]"> convert more visitors</span>, and elevate your brand with our design audit
         </div>
 
-        <div className="flex flex-col lg:flex-row items-center w-full justify-center py-10 gap-10 lg:gap-20 px-4 sm:px-8">
+        <div className="flex flex-col lg:flex-row items-center w-full justify-center py-10 gap-10 lg:gap-20 px-4  mt-8 sm:px-8">
           <div className="w-full lg:w-[40%]">
-            <div className="text-[18px] sm:text-[20px] lg:text-[22px] font-semibold dark:text-black text-white">
+            <div className="text-[18px] sm:text-[20px] lg:text-[22px] font-normal dark:text-black text-white">
               What's inside your design audit report:
             </div>
             <ul className="space-y-4 pt-6">
               {roadmapPoints.map((point, index) => (
                 <li key={index} className="flex items-start gap-5">
                   <div className="w-[24px] h-[24px]">
-                    {darkMode ? <CheckIcon/>: <YellowArrow/>}
+                  {themeMode === "dark" ? <CheckIcon /> : <YellowArrow />}
                   </div>
-                  <p className="text-[16px] sm:text-[18px] lg:text-[19px] font-semibold  dark:text-black text-white">
+                  <p className="text-[16px] sm:text-[18px] lg:text-[20px] font-medium  dark:text-black text-white">
                     {point.text}
                   </p>
                 </li>
               ))}
             </ul>
-            <button onClick={handelOpenAuditPopup} className="text-[16px] sm:text-[20px] lg:text-[24px] flex justify-center items-center mx-auto mt-10 sm:mt-14  sm:mx-10 font-bold text-white bg-[#DD4243] py-3 px-6 sm:py-3.5 sm:px-10 rounded-md">
+            <button onClick={handelOpenAuditPopup} className="text-[16px] sm:text-[20px] lg:text-[24px] flex justify-center items-center mx-auto mt-8 sm:mt-8  sm:mx-10 font-bold text-white bg-[#DD4243] py-3 px-6 sm:py-3.5 sm:px-10 ">
               GET FREE DESIGN AUDIT
             </button>
           </div>
 
-          <div className="w-full lg:w-[380px] bg-[#0E0E0E] py-6 pl-6 ">
+          <div className="w-full lg:w-[380px] h-[530px] bg-[#0E0E0E] py-6 pl-6 ">
             <div className="flex relative">
               <Image src={Logo} alt="logo" />
               <div className="w-[244px] h-[62px] bg-[#D9D9D9] bg-opacity-30 md:block hidden absolute top-10 right-2 blur-3xl"></div>
@@ -89,8 +89,8 @@ const DesignAuditReport = ({darkMode}) => {
               <div className="w-[120px] md:block hidden sm:w-[160px] h-[3px] sm:h-[4px] absolute right-0 bottom-2 sm:bottom-4 bg-[#DD4243]"></div>
             </div>
             <div className="flex relative justify-end pt-6 sm:pt-8">
-              <Image src={SpiralLoop} alt="SpiralLoop" height={390} />
-              <div className="absolute bottom-2 sm:bottom-3 left-0">
+              <Image src={SpiralLoop} alt="SpiralLoop" height={330} />
+              <div className="absolute bottom-3 sm:bottom-10 left-0">
                 <div className="text-[14px] sm:text-[16px] font-semibold text-[#8E8E8E]">
                   Report by -
                 </div>
